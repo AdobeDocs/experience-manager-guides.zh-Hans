@@ -2,11 +2,11 @@
 title: 使用AEM Guides的OAuth身份验证配置基于微服务的发布as a Cloud Service
 description: 了解如何使用AEM Guides的OAuth身份验证配置基于微服务的发布。
 feature: Microservice in AEM Guides
-role: User, Admin
+role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
+source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 >
 >如果您已经为智能建议创建了OAuth项目，则可以在微服务中重用同一项目，并跳过以下步骤以将IMS配置添加到环境中。
 
-### 更新现有配置
+### 更新现有配置（JWT到OAuth Shift ）
 
 如果您已在使用微服务来使用JWT进行发布（已弃用），请执行以下步骤，以更新配置：
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 1. 选择要配置的环境的名称。 这应该会将您导航到 **环境信息** 页面。
 1. 切换到 **配置** 选项卡。
 
-1. 更新SERVICE_ACCOUNT_DETAILS JSON字段。 确保您使用以下屏幕快照中给出的相同名称和配置。
+1. 创建名为SERVICE_ACCOUNT_DETAILS的新配置。 在值中，添加您从开发人员控制台下载的OAuth JSON文件的内容。
 
 
 <img src="assets/jws-service-account-config.png" alt="ims服务帐户配置" width="500">
@@ -122,7 +122,7 @@ ht-degree: 0%
 *首次配置环境。*
 
 
-### 首次使用基于微服务的发布
+### 基于微服务的发布支持的首次代码更改
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 将IMS配置添加到环境后，执行以下步骤以使用OSGi将这些资产与Experience Manager Guides链接：
 
-1. 在您的Cloud Manager Git项目代码中，添加以下两个文件(对于文件内容，请查看 [附录](#appendix))。
+1. 在您的Cloud Manager Git项目代码中，将以下两个文件添加到 `/apps/fmditaCustom/config` (对于文件内容，查看 [附录](#appendix))。
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
