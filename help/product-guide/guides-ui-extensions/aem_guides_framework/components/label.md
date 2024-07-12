@@ -2,7 +2,8 @@
 title: 标签
 description: 标签
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: aceefb08-3198-4c3a-90ec-ac1cdde28582
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 6%
@@ -12,7 +13,7 @@ ht-degree: 6%
 # 标签
 
 要显示任何文本或字符串，我们使用组件label。
-JUI中的标签组件表示html `<label/>`.
+JUI中的label组件表示html `<label/>`。
 
 以下是添加静态标签的示例
 

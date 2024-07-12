@@ -34,9 +34,9 @@ ht-degree: 1%
 ## 高亮
 
 - **日期** - 2023年3月30日
-- **与会者人数** - 102
+- **出席人数** - 102
 - **持续时间** - 60分钟
-- **受众**  — 客户、合作伙伴和Adobe员工
+- **受众** — 客户、合作伙伴和Adobe员工
 
 
 ## 要点
@@ -49,27 +49,27 @@ ht-degree: 1%
 
 ## 相关资源
 
-- **[下载AEM Guides报表手册](./assets/aem-guides-expert-session-reports-documentation.pdf)** 以了解该会话中演示的报告的详细信息。
+- **[下载AEM Guides报告手册](./assets/aem-guides-expert-session-reports-documentation.pdf)**&#x200B;以了解会话中展示的报告的详细信息。
 
-- **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
+- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **用户指南** - [创作内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **用户指南** - [作者内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **社区论坛**  — 对于特定于Experience League会话的社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社区论坛** — 对于Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 >[!NOTE]
 >
-> 此会话中显示的功能在以下版本的AEM Guides中可用：
+> 此会话中显示的功能在以下版本的AEM Guides上可用：
 > - 内部部署：4.2或更高版本
 > - Cloud Service：2302或更高版本
 
 
 ## 下一次专家会议
 
-- **主题**  — 内容和模板设置
-- **计划日期** - 2023年4月27日
+- **主题** — 内容和模板设置
+- **计划于** - 2023年4月27日
 
 
 ## 联系我们
 
-如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>
+如有任何疑问，请发送电子邮件至<techcomm@adobe.com>

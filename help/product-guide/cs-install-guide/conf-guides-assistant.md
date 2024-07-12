@@ -11,47 +11,47 @@ ht-degree: 0%
 
 # 配置AI支持的指南助手以搜索内容
 
-管理员可以为作者配置“指南助手”功能。 Guides Assistant服务由Adobe IMS基于身份验证的身份验证保护。 将您的环境与Adobe基于令牌的安全身份验证工作流集成，并开始使用新的“指南助手”功能。 以下配置可帮助您添加 **人工智能配置** 选项卡添加到文件夹配置文件。 添加后，即可在Web编辑器中使用“指南助手”功能。
+管理员可以为作者配置“指南助手”功能。 Guides Assistant服务由Adobe IMS基于身份验证的身份验证保护。 将您的环境与Adobe基于令牌的安全身份验证工作流集成，并开始使用新的“指南助手”功能。 以下配置可帮助您将&#x200B;**AI配置**&#x200B;选项卡添加到文件夹配置文件。 添加后，即可在Web编辑器中使用“指南助手”功能。
 
-## 在Adobe Developer控制台中创建IMS配置
+## 在Adobe Developer Console中创建IMS配置
 
-执行以下步骤可在Adobe Developer控制台中创建IMS配置：
+执行以下步骤可在Adobe Developer Console中创建IMS配置：
 
 >[!NOTE]
 >
 >如果您已经创建了OAuth项目来配置智能建议功能或基于微服务的发布，则可以跳过以下步骤来创建项目。
 
-1. Launch [Adobe Developer控制台](https://developer.adobe.com/console).
-1. 成功登录到开发人员控制台后，您将看到 **主页** 屏幕。 此 **主页** 在屏幕中，您可以轻松查找信息和快速链接，包括指向项目和下载的顶部导航链接。
-1. 要创建新的空项目，请选择 **创建新项目** 从 **快速入门** 链接。
+1. 启动[Adobe Developer Console](https://developer.adobe.com/console)。
+1. 成功登录到Developer Console后，您将看到&#x200B;**主页**&#x200B;屏幕。 在&#x200B;**主页**&#x200B;屏幕上，您可以轻松地查找信息和快速链接，包括指向项目和下载的顶部导航链接。
+1. 要创建新的空项目，请从&#x200B;**快速入门**&#x200B;链接中选择&#x200B;**新建项目**。
    ![快速入门链接](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *创建新项目。*
 
-1. 选择 **添加API** 从 **项目** 屏幕。  此 **添加API** 屏幕。 此屏幕显示了可用于开发应用程序的Adobe产品和技术的所有可用API、事件和服务。
+1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕显示了可用于开发应用程序的Adobe产品和技术的所有可用API、事件和服务。
 
-1. 选择 **I/O管理API** 以将其添加到您的项目。
+1. 选择&#x200B;**I/O管理API**以将其添加到您的项目中。
    ![IO管理API](assets/confi-ss-io-management.png)
    *将I/O管理API添加到您的项目中。*
 
-1. 新建 **OAuth凭据** 并保存它。
-   ![配置API中的OAuth凭据拼贴](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
-   *为API配置OAuth凭据。*
+1. 创建新的&#x200B;**OAuth凭据**并保存它。
+   配置API中的![OAuth凭据磁贴](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+   *为你的API配置OAuth凭据。*
 
-1. 在  **项目** 选项卡，选择 **OAuth服务器到服务器** 选项，然后选择新创建的凭据。
+1. 在&#x200B;**项目**&#x200B;选项卡中，选择&#x200B;**OAuth服务器到服务器**&#x200B;选项，然后选择新创建的凭据。
 
-1. 选择 **OAuth服务器到服务器** 查看项目凭据详细信息的链接。
+1. 选择&#x200B;**OAuth服务器到服务器**&#x200B;链接以查看项目的凭据详细信息。
 
-   ![连接的凭据](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![已连接的凭据](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *连接到项目以查看凭据详细信息。*
 
-1. 返回到 **项目** 选项卡并选择 **项目概述** 左边。
+1. 返回&#x200B;**项目**&#x200B;选项卡，然后在左侧选择&#x200B;**项目概述**。
 
    <img src="assets/project-overview.png" alt="项目概述" width="500">
 
-   *新项目入门。*
+   *开始新项目。*
 
-1. 单击 **下载** 按钮以下载服务JSON。
+1. 单击顶部的&#x200B;**下载**&#x200B;按钮以下载服务JSON。
 
    <img src="assets/download-json.png" alt="下载json" width="500">
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 执行以下步骤以将IMS配置添加到环境：
 
 1. 打开Experience Manager，然后选择程序，其中包含要配置的环境。
-1. 切换到 **环境** 选项卡。
-1. 选择要配置的环境名称。 这应该会将您导航到 **环境信息** 页面。
-1. 切换到 **配置** 选项卡。
+1. 切换到&#x200B;**环境**&#x200B;选项卡。
+1. 选择要配置的环境名称。 这应该会将您导航到&#x200B;**环境信息**&#x200B;页面。
+1. 切换到&#x200B;**配置**&#x200B;选项卡。
 1. 更新SERVICE_ACCOUNT_DETAILS JSON字段。 确保您使用以下屏幕快照中给出的相同名称和配置。
 
 ![ims服务帐户配置](assets/ims-service-account-config.png){width="800" align="left"}
@@ -77,17 +77,17 @@ ht-degree: 0%
 
 
 
-将IMS配置添加到环境后，执行以下步骤以使用OSGi将这些属性与AEM Guides链接：
+将IMS配置添加到环境后，执行以下步骤以使用OSGi将这些资产与AEM Guides链接：
 
-1. 在您的Cloud Manager Git项目代码中，添加以下两个给定的文件(对于文件内容，请查看 [附录](#appendix))。
+1. 在您的Cloud Manager Git项目代码中，添加以下给定两个文件（对于文件内容，请查看[附录](#appendix)）。
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
-1. 确保新添加的文件包含在您的 `filter.xml`.
+1. 确保`filter.xml`涵盖新添加的文件。
 1. 提交并推送您的Git更改。
 1. 运行管道以将更改应用到环境。
 
-完成此操作后，您应该能够使用 **指南助手** 功能。
+完成此操作后，您应该能够使用&#x200B;**指南助手**&#x200B;功能。
 
 
 
@@ -105,5 +105,5 @@ ht-degree: 0%
 ```
 
 
-配置后， **指南助手** ![指南助手](assets/guides-assistant-icon.svg) 图标显示在Web编辑器的右侧面板中。 选择图标以查看 **指南助手** 面板。
-有关更多详细信息，请查看 [用于搜索内容的AI支持的指南助手](../user-guide/ai-based-guides-assistant.md) Experience Manager部分。
+配置完毕后，**指南助手** ![指南助手](assets/guides-assistant-icon.svg)图标将显示在Web编辑器的右侧面板中。 选择该图标以查看&#x200B;**指南助手**面板。
+有关更多详细信息，请查看《Experience Manager用户指南》中的[AI支持的指南助手](../user-guide/ai-based-guides-assistant.md)部分。

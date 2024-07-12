@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 上载现有DITA内容 {#id176FF000JUI}
 
-最有可能的情况是，您拥有要与AEM Guides一起使用的现有DITA内容的存储库。 对于此类现有内容，您可以使用以下任意方法将您的内容批量上传到AEM存储库。
+您很可能有一个包含要与AEM Guides一起使用的现有DITA内容的存储库。 对于此类现有内容，您可以使用以下任意方法将您的内容批量上传到AEM存储库。
 
 ## 使用WebDAV工具
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    此时将显示“登录”对话框。
 
-1. 在“登录”对话框中，通过选择WebDAV作为 **文件协议** 并提供其他连接详细信息，例如：
+1. 在“登录”对话框中，通过选择WebDAV作为&#x200B;**文件协议**&#x200B;并提供其他连接详细信息来指定“新建站点”设置，例如：
 
    - 托管AEM服务器的URL，
 
@@ -49,7 +49,7 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
 
 1. 启动FrameMaker。
 
-1. 打开 **连接管理器** 对话框。
+1. 打开&#x200B;**连接管理器**&#x200B;对话框。
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
@@ -58,11 +58,11 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
    - **名称**：输入描述性名称以标识与AEM服务器的连接。
    - **服务器**：输入AEM服务器的URL和端口号。
 
-   - **用户名**/**密码**：输入用于访问AEM服务器的用户名和密码。
+   - **用户名**/**密码**：输入用户名和密码以访问AEM服务器。
 
-1. 单击 **连接**.
+1. 单击&#x200B;**连接**。
 
-   成功建立连接后，“存储库管理器”窗口中会显示AEM存储库中的资产。
+   成功建立连接后，AEM存储库中的Assets将显示在存储库管理器窗口中。
 
    ![](assets/fm-repo-manager.png){width="550" align="left"}
 
@@ -83,9 +83,9 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 *com.adobe.fmdita.config.ConfigManager* 捆绑。
+1. 搜索并单击&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包。
 
-1. 在 **UUID文件名模式** 属性，指定模式以检查导入文件的名称。
+1. 在&#x200B;**UUID文件名模式**&#x200B;属性中，指定模式以检查导入的文件名。
 
    如果文件不遵循指定的模式，则会将UUID添加到文件的属性中，并且使用分配给文件的UUID更新对该文件的所有引用。
 
@@ -97,12 +97,12 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
 您可以使用以下任意方法通过UUID上传内容：
 
 - 从本地系统拖放内容。
-- 使用 **创建** \> **文件** 工作流从AEM Assets UI。
+- 从AEM的Assets UI中使用&#x200B;**创建** \> **文件**&#x200B;工作流。
 - 使用诸如WinSCP之类的工具。
 
-如果您使用WinSCP等工具，可以通过设置 **将具有相同UUID的旧文件移动到新文件夹** 选项。 此选项定义对AEM存储库中某个其他位置可用的文件执行的操作。 此设置可在 *com.adobe.fmdita.config.ConfigManager* 捆绑包中的configMgr。
+如果您使用诸如WinSCP之类的工具，则可以通过在configMgr中设置&#x200B;**将具有相同UUID的旧文件移动到新文件夹**&#x200B;选项来定义要对重复文件执行的操作。 此选项定义对AEM存储库中某个其他位置可用的文件执行的操作。 此设置在configMgr的&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包中可用。
 
-默认情况下， **将具有相同UUID的旧文件移动到新文件夹** 选项已打开。 这意味着，如果上传的文件位于存储库中的其他某个文件夹中，则现有文件会被移动到当前位置并被上传的文件覆盖。 如果不选择此选项，则文件将在其现有位置被覆盖。
+默认情况下，**将具有相同UUID的旧文件移动到新文件夹**&#x200B;选项处于打开状态。 这意味着，如果上传的文件位于存储库中的其他某个文件夹中，则现有文件会被移动到当前位置并被上传的文件覆盖。 如果不选择此选项，则文件将在其现有位置被覆盖。
 
 **有关使用基于UUID的文件的其他说明**：
 
@@ -138,12 +138,12 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 - `<username>:<passowrd>`：指定用于访问AEM存储库的用户名和密码。 此用户必须具有文件夹创建权限。
 
-- `jcr:primaryType=sling:Folder`：指定此参数 *原样* 创建文件夹类型资源。
+- `jcr:primaryType=sling:Folder`：将此参数&#x200B;*指定为*&#x200B;以创建文件夹类型资源。
 
-- `<server folder path>`：完整的文件夹路径，包括要在AEM存储库中创建的新文件夹的名称。 例如，如果将路径指定为 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，然后文件夹 `AEM-Guides` 创建于 `projects` DAM中的文件夹。
+- `<server folder path>`：完整的文件夹路径，包括您要在AEM存储库中创建的新文件夹的名称。 例如，如果您将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，则在DAM的`projects`文件夹中创建文件夹`AEM-Guides`。
 
 
-**上传文件**
+**上载文件**
 
 运行以下命令在AEM资料档案库中上传文件：
 
@@ -153,11 +153,11 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 指定以下参数以上传文件：
 
-- `<username>:<passowrd>`：指定用于访问AEM存储库的用户名和密码。 此用户必须具有对的写入权限 `server folder path`.
+- `<username>:<passowrd>`：指定用于访问AEM存储库的用户名和密码。 此用户必须具有对`server folder path`的写入权限。
 
-- ``local file path``：本地系统上要上传的完整文件路径。
+- ``local file path``：本地系统上要上载的完整文件路径。
 
-- `<server folder path>`：AEM服务器上要上传文件的完整文件夹路径。
+- `<server folder path>`：要上载文件的AEM服务器上的完整文件夹路径。
 
 
 **添加元数据**
@@ -170,11 +170,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 指定以下参数以添加元数据信息：
 
-- `<username>:<passowrd>`：指定用于访问AEM存储库的用户名和密码。 此用户必须具有对的写入权限 ``metadata node path``.
+- `<username>:<passowrd>`：指定用于访问AEM存储库的用户名和密码。 此用户必须具有对``metadata node path``的写入权限。
 
-- ``-F<attribute name>=<value>``：和 `<attribute name>` 是元数据属性的名称，如 `audience` 和 `<value>` 可以 `internal`. 您可以指定多个以空格分隔的属性名称 — 值对。
+- ``-F<attribute name>=<value>``： `<attribute name>`是元数据属性的名称，如`audience`，`<value>`可以是`internal`。 您可以指定多个以空格分隔的属性名称 — 值对。
 
-- `<metadata node path>`：完整的文件夹路径，包括文件名及其元数据节点。 例如，如果将路径指定为 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`，则指定的元数据信息将设置在 `intro.xml` 文件。
+- `<metadata node path>`：完整的文件夹路径，包括文件名及其元数据节点。 例如，如果将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`，则指定的元数据信息在`intro.xml`文件中设置。
 
 
 **父主题：**[&#x200B;迁移现有内容](migrate-content.md)

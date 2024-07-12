@@ -24,18 +24,18 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;包。
 
-1. 选择 **在同一选项卡中打开DITA主题/映射** 选项。
+1. 选择&#x200B;**在同一选项卡**&#x200B;中打开DITA主题/映射选项。
 
 1. 单击&#x200B;**保存**。
 
 
 此设置会影响以下位置，您可以从中访问主题或映射文件：
 
-- 创建DITA主题\(在工作流结束时，当您单击 **打开主题** button\)
+- 创建DITA主题\（在工作流结束时，单击&#x200B;**打开主题**&#x200B;按钮\）
 
-- 创建DITA映射\(在工作流结束时，当您单击 **打开地图** button\)
+- 创建DITA映射\（在工作流结束时，单击&#x200B;**打开映射**&#x200B;按钮\）
 
 - DITA映射控制台中的“主题”选项卡
 

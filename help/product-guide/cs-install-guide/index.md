@@ -5,14 +5,14 @@ source-wordcount: '227'
 ht-degree: 1%
 
 ---
-# as a Cloud Service安装和配置Adobe Experience Manager Guides
+# 安装和配置Adobe Experience Manager Guidesas a Cloud Service
 
 - [免责声明](rebranding-disclaimer.md)
 - [关于本指南](introduction.md)
 - [下载并安装](download-install.md)
    - [部署AEM Guides模块](download-install-dxml-first-time.md)
-   - [配置Dispatch](download-install-configure-dispatcher.md)
-   - [验证AEM Guides的安装](download-install-verify-dxml-installation.md)
+   - [配置Dispatcher](download-install-configure-dispatcher.md)
+   - [验证AEM Guides安装](download-install-verify-dxml-installation.md)
    - [配置覆盖](download-install-additional-config-override.md)
    - [Recommendations优化性能](download-install-recommend-perf-optimiz.md)
 - [用户管理和安全性](user-admin-sec.md)

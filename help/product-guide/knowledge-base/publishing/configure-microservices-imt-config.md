@@ -28,31 +28,31 @@ ht-degree: 0%
 
 **创建配置所需的角色**：系统管理员
 
-执行以下步骤以在中创建IMS配置 **Adobe Developer Console**：
+执行以下步骤以在&#x200B;**Adobe Developer Console**&#x200B;中创建IMS配置：
 
 >[!NOTE]
 >
 >如果您已经创建了OAuth项目来配置用于创作的AI支持的智能建议，则可以跳过以下步骤来创建项目。
 
-1. 打开 **Developer Console**： `https://developer.adobe.com/console`.
+1. 打开&#x200B;**Developer Console**： `https://developer.adobe.com/console`。
 
-1. 切换到 **项目** 从顶部选项卡。
+1. 从顶部切换到&#x200B;**项目**&#x200B;选项卡。
 
    <img src="assets/projects-tab.png" alt="“项目”选项卡" width="500">
 
-   *选择&#x200B;**项目**选项卡&#x200B;**Adobe Developer Console***
+   *在&#x200B;**Adobe Developer Console***上选择**&#x200B;项目&#x200B;**选项卡
 
-1. 要创建新的空项目，请选择 **空项目** 从 **创建新项目** 下拉菜单。
+1. 要创建新的空项目，请从&#x200B;**创建新项目**&#x200B;下拉列表中选择&#x200B;**空项目**。
 
    <img src="assets/create-new-project.png" alt="创建新项目" width="500">
 
    *创建新的空项目。*
 
-1. 选择 **API** 从 **添加到项目** 下拉列表，以将IO管理API添加到您的项目中。
+1. 从&#x200B;**添加到项目**&#x200B;下拉列表中选择&#x200B;**API**&#x200B;以将IO管理API添加到您的项目中。
 
    <img src="assets/add-project.png" alt="添加项目" width="300">
 
-   *从下拉菜单中选择一个API项目。*
+   *从下拉列表中选择API项目。*
 
    <img src="assets/io-management-api.png" alt="io管理" width="500">
 
@@ -62,16 +62,16 @@ ht-degree: 0%
 
    <img src="assets/microservice-api-oauth.png" alt="生成密钥对" width="500">
 
-   *为API配置OAuth凭据。*
+   *为你的API配置OAuth凭据。*
 
 
-1. 返回到 **项目** 选项卡并选择 **项目概述** 左边。
+1. 返回&#x200B;**项目**&#x200B;选项卡，然后在左侧选择&#x200B;**项目概述**。
 
    <img src="assets/project-overview.png" alt="项目概述" width="500">
 
-   *新项目入门。*
+   *开始新项目。*
 
-1. 单击 **下载** 按钮以下载服务JSON。
+1. 单击顶部的&#x200B;**下载**&#x200B;按钮以下载服务JSON。
 
    <img src="assets/download-json.png" alt="下载json" width="500">
 
@@ -86,16 +86,16 @@ ht-degree: 0%
 >
 >如果您已经为智能建议创建了OAuth项目，则可以在微服务中重用同一项目，并跳过以下步骤以将IMS配置添加到环境中。
 
-### 更新现有配置（JWT到OAuth Shift ）
+### 更新现有配置(JWT)   到OAuth Shift )
 
 如果您已在使用微服务来使用JWT进行发布（已弃用），请执行以下步骤，以更新配置：
 
 
 
-1. 打开 **Experience Manager** 并选择包含要配置的环境的程序。
-1. 切换到 **环境** 选项卡。
-1. 选择要配置的环境的名称。 这应该会将您导航到 **环境信息** 页面。
-1. 切换到 **配置** 选项卡。
+1. 打开&#x200B;**Experience Manager**&#x200B;并选择包含要配置的环境的程序。
+1. 切换到&#x200B;**环境**&#x200B;选项卡。
+1. 选择要配置的环境的名称。 这应该会将您导航到&#x200B;**环境信息**&#x200B;页面。
+1. 切换到&#x200B;**配置**&#x200B;选项卡。
 
 1. 使用您下载的新OAuth JSON文件更新SERVICE_ACCOUNT_DETAILS JSON字段。
 1. 删除PRIVATE_KEY字段。
@@ -109,10 +109,10 @@ ht-degree: 0%
 ### 首次配置
 
 要首次使用发布微服务，请按照以下步骤更新配置：
-1. 打开 **Experience Manager** 并选择包含要配置的环境的程序。
-1. 切换到 **环境** 选项卡。
-1. 选择要配置的环境的名称。 这应该会将您导航到 **环境信息** 页面。
-1. 切换到 **配置** 选项卡。
+1. 打开&#x200B;**Experience Manager**&#x200B;并选择包含要配置的环境的程序。
+1. 切换到&#x200B;**环境**&#x200B;选项卡。
+1. 选择要配置的环境的名称。 这应该会将您导航到&#x200B;**环境信息**&#x200B;页面。
+1. 切换到&#x200B;**配置**&#x200B;选项卡。
 
 1. 创建名为SERVICE_ACCOUNT_DETAILS的新配置。 在值中，添加您从开发人员控制台下载的OAuth JSON文件的内容。
 
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 将IMS配置添加到环境后，执行以下步骤以使用OSGi将这些资产与Experience Manager Guides链接：
 
-1. 在您的Cloud Manager Git项目代码中，将以下两个文件添加到 `/apps/fmditaCustom/config` (对于文件内容，查看 [附录](#appendix))。
+1. 在您的Cloud Manager Git项目代码中，将以下两个文件添加到`/apps/fmditaCustom/config`中（对于文件内容，请查看[附录](#appendix)）。
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
-1. 确保新添加的文件包含在您的 `filter.xml`.
+1. 确保`filter.xml`涵盖新添加的文件。
 1. 提交并推送您的Git更改。
 1. 运行管道以将更改应用到环境。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 
 1. 如果启用了使用微服务的OSGi配置，则发布过程能否在本地Experience Manager服务器上使用相同的代码库？
-   * 否，如果标志 `dxml.use.publish.microservice` 设置为 `true`，它始终查找微服务配置。 设置 `dxml.use.publish.microservice` 到 `false` 以便在本地服务器上进行发布。
+   * 否，如果标志`dxml.use.publish.microservice`设置为`true`，它始终会查找微服务配置。 将`dxml.use.publish.microservice`设置为`false`以便在本地服务器上进行发布。
 1. 使用基于微服务的发布时，为DITA进程分配了多少内存？ 这是否通过DITA配置文件和参数驱动？
    * 对于基于微服务的发布，内存分配不会通过DITA配置文件和参数驱动。 服务容器上可用的总内存为8 GB，其中6 GB分配给DITA-OT进程。
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 **文件**： `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **内容**：
-* `dxml.use.publish.microservice`：切换到使用DITA-OT启用基于微服务的发布
+* `dxml.use.publish.microservice`：切换为使用DITA-OT启用基于微服务的发布
 * `dxml.use.publish.microservice.native.pdf`：切换到启用基于微服务的本机PDF发布
 
 ```

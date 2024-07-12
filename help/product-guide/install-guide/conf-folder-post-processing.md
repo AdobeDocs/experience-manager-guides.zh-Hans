@@ -4,19 +4,19 @@ description: 了解如何为上传到Adobe Experience Manager Assets的文件夹
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 532e7c562a233619a8c4b7cbdbaef44bc73eb4b2
+exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
-
 # 禁用文件夹的后处理
 
-默认情况下，所有上传的资产都使用DAM更新资产工作流进行处理。 作为此工作流的一部分，Experience Manager指南会运行一项称为后处理的额外处理。 这还有助于生成UUID
+默认情况下，所有上传的资产都使用DAM更新资产工作流进行处理。 作为此工作流的一部分，Experience Manager Guides会运行一个名为后处理的额外处理。 这还有助于生成UUID
 
-将文件和文件夹上传到 *Adobe Experience Manager Assets* 服务器中，您还可以禁用后处理和UUID生成。
+在将文件和文件夹上传到&#x200B;*Adobe Experience Manager Assets*&#x200B;服务器时，您还可以禁用后处理和UUID生成。
 
 
 执行以下步骤可禁用给定路径的后处理或忽略文件夹的后处理：
@@ -30,11 +30,11 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
 
-1. 选择 **后处理中忽略的路径** 选项，忽略文件夹以进行后处理。
+1. 选择&#x200B;**Post处理的忽略路径**&#x200B;选项，以忽略要后处理的文件夹。
 
-   用于设置任何标准NODE_patches(多值OPTIONS)的字符串值，带有省略路径的字符串 `/` 在末尾)
+   用于设置任何标准NODE_properties的字符串值(多值OPTIONS，路径末尾省略`/`的字符串)
 
    **默认值**： `/content/dam/projects/translation_output`
 
@@ -42,9 +42,9 @@ ht-degree: 0%
    >
    > 默认情况下，此属性处于禁用状态，并且地图功能板上提供翻译选项卡。
 
-1. 选择 **已启用后处理的路径** 选项，启用后处理路径。
+1. 选择&#x200B;**启用Post处理的路径**&#x200B;选项，启用后处理路径。
 
-   用于设置任何标准NODE_patches(多值OPTIONS)的字符串值，带有省略路径的字符串 `/` 在末尾)
+   用于设置任何标准NODE_properties的字符串值(多值OPTIONS，路径末尾省略`/`的字符串)
 
    **默认值**： `/content/dam/`
 

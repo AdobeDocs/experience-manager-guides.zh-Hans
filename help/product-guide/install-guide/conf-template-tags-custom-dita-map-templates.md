@@ -20,13 +20,13 @@ AEM Guides附带两个现成的映射模板 — DITA映射和Bookmap。 您可�
 
 1. 以管理员身份登录Adobe Experience Manager。
 
-1. 在资产UI中，导航到配置为存储映射模板文件的文件夹。 默认情况下，所有映射模板都存储在/content/dam/dita-templates/maps文件夹中。
+1. 在Assets UI中，导航到配置为存储映射模板文件的文件夹。 默认情况下，所有映射模板都存储在/content/dam/dita-templates/maps文件夹中。
 
    >[!NOTE]
    >
-   > 要配置用于存储主题或映射模板的自定义位置，请参阅 [配置自定义DITA模板文件夹路径](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > 要配置自定义位置以存储主题或映射模板，请参阅[配置自定义DITA模板文件夹路径](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
-1. 单击 **创建** \> **DITA模板**.
+1. 单击&#x200B;**创建** \> **DITA模板**。
 
 1. 在Blueprint页面上，选择要创建的映射模板的类型。
 
@@ -36,7 +36,7 @@ AEM Guides附带两个现成的映射模板 — DITA映射和Bookmap。 您可�
 
 1. 单击&#x200B;**下一步**。
 
-1. 在新模板的“属性”页面上，输入 **标题** 和 **名称** 用于模板。
+1. 在新模板属性页面上，输入模板的&#x200B;**Title**&#x200B;和&#x200B;**Name**。
 
    >[!NOTE]
    >
@@ -49,10 +49,10 @@ AEM Guides附带两个现成的映射模板 — DITA映射和Bookmap。 您可�
    您可以选择在映射编辑器中打开模板进行编辑，或将模板文件保存到模板存储位置。 创建模板后，您可以使用映射编辑器根据创作需求自定义模板。 建立模板后，请确保将其与全局或文件夹级别的配置文件相关联。
 
 
-下次创建新映射时，您的模板将显示在Blueprint页面中。 有关创建DITA映射的详细信息，请参见 *使用Adobe Experience Manager Guides*.
+下次创建新映射时，您的模板将显示在Blueprint页面中。 有关创建DITA映射的详细信息，请参阅&#x200B;*使用Adobe Experience Manager Guides*。
 
 >[!TIP]
 >
-> 请参阅 *自定义模板* 部分，了解有关使用自定义映射模板的最佳实践。
+> 有关使用自定义映射模板的最佳实践，请参阅最佳实践指南中的&#x200B;*自定义模板*&#x200B;部分。
 
-**父主题：** [配置主题和映射模板](conf-template-tags.md)
+**父级主题：** [配置主题并映射模板](conf-template-tags.md)

@@ -1,6 +1,6 @@
 ---
 title: 使用条件内容
-description: 了解如何在中创建条件，然后设置条件内容生成 [!DNL AEM Guides]
+description: 了解如何在 [!DNL AEM Guides]中创建条件，然后设置条件内容生成
 role: User
 exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
 feature: Publishing
@@ -23,21 +23,25 @@ ht-degree: 0%
 
 **步骤1**
 
-在中定义与文档相关的条件 [!UICONTROL 文件夹配置文件]：请参阅部分 **为全局或文件夹级别的配置文件配置条件属性** 在 [安装和配置指南第69页](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+在[!UICONTROL 文件夹配置文件]中定义与文档相关的条件：
+请参阅《安装和配置指南》第69页[中的&#x200B;**为全局或文件夹级配置文件配置条件属性**&#x200B;部分](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ![在文件夹配置文件中配置条件](assets/conditions-in-profiles.png)
 
 **步骤2**
 
-选择 **[!UICONTROL 文件夹配置文件]** 中的步骤1中定义 **用户首选项** 在XML编辑器中：请参阅部分 **用户首选项** 在 [用户指南第41页](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+在XML编辑器的&#x200B;**用户首选项**&#x200B;中选择步骤1中定义的&#x200B;**[!UICONTROL 文件夹配置文件]**：
+请参阅用户指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第41页[中的&#x200B;**用户首选项**&#x200B;部分
 
 
 **步骤3**
 
-使用条件条件条件化内容的各个部分：请参阅部分 **条件** 在 [用户指南第90页](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+使用条件条件条件化内容的各个部分：
+请参阅用户指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第90页[中的&#x200B;**条件**&#x200B;部分
 
-![Web编辑器中的使用条件](assets/conditions-in-web-editor.png)
+![在Web编辑器中使用条件](assets/conditions-in-web-editor.png)
 
 **步骤4**
 
-定义映射级别的条件预设，以选择要在输出中启用的条件：请参阅部分 **使用条件预设** 在 [用户指南第249页](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+定义映射级别的条件预设，以选择要在输出中启用的条件：
+请参阅用户指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)第249页[中的&#x200B;**使用条件预设**&#x200B;部分

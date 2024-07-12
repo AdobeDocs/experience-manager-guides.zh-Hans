@@ -39,7 +39,7 @@ AEM Guides附带以下DITA主题模板：
 
 1. [创建自定义创作模板](conf-folder-level.md#id1917D0EG0HJ)
 
-1. 将自定义模板添加到全局或文件夹级别的配置文件中，如 [配置创作模板](conf-folder-level.md#id1889D0IL0Y4) 部分
+1. 将自定义模板添加到全局或文件夹级别的配置文件中，如[配置创作模板](conf-folder-level.md#id1889D0IL0Y4)部分中所述
 
 
 ## 配置自定义DITA模板文件夹路径 {#id191LCF0095Z}
@@ -48,13 +48,13 @@ AEM Guides允许您配置文件夹以存储自定义的DITA映射和模板。 �
 
 `/content/dam/dita-templates/`
 
-要管理主题和映射模板文件，有专用的文件夹用于存储主题和映射模板。 默认情况下，所有主题模板都存储在 `/content/dam/dita-templates/topics`
+要管理主题和映射模板文件，有专用的文件夹用于存储主题和映射模板。 默认情况下，所有主题模板都存储在`/content/dam/dita-templates/topics`下
 
-文件夹。 所有映射模板都存储在 `/content/dam/dita-templates/maps` 文件夹。
+文件夹。 所有映射模板都存储在`/content/dam/dita-templates/maps`文件夹下。
 
 作为管理员，您可以选择在默认文件夹中创建自定义映射或主题模板，或者创建自己的文件夹来存储自定义模板。 如果您计划使用默认文件夹，则可以跳过此过程。
 
-请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。 在配置文件中，提供以下\(property\)详细信息，以便为自定义DITA主题模板配置文件夹：
+使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下\(property\)详细信息，以便为自定义DITA主题模板配置文件夹：
 
 >[!IMPORTANT]
 >
@@ -62,6 +62,6 @@ AEM Guides允许您配置文件夹以存储自定义的DITA映射和模板。 �
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | 指定存储自定义模板的位置。<br> 如果DAM中存在指定的位置，则所有默认映射和主题模板都将复制到该文件夹中。 如果该位置不存在，则使用所有默认映射和主题模板创建文件夹。 |
+| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | 指定存储自定义模板的位置。<br>如果DAM中存在指定的位置，则所有默认映射和主题模板都将复制到该文件夹中。 如果该位置不存在，则使用所有默认映射和主题模板创建文件夹。 |
 
-**父主题：**[&#x200B;配置主题和映射模板](conf-template-tags.md)
+**父级主题：**[&#x200B;配置主题并映射模板](conf-template-tags.md)

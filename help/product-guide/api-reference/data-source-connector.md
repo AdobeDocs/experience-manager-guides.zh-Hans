@@ -23,7 +23,10 @@ ht-degree: 0%
 **请求URL**：
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
-**参数**： |名称|类型|必需|描述| --------------------------- |`path`|字符串|是|指向AEM存储库中路径的字符串。 它可以是 `/content/dam or /var/dxml`.|
+**参数**：
+|名称|类型|必需|描述|
+---------------------------
+|`path`|字符串|是|指向AEM存储库中路径的字符串。 它可以是`/content/dam or /var/dxml`中的路径。|
 
 **示例**：\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

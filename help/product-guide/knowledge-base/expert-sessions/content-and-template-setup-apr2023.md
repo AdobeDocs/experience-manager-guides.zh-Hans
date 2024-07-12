@@ -32,9 +32,9 @@ ht-degree: 1%
 ## 高亮
 
 - **日期** - 2023年4月27日
-- **与会者人数** - 70
+- **出席人数** - 70
 - **持续时间** - 60分钟
-- **受众**  — 客户、合作伙伴和Adobe员工
+- **受众** — 客户、合作伙伴和Adobe员工
 
 
 ## 要点
@@ -51,25 +51,25 @@ ht-degree: 1%
 
 ## 相关资源
 
-- **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **用户指南** - [创作内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **用户指南** - [作者内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **社区论坛**  — 对于特定于Experience League会话的社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社区论坛** — 对于Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 >[!NOTE]
 >
-> 此会话中显示的功能在以下版本的AEM Guides中可用：
+> 此会话中显示的功能在以下版本的AEM Guides上可用：
 > - 内部部署：4.2或更高版本
 > - Cloud Service：2303或更高版本
 
 
 ## 下一次专家会议
 
-- **主题**  — 本机PDF发布 — 按示例学习（第1部分）
-- **计划日期** - 2023年6月1日
+- **主题** — 本机PDF发布 — 按示例学习（第1部分）
+- **计划于** - 2023年6月1日
 
 
 ## 联系我们
 
-如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>
+如有任何疑问，请发送电子邮件至<techcomm@adobe.com>

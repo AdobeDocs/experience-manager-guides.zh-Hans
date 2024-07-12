@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 从Web编辑器中基于文章的发布 {#id218CL05J0M1}
 
-AEM Guides具有集成在Web编辑器中的基于文章的发布功能，允许用户同时发布一个或多个主题。
+AEM Guides提供了集成在Web编辑器中的基于文章的发布功能，该功能允许用户同时发布一个或多个主题。
 
 此引擎还附带一个OOTB内容模板，该模板基于AEM核心组件构建，允许用户创建技术内容的基于知识的存储库。 可以自定义此模板以满足客户的需求。此引擎允许用户以累加方式构建DITA映射，并在准备好时发布主题。 您可以轻松地为在“映射视图”面板中打开的映射创建输出预设，并快速为同一映射的一个或多个主题生成输出。
 
@@ -29,7 +29,7 @@ AEM Guides具有集成在Web编辑器中的基于文章的发布功能，允许�
 
 - **[从Web编辑器创建输出预设](web-editor-article-publishing-presets.md)**
 
-- **[从“存储库”面板或“映射视图”面板生成输出](web-editor-article-publishing-output.md)**
+- **[从存储库面板或地图视图面板生成输出](web-editor-article-publishing-output.md)**
 
 
 **父主题：**[&#x200B;使用Web编辑器](web-editor.md)

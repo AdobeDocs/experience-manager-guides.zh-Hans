@@ -1,13 +1,13 @@
 ---
-title: 本机PDF发布功能 | 添加条形码
+title: 本机PDFPublish功能 | 添加条形码
 description: 了解如何添加条形码。
-source-git-commit: a766353908829ab433173f8fd003ecad0c9d1bf1
+exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
 
 ---
-
 
 # 向PDF输出添加条形码
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ### 更新模板的CSS以渲染条形码值
 
-修改 `layout.css` 文件以在PDF生成期间呈现条形码。 支持各种条形码类型，如“qrcode”和“pdf417”。  有关详细信息，请查看 [条形码类型](#barcode-types).
+修改`layout.css`文件以在PDF生成期间呈现条形码。 支持各种条形码类型，如“qrcode”和“pdf417”。  有关更多详细信息，请查看[条形码类型](#barcode-types)。
 
 
 
@@ -50,7 +50,7 @@ margin-top: 2mm;
 
 在模板标题中添加条形码占位符并应用样式：
 
-1. 编辑 **模板** > **页面布局**
+1. 编辑&#x200B;**模板** > **页面布局**
 1. 选择页面布局。 例如，您可以选择“后盖”页面布局，其中包含页眉或页脚。
 1. 将以下范围添加到要插入条形码的位置。
 
@@ -58,9 +58,9 @@ margin-top: 2mm;
 
    >[!NOTE]
    >
-   > 使用您在中定义的相同类名 `layout.css`.
+   > 使用您在`layout.css`中定义的相同类名。
 
-1. 替换 `<Sample barcode>` 使用您希望条形码扫描仪读取的值……
+1. 将`<Sample barcode>`替换为您希望条形码扫描仪读取的值。
 
 使用包含页面布局的模板生成输出PDF时，您可以查看条形码。 执行上述步骤后，可以使用条形码生成PDF输出。
 
@@ -70,7 +70,7 @@ margin-top: 2mm;
 
 **示例 2**
 
-修改 `Common.plt` 中的文件 **基本** 用于在项目标题后添加条形码的模板。
+修改&#x200B;**Basic**&#x200B;模板中的`Common.plt`文件以在项目标题后添加条形码。
 
 要为ISBN编号创建条形码，请添加ISBN编号。 然后使用ISBN编号生成条形码。
 
@@ -89,7 +89,7 @@ margin-top: 2mm;
 
 要使用映射元数据创建条形码，请执行以下操作：
 
-使用中存在的任意元数据 `<topicmeta>` 要显示为条形码的DITA映射元素。 确保使用正确的XPath。 例如，您可以添加 `<resourceid>` 在 `<topicmeta>` DITA映射的。
+使用DITA映射的`<topicmeta>`元素中存在的任何元数据显示为条形码。 确保使用正确的XPath。 例如，您可以在DITA映射的`<topicmeta>`中添加`<resourceid>`。
 
 在以下示例中，资源ID用作生成条形码的主输入。
 
@@ -156,6 +156,3 @@ margin-top: 2mm;
 | Aztec代码 | aztec-code | 根据ISO/IEC 24778：2008，Aztec代码条码符号。 |                            |
 | 数据矩阵 | 数据矩阵 | 数据矩阵ECC 200条码符号根据ISO/IEC 16022：2006。 |
 | 代码1 | code-one |                            |
-
-
-

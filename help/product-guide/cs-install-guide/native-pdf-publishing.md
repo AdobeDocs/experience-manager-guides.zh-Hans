@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 本机PDF发布
 
-使用AEM Guides，您可以使用本机PDF输出生成功能生成单个主题的PDF或映射文件。 您可以在生成PDF输出时自定义和使用PDF模板。 您可以创建和设计页面布局，以根据您的要求在PDF输出中显示各个部分。
+借助AEM Guides，您可以使用本机PDF输出生成功能生成各个主题的PDF或映射文件。 您可以在生成PDF输出时自定义和使用PDF模板。 您可以创建和设计页面布局，以根据您的要求在PDF输出中显示各个部分。
 
 此外，AEM Guides还支持语言变量，以帮助您定义本地化的字符串。 它还允许您为PDF输出中存在的各种元素定义样式。 如果您是高级用户，还可以直接使用CSS创建高级页面布局。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 * [支持语言变量](../native-pdf/native-pdf-language-variables.md)
 * [PDF输出中的变量](../native-pdf/native-pdf-variables.md)
 * [向PDF输出添加条形码](../native-pdf/add-barcode.md)
-* 常见内容样式 {#content-styles}
+* 通用内容样式{#content-styles}
    * [使用常见的内容样式](../native-pdf/stylesheet.md)
    * [使用自定义更改条样式](../native-pdf/change-bar-style.md)
    * [对目录条目和主题内容应用自定义样式](../native-pdf/custom-style-toc.md)

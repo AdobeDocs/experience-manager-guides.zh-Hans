@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 配置关闭时另存为新版本的提示 {#id222HBI00XXA}
 
-当用户尝试关闭在Web编辑器中打开的文件时 **关闭** 文件选项卡上的按钮或 **关闭** 选项，如果文件具有未保存的数据或未保存的版本，将出现一个对话框。 如果未保存该版本，则提示用户将文件另存为新版本。
+当用户尝试使用文件选项卡上的&#x200B;**关闭**&#x200B;按钮或“选项”菜单中的&#x200B;**关闭**&#x200B;选项关闭在Web编辑器中打开的文件时，如果文件包含未保存的数据或未保存的版本，则会出现一个对话框。 如果未保存该版本，则提示用户将文件另存为新版本。
 
-此 **另存为新版本** 默认情况下未启用复选框，您需要从configMgr启用此复选框。 执行以下步骤以在Web编辑器中默认启用此选项：
+默认情况下未启用&#x200B;**另存为新版本**&#x200B;复选框，您需要从configMgr启用此复选框。 执行以下步骤以在Web编辑器中默认启用此选项：
 
 1. 打开Adobe Experience Manager Web控制台配置页面。
 
@@ -26,15 +26,15 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;包。
 
-1. 选择 **关闭时询问新版本** 选项。
+1. 选择&#x200B;**关闭**&#x200B;时询问新版本选项。
 
 1. 单击&#x200B;**保存**。
 
 
-选择此选项时， **另存为新版本** 该复选框在对话框中默认处于选中状态。
+选中此选项后，默认情况下会选中对话框中的&#x200B;**另存为新版本**&#x200B;复选框。
 
-有关更多详细信息，请参阅 *文件关闭并保存方案* 部分(位于使用Adobe Experience Manager Guidesas a Cloud Service指南中)。
+有关更多详细信息，请参阅《使用Adobe Experience Manager Guidesas a Cloud Service指南》中的&#x200B;*文件关闭和保存方案*&#x200B;部分。
 
 **父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

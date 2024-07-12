@@ -1,13 +1,13 @@
 ---
 title: 对特定用户或组隐藏“文件夹”上下文菜单选项中的创建DitaMap选项。
 description: 了解如何通过隐藏特定用户/组的文件夹上下文菜单中的“DitaMap”选项来自定义编辑器
-source-git-commit: ea8fb646287f68676b6530b4cc5f56e7ba2d9b0c
+exl-id: 796bfe3a-3950-4ade-9215-c33534791055
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
-
 
 # 在编辑器的文件夹上下文菜单中显示/隐藏“创建DitaMAP”
 
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 ## 先决条件
 
-我们将利用AEM Guides扩展包，允许您根据需要自定义应用程序的UI。
-请看这个 [文档](https://github.com/adobe/guides-extension/tree/main) ，详细了解Guides扩展框架的工作原理。
+我们将利用AEM Guides扩展包，允许您根据自己的要求自定义应用程序的UI。
+请阅读此[文档](https://github.com/adobe/guides-extension/tree/main)，详细了解Guides扩展框架的工作原理。
 
 现在，让我们开始了解如何自定义文件夹上下文菜单以对所有非作者用户隐藏此选项。
 
@@ -60,7 +60,7 @@ const folderOptions = {
 };
 ```
 
-- **创建新构件以处理逻辑**
+- **创建用于处理逻辑的新构件**
 
   需要创建新的构件创建(customoptions.ts)来编写逻辑，以仅对非创作用户隐藏此选项。 为此，我们使用了“show”键，它用作JSON结构中的切换开关。
 
@@ -113,7 +113,7 @@ controller: {
   },
 ```
 
-- **添加自定义代码**
+- **正在添加自定义代码**
 
   将folder_options.ts和customoptions.ts导入/src下的index.ts文件。
 
@@ -128,11 +128,11 @@ controller: {
 
 - **扩展框架基本存储库** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **文档** - [Experience League时](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)上的&#x200B;**文档** - [
 
-- **记录的常见用例** - [Experience League时](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **已记录Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)上的常见用例** - [
 
-- **带示例的公共存储库** - [在GIT上](https://github.com/adobe/guides-extension/tree/sc-expert-session). 参阅分支sc-expert-session
+- 在GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)上有&#x200B;**公共存储库（带有示例）** - [。 参阅分支sc-expert-session
 
 ```
 

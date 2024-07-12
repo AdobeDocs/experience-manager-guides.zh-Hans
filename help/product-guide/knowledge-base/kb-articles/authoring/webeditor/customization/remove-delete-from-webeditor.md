@@ -1,21 +1,21 @@
 ---
 title: 从软件中针对特定用户的文件上下文菜单中移除“删除”选项
 description: 了解如何通过从特定用户/组的文件上下文菜单中移除“删除”选项来自定义编辑器
-source-git-commit: aacc04e2fb6ca061825e5e219ad6e03bf711b3d0
+exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # 删除Webeditor中文件上下文菜单中的“删除”选项
 
-在本文中，我们将了解如何在AEM Guides Web编辑器的文件上下文菜单中向特定用户或组隐藏“删除”选项。 有关文件上下文菜单选项的其他自定义设置，请查看Guides扩展框架。 可以找到更多详细信息 [此处](https://github.com/adobe/guides-extension/tree/main).
+在本文中，我们将了解如何在AEM Guides Web编辑器的文件上下文菜单中向特定用户或组隐藏“删除”选项。 有关文件上下文菜单选项的其他自定义设置，请查看Guides扩展框架。 可在[此处](https://github.com/adobe/guides-extension/tree/main)找到更多详细信息。
 
 正如您从下面的代码片段中所看到的，文件上下文菜单具有适用于此特定用户的“删除”选项。
 
-![带删除功能的文件上下文菜单](../../../assets/authoring/file-contextmenu-Delete.png)
+删除了![File contextmenu](../../../assets/authoring/file-contextmenu-Delete.png)
 
 现在，让我们看看如何为此用户隐藏“删除”选项。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 文件上下文菜单现在将如下所示：
 
-![文件上下文菜单（不删除）](../../../assets/authoring/file-contextmenu-Delete-removed.png)
+![File contextmenu，不删除](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
 Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.

@@ -28,8 +28,8 @@ AEM Guides附带基本映射编辑器和高级映射编辑器。 基本映射编
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;包。
 
-1. 选择 **隐藏基本映射编辑器** 选项。
+1. 选择&#x200B;**隐藏基本映射编辑器**&#x200B;选项。
 
    选中此选项后，用户将看不到用户界面中任何位置的“基本映射编辑器”链接。 默认情况下，映射文件将在高级映射编辑器中打开。

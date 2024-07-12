@@ -20,13 +20,13 @@ ht-degree: 0%
 
 1. 登录AEM并打开CRXDE Lite模式。
 
-1. 创建 `symbols.json` 文件路径：
+1. 在以下位置创建`symbols.json`文件：
 
    ```json
    /apps/fmdita/xmleditor/
    ```
 
-1. 在中添加特殊字符定义 `symbols.json` 文件为：
+1. 在`symbols.json`文件中添加特殊字符定义，如下所示：
 
    ```json
    {"symbols": [{"label": "Arrows",
@@ -39,11 +39,11 @@ ht-degree: 0%
    ```
 
 
-的结构 `symbols.json` 文件说明如下：
+`symbols.json`文件的结构说明如下：
 
-- `"label": "Arrows"`：这会指定特殊字符的类别。 在代码片段中，名为的类别 `"Arrows"` 已定义。
-- `"items"`：此属性定义类别中特殊字符的集合。
-- `"name": "←", "title": "Left Arrow"`：这是特殊字符的定义。 它从 `"name"` 标签，不可更改。 名称后跟特殊字符。 此 `"title"` 是特殊字符的名称或标题，作为该特殊字符的工具提示显示。
+- `"label": "Arrows"`：这会指定特殊字符的类别。 在该代码片段中，定义了名为`"Arrows"`的类别。
+- `"items"`：这将定义类别中特殊字符的集合。
+- `"name": "←", "title": "Left Arrow"`：这是特殊字符的定义。 它以`"name"`标签开始，该标签不能更改。 名称后跟特殊字符。 `"title"`是作为特殊字符的工具提示显示的特殊字符的名称或标题。
 
   您可以在一个类别中定义多个特殊字符定义。
 

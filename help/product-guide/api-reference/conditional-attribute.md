@@ -21,10 +21,14 @@ ht-degree: 0%
 一种POST方法，用于将条件属性添加到给定的文件夹级配置文件。
 
 **请求URL**：\
-http://*&lt;aem-guides-server>*： *&lt;port-number>*/bin/fmdita/folderprofiles
+http://*&lt;aem-guides-server\>*： *&lt;端口号\>*/bin/fmdita/folderprofiles
 
 **参数**：\
-|名称|类型|必需|描述| --------------------------- |`:operation`|字符串|是|要调用的操作的名称。 此参数的值为 ``ADDATTRIBUTEPROFILES``. <br> **注意：** 该值不区分大小写。| |`profilename`|字符串|是|必须添加条件属性的文件夹级别配置文件的显示名称。| |`conditionalprofiles`|JSON数组|是|由条件属性名称和值组成的JSON数组。 以下示例代码片段显示了具有两个属性的JSON数组 —  `platform` 和 `product` 为其分配了多个值。|
+|名称|类型|必需|描述|
+---------------------------
+|`:operation`|字符串|是|要调用的操作的名称。 此参数的值为``ADDATTRIBUTEPROFILES``。<br> **注意：**该值不区分大小写。|
+|`profilename`|字符串|是|必须添加条件属性的文件夹级别配置文件的显示名称。|
+|`conditionalprofiles`|JSON数组|是|由条件属性名称和值组成的JSON数组。 以下示例代码片段显示了具有两个属性（`platform`和`product`）的JSON数组，这两个属性分配了多个值。|
 
 ```JSON
 [  {    name: "platform",    

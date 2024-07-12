@@ -16,7 +16,7 @@ ht-degree: 1%
 
 AEM Guides还允许用户在氧气连接器插件中编辑其DITA主题和DITA映射。
 
-请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。 在配置文件中，提供以下（属性）详细信息以配置 **在Oxygen中编辑** 选项：
+使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下（属性）详细信息以配置&#x200B;**在氧气中编辑**&#x200B;选项：
 
 
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 执行以下步骤以生成FrameMaker单据的输出：
 
-1. 在Assets UI中，导航到并单击 `.book` 或 `.fm` 要发布的文件。
+1. 在Assets UI中，导航到要发布的`.book`或`.fm`文件并单击它。
 
    此时将显示DITA映射控制台，其中显示了可用于生成输出的输出预设列表。
 
@@ -28,6 +28,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 通过单击输出，可以查看输出生成请求的当前状态。 有关更多信息，请参阅 [查看输出生成任务的状态](fm-output-view-status.md).
+> 通过单击输出，可以查看输出生成请求的当前状态。 有关详细信息，请参阅[查看输出生成任务的状态](fm-output-view-status.md)。
 
-**父主题：**[&#x200B;生成FrameMaker单据的输出](fm-output-generatation.md)
+**父主题：**[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)

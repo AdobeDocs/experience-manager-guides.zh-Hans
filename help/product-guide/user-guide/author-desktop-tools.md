@@ -15,9 +15,9 @@ ht-degree: 0%
 
 AEM Guides还支持使用Adobe FrameMaker和氧XML编辑器等桌面工具进行创作。 您可以使用这些工具来创作DITA内容、以各种格式发布文档以及维护文档的版本。
 
-- **[使用FrameMaker](author-desktop-framemaker.md)**
+- **[处理FrameMaker](author-desktop-framemaker.md)**
 
 - **[使用氧气](author-desktop-oxygen.md)**
 
 
-**父主题：**[&#x200B;创作内容](authoring-content.md)
+**父主题：**[&#x200B;作者内容](authoring-content.md)

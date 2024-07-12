@@ -14,17 +14,17 @@ ht-degree: 8%
 
 # 下载并安装 {#id1645E0O04MK}
 
-从2024.2.0版本开始，《Experience Manager指南》仅作为适用于Experience Manageras a Cloud Service的自动加载项提供。
+从2024.2.0版本开始，Experience Manager Guides仅作为适用于Experience Manageras a Cloud Service的自动加载项提供。
 
 如果您使用的是2023年12月版或更早版本，则可以从GitHub存储库下载并安装Adobe Experience Manager Guides。
 
 
 - **[部署AEM Guides模块](download-install-dxml-first-time.md)**
 
-- **[配置Dispatch](download-install-configure-dispatcher.md)**
+- **[配置Dispatcher](download-install-configure-dispatcher.md)**
 
-- **[验证AEM Guides的安装](download-install-verify-dxml-installation.md)**
+- **[验证AEM Guides安装](download-install-verify-dxml-installation.md)**
 
 - **[配置覆盖](download-install-additional-config-override.md)**
 
-- **[Recommendations优化性能](download-install-recommend-perf-optimiz.md)**
+- 用于性能优化的&#x200B;**[Recommendations](download-install-recommend-perf-optimiz.md)**

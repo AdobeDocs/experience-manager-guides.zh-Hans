@@ -28,23 +28,23 @@ ht-degree: 0%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   包管理器可管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅 [如何使用包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) 请参阅AEM文档。
+   包管理器可管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。
 
    ![](assets/package-manager.png){width="650" align="left"}
 
-1. 要上传AEM Guides包，请单击 **上传包**.
+1. 要上传AEM Guides包，请单击&#x200B;**上传包**。
 
-1. 在上传包对话框中，导航到您在步骤1中下载的AEM Guides文件，然后单击 **确定**.
+1. 在上传包对话框中，导航到您在步骤1中下载的AEM Guides文件，然后单击&#x200B;**确定**。
 
    资源包将上传到您的AEM实例。
 
-1. 要安装包，请单击 **安装**.
+1. 若要安装包，请单击&#x200B;**安装**。
 
    ![](assets/install-package.png){width="650" align="left"}
 
-1. 在“安装包”对话框中，单击 **安装**.
+1. 在“安装包”对话框中，单击&#x200B;**安装**。
 
-1. 要开始使用AEM Guides，请单击“主页”按钮 ![](assets/home-button.png) 位于CRX包管理器的左上角。
+1. 要开始使用AEM Guides，请单击CRX包管理器左上角的“主页”按钮![](assets/home-button.png)。
 
 
 >[!NOTE]

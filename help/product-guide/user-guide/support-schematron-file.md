@@ -1,6 +1,6 @@
 ---
 title: 支持Schematron文件
-description: 了解如何在AEM Guides的Schematron文件中导入和验证DITA主题、使用声明报表语句检查规则、使用正则表达式以及定义抽象模式。
+description: 了解如何导入和验证DITA主题、使用声明报表语句检查规则、使用正则表达式以及在AEM Guides的Schematron文件中定义抽象模式。
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
@@ -26,10 +26,10 @@ ht-degree: 0%
 
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. 在中导航到所需的文件夹（您要上传文件的位置） *存储库视图*.
-1. 单击 **选项** 图标以打开上下文菜单并选择 **上传资产**.
-1. 在 **上传资产** 对话框，您可以在 **选择资产文件夹** 字段。
-1. 单击 **选择文件** 并浏览以选择Schematron文件。 您可以选择一个或多个架构文件，然后单击 **上传**.
+1. 在&#x200B;*存储库视图*&#x200B;中导航到所需的文件夹（您要上传文件的位置）。
+1. 单击&#x200B;**选项**&#x200B;图标以打开上下文菜单，然后选择&#x200B;**上传Assets**。
+1. 在&#x200B;**上传Assets**&#x200B;对话框中，您可以在&#x200B;**选择资源文件夹**&#x200B;字段中更改目标文件夹。
+1. 单击&#x200B;**选择文件**&#x200B;并浏览以选择架构文件。 您可以选择一个或多个Schematron文件，然后单击&#x200B;**上传**。
 
 ## 使用Schematron验证DITA主题或映射
 

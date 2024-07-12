@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # AEM Guides的工作原理 {#id167G9A00DO4}
 
-下图说明了AEM Guides如何与AEM和任何DITA编辑器配合使用，以支持企业方案中的内容管理、重用、翻译和审查。
+下图说明了AEM Guides如何与AEM和任何DITA编辑器配合使用，以在企业场景中启用内容管理、重用、翻译和审查。
 
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 

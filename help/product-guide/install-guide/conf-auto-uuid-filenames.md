@@ -26,15 +26,15 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* 捆绑。
+1. 搜索并单击&#x200B;*com.adobe.fmdita.xmleditor.config.XmlEditorConfig*&#x200B;包。
 
-1. 选择 **使用基于UUID的系统文件名** 选项。
+1. 选择&#x200B;**使用基于UUID的系统文件名**&#x200B;选项。
 
 1. 单击&#x200B;**保存**。
 
 
 >[!NOTE]
 >
-> 默认情况下，此选项处于关闭状态。 启用此选项后，作者在创建新主题或映射文件时，将不会看到指定文件名的选项。 可以从资产UI和Web编辑器创建新主题或映射文件。
+> 默认情况下，此选项处于关闭状态。 启用此选项后，作者在创建新主题或映射文件时，将不会看到指定文件名的选项。 可以从Assets UI和Web编辑器创建新主题或映射文件。
 
 **父主题：**[&#x200B;配置文件名](conf-file-names.md)

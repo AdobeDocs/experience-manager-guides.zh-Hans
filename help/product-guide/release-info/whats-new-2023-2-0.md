@@ -1,6 +1,6 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年2月版
-description: Adobe Experience Manager Guidesas a Cloud Service2月版
+description: Adobe Experience Manager Guidesas a Cloud Service的2月版
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service版2023年2月版的新增功能
+# Adobe Experience Manager Guides as a Cloud Service 2023年2月版的新增功能
 
-本文介绍2023年2月版Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)。
+本文介绍Adobe Experience Manager Guides版本2023年2月中的新增功能和增强功能(后称为&#x200B;*AEM Guidesas a Cloud Service*)。
 
-有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](release-notes-2023-2-0.md) 文章。
+有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅[发行说明](release-notes-2023-2-0.md)文章。
 
 
 ## 从Web编辑器生成报表
 
-AEM Guides在Web编辑器中提供的功能使您能够检查技术文档的整体完整性并为其生成报告。
+AEM Guides在Web编辑器中提供的一项功能使您能够检查技术文档的整体完整性并为其生成报告。
 您可以从以下位置查看主题列表、管理元数据以及查看当前映射的所有引用中使用的多媒体：
-**报表** 选项卡。
+Web编辑器中的**报告**&#x200B;选项卡。
 
 **生成主题列表视图**
 
@@ -54,7 +54,8 @@ AEM Guides在Web编辑器中提供的功能使您能够检查技术文档的整�
 * 上下文工具栏可帮助您快速高亮显示或删除文本
 * 用于编辑或删除您自己的评论的“选项”菜单
 * 对于过时的注释，您可以访问并排视图，这有助于将主题的先前版本与当前审阅版本进行比较。
-* 使用过滤器时，右侧面板上的注释将根据所选内容进行过滤，左侧面板中的注释数量将相应地更新。
+* 使用过滤器时，右侧面板上的注释会根据选定内容和
+左侧面板中的评论数量会相应更新。
 
 
   <img alt="审核任务" src="assets/comment-pop-up-panel.png" width="600">
@@ -75,31 +76,33 @@ AEM Guides允许您将源文件的标签传递到目标文件。 这有助于您
 
 **强制同步不同步的资产**
 
-如果对某些资源进行了更改，AEM Guides会将它们标记为不同步。 您可以重新翻译修改的资产，也可以选择取消不同步状态。 例如，如果您进行了一些确实不需要翻译的细微更改，则可以将其状态标记为同步。
+如果您对某些资源进行了更改，AEM Guides会将它们标记为不同步。 您可以重新翻译修改的资产，也可以选择取消不同步状态。 例如，如果您进行了一些确实不需要翻译的细微更改，则可以将其状态标记为同步。
 
 <img src="assets/translation-version-diff.png" alt="翻译板" width="600">
 
-**查看正在进行中的主题或地图翻译项目**
+**查看主题或映射的正在进行中的翻译项目**
 
-您的翻译仪表板上的某些引用可能正在进行中。 现在，AEM Guides提供了一项功能，可帮助您查看包含所选引用的所有正在进行的翻译项目（以及目标语言）的列表。
+您的翻译仪表板上的某些引用可能正在进行中。 现在，AEM Guides提供了一项功能，帮助您查看包含所选引用的所有正在进行的翻译项目的列表（以及目标语言）。
 
 
 ## 从Web编辑器生成各种格式的输出
 
-现在，您可以从Web编辑器轻松生成主题或DITA映射的输出。 您可以配置各种输出预设，如AEM Site、PDF、HTML5、JSON（一种Headless输出格式）和自定义输出。 然后，您可以使用这些组件生成各自的输出。
+现在，您可以从Web编辑器轻松生成主题或DITA映射的输出。 您可以配置各种输出预设，如AEM Site、PDF、HTML5，
+JSON（一种Headless输出格式）和自定义输出。 然后，您可以使用这些组件生成各自的输出。
 
 您可以在DITA主题中定义属性，然后使用条件预设在发布输出时应用条件。 也可以使用基线发布功能有选择地发布DITA映射或主题的特定版本。
 
 
 ## 在映射级别查找和替换文本
 
-AEM Guides允许您在映射中搜索包含特定文本的文件。 搜索到的文本将在文件中突出显示。 现在，您还可以用所有文件中的其他单词或短语替换搜索的单词或短语。 您可以选择 **全部替换** 图标，以替换所有文件中搜索词的所有匹配项。
+AEM Guides允许您在映射中搜索包含特定文本的文件。 搜索到的文本将在文件中突出显示。 现在，您还可以用所有文件中的其他单词或短语替换搜索的单词或短语。 您可以选择列表右上方的&#x200B;**全部替换**&#x200B;图标以替换所有文件中搜索词的所有匹配项。
 
 <img src="assets/map-find-replace.png" alt="映射查找替换" width="600">
 
 ## 从存储库面板删除和复制文件
 
-现在，您可以轻松地从创建文件的副本或副本 **选项** 存储库面板中选定文件的菜单。 默认情况下，创建文件时带有后缀(如 `filename_1.extension`)。
+现在，您可以从存储库面板中选定文件的&#x200B;**选项**菜单轻松创建文件的副本或副本。 默认情况下，创建文件时使用的是
+后缀（如`filename_1.extension`）。
 
 <img src="assets/options-menu-repo-view-file-level.png" alt="文件选项菜单 " width="500">
 
@@ -115,15 +118,15 @@ AEM Guides允许您在映射中搜索包含特定文本的文件。 搜索到的
 
 ## 在氧气编辑器中查看标题以取代UUID
 
-现在，AEM Guides允许您选择 **在编辑器和映射管理器中使用标题** 选项。 如果选择此选项，则在编辑器或DITA映射管理器中打开文件时，文件的标题将显示在文件的选项卡上。 如果不选择此选项，则文件的UUID将显示在文件的选项卡上。
+现在，AEM Guides允许您在“设置”中选择&#x200B;**在编辑器中使用标题和映射管理器**&#x200B;选项。 如果选择此选项，则在编辑器或DITA映射管理器中打开文件时，文件的标题将显示在文件的选项卡上。 如果不选择此选项，则文件的UUID将显示在文件的选项卡上。
 
-## AEM Guidesas a Cloud Service基于微服务的发布
+## AEM Guides基于微服务的发布as a Cloud Service
 
-新的发布微服务使您能够在AEM Guidesas a Cloud Service上同时运行大量发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。
+新的发布微服务使您能够同时在AEM Guides as a Cloud Service上运行大型发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。
 
-对于每个发布请求，AEM Guidesas a Cloud Service会运行一个单独的容器，该容器会根据用户请求水平缩放。 这使您能够运行多个发布请求并获得改进的性能。
+对于每个发布请求，AEM Guides as a Cloud Service会运行一个单独的容器，该容器会根据用户请求水平缩放。 这使您能够运行多个发布请求并获得改进的性能。
 
-有关更多详细信息，请参阅 [为AEM Guidesas a Cloud Service配置新的基于微服务的发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
+有关更多详细信息，请参阅[为AEM Guidesas a Cloud Service配置新的基于微服务的发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md)。
 
 ## 本机PDF | 在PDF输出中添加自定义书签
 

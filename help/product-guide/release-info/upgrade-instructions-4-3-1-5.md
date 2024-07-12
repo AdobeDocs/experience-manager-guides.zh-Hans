@@ -2,27 +2,27 @@
 title: 发行说明 | Adobe Experience Manager Guides 4.3.1.5版的升级说明
 description: 了解如何升级到Adobe Experience Manager Guides的4.3.1.5版本
 role: Leader
-source-git-commit: 296bbea301df8828c00436db2b3c8b46dd235e64
+exl-id: 856970ef-9f50-4452-b589-ba1f5ee73322
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
 
 ---
 
-
 # 4.3.1.5版本的升级说明
 
-本文介绍Adobe Experience Manager Guides 4.3.1.5版的升级说明和兼容性矩阵。
+介绍Adobe Experience Manager Guides 4.3.1.5版的升级说明和兼容性矩阵。
 
 
-有关此版本中已修复的问题的列表，请查看 [修复了4.3.1.5版本中的问题](../release-info/fixed-issues-4-3-1-5.md).
+有关此版本中已修复的问题的列表，请查看[4.3.1.5版本中已修复的问题](../release-info/fixed-issues-4-3-1-5.md)。
 
 
 
 
 ## 兼容性矩阵
 
-本部分列出了Experience Manager指南4.3.1.5版本支持的软件应用程序的兼容性矩阵。
+本部分列出了Experience Manager Guides 4.3.1.5版本支持的软件应用程序的兼容性矩阵。
 
 ### Adobe Experience Manager
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 **4.3.1.5 UUID**
 版本6.5 Service Pack 18、17、16、15、14
 
-有关更多详细信息，请查看 *技术要求* On-Premise安装和配置指南中的部分。
+有关更多详细信息，请查看On-Premise Installation and Configuration Guide中的&#x200B;*技术要求*&#x200B;部分。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -58,14 +58,14 @@ ht-degree: 2%
 
 | 组件包名称 | 组件版本 | 模板版本 |
 |---|---|---|
-| 用于Cloud Service的Experience Manager指南组件内容包 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| 适用于Cloud Service的Experience Manager Guides组件内容包 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 
 
-## 升级到《Experience Manager指南》的4.3.1.5版
+## 升级到Experience Manager Guides的4.3.1.5版
 
 
-您可以轻松地将指南的当前版本升级到4.3.1.5版。在继续升级到版本4.3.1.5的《Experience Manager指南》之前，您必须考虑以下几点：
+您可以轻松地将指南的当前版本升级到4.3.1.5版。在继续升级到版本4.3.1.5的Experience Manager Guides之前，必须考虑以下几点：
 
 
 - 如果您使用的是版本4.3.1或4.3.1.x ，则可以直接升级到版本4.3.1.5。
@@ -76,13 +76,12 @@ ht-degree: 2%
 
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅产品特定安装指南中的“升级Experience Manager指南”部分，该指南位于 [Adobe Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级Experience Manager Guides”部分。
 
 
 
 >[!NOTE]
 >
->在升级Experience Manager指南版本之前，必须安装AEM Service Pack。
+>在升级Experience Manager Guides版本之前，必须安装AEM Service Pack。
 
-有关详细信息，请查看 [内部部署版本的升级说明](../install-guide/upgrade-xml-documentation.md) Experience Manager指南。
-
+有关详细信息，请查看Experience Manager Guides内部部署版本](../install-guide/upgrade-xml-documentation.md)的[升级说明。

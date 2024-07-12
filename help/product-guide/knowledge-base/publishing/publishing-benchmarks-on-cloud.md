@@ -11,23 +11,23 @@ ht-degree: 8%
 
 ---
 
-# AEM Guides在AEMaaCS上发布基准
+# AEMaaCS上的AEM Guides发布基准
 
-目前，AEM Guides云服务在发布指南团队正在积极努力解决的地图大小方面存在某些限制。
+目前，AEM Guides Cloud Service在发布指南团队正在积极努力解决的地图大小方面存在某些限制。
 
-指南团队引入了一项可扩展的发布微服务，以支持大型地图和多个并发发布。 要了解有关新发布微服务的更多信息，请参阅 [发布微服务架构](publish-microservice-architecture-and-performance.md)
+指南团队引入了一项可扩展的发布微服务，以支持大型地图和多个并发发布。 若要了解有关新发布微服务的更多信息，请参阅[发布微服务体系结构](publish-microservice-architecture-and-performance.md)
 
-要为任何AEM云环境配置新的发布服务，请参阅 [配置新的基于微服务的发布](configure-microservices.md)
+要为任何AEM云环境配置新的发布服务，请参阅[配置新的基于微服务的发布](configure-microservices.md)
 
 
 ## 执行环境
 
     AEM版本： 2023.5.11983.20230511T173830Z
-    指南加载项版本：2023.6.0
-    AEM站点模板：AEM Guides OOTB模板
+    指南附加组件版本： 2023.6.0
+    AEM站点模板： AEM Guides OOTB模板
     DITA-OT版本： 3.5.4
-    发布工作流类型：拆分发布工作流
-    微服务支持的输出：本机PDF、PDF(Dita-OT)
+    Publish工作流类型：拆分Publish工作流
+    微服务支持的输出：原生PDF，PDF(Dita-OT)
 
 ## 输出层代号
 

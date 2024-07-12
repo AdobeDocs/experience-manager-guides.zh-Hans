@@ -16,7 +16,8 @@ ht-degree: 0%
 
 ## 设置书图
 
-包括 `<toc>`  元素：在书签的 `<frontmatter>`元素，找到 `<booklists>` 元素。  嵌套 `<toc>` 元素内部 `<booklists>` 如下所示：
+包括`<toc>`元素：
+在书签映射的`<frontmatter>`元素中，找到`<booklists>`元素。  在`<booklists>`中嵌套`<toc>`元素，如下所示：
 
 ```
 <frontmatter>
@@ -27,7 +28,7 @@ ht-degree: 0%
 </frontmatter>
 ```
 
-DITA规范允许将TOC和书签放在 `<backmatter>` 部分。
+DITA规范还允许将TOC和书签放在`<backmatter>`部分中。
 
 
 ```
@@ -77,7 +78,7 @@ DITA规范允许将TOC和书签放在 `<backmatter>` 部分。
 
 目录和其他PDF中的书签顺序仅基于书签映射的结构。
 
-![toc](../assets/publishing/toc.png)
+![目录](../assets/publishing/toc.png)
 
 
 ## 常见问题解答
@@ -92,13 +93,13 @@ Ditamap本身并不像书签那样直接具有目录(TOC)。 但是，在定义�
 
 ## 其他资源：
 
-- [本机PDF设计页面布局文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [本机PDF要点 — 预先录制的专家讲座](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [本机PDF设计页布局文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [预先录制的本机PDF要点Expert讲座](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-在AEM Guides社区上发帖 [论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 以进行任何查询。
+AEM Guides社区[论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上的Post以进行任何查询。
 
 
 

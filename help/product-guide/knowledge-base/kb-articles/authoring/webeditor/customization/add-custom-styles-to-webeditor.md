@@ -32,13 +32,13 @@ ht-degree: 0%
 
 ### 将自定义CSS添加到文件夹配置文件
 
-使用文件夹配置文件检查 *css_layout.css* 在“XML编辑器配置”选项卡下，添加具有自定义样式的CSS
+使用文件夹配置文件检查“XML编辑器配置”选项卡下的&#x200B;*css_layout.css*，并添加具有自定义样式的CSS
 
-[使用此链接可了解有关文件夹配置文件和配置CSS模板布局的更多信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[使用此链接了解有关文件夹配置文件和配置CSS模板布局的更多信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 使用以下内容在编辑器中设置上述样式：
-- 使用 [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) 并将其上传到您选择的文件夹配置文件
-- 安装附加的包 [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) 使用AEM包管理器安装上述CSS文件中使用的资源
+- 使用[css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css)并将其上载到您选择的文件夹配置文件
+- 使用AEM包管理器安装附加的包[webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip)以安装上述CSS文件中使用的资源
 
 ```
 This will install the resources at path "/content/dam/resources" which will include sub-folders "fonts" and "images"
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## 引用
 
-您还可能对中介绍的有关Web服务器配置和自定义的专家讲座感兴趣 [Webeditor专家会议](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)
+您也可能对有关webeditor配置和自定义的专家会话感兴趣，该会话包含在[Webeditor专家会话](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)中

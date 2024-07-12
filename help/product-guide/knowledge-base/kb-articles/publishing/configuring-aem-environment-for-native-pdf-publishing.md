@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # 为本机PDF发布配置AEM环境
 
-AEM Guides包括一个本机PDF发布引擎，使用户能够以PDF格式设计、开发和发布内容。
+AEM Guides包括本机PDF发布引擎，该引擎使用户能够以PDF格式设计、开发和发布内容。
 
 通过该功能，可创建各种页面布局、CSS模板并设计PDF模板与页面布局和CSS。
 
-AEM Guides中配置此本机PDF的步骤因操作系统而异。 根据安装AEM的操作系统执行以下配置步骤。
+在AEM Guides中配置此本机PDF的步骤因操作系统而异。 根据安装AEM的操作系统执行以下配置步骤。
 
 ## 先决条件
 
@@ -39,7 +39,7 @@ AEM Guides中配置此本机PDF的步骤因操作系统而异。 根据安装AEM
 2. 在Windows任务栏上，右键单击Windows图标并选择“系统”。
 3. 在“Settings（设置）”窗口的“Related Settings（相关设置）”下，单击“Advanced system settings（高级系统设置）”。
 4. 在高级选项卡上，单击环境变量。
-5. 在系统变量部分，单击“_新建_”以创建新的环境变量。
+5. 在系统变量部分中，单击“_新建_”以创建新的环境变量。
 6. 输入变量名称作为JAVA_HOME。
 7. 在值字段中，提供Java安装路径，然后单击确定。
 
@@ -93,7 +93,7 @@ AEM Guides中配置此本机PDF的步骤因操作系统而异。 根据安装AEM
    2. 导出路径=$PATH：$JAVA\_HOME/bin
 
 5. 如果您使用的是Guides版本4.2及更高版本，请重新启动AEM服务器并转到步骤12。
-6. 复制&quot;_node_modules.zip_”附加到本文底部的crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/目录中。
+6. 将本文底部附加的&quot;_node_modules.zip_&quot;复制到crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/目录。
 7. 在crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/位置中打开终端。
 8. 使用以下命令删除node_modules目录
 
@@ -111,7 +111,7 @@ AEM Guides中配置此本机PDF的步骤因操作系统而异。 根据安装AEM
 命令： yum install fontconfig
 12. 在Web编辑器中通过预设生成本机PDF。
 
-**注意** ：可以下载node_modules.zip包 [此处](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**注意** ：可在[此处](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3)下载node_modules.zip包。
 
 对于Guides 4.1或更早版本（步骤6-12）的用户，手动导入Linux操作系统的已下载节点模块是一种解决方法
 
@@ -142,11 +142,13 @@ AEM Guides中配置此本机PDF的步骤因操作系统而异。 根据安装AEM
 
    C：/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i)查找。 -type d -exec chmod 0755 {} \；ii)查找。 -type f -exec chmod 0755 {} \； iii) 。/node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix 。 安装 — unsafe-perm —scripts-prepend-node-path
+   i)查找。 -type d -exec chmod 0755 {} \；
+ii)查找。 -type f -exec chmod 0755 {} \；
+iii) 。/node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix 。 安装 — unsafe-perm —scripts-prepend-node-path
 
 8. 使用以下命令验证是否已安装Java
 
-   i)运行 **./node-darwin/bin/节点** /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166文件夹中的命令
+   i)运行&#x200B;**。/node-darwin/bin/node**&#x200B;命令，位于/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166文件夹
 
    ![mac](../assets/publishing/mac.png)
 
@@ -175,7 +177,7 @@ AEM Guides中配置此本机PDF的步骤因操作系统而异。 根据安装AEM
 
 ![缺少库](../assets/publishing/missing-libraries.png)
 
-### 发布进程超时。 在给定时间0毫秒内未完成处理
+### Publish进程超时。 在给定时间0毫秒内未完成处理
 
 ![发布进程超时](../assets/publishing/publish-process-timeout.png)
 
@@ -183,4 +185,4 @@ AEM Guides中配置此本机PDF的步骤因操作系统而异。 根据安装AEM
 
 
 
-如果您在执行上述任何步骤时遇到任何问题，请在AEM Guides社区中发布您的问题 [论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 以寻求帮助。
+如果您在执行上述任何步骤时遇到任何问题，请在AEM Guides社区[论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上发布问题以寻求帮助。

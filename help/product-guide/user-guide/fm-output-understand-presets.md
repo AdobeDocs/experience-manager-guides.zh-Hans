@@ -1,6 +1,6 @@
 ---
 title: 输出预设简介
-description: 在AEM Guides中发布FrameMaker文档。 了解如何为PDF、HTML5和EPUB格式的FrameMaker文档生成输出。
+description: Publish在AEM Guides中FrameMaker文档。 了解如何为PDF、HTML5和EPUB格式的FrameMaker文档生成输出。
 exl-id: fa682007-68d6-415b-b9c2-acd5d9fc1aae
 feature: Publishing FrameMaker Documents
 role: User
@@ -17,4 +17,4 @@ AEM Guides支持为PDF、HTML5和EPUB格式的FrameMaker文档创建输出。 �
 
 以下各节将介绍适用于支持的输出格式的选项。
 
-**父主题：**[&#x200B;生成FrameMaker单据的输出](fm-output-generatation.md)
+**父主题：**[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)

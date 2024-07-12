@@ -23,9 +23,9 @@ AEM Guides附带一个易于使用的基于Web的Web编辑器，用于创建和�
 
 - **[了解Web编辑器功能](web-editor-features.md)**
 
-- **[Web编辑器中的键盘快捷键](web-editor-keyboard-shortcuts.md)**
+- 在Web编辑器中&#x200B;**[键盘快捷键](web-editor-keyboard-shortcuts.md)**
 
-- **[Web编辑器中的其他功能](web-editor-other-features.md)**
+- Web编辑器中的&#x200B;**[其他功能](web-editor-other-features.md)**
 
 - **[Web编辑器视图](web-editor-views.md)**
 
@@ -33,7 +33,7 @@ AEM Guides附带一个易于使用的基于Web的Web编辑器，用于创建和�
 
 - **[管理全局和文件夹配置文件输出预设](web-editor-manage-output-presets.md)**
 
-- **[从Web编辑器中基于文章的发布](web-editor-article-publishing.md)**
+- 从Web编辑器&#x200B;**[基于文章的发布](web-editor-article-publishing.md)**
 
 - **[使用“快速生成”面板生成和查看输出](web-editor-quick-generate-panel.md)**
 

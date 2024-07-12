@@ -20,4 +20,4 @@ ht-degree: 0%
 
 - **[为有效的文件名字符配置Regx](conf-file-names-valid-regx.md)**
 
-- **[为AEM站点输出配置有效文件名](conf-file-names-valid-regx-aem-site-output.md)**
+- **[为AEM站点输出配置有效的文件名](conf-file-names-valid-regx-aem-site-output.md)**

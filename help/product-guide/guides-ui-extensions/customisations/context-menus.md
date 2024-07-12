@@ -46,7 +46,7 @@ ht-degree: 0%
 
 您还可以通过定义新的唯一ID来创建自己的上下文菜单。
 
-现在，每个上下文菜单都有一个 `controller id` 关联。 此控制器处理 `on-event` 各种上下文菜单选项的功能
+现在，每个上下文菜单都有一个与之关联的`controller id`。 此控制器处理各种上下文菜单选项的`on-event`功能
 
 让我们以一个示例来了解
 
@@ -118,7 +118,7 @@ const fileOptions = {
 
 现在，让我们了解一下此代码在做什么。
 
-1. `id` 用于标识要自定义的上下文菜单。
-2. `contextMenuWidget` 用于定义 `widget id` 或 `component` 会调用上下文菜单并处理 `events`.
+1. `id`用于标识要自定义的上下文菜单。
+2. `contextMenuWidget`用于定义`widget id`或`component`，后者调用上下文菜单并处理`events`。
 
-其余部分保持不变，因此 `view` 用于定义项目， `target` 标识要在何处替换、追加或追加选项以及 `contextMenuWidget` 控制器处理 `on-click` 事件。
+其余部分保持不变，因此`view`用于定义项目，`target`标识替换、附加或追加选项的位置，并且`contextMenuWidget`控制器处理`on-click`事件。

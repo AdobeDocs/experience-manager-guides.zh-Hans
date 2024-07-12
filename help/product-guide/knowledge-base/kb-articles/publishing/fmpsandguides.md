@@ -1,5 +1,5 @@
 ---
-title: AEM Guides中的使用FrameMaker Publishing Server(FMPS)发布
+title: 在AEM Guides中使用FrameMaker Publishing Server(FMPS)发布
 description: 使用AEM Guides通过FMPS发布
 exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
@@ -11,10 +11,10 @@ ht-degree: 0%
 
 ---
 
-# AEM Guides中的使用FrameMaker Publishing Server(FMPS)发布
+# 在AEM Guides中使用FrameMaker Publishing Server(FMPS)发布
 
-如果您希望获得高质量的自动发布功能，AEM Guides与FrameMaker Publishing Server集成可能是您的解决方案。\
-文章可帮助您设置和运行带有AEM Guides的FMPS。
+如果您希望获得高质量的自动发布功能，AEM Guides与FrameMaker Publishing Server的集成可能是您的解决方案。\
+文章可帮助您使用AEM Guides设置和运行FMPS。
 
 ## FMPS与AEM Guides的兼容性
 
@@ -26,34 +26,34 @@ ht-degree: 0%
 
 有关AEM Guides和FMPS的安装与配置，请参阅以下内容
 
-### AEM指南
+### AEM 指南
 
 安装和配置请参阅： [4.1安装和配置](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ### FMPS
 
-对于FMPS安装，您可以参考给定的 [YouTube链接](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) 或 [FMPS安装和配置](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
+对于FMPS安装，您可以参考给定的[YouTube链接](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t)或[FMPS安装和配置](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
 
 ## 所需的配置
 
-FrameMaker Publishing Server(FMPS)可用于生成DITA内容。 FMPS支持多种输出格式。 在Web控制台中修改“com.adobe.fmdita.config.ConfigManager捆绑包”的以下属性，将AEM Guides配置为使用FMPS。
+FrameMaker Publishing Server(FMPS)可用于生成DITA内容。 FMPS支持多种输出格式。 在Web控制台中修改“com.adobe.fmdita.config.ConfigManager捆绑包”的以下属性以将AEM Guides配置为使用FMPS。
 
-要打开Web控制台，请转到URL Access http://\&lt;server name=&quot;&quot;>：\&lt;port>/system/console/configMgr。
+要打开Web控制台，请转到URL Access http://\&lt;服务器名称\>：\&lt;端口\>/system/console/configMgr。
 
 **配置属性及其说明** [4.1安装和配置](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
 ## 正在运行测试：
 
-使用FMPS，您可以自动发布 **PDF，响应式HTML5**、和 **埃布** 用于DITA和FM资产。
+使用FMPS，您可以自动发布DITA和FM Assets的&#x200B;**PDF、响应HTML5**&#x200B;和&#x200B;**Epub**。
 
 从“使用生成PDF”菜单中，选择“FrameMaker Publishing Server”。
 
 用户可以提供“settings File(.sts)”和“ditaval”。 根据您提供的条件，使用域进行筛选。
 
-- **设置文件**：一个FrameMaker/FMPS发布设置文件，其中包含您希望FMPS在发布时遵循的所有设置。 例如，使用自定义模板创建输出，创建“标记和出血”(PDF)，以及使用TOC创建PDF。
-- **FMPS预设：** 它是预定义的ditaval和设置文件组合。 用户可以预先创建FMPS预设，而不是提供单独的视图和设置文件，可以重复使用这些预设来满足发布需求。
+- **设置文件**： /FMPS Publish设置文件FrameMaker，其中包含您希望FMPS在发布时遵循的所有设置。 例如，使用自定义模板创建输出，创建“标记和出血”(PDF)，以及使用TOC创建PDF。
+- **FMPS预设：**&#x200B;它是预定义的ditaval和设置文件组合。 用户可以预先创建FMPS预设，而不是提供单独的视图和设置文件，可以重复使用这些预设来满足发布需求。
 
-**注意：** 如果您未选择任何设置或FMPS预设，则FMPS会使用默认系统设置进行发布。
+**注意：**&#x200B;如果您未选择任何设置或FMPS预设，则FMPS将使用默认系统设置进行发布。
 
 如果您选择了FMPS预设，并且还从AEM提供了自定义设置或Ditaval文件，则会发生冲突。 在这种情况下，FMPS预设优先于自定义设置或二进制文件。
 
@@ -61,7 +61,7 @@ FrameMaker Publishing Server(FMPS)可用于生成DITA内容。 FMPS支持多种�
 
 您可以使用FMPS2020.0.2或更高版本发布已创建的基线。
 
-**开始使用的FMPS设置文件（.sts文件）示例：** [FMPS设置文件示例](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) （解压缩此文件）
+**要开始使用的FMPS设置文件（.sts文件）示例：** [FMPS设置文件示例](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) （解压缩此文件）
 
 ## 常见问题解答和疑难解答：
 
@@ -84,8 +84,8 @@ FrameMaker Publishing Server(FMPS)可用于生成DITA内容。 FMPS支持多种�
 - ### 未从FMPS发布基线
 
 >FMPS2020.0.2或更高版本与基线发布兼容。
->确保正确创建了基线；要进行检查，请转到“映射仪表板 — 主题 — 下载映射”并选择“使用基线”。
-- ### 从FMPS发布任务所花费的时间比其他引擎多
+>确保正确创建了基线；要进行检查，请转到“映射仪表板” — “主题” — “下载”  映射并选择“使用基线”。
+- ### FMPS中的Publish任务比其他引擎需要更多时间
 
 >从FMPS发布时，理想的固定标头时间约为3 - 4分钟；如果您认为时间更长，请联系FMPS管理员或联系Adobe支持部门。
 
@@ -93,7 +93,7 @@ FrameMaker Publishing Server(FMPS)可用于生成DITA内容。 FMPS支持多种�
 
 [FMPS学习和支持](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
-[AEM Guides学习和支持](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+[AEM Guides学习与支持](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker和FMPS社区](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
 

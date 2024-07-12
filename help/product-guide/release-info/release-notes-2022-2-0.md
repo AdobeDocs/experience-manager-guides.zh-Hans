@@ -1,6 +1,6 @@
 ---
-title: 的发行说明 [!DNL AEM Guides]， 2022年2月版
-description: 的二月版 [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: ' [!DNL AEM Guides]的发行说明，2022年2月版'
+description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service的2月版本'
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# 的二月版 [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# [!DNL Adobe Experience Manager Guides]as a Cloud Service的2月版
 
 ## 升级到2月版
 
-升级您当前的 [!DNL Adobe Experience Manager Guides] as a Cloud Service(以后称为 [!DNL AEM Guides] as a Cloud Service)通过以下步骤进行设置：
+请通过以下步骤升级当前[!DNL Adobe Experience Manager Guides]as a Cloud Service(以后称为[!DNL AEM Guides]as a Cloud Service)安装程序：
 1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-1. 更新 `<dox.version>` 中的属性 `/dox/dox.installer/pom.xml` Cloud ServiceGit代码的文件更改为2022.2.114。
-1. 提交更改并运行Cloud Service管道，以升级到2月版的 [!DNL AEM Guides] as a Cloud Service。
+1. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2022.2.114。
+1. 提交更改并运行Cloud Service管道，以升级到[!DNL AEM Guides]的2月版as a Cloud Service。
 
 ## 兼容性矩阵
 
-本节列出了所支持的软件应用程序的兼容性矩阵 [!DNL AEM Guides] 2022年2月版as a Cloud Service。
+本部分列出了[!DNL AEM Guides] 2022年2月as a Cloud Service版本支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 氧气连接器
 
-| [!DNL AEM Guides] 云版本 | 氧气连接器窗口 | 氧气连接器Mac |
+| [!DNL AEM Guides]云版本 | 氧气连接器窗口 | 氧气连接器Mac |
 | --- | --- | --- |
 | 2022.2.0 | 2.4.0 | 2.4.0 |
 |  |  |  |
@@ -44,31 +44,31 @@ ht-degree: 0%
 
 ### 本机PDF发布
 
-的2月版本中还添加了对于创建本机PDF的支持 [!DNL AEM Guides] as a Cloud Service。 引入了新的发布引擎，其具有以下功能：
+[!DNL AEM Guides]as a Cloud Service的2月版本中还添加了创建本机PDF的支持。 引入了新的发布引擎，其具有以下功能：
 * 创建CSS模板
 * 创建其他页面模板
 * 设计包含CSS和PDF模板的模板
-* 以PDF格式发布映射和主题内容
+* Publish映射和主题内容(PDF格式)
 
 ### 在基于文章的发布中支持知识库网站路径
 
-[!DNL AEM Guides] as a Cloud Service提供了基于文章的发布功能，以增量方式生成一个或多个主题的输出，或将您的内容发布到知识库平台。 在2月版中，您还有一个选项，可用于选择主题/地图需要发布到的知识库网站路径。 选择路径后，将在指定的路径下生成输出。
+[!DNL AEM Guides]as a Cloud Service提供了基于文章的发布功能，可增量生成一个或多个主题的输出，或将您的内容发布到知识库平台。 在2月版中，您还有一个选项，可用于选择主题/地图需要发布到的知识库网站路径。 选择路径后，将在指定的路径下生成输出。
 
 ### Web编辑器增强功能
 
 Web编辑器中添加了许多增强功能和新功能：
 
-* **改进了文件关闭对话框**
+* **已改进文件关闭对话框**
 
-[!DNL AEM Guides] 当您尝试关闭在Web编辑器中打开的文件时，会出现as a Cloud Service提示，提示您保存更改并解锁锁定的文件。 提示的显示基于 **关闭时要求签入** 和 **关闭时询问新版本** 由管理员配置的设置。
+当您尝试关闭在Web编辑器中打开的文件时，[!DNL AEM Guides]as a Cloud Service提示您保存更改并解锁锁定的文件。 根据管理员配置的&#x200B;**关闭时要求签入**&#x200B;和&#x200B;**关闭时要求新版本**&#x200B;设置显示提示。
 
 根据配置，您可以选择保存更改并创建文档的新版本。 或者，您也可以检入文件并将更改保存到当前版本。
 
 ![文件关闭](assets/file-close-save-changes-unlock.png)
 
-有关更多详细信息，请参阅 *文件关闭并保存方案* （在用户指南中）。
+有关更多详细信息，请参阅《用户指南》中的&#x200B;*文件关闭和保存方案*。
 
-* 字符托盘中添加了不间断空格。  A **不中断** 空格可防止HTML文档中的特定点出现自动换行符。 Web编辑器支持AEM Site和HTML5输出的不间断空格。
+* 字符托盘中添加了不间断空格。  **不间断的**&#x200B;空格可防止HTML文档中的特定点出现自动换行。 Web编辑器支持AEM Site和HTML5输出的不间断空格。
 
 * 从Web编辑器上传图像时，如果已存在同名图像，则会显示确认对话框。 您可以同时保留现有文件和新文件，也可以覆盖现有文件并仅保存新文件。
 
@@ -105,10 +105,10 @@ Web编辑器中添加了许多增强功能和新功能：
 * 在创作Glossentry时，Glosusage将显示为Note。 (8384)
 * 即使在有效位置也无法插入xref。 (8354)
 * 元素列表(Alt+Enter)以深色/最深的主题显示为灰色。 (7913)
-* 中的映射模板列表 **创建** 存储库面板的选项（省略号菜单）不符合 **文件夹配置文件** 在用户首选项中。 (5918)
+* 根据“用户首选项”中的&#x200B;**文件夹配置文件**，存储库面板的&#x200B;**创建**&#x200B;选项（省略号菜单）中的映射模板列表不一致。 (5918)
 * 对于从主工具栏的重用内容功能添加的元素，不会自动生成元素ID。 (5826)
 
-### 资产UI
+### ASSETS UI
 
 * 云服务器上的图像编辑无法按预期工作。 (8768)
 * 在版本历史记录面板中，“当前版本”部分显示不正确的时间戳和修改者信息。 (8765)
@@ -119,5 +119,5 @@ Web编辑器中添加了许多增强功能和新功能：
 ### 可用性更改
 
 * 在Web编辑器的“审阅”面板中，如果用户名较长，则接受/拒绝的图标不会清晰显示。 (8793)
-* 在 **查找和替换** 面板，将鼠标悬停在结果部分时会显示一个不需要的图标。 (8775)
+* 在&#x200B;**查找和替换**&#x200B;面板中，将鼠标悬停在结果部分时会显示一个不需要的图标。 (8775)
 * 系统不会从属性中选择自定义图标，而是为使用“生成报表”按钮生成的报表显示默认图标。 (8573)

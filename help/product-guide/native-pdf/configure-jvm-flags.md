@@ -26,9 +26,9 @@ ht-degree: 1%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并选择 *com.adobe.fmdita.config.ConfigManager* 捆绑。
+1. 搜索并选择&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包。
 
-1. 更新属性 **本机pdf的Java命令行选项** (*native.pdf.java.opts*)，以传递任何标准JVM标记。
+1. 更新本机pdf **(*native.pdf.java.opts*)的属性** Java命令行选项以传递任何标准JVM标志。
 
 
 

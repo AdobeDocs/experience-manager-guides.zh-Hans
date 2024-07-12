@@ -2,7 +2,8 @@
 title: AEM Guides的外部数据源集成
 description: 将内容数据源与AEM Guides集成。
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 02a6c2ea-a550-49d5-ae54-1cc24ef35287
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
@@ -12,7 +13,7 @@ ht-degree: 1%
 # AEM Guides的外部数据源集成：工作原理
 
 许多企业客户拥有跨多个数据库分布的数据，但通常需要将数据集成到AEM Guides中，作为单个源来处理数据。
-Adobe Experience Manager Guides现在包括到外部数据源的现成连接器，包括JIRA、PIM、SQL数据库和PLM，使其成为真正的Content Hub。
+Adobe Experience Manager Guides现在包含到外部数据源的现成连接器，包括JIRA、PIM、SQL数据库和PLM，使其成为真正的Content Hub。
 
 
 ## 会话录制
@@ -22,9 +23,9 @@ Adobe Experience Manager Guides现在包括到外部数据源的现成连接器�
 ## 高亮
 
 - **日期** - 2023年12月14日
-- **与会者人数** - 80
+- **出席人数** - 80
 - **持续时间** - 60分钟
-- **受众**  — 客户、合作伙伴和Adobe员工
+- **受众** — 客户、合作伙伴和Adobe员工
 
 ## 要点
 
@@ -43,11 +44,11 @@ Adobe Experience Manager Guides现在包括到外部数据源的现成连接器�
 
 ## 相关资源
 
-- **配置数据源连接器** - [Experience League时](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
+- **在Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)上配置数据源连接器** - [
 
-- **文档** - [Experience League时](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
+- Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)上的&#x200B;**文档** - [
 
-- **使用模板的Velocity工具** - [Experience League时](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)
+- **使用Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)上的Velocity工具** - [
 
 
 
@@ -61,4 +62,4 @@ Adobe Experience Manager Guides现在包括到外部数据源的现成连接器�
 
 ## 联系我们
 
-如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>
+如有任何疑问，请发送电子邮件至<techcomm@adobe.com>

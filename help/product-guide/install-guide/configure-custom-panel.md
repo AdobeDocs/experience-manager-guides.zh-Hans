@@ -16,8 +16,8 @@ ht-degree: 0%
 
 执行以下步骤，在Web编辑器的左侧面板中添加自定义面板：
 
-1. 创建 *clientlib* 并将JavaScript和CSS文件添加到此文件夹中。
-1. 更新 *clientlib* 文件夹，为其分配 *apps.fmdita.xml\_editor.page\_overrides*.
+1. 创建一个&#x200B;*clientlib*&#x200B;文件夹，并将您的JavaScript和CSS文件添加到此文件夹中。
+1. 通过将&#x200B;*apps.fmdita.xml\_editor.page\_overrides*&#x200B;的值指定给&#x200B;*clientlib*&#x200B;文件夹来更新其类别属性。
 
 用于配置自定义面板的示例代码：
 

@@ -26,11 +26,11 @@ ht-degree: 1%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;包。
 
-1. 在 *XmlEditorConfig* 设置，选择 **自动保存** 选项。
+1. 在&#x200B;*XmlEditorConfig*&#x200B;设置中，选择&#x200B;**自动保存**&#x200B;选项。
 
-1. 在 **自动保存间隔** 字段，以秒为单位指定触发自动保存功能的时间间隔。
+1. 在&#x200B;**自动保存时间间隔**&#x200B;字段中，以秒为单位指定时间间隔以触发自动保存功能。
 
 1. 单击&#x200B;**保存**。
 

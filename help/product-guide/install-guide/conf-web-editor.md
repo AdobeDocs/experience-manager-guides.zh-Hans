@@ -18,7 +18,7 @@ AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的�
 
 - [自定义工具栏](conf-web-editor-customize-toolbar.md)
 
-- [配置标记视图的默认值](configure-default-value-tags-view.md)
+- [为标记视图配置默认值](configure-default-value-tags-view.md)
 
 - [配置基于UUID的链接的显示](conf-uuid-based-links.md)
 
@@ -28,7 +28,7 @@ AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的�
 
 - [在Web编辑器中配置文件自动保存](auto-save-in-editor.md)
 
-- [配置关闭时另存为新版本的提示](conf-save-as-new-version-close.md)
+- [配置提示以在关闭时另存为新版本](conf-save-as-new-version-close.md)
 
 - [配置关闭时签入文件的提示](conf-checkin-file-close.md)
 
@@ -38,7 +38,7 @@ AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的�
 
 - [自定义AEM默认词典](customize-aem-custom-dictionary.md)
 
-- [配置文本过滤器](config-text-filters.md)
+- [配置文本筛选器](config-text-filters.md)
 
 - [配置查询的LimitReads数](conf-query-limitreads.md)
 

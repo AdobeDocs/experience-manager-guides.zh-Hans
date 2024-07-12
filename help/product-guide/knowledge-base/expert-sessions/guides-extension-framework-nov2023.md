@@ -1,6 +1,6 @@
 ---
 title: AEM Guides的扩展框架 — 自定义Web编辑器并查看UI
-description: 借助Guides扩展框架，您可以使用易于更新的JSON、CSS和JavaScript来自定义Review Ui或Webeditor的所需部分。
+description: 借助Guides扩展框架，您可以使用易于更新的JSON、CSS和JavaScript来自定义审阅Ui或Webeditor的所需部分。
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 在系统中工作时，企业/用户通常希望自定义按钮、操作或显示信息以满足其操作并提高其工作效率。 Extension Framework允许在AEM Guides上创建自定义软件包，以扩展用户界面及其行为。 这些自定义包对于开发人员和顾问非常有用，使他们可以在编辑器/审阅UI中实现组件的可扩展性。 他们可以定位按钮、对话框和下拉列表，并添加可轻松与AEM Guides UI交互操作的自定义JavaScript。
 
-在此会话中，通过实际情景的帮助，您将了解如何自定义或扩展AEM Guides的审阅和Web编辑器UI。
+在此会话中，通过实际情景的帮助，您将了解如何自定义或扩展AEM Guides的审核和Web编辑器UI。
 
 ## 会话录制
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 ## 高亮
 
 - **日期** - 2023年11月2日
-- **与会者人数** - 119
+- **出席人数** - 119
 - **持续时间** - 60分钟
-- **受众**  — 客户、合作伙伴和Adobe员工
+- **受众** — 客户、合作伙伴和Adobe员工
 
 ## 要点
 
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 - **扩展框架基本存储库** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **文档** - [Experience League时](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)上的&#x200B;**文档** - [
 
-- **记录的常见用例** - [Experience League时](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **已记录Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)上的常见用例** - [
 
-- **带示例的公共存储库** - [在GIT上](https://github.com/adobe/guides-extension/tree/sc-expert-session). 参阅分支sc-expert-session
+- 在GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)上有&#x200B;**公共存储库（带有示例）** - [。 参阅分支sc-expert-session
 
 
 >[!NOTE]
@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 联系我们
 
-如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>
+如有任何疑问，请发送电子邮件至<techcomm@adobe.com>

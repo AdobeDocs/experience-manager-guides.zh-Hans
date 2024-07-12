@@ -39,13 +39,13 @@ const value = this.getValue("key")
 ## 查看
 
 该视图定义应用程序的UI。 我们使用JSON文件来定义文件的视图。 在本例中，我们定义组件和css（如组件外的示例中所提供），并渲染存储在模型中的值。
-在我们的应用程序中，每个视图都使用JSON进行定义。 JSON通过其唯一ID进行引用，该ID称为 `id`.
+在我们的应用程序中，每个视图都使用JSON进行定义。 JSON是使用其称为`id`的唯一ID引用的。
 
 ## 控制器
 
 控制器用于处理事件和处理数据。 控制器用于从服务器获取和发送数据，是UI上显示的内容与存储在后端上的内容之间的接口。
 
-- 要在初始化时设置值，我们使用 `init` 函数。
+- 要在初始化时设置值，我们使用`init`函数。
 - 要将方法添加到控制器，请使用以下语法：
 
 ```typescript
@@ -54,7 +54,7 @@ methodName: function(args){
 }
 ```
 
-此 `methodName` 此处用作 `key` 在JSON（视图）或其他函数中引用方法
+此处的`methodName`用作引用JSON（视图）或其他函数中的方法的`key`
 
 - 要在控制器中调用方法，请使用语法
 
@@ -69,7 +69,7 @@ this.next('methodName', args)
 
 ### 查看示例
 
-下面我们定义了一个按钮的JSON，该按钮显示在变量名称下存储在模型中的动态文本 `buttonLabel`.
+下面我们定义了一个按钮的JSON，该按钮显示在变量名称`buttonLabel`下存储在模型中的动态文本。
 在此示例中，单击按钮将更改其标签。
 
 ```JSON
@@ -83,7 +83,7 @@ this.next('methodName', args)
 
 ### 模型示例
 
-这种情况下， `extraProps.buttonLabel` 保存按钮的标签
+在这种情况下，`extraProps.buttonLabel`保存按钮的标签
 
 ### 控制器示例
 

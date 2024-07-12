@@ -13,14 +13,15 @@ ht-degree: 1%
 
 # 4.2.1版本的Adobe Experience Manager Guides（2023年5月）
 
-本发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.2.1中修复的问题(以后称为 *AEM指南*)。
+此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.2.1中修复的问题(更高版本称为&#x200B;*AEM Guides*)。
 
-有关新增功能和增强功能的更多信息，请参阅 [Adobe Experience Manager Guides 4.2.1版的新增功能](whats-new-4-2-1-release.md).
+有关新增功能和增强功能的详细信息，请参阅[Adobe Experience Manager Guides 4.2.1版的新增功能](whats-new-4-2-1-release.md)。
 
 ## 升级到AEM Guides的4.2.1版本
 
 
-您可以轻松将AEM Guides的当前版本升级到4.2.1版在继续升级到AEM Guides的4.2.1版之前，您必须考虑以下几点：您可以将您的AEM Guides的当前版本升级到4.2.1版
+您可以轻松地将当前AEM Guides版本升级到版本4.2.1在继续升级到版本4.2.1的AEM Guides之前，必须考虑以下几点：
+您可以将当前版本的AEM Guides升级到版本4.2.1
 * 如果您使用的是版本4.1、4.1.x或4.2，则可以直接升级到版本4.2.1。
 * 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.2.1。
 * 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
@@ -30,11 +31,11 @@ ht-degree: 1%
 >
 >在升级AEM Guides版本之前，必须安装AEM Service Pack。
 
-有关详细信息，请参阅 [升级说明](../install-guide/upgrade-xml-documentation.md).
+有关详细信息，请参阅[升级说明](../install-guide/upgrade-xml-documentation.md)。
 
 ## 兼容性矩阵
 
-本节列出了AEM Guides 4.2支持的软件应用程序的兼容性矩阵。 1版。
+本部分列出了AEM Guides 4.2支持的软件应用程序的兼容性矩阵。 1版。
 
 ### Adobe Experience Manager
 
@@ -44,7 +45,7 @@ ht-degree: 1%
 **UUID**
 版本6.5 Service Pack 15、14、13或12
 
-欲知更多详情，请参见 *技术要求* 安装和配置Adobe Experience Manager Guides指南中的部分。
+有关更多详细信息，请参阅《安装和配置Adobe Experience Manager Guides指南》中的&#x200B;*技术要求*&#x200B;部分。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -82,7 +83,7 @@ ht-degree: 1%
 * 使用自定义架构加载内容时，浏览器（Web编辑器）冻结。 (11211)
 * 本机PDF | 使用“添加到文件夹配置文件”选项创建输出预设时，PDF生成失败，出现空指针异常。 (10950)
 * 本机PDF | 图像标记向所有图像添加display-inline属性。 (10653)
-* 在YouTube格式下，插入音频和视频多媒体文件失败 **插入多媒体** 图标。 (11320)
+* 在&#x200B;**插入多媒体**&#x200B;图标下，以YouTube格式插入音频和视频多媒体文件失败。 (11320)
 * 使用具有专门化标题元素的模板创建映射时，会发生验证错误。 (11212)
 * Web编辑器 | 编辑主题时，会在XML编辑器中添加不间断的空间。 (11786)
 
@@ -90,20 +91,20 @@ ht-degree: 1%
 
 * Web编辑器UI中的“报表”选项卡不显示4.2升级之前创建的旧DITA映射的主题列表。 (11708)
 
-* 4.2版本中的资产UI中的“上传文件”按钮功能中断。 (11633)
+* Assets UI中的“上传文件”按钮功能在4.2版本中中断。 (11633)
 
 
 ### 发布
 
 * 本机PDF | 如果发布的内容具有带brackets()的输出类，则会导致发布冻结。 (11936)
-* JSON输出 | 将属性值映射为的元数据 `"value in spaces and double quotes"` 会导致发布错误。 (11933)
+* JSON输出 | 将属性值映射为`"value in spaces and double quotes"`的元数据会导致发布错误。 (11933)
 * AEM站点搜索中出现问题（在2-3级节点之外不起作用）。 (11352)
 * Web编辑器 | 无法在AEM预设中选择输出路径和模板。 (11530)
 * 从4.1.x版本升级到4.2版本时，本机PDF引擎不起作用，并且会引发NullPointerException，即使对于支持的操作系统也是如此。(11526)
 * 下载PDF过程在Web编辑器中无法正常工作。 (11496)
 * 本机PDF | 缺省情况下，在生成的输出中隐藏草稿注释。 (10560)
 * 本机PDF | navtitle不用于表示主题标题。 (10509)
-* 本机PDF | 正在添加 `xref` 对于图像，不会在生成的PDF上渲染图像。 (11346)
+* 本机PDF | 将`xref`添加到图像不会渲染所生成PDF上的图像。 (11346)
 * 本机PDF | 表标题中的脚注导致PDF输出中相应页脚中的粗体和居中对齐文本。 (10610)
 
 ### 翻译

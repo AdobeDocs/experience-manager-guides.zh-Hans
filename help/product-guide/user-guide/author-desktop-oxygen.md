@@ -1,6 +1,6 @@
 ---
 title: 使用氧气
-description: 了解AEM Guides中针对内容创作和发布的氧XML编辑器支持。
+description: 了解对AEM Guides中内容创作和发布的氧XML编辑器支持。
 exl-id: 7c1a610c-e203-4298-9b29-457aef5e8c94
 feature: Authoring, Desktop Tools
 role: User
@@ -17,6 +17,6 @@ ht-degree: 0%
 
 您可以使用相同的源生成PDF、ePub、HTML和许多其他格式的输出。
 
-*请联系您的客户成功团队以在环境中启用此功能。 这并非开箱即用支持的一部分。*
+*联系您的客户成功团队以在环境中启用此功能。 这并非现成支持的一部分。*
 
 **父主题：**[&#x200B;使用桌面工具创作内容](author-desktop-tools.md)

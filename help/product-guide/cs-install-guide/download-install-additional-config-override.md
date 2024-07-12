@@ -16,7 +16,7 @@ ht-degree: 0%
 
 要进行任何配置更新，应使用以下通用方法：
 
-1. 访问您的Cloud Manager的Git存储库。
+1. 访问Cloud Manager的Git存储库。
 
 1. 在以下位置创建新的JSON文件：
 

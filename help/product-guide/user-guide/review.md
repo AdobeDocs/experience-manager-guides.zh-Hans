@@ -15,7 +15,7 @@ ht-degree: 0%
 
 几乎所有技术文档都需要经过多轮审核。 在大多数情况下，审核周期涉及多个审核者。 对于作者而言，解答和响应多个审阅人的评论始终是一项挑战。 此外，在多个审阅人方案中，如果一个审阅人还可以看到其他审阅人所做的评论，这很有帮助。
 
-AEM Guides提供的 *启动器\（或作者\）* 为：
+AEM Guides为&#x200B;*启动器\（或作者\）*&#x200B;提供的某些主要功能包括：
 
 - 为审阅工作流创建DITA项目。
 - 在单个审阅任务中发送一个或多个要审阅的主题。
@@ -35,7 +35,7 @@ AEM Guides提供的 *启动器\（或作者\）* 为：
 - 自动将\（已删除或插入\）注释导入共享供审阅的主题版本中。
 
 
-可供使用的功能 *审阅者*：
+*审阅人*&#x200B;可用的功能：
 
 - 获取共享供审阅的主题的复合视图。
 - 在复合视图和单个主题视图之间切换。
@@ -51,16 +51,16 @@ AEM Guides提供的 *启动器\（或作者\）* 为：
 
 >[!NOTE]
 >
-> 请参阅 *审核* 最佳实践指南中有关创建审核任务的最佳实践的部分。
+> 有关创建审核任务的最佳实践，请参阅最佳实践指南中的&#x200B;*审核*&#x200B;部分。
 
 - **[创建DITA项目](authoring-create-dita-project.md)**
 
 - **[发送主题以供审阅](review-send-topics-for-review.md)**
 
-- **[使用通知重新分配审核任务](reassign-review-using-notification.md)**
+- **[使用通知重新分配审阅任务](reassign-review-using-notification.md)**
 
-- **[查看主题](review-topics.md)**
+- **[审核主题](review-topics.md)**
 
-- **[地址审核注释](review-address-review-comments.md)**
+- **[地址审核评论](review-address-review-comments.md)**
 
-- **[使用审阅功能板管理审阅任务](review-manage-tasks-review-dashboard.md)**
+- **[使用审阅仪表板管理审阅任务](review-manage-tasks-review-dashboard.md)**

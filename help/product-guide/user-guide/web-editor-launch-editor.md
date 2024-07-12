@@ -27,15 +27,15 @@ ht-degree: 0%
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-单击 **指南** 链接会将您直接转到Web编辑器。
+单击&#x200B;**Guides**&#x200B;链接将直接转到Web编辑器。
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 由于您启动了Web编辑器而未选择任何文件，因此将显示一个空白的Web编辑器屏幕。 您可以从AEM存储库或“收藏夹”收藏集中打开文件进行编辑。
 
-- 单击 **指南** 图标(![](images/aem-guides-icon.png) )，以返回到“AEM导航”页面。
+- 单击&#x200B;**Guides**&#x200B;图标(![](images/aem-guides-icon.png))以返回AEM导航页面。
 
-- 此 **关闭** 按钮会根据您的设置引导您转到目标：
+- “**关闭**”按钮根据您的设置将您转到目标：
 
 
 
@@ -43,14 +43,14 @@ ht-degree: 0%
 
   <summary> Cloud Service </summary>
 
-  如果您使用的是Cloud Service，请单击 **关闭** 按钮以返回“AEM导航”页面。
+  如果您正在使用Cloud Service，请单击&#x200B;**关闭**&#x200B;按钮以返回“AEM导航”页。
   </details>
 
   <details>
 
   <summary> 内部部署软件</summary>
 
-  如果您使用的是AEM Guides On-premise Software（4.2.1及更高版本），请单击 **关闭** 按钮返回资产UI中的当前文件路径。
+  如果您使用的是AEM Guides On-premise Software（4.2.1及更高版本），请单击右侧的&#x200B;**关闭**&#x200B;按钮，以返回到Assets UI中的当前文件路径。
 
   </details>
 
@@ -72,11 +72,11 @@ ht-degree: 0%
    >
    > 确保您对包含要编辑的主题的文件夹具有读写权限。
 
-1. 要获得对主题的独占锁定，请选择该主题并单击 **签出**.
+1. 若要获得该主题的独占锁定，请选择该主题，然后单击&#x200B;**签出**。
 
    >[!IMPORTANT]
    >
-   > 如果您的管理员已配置 **禁用“编辑而不签出”** 选项，则在编辑之前必须签出文件。 如果不签出文件，您将看不到编辑选项。
+   > 如果管理员配置了&#x200B;**禁用编辑而不签出**&#x200B;选项，则必须在编辑之前签出文件。 如果不签出文件，您将看不到编辑选项。
 
 1. 关闭资源选择模式，然后单击要编辑的主题。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. 单击 **编辑** 以在Web编辑器中打开主题。
+1. 单击&#x200B;**编辑**&#x200B;在Web编辑器中打开主题。
 
    ![](images/edit-mode.png){width="800" align="left"}
 
@@ -103,17 +103,17 @@ ht-degree: 0%
 
 要从DITA映射控制台中打开Web编辑器，请执行以下步骤：
 
-1. 在资产UI中，导航到包含要编辑的主题的DITA映射文件并单击该文件。
+1. 在Assets UI中，导航到包含要编辑的主题的DITA映射文件并单击该文件。
 
    将显示DITA映射控制台。
 
-1. 单击 **主题**.
+1. 单击&#x200B;**主题**。
 
    将显示映射文件中的主题列表。 主题的UUID显示在主题标题的下方。
 
 1. 选择要编辑的主题文件。
 
-1. 单击 **编辑主题**.
+1. 单击&#x200B;**编辑主题**。
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   > 如果您的管理员已配置 **禁用“编辑而不签出”** 选项，则在编辑之前必须签出文件。 如果未签出文件，则文档将在编辑器中以只读模式打开。
+   > 如果管理员配置了&#x200B;**禁用编辑而不签出**&#x200B;选项，则必须在编辑之前签出文件。 如果未签出文件，则文档将在编辑器中以只读模式打开。
 
 
 **父主题：**[&#x200B;使用Web编辑器](web-editor.md)

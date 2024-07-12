@@ -23,30 +23,30 @@ ht-degree: 9%
 
 翻译内容涉及以下步骤：
 
-1. 将AEM与您的 [翻译服务提供商](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) 和创建翻译集成框架配置。
+1. 将AEM与您的[翻译服务提供商](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)连接并创建翻译集成框架配置。
 
 1. 将语言母版页面关联到翻译服务和框架配置。
 
-1. 识别类型 [要翻译的内容](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. 标识要翻译的[内容的类型](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en)。
 
 1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)。
 
-1. 创建 [翻译项目](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) 收集要翻译的内容并准备翻译过程。
+1. 创建[翻译项目](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)以收集要翻译的内容并准备翻译过程。
 
-1. 将翻译项目用于 [管理内容翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) 进程。
+1. 使用翻译项目[管理内容翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)进程。
 
 
 如果翻译服务提供商不提供连接器来与AEM集成，则AEM支持以XML格式手动导出和导入已翻译内容。
 
 >[!TIP]
 >
-> 请参阅 *翻译* 部分，了解翻译内容的最佳实践。
+> 有关翻译内容的最佳实践，请参阅最佳实践指南中的&#x200B;*翻译*&#x200B;部分。
 
 ## 在DITA映射仪表板上配置翻译选项卡
 
 要在DITA map操控板上隐藏翻译选项卡，请执行以下步骤：
 
-1. 请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。
+1. 使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。
 1. 在配置文件中，提供以下\（属性\）详细信息以在映射功能板上配置翻译选项卡：
 
    | PID | 属性键 | 属性值 |
@@ -62,11 +62,11 @@ ht-degree: 9%
 
 如果翻译供应商的连接器不支持DITA内容，则需要启用基于组件的翻译工作流。 启用后，可翻译内容将作为资产元数据发送。 但是，连接器需要支持此工作流的资产元数据翻译才能正常工作。
 
-根据设置中使用的翻译工作流，应配置基于组件的翻译工作流选项。 请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。 在配置文件中，提供以下\（属性\）详细信息以配置基于组件的翻译工作流：
+根据设置中使用的翻译工作流，应配置基于组件的翻译工作流选项。 使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下\（属性\）详细信息以配置基于组件的翻译工作流：
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布尔型： <br>  — 如果您使用人工翻译，则 *禁用* \( `false`\) **基于组件的翻译工作流** 选项。 <br>  — 如果您使用的是机器翻译，则 *启用\( `true`\)* 该 **基于组件的翻译工作流** 选项。 |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布尔值： <br> -   如果您使用的是人工翻译，则&#x200B;*禁用* \( `false`\) **基于组件的翻译工作流**&#x200B;选项。 <br> -   如果您正在使用机器翻译，则&#x200B;*启用\( `true`\)* **基于组件的翻译工作流**&#x200B;选项。 |
 
 
 
@@ -74,20 +74,20 @@ ht-degree: 9%
 
 建议您使用最新的翻译工作流，该工作流可提高性能。 但是，如果您要使用旧版翻译工作流，则可以对其进行配置。
 
-请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。 在配置文件中，提供以下（属性）详细信息以配置旧版翻译工作流：
+使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下（属性）详细信息以配置旧版翻译工作流：
 
 
 
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布尔型： <br>  — 如果您使用最新的翻译工作流，则 *禁用* \( `false`\) **运行旧版翻译工作流** 选项。 默认情况下，将启用最新的翻译工作流。 <br>  — 如果您使用旧版翻译，则 *启用\( `true`\)* 该 **运行旧版翻译工作流** 选项。 |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布尔值： <br> — 如果您使用最新的翻译工作流，则&#x200B;*禁用* \(`false`\) **运行旧版翻译工作流**&#x200B;选项。 默认情况下，将启用最新的翻译工作流。 <br> -   如果使用旧版翻译，则&#x200B;*启用\( `true`\)* **运行旧版翻译工作流**&#x200B;选项。 |
 
 
 
 >[!NOTE]
 >
-> 如果您使用的是翻译连接器，请确保已按照 *[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Adobe Experience Manager主题。
+> 如果您使用的是翻译连接器，请确保已按照Adobe Experience Manager文档中的&#x200B;*[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)*&#x200B;主题中所述配置连接器。
 
 >[!IMPORTANT]
 >
@@ -97,9 +97,9 @@ ht-degree: 9%
 
 启动翻译工作流时，系统会创建源内容的临时语言副本。 您可以选择对这些临时文件启用或禁用后处理操作。 在后处理操作中，解析来自文件的传入和传出引用，设置文档状态以及其他操作。 如果对这些临时文件启用后处理，则翻译过程可能需要更长的时间才能完成。 因此，建议禁用后处理选项。
 
-请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。 在配置文件中，提供以下\(property\)详细信息以配置临时语言副本的后处理：
+使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下\(property\)详细信息以配置临时语言副本的后处理：
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔型： <br>  — 如果不想对临时文件运行后处理操作，则 *禁用* \( false\) **后处理语言副本** 选项。<br>  — 如果要对临时文件运行后处理操作，则 *启用* \( true\) **后处理语言副本** 选项。<br> **默认值**： false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔值： <br> -   如果不想对临时文件运行后处理操作，则&#x200B;*禁用* \( false\) **Post进程语言副本**&#x200B;选项。<br> -   如果要对临时文件运行后处理操作，请&#x200B;*启用* \( true\) **Post进程语言副本**&#x200B;选项。<br> **默认值**： false |
 

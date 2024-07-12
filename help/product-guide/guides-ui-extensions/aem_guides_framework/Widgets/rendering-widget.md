@@ -2,7 +2,8 @@
 title: 渲染构件
 description: 呈现如何在JUI小组件中工作
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 381cc7b9-c957-40be-9db4-8347eefe2fa7
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # 渲染构件
 
-我们可以通过引用小组件来呈现它，它使用 `id`
+我们可以通过使用小部件的`id`引用它来呈现该小部件
 
-渲染构件 `widget_languages` 在应用程序中的任意位置，我们可以使用简单语法：
+要在应用程序中的任意位置呈现构件`widget_languages`，可以使用简单语法：
 
 ```json
 {
@@ -67,7 +68,7 @@ const listJSON = {
 }
 ```
 
-此处 `@files` 是包含字段的文件对象列表
+此处`@files`是包含字段的文件对象列表
 
 ```typescript
 - fileName: string

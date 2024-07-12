@@ -17,7 +17,7 @@ AEM Guides具有内置的PDF发布引擎，该引擎为用户提供了以PDF格�
 
 ## 会话概述
 
-在此会话中，您将了解如何使用AEM Guides中的本机PDF引擎发布PDF
+在本课程中，您将了解如何使用AEM Guides中的本机PDF引擎发布PDF
 
 ## 会话录制
 
@@ -28,7 +28,7 @@ AEM Guides具有内置的PDF发布引擎，该引擎为用户提供了以PDF格�
 - **日期** - 2023年2月23日
 - **与会者人数** - 135
 - **持续时间** - 60分钟
-- **受众**  — 客户、合作伙伴和Adobe员工
+- **受众** — 客户、合作伙伴和Adobe员工
 
 ## 要点
 
@@ -41,18 +41,18 @@ AEM Guides具有内置的PDF发布引擎，该引擎为用户提供了以PDF格�
 
 ## 相关资源
 
-- **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **用户指南** - [本机PDF发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **社区论坛**  — 对于特定于Experience League会话的社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社区论坛** — 对于Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 >[!NOTE]
 >
-> 此会话中显示的功能在以下版本的AEM Guides中可用：
+> 此会话中显示的功能在以下版本的AEM Guides上可用：
 > - 内部部署4.2或更高版本
 > - Cloud Service2211及更高版本
 
 ## 联系我们
 
-如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>
+如有任何疑问，请发送电子邮件至<techcomm@adobe.com>

@@ -1,5 +1,5 @@
 ---
-title: 升级AEM指南
+title: 升级AEM Guides
 description: 了解如何升级AEM Guides
 exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# 升级AEM指南 {#id213BD050YPH}
+# 升级AEM Guides {#id213BD050YPH}
 
-1. 访问您的Cloud Manager的Git存储库。
+1. 访问Cloud Manager的Git存储库。
 
 1. 更新dox/dox.installer/pom.xml文件。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 有关使用CI/CD管道的更多详细信息，请参阅 [在AdobeCloud Manager中使用CI/CD管线](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
+> 有关使用CI/CD管道的更多详细信息，请参阅[在AdobeCloud Manager中使用CI/CD管道](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html)。
 
 ## 清除浏览器缓存
 

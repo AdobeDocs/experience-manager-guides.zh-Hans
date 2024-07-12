@@ -11,16 +11,17 @@ ht-degree: 1%
 
 ---
 
-# Adobe Experience Manager Guides的4.3.0版（2023年7月）
+# 4.3.0版本的Adobe Experience Manager Guides（2023年7月）
 
-本发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides 4.3.0版本(以后称为 *AEM指南*)。
+此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.3.0中修复的问题(更高版本称为&#x200B;*AEM Guides*)。
 
-有关新增功能和增强功能的更多信息，请参阅 [Adobe Experience Manager Guides 4.3.0版的新增功能](./whats-new-4-3-release.md).
+有关新增功能和增强功能的详细信息，请参阅[Adobe Experience Manager Guides 4.3.0版本中的新增功能](./whats-new-4-3-release.md)。
 
 ## 升级到AEM Guides的4.3.0版本
 
 
-您可以轻松将AEM Guides的当前版本升级到4.3.0版。在继续升级到4.3.0版本的AEM Guides之前，您必须考虑以下几点：您可以将当前版本的AEM Guides升级到4.3.0版本
+您可以轻松地将当前版本的AEM Guides升级到版本4.3.0。在继续升级到版本4.3.0的AEM Guides之前，必须考虑以下几点：
+您可以将当前版本的AEM Guides升级到版本4.3.0
 
 - 如果您使用的是版本4.2或4.2.x ，则可以直接升级到版本4.3.0。
 - 如果您使用的是版本4.1或4.1.x ，则需要先升级到版本4.2或4.2.x ，然后再升级到版本4.3.0。
@@ -34,11 +35,11 @@ ht-degree: 1%
 >
 >在升级AEM Guides版本之前，必须安装AEM Service Pack。
 
-有关详细信息，请参阅 [升级说明](../install-guide/upgrade-xml-documentation.md).
+有关详细信息，请参阅[升级说明](../install-guide/upgrade-xml-documentation.md)。
 
 ## 兼容性矩阵
 
-本节列出了AEM Guides 4.3.0版本支持的软件应用程序的兼容性矩阵。
+本部分列出了AEM Guides 4.3.0版本支持的软件应用程序的兼容性矩阵。
 
 ### Adobe Experience Manager
 
@@ -48,7 +49,7 @@ ht-degree: 1%
 **4.3.0 UUID**
 版本6.5 Service Pack 18、17、16、15或14
 
-欲知更多详情，请参见 *技术要求* 安装和配置Adobe Experience Manager Guides指南中的部分。
+有关更多详细信息，请参阅《安装和配置Adobe Experience Manager Guides指南》中的&#x200B;*技术要求*&#x200B;部分。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -79,7 +80,7 @@ ht-degree: 1%
 - 在Web编辑器中，主工具栏中锁定和解锁文件图标的工具提示与存储库视图中显示的图标不一致。(12555)
 - 在Web编辑器中，对于尚未在“映射视图”中签出的文件，将显示“取消签出”和“解锁”选项。 (12556)
 - 无法在现有“topicref”链接中选择PDF资源。 (12477)。
-- 在表中执行合并和拆分时，AEM Guides 4.2会生成其他表单元格。 (11793)
+- 在表中执行合并和拆分时，AEM Guides 4.2会生成额外的表单元格。 (11793)
 - 在“存储库视图”中，使用搜索/筛选功能后无法拖动主题或图像。 (12396)
 - 打开一个搜索的文件后，会在“查找和替换”面板中禁用搜索结果。 (12142)
 - 侧键盘上的“8”数字键在AEM Guides编辑器中不起作用。 (12106)
@@ -92,7 +93,7 @@ ht-degree: 1%
 - 资产UI | 在“列表”视图中，叠加的可用列不可合并。 (11528)
 - 未在映射视图中解析Keyref。 (11490)
 - 通过XML编辑器导航时，顶部菜单不显示。 (10868)
-- `conref` 在ph标记中 | 显示的浏览对话框不正确。 (9481)
+- ph标记中的`conref` | 显示的浏览对话框不正确。 (9481)
 - 在Web编辑器中不会解析指向其他元素的本地链接。 (8790)
 - Matches()函数在架构功能中不起作用。 (11224)
 
@@ -100,7 +101,7 @@ ht-degree: 1%
 
 ### 管理
 
-- DITA映射元数据属性中的“title”字段被覆盖 `<title>` 映射的元素。 (10702)
+- DITA映射元数据属性中的“title”字段被映射的`<title>`元素覆盖。 (10702)
 - 当尝试打开或更新基线中的主题版本时，“从服务器获取信息”加载程序将无限期运行。(12478)
 
 
@@ -115,26 +116,27 @@ ht-degree: 1%
 - 本机PDF | 无法将生成的PDF中的语言元数据设置为符合WCAG 2.0。 (12407)
 - 从可能刷新或重新启动的面板中读取临时文件时，发布到AEM站点失败。 (12113)
 - 本机PDF | 自定义属性不会传播到临时HTML或PDF引擎。 (DXML-12005)
-- 本机PDF | 发布大型内容时出现Java OutOfMemoryError。 (11789)
+- 本机PDF |  发布大型内容时出现Java OutOfMemoryError。 (11789)
 - 本机PDF | Xref正在打印href主题标题的内容而不是Xref标签。 (11322)
 - 本机PDF | 无法保存PDF模板设置。 (10751)
 - 本机PDF | 文本在包含多个xref时超出列宽。 (10876)
-- 本机PDF | `<note>``</note>` 元素不会生成其类型的额外范围标题。 (10549)
-- JSON输出 | 此 `fmUuid` JSON的jcr：content节点上的属性不同于JSON中的“id”。 (11564)
+- 本机PDF | `<note>``</note>`元素未生成其类型的额外范围标题。 (10549)
+- JSON输出 | JSON的jcr：content节点上的`fmUuid`属性不同于JSON中的“id”。 (11564)
 - JSON输出 | 如果存在具有相同文件名的映射和主题，则将删除映射的JSON。 (11524)
 
 ## 已知问题
 
-Adobe已发现AEM Guides 4.3.0版的以下已知问题：
+Adobe已发现AEM Guides 4.3.0版本的以下已知问题：
 
 - 在基本模板中定义的通用页面布局不会应用为默认模板。
 
-  解决方法：将通用页面布局添加为前后封面，然后它开始出现在每个页面。
+  解决方法：
+添加通用页面布局作为前后封面，然后它会开始出现每个页面。
 - 在AEM Service Pack 16或17的AEM站点输出页面中搜索时，站点搜索中出现问题。
 
   解决方法：
 
-   1. 打开文件，路径为： `/libs/foundation/components/search/search.jsp` 在 `crx/de`
+   1. 在`crx/de`中打开路径为`/libs/foundation/components/search/search.jsp`的文件
    1. 将行号234替换为以下代码：
 
       ```

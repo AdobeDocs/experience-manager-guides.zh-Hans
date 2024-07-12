@@ -1,6 +1,6 @@
 ---
-title: 配置Dispatch
-description: 了解如何配置调度程序
+title: 配置Dispatcher
+description: 了解如何配置Dispatcher
 exl-id: 525de1c3-5a79-4d65-89b4-ca05ae660c2c
 feature: Installation
 role: Admin
@@ -12,13 +12,13 @@ ht-degree: 5%
 
 ---
 
-# 配置Dispatch {#id213BCM0M05U}
+# 配置Dispatcher {#id213BCM0M05U}
 
-如果您打算在AEM创作实例上将Dispatcher与AEM Guides结合使用，则需要执行以下其他配置以完成设置：
+如果您计划在AEM创作实例上将Dispatcher与AEM Guides结合使用，则需要执行以下其他配置以完成设置：
 
 >[!NOTE]
 >
-> Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关使用Dispatcher的更多详细信息，请参阅 [Dispatcher概述](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
+> Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关使用Dispatcher的详细信息，请参阅[Dispatcher概述](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en)。
 
 ## 在URL中启用AllowEncodedSlases
 
@@ -60,13 +60,13 @@ ht-degree: 5%
 1. 保存并关闭该文件。
 
 
-此配置更新确保Dispatcher渲染的DITA映射和主题文件在Assets UI中显示为HTML。
+此配置更新可确保Dispatcher渲染的DITA映射和主题文件在Assets UI中显示为HTML。
 
 ## 允许用户首选项请求URL
 
-在将Dispatcher与AEM Guides结合使用时，如果您的创作实例前面有一个Dispatcher，则进行以下两项更改：
+在将Dispatcher与AEM Guides结合使用时，如果您的创作实例前面有调度程序，则进行以下两项更改：
 
-- 将POST请求URL列入白名单。 示例» `/filters`”规则如下所示 — 将此规则添加到Dispatcher配置文件：
+- 将POST请求URL列入白名单。 下面提供了示例“`/filters`”规则 — 将此规则添加到Dispatcher配置文件：
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}

@@ -1,5 +1,5 @@
 ---
-title: 本机PDF发布功能 | 使用JavaScript处理内容或样式
+title: 本机PDFPublish功能 | 使用JavaScript处理内容或样式
 description: 了解如何为内容创建使用样式表和样式。
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # 使用JavaScript处理内容或样式
 
-本机PDF发布功能允许您运行JavaScript以处理在生成最终PDF之前应用于内容的内容或样式。 此功能可让您完全控制最终输出的生成方式。 例如，您可能希望向PDF输出(位于另一个PDF中)添加法律声明信息。 使用JavaScript，您可以在为基本PDF创建PDF后、生成最终内容之前添加法律声明信息。\
-为了支持JavaScript执行，“本机PDF发布”功能提供了以下回调函数：
+本机PDF发布功能允许您运行JavaScript以处理在生成最终PDF之前应用于内容的内容或样式。 此功能可让您完全控制最终输出的生成方式。 例如，您可能希望向PDF输出(位于另一个PDF中)添加法律声明信息。 使用JavaScript，您可以在为基本PDF创建内容后，但在生成最终PDF之前添加法律声明信息。\
+为了支持JavaScript执行，本机PDF发布功能提供了以下回调函数：
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`：此回调函数在生成目录之前执行。
-* `window.pdfLayout.onBeforePagination(callback)`：此回调函数在生成目录之后、但在PDF中添加分页符之前执行。
-* `window.pdfLayout.onAfterPagination(callback)`：此回调函数在目录和分页符添加到PDF中之后执行。
+* `window.pdfLayout.onBeforePagination(callback)`：此回调函数在生成目录之后，但在PDF中添加分页符之前执行。
+* `window.pdfLayout.onAfterPagination(callback)`：此回调函数在PDF中添加了目录和分页符之后执行。
 
 >[!NOTE]
 >
@@ -30,8 +30,8 @@ ht-degree: 0%
 在下面的示例中，图标题的位置从图像上方更改为图像下方。 为此，您需要在预设中启用JavaScript执行选项。 为此，请执行以下步骤：
 
 1. 打开预设进行编辑。
-1. 转到 **高级** 选项卡。
-1. 选择 **启用JavaScript** 选项。
+1. 转到&#x200B;**高级**&#x200B;选项卡。
+1. 选择&#x200B;**启用JavaScript**&#x200B;选项。
 1. 保存预设并关闭。
 
 接下来，使用以下代码创建一个JavaScript文件，并将其保存在模板的Resources文件夹中：
@@ -63,9 +63,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
 >[!NOTE]
 >
->此 `window.addEventListener('DOMContentLoaded', function ()` 必须先调用函数，然后才能使用回调函数。
+>必须先调用`window.addEventListener('DOMContentLoaded', function ()`函数，然后才能使用回调函数。
 
-接下来，必须从用于生成PDF输出的模板文件中调用此脚本。 例如，我们将其添加到目录模板中。 确保 `<script>` 标记被添加到预定义的 `<div>` 标记内 `<body>` 标记之前。 如果您将其添加到 `<head>` 标记或标记之外 `<body>` 标记时，脚本将不会执行。
+接下来，必须从用于生成PDF输出的模板文件中调用此脚本。 例如，我们将其添加到目录模板中。 确保`<script>`标记已添加到`<body>`标记内的预定义`<div>`标记中。 如果您将其添加到`<head>`标记中或`<body>`标记之外，则脚本将不会执行。
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -101,6 +101,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-使用此代码生成的PDF输出会显示水印 *草稿* 在文档的封面上：
+使用此代码生成的PDF输出在文档的封面上显示水印&#x200B;*草稿*：
 
 <img src="./assets/draft-watermark.png" width="500">

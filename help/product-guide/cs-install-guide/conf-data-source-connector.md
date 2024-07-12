@@ -40,7 +40,7 @@ Jira使用用户名和密码进行基本身份验证的示例设置文件：
 }
 ```
 
-例如，另存为 `jira.json`.
+例如，另存为`jira.json`。
 
 Jira带令牌的基本身份验证的示例设置文件：
 
@@ -59,7 +59,7 @@ Jira带令牌的基本身份验证的示例设置文件：
 }
 ```
 
-例如，另存为 `jira.json`.
+例如，另存为`jira.json`。
 
 Jira基本身份验证的示例设置文件，其中包含具有“Basic”关键字的令牌：
 
@@ -78,7 +78,7 @@ Jira基本身份验证的示例设置文件，其中包含具有“Basic”关�
 }
 ```
 
-例如，另存为 `jira.json`.
+例如，另存为`jira.json`。
 
 MySql基本身份验证的示例安装文件：
 
@@ -99,7 +99,7 @@ MySql基本身份验证的示例安装文件：
 }
 ```
 
-例如，另存为 `mysql.json`.
+例如，另存为`mysql.json`。
 
 PostgreSQL基本身份验证的示例设置文件：
 
@@ -120,7 +120,7 @@ PostgreSQL基本身份验证的示例设置文件：
 }
 ```
 
-例如，另存为 `postgres.json`.
+例如，另存为`postgres.json`。
 
 Microsoft SQL Server基本身份验证的示例安装文件：
 
@@ -141,7 +141,7 @@ Microsoft SQL Server基本身份验证的示例安装文件：
 }
 ```
 
-例如，另存为 `mssqlserver.json`.
+例如，另存为`mssqlserver.json`。
 
 SQLite基本身份验证的示例安装文件：
 
@@ -162,7 +162,7 @@ SQLite基本身份验证的示例安装文件：
 }
 ```
 
-例如，另存为 `sqqlite.json`.
+例如，另存为`sqqlite.json`。
 
 
 
@@ -185,7 +185,7 @@ H2DB的示例设置文件：
 }
 ```
 
-例如，另存为 `sqqlite.json`.
+例如，另存为`sqqlite.json`。
 
 
 
@@ -208,7 +208,7 @@ MariaDb基本身份验证的示例设置文件：
 }
 ```
 
-例如，另存为 `mariadb.json`.
+例如，另存为`mariadb.json`。
 
 
 用于Elasticsearch基本身份验证的示例设置文件：
@@ -228,7 +228,7 @@ MariaDb基本身份验证的示例设置文件：
 }
 ```
 
-例如，另存为 `ES.json`.
+例如，另存为`ES.json`。
 
 Elastic Search的查询应包括索引和查询：
 
@@ -260,11 +260,11 @@ AdobeCommerce NoAuth的示例设置文件：
 }
 ```
 
-例如，另存为 `commerce.json`.
+例如，另存为`commerce.json`。
 
 ### 自定义连接器配置
 
-AEM Guides允许您自定义配置文件中的某些值以满足用户的需求。
+AEM Guides允许您自定义配置文件中的某些值，以满足用户的需求。
 
 | 属性名称 | 描述 |
 |---|---|
@@ -277,10 +277,10 @@ AEM Guides允许您自定义配置文件中的某些值以满足用户的需求�
 
 将文件上传到AEM Assets中的某个位置。
 
-例如，  `/content/dam/jira.json`
+例如，`/content/dam/jira.json`
 
 ## 使用REST API创建配置
 
-您可以使用REST API注册配置。 有关更多详细信息，请查看 *用于注册数据源连接器的REST API* 部分(Adobe Experience Manager Guides的API参考)。
+您可以使用REST API注册配置。 有关更多详细信息，请参阅Adobe Experience Manager Guides API参考中的&#x200B;*REST API以注册数据源连接器*&#x200B;部分。
 
-配置数据源后，连接器将列在Web编辑器中的数据源面板下。 然后，您可以连接到数据源并将内容片段插入到您的主题中。 有关详细信息，请查看 [插入数据源中的内容片段](../user-guide/web-editor-content-snippet.md).
+配置数据源后，连接器将列在Web编辑器中的数据源面板下。 然后，您可以连接到数据源并将内容片段插入到您的主题中。 有关详细信息，请查看[插入数据源中的内容片段](../user-guide/web-editor-content-snippet.md)。

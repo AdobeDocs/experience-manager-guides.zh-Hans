@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # 从用户界面配置数据源连接器
 
-Experience Manager指南随附于 **数据源** 此工具可帮助您为数据源配置现成的连接器。 您可以设置JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce、Elasticsearch和通用REST客户端连接器。
+Experience Manager Guides附带了&#x200B;**数据源**&#x200B;工具，可帮助您为数据源配置现成的连接器。 您可以设置JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce、Elasticsearch和通用REST客户端连接器。
 
 
-除了这些现成的连接器外，Experience Manager指南还为Salsify、Akeneo和Microsoft Azure DevOps Boards (ADO)数据源提供连接器。 您可以从以下位置下载并安装这些开源连接器 [Maven中央存储库](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). 然后，用户可以配置这些连接器。
-了解如何 [安装开源连接器](#install-open-source-connector).
+除了这些现成的连接器外，Experience Manager Guides还为Salsify、Akeneo和Microsoft Azure DevOps Boards (ADO)数据源提供连接器。 您可以从[Maven中央存储库](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)下载并安装这些开源连接器。 然后，用户可以配置这些连接器。
+了解如何[安装开源连接器](#install-open-source-connector)。
 
 
 
@@ -26,11 +26,11 @@ Experience Manager指南随附于 **数据源** 此工具可帮助您为数据�
 
 要配置连接器，请执行以下步骤：
 
-1. 选择 **Adobe Experience Manager** 单击顶部的链接，然后选择“工具”。
-1. 选择 **指南** 工具列表中。
-1. 选择 **数据源** 磁贴。 此 **数据源** 页面。 您可以查看连接的数据源。
+1. 选择顶部的&#x200B;**Adobe Experience Manager**&#x200B;链接，然后选择“工具”。
+1. 从工具列表中选择&#x200B;**指南**。
+1. 选择&#x200B;**数据源**&#x200B;磁贴。 显示&#x200B;**数据源**&#x200B;页。 您可以查看连接的数据源。
 
-   您可以在 **列表视图** 或 **平铺视图** 以列表或图块形式查看各种连接的数据源。
+   您可以在&#x200B;**列表视图**&#x200B;或&#x200B;**平铺视图**&#x200B;之间切换，以列表或平铺方式查看各种连接的数据源。
 
    <img src="./assets/data-sources-create-window.png" alt= "数据源页面上列出的数据源" width="800">
 
@@ -46,7 +46,7 @@ Experience Manager指南随附于 **数据源** 此工具可帮助您为数据�
 
    >[!TIP]
    >
-   >* 将鼠标悬停在 <img src="./assets/info-details.svg" alt= "信息图标" width="25"> 在字段附近查看有关它的更多详细信息。
+   >* 将鼠标悬停在 <img src="./assets/info-details.svg" alt= "信息图标" width="25">在字段附近查看有关它的更多详细信息。
    > * 带*的字段为必填字段。 例如，您可以为Elasticsearch连接器输入以下详细信息。
 
    * **名称**：输入数据源的名称。
@@ -56,14 +56,14 @@ Experience Manager指南随附于 **数据源** 此工具可帮助您为数据�
    * **URL**：添加API URL。
 
 
-1. 选择 **排除工厂模板** 用于排除工厂模板以用于生成主题和代码片段的选项。 它们将不会显示在 **数据映射模板** 中的下拉菜单  **添加内容片段生成器** 或 **添加主题生成器** 对话框。
+1. 选择&#x200B;**Exclude factory templates**&#x200B;选项可排除工厂模板不用于生成主题和代码片段。 它们不会显示在&#x200B;**添加内容片段生成器**&#x200B;或&#x200B;**添加主题生成器**&#x200B;对话框的&#x200B;**数据映射模板**&#x200B;下拉列表下。
 
 
-1. 选择 **测试连接**. 您可以查看 **测试连接** 仅在添加所需的详细信息后启用按钮。 如果连接详细信息正确，请查看成功消息。 否则，您可能会看到一条错误消息。
+1. 选择&#x200B;**测试连接**。 只有在添加所需的详细信息后，才能查看已启用的&#x200B;**测试连接**&#x200B;按钮。 如果连接详细信息正确，请查看成功消息。 否则，您可能会看到一条错误消息。
 
 
 
-1. 选择 **保存** 以保存连接器。     查看 **保存** 在填写所有详细信息且连接成功后启用按钮。
+1. 选择顶部的&#x200B;**保存**&#x200B;以保存连接器。     查看在您填写所有详细信息后启用的&#x200B;**保存**&#x200B;按钮，并且连接成功。
 
 
    如果连接器保存成功，则可以在页面上查看连接的数据源。
@@ -74,10 +74,10 @@ Experience Manager指南随附于 **数据源** 此工具可帮助您为数据�
 
 执行以下步骤可创建资源：
 
-1. 选择 ![“添加”图标](assets/Add_icon.svg) 在 **URL资源部分** 为每个URL添加资源。
-1. 在中配置所有详细信息 **添加资源** 对话框。
-1. 单击 **添加**.
-1. 您可以编辑 ![编辑图标](assets/edit_pencil_icon.svg) 或删除 ![删除](assets/Delete_icon.svg) url资源列表中的资源。
+1. 在&#x200B;**URL资源部分**&#x200B;中选择![添加图标](assets/Add_icon.svg)为每个URL添加资源。
+1. 在&#x200B;**添加资源**&#x200B;对话框中配置所有详细信息。
+1. 单击&#x200B;**添加**。
+1. 您可以编辑![编辑图标](assets/edit_pencil_icon.svg)或从URL资源列表中删除![删除](assets/Delete_icon.svg)该资源。
 
 1. 您还可以使用可用于数据源(如Salsify、Akeneo和Microsoft ADO)的默认资源。 将您不想为数据源配置的资源的选项切换为OFF。
 
@@ -87,9 +87,9 @@ Experience Manager指南随附于 **数据源** 此工具可帮助您为数据�
 
 ## 安装开源连接器{#install-open-source-connector}
 
-要发布上存在的依赖项，请执行以下操作 [Maven中央存储库](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) 对于Cloud Service，您需要包含并嵌入开源连接器的依赖项。
+要将[Maven Central存储库](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)上存在的依赖项发布到Cloud Service，您需要包含并嵌入开源连接器的依赖项。
 
-1. 在中添加依赖项 `all/pom.xml`  在您的cloud manager Git项目代码中。 例如，您可以为Microsoft Azure DevOps Boards数据源连接器添加以下依赖项。
+1. 在Cloud Manager Git项目代码的`all/pom.xml`中添加依赖项。 例如，您可以为Microsoft Azure DevOps Boards数据源连接器添加以下依赖项。
 
 
    ```
@@ -103,38 +103,38 @@ Experience Manager指南随附于 **数据源** 此工具可帮助您为数据�
 
 1. 嵌入添加的依赖项。
 
-       ```
-       &lt;embedded>
-       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
-       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
+       “
+”       &lt;嵌入式>
+       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
+       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
        &lt;type>jar&lt;/type>
        &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
        &lt;/embedded>
-       ```
-   
+       “
+”   
 1. 运行管道以应用Cloud Service中的更改。
 连接器安装在您的环境中。
 
 
 ## 可用于连接器的功能
 
-* 在 **列表视图** 或 **平铺视图**  以列表或图块形式查看各种连接的数据源。
-* 选中单个连接器的复选框。 单击 **全选** 以选择所有连接器。 您可以单击 **取消全选** 当所有连接器都处于选中状态时。
+* 在&#x200B;**列表视图**&#x200B;或&#x200B;**平铺视图**&#x200B;之间切换，以列表或平铺方式查看各种连接的数据源。
+* 选中单个连接器的复选框。 单击&#x200B;**全选**&#x200B;以选择所有连接器。 选择所有连接器后，您可以单击&#x200B;**取消全选**。
 
 <img src="./assets/data-sources-features.png" alt= "数据源页面上的数据源功能" width="800">
 
 *编辑、重新连接、复制或删除数据源连接器。*
 
-您可以对上的连接器使用以下特征 **数据源** 页面：
+您可以对&#x200B;**数据源**&#x200B;页面上的连接器使用以下功能：
 
 * **编辑**：编辑所选连接器的配置详细信息。
 
-* **重新连接**：重新连接到已断开连接的连接器。
+* **重新连接**：重新连接到断开连接的连接器。
 
-* **复制**：使用当前连接器作为基础创建新重复连接器。 缺省情况下，会创建带有后缀（如connectorname_1）的重复连接器。 例如，sample-elastic-search_1。
+* **重复**：使用当前连接器作为基本连接器创建新的重复连接器。 缺省情况下，会创建带有后缀（如connectorname_1）的重复连接器。 例如，sample-elastic-search_1。
 如果存在同名的连接器，则会查看错误。
 
-* **删除**：删除选定的连接器。
+* **删除**：删除所选的连接器。
 
 
-配置数据源后，连接器将列在 **“数据源”面板** 在Web编辑器中。 然后，您可以连接到数据源并将内容片段插入到您的主题中。 有关详细信息，请查看 [插入数据源中的内容片段](../user-guide/web-editor-content-snippet.md).
+配置数据源后，连接器将列在Web编辑器的&#x200B;**数据源面板**&#x200B;下。 然后，您可以连接到数据源并将内容片段插入到您的主题中。 有关详细信息，请查看[插入数据源中的内容片段](../user-guide/web-editor-content-snippet.md)。

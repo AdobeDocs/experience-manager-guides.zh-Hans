@@ -15,7 +15,7 @@ ht-degree: 1%
 
 标记可用于对您的内容进行分类。 如果内容已正确标记，则它可以帮助您在ditamap中查找准确的主题，并且最终用户可以在已发布的输出中更快地找到相应的内容
 
-> **_注意：_**  以下文章适用于AEM Guides内部版本4.2（内部部署）/2023年2月（云版本）或更高版本
+> **_注意：_**&#x200B;以下文章适用于AEM Guides Build 4.2（内部部署）/2023年2月（云版本）或更高版本
 
 
 ## 创建标记
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## 添加、删除和管理DITA内容中的标记
 
-**在AEM cq中创建的任何标记：可以为DITA内容添加、删除和管理标记**
+**在AEM cq中创建的任何标记：可以为您的DITA内容添加、删除和管理标记**
 
 可通过多种方式将标记添加到DITA内容中，但本文将重点介绍AEM Guides Web编辑器UI。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 6. 选择一个或多个文件并单击“管理”图标。 您可以在此处向所选文件添加标记。
 也可以删除所选文件中常见的现有标记。
 
-<img title="管理AEM Guides中的标记 " alt="管理DITA中的标记 " src="ManageTags.jpg">
+<img title="在AEM Guides中管理标记 " alt="管理DITA中的标记 " src="ManageTags.jpg">
 
 ## 疑难解答和常见问题解答
 
@@ -56,9 +56,9 @@ ht-degree: 1%
 
 ## 其他有用资源
 
-- [使用映射功能板批量标记（资产UI）](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- [Web编辑器中的Ditamap报表](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- [在AEM中标记](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
+- [使用映射仪表板(Assets UI)批量标记](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- 在Web编辑器中[个Ditamap报告](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- 在AEM中标记[](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 
-**有关任何其他查询，请联系您各自的CSM**
+**有关任何其他查询，请与相应的CSM联系**

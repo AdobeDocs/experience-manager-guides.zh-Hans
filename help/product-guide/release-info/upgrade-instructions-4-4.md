@@ -16,14 +16,14 @@ ht-degree: 5%
 
 有关新功能和增强功能的更多信息，请查看 [4.4.0 版本中的新增功能](../release-info/whats-new-4-4.md)。
 
-有关此版本中已修复的问题的列表，请查看 [修复了4.4.0版本中的问题](../release-info/fixed-issues-4-4.md).
+有关此版本中已修复的问题的列表，请查看[4.4.0版本](../release-info/fixed-issues-4-4.md)中已修复的问题。
 
 
 
 
 ## 兼容性矩阵
 
-本部分列出了Experience Manager指南4.4.0版本支持的软件应用程序的兼容性矩阵。
+本部分列出了Experience Manager Guides 4.4.0版本支持的软件应用程序的兼容性矩阵。
 
 ### Adobe Experience Manager
 
@@ -34,7 +34,7 @@ ht-degree: 5%
 版本6.5 Service Pack 20、19、18或17
 
 
-有关更多详细信息，请查看 [技术要求](../install-guide/download-install-technical-requirements.md) On-Premise Installation and Configuration Guide中的部分。
+有关更多详细信息，请查看On-Premise Installation and Configuration Guide中的[技术要求](../install-guide/download-install-technical-requirements.md)部分。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -60,26 +60,26 @@ ht-degree: 5%
 
 | 组件包名称 | 组件版本 | 模板版本 |
 |---|---|---|
-| 用于Cloud Service的Experience Manager指南组件内容包 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| 适用于Cloud Service的Experience Manager Guides组件内容包 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 
 
-## 升级到Experience Manager指南的4.4.0版本
+## 升级到Experience Manager Guides的4.4.0版本
 
 
-您可以轻松地将指南的当前版本升级到4.4.0版。在继续升级到版本4.4.0的《Experience Manager指南》之前，您必须考虑以下几点：
+您可以轻松地将指南的当前版本升级到4.4.0版。在继续升级到版本4.4.0的Experience Manager Guides之前，必须考虑以下几点：
 
 
 - 如果您使用的是版本4.3.1、4.3.0或4.2.1（修补程序4.2.1.3），则可以直接升级到版本4.4.0。
 - 如果您使用的是版本4.2、4.1或4.1.x，则在升级到版本4.4.0之前，需要升级到版本4.3.1、4.3.0或4.2.1（修补程序4.2.1.3）。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅产品特定安装指南中的“升级Experience Manager指南”部分，该指南位于 [Adobe Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级Experience Manager Guides”部分。
 
 
 
 >[!NOTE]
 >
->在升级Experience Manager指南版本之前，必须安装AEM Service Pack。
+>在升级Experience Manager Guides版本之前，必须安装AEM Service Pack。
 
-有关详细信息，请查看 [内部部署版本的升级说明](../install-guide/upgrade-xml-documentation.md) Experience Manager指南。
+有关详细信息，请查看Experience Manager Guides内部部署版本](../install-guide/upgrade-xml-documentation.md)的[升级说明。

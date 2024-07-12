@@ -16,12 +16,12 @@ ht-degree: 0%
 
 AEM Guides提供了在主题和内容片段模型之间创建基于JSON的映射的功能。 您可以使用此映射将主题中部分或所有元素中存在的内容发布到内容片段。
 
-1. 要下载 *contentFragmentMapping.json*&#x200B;中，以管理员身份登录Adobe Experience Manager。
-1. 选择顶部的Adobe Experience Manager链接，然后选择 **工具**.
-1. 从工具列表中选择“参考线”，然后选择 **文件夹配置文件**.
-1. 选择 **全局配置文件** 磁贴。
-1. 选择 **XML编辑器配置** 选项卡，然后选择 **编辑** 图标。
-1. 选择 **下载** 图标以下载 *contentFragmentMapping.json*  文件。 然后，您可以对文件进行更改，然后上传相同的更改。
+1. 要下载&#x200B;*contentFragmentMapping.json*，请以管理员身份登录Adobe Experience Manager。
+1. 选择顶部的Adobe Experience Manager链接，然后选择&#x200B;**工具**。
+1. 从工具列表中选择“参考线”，然后选择&#x200B;**文件夹配置文件**。
+1. 选择&#x200B;**全局配置文件**&#x200B;磁贴。
+1. 选择&#x200B;**XML编辑器配置**&#x200B;选项卡，然后选择顶部的&#x200B;**编辑**&#x200B;图标。
+1. 选择&#x200B;**下载**&#x200B;图标可在您的本地系统上下载&#x200B;*contentFragmentMapping.json*&#x200B;文件。 然后，您可以对文件进行更改，然后上传相同的更改。
 
 1. 您需要遵循以下验证操作：
 
@@ -94,4 +94,4 @@ AEM Guides提供了在主题和内容片段模型之间创建基于JSON的映射
 ]
 ```
 
-您可以使用默认映射发布整个主题。 选择 `Full Topic` 从下拉菜单中映射 **生成内容片段** 对话框，并在内容片段模型中具有“topicData”字段。
+您可以使用默认映射发布整个主题。 从下拉列表&#x200B;**生成内容片段**&#x200B;对话框中选择`Full Topic`映射，并在内容片段模型中具有“topicData”字段。

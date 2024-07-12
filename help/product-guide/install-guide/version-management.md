@@ -36,20 +36,20 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
 
-1. 选择 **为上载的文件创建新版本** 选项。
+1. 选择&#x200B;**为上载的文件创建新版本**&#x200B;选项。
 
    默认情况下，此选项处于关闭状态。
 
-   如果选择该选项，则会发生新版本管理机制并覆盖任何后续上传的默认上传行为，它将上传文件的内容另存为新版本。 如果取消选择该选项，AEM Guides将使用AEM默认版本管理机制。
+   如果选择该选项，则会发生新版本管理机制并覆盖任何后续上传的默认上传行为，它将上传文件的内容另存为新版本。 如果取消选择该选项，AEM Guides将使用AEM的默认版本管理机制。
 
 1. 单击&#x200B;**保存**。
 
 
 >[!NOTE]
 >
-> 如果启用属性，则可以批量上传70个或更少的文件 **为上载的文件创建新版本** \(create.ver.new.content\)并使用 **资产UI**&#x200B;以批量上传资产。
+> 如果启用属性&#x200B;**为已上传的文件创建新版本** \(create.ver.new.content\)，并使用&#x200B;**Assets UI**&#x200B;批量上传资源，则可以批量上传70个或更少文件。
 
 ## 配置设置以允许编辑已签出的文件
 
@@ -67,15 +67,15 @@ AEM Guides的Web编辑器允许您创建和更新DITA主题。 您可以将Web�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;包。
 
-1. 选择 **禁用“编辑而不签出”** 选项。
+1. 选择&#x200B;**禁用编辑而不签出**&#x200B;选项。
 
    ![](assets/xml-editor-config.png){width="650" align="left"}
 
    利用此选项，用户在签出文件之前将不会在工具栏中看到编辑选项。
 
-1. 选择 **关闭时要求签入** 选项，用于在关闭已签出的文件时显示警告消息，而不将其保存或签回存储库。
+1. 选择&#x200B;**关闭时要求签入**&#x200B;选项，以在签出文件关闭时显示警告消息，而不保存或将其签回存储库。
 
 1. 单击&#x200B;**保存**。
 
@@ -100,9 +100,9 @@ AEM Guides的Web编辑器允许您创建和更新DITA主题。 您可以将Web�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
 
-1. 选择 **上载时覆盖签出的文件** 选项。
+1. 选择&#x200B;**在上传时覆盖签出的文件**&#x200B;选项。
 
    默认情况下，此选项处于打开状态。 选中此选项后，用户将能够覆盖已签出的文件。 如果未选择该选项，则当该文件已由他们或其他用户检出时，将阻止覆盖该文件。
 
@@ -121,34 +121,34 @@ AEM Guides的Web编辑器允许您创建和更新DITA主题。 您可以将Web�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.xmleditor.config.XmlEditorConfig**&#x200B;包。
 
-1. 选择 **阻止删除已签出的内容** 选项。
+1. 选择&#x200B;**阻止删除签出的内容**&#x200B;选项。
 
    默认情况下，此选项处于打开状态。 选中此选项后，用户将无法删除已签出的文件。
 
 1. 单击&#x200B;**保存**。
 
 
-为了支持此功能，新增了一个索引属性 `drivelock` 添加于 `oak:index`：
+为了支持此功能，已在`oak:index`中添加了新索引属性`drivelock`：
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
 ![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
 
-除了新的index属性外，请确保在上设置了以下属性 `/oak:index/damAssetLucene`：
+除了新的索引属性外，请确保在`/oak:index/damAssetLucene`上设置了以下属性：
 
 - `jcr:primaryType`=`"oak:QueryIndexDefinition"`
 - `async`=`"async"`
 - `compatVersion`=`"{Long}2"`
 - `evaluatePathRestrictions`=`"{Boolean}true"`
 - `reindex`=`"{Boolean}false"`
-- `reindexCount`=`"{Long}3"` *\（这是重新索引的次数，它将替换为我们的包的安装\）*
+- `reindexCount`=`"{Long}3"` *\（这是重新索引的次数计数，它将被替换为我们的包的安装\）*
 - `type`=`"lucene"`
 
 >[!NOTE]
 >
-> 您可以更改 `reindex` 到 `"{Boolean}true"`. 这将加快文件夹层次结构中签出的文件的搜索结果。
+> 您可以将`reindex`的值更改为`"{Boolean}true"`。 这将加快文件夹层次结构中签出的文件的搜索结果。
 
 ## 防止删除引用的文件
 
@@ -171,9 +171,9 @@ AEM Guides的Web编辑器允许您创建和更新DITA主题。 您可以将Web�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
 
-1. 找到 **阻止删除引用的资产** 选项。
+1. 找到所引用Assets **的**&#x200B;块删除选项。
 
 1. 根据您要授予删除权限的用户，指定以下常量之一：
 
@@ -181,7 +181,7 @@ AEM Guides的Web编辑器允许您创建和更新DITA主题。 您可以将Web�
 
      ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
 
-   - allow\_unsafe\_delete\_for\_delete\_assets\_group：管理员或属于 *delete-assets* 允许组删除文件。 如果任何其他用户尝试删除包含任何引用的文件，则在删除所有引用之前，不允许他们删除此类文件。 当没有权限的用户尝试删除文件时，将显示以下屏幕截图。
+   - allow\_unsafe\_delete\_for\_delete\_assets\_group：允许管理员或属于&#x200B;*delete-assets*&#x200B;组的用户删除文件。 如果任何其他用户尝试删除包含任何引用的文件，则在删除所有引用之前，不允许他们删除此类文件。 当没有权限的用户尝试删除文件时，将显示以下屏幕截图。
 
      ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
 
@@ -213,15 +213,15 @@ AEM Guides的Web编辑器允许您创建和更新DITA主题。 您可以将Web�
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
 1. 
-   - **从最新版本保留的版本数**：输入应保留而不清除的版本数。 例如，如果输入5，则会保留最后5个版本，并且如果满足其他清除条件，则符合清除条件的版本中之前的版本将被清除。
-- **保留在时间范围内创建的版本\（以天为单位\）**：输入版本的最长存在时间（以天为单位）。 如果满足其他清除条件，则符合清除指定天数之前的版本的资格。 例如，如果输入100，则符合其他清除条件时，所有在100天之前创建的版本都将被清除。
+   - **从最新版本中保留的版本数**：输入应保留而不清除的版本数。 例如，如果输入5，则会保留最后5个版本，并且如果满足其他清除条件，则符合清除条件的版本中之前的版本将被清除。
+- **保留在时间跨度\（以天为单位\）**&#x200B;内创建的版本：输入版本的最长存在时间（以天为单位）。 如果满足其他清除条件，则符合清除指定天数之前的版本的资格。 例如，如果输入100，则符合其他清除条件时，所有在100天之前创建的版本都将被清除。
 - **路径**：选择要清除其文件的文件或文件夹的路径。
 
   >[!NOTE]
   >
   > 只能清除DITA文件。
 
-1. 单击 **预览清除报告**.
+1. 单击&#x200B;**预览清除报告**。
 
    >[!NOTE]
    >
@@ -230,13 +230,13 @@ AEM Guides的Web编辑器允许您创建和更新DITA主题。 您可以将Web�
    生成版本清除报告。
 
 1. 下载版本清除报告，并检查要清除的文件和版本。
-1. 您可以选择 **取消清除** 或 **开始清除**.
+1. 您可以选择&#x200B;**取消清除**&#x200B;或&#x200B;**开始清除**。
 
    ![](assets/download-purge-report.png){width="350" align="left"}
 
    将显示清除状态。
 
-   单击 **下载版本清除报告** 查看已清除的版本。 此报表提供所有版本的清除状态，以及保留特定版本或清除该版本的原因。
+   单击&#x200B;**下载版本清除报告**&#x200B;以查看清除的版本。 此报表提供所有版本的清除状态，以及保留特定版本或清除该版本的原因。
 
 
 >[!NOTE]

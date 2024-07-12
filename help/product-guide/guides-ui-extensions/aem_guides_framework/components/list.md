@@ -2,7 +2,8 @@
 title: 列表
 description: 列表
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 333b5e24-efba-4a51-8f68-83b5d1d7daec
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 5%
@@ -34,7 +35,7 @@ const listJSON =  {
 },
 ```
 
-通常itemConfig是 `widget`. 要了解有关构件的更多信息，请访问 [小组件](../Widgets/basic-widget.md)
+itemConfig通常为`widget`。 若要了解有关小组件的更多信息，请转到[小组件](../Widgets/basic-widget.md)
 
 渲染的列表将如下所示：
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 AEM Guides附带三个现成的编辑器。 您可以使用它们来创建、编辑和发布文档。
 
 1. **Web编辑器**：使用它创建和编辑结构化文档。
-1. **映射编辑器**：使用它创建和编辑DITA映射和书图文件。
+1. **映射编辑器**：使用它创建和编辑DITA映射和bookmap文件。
 1. **Ditaval编辑器**：使用它生成条件输出。
 
 - **[使用Web编辑器](web-editor.md)**
@@ -26,4 +26,4 @@ AEM Guides附带三个现成的编辑器。 您可以使用它们来创建、编
 - **[DITAVAL编辑器](ditaval-editor.md)**
 
 
-**父主题：**[&#x200B;创作内容](authoring-content.md)
+**父主题：**[&#x200B;作者内容](authoring-content.md)

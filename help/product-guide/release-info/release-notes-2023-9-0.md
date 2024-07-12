@@ -1,5 +1,5 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides（2023年9月版）中的升级说明和修复的问题
+title: 发行说明 | Adobe Experience Manager Guides 2023年9月版中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guidesas a Cloud Service的2023年9月版
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
@@ -11,23 +11,23 @@ ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service2023年9月版
+# 2023年9月版的Adobe Experience Manager Guidesas a Cloud Service
 
-本发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本2023年9月中修复的问题(后称为 *AEM Guidesas a Cloud Service*)。
+此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本2023年9月(以后称为&#x200B;*AEM Guidesas a Cloud Service*)中修复的问题。
 
-有关新增功能和增强功能的更多信息，请参阅 [AEM Guidesas a Cloud Service版2023年9月版的新增功能](whats-new-2023-9-0.md).
+有关新增功能和增强功能的更多信息，请参阅[AEM Guides as a Cloud Service 2023年9月版的新增功能](whats-new-2023-9-0.md)。
 
 ## 升级到2023年9月版
 
-通过执行以下步骤升级当前的AEM Guidesas a Cloud Service设置：
+请通过以下步骤升级当前的AEM Guidesas a Cloud Service设置：
 
 1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-2. 更新 `<dox.version>` 中的属性 `/dox/dox.installer/pom.xml` Cloud ServiceGit代码的文件更改为2023.9.0.359。
+2. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2023.9.0.359。
 3. 提交更改并运行Cloud Service管道，以升级到AEM Guidesas a Cloud Service的2023年9月版。
 
 ## 通过servlet启用脚本触发器的步骤
 
-(仅限您使用的版本早于2023年6月发布的AEM Guidesas a Cloud Service)
+(仅限您使用的版本低于2023年6月版本的AEM Guidesas a Cloud Service)
 
 完成安装后，您可以选择点击触发器以启动翻译作业：
 
@@ -47,7 +47,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 }
 ```
 
-在上一个响应JSON中，键 `lockNodePath` 保存指向在存储库中创建的指向已提交作业的节点的路径。 作业完成后该节点会被自动删除，在此之前，您可以引用此节点以获取作业的当前状态。
+在上一个响应JSON中，键`lockNodePath`保存指向在存储库中创建的指向已提交作业的节点的路径。 作业完成后该节点会被自动删除，在此之前，您可以引用此节点以获取作业的当前状态。
 
 请等待此作业完成，然后再继续后续步骤。
 
@@ -62,50 +62,51 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## 后处理现有内容以使用断开链接报表的步骤
 
-(仅限您使用的版本早于2023年6月发布的AEM Guidesas a Cloud Service)
+(仅限您使用的版本低于2023年6月版本的AEM Guidesas a Cloud Service)
 
 执行以下步骤后处理现有内容并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个dita文件，请更新 `queryLimitReads` 下 `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` 设置为较大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个dita文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
-   - 请按照以下说明进行操作： *配置覆盖* 安装和配置Adobe Experience Manager Guidesas a Cloud Service的部分，以创建配置文件。
+   - 按照安装和配置Adobe Experience Manager Guides中&#x200B;*配置覆盖*部分中提供的说明进行操作
+as a Cloud Service，以创建配置文件。
    - 在配置文件中，提供以下（属性）详细信息以配置queryLimitReads选项：
 
      | PID | 属性键 | 属性值 |
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitRead | 值：200000默认值：100000 |
 
-1. 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>//bin/guides/reports/upgrade`.
+1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server:port>//bin/guides/reports/upgrade`。
 
-1. 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
 1. 作业完成后，先前的GET请求将做出成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。
 
-1. 恢复为默认或以前的现有值 `queryLimitReads` 如果您在步骤1中更改了它。
+1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
 
 ## 为现有内容编制索引以使用“报表”选项卡下的新查找和替换以及主题列表的步骤：
 
-(仅限您使用的版本早于2023年6月发布的AEM Guidesas a Cloud Service)
+(仅限您使用的版本低于2023年6月版本的AEM Guidesas a Cloud Service)
 
 执行以下步骤来索引现有内容，并在报表选项卡下的映射级别和主题列表中使用新的查找和替换文本：
 
-1. 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都将进行索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都将进行索引\|\| 例如：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
-1. 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
 
 1. 作业完成后，先前的GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
 ## 兼容性矩阵
 
-本部分列出了AEM Guides 2023年9月as a Cloud Service版本支持的软件应用程序的兼容性矩阵。
+本部分列出了AEM Guides as a Cloud Service 2023年9月版支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
-| AEM Guides即云版本 | FMPS | FrameMaker |
+| AEM Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.09.0 | 不兼容 | 2022或更高版本 |
 | | | |
@@ -113,7 +114,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 氧气连接器
 
-| AEM Guides即云版本 | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
+| AEM Guides as a Cloud | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
 | --- | --- | --- | --- | --- |
 | 2023.09.0 | 3.1-uuid 17 | 3.1-uuid 17 | 2.3 | 2.3 |
 |  |  |  |  |
@@ -141,18 +142,18 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 侧键盘上的“8”数字键在AEM Guides编辑器中不起作用。 (12106)
 
 - 前缀在Web编辑器的预览模式下重复。 (13133)
-- `Choicetable` 行不显示或无法选择。 (12616)
+- `Choicetable`行未显示或无法选择。 (12616)
 - 使用自定义架构创建主题时，Web编辑器在特定情况下会引发验证错误。 (12576)
 - 从映射模板创建映射时，复制主题模板引用不会在内容文件夹中创建副本。 (12150)
 - DITA映射中的搜索框没有关闭按钮。 (11867)
-- 在Web编辑器中保存长文件时， `DirtyChecker` 引发具有长栈栈跟踪的异常，并填充日志文件。 (11860)
+- 在Web编辑器中保存长文件时，`DirtyChecker`会引发具有长栈栈跟踪的异常并填充日志文件。 (11860)
 - 创建DITA主题需要对相应的文件夹节点具有“删除”权限，但可以使用“写入”权限创建映射。 (11706)
 - 当出现斜杠时，Web编辑器显示不正确的标题。 (10949)
 
 
 ### 管理
 
-- DITA映射元数据属性中的“title”字段被覆盖 `<title>` 映射的元素。 (10702)
+- DITA映射元数据属性中的“title”字段被映射的`<title>`元素覆盖。 (10702)
 - 当主题ID与GUID不同时，内容引用是损坏的复制粘贴DITA文件。 (12614)
 - 在动态基线中，不会从DITA映射的工作副本的直接引用中提取标签列表。 (11917)
 
@@ -163,7 +164,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 - 本机PDF | 包含多个Xref可将文本扩展至超出列宽的位置。 (13004)
 - 本机PDF | 当主题和标题具有相同的ID时，会导致生成的PDF输出格式不正确。 (12644)
-- 本机PDF | 在将outputclass添加到父级时 `<topicref>` dita映射中的元素并将自定义样式应用于outputclass时，该样式将应用于主题正文中的元素，包括节标题。(12166)
+- 本机PDF | 向DITA映射中的父`<topicref>`元素添加outputclass并将自定义样式应用于outputclass时，该样式将应用于主题正文中的元素，包括节标题。(12166)
 - 如果DITA映射具有多个ditavalref，则增量发布不起作用。 (12117)
 - AEM站点 | 在创建映射时，使用keydef指向作为变量的主题并添加processing-role=resource-only会创建一些意外页面。 (12099)
 - 如果在AEM站点以外的任何输出中使用来自AEM DAM的任何资源，则元数据“jcr：createdBy”不会反映发布者的名称或上次修改DITA映射或主题的用户的名称。 (12090)
@@ -171,9 +172,9 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 本机PDF | 在Frontmatter和Backmatter中支持topichead / topicmeta / navtitle时出现问题。 (11969)
 - 本机PDF | 为大型文档生成PDF非常耗时。 (11955)
 - 本机PDF | 在生成PDF输出时，重命名预设会引发NullPointerException。 (11889)
-- 此 `<conref>` 内容未显示在PDF输出中。 (11131)
-- 在中添加额外的空间 `<div>` 在页面布局编辑器中的创作视图和源视图之间切换的元素。 (10750)
-- 在AEM Cloud Manager上复制的内容在发布实例上不可见。 (9564)
+- PDF输出中未显示`<conref>`内容。 (11131)
+- 在页面布局编辑器中的“创作”视图和“Source”视图之间切换时，`<div>`元素内会添加一个额外的空间。 (10750)
+- 在AEM Cloud Manager上复制的内容在Publish实例上不可见。 (9564)
 
 ### 翻译
 

@@ -1,5 +1,5 @@
 ---
-title: AEM Guides中的翻译内容
+title: 在AEM Guides中翻译内容
 description: 了解如何翻译内容
 exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
@@ -23,24 +23,24 @@ ht-degree: 9%
 
 翻译内容涉及以下步骤：
 
-1. 将AEM与您的 [翻译服务提供商](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) 和创建 [翻译集成框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. 将AEM与您的[翻译服务提供商](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)连接并创建[翻译集成框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
 
-1. 将语言母版页面与 [翻译服务和框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. 将语言母版页面与[翻译服务和框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)关联。
 
-1. 识别类型 [要翻译的内容](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. 标识要翻译的[内容的类型](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html)。
 
 1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)。
 
-1. 创建 [翻译项目](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 收集要翻译的内容并准备翻译过程。
+1. 创建[翻译项目](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻译的内容并准备翻译过程。
 
-1. 将翻译项目用于 [管理内容翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) 进程。
+1. 使用翻译项目[管理内容翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)进程。
 
 
 如果翻译服务提供商不提供连接器来与AEM集成，则AEM支持以XML格式手动导出和导入已翻译内容。
 
 >[!TIP]
 >
-> 请参阅 *翻译*&#x200B;最佳实践指南中的部分，以了解有关翻译内容的最佳实践。
+> 有关翻译内容的最佳实践，请参阅最佳实践指南中的&#x200B;*翻译*&#x200B;部分。
 
 ## 在DITA映射仪表板上配置翻译选项卡
 
@@ -54,9 +54,9 @@ ht-degree: 9%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
 
-1. 选择 **隐藏翻译选项卡** 选项，以在映射仪表板上隐藏翻译选项卡。
+1. 选择&#x200B;**隐藏翻译选项卡**&#x200B;选项，以在地图仪表板上隐藏翻译选项卡。
 
    >[!NOTE]
    >
@@ -78,17 +78,17 @@ ht-degree: 9%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
 
-1. 配置 **基于组件的DITA翻译工作流** 选项（根据您的设置）：
+1. 根据您的设置配置&#x200B;**基于组件的DITA翻译工作流**&#x200B;选项：
 
-   - 如果您使用人工翻译，则 *禁用* 该 **基于组件的翻译工作流** 选项。
+   - 如果您使用的是人工翻译，则&#x200B;*禁用* **基于组件的翻译工作流**&#x200B;选项。
 
-   - 如果您使用的是机器翻译，则 *启用* 该 **基于组件的翻译工作流** 选项。
+   - 如果您正在使用机器翻译，则&#x200B;*启用* **基于组件的翻译工作流**&#x200B;选项。
 
    >[!NOTE]
    >
-   > 如果您使用的是翻译连接器，请确保已按照 *[配置翻译集成框架](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* AEM主题。
+   > 如果您使用的是翻译连接器，请确保已按照AEM文档中的&#x200B;*[配置翻译集成框架](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主题中所述配置连接器。
 
 1. 单击&#x200B;**保存**。
 
@@ -143,12 +143,12 @@ Based on the translation workflow used in your setup, provide the following (pro
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
+1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
 
-1. 配置 **后处理语言副本** 选项（根据您的设置）：
+1. 根据您的设置配置&#x200B;**Post进程语言副本**&#x200B;选项：
 
-   - \(*默认*\)如果不想对临时文件运行后处理操作，则 *禁用* 该 **后处理语言副本** 选项。
+   - \（*默认值*\）如果不想对临时文件运行后处理操作，则&#x200B;*禁用* **Post进程语言副本**&#x200B;选项。
 
-   - 如果要对临时文件运行后处理操作，则 *启用* 该 **后处理语言副本** 选项。
+   - 如果要对临时文件运行后处理操作，请&#x200B;*启用* **Post进程语言副本**&#x200B;选项。
 
 1. 单击&#x200B;**保存**。

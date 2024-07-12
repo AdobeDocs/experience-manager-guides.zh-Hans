@@ -1,7 +1,8 @@
 ---
 title: 在《指南》中翻译内容 — 第2部分
 description: 了解如何将您的内容翻译成多种语言。
-source-git-commit: 87fe100d312fafbfd5b336f7c5ca618bc20cdebb
+exl-id: b61d4432-62bf-4fb5-8264-ac50dc93215b
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
@@ -22,7 +23,7 @@ AEM Guides提供的强大功能使您能够将内容翻译成多种语言。 AEM
 - **日期** - 2024年2月29日
 - **与会者人数** - 57
 - **持续时间** - 60分钟
-- **受众**  — 客户、合作伙伴和Adobe员工
+- **受众** — 客户、合作伙伴和Adobe员工
 
 ## 要点
 
@@ -36,9 +37,9 @@ AEM Guides提供的强大功能使您能够将内容翻译成多种语言。 AEM
 
 ## 相关资源
 
-- **文档** - [Experience League时](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
+- Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)上的&#x200B;**文档** - [
 
-- **社区论坛**  — 对于特定于Experience League会话的社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社区论坛** — 对于Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 
 >[!NOTE]
@@ -51,4 +52,4 @@ AEM Guides提供的强大功能使您能够将内容翻译成多种语言。 AEM
 
 ## 联系我们
 
-如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>
+如有任何疑问，请发送电子邮件至<techcomm@adobe.com>

@@ -2,7 +2,8 @@
 title: 图标
 description: 图标
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 5ba41c77-7329-49fc-bce5-02682261ea8e
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 6%
@@ -12,9 +13,9 @@ ht-degree: 6%
 # 图标
 
 要显示图标，我们使用组件“图标”。
-JUI中的文本区域组件表示html `<icon/>`.
+JUI中的文本区域组件表示html `<icon/>`。
 
-图标位于 [Adobe频谱图标](https://spectrum.adobe.com/page/icons/) 与我们的应用程序兼容。
+[Adobe频谱图标](https://spectrum.adobe.com/page/icons/)中可用的图标与我们的应用程序兼容。
 
 ```js title="icon.js"
 const iconJSON =  {

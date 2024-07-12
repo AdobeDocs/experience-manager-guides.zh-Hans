@@ -24,9 +24,9 @@ ht-degree: 2%
    http://<server name>:<port>/system/console/jmx
    ```
 
-1. 搜索并单击 **Queryenginesettings**.
+1. 搜索并单击&#x200B;**QueryEngineSettings**。
 
-1. 更改属性值 **限制读取** 属性。
+1. 更改&#x200B;**LimitReads**&#x200B;属性的属性值。
 
 1. 单击&#x200B;**保存**。
 

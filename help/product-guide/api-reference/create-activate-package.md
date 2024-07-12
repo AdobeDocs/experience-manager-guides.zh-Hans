@@ -1,6 +1,6 @@
 ---
-title: 用于创建和激活包的 REST API
-description: 了解用于创建和激活包的 REST API
+title: 用于创建和激活包的REST API
+description: 了解用于创建和激活包的REST API
 exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 ---
 
-# 用于创建和激活包的 REST API {#id198CF0260Y4}
+# 用于创建和激活包的REST API {#id198CF0260Y4}
 
 以下REST API允许您创建和激活CRX包。
 
-## 创建并激活包
+## 创建和激活包
 
-创建和激活CRX包的POST方法。
+创建并激活CRX包的POST方法。
 
-**请求网址**：
-http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/activate&lt;/port-number\>&lt;/aem-guides-server\>
+**请求URL**：
+http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/activate
 
 **参数**：
-请求查询由 JSON 规则字符串组成。 POST 请求的内容类型必须设置为 `application/json; charset=UTF-8`。
+请求查询包含JSON规则字符串。 POST请求的内容类型必须设置为`application/json; charset=UTF-8`。
 
 **示例**：
-以下示例显示了使用 curl 命令的 API 调用：
+以下示例演示了使用curl命令的API调用：
 
 ```XML
 curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate
@@ -40,21 +40,21 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 **有效值**
 
-`preview` 或 `publish` 用于云服务和 `publish` 本地软件
+Cloud Service的`preview`或`publish`，内部部署软件的`publish`
 
-- 对于云服务，如果参数包含无效值，则包激活将失败。
+- 对于Cloud Service，如果参数包含无效值，则包激活失败。
 
-- 对于本地软件，如果参数包含无效值，则会记录错误，并使用默认值 . `publish`
+- 对于内部部署软件，如果参数包含无效值，将记录错误，并使用默认值`publish`完成发布。
 
-如果未定义可选参数 ， `activationTarget`它将使用云服务和本地软件的默认发布代理激活。
-
-
-
-以下示例显示了使用带有可选参数的 curl 命令的 API 调用：
+如果未定义可选参数`activationTarget`，则它会使用默认发布代理来激活Cloud Service和内部部署软件。
 
 
-    &#39;&#39;&#39;XML
+
+以下示例显示使用带有可选参数的curl命令的API调用：
+
+
+    ``XML
     
-    curl -u &lt;*username*>：&lt;*password*> -H “内容类型： application/json;charset=UTF-8“ -k -X POST -d ”{[JSON rules string]（create-activate-package-java.md#example-create-activate-package-id198JH0B905Z）}“ http://&lt;*aem-guides-server*>：&lt;*port-number*>/bin/fmdita/activate？activationTarget=&#39;&lt;validActivationTargetValue>&#39;
-    &#39;&#39;&#39;&#39;
-&lt;/validActivationTargetValue>&lt;/*port-number*>&lt;/*aem-guides-server*>&lt;/*password*>&lt;/*username*>
+    curl -u &lt;*用户名*>：&lt;*password*> -H &quot;Content-Type： application/json； charset=UTF-8&quot; -k -XPOST-d &quot;{[JSON规则字符串](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>：&lt;*port-number*>/bin/fmdita/activate？activationTarget=&#39;&lt;validActivationTarget=&#39;&lt;validActivationTarget值>“
+    ”“
+”

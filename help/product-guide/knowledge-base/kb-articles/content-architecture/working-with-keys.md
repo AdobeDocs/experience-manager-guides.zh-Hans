@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 步骤1：创建用于存储密钥的全局映射
 
-创建映射并添加 [!UICONTROL keyref] 元素到其中。
+创建映射并将[!UICONTROL keyref]元素添加到其中。
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,7 +37,7 @@ ht-degree: 0%
 </map>
 ```
 
-在这里，您已定义了两个定义（如上所示），并提供 [!UICONTROL keyref] 作为 _AEM_ 对于 _Adobe Experience Manager_ 文本。
+此处您定义了两个定义，如上所示，为&#x200B;_Adobe Experience Manager_&#x200B;文本提供了[!UICONTROL keyref]作为&#x200B;_AEM_。
 
 ## 步骤2：将此地图添加到您的发布地图
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 步骤3：使用键引用全局键映射中定义的变量
 
-+ 编辑主题并使用 [!UICONTROL keyref].
++ 使用[!UICONTROL keyref]编辑主题并添加键值。
 + 如屏幕快照所示，将显示一个小窗口，可在其中选择关键字。 当您添加“keyword”元素时，将显示该字段。
   ![插入元素](assets/insert_element.png)
   ![键引用](assets/key_ref.png)

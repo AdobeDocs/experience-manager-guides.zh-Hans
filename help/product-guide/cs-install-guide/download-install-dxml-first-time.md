@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 部署Adobe Experience Manager Guides模块 {#id213BCL00KEV}
 
-您可以首先通过Cloud Manager部署Experience Manager指南。 要部署模块，您可以按照中所述的说明操作 [AEM Guidesas a Cloud Service部署](../release-info/deploy-xml-on-aemaacs.md)
+您可以首先通过Cloud Manager部署Experience Manager Guides。 要部署模块，您可以按照[AEM Guidesas a Cloud Service部署](../release-info/deploy-xml-on-aemaacs.md)中所述的说明操作
 
 
 

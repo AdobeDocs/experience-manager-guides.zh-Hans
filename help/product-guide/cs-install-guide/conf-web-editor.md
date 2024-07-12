@@ -26,7 +26,7 @@ AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的�
 
 - **[自定义工具栏](conf-web-editor-customize-toolbar.md)**
 
-- **[配置标记视图的默认值](configure-default-value-tags-view.md)**
+- **[为标记视图配置默认值](configure-default-value-tags-view.md)**
 
 - **[配置基于UUID的链接的显示](conf-uuid-based-links.md)**
 
@@ -34,9 +34,9 @@ AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的�
 
 - **[在左侧面板中配置自定义面板](configure-custom-panel.md)**
 
-- **[在Web编辑器中配置文件自动保存](auto-save-in-editor.md)**
+- **[在Web编辑器中自动保存配置文件](auto-save-in-editor.md)**
 
-- **[配置关闭时另存为新版本的提示](conf-save-as-new-version-close.md)**
+- **[配置提示以在关闭时另存为新版本](conf-save-as-new-version-close.md)**
 
 - **[配置关闭时签入文件的提示](conf-checkin-file-close.md)**
 
@@ -46,11 +46,11 @@ AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的�
 
 - **[自定义AEM默认词典](customize-aem-custom-dictionary.md)**
 
-- **[配置文本过滤器](config-text-filters.md)**
+- **[配置文本筛选器](config-text-filters.md)**
 
 - **[为文件浏览对话框配置筛选器](conf-custom-file-filters.md)**
 
-- **[安装用于基于文章的发布的包](configure-article-based-publishing.md)**
+- **[安装基于文章的发布的包](configure-article-based-publishing.md)**
 
 - **[配置单主题PDF生成](conf-pdf-generation-dita-ot.md)**
 
@@ -58,4 +58,4 @@ AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的�
 
 - **[将高级映射编辑器设置为默认值](conf-map-editor.md)**
 
-- **[默认包含@navtitle属性](auto-add-navtitle.md)**
+- **[默认情况下包含@navtitle属性](auto-add-navtitle.md)**
