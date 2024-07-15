@@ -27,15 +27,16 @@ com/adobe/fmdita/replication/complete
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`path`|字符串|触发此事件的文件的路径。 <br>例如，`/content/output/sites/ditamap1-ditamap`。 <br>它是序列化为JSON数组的路径的列表。|
-|`messageType`|字符串|消息的类型。 <br>可能的选项：`REPLICATION`|
-|`action`|字符串|这是执行的操作。 <br>可能的选项：`BulkReplicate`|
-|`user`|字符串|启动操作的用户。|
-|`result`|字符串|批量激活的结果。 它是一个序列化JSON对象： <br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|字符串|复制中使用的代理ID。 例如：`"publish"`。|
-激活中使用的|`importMode`|字符串|导入模式。 可能的选项有： <br>`REPLACE, MERGE, UPDATE`。|
+
+|Name|Type|Description|
+|----|----|-----------|
+|`path`|String|The path of the file that triggered this event. <br> For example, `/content/output/sites/ditamap1-ditamap`. <br> It is a list of paths serialized as a JSON array.|
+|`messageType`|String|The type of a message. <br>Possible option : `REPLICATION`|
+|`action`|String|This is the action performed. <br>Possible option : `BulkReplicate`|
+|`user`|String|The user who started the operation.|
+|`result`|String|The result of the Bulk Activation. It is a serialized JSON Object: <br>`{"success":boolean,"code":integer,"message":"" }`|
+|`agentId`|String|The agentId used in the replication. For example, `"publish"`.|
+|`importMode`|String|Import mode used in Activation. The possible options are: <br>`REPLACE, MERGE, UPDATE`.|
 
 
 **示例事件侦听器**：
