@@ -5,10 +5,10 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,12 +23,13 @@ ht-degree: 0%
 **请求URL**：\
 http://*&lt;aem-guides-server\>*： *&lt;端口号\>*/bin/fmdita/folderprofiles
 
-**参数**：\
-|名称|类型|必需|描述|
----------------------------
-|`:operation`|字符串|是|要调用的操作的名称。 此参数的值为``ADDATTRIBUTEPROFILES``。<br> **注意：**该值不区分大小写。|
-|`profilename`|字符串|是|必须添加条件属性的文件夹级别配置文件的显示名称。|
-|`conditionalprofiles`|JSON数组|是|由条件属性名称和值组成的JSON数组。 以下示例代码片段显示了具有两个属性（`platform`和`product`）的JSON数组，这两个属性分配了多个值。|
+**参数**：
+
+| 名称 | 类型 | 必需 | 描述 |
+|----|----|--------|-----------|
+| `:operation` | 字符串 | 是 | 要调用的操作的名称。 此参数的值为``ADDATTRIBUTEPROFILES``。<br> **注意：**&#x200B;该值不区分大小写。 |
+| `profilename` | 字符串 | 是 | 必须添加条件属性的文件夹级别配置文件的显示名称。 |
+| `conditionalprofiles` | JSON阵列 | 是 | 由条件属性名称和值组成的JSON数组。 以下示例代码片段显示了具有两个属性（`platform`和`product`）的JSON数组，这两个属性分配了多个值。 |
 
 ```JSON
 [  {    name: "platform",    
