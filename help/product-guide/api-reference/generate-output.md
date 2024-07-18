@@ -5,10 +5,10 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a255007fc9fe169f926e356ec9d2a8f5a2fdbe29
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -49,11 +49,12 @@ throws GuidesApiException
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`session`|javax.jcr.Session|有效的JCR会话。|
-需要为其生成输出的DITA映射文件的|``sourcePath``|字符串|路径\(在AEM存储库中\)。|
-|``outputName``|字符串|用于生成输出的输出预设的名称。 可以使用管道分隔符(“\|”\)指定多个输出预设，例如`aemsite\|pdfoutput`。|
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR会话。 |
+| ``sourcePath`` | 字符串 | 需要为其生成输出的DITA映射文件的路径\(在AEM存储库中\)。 |
+| ``outputName`` | 字符串 | 用于生成输出的输出预设的名称。 可以使用管道分隔符(“\|”\)指定多个输出预设，例如`aemsite\|pdfoutput`。 |
 
 **异常**：
 抛出``javax.jcr.RepositoryException``、`java.io.IOException`和`java.lang.Exception`。
