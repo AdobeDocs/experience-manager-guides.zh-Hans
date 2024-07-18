@@ -3,7 +3,7 @@ title: 自定义
 description: 自定义审核应用程序
 role: User, Admin
 exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 ## Review-Comment
 
 - ID： `review_comment`
-- 挂接： `this.updateExtraProps`：
+- 挂接： `this.next('updateExtraProps')`：
 
 如[此处](../../aem_guides_framework/basic-customisation.md)所述，自定义期间添加的任何新属性都位于`this.model.extraProps`下。 方法`updateExtraProps`允许您向审阅评论添加属性，并处理服务器上所添加属性的更新和存储。
 
@@ -80,8 +80,20 @@ ht-degree: 0%
 在上述代码片段中，我们正在检查已调度的事件是新注释还是回复。 如果存在新的评论或回复，我们将调用方法`setUserInfo`
 
 ```typescript
+    const getUserInfo = (userId) => {
+      return $.ajax({
+        url: '/bin/dxml/xmleditor/userinfo',
+        data: {
+          username: userId,
+        },
+        success: (data) => {
+          return data
+        }
+      })
+    }
+
     setUserInfo(event) {
-      this.loader?.getUserInfo(event.user).subscribe(userData => {
+      getUserInfo(event.user).done(userData => {
         const extraProps = {
           "userFirstName": userData?.givenName || '',
           "userLastName": userData?.familyName || '',

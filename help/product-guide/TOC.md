@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
+source-git-commit: d16d9915b826a754f834ad82f413e860c2da12d2
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 6%
 
 ---
@@ -403,7 +403,7 @@ ht-degree: 6%
    - [用于基线和标签的基于Java的API](./api-reference/create-baseline-label-java.md)
    - [用于处理文件夹配置文件的基于Java的API](./api-reference/folder-profile-java.md)
    - [用于创建和激活包的基于Java的API](./api-reference/create-activate-package-java.md)
-   - [Post处理事件处理程序](./api-reference/post-process-event.md)
+   - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [批量激活完成事件处理程序](./api-reference/bulk-activation-complete-event.md)
    - [转换过程事件处理程序](./api-reference/conversion-complete-event.md)
 - 知识库{#knowledge-base}
@@ -459,9 +459,12 @@ ht-degree: 6%
             - [简单的自定义](./guides-ui-extensions/customisations/add-button.md)
             - [自定义上下文菜单](./guides-ui-extensions/customisations/context-menus.md)
             - [自定义工具栏和顶栏](./guides-ui-extensions/customisations/toolbar-topbar.md)
+            - [示例](./guides-ui-extensions/examples.md)
+            - [可自定义的Json](./guides-ui-extensions/JSONs.md)
             - 审核{#review-app-customisations}
                - [组件](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [自定义](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+               - [自定义对话框](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 发布 {#publishing}
 
          - [为本机PDF发布配置AEM环境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -477,7 +480,7 @@ ht-degree: 6%
          - [设置自定义DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
       - 工作流程 {#workflows}
-         - [Post生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 翻译 {#translation}
          - [从翻译中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - 用例{#use-cases}
