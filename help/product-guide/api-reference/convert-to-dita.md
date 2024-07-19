@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: add4730e396fe7384a20fb2c6c04730c20a83e71
+source-git-commit: e979823b7947b561165fde92023ae9c440182e94
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -63,12 +63,13 @@ http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/conversion
 http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/conversion
 
 **参数**：
-|名称|类型|必需|描述|
----------------------------
-|``operation``|字符串|是|要调用的操作的名称。 此参数的值为``idml2dita``。<br> **注意：**该值不区分大小写。|
-|`inputFile`|字符串|是|AEM存储库中源InDesign文件的绝对路径。|
-|`destPath`|字符串|是|将保存转换的DITA文件的目标位置的绝对路径。|
-|`createRev`|布尔值|是|指定是否在指定的目标创建文件的修订版\(`true`\)\(`false`\)。 仅当目标位置包含转换文件的现有版本时，才考虑使用此选项。|
+
+| 名称 | 类型 | 必需 | 描述 |
+|----|----|--------|-----------|
+| ``operation`` | 字符串 | 是 | 要调用的操作的名称。 此参数的值为``idml2dita``。<br> **注意：**&#x200B;该值不区分大小写。 |
+| `inputFile` | 字符串 | 是 | AEM存储库中源InDesign文件的绝对路径。 |
+| `destPath` | 字符串 | 是 | 将保存转换的DITA文件的目标位置的绝对路径。 |
+| `createRev` | 布尔值 | 是 | 指定是否在指定的目标创建了\(`true`\)文件修订版\(`false`\)。 仅当目标位置包含转换文件的现有版本时，才考虑使用此选项。 |
 
 **响应值**：
 返回HTTP 200 \(Successful\)响应。
