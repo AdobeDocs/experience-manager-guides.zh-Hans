@@ -2,7 +2,7 @@
 title: 发行说明 | Adobe Experience Manager Guides 2024.06.0版本中的新增功能
 description: 了解Adobe Experience Manager Guidesas a Cloud Service2024.06.0版本中的新增功能和增强功能。
 exl-id: c885b8ba-5230-4d51-8f38-311b3a33fe0a
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 2455307ef747b2f2574666ee773d931b302f58ca
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 2%
@@ -36,7 +36,6 @@ Experience Manager Guides现在允许您将主题或其元素发布到体验片�
 Experience Manager Guides在内容片段中还提供了一些有用的增强功能：
 
 - 使用DITAVAL文件或条件属性，您可以在发布到内容片段时轻松筛选带条件的内容。
-
 - 您还可以从&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;部分发布和查看主题的内容片段。
 
 ![文件属性选项选项卡](./assets/file-properties-outputs-tab.png){width="300" align="left"}
