@@ -1,9 +1,9 @@
 ---
 title: 示例
 description: 自定义示例列表
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 0%
 
 6. [接受修改对话框](./examples/review_app_examples/accept_with_modification_dialog.ts)
 这是向应用程序添加新构件的示例。 在此处，我们创建了一个新对话框，该对话框有两个输入文本字段：`Revised Text`和`Adjudicator Comment Rationale`
+
+7. [保存修订](./examples/save_revision.ts)
+这是如何更新现有对话框的示例。 我们在此中添加了发布按钮。 我们允许修改对话框的内容。 在此处引用其json： [`save_revision`](./jsons/dialogs/save_revision.json)
 
 ![接受并修改对话框](./imgs/accept_with_modification_dialogue.png)
 
