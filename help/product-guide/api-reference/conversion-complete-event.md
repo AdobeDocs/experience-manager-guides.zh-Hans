@@ -5,10 +5,10 @@ exl-id: 8033935d-2113-4e39-ab74-b7431b89f948
 feature: Conversion Process Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -26,10 +26,11 @@ AEM Guides会公开com/adobe/fmdita/conversion/complete事件，用于在文档�
 com/adobe/fmdita/conversion/complete 
 ```
 
-**参数**：\
-名称|类型|描述|
---------文-----------
-|`status`|字符串|所执行操作的返回状态。 可能的选项包括： -   成功：转换过程已成功完成。 <br> -   已完成，但出现错误：转换过程已完成，但有一些错误。 <br>-   失败：转换过程由于某个致命错误而失败。|
-|`filePath`|字符串|AEM存储库中源文件\（待转换\）的绝对路径。|
-|`outputPath`|字符串|将保存转换的DITA文件的目标位置的绝对路径。|
-|`logPath`|字符串|将保存转换日志的节点的绝对路径。|
+**参数**：
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `status` | 字符串 | 所执行操作的返回状态。 可能的选项包括： -   成功：转换过程已成功完成。 <br> -   已完成，但出现错误：转换过程已完成，但有一些错误。 <br>-   失败：转换过程由于某个致命错误而失败。 |
+| `filePath` | 字符串 | AEM存储库中源文件\（待转换\）的绝对路径。 |
+| `outputPath` | 字符串 | 将保存转换的DITA文件的目标位置的绝对路径。 |
+| `logPath` | 字符串 | 将保存转换日志的节点的绝对路径。 |

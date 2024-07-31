@@ -3,7 +3,8 @@ title: 知识库
 description: 了解如何从Web编辑器和地图仪表板创建知识库预设。 在AEM Guides中配置知识库输出预设。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -51,12 +52,13 @@ ht-degree: 1%
 | 类别 | 从下拉列表中选择一个类别，以在Salesforce站点上发布该类别中目录的主题。 |
 
 您还可以在Salesforce和ServiceNow预设中查看以下选项：
+
 | 选项 | 描述 |
-| — | — |
-|从文章正文中删除主题标题。|选择此选项可从已发布输出中的文章中删除主题标题。 |
-|上传为草稿 | 选择此选项可上传主题，以将其共享为草稿，然后再提供给用户。|
-|上传图像| 如果希望主题中的任何图像包含在已发布的输出中，请选择此选项。|
-|上传链接的文档| 选择此选项可在已发布输出中包括主题中链接的文档。|
+| --- | --- |
+| 从文章正文中删除主题标题。 | 选择此选项可从已发布输出中的文章中删除主题标题。 |
+| 上载为草稿 | 选择此选项可上传主题，以将其共享为草稿，然后再提供给用户。 |
+| 上传图像 | 如果希望主题中的任何图像包含在已发布的输出中，请选择此选项。 |
+| 上传链接的文档 | 选择此选项可在已发布输出中包括主题中链接的文档。 |
 
 
 ### Adobe Experience Manager
@@ -73,6 +75,7 @@ ht-degree: 1%
 | 类别 | 从下拉列表中选择一个类别，以在AdobeExperience Manager站点上发布该类别中目录的主题。 |
 | 区域模板和文章模板 | 这些是用于组织输出内容的结构组件。 这些是在Adobe Experience Manager站点模板中预定义的。 |
 | 后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在Adobe Experience Manager中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。<br>了解有关如何[自定义输出后生成工作流](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)部分的详细信息，请参阅安装和配置指南。 |
+
 >[!TIP]
 > 
 >选择&#x200B;**刷新** ![刷新图标](images/navtitle-refresh-icon.svg)以根据您选择的知识库模板在字段中填充相应的模板。

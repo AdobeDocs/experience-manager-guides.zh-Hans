@@ -5,10 +5,10 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -50,12 +50,13 @@ public static void convertHtmlToDita(Session session,
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`session`|javax.jcr.Session|有效的JCR会话。|
-|`inputFile`|字符串|AEM存储库中源HTML文件的绝对路径。|
-|`destPath`|字符串|将保存转换的DITA文件的目标位置的绝对路径。|
-|`createRev`|布尔值|指定是否在指定的目标创建了\(`true`\)文件的修订版\(`false`\)。 仅当目标位置包含转换文件的现有版本时，才考虑使用此选项。|
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR会话。 |
+| `inputFile` | 字符串 | AEM存储库中源HTML文件的绝对路径。 |
+| `destPath` | 字符串 | 将保存转换的DITA文件的目标位置的绝对路径。 |
+| `createRev` | 布尔值 | 指定是否在指定的目标创建了\(`true`\)文件修订版\(`false`\)。 仅当目标位置包含转换文件的现有版本时，才考虑使用此选项。 |
 
 **异常**：
 抛出`RepositoryException`。
@@ -76,13 +77,14 @@ public static void convertWordToDita(Session session,
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`session`|javax.jcr.Session|有效的JCR会话。|
-|`inputFile`|字符串|AEM存储库中源Word文件的绝对路径。|
-|`destPath`|字符串|将保存转换的DITA文件的目标位置的绝对路径。|
-|`style2tagMap`|字符串|将用于转换的样式映射文件的绝对路径。|
-|`createRev`|布尔值|指定是否在指定的目标创建了\(`true`\)文件的修订版\(`false`\)。 仅当目标位置包含转换文件的现有版本时，才考虑使用此选项。|
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR会话。 |
+| `inputFile` | 字符串 | AEM存储库中源Word文件的绝对路径。 |
+| `destPath` | 字符串 | 将保存转换的DITA文件的目标位置的绝对路径。 |
+| `style2tagMap` | 字符串 | 用于转换的样式映射文件的绝对路径。 |
+| `createRev` | 布尔值 | 指定是否在指定的目标创建了\(`true`\)文件修订版\(`false`\)。 仅当目标位置包含转换文件的现有版本时，才考虑使用此选项。 |
 
 **异常**：
 抛出`RepositoryException`。

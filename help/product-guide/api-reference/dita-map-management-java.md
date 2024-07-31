@@ -5,10 +5,10 @@ exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -57,13 +57,14 @@ public static void zipMapWithDependents(Session session,
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`session`|javax.jcr.Session|有效的JCR会话。|
-需要下载的DITA映射文件的|`sourcePath`|字符串|路径\(在AEM存储库中\)。|
-|`outputStream`|java.io.OutputStream|要将ZIP写入的流。|
-|`baseline`|字符串|用于检索版本化内容的基线的标题。<br> **注意：**该值区分大小写。|
-|flatFS|Boolean|\(Optional\)如果设置为true，则在ZIP文件中返回文件的平面结构。 例如，如果DITA映射引用多个文件夹中的内容，则所有引用的文件都将提取到单个文件夹中。 如果存在同名文件，则通过添加数字后缀来重命名这些文件。 所有引用\（在DITA映射和主题中\）都会自动处理，因为它们会根据平面文件夹结构中文件的新位置进行更新。 如果设置为false，则文件夹结构将保持不变。 如果DITA映射从多个位置引用文件，则所有这些位置也会在ZIP文件中创建。 恢复ZIP文件时，会在目标位置创建精确的文件夹结构。 <br>此参数的默认值为false。|
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR会话。 |
+| `sourcePath` | 字符串 | 需要下载的DITA映射文件的路径\(在AEM存储库中\)。 |
+| `outputStream` | java.io.OutputStream | 要将ZIP写入的流。 |
+| `baseline` | 字符串 | 用于检索版本化内容的基线的标题。<br> **注意：**&#x200B;该值区分大小写。 |
+| flatFS | 布尔值 | \(Optional\)如果设置为true，则在ZIP文件中返回文件的平面结构。 例如，如果DITA映射引用多个文件夹中的内容，则所有引用的文件都将提取到单个文件夹中。 如果存在同名文件，则通过添加数字后缀来重命名这些文件。 所有引用\（在DITA映射和主题中\）都会自动处理，因为它们会根据平面文件夹结构中文件的新位置进行更新。 如果设置为false，则文件夹结构将保持不变。 如果DITA映射从多个位置引用文件，则所有这些位置也会在ZIP文件中创建。 恢复ZIP文件时，会在目标位置创建精确的文件夹结构。 <br>此参数的默认值为false。 |
 
 **返回**：
 ZIP的内容将写入`outputStream`。
@@ -93,12 +94,13 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`session`|javax.jcr.Session|有效的JCR会话。|
-需要下载的DITA映射文件的|`sourcePath`|字符串|路径\(在AEM存储库中\)。|
-|`baseline`|字符串|用于检索版本化内容的基线的标题。<br> **注意：**该值区分大小写。|
-|flatFS|Boolean|\(Optional\)如果设置为true，则在ZIP文件中返回文件的平面结构。 例如，如果DITA映射引用多个文件夹中的内容，则所有引用的文件都将提取到单个文件夹中。 如果存在同名文件，则通过添加数字后缀来重命名这些文件。 所有引用\（在DITA映射和主题中\）都会自动处理，因为它们会根据平面文件夹结构中文件的新位置进行更新。 如果设置为false，则文件夹结构将保持不变。 如果DITA映射从多个位置引用文件，则所有这些位置也会在ZIP文件中创建。 恢复ZIP文件时，会在目标位置创建精确的文件夹结构。<br>此参数的默认值为false。|
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR会话。 |
+| `sourcePath` | 字符串 | 需要下载的DITA映射文件的路径\(在AEM存储库中\)。 |
+| `baseline` | 字符串 | 用于检索版本化内容的基线的标题。<br> **注意：**&#x200B;该值区分大小写。 |
+| flatFS | 布尔值 | \(Optional\)如果设置为true，则在ZIP文件中返回文件的平面结构。 例如，如果DITA映射引用多个文件夹中的内容，则所有引用的文件都将提取到单个文件夹中。 如果存在同名文件，则通过添加数字后缀来重命名这些文件。 所有引用\（在DITA映射和主题中\）都会自动处理，因为它们会根据平面文件夹结构中文件的新位置进行更新。 如果设置为false，则文件夹结构将保持不变。 如果DITA映射从多个位置引用文件，则所有这些位置也会在ZIP文件中创建。 恢复ZIP文件时，会在目标位置创建精确的文件夹结构。<br>此参数的默认值为false。 |
 
 **返回**：
 zip文件的节点封装在`CompletableFuture`类中。 用户可以继续异步处理它，并且可以在需要节点时使用未来的`.get()`方法阻止线程。 返回的值也可能以错误结束，并且可以使用`.exceptionally()`方法处理。
@@ -117,10 +119,11 @@ public static List<HashMap<String,String>> getBaselineList(
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`session`|javax.jcr.Session|有效的JCR会话。|
-|`sourcePath`|字符串|要检索其基线信息的DITA映射文件的\(在AEM存储库中\)。|
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR会话。 |
+| `sourcePath` | 字符串 | 要检索其基线信息的DITA映射文件的路径\(在AEM存储库中\)。 |
 
 **返回**：
 `HashMap`对象的列表。 每个`HashMap`对象表示一个基线，并包含基线的名称和标题。
@@ -142,10 +145,11 @@ public static List<HashMap<String,String>> getConditionalPresetList (
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`session`|javax.jcr.Session|有效的JCR会话。|
-|`sourcePath`|字符串|要检索其条件预设信息的DITA映射文件的\(在AEM存储库中\)。|
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR会话。 |
+| `sourcePath` | 字符串 | 要检索其条件预设信息的DITA映射文件的路径\(在AEM存储库中\)。 |
 
 **返回**：
 `HashMap`对象的列表。 每个`HashMap`对象都表示一个条件预设，并包含条件预设的名称和标题。
@@ -167,11 +171,12 @@ public static String getDitavalFromConditionalPreset
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`session`|javax.jcr.Session|有效的JCR会话。|
-|`sourcePath`|字符串|要检索DITAVAL文件的DITA映射文件的\(在AEM存储库中\)。|
-|`cpName`|字符串|要检索DITAVAL文件的DITA映射中的条件预设的名称。|
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `session` | javax.jcr.Session | 有效的JCR会话。 |
+| `sourcePath` | 字符串 | 要检索DITAVAL文件的DITA映射文件的路径\(在AEM存储库中)。 |
+| `cpName` | 字符串 | DITA映射中要检索DITAVAL文件的条件预设的名称。 |
 
 **返回**：
 与DITA映射文件中定义的条件预设相对应的DITAVAL文件的路径。
@@ -189,9 +194,10 @@ public static List
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`rootNode`|javax.jcr.Node|要检索其所有依赖项的根节点。|
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `rootNode` | javax.jcr.Node | 要检索其所有依赖项的根节点。 |
 
 **返回**：
 包含根节点的所有依赖关系的节点列表。

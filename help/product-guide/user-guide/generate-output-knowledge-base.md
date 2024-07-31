@@ -4,7 +4,7 @@ description: 了解如何从Web编辑器和地图仪表板创建知识库预设�
 feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 | --- | --- |
 | 使用以下方式应用条件 | 选择以下选项之一：<br><br>* **未应用任何项**：如果不想对已发布的输出应用任何条件，请选择此选项。<br>* **DITAVAL文件**：选择DITAVAL文件以生成个性化内容。 您可以使用浏览对话框或键入文件路径来选择多个DITAVAL文件。 使用文件名旁边的交叉图标可将其删除。 DITAVAL文件将按指定的顺序进行计算，因此第一个文件中指定的条件优先于后续文件中指定的匹配条件。 您可以通过添加或删除文件来维护文件顺序。 如果将DITAVAL文件移动到其他位置或将其删除，则不会自动将其从预设中删除。 如果移动或删除了文件，则需要更新位置。 您可以将鼠标悬停在文件名上以查看存储该文件的Adobe Experience Manager存储库中的路径。 您只能选择DITAVAL文件，如果选择了任何其他文件类型，则会显示错误。<br>* **条件预设**：从下拉列表中选择条件预设，以在发布输出时应用条件。 如果您在DITA映射控制台的条件预设选项卡中添加了条件，则该选项可见。 要了解有关条件预设的详细信息，请查看[使用条件预设](generate-output-use-condition-presets.md#id1825FL004PN)。 |
 | 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br>查看[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以了解更多详细信息。 |
-| Post生成工作流 | 选择此选项后，将显示一个新的Post生成工作流下拉列表，其中包含在Adobe Experience Manager中配置的所有工作流。 必须选择要在输出生成完成后执行的工作流。<br><br>**注意**：了解有关Cloud Service的《安装和配置指南》中如何[自定义输出后生成工作流](../cs-install-guide/customize-workflows.md#id17A6GI004Y4)部分的详细信息。 |
+| 后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在Adobe Experience Manager中配置的所有工作流。 必须选择要在输出生成完成后执行的工作流。<br><br>**注意**：了解有关Cloud Service的《安装和配置指南》中如何[自定义输出后生成工作流](../cs-install-guide/customize-workflows.md#id17A6GI004Y4)部分的详细信息。 |
 
 ### ServiceNow
 
@@ -52,12 +52,13 @@ ht-degree: 1%
 | 类别 | 从下拉列表中选择一个类别，以在Salesforce站点上发布该类别中目录的主题。 |
 
 您还可以在Salesforce和ServiceNow预设中查看以下选项：
+
 | 选项 | 描述 |
-| — | — |
-|从文章正文中删除主题标题。|选择此选项可从已发布输出中的文章中删除主题标题。 |
-|上传为草稿 | 选择此选项可上传主题，以将其共享为草稿，然后再提供给用户。|
-|上传图像| 如果希望主题中的任何图像包含在已发布的输出中，请选择此选项。|
-|上传链接的文档| 选择此选项可在已发布输出中包括主题中链接的文档。|
+| --- | --- |
+| 从文章正文中删除主题标题。 | 选择此选项可从已发布输出中的文章中删除主题标题。 |
+| 上载为草稿 | 选择此选项可上传主题，以将其共享为草稿，然后再提供给用户。 |
+| 上传图像 | 如果希望主题中的任何图像包含在已发布的输出中，请选择此选项。 |
+| 上传链接的文档 | 选择此选项可在已发布输出中包括主题中链接的文档。 |
 
 
 ### Adobe Experience Manager
@@ -73,7 +74,8 @@ ht-degree: 1%
 | 站点 | 使用此字段选择所需的Adobe Experience Manager知识库。 您可以在Adobe Experience Manager站点中配置知识库，以根据权限存储内容。 可以将此DITA映射中的文章发布到这些知识库。 |
 | 类别 | 从下拉列表中选择一个类别，以在AdobeExperience Manager站点上发布该类别中目录的主题。 |
 | 区域模板和文章模板 | 这些是用于组织输出内容的结构组件。 这些是在Adobe Experience Manager站点模板中预定义的。 |
-| Post生成工作流 | 选择此选项后，将显示一个新的Post生成工作流下拉列表，其中包含在Adobe Experience Manager中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。<br>了解有关如何[自定义输出后生成工作流](../install-guide/customize-workflows.md#id17A6GI004Y4)部分的详细信息，请参阅安装和配置指南。 |
+| 后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在Adobe Experience Manager中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。<br>了解有关如何[自定义输出后生成工作流](../install-guide/customize-workflows.md#id17A6GI004Y4)部分的详细信息，请参阅安装和配置指南。 |
+
 >[!TIP]
 > 
 >选择&#x200B;**刷新** ![刷新图标](images/navtitle-refresh-icon.svg)以根据您选择的知识库模板在字段中填充相应的模板。
