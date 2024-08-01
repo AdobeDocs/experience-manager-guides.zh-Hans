@@ -5,10 +5,10 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
+source-git-commit: 1bb422427822e7f369e0c1be7de6b12ec012075e
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -71,12 +71,13 @@ throws GuidesApiException
 ```
 
 **参数**：
-名称|类型|描述|
---------文-----------
-|`json`|字符串|JSON字符串，用于确定要构建的CRX包。 使用以下格式创建JSON字符串： <br>- `activate`：属于布尔型\(`true`/`false`\)。 确定是否在创作实例中创建的CRX包复制到发布实例。 <br> - `rules`：属于JSON数组的类型。 一系列JSON规则，将按顺序处理这些规则以构建CRX包。 <br> - `rootPath`：属于字符串类型。 执行节点/属性查询的基本路径。 如果不存在节点/属性查询，则根路径以及根路径下存在的所有节点都将包含在CRX包中。 <br> - `nodeQueries`：属于正则表达式数组的类型。 一个正则表达式数组，用于包含根路径下的特定文件。 <br> - `propertyQueries`：属于JSON数组的类型。 JSON对象数组，每个JSON对象由要在根路径上执行的XPath查询以及执行查询后每个JCR节点中存在的属性名称组成。 每个JCR节点中的属性值应该是一个路径或路径数组。 此属性中存在的路径已添加到CRX包。|
-|`outputstream`|java.io.OutputStream|用于编写各个阶段的结果，例如查询执行、文件包含、CRX包创建或激活。 在创建或激活过程中遇到的任何错误都会写入`outputstream`。 这对调试很有用。|
-|`session`|字符串|具有激活权限的有效JCR会话。|
-|`activationTarget`|字符串|（*可选*） `preview`或`publish`用于Cloud Service，而`publish`用于内部部署软件<br> — 对于Cloud Service，如果参数包含无效值，则包激活失败。 <br> — 对于On-Premise Software，如果参数包含无效值，将记录错误，并使用默认值`publish`完成发布。 |
+
+| 名称 | 类型 | 描述 |
+|----|----|-----------|
+| `json` | 字符串 | 确定要构建的CRX包的JSON字符串。 使用以下格式创建JSON字符串： <br>- `activate`：属于布尔型\(`true`/`false`\)。 确定是否在创作实例中创建的CRX包复制到发布实例。 <br> - `rules`：属于JSON数组的类型。 一系列JSON规则，将按顺序处理这些规则以构建CRX包。 <br> - `rootPath`：属于字符串类型。 执行节点/属性查询的基本路径。 如果不存在节点/属性查询，则根路径以及根路径下存在的所有节点都将包含在CRX包中。 <br> - `nodeQueries`：属于正则表达式数组的类型。 一个正则表达式数组，用于包含根路径下的特定文件。 <br> - `propertyQueries`：属于JSON数组的类型。 JSON对象数组，每个JSON对象由要在根路径上执行的XPath查询以及执行查询后每个JCR节点中存在的属性名称组成。 每个JCR节点中的属性值应该是一个路径或路径数组。 此属性中存在的路径已添加到CRX包。 |
+| `outputstream` | java.io.OutputStream | 此标头用于编写各个阶段的结果，例如查询执行、文件包含、CRX包创建或激活。 在创建或激活过程中遇到的任何错误都会写入`outputstream`。 这对调试很有用。 |
+| `session` | 字符串 | 具有激活权限的有效JCR会话。 |
+| `activationTarget` | 字符串 | （*可选*） `preview`或`publish`用于Cloud Service，而`publish`用于内部部署软件<br> — 对于Cloud Service，如果参数包含无效值，则包激活失败。 <br> — 对于On-Premise Software，如果参数包含无效值，将记录错误，并使用默认值`publish`完成发布。 |
 
 **异常**：
 
