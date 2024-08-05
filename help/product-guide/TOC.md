@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 44875f9fb0935abd0ee58bf933bb0eedb50c0616
+source-git-commit: f2c99e59e7352279135169796221faba74fe45c7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1836'
 ht-degree: 6%
 
 ---
@@ -335,6 +335,7 @@ ht-degree: 6%
          - [迁移现有内容](./cs-install-guide/migrate-content.md)
          - [上载现有DITA内容](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
          - [迁移非DITA内容](./cs-install-guide/migrate-content-non-dita.md)
+         - [将内容从内部部署迁移到Cloud Service](./cs-install-guide/migrate-on-premise-content-cloud.md)
       - 使用自定义DITA-OT和专业化{#custom-dita-ot-spec-cs}
          - [使用自定义DITA-OT和DITA专业化](./cs-install-guide/dita-ot-specialization.md)
       - 配置UUID和非UUID文件名{#conf-non-uuid-filename-cs}
