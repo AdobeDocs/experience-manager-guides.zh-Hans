@@ -4,7 +4,7 @@ description: 了解如何将内容从内部部署软件迁移到Cloud Service
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0c29d3cffa9f9a741ba5f7bd6150d234fbe8341e
+source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
@@ -74,8 +74,7 @@ Experience Manageras a Cloud Service为Experience Manager Assets、Forms和Scree
 1. 创建后，选择三个圆点，然后选择&#x200B;**复制提取密钥**。
 
 
-1. 单击&#x200B;**复制到剪贴板**。
-创建您的第一个项目。
+1. 单击&#x200B;**复制到剪贴板**。 创建您的第一个项目。
    ![提取密钥](./assets/migration-copy-to-clipboard.png)
 
 1. 选择顶部的&#x200B;**Adobe Experience Manager**，然后选择&#x200B;**软件分发**拼贴。
@@ -125,17 +124,14 @@ Experience Manageras a Cloud Service为Experience Manager Assets、Forms和Scree
 1. 选择&#x200B;**迁移集**，然后选择顶部的&#x200B;**提取**。
    ![迁移集提取](./assets/migration-extract.png)
 
-1. 在&#x200B;**迁移集提取**&#x200B;弹出窗口中验证所选路径和配置的详细信息，然后单击&#x200B;**提取**。
-提取将花费几分钟的时间，并且您会看到状态已更新。
+1. 在&#x200B;**迁移集提取**&#x200B;弹出窗口中验证所选路径和配置的详细信息，然后单击&#x200B;**提取**。 提取将花费几分钟的时间，并且您会看到状态已更新。
    ![迁移集提取](./assets/migration-set-extraction.png)
 
 1. 提取完成并以状态`finished`指示后，转到Cloud Acceleration Manager并选择您在步骤18中创建的项目。
 有关详细信息，请选择三个圆点，然后选择**查看详细信息**。
 
 
-1. 在迁移集详细信息弹出窗口中，验证迁移集配置并关闭弹出窗口。
-
-   您可以查看路径和其他设置，如以下屏幕快照中所示：
+1. 在迁移集详细信息弹出窗口中，验证迁移集配置并关闭弹出窗口。 您可以查看路径和其他设置，如以下屏幕快照中所示：
    ![迁移详细信息](./assets/migration-details.png)
 
 
@@ -146,8 +142,6 @@ Experience Manageras a Cloud Service为Experience Manager Assets、Forms和Scree
 1. 选择迁移集，选择环境所需的服务器，然后单击&#x200B;**摄取**。
 
    ![新引入](./assets/migration-new-ingestion.png)
-
-
 
 ## 在Publish实例上运行内容传输工具
 
