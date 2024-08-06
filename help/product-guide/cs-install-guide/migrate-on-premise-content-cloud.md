@@ -4,18 +4,29 @@ description: 了解如何将内容从内部部署软件迁移到Cloud Service
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
+source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1000'
 ht-degree: 1%
 
 ---
 
 # 将内容从内部部署迁移到Cloud Service
 
-Experience Manageras a Cloud Service为Experience Manager Assets、Forms和Screens提供了可扩展、安全且敏捷的技术基础。 这使营销人员和IT专业人员能够专注于大规模提供有影响力的体验。
+Experience Manageras a Cloud Service为Experience Manager Guides、Assets、Forms和Screens提供了可扩展、安全且敏捷的技术基础。 这使营销人员和IT专业人员能够专注于大规模提供有影响力的体验。
 借助Experience Manageras a Cloud Service，您的团队可以专注于创新而不是规划产品升级。 新产品功能经过全面测试并在不中断的情况下交付给您的团队，以便他们始终能够访问最新版本的Adobe Experience Manager。
+
 本文提供了一个详细的分步流程，用于将您的内部部署或Managed Services Experience Manager Guides内容迁移到Cloud Service，确保顺利过渡到基于云的平台。
+
+## 先决条件
+
+* Adobe Experience Manager 6.4或更高版本
+* Experience Manager Guides应采用UUID版本。 如果您使用的是非UUID版本的Adobe Experience Manager Guides，请先使用[迁移非DITA内容](./migrate-content-non-dita.md)中的步骤迁移到UUID。
+* 访问要迁移内容的云实例的&#x200B;**Cloud Acceleration Manager**
+* 支持高达20TB的存储库大小
+* Lucene索引总大小为25 GB
+* 节点名称的长度必须小于150字节
+
 
 ## 迁移过程
 
@@ -36,15 +47,11 @@ Experience Manageras a Cloud Service为Experience Manager Assets、Forms和Scree
 > 
 > 仅支持版本2.0.0及更高版本，建议使用最新版本。
 
-### 先决条件
-
-* Adobe Experience Manager 6.4或更高版本
-* 支持高达20TB的存储库大小
-* Lucene索引总大小为25 GB
-* 节点名称的长度必须小于150字节
 
 
-执行以下步骤，将您的Experience Manager Guides内容迁移到Experience Manageras a Cloud Service。
+
+
+执行以下步骤，将Experience Manager Guides内容迁移到Experience Manageras a Cloud Service。
 
 1. 登录到[experience.adobe.com](https://experience.adobe.com/)并选择&#x200B;**Experience Manager**。
 
@@ -100,9 +107,9 @@ Experience Manageras a Cloud Service为Experience Manager Assets、Forms和Scree
    ![](./assets/migration-create-migration-set.png)
 
 1. 提供要迁移的路径，然后单击&#x200B;**保存**。
-例如，`/content/we-retail`
+例如，`/content/sites`
 或
-   `/content/dam/wknd-events`
+   `/content/dam/tech-docs`
    ![包含的路径](./assets/migration-included-paths.png)
 
 
