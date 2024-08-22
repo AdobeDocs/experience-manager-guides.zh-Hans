@@ -1,7 +1,7 @@
 ---
 title: 将AEM Assets元数据传播到DITA-OT插件生成的输出
 description: 在AEM中配置DITA-OT插件和内容以将元数据推送到生成的输出
-source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
+source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
@@ -21,8 +21,8 @@ ht-degree: 0%
 
 ## 背景
 
-借助AEM Guides，您可以使用DITA-OT插件发布到您选择的输出格式，并使用配置的插件，以及
-您还可以将在AEM DAM中管理的资源的元数据传递给DITA-OT进程，以便在生成的输出中使用它 — 请参阅关于如何设置ditamap/主题以通过输出预设传递元数据的文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)[
+借助AEM Guides，您可以使用DITA-OT插件通过配置的插件发布到您选择的输出格式，并且
+您还可以将在AEM DAM中管理的资源的元数据传递给DITA-OT进程，以便在生成的输出中使用它 — 请参阅有关如何设置ditamap/主题以通过输出预设传递元数据的文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)[
 
 
 ## 假设
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 #### 访问临时目录中的metadata.xml
 
-在下载的临时文件包中，您会看到一个metadata.xml文件，您可以在其中查看属性和值的结构（请参见下面的屏幕快照）
+在下载的临时文件包中，您会注意到一个metadata.xml文件，您可以在其中查看属性和值的结构（请参见下面的屏幕快照）
 ![metadata.xml结构和结构](../../assets/publishing/publish-tempfiles-metadata-structure.png)
 
 ##### 了解metadata.xml
