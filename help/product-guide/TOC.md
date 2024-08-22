@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1848'
 ht-degree: 6%
 
 ---
@@ -469,16 +469,14 @@ ht-degree: 6%
                - [自定义](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [自定义对话框](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 发布 {#publishing}
-
+         - DITA-OT {#dita-ot}
+            - [在插件中使用AEM元数据](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [为本机PDF发布配置AEM环境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
          - [在本机PDF发布中生成书签映射的目录](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
          - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [微服务体系结构和性能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [使用JWT身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
          - [使用OAuth身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
          - [在AEM Cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [设置自定义DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
