@@ -1,15 +1,15 @@
 ---
 title: 将AEM Assets元数据传播到DITA-OT插件生成的输出
 description: 在AEM中配置DITA-OT插件和内容以将元数据推送到生成的输出
-source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
+source-git-commit: b48f5a342989d3be48bbc1e8af51a2ce477d0ac7
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
 
 
-# 关于本文
+# 将AEM Assets元数据传播到DITA-OT插件生成的输出
 
 在本文中，我们将说明如何对DITA-OT插件实施更改以读取metadata.xml _（可用于临时文件）_，并利用AEM Guides发布工作流传递的属性在DITA-OT插件中并在生成的输出中设置它。
 
