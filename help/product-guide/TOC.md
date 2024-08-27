@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
+source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 6%
@@ -450,12 +450,12 @@ ht-degree: 6%
                - [图标](./guides-ui-extensions/aem_guides_framework/components/icon.md)
                - [标签](./guides-ui-extensions/aem_guides_framework/components/label.md)
                - [列表](./guides-ui-extensions/aem_guides_framework/components/list.md)
-               - [文本区域](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+               - [文本区域](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
             - 小组件{#framework-widgets}
                - [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          - 快速入门 {#getting-started}
-            - [简介](./guides-ui-extensions/getting-started/Introduction.md)
+            - [简介](./guides-ui-extensions/getting-started/introduction.md)
             - [安装指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
             - [扩展存储库简介](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          - 自定义{#customisations}
@@ -463,7 +463,7 @@ ht-degree: 6%
             - [自定义上下文菜单](./guides-ui-extensions/customisations/context-menus.md)
             - [自定义工具栏和顶栏](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [示例](./guides-ui-extensions/examples.md)
-            - [可自定义的Json](./guides-ui-extensions/JSONs.md)
+            - [可自定义的Json](./guides-ui-extensions/jsons.md)
             - 审核{#review-app-customisations}
                - [组件](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [自定义](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
