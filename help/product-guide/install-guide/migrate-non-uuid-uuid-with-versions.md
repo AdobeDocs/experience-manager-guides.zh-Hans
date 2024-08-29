@@ -5,14 +5,19 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
 
 # 迁移受版本控制的内容
+
+>[!NOTE]
+>
+> 您可以在Experience Manager Guides中将非UUID内容迁移到UUID内容。 本文将于2024年11月存档。
+>查看&#x200B;[**从Non-UUID迁移到UUID的内容**](./migrate-non-uuid-uuid-new.md)&#x200B;以了解最新和详细的文档。
 
 执行以下步骤，将您的非UUID版本化内容迁移到UUID内容。
 
@@ -87,7 +92,7 @@ ht-degree: 0%
 
 1. 请确保可用空间至少是AEM （crx-quickstart目录）在迁移期间占用空间的10倍。 完成迁移后，可以通过运行压缩回收大部分磁盘空间（请参阅[修订清理](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)）。
 
-1. 在`com.adobe.fmdita.config.ConfigManager`中启用&#x200B;*启用Post处理工作流启动器*，在`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`中启用&#x200B;*版本后处理*
+1. 在`com.adobe.fmdita.config.ConfigManager`中启用&#x200B;*启用后处理工作流启动器*，在`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`中启用&#x200B;*版本后处理*
 
 1. 在非UUID版本上安装受支持发行版的UUID版本。 例如，如果您使用的是4.1非UUID内部版本，则需要安装UUID版本4.1并运行迁移。
 
@@ -98,7 +103,7 @@ ht-degree: 0%
    * DAM更新资产工作流
    * DAM元数据写回工作流
 
-1. 禁用&#x200B;*在`com.adobe.fmdita.config.ConfigManager`中启用Post处理工作流启动器*，并在`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`中禁用&#x200B;*启用版本后处理*。
+1. 禁用`com.adobe.fmdita.config.ConfigManager`中的&#x200B;*启用后处理工作流启动器*，并禁用`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`中的&#x200B;*启用版本后处理*。
 
 1. 禁用Day CQ标记服务中的“启用验证”(`validation.enabled`)属性。
 
