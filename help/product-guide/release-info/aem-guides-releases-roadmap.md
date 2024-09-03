@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides 2024年版路线图
 description: 获取有关Adobe Experience Manager Guides本地版本和Adobe Experience Manager Guidesas a Cloud Service的实时版本和即将发布版本的信息
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 9abc8527f0ef9b1a373bbb10ac9ce7d4f9fa0980
+source-git-commit: df604f25c0a2f9913ac98d9e5f550223dd28238c
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 25%
+source-wordcount: '232'
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ Experience Manager Guidesas a Cloud Service的发行计划如下：
 | Adobe Experience Manager Guides 2024.2.0 | 自动更新 | 2024年3月6日 | [此处](whats-new-2024-2-0.md) | [此处](upgrade-instructions-2024-2-0.md) | [此处](fixed-issues-2024-2-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.4.0 | 自动更新 | 2024年4月26日 | [此处](whats-new-2024-04-0.md) | [此处](upgrade-instructions-2024-04-0.md) | [此处](fixed-issues-2024-04-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.6.0 | 自动更新 | 2024 年 6 月 10-12 日 | [此处](whats-new-2024-06-0.md) | [此处](upgrade-instructions-2024-06-0.md) | [此处](fixed-issues-2024-06-0.md) | 已更新 |
-| Adobe Experience Manager Guides 2024.9.0 | 自动更新 | 2024年9月02日至04日 |  |  |  | 为确保获得最佳体验，我们正在将此版本移至下一个周期，因为我们已经确定了精彩绝伦。 我们很快将共享更新的发布日期。 |
+| Adobe Experience Manager Guides 2024.10.0 | 自动更新 | 2024年10月14至16日 |  |  |  | 目标 |
 
 {style="table-layout:auto"}
 
@@ -38,4 +38,4 @@ Experience Manager Guidesas a Cloud Service的发行计划如下：
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 状态 |
 |---|---|---|---|---|---|
 | Adobe Experience Manager Guides 4.4.0 | 发行版本 | 2024年1月29日 | [此处](whats-new-4-4.md) | [此处](upgrade-instructions-4-4.md) | 已发布 |
-| Adobe Experience Manager Guides 4.6.0 | 发行版本 | 2024 年 8 月 26-30 日 |  |  | 目标 |
+| Adobe Experience Manager Guides 4.6.0 | 发行版本 | 2024年9月9日至13日 |  |  | 目标 |
