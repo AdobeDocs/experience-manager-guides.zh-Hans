@@ -3,9 +3,9 @@ title: AEM Guides中的DITA内容重用
 description: 这篇简短文章介绍AEM Guides和DITA如何帮助您在使用内容重用性时节省时间和精力
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
+source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 AdobeAEM Guides利用DITA的优势为内容重用提供用户友好的界面。
 
-在本文中，我们将讨论：
+本文将讨论：
 
 1. [使用主题引用(](#reusability-using-topic-referencestopicref)
 2. [使用内容引用(](#reusability-using-content-reference-conref--conkeyref)
@@ -79,7 +79,7 @@ AdobeAEM Guides利用DITA的优势为内容重用提供用户友好的界面。
 
 此处`conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita是文件标识符，#individual_kyc是片段标识符。
 
-Kyc_procedure.dita仍然是唯一的信息源。 如果根据法规要求对KYC流程进行了任何更改，则只需更新一个主题，这些更改将自动反映在引用它的所有主题中。
+Kyc_procedure.dita仍然是唯一的信息源。 如果法规更改需要更新KYC流程，请使用新路径更新主题路径。 这些更改将自动反映在引用它的所有主题中。
 
 使用AEM Guides，只需单击两次
 
@@ -91,7 +91,7 @@ Kyc_procedure.dita仍然是唯一的信息源。 如果根据法规要求对KYC�
 步骤2：选择需要重复使用的文件和片段。
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-与“conref”类似，您也可以使用“conkeyref”，其中，您可以通过键引用内容，而不是提供内容路径。
+与“conref”类似，您也可以使用“conkeyref”，其中，您可以通过键引用内容，而不是提供内容路径
 
 代码示例：
 
@@ -111,7 +111,7 @@ Kyc_procedure.dita仍然是唯一的信息源。 如果根据法规要求对KYC�
 </map>
 ```
 
-Key - &quot;Kyc_procedure&quot;将继续是唯一的单一信息源。 如果根据法规要求对KYC流程进行了任何更改，您只需使用一个新主题路径更新一个主题路径即可，这些更改将自动反映在引用它的所有主题中。
+Key - &#39;Kyc_procedure&#39;仍然是信息的单一来源。 如果根据法规要求对KYC流程进行了任何更改，则只需使用一个新主题路径更新一个主题路径即可，这些更改将自动反映在引用它的所有主题中。
 
 ```
 <map id="ABC_manual">
@@ -133,7 +133,7 @@ Key - &quot;Kyc_procedure&quot;将继续是唯一的单一信息源。 如果根
 步骤2：选择根映射（可选）、键以及需要重用的片段。
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
-此处已自动选择根映射，因为它已在映射视图中打开
+此处已自动选择根映射，因为它已在映射视图中打开。
 
 
 ## 在AEM Guides中单击一下即可重用内容
@@ -154,14 +154,16 @@ AEM Guides提供了一种“可重复使用的内容”功能，只需单击一�
 
 - ### 在“重用内容”对话框中选择了文件/键后，所有内容都未显示
 
-您必须将ID分配给要在其他主题中重用的片段（Dita元素）
+将ID分配给要在其他主题中重用的片段（Dita元素）
 
 - ## 在“重用内容”对话框中未显示键
 
-确保已在具有键定义的映射视图中打开根映射/父映射，或在同一对话框中手动添加根映射路径。
+  请确保已在映射视图中打开了根映射/父映射，该视图具有键定义，或在同一对话框中手动添加根映射路径。
 
 
 <br>
+<br>
+<br>
 
 
-AEM Guides社区[论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上的Post以进行任何查询。
+在AEM Guides社区[论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上发布任何查询。
