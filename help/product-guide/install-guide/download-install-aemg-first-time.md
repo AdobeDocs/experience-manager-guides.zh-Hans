@@ -5,9 +5,9 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 8e43e76e22d1d8b7251c73f813e2e56f65633a5f
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,10 @@ ht-degree: 0%
 >
 > 如果要将Livefyre与AEM Guides结合使用，请确保先安装3.0之前的Livefyre版本，然后再安装AEM Guides。 如果您使用的是Livefyre版本3.0或更高版本，则没有此类限制。
 
-1. 从Adobe软件分发门户下载AEM Guides。
-
+1. 从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载AEM Guides。
+   >[!NOTE]
+   >
+   >在安装Experience Manager Guides之前，请确保您的系统符合[技术要求](../install-guide/download-install-technical-requirements.md)。
 1. 登录AEM实例并导航到CRX包管理器。 访问包管理器的默认URL为：
 
    ```http

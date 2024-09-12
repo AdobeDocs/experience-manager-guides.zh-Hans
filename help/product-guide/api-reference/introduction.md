@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9024b552fd470344ba7b0068a147c37084ae0d13
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -222,6 +222,12 @@ AEM Guides API有两种格式：HTTP和Java。 这些API向应用程序开发人
 >[!NOTE]
 >
 > 由于API JAR中的包仍然相同，因此无需更改代码即可在现有云项目中使用此API JAR。
+
+### 基于Java的API
+
+您可以使用Experience Manager Guides中提供的基于Java的API来创建自定义插件和扩展现成工作流。 有关使用基于Java的API的最新和详细文档，请查看[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)。
+
+
 
 ## 其他资源
 

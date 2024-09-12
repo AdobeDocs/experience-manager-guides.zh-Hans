@@ -4,9 +4,9 @@ description: 探索AEM Guides中Web编辑器的功能。 了解Web编辑器的�
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
+source-git-commit: 2e474dec4f55ccf54a415b1969f7e7f79c4d0226
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >要在Experience Manager Guides中为Salesforce配置代理，请在AEM中使用Apache HTTP组件代理配置。 了解如何[配置AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的代理。
+     >要在Experience Manager Guides中配置Salesforce的代理，请在AEM中使用Apache HTTP组件代理配置。 了解如何[配置AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的代理。
 
 
    - **创建ServiceNow Publish配置文件**
@@ -198,7 +198,7 @@ ht-degree: 0%
 
      ![ServiceNow发布配置文件](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  验证后，可以在DITA Map的输出预设中选择Publish配置文件，并使用它生成到您选择的&#x200B;**Salesforce**&#x200B;或&#x200B;**ServiceNow**&#x200B;服务器的输出。
+  验证后，您可以在DITA映射的输出预设中选择Publish配置文件，然后使用该配置文件生成到您选择的&#x200B;**Salesforce**&#x200B;或&#x200B;**ServiceNow**&#x200B;服务器的输出。
 
   了解有关[知识库](../user-guide/generate-output-knowledge-base.md)输出预设的更多信息。
 
@@ -1508,7 +1508,22 @@ DITA的主要功能之一是能够重用内容。 可重用内容面板可以存
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-从“属性”列表中，选择要定义的条件属性，输入条件的值，然后指定在“条件”面板中显示的标签。 您还可以定义条件的颜色。 此颜色将设置为应用条件的内容的背景颜色
+从“属性”列表中，选择要定义的条件属性，输入条件的值，然后指定在“条件”面板中显示的标签。 为条件定义组。 您可以向组添加多个条件。 您还可以定义条件的颜色。 此颜色将设置为应用条件的内容的背景颜色。
+
+您可以将条件分组并在嵌套文件夹中对其进行结构。 群组可帮助您在多个级别创建条件，并更好地组织这些条件以用于内容。
+
+例如，您可以创建产品的条件组，如&#x200B;*Acrobat*&#x200B;和&#x200B;*AEM Guides*。 可以为两个组选择条件属性。 在每个组下，您可以具有特定值，如&#x200B;*User*、*Admin*、*Reviewer*&#x200B;和&#x200B;*Author*。
+
+>[!NOTE]
+>
+> 键入以创建新组，或为特定属性选择现有组。
+
+您可以使用`/`并定义子组定义子组，如`AEM Guides/Cloud Service`。
+
+
+
+以嵌套层次结构组织的![条件](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 要编辑条件，请从“选项”菜单中选择&#x200B;**编辑**。 此时将显示“编辑条件”对话框：
 
@@ -1806,7 +1821,7 @@ AEM Guides提供用于显示项目中所有审阅任务的功能。 您可以在
    - 选择![](images/filter-search-icon.svg)以打开&#x200B;**筛选器**&#x200B;对话框。 您可以选择所有项目，也可以仅选择特定项目。 选定的项目列在&#x200B;**审核**面板中。
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     默认启用&#x200B;**我启动的任务**&#x200B;选项。 它仅允许您查看已启动的任务。
+     默认启用&#x200B;**我启动的任务**&#x200B;选项。 它仅允许您查看已启动的任务。 即使在刷新页面后，此选项的切换状态也会保持不变。
 
 1. 默认情况下，在审阅项目中，您将查看包含与其关联的注释的主题平面列表。 应用左边栏中的必需过滤器，以根据主题中显示的审核注释过滤主题：
 
@@ -1917,7 +1932,7 @@ AEM Guides提供用于显示项目中所有审阅任务的功能。 您可以在
 
 ## 内容编辑区域 {#id2051EB000UI}
 
-内容编辑区域是显示主题或地图内容的地方。 在此区域中进行所有内容编辑。 它提供您正在编辑的内容的“所见即所得”视图。 您可以同时打开多个主题，这些主题会显示在各自的选项卡中。
+内容编辑区域是显示主题或地图内容的地方。 在此区域中进行所有内容编辑。 它为您正在编辑的内容提供WYSIWYG视图。 您可以同时打开多个主题，这些主题会显示在各自的选项卡中。
 
 默认情况下，您可以在选项卡中查看文件标题。 当您将鼠标悬停在文件上时，您可以作为工具提示查看文件标题和文件路径。
 

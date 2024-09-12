@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -130,27 +130,42 @@ AEM Guides允许您转换InDesign文档。 与FrameMaker类似，InDesign还允�
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. 在`apps`节点内创建`config`文件夹的覆盖节点。
+1. 若要根据您的要求创建自定义配置，请在`apps`节点内创建`config`文件夹的覆盖节点。
+
+1. 将以下文件或文件夹从`libs`文件夹复制到apps文件夹：
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. 导航到`apps`节点中可用的配置文件：
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-   在`idml2dita_io.xml`文件中配置以下参数：
+1. 在`idml2dita_io.xml`文件中添加`idml12dita`文件夹中存在的配置的映射。
+1. 在`idml2dita_io.xml`文件中添加以下属性：
 
-   - 在`inputDir`元素中，指定源InDesign文档可用的输入文件夹的位置。 例如，如果您的InDesign文档存储在位于`projects`文件夹中名为`indesigntodita`的文件夹中，则将位置指定为： `/content/dam/idmlfiles/indesigntodita/`
+   ```
+   <entry key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
 
-   - 在`outputDir`元素中，指定输出文件夹的位置或保留默认输出位置以保存转换的DITA文档。 如果DAM上不存在指定的输出文件夹，则转换工作流将创建该输出文件夹。
+在`idml2dita_io.xml`文件中配置以下参数：
 
-   - 在`mapStyle`元素中，指定映射文件的位置，该文件包含用于InDesign文档样式到DITA元素的映射。 默认映射存储在位于以下位置的文件中：
+- 在`inputDir`元素中，指定源InDesign文档可用的输入文件夹的位置。 例如，如果您的InDesign文档存储在位于`projects`文件夹中名为`indesigntodita`的文件夹中，则将位置指定为： `/content/dam/idmlfiles/indesigntodita/`
 
-     ```XML
-     /stmap.adobeidml.xml
-     ```
+- 在`outputDir`元素中，指定输出文件夹的位置或保留默认输出位置以保存转换的DITA文档。 如果DAM上不存在指定的输出文件夹，则转换工作流将创建该输出文件夹。
 
-     >[!NOTE]
-     >
-     > 有关`stmap.adobeidml.xml`文件的结构以及如何对其进行自定义的更多信息，请参阅&#x200B;*附录*&#x200B;中的[准备映射文件以InDesign到DITA迁移](appendix.md#id194AF0003HT)部分。
+- 在`mapStyle`元素中，指定映射文件的位置，该文件包含用于InDesign文档样式到DITA元素的映射。 默认映射存储在位于以下位置的文件中：
+
+```XML
+    /stmap.adobeidml.xml
+```
+
+>[!NOTE]
+>
+> 有关`stmap.adobeidml.xml`文件的结构以及如何对其进行自定义的更多信息，请参阅&#x200B;*附录*&#x200B;中的[准备映射文件以InDesign到DITA迁移](appendix.md#id194AF0003HT)部分。
 
 1. 保存 `idml2dita_io.xml` 文件。
 

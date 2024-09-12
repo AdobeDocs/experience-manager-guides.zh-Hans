@@ -5,9 +5,9 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -75,3 +75,17 @@ CSS中`new-topic`的类定义允许您为以下项定义样式：
 使用上述样式属性，*航班历史记录*&#x200B;主题的左侧添加了更改栏，如下所示：
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## 从目录中删除空行
+
+如果尚未定义任何主题的标题，则此类主题的目录中将出现空行。
+
+要从目录和迷你目录中删除空行，请在`layout.css`中添加以下样式：
+
+```css
+.toc-body a:empty,
+.chaptoc-body a:empty {
+    display: none;
+} 
+```
+

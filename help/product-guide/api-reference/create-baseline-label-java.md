@@ -5,14 +5,20 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: 1860525120edc4df33b898841b9073311d3031c5
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '931'
 ht-degree: 2%
 
 ---
 
 # 用于基线和标签的基于Java的API {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> 您可以使用Experience Manager Guides中提供的基于Java的API来创建自定义插件和扩展现成工作流。 本文将于2024年11月存档。
+> 有关使用基于Java的API的最新和详细文档，请查看[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)。
+
 
 以下基于Java的API允许您创建基线并向基线中的文件添加标签。 这些API以捆绑包形式提供。 您必须在代码中包含此捆绑包才能使用这些API。
 

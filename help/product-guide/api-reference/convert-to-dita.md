@@ -5,9 +5,9 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: e979823b7947b561165fde92023ae9c440182e94
+source-git-commit: 45ae1471fe0f0586764ede9dd96530b7f75f69ee
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 9%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 9%
 
 **请求URL**：
 http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/conversion
-
-**参数**：
 
 | 名称 | 类型 | 必需 | 描述 |
 |----|----|--------|-----------|
@@ -41,7 +39,8 @@ http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/conversion
 一种将HTML文档转换为DITA格式的GET方法。
 
 **请求URL**：
-http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/conversion
+
+http://*&lt;aem-guides-server\>*： *&lt;端口号\>*/bin/fmdita/conversion
 
 **参数**：
 
@@ -53,6 +52,7 @@ http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/conversion
 | `createRev` | 布尔值 | 是 | 指定是否在指定的目标创建了\(`true`\)文件修订版\(`false`\)。 仅当目标位置包含转换文件的现有版本时，才考虑使用此选项。 |
 
 **响应值**：
+
 返回HTTP 200 \(Successful\)响应。
 
 ## 转换InDesign文档

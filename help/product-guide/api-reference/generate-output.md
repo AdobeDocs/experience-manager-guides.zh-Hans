@@ -5,14 +5,19 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: a255007fc9fe169f926e356ec9d2a8f5a2fdbe29
+source-git-commit: ee4eb829ebe215315b05cd1f376e934c02a73b1e
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '201'
+ht-degree: 2%
 
 ---
 
 # 用于生成输出的基于Java的API {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> 您可以使用Experience Manager Guides中提供的基于Java的API来创建自定义插件和扩展现成工作流。 本文将于2024年11月存档。
+> 有关使用基于Java的API的最新和详细文档，请查看[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)。
 
 以下基于Java的API允许您为DITA映射生成输出。 此API以捆绑包形式提供。 您必须在代码中包含此捆绑包才能使用此API。
 

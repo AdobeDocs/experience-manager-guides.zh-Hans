@@ -5,16 +5,24 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
+source-git-commit: 97d7776c81e7776d0248d6711ae5d05c46c44239
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # 创建主题和内容片段之间的映射
 
-AEM Guides提供了在主题和内容片段模型之间创建基于JSON的映射的功能。 您可以使用此映射将主题中部分或所有元素中存在的内容发布到内容片段。
+
+
+Adobe Experience Manager Guides允许您在主题和内容片段模型之间创建基于JSON的映射。 您可以使用基于JSON的映射将主题中部分或所有元素中存在的内容发布到内容片段。
+
+>[!NOTE]
+> 
+> 如果您使用的是4.6或更高版本，则无需创建此映射，您可以将主题元素拖到内容片段模型中呈现的字段。
+> 详细了解如何[发布内容片段](../user-guide/publish-content-fragment.md)。
+
 
 1. 要下载&#x200B;*contentFragmentMapping.json*，请以管理员身份登录Adobe Experience Manager。
 1. 选择顶部的Adobe Experience Manager链接，然后选择&#x200B;**工具**。

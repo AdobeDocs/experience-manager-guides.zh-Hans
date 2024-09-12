@@ -5,42 +5,42 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: eb6d678a27f5a000b83dbc662f4f9ddbba68d8f9
+source-git-commit: 92d422de65b6bf50755d69dfb741d6530a9190ce
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # 技术要求 {#id213BCG003XA}
 
-在安装AEM Guides 4.4之前，请确保您的系统满足以下技术要求：
-
-**Adobe Experience Manager**
-
-- 版本6.5 Service Pack 20、19、18或17
+在安装Adobe Experience Manager Guides之前，请确保您的系统满足给定版本的以下技术要求：
 
 >[!IMPORTANT]
 >
-> 对于生成AEM站点输出，您的AEM发布实例必须具有Service Pack 20、19、18或17 。
-
-**操作系统**
-
-- Microsoft Windows Server 2012 R2
-
-- Red Hat Linux 7和6
+> 对于在4.6版本中生成AEM站点输出，Adobe Experience Manager的发布实例必须具有Service Pack 21、20、19。
 
 
-**Java开发工具包**
-
-- oracleSE 11 JRE 11.x
-
-- oracleSE 8 JRE 1.8.x
 
 
-**Web浏览器**
+**支持的浏览器**
 
 - Google Chrome
 
 
-**父主题：**[&#x200B;下载并安装](download-install.md)
+>[!NOTE]
+>
+> [了解有关Experience Manager Guides版本的更多信息并下载内部版本](../release-info/latest-release-info.md)。
+
+
+| [!DNL AEM Guides]版本 | 技术规范 |
+|---|---|
+| **AEM Guides 4.6.0** | **非UUID和UUID 4.6.0** <ul><li> AEM 6.5 SP 21、SP20或SP19<br><br> <li>   Java： 11或8 <br><br>   <li>操作系统： <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
+| **AEM Guides 4.4.0** | **非UUID和UUID 4.4.0** <ul><li> AEM 6.5 SP20、SP19、SP18或SP17 <br><br> <li>   Java： 11或8 <br><br>   <li>操作系统： <ul><li> Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
+| **AEM Guides 4.2** | **非UUID和UUID 4.2.1**<br><br><ul> <li>AEM 6.5 SP15、SP14、SP13或SP12 <br><br><li>Java：11或8   <br><br><li> 操作系统： <ul><li>Windows Server 2012 R2  <li>Red Hat Linux 7和6</ul></ul> <br>**非UUID和UUID 4.2**<br><br><ul> <li>AEM 6.5 SP15、SP14、SP13或SP12 <br><br><li>Java： 11或8<br><br> <li> 操作系统： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
+| **AEM Guides 4.1** | **非UUID和UUID 4.1.2**<br><br> <ul><li>AEM 6.5 SP13、SP12、SP11或SP10 <br><br> <li>Java： 11或8<br><br> <li>操作系统： <ul><li>Windows Server 2012 R2 <br><li> Red Hat Linux 7和6 </ul></ul><br><br> **非UUID和UUID 4.1**<br><br><ul> <li>AEM 6.5 SP13、SP12、SP11或SP10 <br><li>Java：11或8<li>操作系统： <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7和6 |
+| **AEM Guides 4.0** | **非UUID和UUID 4.0.3**<br><br><ul><li> AEM 6.5 SP12、SP11、SP10或SP9 <br><li>Java： 11或8 <br><br> <li>操作系统： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6<br><br> </ul></ul>**非UUID和UUID 4.0.2** <br><br><ul><li> AEM 6.5 SP12、SP11、SP10或SP9 <br><li>Java： 11或8 <br><br> <li>操作系统： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6<br><br> </ul></ul>**非UUID和UUID 4.0**<br> <br> <ul><li>AEM 6.5 SP11、SP10或SP9 <br><li>Java： 11或8<br><br><li> 操作系统： <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7和6 |
+| **AEM Guides 3.8.5** <br> 3.8.5是3.8之上的SP版本。由于3.8.5 SP包含关键修复，因此不能单独安装<br>3.8发行版。 <br>客户必须先安装3.8，然后再安装SP 3.8.5。 | **非UUID** <br> <ul><li>AEM 6.5 SP9或SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>操作系统： <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7和6</ul><br> **UUID** <br><li> AEM 6.5 SP9或SP8 <br><br> <li> 操作系统： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6 |
+
+
+**父主题：** [下载并安装](download-install.md)

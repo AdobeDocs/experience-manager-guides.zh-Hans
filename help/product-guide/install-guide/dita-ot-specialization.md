@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ DITA Open Toolkit \(DITA-OT\)是一组基于Java的开源工具，用于处理DI
 
 默认情况下，AEM Guides附带预配置的配置文件，其中包含用于编辑和发布内容的默认模板的配置。 您可以使用编辑文档时使用的自定义模板以及自定义DITA-OT插件创建自定义配置文件以发布内容。
 
-AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处理器不支持渲染MathML方程组。 如果在内容中使用MathML公式，请确保已集成适用于Apache FOP的MathML渲染引擎插件，或使用不同的XSL-FO处理器。
+AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处理器不支持渲染MathML方程。 如果在内容中使用MathML公式，请确保已集成适用于Apache FOP的MathML渲染引擎插件，或使用其他XSL-FO处理器。
 
 >[!IMPORTANT]
 >
@@ -165,11 +165,13 @@ DITA专业化是通过添加新元素或删除现有元素来创建新DITA结构
 
 1. 从工具列表中选择&#x200B;**指南**。
 
-1. 单击&#x200B;**DITA配置文件**&#x200B;磁贴。
+1. 单击&#x200B;**DITA配置文件**&#x200B;拼贴。
 
    >[!NOTE]
    >
    > “默认配置文件”信息显示在“配置文件”页面上。 如果您已将AEM Guides从版本2.2升级到2.5.1或2.6，那么通过配置管理器进行的所有更改都会被自动选取并存储在默认配置文件中。
+
+
 
 1. 您可以选择编辑默认配置文件，创建新配置文件，或者从默认配置文件中复制设置以创建新配置文件。
 
@@ -178,6 +180,12 @@ DITA专业化是通过添加新元素或删除现有元素来创建新DITA结构
    > 您无法删除默认配置文件。 但是，您可以编辑和删除您创建的所有新配置文件。
 
 1. 在&#x200B;**架构** \> **目录**&#x200B;设置中，指定AEM存储库中自定义DTD和XSD `catalog.xml`文件的路径。
+
+   >[!NOTE]
+   >
+   > 如果使用自定义架构，则必须在&#x200B;**集成目录**&#x200B;选项中定义AEM存储库中自定义DTD和XSD catalog.xml文件的路径。
+
+
 
 1. 选择&#x200B;**添加系统ID目录**&#x200B;选项。
 

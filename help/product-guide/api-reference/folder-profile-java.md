@@ -5,14 +5,22 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
 
 # 用于处理文件夹配置文件的基于Java的API {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> 您可以使用Experience Manager Guides中提供的基于Java的API来创建自定义插件和扩展现成工作流。 本文将于2024年11月存档。
+> 有关使用基于Java的API的最新和详细文档，请查看[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)。
+
+
+
 
 以下基于Java的API允许您向文件夹级别的配置文件添加条件属性。 此API以捆绑包形式提供。 您必须在代码中包含此捆绑包才能使用此API。
 

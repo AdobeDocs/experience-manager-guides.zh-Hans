@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6293'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“E
 
 ### 技术要求
 
-- Oxygon XML Author 25.1版
+- Oxygon XML Author 26.1版
 
-- Adobe Experience Manager Guides版本4.3或更高版本
+- Adobe Experience Manager Guides版本4.6或更高版本
 
-- Adobe Experience Manager版本6.5，带有Service Pack 14、15、16和17
+- Adobe Experience Manager版本6.5，带有Service Pack 21、20和19
 
-- 氧XML作者25.1版支持的操作系统
+- 氧XML创作版本26.1支持的操作系统
 
 - Java开发工具包
    - oracleSE 8 JRE 1.8
@@ -159,7 +159,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 >
 >在更新文件之前对其进行备份。
 
-用于Mac和氧气的&#x200B;**25.1**
+用于Mac和氧气的&#x200B;**26.1**
 
 在env.sh中添加以下行
 
@@ -185,7 +185,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-用于Windows和氧气的&#x200B;**25.1**
+用于Windows和氧气的&#x200B;**26.1**
 
 在env.bat中添加以下行
 
@@ -746,7 +746,7 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
    </configuration>   
    ```
 
-1. 将文件保存在`Oxygen Author 25`目录中。 （例如，路径应为： `C:\Program Files\Oxygen XML Author 25\logback.xml`）
+1. 将文件保存在`Oxygen Author 26`目录中。 （例如，路径应为： `C:\Program Files\Oxygen XML Author 26\logback.xml`）
 
 1. 关闭文件。 这将启用Xygen日志，该日志将在以下路径中可用： `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. 在文本编辑器中打开`oxygenAuthor.bat`文件。

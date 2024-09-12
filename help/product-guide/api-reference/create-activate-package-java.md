@@ -5,14 +5,20 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: 1bb422427822e7f369e0c1be7de6b12ec012075e
+source-git-commit: ed0b0e6124a8656e711a8e64b290b805569fbd48
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
 
 # 用于创建和激活包的基于Java的API {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> 您可以使用Experience Manager Guides中提供的基于Java的API来创建自定义插件和扩展现成工作流。 本文将于2024年11月存档。
+> 有关使用基于Java的API的最新和详细文档，请查看[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)。
+
 
 以下基于Java的API允许您创建和激活CRX包。 此API以捆绑包形式提供。 您必须在代码中包含此捆绑包才能使用此API。
 

@@ -4,14 +4,19 @@ description: 了解如何在AEM Guides中使用“基本映射编辑器”。 �
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
 
 # 使用基本映射编辑器 {#id1942CM005Y4}
+
+>[!NOTE]
+>
+> 以前在Experience Manager Guides中提供的Basic Map Editor已从版本4.3和2307开始弃用。 您不能访问“基本映射编辑器”来创建和管理DITA映射。
+>建议您使用高级映射编辑器。 高级映射编辑器提供了增强功能和更好的自定义选项。 详细了解如何使用[高级映射编辑器](../user-guide/map-editor-advanced-map-editor.md)。
 
 基本映射编辑器提供了简单的拖放功能，可从AEM存储库添加主题以创建DITA映射或书图。 您可以添加嵌套主题、关系表\(reltable\)、属性和元数据信息，还可以验证映射是否正确。
 

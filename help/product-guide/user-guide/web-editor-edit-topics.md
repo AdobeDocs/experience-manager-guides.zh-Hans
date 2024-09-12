@@ -4,9 +4,9 @@ description: 了解如何在Web编辑器中编辑主题。 了解各种编辑功
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
+source-git-commit: 2a22aa0746602f7ecd6b3d6cf616a68d45309bdf
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,13 @@ Web编辑器附带了一系列编辑功能，可让您轻松创建或修改主�
 ## 跨元素的部分内容选择
 
 Experience Manager Guides还允许您跨元素选择内容。 选择内容后，您可以执行以下操作：
+
 - 格式设置和删除：将选定内容变为粗体、斜体、下划线，甚至删除选定内容。 然后，将合并有效开放标记中的内容，并将其显示在单个元素下。 例如，您可以选择段落中的内容并将所选内容扩展到另一个段落。 然后，如果您将选定内容变为粗体，则会合并开放标记中的所有粗体内容，并显示在单个段落元素下。
 
 同样，如果您删除选定内容，则合并开放标记中删除后的剩余内容。
 
 - 使用有效元素括起内容：执行以下步骤以使用有效元素括起内容：
+
    - 选择元素中的内容。
    - 从顶部的辅助工具栏中选择![添加](images/Add_icon.svg)图标以查看&#x200B;**包含元素**&#x200B;的环绕对话框。 该对话框列出了选定内容的有效元素。
      >[!NOTE]
@@ -74,7 +76,27 @@ AEM Guides还指示文件的最后保存的\(working\)副本是否与保存的�
 ![版本更新指示器](images/version-update-indicator.png){width="550" align="left"}
 
 
+## 在创作和Source模式下打开锁定的文件
 
+当DITA或Markdown文件被其他用户锁定或检出时，无法编辑或修改内容。 但是，除&#x200B;**预览**&#x200B;模式外，您仍然可以在&#x200B;**创作**&#x200B;和&#x200B;**Source**&#x200B;模式下以只读格式查看文件。
+
+在只读模式下，您可以查看&#x200B;**创作**&#x200B;或&#x200B;**Source**&#x200B;模式中的内容、标记和属性。 您还可以修改文件属性。
+
+工具栏显示以下图标以进行只读访问：
+
+- 切换标记视图
+- 版本历史记录
+- 版本标签
+
+Experience Manager Guides在版本号附近还显示&#x200B;**只读访问**&#x200B;指示器。
+
+![在创作模式下查看只读文件](images/locked-file-editor.png)
+
+您可以访问只读DITA映射的&#x200B;**布局**&#x200B;视图。 此视图允许您查看DITA映射及其属性，但禁止进行编辑。
+
+>[!NOTE]
+>
+> 您的文件夹级管理用户必须更新&#x200B;*ui_config.json*，以便您可以在“创作”、“Source”和“布局”模式下协调地访问只读文件。
 
 ## 在存储库视图中查找打开的文件
 

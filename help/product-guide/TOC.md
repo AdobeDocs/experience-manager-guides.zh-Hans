@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: ff34f8b21d3e930ed332a360e90040a14b219f75
+source-git-commit: 3540c27fcfb856a0ee6b669c3d7a573331324817
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1879'
 ht-degree: 6%
 
 ---
@@ -72,6 +72,11 @@ ht-degree: 6%
             - [1月发行说明](./release-info/release-notes-2022-1-0.md)
       - 内部部署/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
+         - 4.6.0版本{#460-release}
+            - [新增功能](./release-info/whats-new-4-6.md)
+            - [已修复问题](./release-info/fixed-issues-4-6-0.md)
+            - [升级说明](./release-info/upgrade-instructions-4-6-0.md)
+
          - 4.4.0版本{#440-release}
             - [新增功能](./release-info/whats-new-4-4.md)
             - [修复的问题](./release-info/fixed-issues-4-4.md)
@@ -206,6 +211,7 @@ ht-degree: 6%
       - [基本疑难解答](./user-guide/generate-output-basic-troubleshooting.md)
       - [Publish内容片段](./user-guide/publish-content-fragment.md)
       - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
+      - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
       - 批量激活内容{#bulk-activation}
          - [批量激活已发布的内容](./user-guide/conf-bulk-activation.md)
          - [创建批量激活映射集合](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -247,8 +253,8 @@ ht-degree: 6%
       - 内容迁移{#content-migration}
          - [非UUID到UUID内容迁移](./install-guide/migrate-uuid-non-uuid.md)
          - 迁移进程{#migration-process}
-            - [使用版本迁移非UUID内容](./install-guide/migrate-non-uuid-uuid-new.md)
-            - [使用版本（旧版）迁移非UUID内容](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [使用版本迁移非UUID内容](./install-guide/migrate-non-uuid-uuid.md)
+            - [使用版本（旧版）迁移非UUID内容](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
          - [迁移现有内容](./install-guide/migrate-content.md)
          - [上载现有DITA内容](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [迁移非DITA内容](./install-guide/migrate-content-non-dita.md)
@@ -284,7 +290,6 @@ ht-degree: 6%
          - [配置文本过滤器](./install-guide/config-text-filters.md)
          - [配置查询的LimitReads数](./install-guide/conf-query-limitreads.md)
          - [安装用于基于文章的发布的包](./install-guide/configure-article-based-publishing.md)
-         - [配置数据源连接器](./install-guide/conf-data-source-connector.md)
          - [从用户界面配置数据源连接器](./install-guide/conf-data-source-connector-tools.md)
          - [将高级映射编辑器设置为默认值](./install-guide/conf-map-editor.md)
          - [默认包含@navtitle属性](./install-guide/auto-add-navtitle.md)
@@ -377,7 +382,8 @@ ht-degree: 6%
          - [配置全局或文件夹级别的配置文件](./cs-install-guide/conf-folder-level.md)
       - 配置版本{#version-mgt-cs}
          - [版本管理](./cs-install-guide/version-management.md)
-      - 使用输出生成设置{#output-gen-config-cs}
+      - 使用基于桌面的XML编辑器{#desktop-xml-editor}
+         - 使用输出生成设置{#output-gen-config-cs}
          - [配置输出生成设置](./cs-install-guide/conf-output-generation.md)
          - [本机PDF发布](./cs-install-guide/native-pdf-publishing.md)
          - [为本机PDF发布配置节点进程](./native-pdf/configure-node-options.md)
@@ -468,6 +474,10 @@ ht-degree: 6%
                - [组件](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [自定义](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [自定义对话框](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
+      - 外部数据源{#external-data-source}
+         - [集成数据源](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+         - [配置数据源连接器](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+
       - 发布 {#publishing}
          - DITA-OT {#dita-ot}
             - [在插件中使用AEM元数据](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)

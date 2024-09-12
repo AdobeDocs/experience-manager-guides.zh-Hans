@@ -5,9 +5,9 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1eb4fcb33d6f905df3f543232e7040d1da42560b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -76,4 +76,8 @@ Experience Manager Guides附带了&#x200B;**数据源**&#x200B;工具，可帮�
 * **删除**：删除所选的连接器。
 
 
-配置数据源后，连接器将列在Web编辑器的&#x200B;**数据源面板**&#x200B;下。 然后，您可以连接到数据源并将内容片段插入到您的主题中。 有关详细信息，请查看[插入数据源中的内容片段](../user-guide/web-editor-content-snippet.md)。
+配置数据源后，连接器将列在Web编辑器的&#x200B;**数据源面板**&#x200B;下。 然后，您可以连接到数据源并将内容片段插入到您的主题中。 有关更多详细信息，请查看[使用数据源中的数据](../user-guide/web-editor-content-snippet.md)。
+
+>[!NOTE]
+>
+>您还可以创建自定义连接器并将它们用于不同的数据源。 了解如何[配置自定义连接器](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)。
