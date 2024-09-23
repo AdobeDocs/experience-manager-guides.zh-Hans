@@ -1,11 +1,11 @@
 ---
 user-guide-title: Experience Manager Guides
-user-guide-description: 阅读Adobe Experience Manager Guides的产品文档。
+user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
 source-git-commit: 768468d991de00439dd93108d3a4049b0de595aa
 workflow-type: tm+mt
 source-wordcount: '1890'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
