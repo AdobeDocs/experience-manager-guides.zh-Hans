@@ -2,9 +2,9 @@
 title: 发行说明 | 修复了Adobe Experience Manager Guides 4.6.0版本中的问题
 description: 了解Adobe Experience Manager Guides 4.6.0版本中的错误修复
 role: Leader
-source-git-commit: 5a30d427fa579e37a18b0fca65dea96dc486c594
+source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,8 @@ Adobe已发现4.6.0版本的以下已知问题：
 - 从DITA映射的顶部工具栏插入主题引用时，该主题引用在用户界面中显示为断开。
 - 如果DITA映射缺少引用，则其本机PDF生成失败。
 - 一旦某个主题的文档状态更新为&#x200B;**完成**，**开始一个新版本**&#x200B;图标将仅在该主题的&#x200B;**预览**&#x200B;模式下可用。
+- 在资源UI中选择DITA文件时，将显示&#x200B;**在FrameMaker**&#x200B;中打开选项，即使它在配置设置中处于禁用状态。
+
 
 
 
