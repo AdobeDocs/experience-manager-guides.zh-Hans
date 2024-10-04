@@ -2,9 +2,9 @@
 title: 发行说明 | 修复了Adobe Experience Manager Guides 4.6.0版本中的问题
 description: 了解Adobe Experience Manager Guides 4.6.0版本中的错误修复
 role: Leader
-source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
+source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ ht-degree: 0%
 - 使用自动保存功能时，“关闭”按钮的行为不一致。 (10996)
 - 插入任何新元素或修改公式时，MathML元素中出现验证问题。 (10624)
 - 跟踪更改功能不适用于以韩文字符开头的文本。 (14538)
-
-
+- 创建版本后，主题中的链接图像无法显示在基线中。 (16931)
 
 ## 发布
 
