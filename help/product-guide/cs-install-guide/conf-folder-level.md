@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
+source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
 workflow-type: tm+mt
-source-wordcount: '4285'
+source-wordcount: '4521'
 ht-degree: 0%
 
 ---
@@ -411,7 +411,7 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 
 对于![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guidesas a Cloud Service。
 
-您可以配置由AI提供支持的智能建议，并帮助作者重用现有内容并轻松创建正确且一致的内容引用。 **AI配置**&#x200B;选项卡允许您控制Web编辑器中“智能建议”面板的设置。
+您可以配置由AI提供支持的智能建议，并帮助作者重用现有内容并轻松创建正确一致的内容引用。 通过&#x200B;**AI配置**&#x200B;选项卡，您可以从Web编辑器中的AI助手面板控制&#x200B;**建议可重用内容**&#x200B;的设置。
 
 执行以下步骤以在全局或文件夹级别配置文件中配置标准AI配置：
 1. 以管理员或对文件夹级别配置文件具有管理权限的用户身份登录Adobe Experience Manager。
@@ -421,7 +421,7 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 
    >[!NOTE]
    >
-   >您可以将基于AI的智能建议配置为全局或文件夹级别的配置文件。
+   >您可以为全局或文件夹级别的配置文件配置基于AI的智能建议。
 
 1. 在配置文件页面上，选择&#x200B;**AI配置**选项卡。
    全局配置文件中的![AI配置选项卡](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
@@ -446,52 +446,52 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 
 
 
-<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+## 在Web编辑器中配置AI支持的智能帮助 {#conf-ai-guides-assistant}
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+对于![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guidesas a Cloud Service。
 
-You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+您可以配置AI支持的&#x200B;**智能帮助**，以帮助作者提问并轻松地从[Experience Manager Guides文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中找到所需内容。
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+通过&#x200B;**XML编辑器配置**&#x200B;选项卡，可以在Web编辑器中配置&#x200B;**智能帮助面板**&#x200B;的默认问题。
 
 >[!NOTE]
 >
->You can configure up to 10 default questions. 
+>您最多可以配置10个默认问题。
 
-Perform the following steps to configure the default questions:
+执行以下步骤来配置默认问题：
 
-1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
-1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
-1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
-1. Select the profile tile that you want to configure.
+1. 以管理员或对文件夹级别配置文件具有管理权限的用户身份登录Adobe Experience Manager。
+1. 选择顶部的&#x200B;**Adobe Experience Manager**&#x200B;链接，然后选择&#x200B;**工具**。
+1. 从工具列表中选择&#x200B;**参考线**，然后选择&#x200B;**文件夹配置文件**&#x200B;拼贴。
+1. 选择要配置的配置文件拼贴。
 
-    >[!NOTE]
-    >
-    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+   >[!NOTE]
+   >
+   >您可以将&#x200B;**智能帮助面板**&#x200B;的默认问题配置为全局或文件夹级别的配置文件。
 
-1.  Select the **XML Editor Configuration** tab. 
+1. 选择&#x200B;**XML编辑器配置**&#x200B;选项卡。
 
-1. Click the **Edit** icon on the top.
-1.  In the **XML Editor UI configuration** section, select the **Download** icon to download the `ui_config.json` file on your local system.
-1.  In the `ui_config.json` file, add the sample questions.
+1. 单击顶部的&#x200B;**编辑**&#x200B;图标。
+1. 在&#x200B;**XML编辑器UI配置**&#x200B;部分中，选择&#x200B;**下载**&#x200B;图标以在本地系统上下载`ui_config.json`文件。
+1. 在`ui_config.json`文件中，添加示例问题。
 
-    **Example of sample questions**:
+   **示例问题**：
 
-    ```json
-    "assistantSampleQuestions": [
-    "How to create a new topic",
-    "How to create a new map",
-    "What is a baseline" ]
-    ```
+   ```json
+   "assistantSampleQuestions": [
+   "How to create a new topic",
+   "How to create a new map",
+   "What is a baseline" ]
+   ```
 
-1. Save the file and upload it.
+1. 保存文件并将其上传。
 
-    >[!NOTE]
-    >
-    > The default questions appear in the **Guides assistant** panel after you save the file. 
+   >[!NOTE]
+   >
+   > 保存文件后，**智能帮助**&#x200B;面板中会显示默认问题。
 
 
-Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+了解有关使用[AI支持的智能帮助](../user-guide/ai-based-smart-help.md)从Experience Manager Guides文档查找所需内容的更多信息。
 
 
 ## 配置和自定义XML Web编辑器 {#id2065G300O5Z}

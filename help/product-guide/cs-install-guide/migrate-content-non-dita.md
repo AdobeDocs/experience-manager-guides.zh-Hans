@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -137,12 +137,29 @@ AEM Guides允许您转换InDesign文档。 与FrameMaker类似，InDesign还允�
 1. 导航到以下位置提供的默认配置文件：
 
    `/libs/fmdita/config/idml2dita_io.xml`
+1. 若要根据您的要求创建自定义配置，请在`apps`节点内创建`config`文件夹的覆盖节点。
 
-1. 在`apps`节点内创建`config`文件夹的覆盖节点。
+1. 将以下文件或文件夹从`libs`文件夹复制到apps文件夹：
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. 导航到`apps`节点中可用的配置文件：
 
    `/apps/fmdita/config/idml2dita_io.xml`
+
+1. 在`idml2dita_io.xml`文件中添加`idml12dita`文件夹中存在的配置的映射。
+1. 在`idml2dita_io.xml`文件中添加以下属性：
+
+   ```
+   <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
+
+1. 在`apps`节点内创建`config`文件夹的覆盖节点。
+
 
    在`idml2dita_io.xml`文件中配置以下参数：
 

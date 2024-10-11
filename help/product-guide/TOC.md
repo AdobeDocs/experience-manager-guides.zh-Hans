@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 23470fdb176fa487139f8a8822be7f95dd205a3e
+source-git-commit: f6e34c0bc57603b4251abd4859b43c95042e8819
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1964'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 6%
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2024版本{#2024-releases}
+            - 2024.10.0版本{#2406-release}
+               - [新增功能](./release-info/whats-new-2024-10-0.md)
+               - [修复的问题](./release-info/fixed-issues-2024-10-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0版本{#2406-release}
                - [新增功能](./release-info/whats-new-2024-06-0.md)
                - [修复的问题](./release-info/fixed-issues-2024-06-0.md)
@@ -135,7 +139,8 @@ ht-degree: 6%
                - [Web编辑器视图](./user-guide/web-editor-views.md)
                - [支持Schematron文件](./user-guide/support-schematron-file.md)
                - [用于创作内容的AI支持的智能建议](./user-guide/authoring-ai-based-smart-suggestions.md)
-
+               - [用于搜索内容的AI支持的智能帮助](./user-guide/ai-based-smart-help.md)
+               - [AI助手，可智能高效地创作文档](./user-guide/AI-assistant-right-panel.md)
                - [从Web编辑器创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
                - [将引用添加到您的内容](./user-guide/web-editor-apply-citations.md)
                - [使用来自您的数据源的数据](./user-guide/web-editor-content-snippet.md)
@@ -189,7 +194,10 @@ ht-degree: 6%
       - [输出生成基础知识](./user-guide/generate-output.md)
       - [输出预设简介](./user-guide/generate-output-understand-presets.md)
       - AEM Guides {#output-presets-aemg}中的输出预设
-         - [AEM站点](./user-guide/generate-output-aem-site.md)
+
+         - [AEM Sites](./user-guide/generate-output-aem-site.md)
+         - [地图仪表板上的AEM Sites预设](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [Web编辑器中的AEM Sites预设](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [知识库](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
@@ -302,6 +310,8 @@ ht-degree: 6%
          - [集成基于桌面的XML编辑器](./install-guide/integrate-desktop-editors.md)
       - 使用输出生成设置{#output-gen-config}
          - [配置输出生成设置](./install-guide/conf-output-generation.md)
+         - [下载并安装aem sites模板](./install-guide/download-install-aem-sites-templates.md)
+         - [在AEM Sites输出中叠加HTML标记](./install-guide/overlay-html-tags-aem-sites.md)
          - 本机PDF发布{#config-native-pdf-publish}
             - [PDF模板](./native-pdf/pdf-template.md)
             - [PDF模板的组件](./native-pdf/components-pdf-template.md)
@@ -359,6 +369,8 @@ ht-degree: 6%
          - [自定义Web编辑器](./cs-install-guide/conf-web-editor.md)
          - [自定义工具栏](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [为创作配置AI支持的智能建议](./cs-install-guide/conf-smart-suggestions.md)
+
+         - [配置AI支持的智能帮助以搜索内容](./cs-install-guide/conf-smart-help.md)
          - [配置标记视图的默认值](./cs-install-guide/configure-default-value-tags-view.md)
          - [配置基于UUID的链接的显示](./cs-install-guide/conf-uuid-based-links.md)
          - [在同一选项卡中打开DITA主题或映射文件](./cs-install-guide/open-dita-files-same-tab.md)
@@ -383,8 +395,10 @@ ht-degree: 6%
       - 配置版本{#version-mgt-cs}
          - [版本管理](./cs-install-guide/version-management.md)
       - 使用基于桌面的XML编辑器{#desktop-xml-editor}
-         - 使用输出生成设置{#output-gen-config-cs}
+         - [集成基于桌面的XML编辑器](./cs-install-guide/integrate-desktop-editors-cs.md)
+      - 使用输出生成设置{#output-gen-config-cs}
          - [配置输出生成设置](./cs-install-guide/conf-output-generation.md)
+         - [下载并安装aem sites模板](./cs-install-guide/download-install-aem-sites-templates-cs.md)
          - [本机PDF发布](./cs-install-guide/native-pdf-publishing.md)
          - [为本机PDF发布配置节点进程](./native-pdf/configure-node-options.md)
          - [创建主题和内容片段之间的映射](./cs-install-guide/conf-content-fragment-mapping-cs.md)

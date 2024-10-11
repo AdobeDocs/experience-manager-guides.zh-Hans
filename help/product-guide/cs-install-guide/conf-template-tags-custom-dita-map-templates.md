@@ -5,9 +5,9 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,20 @@ AEM Guides附带两个现成的映射模板 — DITA映射和Bookmap。 您可�
 >
 > 有关使用自定义映射模板的最佳实践，请参阅“最佳实践指南”中的&#x200B;*自定义模板*&#x200B;部分。
 
-**父级主题：**[&#x200B;配置主题并映射模板](conf-template-tags.md)
+
+## 自定义DITA映射中的引用数
+
+您可以根据DITA映射中的引用数配置异步处理的阈值。 默认情况下，将通过异步操作创建引用超过5个的映射，而引用较少的映射将继续使用同步操作。
+
+
+使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下（属性）详细信息以指定DITA映射模板中的引用数以使进程保持同步：
+
+| PID | 属性键 | 属性值 |
+|---|------------|--------------|
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **默认值**： 5 |
+
+使用自定义模板创建具有大量主题引用的DITA映射时，如果总处理时间超过60秒，则云服务器上的映射创建将失败。
+
+要防止出现这种情况，请在XmlEditorConfig中配置&#x200B;**异步Dita映射创建**，以允许任务并行运行并减少较大的Dita映射的处理时间。
+
+**父级主题：** [配置主题并映射模板](conf-template-tags.md)
