@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: f6e34c0bc57603b4251abd4859b43c95042e8819
+source-git-commit: 6543bc66e1c950a6bf6b923652d61ee87ef966c8
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 6%
@@ -20,7 +20,7 @@ ht-degree: 6%
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2024版本{#2024-releases}
-            - 2024.10.0版本{#2406-release}
+            - 2024.10.0版本{#2410-release}
                - [新增功能](./release-info/whats-new-2024-10-0.md)
                - [修复的问题](./release-info/fixed-issues-2024-10-0.md)
                - [升级说明](./release-info/upgrade-instructions-2024-10-0.md)
