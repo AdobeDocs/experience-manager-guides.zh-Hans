@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: fb586c7e857db5c4aa68645cb1be2a48fdbe165c
+source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1974'
 ht-degree: 6%
 
 ---
@@ -494,18 +494,22 @@ ht-degree: 6%
          - [配置数据源连接器](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
 
       - 发布 {#publishing}
+
+         - 本机PDF{#native-pdf}
+            - [将自定义字体添加到DITA本机PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+            - [为本机PDF发布配置AEM环境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+            - [将企业品牌添加到PDF的第一页](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+            - [在本机PDF发布中生成书签映射的目录](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - DITA-OT {#dita-ot}
             - [在插件中使用AEM元数据](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
-         - [将自定义字体添加到DITA本机PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-         - [为本机PDF发布配置AEM环境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-         - [将企业品牌添加到PDF的第一页](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-         - [在本机PDF发布中生成书签映射的目录](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+            - [设置自定义DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+
          - [微服务体系结构和性能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [使用JWT身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
          - [使用OAuth身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [在AEM Cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-         - [设置自定义DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+
 
       - 工作流程 {#workflows}
          - [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
