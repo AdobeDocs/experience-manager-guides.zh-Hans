@@ -2,9 +2,9 @@
 title: 发行说明 | 修复了Adobe Experience Manager Guides 4.6.0版本中的问题
 description: 了解Adobe Experience Manager Guides 4.6.0版本中的错误修复
 role: Leader
-source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
+source-git-commit: d51cc5ed621d5f533815c677e23bd4c1f4a52de3
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ ht-degree: 0%
 - 由于OOTB重新生成主题或增量发布API失败，主题重新生成失败。 (18452)
 - 条件预设在升级Experience Manager Guides后未获取更新的属性。 (18174)
 - 如果包含键定义的文件与DITA映射不在同一文件夹中，则无法正确解析本机PDF输出的内容引用。 (15062)
+- 对于仍在翻译过程中的映射，批量Publish功能板显示为空白。 (19352)
 - 批量激活已发布内容不适用于本地化映射。 (17638)
+
 
 
 ## 管理

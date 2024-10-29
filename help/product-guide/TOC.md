@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
+source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 6%
 
 ---
@@ -20,10 +20,13 @@ ht-degree: 6%
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2024版本{#2024-releases}
-            - 2024.10.0版本{#2410-release}
-               - [新增功能](./release-info/whats-new-2024-10-0.md)
-               - [修复的问题](./release-info/fixed-issues-2024-10-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2024-10-0.md)
+            - 2024.10.x版本{#2410-release}
+               - 2024.10.1版本{#2410-1-release}
+                  - [修复的问题](./release-info/fixed-issues-2024-10-1.md)
+               - 2024.10.0版本{#2410-0-release}
+                  - [新增功能](./release-info/whats-new-2024-10-0.md)
+                  - [修复的问题](./release-info/fixed-issues-2024-10-0.md)
+                  - [升级说明](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0版本{#2406-release}
                - [新增功能](./release-info/whats-new-2024-06-0.md)
                - [修复的问题](./release-info/fixed-issues-2024-06-0.md)
@@ -76,11 +79,13 @@ ht-degree: 6%
             - [1月发行说明](./release-info/release-notes-2022-1-0.md)
       - 内部部署/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
+         - 4.6.1版本{#461-release}
+            - [已修复问题](./release-info/fixed-issues-4-6-1.md)
+            - [升级说明](./release-info/upgrade-instructions-4-6-1.md)
          - 4.6.0版本{#460-release}
             - [新增功能](./release-info/whats-new-4-6.md)
             - [已修复问题](./release-info/fixed-issues-4-6-0.md)
             - [升级说明](./release-info/upgrade-instructions-4-6-0.md)
-
          - 4.4.0版本{#440-release}
             - [新增功能](./release-info/whats-new-4-4.md)
             - [修复的问题](./release-info/fixed-issues-4-4.md)
@@ -106,7 +111,6 @@ ht-degree: 6%
          - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南{#user-guide}
-
    - 简介 {#about-aem-guide}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能{#aemg-works-features}
@@ -118,18 +122,14 @@ ht-degree: 6%
       - [管理文件和文件夹](./user-guide/authoring-file-management.md)
       - [下载文件](./user-guide/authoring-download-assets.md)
    - 作者内容{#author-content}
-
       - [创作概述](./user-guide/authoring-content.md)
       - 主题创建和预览{#create-preview-topics}
-
          - [创建和预览主题](./user-guide/create-preview-topics.md)
          - [创建主题](./user-guide/web-editor-create-topics.md)
          - [预览主题](./user-guide/web-editor-preview-topics.md)
          - 作者内容{#author-content-aem-guides}
-
             - [使用AEM Guides创作内容的方法](./user-guide/authoring-content-xml-doc.md)
             - Web编辑器{#work-with-web-editor}
-
                - [使用Web编辑器](./user-guide/web-editor.md)
                - [启动Web编辑器](./user-guide/web-editor-launch-editor.md)
                - [在Web编辑器中编辑主题](./user-guide/web-editor-edit-topics.md)
@@ -154,7 +154,6 @@ ht-degree: 6%
                - [从Web编辑器创建和管理基线](./user-guide/web-editor-baseline.md)
                - [文档状态](./user-guide/web-editor-document-states.md)
                - [使用标签](./user-guide/web-editor-use-label.md)
-
             - 映射编辑器{#work-with-map-editor}
                - [使用映射编辑器](./user-guide/map-editor.md)
                - [创建映射](./user-guide/map-editor-create-map.md)
@@ -164,12 +163,10 @@ ht-degree: 6%
                - [地图编辑器中的其他功能](./user-guide/map-editor-other-features.md)
             - DITAVAL编辑器{#ditaval-editor}
                - [使用DITAVAL编辑器](./user-guide/ditaval-editor.md)
-
          - 用于创作内容{#author-using-desktop-tools}的桌面工具
             - [使用桌面工具创作内容](./user-guide/author-desktop-tools.md)
             - [使用FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [使用氧气](./user-guide/author-desktop-oxygen.md)
-
    - 审核内容{#review-topic-maps}
       - [查看主题或映射](./user-guide/review.md)
       - [创建DITA项目](./user-guide/authoring-create-dita-project.md)
@@ -194,7 +191,6 @@ ht-degree: 6%
       - [输出生成基础知识](./user-guide/generate-output.md)
       - [输出预设简介](./user-guide/generate-output-understand-presets.md)
       - AEM Guides {#output-presets-aemg}中的输出预设
-
          - [AEM Sites](./user-guide/generate-output-aem-site.md)
          - [地图仪表板上的AEM Sites预设](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [Web编辑器中的AEM Sites预设](./user-guide/generate-output-aem-site-web-editor.md)
@@ -242,7 +238,6 @@ ht-degree: 6%
       - [内容重用报告](./user-guide/reports-content-reuse.md)
       - [转化状态报表](./user-guide/reports-convertion-status.md)
       - [还原文件版本历史记录报告](./user-guide/reports-reverted-file-version-history.md)
-
 - 安装和配置{#install-guide}
    - 内部部署{#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
@@ -369,7 +364,6 @@ ht-degree: 6%
          - [自定义Web编辑器](./cs-install-guide/conf-web-editor.md)
          - [自定义工具栏](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [为创作配置AI支持的智能建议](./cs-install-guide/conf-smart-suggestions.md)
-
          - [配置AI支持的智能帮助以搜索内容](./cs-install-guide/conf-smart-help.md)
          - [配置标记视图的默认值](./cs-install-guide/configure-default-value-tags-view.md)
          - [配置基于UUID的链接的显示](./cs-install-guide/conf-uuid-based-links.md)
@@ -428,7 +422,6 @@ ht-degree: 6%
    - [批量激活完成事件处理程序](./api-reference/bulk-activation-complete-event.md)
    - [转换过程事件处理程序](./api-reference/conversion-complete-event.md)
 - 知识库{#knowledge-base}
-
    - 专家会议{#expert-session}
       - [专家讲座概述](./knowledge-base/expert-sessions/expert-session.md)
       - [翻译内容](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
@@ -447,7 +440,6 @@ ht-degree: 6%
       - [部署选项和迁移到云](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
       - [将内容从非UUID迁移到UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
    - 文章{#kb-articles}
-
       - 创作 {#authoring}
          - Web编辑器{#webeditor}
             - [AEM Guides中的内容可重复使用](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
@@ -492,9 +484,7 @@ ht-degree: 6%
       - 外部数据源{#external-data-source}
          - [集成数据源](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
          - [配置数据源连接器](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
-
       - 发布 {#publishing}
-
          - 本机PDF{#native-pdf}
             - [将自定义字体添加到DITA本机PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
             - [为本机PDF发布配置AEM环境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -504,13 +494,10 @@ ht-degree: 6%
             - [在插件中使用AEM元数据](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [设置自定义DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-
          - [微服务体系结构和性能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [使用JWT身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
          - [使用OAuth身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [在AEM Cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-
-
+         - [在AEM cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - 工作流程 {#workflows}
          - [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 翻译 {#translation}
@@ -519,5 +506,4 @@ ht-degree: 6%
       - 用例{#use-cases}
          - [使用条件内容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [使用键](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
    - [使用氧气连接器](./oxygen-connector/use-aem-connector.md)
