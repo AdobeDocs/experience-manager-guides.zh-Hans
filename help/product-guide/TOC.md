@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
+source-git-commit: 9553c05b1ab9657d6138aa0ff026cc4494514bd8
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 6%
@@ -20,13 +20,12 @@ ht-degree: 6%
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2024版本{#2024-releases}
-            - 2024.10.x版本{#2410-release}
-               - 2024.10.1版本{#2410-1-release}
-                  - [修复的问题](./release-info/fixed-issues-2024-10-1.md)
-               - 2024.10.0版本{#2410-0-release}
-                  - [新增功能](./release-info/whats-new-2024-10-0.md)
-                  - [修复的问题](./release-info/fixed-issues-2024-10-0.md)
-                  - [升级说明](./release-info/upgrade-instructions-2024-10-0.md)
+            - 2024.10.0 SP1版本{#2410-0-sp1-release}
+               - [修复的问题](./release-info/fixed-issues-2024-10-0-sp1.md)
+            - 2024.10.0版本{#2410-0-release}
+               - [新增功能](./release-info/whats-new-2024-10-0.md)
+               - [修复的问题](./release-info/fixed-issues-2024-10-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0版本{#2406-release}
                - [新增功能](./release-info/whats-new-2024-06-0.md)
                - [修复的问题](./release-info/fixed-issues-2024-06-0.md)
@@ -79,9 +78,9 @@ ht-degree: 6%
             - [1月发行说明](./release-info/release-notes-2022-1-0.md)
       - 内部部署/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
-         - 4.6.1版本{#461-release}
-            - [已修复问题](./release-info/fixed-issues-4-6-1.md)
-            - [升级说明](./release-info/upgrade-instructions-4-6-1.md)
+         - 4.6.0 SP1版本{#460-sp1-release}
+            - [已修复问题](./release-info/fixed-issues-4-6-0-sp1.md)
+            - [升级说明](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0版本{#460-release}
             - [新增功能](./release-info/whats-new-4-6.md)
             - [已修复问题](./release-info/fixed-issues-4-6-0.md)

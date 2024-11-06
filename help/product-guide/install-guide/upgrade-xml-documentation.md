@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
+source-git-commit: 2362870e0e3e6c08df03e8c547bb77de7faa0a02
 workflow-type: tm+mt
-source-wordcount: '6995'
+source-wordcount: '7008'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > 按照特定于您的产品的许可版本的升级说明进行操作。
 
-您可以将当前版本的Experience Manager Guides升级到版本4.6.1：
+您可以将当前版本的Experience Manager Guides升级到版本4.6.0 Service Pack 1：
 
 
-- 如果您使用的是版本4.6.0，则可以直接升级到版本4.6.1。
-- 如果您使用的是版本4.4、4.3.1或4.3.0 ，则需要在升级到4.6.1之前升级到4.6.0版。
+- 如果您使用的是版本4.6.0，则可以直接升级到4.6.0 Service Pack 1。
+- 如果您使用的是版本4.4、4.3.1或4.3.0 ，则需要在升级到4.6.0 Service Pack 1之前升级到4.6.0版。
 - 如果您使用的是版本4.2、4.2.1（修补程序4.2.1.3）、4.1或4.1.x，则需要在升级到版本4.6.0之前升级到版本4.4。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
@@ -987,7 +987,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 >[!TIP]
 >
-> 建议在版本4.6.0之上安装修补程序4.6.1。4.6.1版本的升级过程与4.6.0版本的升级过程相同。
+> 建议在版本4.6.0的基础上安装4.6.0 Service Pack 1 。4.6.0 Service Pack 1版本的升级过程与4.6.0版本的升级过程相同。
 
 升级到版本4.6.0取决于Experience Manager Guides的当前版本。 如果您使用的是版本4.4.0、4.3.1、4.3.0、4.2或4.2.1（修补程序4.2.1.3），则可以直接升级到版本4.6.0。
 

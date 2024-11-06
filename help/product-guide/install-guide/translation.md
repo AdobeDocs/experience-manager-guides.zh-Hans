@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
+source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 9%
+source-wordcount: '836'
+ht-degree: 8%
 
 ---
 
@@ -92,6 +92,40 @@ ht-degree: 9%
 
 1. 单击&#x200B;**保存**。
 
+>[!IMPORTANT]
+>
+> 设置翻译配置后，请确保在语言文件夹上设置适当的云配置。
+
+## 配置旧版翻译工作流
+
+>[!IMPORTANT]
+> 
+> 建议您使用最新的翻译工作流，该工作流可提高性能。 但是，如果在当前翻译流程中启用了任何自定义项，请考虑使用旧版翻译工作流。
+
+默认情况下，旧版翻译工作流选项处于禁用状态。 可以通过执行以下步骤来配置此选项：
+
+1. 打开Adobe Experience Manager Web控制台配置页面。
+
+   用于访问配置页面的默认URL为：
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
+
+1. 根据您的设置，配置旧版翻译工作流选项：
+
+   - （*默认*）如果要使用最新的翻译工作流，请禁用&#x200B;**运行旧版翻译工作流**&#x200B;选项。
+   - 如果要使用旧版翻译工作流，请启用&#x200B;**运行旧版翻译工作流**&#x200B;选项。
+
+1. 单击&#x200B;**保存**。
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -125,9 +159,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> 设置翻译配置后，请确保在语言文件夹上设置适当的云配置。
+
 
 ## 配置临时语言副本的后处理
 
@@ -145,10 +177,10 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
 
-1. 根据您的设置配置&#x200B;**Post进程语言副本**&#x200B;选项：
+1. 根据您的设置配置&#x200B;**后处理语言副本**&#x200B;选项：
 
-   - \（*默认值*\）如果不想对临时文件运行后处理操作，则&#x200B;*禁用* **Post进程语言副本**&#x200B;选项。
+   - \（*默认值*\）如果不想对临时文件运行后处理操作，则&#x200B;*禁用* **后处理语言副本**&#x200B;选项。
 
-   - 如果要对临时文件运行后处理操作，请&#x200B;*启用* **Post进程语言副本**&#x200B;选项。
+   - 如果要对临时文件运行后处理操作，请&#x200B;*启用* **后处理语言副本**&#x200B;选项。
 
 1. 单击&#x200B;**保存**。
