@@ -3,7 +3,7 @@ title: AEM Guides的主要功能
 description: 探索AEM Guides、DITA创作、内容管理、基于Web的审阅、翻译、本地化、多渠道发布和FrameMaker集成中的主要功能。
 feature: Introduction
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%

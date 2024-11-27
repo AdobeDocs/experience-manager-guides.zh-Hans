@@ -3,7 +3,7 @@ title: 查看主题或映射
 description: 在AEM Guides中高效地查看主题或地图，以实现顺利的内容评估。 了解AEM Guides中适用于作者和审阅人的功能。
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%

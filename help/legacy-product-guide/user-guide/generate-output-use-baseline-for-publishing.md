@@ -3,7 +3,7 @@ title: 使用基线
 description: 了解基线在AEM Guides中的用法。 了解如何创建、查看内容、编辑、复制、删除、添加标签和导出已翻译基线。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%

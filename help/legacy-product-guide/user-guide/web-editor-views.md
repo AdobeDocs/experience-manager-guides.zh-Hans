@@ -3,7 +3,7 @@ title: Web编辑器视图
 description: 在创作、源和预览模式下查看文档。 了解如何在AEM Guides中查看基于条件筛选器的内容、查看跟踪更改标记以及将主题导出为PDF。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%

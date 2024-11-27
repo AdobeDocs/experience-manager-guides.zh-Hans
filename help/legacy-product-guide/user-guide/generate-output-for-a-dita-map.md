@@ -3,7 +3,7 @@ title: 从映射控制台生成DITA映射的输出
 description: 从AEM Guides的映射控制台生成DITA映射的输出。 了解增量输出生成以及如何查看状态、取消和删除输出任务。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%

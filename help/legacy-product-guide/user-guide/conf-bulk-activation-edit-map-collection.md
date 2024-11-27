@@ -3,10 +3,10 @@ title: 编辑批量激活映射集合
 description: 在AEM Guides中使用批量发布功能板。 了解如何通过添加或删除映射文件来编辑批量激活映射集合。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 1. 选择要编辑的收藏集，然后单击&#x200B;**打开**。
 
-1. 单击&#x200B;**编辑**。
+1. 点击&#x200B;**编辑**。
 
    此时会显示批量激活映射收集页面，其中显示了映射以及每个可用区域设置的预配置预设。
 您可以查看各种类型的输出预设及其图标，例如AEM Site、PDF、本机PDF、HTML5、自定义和JSON输出

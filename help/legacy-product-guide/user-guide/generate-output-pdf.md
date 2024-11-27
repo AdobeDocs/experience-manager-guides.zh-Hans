@@ -3,9 +3,9 @@ title: 生成PDF
 description: 了解如何从Web编辑器和地图仪表板创建PDF预设。 在AEM Guides中配置PDF输出预设。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1032'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 “高级”选项卡包含以下配置：
 
 - 启用版本控制
-- 下载临时文件
+- 保留临时文件
 
 有关详细信息，请参阅[PDF配置](#id231KIM004X1)。
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 | 转换名称 | 指定要生成的输出类型。 如果您要使用自己的自定义插件（该插件集成在DITA-OT插件中）生成输出，则需要使用此插件。 例如，如果要生成XHTML输出，请指定`xhtml`。 有关DITA-OT中可用的转换列表，请参阅OASIS DITA-OT用户指南中的[DITA-OT转换（输出格式）](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html)。 |
 | 文件名 | 指定要用于保存PDF的文件名。<br><br>您还可以在设置PDF文件名时使用变量。 有关使用变量的更多详细信息，请参阅[使用变量设置目标路径、站点名称或文件名选项](generate-output-use-variables.md#id18BUG70K05Z)。<br><br>**注意**：如果未提供文件名，则使用DITA映射的标题生成最终PDF的文件名。 如果映射没有标题，则使用DITA映射的文件名命名最终PDF。 使用系统中配置的规则清理文件名，以处理任何无效字符。 |
 | 目标路径 | AEMPDF的存储库中的路径。<br><br>您还可以在设置目标路径时使用变量。 有关使用变量的更多详细信息，请参阅[使用变量设置目标路径、站点名称或文件名选项](generate-output-use-variables.md#id18BUG70K05Z)。 |
-| 下载临时文件 | 选择此选项可下载DITA-OT生成的临时文件。 可以在输出生成日志中找到DITA-OT存储临时文件的位置。 如果在通过DITA-OT生成输出时遇到错误，请选择此选项以保留临时文件。 然后，您可以使用这些文件来排查输出生成错误。<br> <br>生成输出后，选择&#x200B;**下载临时文件** ![下载临时文件图标](images/download-temp-files-icon.png)图标以下载包含临时文件的ZIP文件夹。<br><br> **注意**：如果您选择某些文件属性，然后下载临时文件，则也会在ZIP文件夹中获取&#x200B;*metadata.xml*&#x200B;文件。 |
+| 保留临时文件 | 选择此选项可保留由DITA-OT生成的临时文件。 如果在通过DITA-OT生成输出时遇到错误，请选择此选项以保留临时文件。 然后，您可以使用这些文件来排查输出生成错误。<br> <br>生成输出后，选择&#x200B;**下载临时文件** ![下载临时文件图标](images/download-temp-files-icon.png)图标以下载包含临时文件的ZIP文件夹。<br><br> **注意**：如果在生成期间添加文件属性，则输出临时文件还包括包含这些属性的&#x200B;*metadata.xml*&#x200B;文件。 |
 | 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br>有关更多详细信息，请参阅[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)。 |
 | 文件属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性显示在&#x200B;**文件属性**&#x200B;字段下。 选择资产旁边的交叉图标以将其删除。 <br><br>注意：您还可以使用DITA-OT发布将元数据传递到输出。 有关更多详细信息，请参阅[使用DITA-OT将元数据传递到输出](pass-metadata-dita-ot.md#id21BJ00QD0XA)。 |
 

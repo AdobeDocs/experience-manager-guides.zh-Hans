@@ -3,7 +3,7 @@ title: ePub预设
 description: 了解如何从地图仪表板创建EPUB预设。 在AEM Guides中配置EPUB输出预设。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 1%

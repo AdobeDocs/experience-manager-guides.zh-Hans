@@ -3,7 +3,7 @@ title: 在内容中添加和管理引文
 description: 在AEM Guides中添加和管理引文。 了解如何应用、导入、筛选、搜索、更改引文样式、编辑、预览、插入、删除和生成包含引文的内容输出。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -53,7 +53,7 @@ AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国�
    | 书籍 | 网站 | 日志 |
    | --- | ---|---|
    | **Source** <br>从下拉列表中，选择引用作为书籍的来源。 | **Source**<br>&#x200B;从下拉列表中，选择引用源作为网站。 | **Source** <br>从下拉列表中，选择引用源作为日志。 |
-   | **搜索依据** <br>从下拉列表中选择&#x200B;**ISBN**&#x200B;或&#x200B;**DOI**&#x200B;以搜索链接到该引文的数字ID。  <br> DOI：数字对象标识符<br> ISBN：唯一数字帐簿标识符 | **搜索依据** <br>从下拉列表中选择&#x200B;**DOI**&#x200B;以搜索链接到引文的数字ID。 | **搜索依据** <br>从下拉列表中选择&#x200B;**DOI**&#x200B;或PubMed ID以搜索链接到该引文的数字ID。<br>  <br> |
+   | **搜索依据** <br>从下拉列表中选择&#x200B;**ISBN**&#x200B;或&#x200B;**DOI**&#x200B;以搜索链接到引文的数字ID。  <br> DOI：数字对象标识符<br> ISBN：唯一数字帐簿标识符 | **搜索依据** <br>从下拉列表中选择&#x200B;**DOI**&#x200B;以搜索链接到引文的数字ID。 | **搜索依据** <br>从下拉列表中选择&#x200B;**DOI**&#x200B;或PubMed ID以搜索链接到该引文的数字ID。<br>  <br> |
    | **作者** <br>添加引文作者的名字和姓氏。 选择![](images/Add_icon.svg)以添加更多名称。 | **作者** <br>添加引文作者的名字和姓氏。 选择![](images/Add_icon.svg)以添加更多名称。 | **作者** <br>添加引文作者的名字和姓氏。 选择![](images/Add_icon.svg)以添加更多名称。 |
    | **标题** <br>添加书籍的标题。 | **标题** <br>添加网页的标题。 | **标题** <br>添加文章的标题。 |
    | **编辑者** <br>添加书籍的编辑者。 | **网站名称** <br>添加网站的名称。 | **日志标题** <br>添加文章所在工作的标题。 |
@@ -257,10 +257,10 @@ AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国�
 
 在本机PDF输出中，引文会出现在您插入它们的内容中。 您还可以创建“书目”页面。 当您单击任何引文时，您将被重定向到文献目录页面。
 
-在PDF模板中创建&#x200B;**引用**&#x200B;页面布局，并将其包含在您的文档中。 书中使用的所有引文都会列在PDF输出中的一个页面上。 要了解有关创建页面布局的更多信息，请查看[创建页面布局](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout)。
+在PDF模板中创建&#x200B;**引用**&#x200B;页面布局，并将其包含在您的文档中。 书中使用的所有引文都会列在PDF输出中的一个页面上。 要了解有关创建页面布局的更多信息，请查看[创建页面布局](../native-pdf/components-pdf-template.md#create-page-layout)。
 
 
-若要更改引文页的视图和风格，请查看[自定义PDF模板](/help/product-guide/native-pdf/pdf-template.md)。
+若要更改引文页的视图和风格，请查看[自定义PDF模板](../native-pdf/pdf-template.md)。
 
 
 
@@ -272,4 +272,4 @@ AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国�
 
 1. 在“搜索”面板中，搜索`<cite>`。
 
-若要了解有关样式的详细信息，请查看[使用常见的内容样式](/help/product-guide/native-pdf/stylesheet.md)。
+若要了解有关样式的详细信息，请查看[使用常见的内容样式](../native-pdf/stylesheet.md)。

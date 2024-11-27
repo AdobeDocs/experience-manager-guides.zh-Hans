@@ -3,7 +3,7 @@ title: 使用变量设置目标路径、站点名称或文件名选项
 description: 了解如何使用变量来设置“目标路径”、“站点名称”或“文件名”选项。 了解AEM Guides中支持的现成变量。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

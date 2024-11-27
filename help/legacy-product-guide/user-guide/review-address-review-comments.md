@@ -3,7 +3,7 @@ title: 地址审核注释
 description: 了解如何在AEM Guides中以作者身份处理审核评论。 了解作者如何编辑、筛选、接受或拒绝文档中的评论。
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # 地址审核注释 {#id2056B0X0KBI}
 
 
-作为作者，您可以使用Web编辑器在主题中处理注释。 根据在“审阅”面板中选择的审阅任务载入注释。 有关更多详细信息，请在[左侧面板](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS)部分中查看&#x200B;**审阅**&#x200B;面板![](images/active-review-tasklist-icon.svg)功能说明。
+作为作者，您可以使用Web编辑器在主题中处理注释。 根据在“审阅”面板中选择的审阅任务载入注释。 有关更多详细信息，请在[左侧面板](../user-guide/web-editor-features.md#id2051EA0M0HS)部分中查看&#x200B;**审阅**&#x200B;面板![](images/active-review-tasklist-icon.svg)功能说明。
 
 以下各节介绍在Web编辑器中编辑注释的方法。
 

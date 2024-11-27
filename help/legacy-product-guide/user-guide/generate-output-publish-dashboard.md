@@ -3,7 +3,7 @@ title: 使用Publish功能板管理发布任务
 description: 在AEM Guides中使用Publish仪表板管理发布任务。 了解如何访问发布功能板和取消发布任务。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Web编辑器中的其他功能
 description: 探索AEM Guides中Web编辑器的其他功能。 了解如何使用这些功能改进AEM Guides中的创作。
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 **插入MathML公式**
 
-- Experience Manager Guides为您提供开箱即用的支持，以便您通过与[MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)应用程序集成来插入MathML公式。 要插入MathML公式，请选择&#x200B;**插入元素**&#x200B;图标并键入mathml。 从列表中选择mathml元素时，将显示&#x200B;**插入MathML**&#x200B;对话框：
+- Experience Manager Guides为您提供开箱即用的支持，以便通过与[MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)应用程序集成来插入MathML公式。 要插入MathML公式，请选择&#x200B;**插入元素**&#x200B;图标并键入mathml。 从列表中选择mathml元素时，将显示&#x200B;**插入MathML**&#x200B;对话框：
 
 ![在mathml编辑器中插入mathml公式](images/insert-mathml-equation.png){width="550" align="left"}
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 - **在MathML编辑器中验证公式**
 
-  在保存包含MathML公式的主题时，Experience Manager Guides会验证这些公式。
+  当您保存包含公式的主题时，Experience Manager Guides会验证MathML公式。
 使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择**插入**，则会显示警告。
 
   ![验证mathml公式](images/validate-mathml-equation.png){width="400" align="left"}

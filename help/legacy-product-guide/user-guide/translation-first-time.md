@@ -3,7 +3,7 @@ title: 内容翻译的最佳实践
 description: 了解AEM Guides中内容翻译的最佳实践。 了解如何配置翻译服务、创建新翻译项目以及启动翻译作业。
 feature: Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%

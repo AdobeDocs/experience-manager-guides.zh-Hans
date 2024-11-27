@@ -3,7 +3,7 @@ title: 文档状态
 description: 了解AEM Guides中的文档状态类型。 了解如何在DDLC中更改或查看文档状态和使用文档状态。
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%

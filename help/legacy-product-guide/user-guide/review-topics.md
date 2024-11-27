@@ -3,7 +3,7 @@ title: 查看主题
 description: 了解如何在AEM Guides中查看主题并将这些功能用作查看者、文档视图、主题视图、上下文工具栏、预览模式、向注释添加附件和条件面板。
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%

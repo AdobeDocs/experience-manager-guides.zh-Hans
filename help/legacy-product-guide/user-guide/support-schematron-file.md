@@ -3,7 +3,7 @@ title: 支持Schematron文件
 description: 了解如何导入和验证DITA主题、使用声明报表语句检查规则、使用正则表达式以及在AEM Guides的Schematron文件中定义抽象模式。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%

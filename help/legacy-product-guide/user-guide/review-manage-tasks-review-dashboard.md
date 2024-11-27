@@ -3,7 +3,7 @@ title: 使用审阅功能板管理审阅任务
 description: 从AEM Guides的审核仪表板管理审核任务。 了解任务、内容、审阅人选项卡下的执行操作，并检查审阅任务的状态。
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
