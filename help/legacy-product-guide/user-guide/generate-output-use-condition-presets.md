@@ -3,7 +3,7 @@ title: 使用条件预设
 description: 了解AEM Guides中条件预设的使用。 了解如何在AEM中创建、编辑、复制和删除条件预设。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 1%
@@ -71,7 +71,7 @@ ht-degree: 1%
    >
    > 如果您选择其他预设或关闭预设而不保存预设，则会查看警告。
 
-创建条件预设后，该预设将显示在输出预设的&#x200B;**条件预设**&#x200B;下拉列表下。 详细了解如何[PublishPDF输出](../web-editor/native-pdf-web-editor.md)。
+创建条件预设后，该预设将显示在输出预设的&#x200B;**条件预设**&#x200B;下拉列表下。 详细了解如何[PublishPDF输出](/help/product-guide/web-editor/native-pdf-web-editor.md)。
 
 ### 重命名条件预设
 
