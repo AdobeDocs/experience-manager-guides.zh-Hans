@@ -3,7 +3,7 @@ title: AEM Sites
 description: 在Web编辑器中创建和配置AEM Sites预设，并为DITA映射、选定主题和链接主题生成AEM Sites输出。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 您可以从Web编辑器创建AEM Sites预设，并将其配置为生成AEM Sites输出。 AEM Sites输出基于复合组件映射以及`guides-components`，有助于高效的内容创建和管理。
 
 Experience Manager Guides提供了用于创建AEM Sites的预定义模板。 这些预设可帮助您确保内容布局和结构的一致性。
-- [根据这些预定义的模板创建主页](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template)。
-- 您可以[编辑主题模板](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation)并根据您的要求应用样式。
-- 您也可以[自定义现有AEM Sites模板](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates)。
+- [根据这些预定义的模板创建主页](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template)。
+- 您可以[编辑主题模板](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation)并根据您的要求应用样式。
+- 您也可以[自定义现有AEM Sites模板](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates)。
 
 
 
@@ -40,8 +40,8 @@ Experience Manager Guides提供了用于创建AEM Sites的预定义模板。 这
 >[!NOTE]
 >
 >在为Experience Manager Guides配置AEM Sites预设之前，管理员需要使用模板创建AEM Sites结构。
-- **内部部署软件**：了解有关如何[下载并安装内部部署软件的AEM Sites模板](../install-guide/download-install-aem-sites-templates.md)的详细信息。
-- **Cloud Service**：了解有关如何[下载和安装AEM Sites模板](../cs-install-guide/download-install-aem-sites-templates-cs.md)以进行Cloud Service的更多信息。
+- **内部部署软件**：了解有关如何[下载并安装内部部署软件的AEM Sites模板](/help/product-guide/install-guide/download-install-aem-sites-templates.md)的详细信息。
+- **Cloud Service**：了解有关如何[下载和安装AEM Sites模板](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)以进行Cloud Service的更多信息。
 
 
 
@@ -140,7 +140,7 @@ Experience Manager Guides提供了用于创建AEM Sites的预定义模板。 这
 Experience Manager Guides允许您使用现成的模板或添加您自己的AEM Sites模板。
 
 在配置AEM Sites预设之前，请确保使用模板创建AEM Sites结构。\
-有关详细信息，请查看[下载并安装AEM Sites模板](../install-guide/download-install-aem-sites-templates.md)。
+有关详细信息，请查看[下载并安装AEM Sites模板](/help/product-guide/install-guide/download-install-aem-sites-templates.md)。
 
 
 

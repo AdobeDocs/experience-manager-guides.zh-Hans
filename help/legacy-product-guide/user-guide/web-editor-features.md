@@ -3,7 +3,7 @@ title: 了解Web编辑器功能
 description: 探索AEM Guides中Web编辑器的功能。 了解Web编辑器的界面，包括主工具栏、辅助工具栏、左侧面板、内容编辑区域和右侧面板。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 签入/签出的工具提示由`ui_config.json`文件中的标题属性决定。
 
-有关更多详细信息，请查看On-premise Installation and Configuration Guide中的[配置签入和签出图标的标题](../install-guide/conf-checkin-checkout-title.md)。
+有关更多详细信息，请查看On-premise Installation and Configuration Guide中的[配置签入和签出图标的标题](/help/product-guide/install-guide/conf-checkin-checkout-title.md)。
 
 
 **切换标记视图** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ Web编辑器为搜索文本提供了增强的筛选器。 您可以搜索和筛�
 
   >[!NOTE]
   >
-  >请联系您的客户成功团队以在环境中启用此功能。 这并非开箱即用支持的一部分。 有关更多详细信息，请查看《安装和配置指南》中的[在氧中配置要编辑的选项](../cs-install-guide/conf-edit-in-oxygen.md)部分。
+  >请联系您的客户成功团队以在环境中启用此功能。 这并非开箱即用支持的一部分。 有关更多详细信息，请查看《安装和配置指南》中的[在氧中配置要编辑的选项](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md)部分。
 
 
 - **在Assets UI中查看**：使用此项在Assets UI中显示.dita/.xml文件的预览。 对于.ditamap/.bookmap文件，映射中的所有主题文件都以单个统一的逐页视图显示。

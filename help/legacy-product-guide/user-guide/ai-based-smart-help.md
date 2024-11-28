@@ -1,7 +1,7 @@
 ---
 title: 用于搜索内容的AI支持的智能帮助
 description: 了解如何在Web编辑器中查看和利用AI支持的智能帮助。
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Experience Manager Guides提供了基于GenAI的智能帮助，该对话式搜�
 
 >[!NOTE]
 >
-> 您的管理员必须配置&#x200B;**智能帮助**&#x200B;功能。 有关更多详细信息，请查看《Cloud Service的安装和配置指南》中的[配置AI支持的Smart Help以搜索content](../cs-install-guide/conf-smart-help.md)部分。
+> 您的管理员必须配置&#x200B;**智能帮助**&#x200B;功能。 有关更多详细信息，请查看《Cloud Service的安装和配置指南》中的[配置AI支持的Smart Help以搜索content](/help/product-guide/cs-install-guide/conf-smart-help.md)部分。
 
 ![智能帮助面板](images/smart-help-panel.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Experience Manager Guides提供了基于GenAI的智能帮助，该对话式搜�
 
    >[!NOTE]
    >
-   > 在[全局或文件夹级别配置文件](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)中，您的管理员需要定义显示在面板中的默认问题。
+   > 在[全局或文件夹级别配置文件](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)中，您的管理员需要定义显示在面板中的默认问题。
 
 1. 键入问题可在Experience Manager Guides文档中查找相关内容。 您可以在面板中选择默认问题，或在文本框中键入您的问题。
 

@@ -3,7 +3,7 @@ title: Publish指向体验片段的主题
 description: 在AEM Guides中，将主题或主题中的元素Publish为体验片段。  了解如何查看呈现给某个主题的体验片段并重新发布它们。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Experience Manager Guides允许您将主题或其元素发布到体验片段。 
 
 
 
-     您的管理员可以在&#x200B;*experienceFragmentMapping.json*&#x200B;文件中添加映射。  请参阅安装和配置指南以了解有关如何[创建主题和体验片段](../cs-install-guide/conf-experience-fragment-mapping-cs.md)之间的映射的详细信息。
+     您的管理员可以在&#x200B;*experienceFragmentMapping.json*&#x200B;文件中添加映射。  请参阅安装和配置指南以了解有关如何[创建主题和体验片段](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md)之间的映射的详细信息。
 
    * 您还可以选择不同的条件来发布内容。  选择以下选项之一：
 

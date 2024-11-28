@@ -3,7 +3,7 @@ title: 根据自定义模板创建映射
 description: 了解如何创建自定义模板，使用它们创建新映射文件，并将定义的标题传递给AEM Guides中的DITA映射。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,13 +96,13 @@ AEM Guides允许您从dita-templates文件夹创建自定义映射和主题。 �
 <details>
     <summary> Cloud Service </summary>
 
-了解如何在Cloud Service安装和配置指南中[配置自定义DITA模板文件夹路径](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)。
+了解如何在Cloud Service安装和配置指南中[配置自定义DITA模板文件夹路径](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)。
 </details>
 
 <details>
     <summary> 内部部署软件</summary>
 
-了解如何在On-premise Installation and Configuration指南中[配置自定义DITA模板文件夹路径](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)。
+了解如何在On-premise Installation and Configuration指南中[配置自定义DITA模板文件夹路径](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z)。
 </details>
 
 ## 传递模板中定义的标题

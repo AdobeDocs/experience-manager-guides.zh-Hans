@@ -3,7 +3,7 @@ title: Publish内容片段的主题
 description: 在AEM Guides中，将主题或主题中的元素Publish为内容片段。  了解如何查看呈现给某个主题的内容片段并重新发布它们。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 
      >[!NOTE]
      >
-     > 如果您使用的是4.4或更低版本，请从下拉列表中选择一个映射。 它会从&#x200B;*contentFragmentMapping.json*&#x200B;文件中选取映射。  您的管理员可以在&#x200B;*contentFragmentMapping.json*&#x200B;文件中添加映射。 请参阅安装和配置指南以了解有关如何[创建主题和内容片段之间的映射](../cs-install-guide/conf-content-fragment-mapping-cs.md)的详细信息。
+     > 如果您使用的是4.4或更低版本，请从下拉列表中选择一个映射。 它会从&#x200B;*contentFragmentMapping.json*&#x200B;文件中选取映射。  您的管理员可以在&#x200B;*contentFragmentMapping.json*&#x200B;文件中添加映射。 请参阅安装和配置指南以了解有关如何[创建主题和内容片段之间的映射](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md)的详细信息。
 
 1. 单击&#x200B;**生成**&#x200B;以发布内容片段。
 
@@ -110,4 +110,4 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 
 新的UUID内容迁移脚本已得到显着优化，使得内容从非UUID迁移到UUID比以前的脚本快30倍。 它包括从检查点恢复、实时洞察、估计完成时间和详细报告等功能，确保和谐的迁移过程。 特别要注意的是，迁移过程会保留资产元数据，而不进行任何更改。 该脚本已在300万资产的大型数据集上经过测试和验证，证实其对于大规模迁移的效率和可靠性。
 
-了解有关[从Non-UUID迁移到UUID内容](../install-guide/migrate-non-uuid-uuid.md)的详细信息。
+了解有关[从Non-UUID迁移到UUID内容](/help/product-guide/install-guide/migrate-non-uuid-uuid.md)的详细信息。

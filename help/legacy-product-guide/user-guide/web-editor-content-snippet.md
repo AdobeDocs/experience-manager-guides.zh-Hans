@@ -3,7 +3,7 @@ title: 插入数据源中的内容片段
 description: 在AEM Guides中使用来自数据源的数据。 了解如何从数据源插入内容片段。 使用主题生成器创建主题。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ ht-degree: 0%
 <summary> Cloud Service </summary>
 
 
-- 如果您使用的是2023年10月版或更高版本，请在Cloud Service的《安装和配置指南》中了解如何[从用户界面](../cs-install-guide/conf-data-source-connector-tools.md)配置数据源连接器。
+- 如果您使用的是2023年10月版或更高版本，请在Cloud Service的《安装和配置指南》中了解如何[从用户界面](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)配置数据源连接器。
 
-- 如果您使用的是2023年7月或2023年9月版本，请了解Cloud Service安装和配置指南中的如何[配置数据源连接器](../cs-install-guide/conf-data-source-connector.md)。
+- 如果您使用的是2023年7月或2023年9月版本，请了解Cloud Service安装和配置指南中的如何[配置数据源连接器](/help/product-guide/cs-install-guide/conf-data-source-connector.md)。
 
 </details>
 
 <details>    
 <summary>  内部部署软件 </summary>
 
-- 如果您使用的是4.3.1版本或更高版本，请在On-premise Installation and Configuration Guide中了解如何[从用户界面](../cs-install-guide/conf-data-source-connector-tools.md)配置数据源连接器。
+- 如果您使用的是4.3.1版本或更高版本，请在On-premise Installation and Configuration Guide中了解如何[从用户界面](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)配置数据源连接器。
 
-- 如果您使用的是4.3版本，请在On-premise Installation and Configuration Guide中了解如何[配置数据源连接器](../cs-install-guide/conf-data-source-connector.md)。
+- 如果您使用的是4.3版本，请在On-premise Installation and Configuration Guide中了解如何[配置数据源连接器](/help/product-guide/cs-install-guide/conf-data-source-connector.md)。
 </details>
 
 

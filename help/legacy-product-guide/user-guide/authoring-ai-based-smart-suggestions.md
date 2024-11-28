@@ -1,7 +1,7 @@
 ---
 title: 用于创作内容的AI支持的智能建议
 description: 了解如何在Web编辑器中查看和利用AI支持的智能建议。
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Experience Manager Guides提供了智能建议，可帮助您创建一致且准�
 这可帮助您重用文档存储库中的现有内容并创建一致的内容。 例如，您正在创建的文档包含有关&#x200B;**Adobe Firefly**&#x200B;的信息，其中包括有关&#x200B;**Adobe**&#x200B;的段落。 在这种情况下，您可以快速查看和添加来自其他主题(如&#x200B;**Adobe Photoshop**)的内容引用，该主题包含相同的段落。
 >[!NOTE]
 >
-> 在[全局或文件夹级别配置文件](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions)中，管理员需要定义要索引的文件或文件夹以获取智能建议，需要输入的最小字符数以及可在列表中查看的最大建议数。
+> 在[全局或文件夹级别配置文件](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions)中，管理员需要定义要索引的文件或文件夹以获取智能建议，需要输入的最小字符数以及可在列表中查看的最大建议数。
 
 执行以下步骤，查看有关向主题添加相应内容引用的智能建议：
 
