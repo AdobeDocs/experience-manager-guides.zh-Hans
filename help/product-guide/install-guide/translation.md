@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '854'
 ht-degree: 8%
 
 ---
@@ -100,7 +100,9 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 > 
-> 建议您使用最新的翻译工作流，该工作流可提高性能。 但是，如果在当前翻译流程中启用了任何自定义项，请考虑使用旧版翻译工作流。
+> 建议您使用AEM Guides 4.6.0及更高版本中提供的最新翻译工作流以提高性能。 但是，如果您在翻译流程中启用了任何自定义设置，并且它受新工作流的影响，请考虑还原旧版翻译工作流作为解决方法。
+
+
 
 默认情况下，旧版翻译工作流选项处于禁用状态。 可以通过执行以下步骤来配置此选项：
 

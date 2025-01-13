@@ -5,9 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -114,17 +114,5 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 **此更改的结果**
 **Limit AEM Site Pages in Heap**&#x200B;属性的数量增加会优化AEM Site输出生成过程。
 
-## 优化后处理线程的数量\（必需，具体取决于用例\）
-
-**有什么变化？**
-如果要批量上传DITA内容，则此更改是必需的。
-
-将`com.adobe.fmdita.config.ConfigManager`下的&#x200B;**Post进程Threads**&#x200B;属性设置为`1`。
-
-**何时配置？**
-这可以在运行时完成。
-
-**此更改的结果**
-此更改减少了批量上传DITA文件的后处理时间。
 
 **父主题：**[&#x200B;下载并安装](download-install.md)

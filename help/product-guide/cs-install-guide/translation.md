@@ -5,9 +5,9 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '773'
 ht-degree: 9%
 
 ---
@@ -72,16 +72,17 @@ ht-degree: 9%
 
 ## 配置旧版翻译工作流
 
-建议您使用最新的翻译工作流，该工作流可提高性能。 但是，如果您要使用旧版翻译工作流，则可以对其进行配置。
+>[!IMPORTANT]
+>
+> 建议您使用AEM Guides 2024.06.0及更高版本中提供的最新翻译工作流以提高性能。 但是，如果您在翻译流程中启用了任何自定义设置，并且它受新工作流的影响，请考虑还原旧版翻译工作流作为解决方法。
 
 使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下（属性）详细信息以配置旧版翻译工作流：
 
 
-
-
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布尔值： <br> — 如果您使用最新的翻译工作流，则&#x200B;*禁用* \(`false`\) **运行旧版翻译工作流**&#x200B;选项。 默认情况下，将启用最新的翻译工作流。 <br> -   如果使用旧版翻译，则&#x200B;*启用\( `true`\)* **运行旧版翻译工作流**&#x200B;选项。 |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布尔值： <br> — 如果您使用最新的翻译工作流，则&#x200B;*禁用* \(`false`\) **运行旧版翻译工作流**&#x200B;选项。  <br> -   如果使用旧版翻译，则&#x200B;*启用\( `true`\)* **运行旧版翻译工作流**&#x200B;选项。<br> **默认值**： false |
+
 
 
 
@@ -101,5 +102,5 @@ ht-degree: 9%
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔值： <br> -   如果不想对临时文件运行后处理操作，则&#x200B;*禁用* \( false\) **Post进程语言副本**&#x200B;选项。<br> -   如果要对临时文件运行后处理操作，请&#x200B;*启用* \( true\) **Post进程语言副本**&#x200B;选项。<br> **默认值**： false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔值： <br> -   如果不想对临时文件运行后处理操作，则&#x200B;*禁用* \( false\) **后处理语言副本**&#x200B;选项。<br> -   如果要对临时文件运行后处理操作，请&#x200B;*启用* \( true\) **后处理语言副本**&#x200B;选项。<br> **默认值**： false |
 
