@@ -1,7 +1,7 @@
 ---
 title: 使用AI助手智能创作文档'
 description: 了解如何使用AI助手在Web编辑器中高效地创作文档。
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -109,12 +109,12 @@ Experience Manager Guides提供了一个AI助手工具，可帮助您更智能�
 
 
 1. 选择内容。
-1. 选择&#x200B;**创建简短描述![ai创建简短描述图标](./images/ai-create-shortdesc-icon.svg)**&#x200B;为当前主题创建简短描述。
+1. 选择&#x200B;**创建shortdesc** ![ai创建简短说明图标](./images/ai-create-shortdesc-icon.svg)为当前主题创建简短说明。
 1. 选择&#x200B;**接受**&#x200B;以创建新的简短描述（如果简短描述尚不存在）。 如果存在简短说明，则需要先确认该说明，然后再将其替换为新的简短说明。
 
 您还可以执行以下操作：
-- 选择&#x200B;**重新生成**&#x200B;为您的主题生成其他简短描述，如AI工具。
 
+- 选择&#x200B;**重新生成**&#x200B;为您的主题生成其他简短描述，如AI工具。
 - 选择&#x200B;**展开**&#x200B;以打开&#x200B;**创建shortdesc**&#x200B;编辑器。
 
 ![ai助手创建简短描述编辑器](./images/ai-assistant-create-short-desc.png)

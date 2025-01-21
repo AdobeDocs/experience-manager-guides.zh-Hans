@@ -3,7 +3,8 @@ title: 使用高级映射编辑器
 description: 了解如何在AEM Guides中使用高级映射编辑器。 了解高级映射编辑器的功能。 通过DITA映射编辑主题，并使用布局视图、作者视图和预览模式。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -385,4 +386,4 @@ AEM Guides允许作者在Web编辑器中打开DITA映射，并查看主题在映
    - 地图预览中的当前主题也会在地图树中突出显示。
 
 
-**父主题：**[&#x200B;使用映射编辑器](map-editor.md)
+**父主题：** [使用映射编辑器](map-editor.md)
