@@ -1,16 +1,17 @@
 ---
-title: 通过AEM Guides在AEM Sites中启用上下文内容变量(CCVAR)
-description: 通过AEM Guides在AEM Sites中使用上下文内容变量(CCVAR)
+title: 在从AEM Guides生成的AEM Sites页面中启用上下文内容变量(CCVAR)
+description: 在从AEM Guides生成的AEM Sites页面中使用上下文内容变量(CCVAR)
 feature: Web Editor
 role: User, Admin
-source-git-commit: cd5b8329153f598365a640f50d2c003af72dac50
+exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
 
-# 通过AEM Guides在AEM Sites中启用上下文内容变量(CCVAR)
+# 在从AEM Guides生成的AEM Sites页面中启用上下文内容变量(CCVAR)
 
 上下文内容变量(CCVAR)是一种ACS Commons功能，它允许作者直接在其创作的文本中使用动态内容变量。 虽然CCVAR在AEM Sites中经常使用，但本文介绍如何通过使用在&#x200B;**AEM Guides** *中创作的内容生成的页面，主要通过使用DITA映射*&#x200B;中定义的关键字来实现类似功能。
 
@@ -20,7 +21,7 @@ ht-degree: 2%
 CCVAR允许作者将动态变量插入其内容，这些变量在运行时根据上下文解析。 例如，像`((page_properties.pageTitle))`这样的变量可以在内容呈现期间动态提取页面标题。
 
 
-## 如何在AEM Sites中启用从AEM Guides生成的CCVAR？
+## 如何在从AEM Guides生成的AEM Sites页面中启用CCVAR？
 
 考虑到AEM Guides被用作所有内容(包括AEM Sites、PDF或HTML5)的源，要在从AEM Guides生成的页面上启用CCVAR，您需要使用关键字来定义CCVAR名称。 要在指南中执行此操作，请使用`<keydef>`元素在DITA映射中定义&#x200B;**关键字**。 这些关键字可以对应于动态值（或CCVAR名称），从而允许您在DITA主题中引用它们。
 
