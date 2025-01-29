@@ -1,9 +1,10 @@
 ---
 title: 发行说明 | 修复了Adobe Experience Manager Guides 2024.12.0版本中的问题
 description: 了解Adobe Experience Manager Guidesas a Cloud Service2024.12.0版本中的错误修复。
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
+source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -40,3 +41,30 @@ ht-degree: 1%
 ## 翻译
 
 - 使用基线的映射转换变得缓慢，最终无法加载所有关联主题和映射文件的列表。 (19733)
+
+## 存在已知问题的解决方法
+
+Adobe已在Adobe Experience Manager Guidesas a Cloud Service的2024.12.0版本中发现以下已知问题。
+
+处理内容翻译时，**项目创建失败**
+
+发送内容以进行翻译时，项目创建会失败，并出现以下日志错误：
+
+处理翻译项目时出现`com.adobe.cq.wcm.translation.impl.TranslationPrepareResource`错误
+
+`com.adobe.cq.projects.api.ProjectException`：无法创建项目
+
+原因为： `org.apache.jackrabbit.oak.api.CommitFailedException`： `OakAccess0000`：访问被拒绝
+
+
+**解决方法**：要解决此问题，请执行以下步骤：
+
+1. 添加repoinit文件。 如果文件不存在，请执行[示例repoinit配置创建步骤](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854)来创建该文件。
+2. 在文件中添加以下行并部署代码：
+
+   ```
+   { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+   ```
+
+3. 部署后测试翻译。
+
