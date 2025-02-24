@@ -4,7 +4,7 @@ description: 查找Experience Manager Guides(以前称为XML Documentation for A
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 1%
@@ -37,61 +37,10 @@ ht-degree: 1%
 
   _了解如何使用[!DNL Adobe Experience Manager Guides]生成输出。 了解可用于生成输出的各种功能 — 报告、基线、条件、故障排除、批量发布和激活。_
 
-<!--
-
-Dummy links cause validation to fail
-
-## Staff Picks
-
-<table>
-<tr>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-   <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-</tr>
-</table>
-
--->
 
 ## 其他资源
 
-* [[!DNL Experience Manager Guides] 用户指南（旧UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-legacy/user-guide/overview)
+* [[!DNL Experience Manager Guides] 用户指南（旧UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 * [[!DNL AEM Guides] 学习与支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League — 浏览AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
 

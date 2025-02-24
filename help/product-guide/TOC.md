@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: ab7e91306d9a5253205e773f148d789141b9b0d1
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2040'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,8 @@ ht-degree: 6%
       - [!DNL AEM Guides]正在工作和主要功能{#aemg-works-features}
          - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
-   - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
+   - 主页{#home-page}
+      - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
    - 作者内容{#author-content}
       - [创作概述](./user-guide/authoring-content.md)
       - [使用AEM Guides创作内容的方法](./user-guide/authoring-content-xml-doc.md)
@@ -158,7 +159,7 @@ ht-degree: 6%
          - [使用DITAVAL编辑器](./user-guide/ditaval-editor.md)
       - 用于创作内容{#author-using-desktop-tools}的桌面工具
          - [使用桌面工具创作内容](./user-guide/author-desktop-tools.md)
-   - 审核{#review}
+   - 审核内容{#review}
       - [评论简介](./user-guide/review.md)
       - [创建DITA项目](./user-guide/authoring-create-dita-project.md)
       - [发送主题以供审阅](./user-guide/review-send-topics-for-review.md)
@@ -177,6 +178,19 @@ ht-degree: 6%
    - 映射管理和发布{#map-management-publishing}
       - [映射控制台概述](./user-guide/map-console-overview.md)
       - [在“映射”控制台中打开文件](./user-guide/open-files-map-console.md)
+      - 报告 {#reports-aem-guide}
+         - [报告简介](./user-guide/reports-intro.md)
+         - [“映射”控制台中的DITA映射报表](./user-guide/reports-web-editor.md)
+         - [映射仪表板中的DITA映射报表](./user-guide/reports-ditamap.md)
+         - [内容重用报告](./user-guide/reports-content-reuse.md)
+         - [转化状态报表](./user-guide/reports-convertion-status.md)
+         - [还原的文件版本历史记录报告](./user-guide/reports-reverted-file-version-history.md)
+      - 内容翻译{#translate-content}
+         - [内容翻译概述](./user-guide/translation.md)
+         - [内容翻译的最佳实践](./user-guide/translation-first-time.md)
+         - [从“地图”控制台翻译文档](./user-guide/translate-documents-web-editor.md)
+         - [查看翻译状态](./user-guide/translation-view-trans-state-6234.md)
+         - [翻译修改的主题](./user-guide/translation-modified-topics-6234.md)
       - 输出生成{#output-gen}
          - [输出生成基础知识](./user-guide/generate-output.md)
          - AEM Guides {#output-presets-aemg}中的输出预设
@@ -203,19 +217,6 @@ ht-degree: 6%
          - [管理全局和文件夹配置文件输出预设](./user-guide/web-editor-manage-output-presets.md)
          - [使用变量设置目标路径、站点名称或文件名选项](./user-guide/generate-output-use-variables.md)
          - [使用DITA-OT将元数据传递到输出](./user-guide/pass-metadata-dita-ot.md)
-         - 报告 {#reports-aem-guide}
-            - [报告简介](./user-guide/reports-intro.md)
-            - [“映射”控制台中的DITA映射报表](./user-guide/reports-web-editor.md)
-            - [映射仪表板中的DITA映射报表](./user-guide/reports-ditamap.md)
-            - [内容重用报告](./user-guide/reports-content-reuse.md)
-            - [转化状态报表](./user-guide/reports-convertion-status.md)
-            - [还原的文件版本历史记录报告](./user-guide/reports-reverted-file-version-history.md)
-         - 内容翻译{#translate-content}
-            - [内容翻译概述](./user-guide/translation.md)
-            - [内容翻译的最佳实践](./user-guide/translation-first-time.md)
-            - [从“地图”控制台翻译文档](./user-guide/translate-documents-web-editor.md)
-            - [查看翻译状态](./user-guide/translation-view-trans-state-6234.md)
-            - [翻译修改的主题](./user-guide/translation-modified-topics-6234.md)
          - 生成输出{#generate-output}
             - [为DITA映射生成输出](./user-guide/generate-output-for-a-dita-map.md)
             - [生成知识库输出](./user-guide/web-editor-article-publishing.md)
@@ -228,12 +229,12 @@ ht-degree: 6%
          - [管理输出生成流程](./user-guide/generate-output-manage-process.md)
          - [使用发布仪表板管理发布任务](./user-guide/generate-output-publish-dashboard.md)
          - [基本疑难解答](./user-guide/generate-output-basic-troubleshooting.md)
-         - 批量激活内容{#bulk-activation}
-            - [批量激活已发布的内容](./user-guide/conf-bulk-activation.md)
-            - [创建批量激活映射集合](./user-guide/conf-bulk-activation-create-map-collection.md)
-            - [激活输出](./user-guide/conf-bulk-activation-publish-map-collection.md)
-            - [编辑批量激活映射集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
-            - [删除批量激活映射集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - 批量激活内容{#bulk-activation}
+         - [批量激活已发布的内容](./user-guide/conf-bulk-activation.md)
+         - [创建批量激活映射集合](./user-guide/conf-bulk-activation-create-map-collection.md)
+         - [激活输出](./user-guide/conf-bulk-activation-publish-map-collection.md)
+         - [编辑批量激活映射集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
+         - [删除批量激活映射集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - 生成FrameMaker文档{#generate-fm-output}的输出
       - [FrameMaker输出生成基础知识](./user-guide/fm-output-generatation.md)
       - 支持的预设{#fm-docs-generating-presets}
@@ -256,7 +257,8 @@ ht-degree: 6%
          - [上载文件](./user-guide/authoring-upload-existing-files.md)
          - [管理文件和文件夹](./user-guide/authoring-file-management.md)
          - [下载文件](./user-guide/authoring-download-assets.md)
-- [用户指南（旧UI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- 用户指南（旧UI） {#user-guide-old-ui}
+   - [AEM Guides概述)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置{#install-guide}
    - 内部部署{#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
