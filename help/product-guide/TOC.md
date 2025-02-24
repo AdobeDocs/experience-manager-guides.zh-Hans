@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7252254443b5f1fee8c51e49efe23da418e46d50
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 6%
@@ -258,7 +258,7 @@ ht-degree: 6%
          - [管理文件和文件夹](./user-guide/authoring-file-management.md)
          - [下载文件](./user-guide/authoring-download-assets.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置{#install-guide}
    - 内部部署{#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
