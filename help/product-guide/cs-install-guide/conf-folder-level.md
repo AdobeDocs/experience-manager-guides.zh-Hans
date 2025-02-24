@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4755'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,8 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 - **XML编辑器配置**：使用此选项卡自定义Web编辑器的外观和各种功能。 以下可配置设置可用于Web编辑器：
 
    - XML编辑器UI配置
+   - XML编辑器页面布局
+   - XML编辑器配置
    - CSS模板布局
    - XML编辑器代码片段
    - XML内容版本标签
@@ -106,7 +108,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
 1. 要配置&#x200B;**输出预设**，请参阅[配置输出预设](#id18AGD0IH0Y4)。
 
-1. 要配置XML编辑器配置，请参阅[配置和自定义XML Web编辑器](#id2065G300O5Z)。
+1. 要配置XML编辑器配置，请参阅[配置和自定义XML编辑器](#id2065G300O5Z)。
 
 1. 完成所有必需的更新后，保存并关闭&#x200B;**全局配置文件**。
 
@@ -230,11 +232,11 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
 ## 配置模板 {#id1889D0IL0Y4}
 
-AEM Guides提供了7个现成的主题模板、2个DITA映射模板和3个PDF模板。 您可以选择只向作者和发布者提供几个模板。 如果您使用自定义模板，则可以配置该模板并使其可用于创作和发布。 使用“文件夹配置文件”配置中的&#x200B;**模板**&#x200B;选项卡从全局或文件夹级别的配置文件中添加或删除主题、映射或PDF模板。
+AEM Guides提供了7个现成的主题模板、2个DITA映射模板和3个PDF模板。 您可以选择只向作者和发布者提供几个模板。 如果您使用自定义模板，则可以配置该模板并使其可用于创作和发布。 使用文件夹配置文件配置中的&#x200B;**模板**&#x200B;选项卡从全局或文件夹级别的配置文件中添加或删除主题、映射或PDF模板。
 
 即使在全局或文件夹级别配置主题、映射或PDF模板之前，您还可以定义存储自定义模板的位置。 要配置自定义位置以存储模板，请参阅[配置自定义DITA模板文件夹路径](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)。
 
-执行以下步骤，将主题、映射或PDF模板添加到文件夹配置文件中：
+执行以下步骤，将主题、映射或PDF模板添加到文件夹配置文件：
 
 1. 以管理员或具有文件夹级别配置文件管理权限的用户身份登录Adobe Experience Manager。
 
@@ -251,7 +253,7 @@ AEM Guides提供了7个现成的主题模板、2个DITA映射模板和3个PDF模
 1. 在配置文件页面上，单击&#x200B;**模板**&#x200B;选项卡。
 1. 单击&#x200B;**编辑**。
 
-   通过从默认位置搜索或浏览来获取添加“主题”、“映射”和“PDF”模板的选项。
+   您可以通过从默认位置搜索或浏览来获取添加Topic、Map和PDF模板的选项。
 
    >[!NOTE]
    >
@@ -337,7 +339,7 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 
 在系统中创建了默认输出预设后，在此之后创建的所有DITA映射都将使用默认预设生成输出。 但是，所有现有DITA映射将继续使用先前使用它们配置的输出预设。 如果要对所有现有DITA映射应用新的输出预设，则需要运行应用预设更改工作流。
 
-除了在全局或企业级别配置的预设外，发布者还有权创建更多输出预设。 但是，这些预设与为其创建的DITA映射相关联。 有关为DITA map创建常规输出预设的更多详细信息，请参阅《使用Adobe Experience Manager Guidesas a Cloud Service指南》中的&#x200B;*创建、编辑、复制或删除输出预设*。
+除了在全局或企业级别配置的预设外，发布者还有权创建更多输出预设。 但是，这些预设与为其创建的DITA映射相关联。 有关为DITA map创建常规输出预设的更多详细信息，请参阅“使用Adobe Experience Manager Guides as a Cloud Service”指南中的&#x200B;*创建、编辑、复制或删除输出预设*。
 
 执行以下步骤可配置全局或文件夹特定的输出预设：
 
@@ -355,7 +357,7 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 
 1. 在用户档案页面上。 单击&#x200B;**输出预设**&#x200B;选项卡。
 
-   随即会显示现成的输出预设列表，其中包括“AEM站点”、“PDF”、“HTML5”、“EPUB”和“自定义”。
+   随即会显示现成的输出预设列表，其中包括AEM Site、PDF、HTML5、EPUB和CUSTOM。
 
 1. 执行以下操作之一以创建或编辑输出预设：
 
@@ -364,7 +366,7 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 
    - 单击&#x200B;**编辑**&#x200B;可打开所选预设的配置以进行编辑。
 
-     有关输出预设设置的信息，请参阅《使用Adobe Experience Manager Guidesas a Cloud Service指南》中的&#x200B;*了解输出预设*。
+     有关输出预设设置的信息，请参阅“使用Adobe Experience Manager Guides as a Cloud Service”指南中的&#x200B;*了解输出预设*。
 
 1. 单击&#x200B;**保存**&#x200B;以保存预设设置。
 
@@ -391,7 +393,7 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 
 1. 在用户档案页面上。 单击&#x200B;**输出预设**&#x200B;选项卡。
 
-   随即会显示现成的输出预设列表，其中包括“AEM站点”、“PDF”、“HTML5”、“EPUB”和“自定义”。
+   随即会显示现成的输出预设列表，其中包括AEM Site、PDF、HTML5、EPUB和CUSTOM。
 
 1. 选择要应用于现有DITA映射的输出预设。
 
@@ -407,9 +409,15 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 
 
 
-## 在Web编辑器中配置AI支持的智能建议 {#conf-ai-smart-suggestions}
+## 配置AI助手以进行智能帮助和创作
 
-对于![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guidesas a Cloud Service。
+对于![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service 。
+
+Adobe Experience Manager Guides中的AI助手是一款功能强大的、由AI驱动的工具，旨在通过智能创作和内容重用体验来增强您的内容。 它将两项强大的AI功能（**创作**&#x200B;和&#x200B;**帮助**）整合到Experience Manager Guides界面中，使您能够更快、更高效地创作文档并访问信息。
+
+有关配置详细信息，请查看[AI助手配置](./conf-smart-suggestions.md)。
+
+**配置AI支持的智能建议**
 
 您可以配置由AI提供支持的智能建议，并帮助作者重用现有内容并轻松创建正确一致的内容引用。 通过&#x200B;**AI配置**&#x200B;选项卡，您可以从Web编辑器中的AI助手面板控制&#x200B;**建议可重用内容**&#x200B;的设置。
 
@@ -423,10 +431,11 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
    >
    >您可以为全局或文件夹级别的配置文件配置基于AI的智能建议。
 
-1. 在配置文件页面上，选择&#x200B;**AI配置**选项卡。
+1. 在配置文件页面上，选择&#x200B;**AI配置**&#x200B;选项卡。
+
    全局配置文件中的![AI配置选项卡](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. 单击&#x200B;**编辑**。
+1. 选择&#x200B;**编辑**。
 1. 作为管理员，您可以配置以下设置：
 
    **最小字符数**：输入作者需要键入的最小字符数以获取建议。 例如，如果此数字为7，作者必须至少添加7个字符才能查看智能建议。
@@ -443,16 +452,13 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 
 了解有关如何在Web编辑器中创作时查看和添加基于[AI的智能建议](../user-guide/authoring-ai-based-smart-suggestions.md)以添加内容引用的更多信息。
 
+**自定义智能帮助的默认问题**
 
+对于![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service。
 
+您可以配置AI支持的智能&#x200B;**帮助**，以帮助作者提出问题并轻松地从[Experience Manager Guides文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中找到所需内容。
 
-## 在Web编辑器中配置AI支持的智能帮助 {#conf-ai-guides-assistant}
-
-对于![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guidesas a Cloud Service。
-
-您可以配置AI支持的&#x200B;**智能帮助**，以帮助作者提问并轻松地从[Experience Manager Guides文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中找到所需内容。
-
-通过&#x200B;**XML编辑器配置**&#x200B;选项卡，可以在Web编辑器中配置&#x200B;**智能帮助面板**&#x200B;的默认问题。
+“**XML编辑器配置**”选项卡允许您配置&#x200B;**帮助**&#x200B;面板的默认问题。
 
 >[!NOTE]
 >
@@ -494,13 +500,27 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 了解有关使用[AI支持的智能帮助](../user-guide/ai-based-smart-help.md)从Experience Manager Guides文档查找所需内容的更多信息。
 
 
-## 配置和自定义XML Web编辑器 {#id2065G300O5Z}
+## 配置和自定义XML编辑器 {#id2065G300O5Z}
 
-默认情况下，XML Web编辑器附带了许多功能来帮助作者创建DITA文档。 如果您在受限的环境中工作，则可以选择向作者公开哪些功能。 利用XML编辑器配置选项卡，可以轻松控制功能并更改Web编辑器的外观。 作为管理员，您可以自定义Web编辑器的以下组件：
+默认情况下，XML编辑器提供了许多功能来帮助作者创建DITA文档。 如果您在受限的环境中工作，则可以选择向作者公开哪些功能。 利用XML编辑器配置选项卡，可轻松控制功能并更改编辑器的外观。 管理员可以自定义编辑器的以下组件：
 
 **XML编辑器UI配置**
 
-此设置控制Web编辑器的工具栏和其他用户界面元素。 单击“下载”图标可在本地系统上下载ui\_config.json文件。 然后，您可以对文件做出更改并上传相同的文件。 根据您上传文件的位置（全局或文件夹级别的配置文件），将相应地应用更改。 有关如何使用ui\_config.json文件自定义XML编辑器的更多详细信息，请参阅[自定义工具栏](conf-web-editor-customize-toolbar.md#)。
+通过此设置，可创建反映`ui_config.json`文件中所做修改的JSON扩展名。 您可以在文件夹配置文件级别独立上传这些扩展，从而提高灵活性和进行自定义。 例如，当您对&#x200B;**XML编辑器配置**&#x200B;进行更改（如更新按钮）时，系统会自动识别差异。 通过将这些更改上载到&#x200B;**XML编辑器UI配置**，并使用&#x200B;**将UI配置转换为JSON**&#x200B;按钮将它们转换为JSON扩展，系统生成了一个包含新功能的扩展。
+
+了解有关&#x200B;**自定义新AEM Guides编辑器的JSON配置和转换UI配置的更多信息**。
+
+**XML编辑器页面布局**
+
+此功能允许您上传CSS文件，以设置在&#x200B;**XML编辑器UI配置**&#x200B;下上传的新扩展的样式。 上传的CSS会以一致方式应用于所有相关应用程序，从而确保您的UI自定义项具有统一且抛光的外观。
+
+**XML编辑器配置**
+
+此设置控制编辑器的工具栏和其他用户界面元素。 选择&#x200B;**下载**&#x200B;图标以在您的本地系统上下载`ui\_config.json`文件。 然后，您可以对文件做出更改并上传相同的文件。 根据您上传文件的位置（全局或文件夹级别的配置文件），将相应地应用更改。 有关如何使用`ui\_config.json file`自定义XML编辑器的更多详细信息，请查看[自定义工具栏](conf-web-editor-customize-toolbar.md#)。
+
+>[!NOTE]
+>
+> 对于AEM Guides 2502版本及较新版本，建议使用扩展JSON而不是`ui_config.json`进行自定义。 有关详细信息，请参阅上面的&#x200B;**XML编辑器UI配置**&#x200B;部分。
 
 **CSS模板布局**
 

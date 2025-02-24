@@ -4,24 +4,24 @@ description: 在AEM Guides中管理内容并确定您的角色和权限。 了�
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '736'
 ht-degree: 9%
 
 ---
 
 # 管理内容 {#id164JBG0M0T1}
 
-在开始创建实际内容之前，您必须熟悉AEM Guides中内容管理的一些基本概念。 然后，从创建不同的用户组并组织资源开始。
+在开始创建实际内容之前，您必须熟悉Adobe Experience Manager Guides中内容管理的一些基本概念。 然后，从创建不同的用户组并组织资源开始。
 
 ## 重要概念
 
-AEM中内容管理的一些关键概念如下所示：
+Adobe Experience Manager中内容管理的一些关键概念如下所示：
 
 **资产管理**
 
-AEM Guides使用AEM的数字资源管理\(DAM\)来管理您的DITA文件。 您上传或签入DAM的文件存储为数字资产。 您可以在AEM Assets中管理和编辑资源。 有关资产管理的详细信息，请参阅[管理资产](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en)。
+Experience Manager Guides使用Adobe Experience Manager的数字资源管理\(DAM\)来管理您的DITA文件。 您上传或签入DAM的文件存储为数字资产。 您可以在Adobe Experience Manager Assets中管理和编辑资源。 有关资产管理的详细信息，请查看[管理资产](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en)。
 
 **链接管理**
 
@@ -29,21 +29,21 @@ AEM Guides使用AEM的数字资源管理\(DAM\)来管理您的DITA文件。 您�
 
 **管理版本**
 
-AEM Guides为您的数字资源提供版本管理。 您可以从所选的DITA创作应用程序中轻松启用此功能。 允许编写器执行标准版本控制功能，如签入和签出。
+Experience Manager Guides为您的数字资源提供版本管理。 您可以从所选的DITA创作应用程序中轻松启用此功能。 允许编写器执行标准版本控制功能，如签入和签出。
 
-有关创建版本或还原到特定版本的更多信息，请参阅[分支、还原和后续版本控制](web-editor-preview-topics.md#id193PG0Y051X)。
+有关创建版本或还原到特定版本的更多信息，请查看[分支、还原和后续版本控制](web-editor-preview-topics.md#branch-revert-and-subsequent-versioning)。
 
 **本机DITA处理**
 
-在AEM Guides维护DITA文件结构的同时，它还允许AEM使用元素映射将DITA元素映射到AEM组件，以本机方式处理DITA。 本机DITA处理在主题预览、AEM Sites发布和审阅工作流等功能中使用。
+在Experience Manager Guides维护DITA文件结构的同时，它还允许Adobe Experience Manager使用元素映射将DITA元素映射到Adobe Experience Manager组件，以本机方式处理DITA。 本机DITA处理在主题预览、Adobe Experience Manager Sites发布和审阅工作流等功能中使用。
 
 ## 确定您的角色和权限 {#id181TF0K0MHT}
 
-AEM Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&#x200B;和&#x200B;*发布者*。 根据您关联的组，您有权执行下表中所述的特定任务。 例如，发布任务只能由发布者执行，而不能由作者或审阅者执行。 同样，作者可以创建新主题，查看者只能查看主题。
+Experience Manager Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&#x200B;和&#x200B;*发布者*。 根据您关联的组，您有权执行下表中所述的特定任务。 例如，发布任务只能由发布者执行，而不能由作者或审阅者执行。 同样，作者可以创建新主题，查看者只能查看主题。
 
 >[!TIP]
 >
-> 有关设置用户权限的最佳实践，请参阅最佳实践指南中的&#x200B;*权限*&#x200B;部分。
+> 查看最佳实践指南中的&#x200B;*权限*&#x200B;部分，了解有关设置用户权限的最佳实践。
 
 下表列出了各种任务以及可以执行这些任务的组：
 
@@ -93,10 +93,10 @@ AEM Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&
 
 **使用全局或文件夹级别的配置文件**
 
-在企业中，不同的组或产品可能使用不同的创作模板、输出模板、条件属性配置文件\（或主题方案\）和Web编辑器配置。 仅在企业\（或全局\）级别配置这些组件会让作者难以获得体验，因为他们会看到与其无关的模板或配置文件。
+在企业中，不同的组或产品可能使用不同的创作模板、输出模板、条件属性配置文件\（或主题方案\）和Web编辑器配置。 仅在企业\（或全局\）级别配置这些组件会让作者难以获得体验，因为他们将查看与其无关的模板或配置文件。
 
-AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（topic或map\）模板、输出模板、条件属性和Web编辑器配置。 这样，您就可以分离企业中不同部门或产品的配置。
+Experience Manager Guides允许您在企业\(global\)级别和文件夹级别配置创作\（topic或map\）模板、输出模板、条件属性和Web编辑器配置。 这样，您就可以分离企业中不同部门或产品的配置。
 
 此外，您还可以将特定于文件夹的配置委派给部门或产品管理员，以分散管理。
 
-有关设置全局和文件夹级别配置文件的详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*配置全局或文件夹级别配置文件*。
+有关设置全局和文件夹级别配置文件的详细信息，请在“安装和配置Adobe Experience Manager Guides as a Cloud Service”中查看&#x200B;*配置全局或文件夹级别配置文件*。

@@ -1,19 +1,19 @@
 ---
-title: Web编辑器中的键盘快捷键
+title: 编辑器中的键盘快捷键
 description: 在AEM Guides的Web编辑器中发现省时的键盘快捷键。
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
+source-git-commit: e5f4dc964a31d3bc23db166ee391e5e3550d8cbc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
-# Web编辑器中的键盘快捷键 {#id2056B0A0WHT}
+# 编辑器中的键盘快捷键 {#id2056B0A0WHT}
 
-在Web编辑器中，可以使用键盘快捷键执行许多操作。 下表列出了这些键盘快捷键：
+在编辑器中，可以使用键盘快捷键执行许多操作。 下表列出了这些键盘快捷键：
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 | 专注于当前编辑器 | **Ctrl***+**Shift**+***0*** | ***命令***+**Shift**+***0*** |
 | 在创作或Source视图中保存文档 | ***Ctrl***+**Shift**+***S*** | ***命令***+**Shift**+***S*** |
 | 在“创作”或“Source”视图中保存所有打开的文档 | ***Ctrl***+***S*** | ***命令***+***S*** |
-| 显示插入元素对话框 | ***Alt***+***进入*** | ***选项***+***进入*** |
+| 显示插入元素对话框 | ***Alt***+***1*** | ***选项***+***进入*** |
 | 显示“插入元素”对话框，在选定元素之前插入元素 | ***Alt***+***Shift***+***Enter*** | ***Option***+***Shift***+***Enter*** |
 | 将光标向左移动一个单词。 | ***Ctrl***+***向左箭头*** | ***选项***+***向左箭头*** |
 | 将光标向右移动一个单词。 | ***Ctrl***+***向右箭头*** | ***选项***+***向右箭头*** |

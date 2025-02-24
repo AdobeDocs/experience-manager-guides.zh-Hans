@@ -5,7 +5,7 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 9024b552fd470344ba7b0068a147c37084ae0d13
+source-git-commit: 00a926e82f7d848e0c8041de758f20e79758b01b
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
@@ -201,9 +201,9 @@ AEM Guides API有两种格式：HTTP和Java。 这些API向应用程序开发人
 
 在项目的pom.xml文件中添加服务API JAR作为项目依赖项后，您可以在项目中构建和使用AEM Guides Java API。
 
-## 使用适用于AEM Guides的Maven Central存储库中的API JARas a Cloud Service
+## 使用AEM Guides as a Cloud Service的Maven中央存储库中的API JAR
 
-对于AEM Guidesas a Cloud Service，API JAR已部署到Maven Central。 您无需任何设置即可使用API JAR。
+对于AEM Guides as a Cloud Service，API JAR已部署到Maven Central。 您无需任何设置即可使用API JAR。
 
 >[!NOTE]
 >
@@ -214,8 +214,8 @@ AEM Guides API有两种格式：HTTP和Java。 这些API向应用程序开发人
 ```XML
 <dependency>
    <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-guides-sdk-api</artifactId>
-   <version>2022.5</version>
+   <artifactId>aem-dox-sdk-api</artifactId>
+   <version>${RELEASE}</version>
 </dependency>
 ```
 

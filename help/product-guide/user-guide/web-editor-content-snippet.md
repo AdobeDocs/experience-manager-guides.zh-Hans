@@ -4,9 +4,9 @@ description: 在AEM Guides中使用来自数据源的数据。 了解如何从�
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2386'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## “数据源”面板
 
-在左侧面板中选择&#x200B;**数据源** ![数据源](images/data-source-icon.svg)以查看连接的数据源。 “数据源”面板将打开，并显示所有连接的数据源。
+在左侧面板中选择&#x200B;**数据源** ![数据源](images/data-sources-new-icon.svg)以查看连接的数据源。 “数据源”面板将打开，并显示所有连接的数据源。
 
 根据您的设置，管理员可以配置数据源连接器：
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 <summary> Cloud Service </summary>
 
 
-- 如果您使用的是2023年10月版或更高版本，请在Cloud Service的《安装和配置指南》中了解如何[从用户界面](../cs-install-guide/conf-data-source-connector-tools.md)配置数据源连接器。
+- 如果您使用的是2023年10月版或更高版本，请在《云服务安装和配置指南》中了解如何[从用户界面](../cs-install-guide/conf-data-source-connector-tools.md)配置数据源连接器。
 
-- 如果您使用的是2023年7月或2023年9月版本，请了解Cloud Service安装和配置指南中的如何[配置数据源连接器](../cs-install-guide/conf-data-source-connector.md)。
+- 如果您使用的是2023年7月或2023年9月版本，请在《云服务安装和配置指南》中了解如何[配置数据源连接器](../cs-install-guide/conf-data-source-connector.md)。
 
 </details>
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您将看到管理员为其配置了连接器的数据源。
+> 您将查看管理员为其配置了连接器的数据源。
 
 
 ## 显示列表视图或平铺视图
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 选择数据源以查看可用于所选数据源的内容片段生成器和主题生成器。
 
-### 列表视图![](images/data-sources-list-view-icon.svg)
+### 列表视图
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
 *已连接的数据源列表。*
 
-### 平铺视图   ![](images/data-sources-tile-view-icon.svg)
+### 平铺视图
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
@@ -70,14 +70,13 @@ ht-degree: 0%
 - 创建主题
 
 
-
 ## 插入数据源中的内容片段
 
-AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其插入主题并进行编辑。 您可以使用内容片段生成器轻松创建内容片段，并在主题中重复使用。
+Adobe Experience Manager Guides提供了与数据源连接的功能。 您可以获取数据，将其插入主题并进行编辑。 您可以使用内容片段生成器轻松创建内容片段，并在主题中重复使用。
 
 执行以下步骤，使用内容片段生成器创建内容片段并将其插入到主题中：
 
-1. 选择&#x200B;**数据源** ![](images/data-source-icon.svg)   ，以查看连接的数据源。
+1. 在左侧面板中选择&#x200B;**数据源** ![](images/data-sources-new-icon.svg)以查看连接的数据源。
 
 1. 选择数据源以查看可用于所选数据源的内容片段生成器。
 
@@ -87,11 +86,13 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
 1. 选择&#x200B;**添加**&#x200B;以添加新的内容片段生成器。 将打开&#x200B;**添加内容片段生成器**&#x200B;面板。
 
+   ![](images/add-content-snippet-generator-empty-screen.png){width="500" align="left"}
+
 1. 在&#x200B;**数据查询**&#x200B;文本框中输入查询。  选择&#x200B;**复制示例查询**&#x200B;以快速复制数据查询。 您可以将示例查询复制并粘贴到&#x200B;**数据查询**&#x200B;文本框中，而不是手动创建查询。 然后，只需根据数据要求编辑查询即可。
 
    >[!NOTE]
    >
-   >Experience Manager为各种数据源中的所有资源提供了各种示例查询。 这些映射到从中获取数据的数据源。
+   > Experience Manager为各种数据源中的所有资源提供了各种示例查询。 这些映射到从中获取数据的数据源。
 
 1. 如果您使用文件连接器，则可以从计算机上传JSON文件或从Adobe Experience Manager资源浏览JSON文件。
 
@@ -114,7 +115,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
    >
    > 在配置数据源连接器时，管理员可以为多个URL配置默认资源或添加资源。
 
-1. 单击&#x200B;**提取**&#x200B;从数据源提取数据，并将模板应用于从SQL查询生成的数据。
+1. 选择&#x200B;**提取**&#x200B;以从数据源提取数据，并将模板应用于从SQL查询生成的数据。
 
 1. 您可以在预览或DITA源视图中查看数据。
 
@@ -124,10 +125,11 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
       - 如果您选择了jira排序列表模板，则可以查看Jira问题的排序列表。
 
    1. 源视图显示DITA源视图中的数据。
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+
+      ![](images/add-content-snippet-generator-preview.png){width="500" align="left"}
       *添加内容片段生成器。 在源或预览模式下查看数据。*
 
-1. 若要保存查询的结果，请输入生成器的名称，然后单击&#x200B;**添加**。   新的内容片段生成器将添加到列表中。
+1. 若要保存查询的结果，请输入生成器的名称，然后选择&#x200B;**添加**。   新的内容片段生成器将添加到列表中。
 
    >[!NOTE]
    >
@@ -138,7 +140,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 右键单击内容代码片段生成器以打开“选项”。 使用这些选项，您可以执行以下操作：
 
 - **预览**：使用此选项可打开窗格，并查看输出中显示数据的一小部分。
-- **插入**：使用此选项将选定的内容片段插入到在Web编辑器中打开进行编辑的主题中。 当数据作为片段插入时，您还可以在Web编辑器中编辑主题中的数据。
+- **插入**：使用此选项将选定的内容片段插入到在编辑器中打开进行编辑的主题中。 当数据作为代码片段插入时，您还可以在编辑器中编辑主题中的数据。
 
   >[!NOTE]
   > 
@@ -148,11 +150,11 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 - **删除**：使用此选项可删除选定的内容片段生成器。
 - **复制**：使用此选项可创建所选内容片段生成器的复制或副本。 缺省情况下，会创建带有后缀（如generator_1）的副本。
 
-### 插入查询代码片段
+### 插入查询数据
 
-您还可以使用&#x200B;**插入查询代码片段** ![](images/data-source-icon.svg)   将数据片段插入主题。  您可以从下拉菜单中选择生成器，编辑查询，或更改模板并在主题中插入数据。
+您还可以使用工具栏中的&#x200B;**查询数据** ![](images/data-sources-new-icon.svg)将数据片段插入到主题中。  您可以从下拉菜单中选择生成器，编辑查询，或更改模板并在主题中插入数据。
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){width="800" align="left"}
 
 *编辑并插入数据片段。*
 
@@ -184,7 +186,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
    **获取配置**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/fetch-configuration.png){width="300" align="left"}
 
    *添加主题生成器的数据查询、数据映射模板和根节点详细信息，并在“获取配置”面板中为其指定唯一名称。*
 
@@ -208,7 +210,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
    1. 输入&#x200B;**根节点**。 这是您要访问数据的节点。 然后，主题生成器在根节点中定义的级别创建每个主题。 例如，您可以添加“issues”作为Jira中的根节点。 因此，如果查询返回13个问题，您将获得13个主题，每个问题一个主题。
 
-   1. 单击&#x200B;**提取**&#x200B;从数据源提取数据，并将模板应用于从SQL查询生成的数据。 预览以所选模板的格式显示主题的一小部分。 例如，您可以查看单个Jira问题，其中包含查询产生的所有字段。
+   1. 选择&#x200B;**提取**&#x200B;以从数据源提取数据，并将模板应用于从SQL查询生成的数据。 预览以所选模板的格式显示主题的一小部分。 例如，您可以查看单个Jira问题，其中包含查询产生的所有字段。
    1. 输入主题生成器的名称。
 
       >[!NOTE]
@@ -240,13 +242,13 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
    *在元数据面板中添加元数据属性以传递到主题。*
 
-1. 输入生成器的名称，然后单击&#x200B;**保存**&#x200B;以保存查询结果。 新的主题生成器将添加到列表中。
+1. 输入生成器的名称，然后选择&#x200B;**保存**&#x200B;以保存查询结果。 新的主题生成器将添加到列表中。
 
-1. 单击&#x200B;**保存并生成**&#x200B;以保存主题生成器并从主题生成器中生成新主题。
+1. 选择&#x200B;**保存并生成**&#x200B;以保存主题生成器并从主题生成器中生成新主题。
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/add-topic-generator.png){width="800" align="left"}
 
    *从现有主题生成器生成新主题。*
 
@@ -283,7 +285,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 Experience Manager模板还支持Velocity工具（版本2.0）。 这些工具可帮助您将各种功能应用于从数据源获取的数据。 了解有关[Velocity工具](https://velocity.apache.org/tools/2.0/generic.html)的使用以及可以应用的功能的详细信息。
 
 执行以下步骤以在模板中使用Velocity工具：
-1. 在网页编辑器中编辑Velocity模板。
+1. 在编辑器中编辑Velocity模板。
 1. 以`<tool.function>`格式添加工具及其函数。 例如：
    - 若要使用数学工具生成随机数，请使用`$mathTool.random`。
    - 若要使用数学工具生成数字总和，请使用`$mathTool.add(num1, num2)`。

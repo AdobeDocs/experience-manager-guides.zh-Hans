@@ -4,16 +4,16 @@ description: 了解如何在AEM Guides中管理文件和文件夹。 复制和�
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
 
 # 管理文件和文件夹 {#id2116G0L08XA}
 
-本节介绍AEM Guides如何处理基本文件操作，例如复制、粘贴、拖放和删除文件。 可能会出现以下情况：
+本节介绍Adobe Experience Manager Guides如何处理基本文件操作，例如复制、粘贴、拖放和删除文件。 可能会出现以下情况：
 
 ## 复制并粘贴文件
 
@@ -61,13 +61,13 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > **为上载的文件创建新版本**&#x200B;功能必须由管理员启用。 如果启用了此功能，则会为上传的文件创建一个新版本。 如果取消选择该选项，则不会创建已上传文件的版本。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*为上传的文件创建新版本*&#x200B;部分。
+  > **为上载的文件创建新版本**&#x200B;功能必须由管理员启用。 如果启用了此功能，则会为上传的文件创建一个新版本。 如果取消选择该选项，则不会创建已上传文件的版本。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*为上传的文件创建新版本*&#x200B;部分。
 
   如果某个文件已由其他用户签出以进行编辑，并且您尝试上载和覆盖现有文件，则该文件将失败并显示错误。
 
   >[!NOTE]
   >
-  >管理员必须禁用&#x200B;**在上传时覆盖签出文件**&#x200B;功能。 如果启用了此功能，则可以覆盖签出的文件。 如果未启用该功能，则阻止覆盖已签出的文件。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*在上传时覆盖签出的文件*&#x200B;部分。
+  >管理员必须禁用&#x200B;**在上传时覆盖签出文件**&#x200B;功能。 如果启用了此功能，则可以覆盖签出的文件。 如果未启用该功能，则阻止覆盖已签出的文件。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*在上传时覆盖签出的文件*&#x200B;部分。
 
 
 - *在不同位置拖放文件*：已创建文件的新副本，并在新位置为其分配了新的UUID。 此处，文件名与原始文件名相同。
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 如果选择&#x200B;**为现有工作副本创建版本**&#x200B;选项，则会从文档的工作副本创建一个新版本；将上载新文件，同时创建一个文件的新版本，并将其作为文档的工作副本。
 
-**为上载的文件创建新版本**&#x200B;功能必须由管理员启用。 如果启用了此功能，则会为上传的文件创建一个新版本。 如果取消选择该选项，则不会创建已上传文件的版本。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*为已上传的文件创建新版本*&#x200B;部分。
+**为上载的文件创建新版本**&#x200B;功能必须由管理员启用。 如果启用了此功能，则会为上传的文件创建一个新版本。 如果取消选择该选项，则不会创建已上传文件的版本。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*为上传的文件创建新版本*&#x200B;部分。
 
 
 *在不同的位置拖放文件*：为您提供了&#x200B;**覆盖现有文件\(s\)**、**将文件移动到新位置\(s\)的选项**&#x200B;以及创建现有工作副本版本的选项。
@@ -99,11 +99,11 @@ ht-degree: 0%
 
 ## 批量移动文件 {#move-files-bulk}
 
-AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件的文件夹从一个位置移动到另一个位置。 此工具可以轻松地将一个或多个文件夹中的文件移到AEM存储库中的其他文件夹中。 此工具的主要功能之一是，它不仅可以移动大量文件，还可以维护对要移动文件的引用和来自要移动文件的引用。 您可以调整可以批量移动的文件数量，而不会妨碍创作和发布任务。
+Experience Manager Guides附带了批量移动工具，可帮助管理员将包含大量文件的文件夹从一个位置移动到另一个位置。 此工具可以轻松地将一个或多个文件夹中的文件移到Adobe Experience Manager存储库的其他文件夹中。 此工具的主要功能之一是，它不仅可以移动大量文件，还可以维护对要移动文件的引用和来自要移动文件的引用。 您可以调整可以批量移动的文件数量，而不会妨碍创作和发布任务。
 
 >[!NOTE]
 >
-> “批量移动工具”仅在文件夹级别起作用。 如果要移动单个主题或映射文件，请使用AEM Assets UI中的常规移动工具。
+> “批量移动工具”仅在文件夹级别起作用。 如果要移动单个主题或映射文件，请使用Adobe Experience Manager Assets UI中的常规移动工具。
 
 以下是批量移动工具提供的一些功能：
 
@@ -124,14 +124,14 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
 要批量移动文件，请执行以下步骤：
 
-1. 单击顶部的Adobe Experience Manager链接，然后选择&#x200B;**工具**。
+1. 选择顶部的Adobe Experience Manager徽标，然后选择&#x200B;**工具**。
 1. 从工具列表中选择&#x200B;**指南**。
-1. 单击&#x200B;**批量移动工具**&#x200B;拼贴。
+1. 选择&#x200B;**批量移动工具**&#x200B;拼贴。
 1. 此时会根据您的设置显示“批量移动工具”页面。 在&#x200B;**批量移动工具**&#x200B;页面上提供以下详细信息：
 
    <details>
 
-   <summary> Cloud Service和基于UUID的内部部署文件系统 </summary>
+   <summary> Cloud Services和基于On-premise UUID的文件系统 </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -146,23 +146,23 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
    - **Source path\(s\)**：指定要移动的文件夹的位置。
 
-      - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">    打开“浏览文件”对话框。 选择要移动的文件夹，然后单击&#x200B;**选择**&#x200B;以完成该过程。
+      - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">    打开“浏览文件”对话框。 选择要移动的文件夹，然后选择&#x200B;**选择**&#x200B;以完成该过程。
 
       - 您还可以键入或复制并粘贴源位置。 按Enter将文件夹添加到列表。
 
         选定的文件夹将与其路径一起列出。 将鼠标悬停在文件夹标记上可查看完整路径。
-      - 您也可以通过单击&#x200B;**删除**&#x200B;来删除任何文件夹 文件夹附近的<img src="images/remove-folder.svg" width="25">。
+      - 您还可以通过选择&#x200B;**删除**&#x200B;来删除任何文件夹 文件夹附近的<img src="images/remove-folder.svg" width="25">。
 
 
    - **目标路径**：指定要移动源文件夹的位置。
 
-      - 选择&#x200B;**浏览文件夹** <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动源文件夹的位置。 ，然后单击选择以完成该过程。
+      - 选择&#x200B;**浏览文件夹** <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动源文件夹的位置。 并选择“选择”以完成该流程。
       - 您还可以键入或复制并粘贴目标路径。
 
      所选文件夹与其路径一起显示在文本框中。
 
 
-   - 单击&#x200B;**批量移动**。
+   - 选择&#x200B;**批量移动**。
 
      系统开始将文件从源位置移动到目标位置。 移动过程完成后，页面右侧会显示移动过程的摘要。
 
@@ -195,22 +195,22 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
    - **Source path\(s\)**：指定要移动的文件夹的位置。
 
-      - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">    打开“浏览文件”对话框。 选择要移动的文件夹，然后单击&#x200B;**选择**&#x200B;以完成该过程。
+      - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">    打开“浏览文件”对话框。 选择要移动的文件夹，然后选择&#x200B;**选择**&#x200B;以完成该过程。
 
       - 您还可以键入或复制并粘贴源位置。 按Enter将文件夹添加到列表。
 
         选定的文件夹将与其路径一起列出。 将鼠标悬停在文件夹标记上可查看完整路径。
-      - 您也可以通过单击&#x200B;**删除**&#x200B;来删除任何文件夹 文件夹附近的<img src="images/remove-folder.svg" width="25">。
+      - 您还可以通过选择&#x200B;**删除**&#x200B;来删除任何文件夹 文件夹附近的<img src="images/remove-folder.svg" width="25">。
 
 
    - **目标路径**：指定要移动源文件夹的位置。
 
-      - 选择&#x200B;**浏览文件夹** <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动源文件夹的位置。 ，然后单击选择以完成该过程。
+      - 选择&#x200B;**浏览文件夹** <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动源文件夹的位置。 并选择“选择”以完成该流程。
       - 您还可以键入或复制并粘贴目标路径。
 
         所选文件夹与其路径一起显示在文本框中。
 
-   - 单击&#x200B;**批量移动**。
+   - 选择&#x200B;**批量移动**。
 
      系统开始将文件从源位置移动到目标位置。 移动过程完成后，页面右侧会显示移动过程的摘要。
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
@@ -218,11 +218,11 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
 ## 搜索DITA内容
 
-默认情况下，AEM不识别DITA内容，因此，它不提供任何机制来搜索其存储库中的DITA内容。 AEM Guides在AEM之上添加了一个层，使AEM能够理解和处理DITA内容。 AEM Guides中的搜索DITA内容功能允许您在AEM存储库中搜索DITA内容。
+默认情况下，Adobe Experience Manager不识别DITA内容，因此，它不提供任何机制来搜索其存储库中的DITA内容。 Experience Manager Guides在Adobe Experience Manager之上添加了一个层，从而使Adobe Experience Manager能够理解和处理DITA内容。 Experience Manager Guides中的搜索DITA内容功能允许您在Adobe Experience Manager存储库中搜索DITA内容。
 
 >[!NOTE]
 >
->您的系统管理员可以配置&#x200B;**DITA元素**&#x200B;搜索组件，然后您可以从AEM Assets UI使用该功能。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*在Assets UI中添加DITA元素搜索组件*&#x200B;部分。
+>您的系统管理员可以配置&#x200B;**DITA元素**&#x200B;搜索组件，然后您可以从Adobe Experience Manager Assets UI使用该功能。 有关更多详细信息视图，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*在Assets UI中添加DITA元素搜索组件*&#x200B;部分。
 
 使用搜索功能，您可以：
 
@@ -230,7 +230,7 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 - 基于属性值搜索DITA内容；例如，`@platform`=窗口
 - 使用DITA元素和属性值的组合；例如，`author`= xml `AND` `@platform`= windows
 
-执行以下步骤以搜索AEM存储库中的DITA内容：
+执行以下步骤以搜索Adobe Experience Manager存储库中的DITA内容：
 
 1. 打开Assets UI。
 
@@ -259,13 +259,13 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
 **搜索中的签出状态筛选器**
 
-除了DITA元素过滤器之外，AEM Guides还允许您根据内容的签出状态搜索内容。 当您想要快速过滤掉当前由您签出的文件并想要将它们签回时，这非常有用。
+除了DITA元素过滤器之外，Experience Manager Guides还允许您根据内容的签出状态搜索内容。 当您想要快速过滤掉当前由您签出的文件并想要将它们签回时，这非常有用。
 
 执行以下步骤以根据文件的签出状态搜索文件：
 
 1. 打开Assets UI。
 
-1. 单击左边栏中的&#x200B;**筛选器**。
+1. 在左边栏中选择&#x200B;**筛选器**。
 1. 在搜索栏中输入搜索关键词。
 1. 从左边栏应用所需的过滤器。
 
@@ -276,7 +276,7 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
 ## 删除文件
 
-从AEM存储库中删除文件是一项受限制的功能，由系统管理员控制。 根据配置，如果文件满足以下条件，则可能会限制删除文件：
+从Adobe Experience Manager存储库中删除文件是一项受限制的功能，由您的系统管理员控制。 根据配置，如果文件满足以下条件，则可能会限制删除文件：
 
 - 已签出
 - 具有传入或传出引用
@@ -285,7 +285,7 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
 >[!NOTE]
 >
-> 有关文件管理配置的更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*阻止删除已签出的文件*&#x200B;和&#x200B;*阻止删除引用的文件*&#x200B;部分。
+> 有关文件管理配置的更多详细信息，请参阅“安装和配置Adobe Experience Manager Guides as a Cloud Service”中的&#x200B;*阻止删除已签出的文件*&#x200B;和&#x200B;*阻止删除引用的文件*&#x200B;部分。
 
 如果管理员已授予所有用户文件删除权限，则在删除包含引用的文件时，将显示以下消息：
 
@@ -307,12 +307,12 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
 1. 在&#x200B;**Assets UI**&#x200B;中访问文件。
 1. 选择要查看其版本历史记录的文件。
-1. 在左边栏中，单击&#x200B;**版本历史记录**&#x200B;并选择版本。
+1. 在左边栏中，选择&#x200B;**版本历史记录**&#x200B;并选择版本。
 1. 您还可以在“版本历史记录”下查看不同版本的缩略图。
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. 从列出的版本中，选择要用作基本版本的版本，然后单击&#x200B;**预览版本**。 所选版本的预览将显示在“版本预览”窗口中。
+1. 从列出的版本中，选择要用作基本版本的版本，然后选择&#x200B;**预览版本**。 所选版本的预览将显示在“版本预览”窗口中。
 
    ![](images/media-version-preview.png){width="650" align="center"}
 

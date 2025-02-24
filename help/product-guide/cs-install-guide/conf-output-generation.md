@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
 workflow-type: tm+mt
-source-wordcount: '5470'
+source-wordcount: '5620'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ AEM Guides提供了许多配置选项，供您自定义输出生成过程。 本
 
 ## 在现有AEM站点中配置混合发布 {#id1691I0V0MGR}
 
-如果您有一个包含DITA内容的AEM站点，则可以配置AEM站点输出以将DITA内容发布到站点内的预定义位置。 例如，在以下AEM Site页面屏幕截图中，`ditacontent`节点为存储DITA内容而保留：
+如果您有一个包含DITA内容的AEM站点，则可以配置AEM站点输出以将DITA内容发布到站点内的预定义位置。 例如，在以下AEM站点页面屏幕截图中，`ditacontent`节点为存储DITA内容而保留：
 
 ![](assets/publish-in-aem-site.png)
 
@@ -76,22 +76,22 @@ AEM Guides支持以下列格式创建输出：
 
 对于AEM Site输出，您可以为不同的输出任务分配不同的设计模板。 这些设计模板可以不同布局呈现DITA内容。 例如，您可以为内部和外部受众指定不同的设计模板。
 
-您还可以将自定义DITA Open Toolkit \(DITA-OT\)插件与AEM Guides结合使用。 您可以上传这些自定义DITA-OT插件以按特定方式生成PDF输出。
+您还可以将自定义DITA Open Toolkit \(DITA-OT\)插件与AEM Guides结合使用。 您可以上传这些自定义DITA-OT插件，以通过特定方式生成PDF输出。
 
 >[!TIP]
 >
-> 有关创建AEM站点输出的最佳实践，请参阅最佳实践指南中的&#x200B;*AEM站点发布*&#x200B;部分。
+> 有关创建AEM站点输出的最佳实践，请参阅“最佳实践指南”中的&#x200B;*AEM站点发布*&#x200B;部分。
 
 
 ### 自定义用于生成输出的设计模板 {#customize_xml-add-on}
 
-AEM Guides使用一组预定义的设计模板来生成AEM Site输出。 您可以自定义AEM Guides设计模板，以生成符合您公司品牌策略的输出。 设计模板是各种样式\(CSS\)、脚本\（服务器和客户端\）、资源\（图像、徽标和其他资源\）以及将所有这些资源绑定在一起的JCR节点的集合。 设计模板可以非常简单，只需具有几个JCR节点的单个服务器端脚本，也可以是样式、资源和JCR节点的复杂组合。 设计模板由AEM Guides发布子系统在生成AEM Site输出时使用，它们控制所生成输出的结构、外观和风格。
+AEM Guides使用一组预定义的设计模板来生成AEM站点输出。 您可以自定义AEM Guides设计模板，以生成符合您公司品牌策略的输出。 设计模板是各种样式\(CSS\)、脚本\（服务器和客户端\）、资源\（图像、徽标和其他资源\）以及将所有这些资源绑定在一起的JCR节点的集合。 设计模板可以非常简单，只需具有几个JCR节点的单个服务器端脚本，也可以是样式、资源和JCR节点的复杂组合。 设计模板由AEM Guides发布子系统在生成AEM站点输出时使用，它们控制所生成输出的结构、外观和风格。
 
 设计模板资源在服务器上的放置位置没有限制，但通常会根据其功能进行逻辑组织。 例如，默认模板的所有其JavaScript和CSS文件都存储在`/etc/designs/fmdita/clientlibs/siteoutput/default`文件夹下。 无论这些文件位于何处，它们都会通过一组JCR节点链接在一起。 这些JCR节点和文件共同构成了整个设计模板。
 
 AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索页面组件。 您可以复制缺省设计和相应的参照模板，并指定不同的元件来生成所需的输出。
 
-执行以下步骤，指定用于AEM Site输出生成的您自己的设计模板：
+执行以下步骤，指定用于AEM站点输出生成的您自己的设计模板：
 
 1. 使用包管理器从以下位置下载默认设计模板：
 
@@ -116,7 +116,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
    | `tocNode` | 将包含目录的节点的位置。 路径相对于登陆页面或目标路径。 |
    | `basePathProp` | 用于存储已发布站点的根目录的路径的属性名称。 |
    | `indexPathProp` | 用于存储已发布站点的登陆/索引页面路径的属性名称。 |
-   | `pdfPathProp` | 存储主题PDF路径的属性名称(如果启用了主题PDF生成)。 |
+   | `pdfPathProp` | 用于存储主题PDF路径的属性名称(如果启用了主题PDF生成)。 |
    | `pdfTypeProp` | 用于存储PDF生成类型的属性名称。 目前，此属性始终包含“主题”。 |
    | `searchPathProp` | 用于存储搜索页面路径的属性名称（如果模板包含搜索页面）。 |
    | `siteTitleProp` | 用于存储正在发布的站点标题的属性名称。 此标题通常与正在发布的地图的标题相同。 |
@@ -126,17 +126,17 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 
 >[!NOTE]
 >
-> 创建自定义设计模板节点后，必须更新AEM Site输出预设中的“设计”选项才能使用自定义设计模板节点。
+> 创建自定义设计模板节点后，必须更新AEM站点输出预设中的设计选项才能使用自定义设计模板节点。
 
 有关详细信息，请参阅[创建您的第一个Adobe Experience Manager网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en)和[在AEM上开发您自己的网站的基础知识](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)。
 
 ### 使用文档标题生成AEM站点输出
 
-在生成AEM Site输出时，生成URL的方式对内容的可发现性起着重要作用。 如果您使用的是基于UUID的文件名，则根据文件的UUID生成URL不利于搜索。 作为管理员或发布者，您可以控制如何为AEM Site输出生成URL。 AEM Guides为您提供了一个配置，通过该配置，您可以选择使用文件的标题而不是基于UUID的文件名来生成AEM Site输出的URL。 默认情况下，对于基于UUID的文件系统，此选项处于打开状态。 这意味着在为基于UUID的文件系统生成AEM Site输出时，文件的标题将用于生成URL，而不是文件的UUID。
+在生成AEM Site输出时，生成URL的方式对内容的可发现性起着重要作用。 如果您使用的是基于UUID的文件名，则根据文件的UUID生成URL不利于搜索。 作为管理员或发布者，您可以控制如何为AEM站点输出生成URL。 AEM Guides为您提供了一个配置，通过该配置，您可以选择使用文件的标题而不是基于UUID的文件名来生成AEM站点输出的URL。 默认情况下，对于基于UUID的文件系统，此选项处于打开状态。 这意味着在为基于UUID的文件系统生成AEM Site输出时，使用文件的标题来生成URL，而不是文件的UUID。
 
 >[!NOTE]
 >
-> 您可以进一步配置规则，以仅允许在AEM Site输出的URL中使用一组字符。 有关更多详细信息，请参阅[配置用于创建主题和发布AEM站点输出的文件名清理规则](#id2164D0KD0XA)。
+> 您可以进一步配置规则，以仅允许在AEM站点输出的URL中设置一组字符。 有关更多详细信息，请参阅[配置用于创建主题和发布AEM站点输出的文件名清理规则](#id2164D0KD0XA)。
 
 使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下\(property\)详细信息以在AEM站点输出中配置URL生成：
 
@@ -146,7 +146,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 
 ### 配置AEM站点输出的URL以使用文档标题
 
-您可以在AEM Site输出的URL中使用文档标题。 如果文件名不存在或包含所有特殊字符，则可以配置系统以在AEM Site输出的URL中使用分隔符替换特殊字符。 您还可以将其配置为使用第一个子主题名称替换它们。
+您可以在AEM站点输出的URL中使用文档标题。 如果文件名不存在或包含所有特殊字符，则可以配置系统以在AEM Site输出的URL中使用分隔符替换特殊字符。 您还可以将其配置为使用第一个子主题名称替换它们。
 
 
 要配置页面名称，请执行以下步骤：
@@ -161,9 +161,9 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 例如，如果`<topichead>`中的&#x200B;*@navtitle*&#x200B;包含所有特殊字符，并且您将`aemsite.pagetitle`属性设置为true，则默认情况下，它使用分隔符。 如果将`nodename.systemDefinedPageName`属性设置为true，它将显示第一个子主题的名称。
 
 
-### 配置用于创建主题和发布AEM站点输出的文件名清理规则 {#id2164D0KD0XA}
+### 配置用于创建主题和以AEM Sites和其他格式发布输出的文件名清理规则 {#id2164D0KD0XA}
 
-作为管理员，您可以定义文件名中允许的有效特殊字符列表，这些字符最终形成AEM Site输出的URL。 在早期版本中，允许用户定义包含`@`、`$`、`>`等特殊字符的文件名。 这些特殊字符会在生成AEM网站页面时生成编码的URL。
+作为管理员，您可以定义文件名中允许的有效特殊字符列表，这些字符最终形成AEM Site输出的URL。 在早期版本中，允许用户定义包含`@`、`$`、`>`等特殊字符的文件名。 这些特殊字符会在生成AEM网站页面时生成经过编码的URL。
 
 从3.8版本开始，添加了配置以定义允许文件名中使用的特殊字符列表。 默认情况下，有效的文件名配置包含“`a-z A-Z 0-9 - _`”。 这意味着，在创建文件时，文件的标题中可以包含任何特殊字符，但在内部，该文件名中将替换为连字符\(`-`\)。 例如，文件的标题可以是Introduction 1或Introduction@1 ，针对这两种情况生成的相应文件名是Introduction-1。
 
@@ -173,11 +173,15 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 >
 > 如果未配置有效的特殊字符列表，文件创建过程可能会给您一些意外的结果。
 
-使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下\(property\)详细信息以在文件名和AEM Site输出中配置有效的特殊字符：
+使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下\(property\)详细信息以在文件名和AEM站点输出中配置有效的特殊字符：
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | 确保将该属性设置为``'<>`@$``。 您可以向此列表添加更多特殊字符。 |
+
+>[!NOTE]
+> 
+> 上述配置适用于所有输出格式。 这意味着在生成PDF、HTML或自定义输出时，最终输出将遵循配置的文件名清理规则。
 
 您还可以配置其他属性，如文件名中的使用小写、用于处理无效字符的分隔符以及文件名中允许的最大字符数。 要配置这些属性，请在配置文件中添加以下键值对：
 
@@ -189,7 +193,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 
 ### 配置AEM站点节点结构的扁平化
 
-在生成AEM Site输出时，将在内部创建主题中每个元素的节点。 对于包含数千个主题的DITA映射，此节点结构可能会变得太深。 对于较大的站点，这种类型的深度嵌套节点结构可能存在性能问题。 以下快照显示AEM Site输出的深度嵌套节点结构：
+在生成AEM Site输出时，将在内部创建主题中每个元素的节点。 对于包含数千个主题的DITA映射，此节点结构可能会变得太深。 对于较大的站点，这种类型的深度嵌套节点结构可能存在性能问题。 以下快照显示AEM站点输出的深度嵌套节点结构：
 
 ![](assets/deep-nested-aem-site-node-structure.png)
 
@@ -199,7 +203,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 ![](assets/flattened-aem-site-node-structure.png)
 
-要拼合AEM Site节点结构，请执行以下步骤：
+要扁平化AEM Site节点结构，请执行以下步骤：
 
 1. 确定要扁平化节点结构的元素：
 
@@ -231,13 +235,13 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
    | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | 布尔值\(true/false\)。<br> **默认值**： `false` |
 
 
-现在，当您生成AEM Site输出时，`p`元素中的节点将被扁平化并存储在`p`元素本身中。 您可以在CRXDE中找到`p`元素的新拼合属性。
+现在，当您生成AEM站点输出时，`p`元素中的节点将被扁平化并存储在`p`元素本身中。 您可以在CRXDE中找到`p`元素的新拼合属性。
 
 ![](assets/flatten-aem-site-note-props-crxde.png)
 
-**在AEM站点输出内容中搜索字符串**
+**在AEM网站输出的内容中搜索字符串**
 
-默认情况下，您只能在AEM Site输出的标题中搜索字符串。 您可以将系统配置为在AEM Site输出的标题以及内容或正文中搜索字符串。
+默认情况下，您只能在AEM站点输出的标题中搜索字符串。 您可以将系统配置为在AEM站点输出的标题以及内容或正文中搜索字符串。
 
 >[!NOTE]
 >
@@ -245,7 +249,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 ![](assets/flatten-aem-site-note-props-crxde-search.png)
 
-要启用搜索，您应该配置AEM Site节点结构的扁平化。
+要启用搜索，您应该配置AEM站点节点结构的拼合。
 
 注意:
 
@@ -257,7 +261,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 **阻止拼合AEM站点节点结构**
 
-与在AEM Site输出中指定要拼合的节点类似，您还可以指定要从此配置中排除的元素。 例如，如果要拼合`body`元素上的节点，但不希望`body`中的任何`table`元素拼合，则可以在`table`元素的定义中添加exclude属性。
+与在AEM站点输出中指定要拼合的节点类似，您还可以指定要从此配置中排除的元素。 例如，如果要拼合`body`元素上的节点，但不希望`body`中的任何`table`元素拼合，则可以在`table`元素的定义中添加exclude属性。
 
 要从拼合中排除`table`元素，请将以下属性添加到`table`元素的定义中：
 
@@ -265,7 +269,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 ### 在AEM站点输出中为已删除的页面配置版本控制
 
-在生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;****选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
+生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;****选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
 
 执行以下步骤可停止为要删除的页面创建版本：
 
@@ -362,7 +366,7 @@ AEM Guides提供了一种在使用DITA-OT发布输出时传递自定义元数据
 
    ![](assets/properties-page-custom-metadata-value.png)
 
-1. 单击“**保存并关闭**”。
+1. 单击&#x200B;**保存并关闭**。
 
 1. 单击DITA映射文件以打开DITA映射控制台。
 
@@ -419,6 +423,22 @@ AEM Guides提供了一种在使用DITA-OT发布输出时传递自定义元数据
 >[!NOTE]
 >
 > 如果文件不存在特定的元数据，则带键的&lt;meta\>标记将不会作为该文件的属性显示在metadata.xml文件中。
+
+## 配置DITA-OT命令行参数字段以接受根映射元数据
+
+要使用DITA-OT命令行参数字段传递根映射元数据，请执行以下步骤：
+
+1. 使用[配置覆盖](download-install-additional-config-override.md#)中提供的说明创建配置文件。
+1. 在配置文件中，提供以下\(property\)详细信息以配置预设中的DITA-OT命令行参数字段：
+
+| PID | 属性键 | 属性值 |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | 布尔值\(`true/false`\)。**默认值**： `true` |
+
+- 将属性值设置为&#x200B;**true**&#x200B;可启用DITA-OT命令行功能，从而允许您通过DITA-OT命令行传递元数据。
+- 将属性值设置为&#x200B;**false**&#x200B;将禁用DITA-OT命令行功能。 然后，您可以使用预设中的属性字段传递元数据。
+
+
 
 ## 使用AEM组件自定义DITA元素映射 {#id1679J600HEL}
 
@@ -580,7 +600,7 @@ AEM Guides中的DITA元素映射到其对应的AEM组件。 AEM Guides在发布�
 | `<xmlprop>propname_x </xmlprop>` | 将此节点的序列化XML保存到&#x200B;`propname_x.<br> `**定义的属性。注意：**&#x200B;这是一个优化属性。 |
 | `<xpath>` | 如果在元素映射中提供了XPath元素，则还应与元素名称和类一起满足XPath条件以使用组件映射。 |
 | `<target>` | 将DITA元素放置在crx存储库中的指定位置。<br>可能的值： <br> - **head**：在标题节点<br> - **text**：在段落节点下 |
-| `<wrapelement>` | 用于包住内容的HTML元素。 |
+| `<wrapelement>` | 要将内容包装在其中的HTML元素。 |
 | `<wrapclass>` | 属性`wrapclass.`的元素值 |
 | `<attributemap>` | 包含一个或多个`<attribute>`节点的容器节点。 |
 | `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | 将DITA属性映射到AEM属性： <br> -   **`from`**： DITA属性名称<br> -   **`to`**： AEM组件属性名称<br> -   **`ispath`**：如果属性是路径值\（例如： *image*\） <br> -   **`rel`**：如果路径是源或目标<br> **注意：**&#x200B;如果`attrname`以`%`开头，则将`attrname minus '%'`映射到prop“`propname`”。 |
@@ -589,7 +609,7 @@ AEM Guides中的DITA元素映射到其对应的AEM组件。 AEM Guides在发布�
 
 - 如果计划覆盖默认元素映射，建议不要在默认`elementmapping.xml`文件中进行更改。 您应该创建一个新的映射XML文件，并将该文件放置在其他位置，最好是放置在您创建的自定义apps文件夹中。
 
-- 在`elementmapping.xml`文件中，有许多映射条目引用fmdita/components/dita/wrapper组件。 包装器是一个通用组件，它使用站点节点上的属性生成相关HTML，来呈现相对简单的DITA结构。 它使用`wrapelement`属性生成封闭标记并将子渲染委派给相应的组件。 当您只需要容器组件时，此选项非常有用。 您可以将Wrapper组件与`wrapelement`和`wrapclass`属性结合使用，而不是创建用于呈现特定容器标记（如`div`或`p`）的新组件，以实现相同的效果。
+- 在`elementmapping.xml`文件中，有许多映射条目引用fmdita/components/dita/wrapper组件。 包装器是一个通用组件，它使用站点节点上的属性来生成相关的HTML，从而呈现相对简单的DITA结构。 它使用`wrapelement`属性生成封闭标记并将子渲染委派给相应的组件。 当您只需要容器组件时，此选项非常有用。 您可以将Wrapper组件与`wrapelement`和`wrapclass`属性结合使用，而不是创建用于呈现特定容器标记（如`div`或`p`）的新组件，以实现相同的效果。
 
 - 建议不要在字符串JCR属性中保存大量文本。 输出生成中的优化属性类型计算可确保大型文本内容不会另存为字符串类型。 相反，当需要保存大于特定阈值的内容时，属性的类型会更改为二进制。 默认情况下，此阈值配置为512字节，但可以通过更改&#x200B;**另存为二进制阈值**&#x200B;设置在Configuration Manager \(*com.adobe.fmdita.config.ConfigManager*\)中更改。
 
@@ -600,7 +620,7 @@ AEM Guides中的DITA元素映射到其对应的AEM组件。 AEM Guides在发布�
 
 ## 自定义DITA映射控制台 {#id188HC08M0CZ}
 
-AEM Guides使您可以灵活地扩展DITA映射控制台的功能。 例如，如果您有一组与AEM Guides中可用的报表不同的报表，则可以将这些报表添加到映射控制台。 要自定义映射控制台，您需要创建一个AEM客户端库\（或ClientLib\），其中包含用于执行所需功能的代码。
+AEM Guides使您可以灵活地扩展DITA映射控制台的功能。 例如，如果您有一组与AEM Guides中可用的报表不同的报表，则可以将这些报表添加到映射控制台。 要自定义映射控制台，您需要创建一个AEM客户端库\（或ClientLib\），该库将包含用于执行所需功能的代码。
 
 >[!NOTE]
 >
@@ -614,7 +634,7 @@ AEM Guides提供了用于自定义映射控制台的`apps.fmdita.dashboard-extn`
 
 ## 在输出生成期间处理图像演绎版 {#id177BF0G0VY4}
 
-AEM提供了一组默认的工作流和媒体句柄来处理资产。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的详细信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)。
+AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)。
 
 AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 例如，您可以从默认图像演绎版中选择或创建图像演绎版，然后使用相同的图像演绎版发布文档。 用于发布文档的图像演绎版映射存储在`/libs/fmdita/config/ **renditionmap.xml**`文件中。 `renditionmap.xml`文件的片段如下所示：
 
@@ -636,7 +656,7 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
 </renditionmap>
 ```
 
-`mimetype`元素指定文件格式的MIME类型。 `rendition output`元素指定输出格式的类型和应用于发布指定输出的格式副本\（例如，`cq5dam.web.1280.1280.jpeg`\）的名称。 您可以指定用于所有受支持的输出格式(AEMSITE、PDF、HTML5、EPUB和自定义)的图像演绎版。
+`mimetype`元素指定文件格式的MIME类型。 `rendition output`元素指定输出格式的类型和应用于发布指定输出的格式副本\（例如，`cq5dam.web.1280.1280.jpeg`\）的名称。 您可以指定用于所有受支持的输出格式(AEMSITE、PDF、HTML5、EPUB和CUSTOM)的图像演绎版。
 
 如果指定的呈现版本不存在，则AEM Guides发布过程将首先查找给定图像的Web呈现版本。 如果找不到Web演绎版，则使用图像的原始演绎版。
 
@@ -682,3 +702,4 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
 >[!TIP]
 >
 > 有关使用输出历史记录的最佳实践，请参阅最佳实践指南中的&#x200B;*输出历史记录*&#x200B;部分。
+

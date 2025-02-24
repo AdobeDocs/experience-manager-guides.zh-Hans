@@ -1,39 +1,39 @@
 ---
-title: 在Web编辑器中编辑主题
-description: 了解如何在Web编辑器中编辑主题。 了解各种编辑功能，以便在AEM Guides中修改主题文件。
+title: 在编辑器中编辑主题
+description: 了解如何在编辑器中编辑主题。 了解各种编辑功能，以便在AEM Guides中修改主题文件。
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 2a22aa0746602f7ecd6b3d6cf616a68d45309bdf
+source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# 在Web编辑器中编辑主题 {#id2056B040VUI}
+# 在编辑器中编辑主题 {#id2056B040VUI}
 
-Web编辑器附带了一系列编辑功能，可让您轻松创建或修改主题文件。 概括地说，您可以执行以下步骤以在Web编辑器中编辑主题。
+该编辑器附带了一系列编辑功能，可让您轻松创建或修改主题文件。 概括地说，您可以执行以下步骤以在编辑器中编辑主题。
 
 >[!IMPORTANT]
 >
-> 如果在使用Web编辑器时遇到应用程序错误，请刷新页面以继续工作。
+> 如果在使用编辑器时遇到应用程序错误，请刷新页面以继续工作。
 
 1. 要在主题中进行更改，请单击所需元素的文本边界并开始进行编辑。
 
-1. 要插入特定元素，请在要插入新元素的元素末尾单击，然后单击工具栏中的必需元素图标。 您还可以使用键盘快捷键`Alt+Enter`调用&#x200B;**插入元素**&#x200B;弹出窗口。
+1. 要插入特定元素，请将光标移动到要在其后插入新元素的元素的元素末尾，然后在工具栏中选择所需的元素图标。 您还可以使用键盘快捷键`Alt+1`调用&#x200B;**插入元素**&#x200B;弹出窗口。
 
-   将显示可用于主题中的元素列表。 AEM Guides会根据元素在主题中的有效位置对其进行智能放置。
+   将显示可用于主题中的元素列表。 Experience Manager Guides会根据元素在主题中的有效位置对其进行智能放置。
 
    >[!NOTE]
    >
    > 您还可以通过配置位于 — `/etc/designs/fmdita/clientlibs/xmleditor/`的`ui_config.json`文件来选择要在工具栏中显示的图标。 有关自定义功能的详细信息，请与系统管理员联系。
 
-1. 编辑完文档后，单击&#x200B;**保存**。
+1. 编辑完文档后，选择&#x200B;**全部保存**。
 
    >[!NOTE]
    >
-   > 如果不希望将更改提交到AEM存储库，请单击“关闭”****，然后在“未保存的更改”对话框中单击“关闭但不保存”****。
+   > 如果不希望将更改提交到Adobe Experience Manager存储库，请选择&#x200B;**关闭**，然后在“未保存的更改”对话框中选择&#x200B;**关闭而不保存**。
 
 
 ## 跨元素的部分内容选择
@@ -47,19 +47,20 @@ Experience Manager Guides还允许您跨元素选择内容。 选择内容后，
 - 使用有效元素括起内容：执行以下步骤以使用有效元素括起内容：
 
    - 选择元素中的内容。
-   - 从顶部的辅助工具栏中选择![添加](images/Add_icon.svg)图标以查看&#x200B;**包含元素**&#x200B;的环绕对话框。 该对话框列出了选定内容的有效元素。
+   - 从顶部的工具栏中选择![添加](images/Add_icon.svg)图标以查看&#x200B;**插入元素**&#x200B;对话框。 该对话框列出了选定内容的有效元素。
      >[!NOTE]
      >
-     > 也可以通过选择所选内容的上下文菜单来查看“带元素的环绕”对话框。
+     > 您还可以通过选择所选内容的上下文菜单来查看“插入元素”对话框。
 
-   - 从对话框中选择元素。 选定的内容将封装在该元素下。 例如，如果您在段落中选择内容，然后从&#x200B;**用元素**&#x200B;环绕对话框`<note>`中选择元素，则所选内容将显示在注释下。\
-     ![环绕元素对话框](./images/surround-element.png) {width="300" align="left"}
+   - 从对话框中选择元素。 选定的内容将封装在该元素下。 例如，如果您在段落中选择内容，然后从&#x200B;**插入元素**&#x200B;对话框中选择`<note>`元素，则所选内容将显示在注释下。
+
+     ![插入元素对话框](./images/insert-element-editor.png) {width="300" align="left"}
 
 ## 编辑文件时刷新浏览器
 
-在Web编辑器中编辑内容时，Experience Manager Guides支持刷新浏览器。 此功能可帮助您继续编辑内容，以防您在工作时遇到应用程序错误。 如果在打开一个或多个具有未保存更改的文件进行编辑时点击浏览器刷新，系统会警告您未保存的更改可能会丢失。 您可以选择取消刷新操作并保存文件以保留更改。
+Experience Manager Guides支持您在编辑器中编辑内容时刷新浏览器。 此功能可帮助您继续编辑内容，以防您在工作时遇到应用程序错误。 如果在打开一个或多个具有未保存更改的文件进行编辑时点击浏览器刷新，系统会警告您未保存的更改可能会丢失。 您可以选择取消刷新操作并保存文件以保留更改。
 
-即使在刷新浏览器时，左侧和右侧面板的视图也会保留在Web编辑器中。 在刷新浏览器时，Experience Manager Guides将恢复在Web编辑器中打开的文件上次保存的状态。 例如，在“存储库”面板中打开的文件将再次打开。 映射面板与先前打开的映射一起保留。
+即使刷新浏览器时，编辑器中也会保留左侧和右侧面板的视图。 当您刷新浏览器时，Experience Manager Guides将恢复编辑器中打开的文件上次保存的状态。 例如，在“存储库”面板中打开的文件将再次打开。 映射面板与先前打开的映射一起保留。
 
 活动主题或DITA映射将在内容编辑区域中重新打开。
 
@@ -67,42 +68,50 @@ Experience Manager Guides还允许您跨元素选择内容。 选择内容后，
 
 ## 工作副本指示器
 
-AEM Guides提供工作副本指示器，用于显示文件的当前\（工作副本\）是否与保存的版本同步。 如果您对当前副本进行了任何更改并且尚未保存文件，则会在主题的文件选项卡上显示一个\*标记以及标题。 此指示器用于提醒您保存所做的更改，并在保存文件时消失。
+Experience Manager Guides提供工作副本指示器，用于显示文件的当前\（工作副本\）是否与保存的版本同步。 如果您对当前副本进行了任何更改并且尚未保存文件，则会在主题的文件选项卡上显示一个\*标记以及标题。 此指示器用于提醒您保存所做的更改，并在保存文件时消失。
 
 ![工作副本指示器](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-AEM Guides还指示文件的最后保存的\(working\)副本是否与保存的版本同步。 如果在工作副本和上次保存的版本之间有一些未保存的更改，则会在主题文件选项卡右上角显示一个\*标记以及版本信息。 此指示器用于提醒您保存并从文件的当前\(working\)副本创建版本。
+Experience Manager Guides还指示文件的最后保存的\(working\)副本是否与保存的版本同步。 如果在工作副本和上次保存的版本之间有一些未保存的更改，则会在主题文件选项卡右上角显示一个\*标记以及版本信息。 此指示器用于提醒您保存并从文件的当前\(working\)副本创建版本。
 
 ![版本更新指示器](images/version-update-indicator.png){width="550" align="left"}
 
 
-## 在创作和Source模式下打开锁定的文件
+## 在创作和Source模式下访问锁定的文件
 
 当DITA或Markdown文件被其他用户锁定或检出时，无法编辑或修改内容。 但是，除&#x200B;**预览**&#x200B;模式外，您仍然可以在&#x200B;**创作**&#x200B;和&#x200B;**Source**&#x200B;模式下以只读格式查看文件。
 
 在只读模式下，您可以查看&#x200B;**创作**&#x200B;或&#x200B;**Source**&#x200B;模式中的内容、标记和属性。 您还可以修改文件属性。
 
-工具栏显示以下图标以进行只读访问：
+>[!NOTE]
+>
+> 作为管理员，您可以访问&#x200B;**强制解锁**&#x200B;功能，该功能允许您解锁被其他人锁定的文件。
 
-- 切换标记视图
-- 版本历史记录
-- 版本标签
+<!-- This is no more available -->
+<!--
+The toolbar displays the following icons for read-only access:
 
-Experience Manager Guides在版本号附近还显示&#x200B;**只读访问**&#x200B;指示器。
+- Toggle Tags view
+- Version History
+- Version Label
 
-![在创作模式下查看只读文件](images/locked-file-editor.png)
+Experience Manager Guides also displays a **Read only access** indicator near the version number.
+ 
+![view read only file in author mode](images/locked-file-editor.png)
 
-您可以访问只读DITA映射的&#x200B;**布局**&#x200B;视图。 此视图允许您查看DITA映射及其属性，但禁止进行编辑。
+You can access the **Layout** view for read-only DITA maps. This view lets you see the DITA map and its properties but prevents edits.
 
 >[!NOTE]
 >
-> 您的文件夹级管理用户必须更新&#x200B;*ui_config.json*，以便您可以在“创作”、“Source”和“布局”模式下协调地访问只读文件。
+> Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
 
-## 在存储库视图中查找打开的文件
+ -->
 
-在Web编辑器中打开文件时，Experience Manager Guides提供在“存储库视图”中查找文件的功能。 例如，在编辑当前主题时，它会找到该主题。
+## 在“存储库”视图中查找打开的文件
+
+在编辑器中打开文件时，Experience Manager Guides提供在“存储库”视图中查找文件的功能。 例如，在编辑当前主题时，它会找到该主题。
 
 您可以关闭此功能以通过&#x200B;**用户首选项**&#x200B;的&#x200B;**外观**&#x200B;选项卡中的&#x200B;**始终在存储库中查找文件**&#x200B;选项来查找文件。
 
 
-**父主题：**[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**[&#x200B;使用编辑器](web-editor.md)

@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中添加智能标记。 使用XML关键�
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > 智能标记功能并非现成可用，它需要自定义实施，您需要就此咨询系统管理员。
 
-AEM Guides具有添加智能标记的功能。 您可以使用XML关键字提取工具来提取智能标记。 此工具使用人工智能来理解内容并提供相关关键词。 您可以使用智能标记来改进搜索引擎优化\(SEO\)，并帮助用户查找相关内容。
+Adobe Experience Manager Guides具有添加智能标记的功能。 您可以使用XML关键字提取工具来提取智能标记。 此工具使用人工智能来理解内容并提供相关关键词。 您可以使用智能标记来改进搜索引擎优化\(SEO\)，并帮助用户查找相关内容。
 
 执行以下步骤可创建智能标记：
 
@@ -27,7 +27,7 @@ AEM Guides具有添加智能标记的功能。 您可以使用XML关键字提取
 
    ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
-1. 选择运行Post进程选项。 成功启动工具时将显示一条消息。
+1. 选择“运行后处理”选项。 成功启动工具时将显示一条消息。
 1. 标记将自动提取，并可在所选主题的“属性”页面上看到。
 
    ![](images/properties-smart-tags.png){width="800" align="left"}

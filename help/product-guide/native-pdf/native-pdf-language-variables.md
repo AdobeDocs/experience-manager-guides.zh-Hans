@@ -1,24 +1,24 @@
 ---
-title: 本机PDF | 支持语言变量
+title: 原生PDF | 支持语言变量
 description: 在PDF输出和输出模板中使用语言变量
 exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6e9c998aa5c36b7e0dbb9d594dbf223017164698
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
 
 # 支持语言变量
 
-AEM Guides提供了使用语言变量的功能。 您可以使用语言变量在PDF输出中定义本地化字符串，或在输出模板中本地化任何静态文本。 您可以使用CSS样式将来自CSS的字符串本地化。
+Adobe Experience Manager Guides提供了使用语言变量的功能。 您可以使用语言变量在PDF输出中定义本地化字符串，或在输出模板中本地化任何静态文本。 您可以使用CSS样式将来自CSS的字符串本地化。
 
 ## 在PDF输出中使用语言变量
 
-您可以使用语言变量来定义开箱即用标签的本地化版本，例如PDF输出中的“注意”、“注意”和“警告”或静态文本。 所有语言的变量名称都相同，但各种语言的值可能不同。 您可以用一种或多种语言更新这些变量的值，然后在PDF输出中自动选取本地化值。
+您可以使用语言变量在PDF输出中定义开箱即用标签的本地化版本，如注释、警告和警告或静态文本。 所有语言的变量名称都相同，但各种语言的值可能不同。 您可以用一种或多种语言更新这些变量的值，然后在PDF输出中自动选取本地化的值。
 
 例如，您可以通过以下方式在PDF输出中显示标签`Note`：
 
@@ -65,20 +65,19 @@ AEM Guides提供了一组预定义的或现成的应用程序变量。 您可以
 
 ## 添加新语言变量
 
-1. 在Web编辑器中，转到“输出”选项卡。
-1. 选择&#x200B;**语言变量** 左侧面板中的<img src="./assets/language-variables.svg" width="25">。
+1. 在编辑器中，导航到左侧面板并选择&#x200B;**语言变量**。 更多部分下提供了此选项。
 1. 选择&#x200B;**编辑**&#x200B;以打开&#x200B;**语言变量**&#x200B;窗口。 以所选语言显示的应用程序和用户变量按字母顺序列出。 根据所选语言显示值。 例如，如果选择法语，则“提示”将显示为“Conseil”。
 1. 从&#x200B;**语言**&#x200B;下拉列表中，选择要编辑变量的所需语言。
 
    >[!NOTE]
    >
-   > 如果未查看所需的语言，请从&#x200B;**语言变量设置**&#x200B;中启用所需的语言。 选择设置 <img src="./assets/settings-icon.svg" width="25">以打开&#x200B;**语言变量设置**&#x200B;对话框。
+   > 如果未查看所需的语言，请从&#x200B;**配置语言**&#x200B;设置中启用所需的语言。 选择设置 <img src="./assets/settings-icon.svg" width="25">打开&#x200B;**配置语言**&#x200B;对话框。
 
 1. 在&#x200B;**Name**&#x200B;列中输入变量名称，并在&#x200B;**Value**&#x200B;列中输入其值。
 
    >[!NOTE]
    >
-   >您可以将任何HTML内容用作变量值，以特定格式显示变量值。 例如，您可以向变量值添加`<b>`标记，以粗体显示Publisher。
+   >您可以使用任何HTML内容作为变量值，以特定格式显示变量值。 例如，您可以向变量值添加`<b>`标记，以粗体显示Publisher。
 
 1. 选择&#x200B;**添加语言变量** <img src="./assets/add-language-variable.svg" width="25">以向所选语言添加新语言变量。 将变量添加到一种语言会自动将其添加到所有语言。 不能创建与现有变量同名的变量。 显示错误。
 
@@ -138,7 +137,7 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 
 ### 编辑或还原应用程序变量
 
-您还可以编辑应用程序变量的值。 之后，您可以将应用程序变量还原为原始值。 **还原变量** <img src="./assets/application-variable-revert.svg" width="25">显示给值已更改的应用程序变量。
+您还可以编辑应用程序变量的值。 之后，您可以将应用程序变量还原为原始值。 **重置** <img src="./assets/application-variable-revert.svg" width="25">显示给值已更改的应用程序变量。
 
 ## 在输出模板中使用语言变量
 
@@ -216,7 +215,7 @@ h1:before {
 }
 ```
 
-以下屏幕截图显示了德语和日语本地化的PDF输出字符串。
+以下屏幕截图显示了德语和日语PDF输出中本地化的字符串。
 
 <img alt=" 带语言变量的日语输出" src="./assets/localize-chapter-german.png" width="550">
 

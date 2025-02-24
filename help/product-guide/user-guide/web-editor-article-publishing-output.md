@@ -4,14 +4,18 @@ description: 在AEM Guides中，从存储库面板或地图视图面板生成输
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # 从“存储库”面板或“映射视图”面板生成输出 {#id218CL6010AE}
+
+>[!NOTE]
+>
+> 从版本4.0到2502开始，已弃用之前在Adobe Experience Manager Guides中提供的快速生成面板。 您不能访问“快速生成”面板以从“存储库”面板或“地图”视图面板生成输出。
 
 也可以使用为DITA映射创建的输出预设从“存储库”面板或“映射视图”面板生成输出。
 
@@ -23,7 +27,7 @@ ht-degree: 0%
 
 - 使用“映射视图”面板中的&#x200B;**生成输出**&#x200B;功能生成所选多个主题的输出。
 
-## Publish在一个或多个DITA映射中使用的主题
+## 发布在一个或多个DITA映射中使用的主题
 
 执行以下步骤为DITA映射中的一个或多个主题生成输出：
 

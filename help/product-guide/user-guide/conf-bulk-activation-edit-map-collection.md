@@ -4,10 +4,10 @@ description: 在AEM Guides中使用批量发布功能板。 了解如何通过�
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 1350304943e86f4f9c5270eaedd36eacb25a6b0f
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 1%
 
 您可以通过添加或删除集合中的映射文件或预设来编辑批量激活映射集合。 要编辑批量激活映射集合，请执行以下步骤：
 
-1. 从工具列表中选择&#x200B;**指南**。
+1. 选择顶部的Adobe Experience Manager徽标，然后选择&#x200B;**工具**。
 
-1. 单击顶部的Adobe Experience Manager链接，然后选择&#x200B;**工具**。
+1. 在&#x200B;**工具**&#x200B;面板中，选择&#x200B;**指南**。
 
-1. 单击&#x200B;**批量Publish仪表板**&#x200B;磁贴。
+1. 选择&#x200B;**批量发布仪表板**&#x200B;磁贴。
 
-   此时将显示批量激活映射集合列表。
+   此时将显示批量发布功能板，其中包含批量激活映射集合列表。 您还可以从[Adobe Experience Manager Guides主页](intro-home-page.md)的左侧面板访问此仪表板。
 
-1. 选择要编辑的收藏集，然后单击&#x200B;**打开**。
+1. 选择要编辑的收藏集，然后选择&#x200B;**打开**。
 
-1. 单击&#x200B;**编辑**。
+1. 选择&#x200B;**编辑**。
 
    此时会显示批量激活映射收集页面，其中显示了映射以及每个可用区域设置的预配置预设。
-您可以查看各种类型的输出预设及其图标，例如AEM Site、PDF、本机PDF、HTML5、自定义和JSON输出
+您可以查看各种类型的输出预设及其图标，例如AEM Site、PDF、Native PDF、HTML5、Custom和JSON输出
 .
 
    >[!NOTE]
@@ -40,13 +40,13 @@ ht-degree: 1%
 
 1. 如果要从收藏集中删除映射，请展开该映射，然后选择&#x200B;**选择删除**&#x200B;选项。
 
-1. 单击&#x200B;**删除**。
+1. 选择&#x200B;**删除**。
 
    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    所选映射将从批量激活映射集合中删除。
 
-1. 单击&#x200B;**完成**。
+1. 选择&#x200B;**完成**。
 
 
 **父主题：**[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)

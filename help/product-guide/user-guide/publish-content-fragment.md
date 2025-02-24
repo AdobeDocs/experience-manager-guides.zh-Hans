@@ -1,17 +1,17 @@
 ---
-title: Publish内容片段的主题
-description: 在AEM Guides中，将主题或主题中的元素Publish为内容片段。  了解如何查看呈现给某个主题的内容片段并重新发布它们。
+title: 将主题发布到内容片段
+description: 将主题或主题中的元素发布到AEM Guides中的内容片段。  了解如何查看呈现给某个主题的内容片段并重新发布它们。
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: f86d8f2d2e6aa48941cf16526e608df4845420fd
+source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
 
-# Publish内容片段
+# 发布内容片段
 
 内容片段是Adobe Experience Manager中的离散内容片段。 它们是基于内容模型的结构化内容。 内容片段是纯内容，没有设计或布局信息。 它们可以独立于Adobe Experience Manager支持的渠道进行创作和管理。 内容片段是模块化的，其中的内容被划分为较小的组件。
 
@@ -33,14 +33,14 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 
 1. 要生成内容片段，请从主题&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;节中选择&#x200B;**新输出** ![新输出图标](./images/Add_icon.svg)。
 1. 选择&#x200B;**内容片段**。\
-   ![文件属性选项选项卡](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![文件属性选项选项卡](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
 
    *从主题*&#x200B;的文件属性中添加新的内容片段。
 
 1. 在&#x200B;**生成内容片段**&#x200B;对话框中，在&#x200B;**常规**&#x200B;和&#x200B;**映射**&#x200B;选项卡下填写以下详细信息。
 
    **常规**选项卡
-   ![在Publish中添加片段模型和映射详细信息作为内容片段对话框](images/generate-content-fragment.png)
+   ![在“作为内容片段发布”对话框中添加片段模型和映射详细信息](images/generate-content-fragment.png)
    *添加路径、名称、标题和条件筛选以将主题或其元素发布为内容片段。*
 
 
@@ -64,7 +64,7 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 
    **映射**&#x200B;选项卡
 
-   ![在Publish中添加片段模型和映射详细信息作为内容片段对话框](images/content-fragment-mapping.png)
+   ![在“作为内容片段发布”对话框中添加片段模型和映射详细信息](images/content-fragment-mapping.png)
 
    *选择内容片段模型并添加映射详细信息，以将主题或其元素发布为内容片段。*
 
@@ -77,11 +77,11 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
      >
      > 如果您使用的是4.4或更低版本，请从下拉列表中选择一个映射。 它会从&#x200B;*contentFragmentMapping.json*&#x200B;文件中选取映射。  您的管理员可以在&#x200B;*contentFragmentMapping.json*&#x200B;文件中添加映射。 请参阅安装和配置指南以了解有关如何[创建主题和内容片段之间的映射](../cs-install-guide/conf-content-fragment-mapping-cs.md)的详细信息。
 
-1. 单击&#x200B;**生成**&#x200B;以发布内容片段。
+1. 选择&#x200B;**生成**&#x200B;以发布内容片段。
 
 1. 您可以在&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;部分下查看主题的内容片段。
 
-   ![查看主题的内容片段](images/outputs-options-menu.png){width="300" align="left"}
+   ![查看主题的内容片段](images/outputs-options-menu-new.png){width="300" align="left"}
 
    *查看某个主题存在的内容片段并重新发布它们。*
 
@@ -106,9 +106,3 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
   > 此操作不会从内容片段中删除任何内容。
 
 * **视图**：查看内容片段编辑器。 您还可以进行更改并保存它们。
-
-## 改进了从Non-UUID迁移到UUID的内容
-
-新的UUID内容迁移脚本已得到显着优化，使得内容从非UUID迁移到UUID比以前的脚本快30倍。 它包括从检查点恢复、实时洞察、估计完成时间和详细报告等功能，确保和谐的迁移过程。 特别要注意的是，迁移过程会保留资产元数据，而不进行任何更改。 该脚本已在300万资产的大型数据集上经过测试和验证，证实其对于大规模迁移的效率和可靠性。
-
-了解有关[从Non-UUID迁移到UUID内容](../install-guide/migrate-non-uuid-uuid.md)的详细信息。

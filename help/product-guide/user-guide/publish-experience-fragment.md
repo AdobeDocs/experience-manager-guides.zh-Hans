@@ -1,17 +1,17 @@
 ---
-title: Publish指向体验片段的主题
-description: 在AEM Guides中，将主题或主题中的元素Publish为体验片段。  了解如何查看呈现给某个主题的体验片段并重新发布它们。
+title: 将主题发布到体验片段
+description: 将主题或主题中的元素发布到AEM Guides中的体验片段。  了解如何查看呈现给某个主题的体验片段并重新发布它们。
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# Publish Experience Fragments
+# 发布体验片段
 
 体验片段是Adobe Experience Manager中的模块化内容片段。 这些内容块基于模板并封装内容及其布局。 这些可重复使用的内容片段允许内容创建者跨Experience Manager支持的多个渠道组合并提供一致的可扩展体验。 此功能可帮助您轻松高效地创建一致的营销体验，例如新闻稿、促销横幅和客户评价。
 
@@ -30,7 +30,7 @@ Experience Manager Guides允许您将主题或其元素发布到体验片段。 
 
    * **标题**：查看或编辑文件夹的标题。
 
-   * **允许的模板**：包含可作为Experiencefragment的子页面添加的模板列表。 要添加允许的模板，请在&#x200B;**允许的模板**字段中指定用于检索所需模板的正则表达式。
+   * **允许的模板**：包含可添加为体验片段的子页面的模板列表。 要添加允许的模板，请在&#x200B;**允许的模板**字段中指定用于检索所需模板的正则表达式。
 例如：
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
@@ -40,16 +40,16 @@ Experience Manager Guides允许您将主题或其元素发布到体验片段。 
      *在文件夹属性中添加云配置以将其与片段模板连接。*
 1. 要生成体验片段，请从主题&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;部分中选择&#x200B;**新输出** ![新输出图标](./images/Add_icon.svg)。
 1. 选择&#x200B;**体验片段**。\
-   ![文件属性选项选项卡](./images/file-properties-outputs.png){width="300" align="left"}
+   ![文件属性选项选项卡](./images/file-properties-outputs-new.png){width="300" align="left"}
 
    *从主题*&#x200B;的文件属性中添加新的体验片段。
 
    >[!NOTE]
    >
-   > 您还可以从&#x200B;**存储库视图**&#x200B;发布体验片段。 选择要作为体验片段发布的主题。 然后，从&#x200B;**选项**&#x200B;菜单中选择&#x200B;**Publish As** > **体验片段**。
+   > 您还可以从&#x200B;**存储库视图**&#x200B;发布体验片段。 选择要作为体验片段发布的主题。 然后，从&#x200B;**选项**&#x200B;菜单中选择&#x200B;**发布为** > **体验片段**。
 
 1. 在&#x200B;**生成体验片段**对话框中，填写以下详细信息：
-   ![在Publish中添加片段模型和映射详细信息作为体验片段对话框](images/experience-fragment-generate.png){width="500" align="left"}
+   ![在“作为体验片段发布”对话框中添加片段模型和映射详细信息](images/experience-fragment-generate.png){width="500" align="left"}
 
    *添加路径、模板和映射详细信息，将主题或其元素发布为体验片段。 您可以覆盖现有的体验片段。*
 
@@ -76,10 +76,10 @@ Experience Manager Guides允许您将主题或其元素发布到体验片段。 
 
 
    * 如果您的体验片段已存在，并且您想要覆盖它，请选中&#x200B;**覆盖现有内容**&#x200B;复选框。 如果您未选中复选框并且您的体验片段已存在，则Experience Manager Guides会显示错误。
-1. 单击&#x200B;**生成**&#x200B;以发布体验片段。
+1. 选择&#x200B;**生成**&#x200B;以发布体验片段。
 1. 您可以在&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;部分下查看主题的体验片段。 体验片段会根据其发布的日期和时间显示，最新的体验片段显示为第一个体验片段。
 
-   ![查看主题的体验片段](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![查看主题的体验片段](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
 
    *查看某个主题存在的体验片段并重新发布它们。*
 

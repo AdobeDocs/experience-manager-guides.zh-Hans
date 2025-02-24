@@ -3,7 +3,8 @@ title: AEM Guides的主要功能
 description: 探索AEM Guides、DITA创作、内容管理、基于Web的审阅、翻译、本地化、多渠道发布和FrameMaker集成中的主要功能。
 feature: Introduction
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 您还可以从AEM工具栏和Web编辑器中提供的新选项签出和签入文件。
 
-如果您的组织使用特殊形式的DITA，则可以自定义Web编辑器以创建和编辑特殊的DITA文档。 有关使用DITA专业化的更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*使用自定义DITA-OT和DITA专业化*。
+如果您的组织使用特殊形式的DITA，则可以自定义Web编辑器以创建和编辑特殊的DITA文档。 有关使用DITA专业化的更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*使用自定义DITA-OT和DITA专业化*。
 
 目前，内置编辑器支持以下DITA标准：
 
@@ -47,7 +48,7 @@ Adobe Experience Manager为领先的翻译提供商提供了内置连接器。 �
 **同类最佳的DITA内容多渠道发布**
 使用可加快上市时间的无缝一触式方法简化企业内容发布。
 
-在Experience Manager中添加了本机DITA支持后，可通过DITA-OT生成Experience Manager Sites、PDF、HTML5、EPUBS或自定义输出的输出。 您可以利用可完全配置的输出为最终用户提供高度个性化、相关且沉浸式的内容体验。 您还可以轻松执行批量生成，或使用基线发布文档的特定版本。
+在Experience Manager中添加了本机DITA支持后，可通过DITA-OT为Experience Manager Sites、PDF、HTML5、EPUBS或自定义输出生成输出。 您可以利用可完全配置的输出为最终用户提供高度个性化、相关且沉浸式的内容体验。 您还可以轻松执行批量生成，或使用基线发布文档的特定版本。
 
 **全面的搜索和内容使用情况数据**
 更快地查找和选择相关内容，最大限度地提高每次重复使用内容时的ROI。 通过DITA创作工具内的简单界面，使用内容属性和主题元数据在整个存储库中执行基本和高级搜索。 结果使用内容使用数据标记，以帮助您轻松识别和选择适当的内容以实现最佳重用。
@@ -56,14 +57,14 @@ Adobe Experience Manager为领先的翻译提供商提供了内置连接器。 �
 通过在内容上线之前轻松检查和更正内容，使发布无错误。 通过轻松地访问DITA映射级别的各种报告，可以密切监视系统运行状况。 您可以检查所有主题的缺少主题、断开链接或引用的数量、审阅状态以及翻译。 您还可以使用这些报表在发布之前的最后阶段执行全面的健康检查。
 
 **对个性化输出的广泛标签管理支持**\
-通过高度相关的内容体验，推动更深入的最终用户参与和内容采用。 借助AEM Guides，您可以利用Experience Manager中广泛的标签管理支持，对DITA源内容应用相关标签。 使用这些标记为最终用户提供高度个性化的内容体验。
+通过高度相关的内容体验，推动更深入的最终用户参与和内容采用。 借助AEM Guides，您可以利用Experience Manager中的广泛标签管理支持来对DITA源内容应用相关标签。 使用这些标记为最终用户提供高度个性化的内容体验。
 
 **与Adobe FrameMaker的本机集成**
-在使用Experience Manager和FrameMaker（2015版） Update 4或更高版本时享受快速无缝体验。
+在与Experience Manager和FrameMaker（2015年版本） Update 4或更高版本配合使用时，尽享快速无缝的体验。
 
-通过内置连接器将Experience Manager和FrameMaker紧密集成，可帮助您与Experience Manager内容存储库无缝协作。 利用连接器快速开始创作、查看和搜索DITA内容。
+通过内置连接器将Experience Manager与FrameMaker紧密集成，可帮助您无缝地与Experience Manager内容存储库一起使用。 利用连接器快速开始创作、查看和搜索DITA内容。
 
-使用FrameMaker中的AEM连接器，您可以管理FrameMaker文件。 AEM连接器允许您在AEM上轻松上传DITA和其他FrameMaker文档(.book和.fm)。 AEM Guides还允许您直接从AEM发布FrameMaker文档。 如果FrameMaker手册文件包含DITA和.fm文件的组合，AEM Guides也可以发布此类文档。 目前，您可以将FrameMaker的.book和.fm文件发布为PDF、HTML5和EPUB格式。
+使用FrameMaker中的AEM连接器，您可以管理FrameMaker文件。 AEM连接器允许您在AEM上轻松上传DITA和其他FrameMaker文档(.book和.fm)。 AEM Guides还允许您直接从AEM发布FrameMaker文档。 如果FrameMaker书籍文件包含DITA和.fm文件的组合，AEM Guides也可以发布此类文档。 目前，您可以将FrameMaker的.book和.fm文件发布为PDF、HTML5和EPUB格式。
 
 ## 其他资源
 
@@ -74,4 +75,4 @@ Adobe Experience Manager为领先的翻译提供商提供了内置连接器。 �
 * 快速入门指南
 * [帮助*存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) （访问旧版文档）
 
-**父主题：**[&#x200B;关于Adobe Experience Manager Guidesas a Cloud Service](intro.md)
+**父主题：**[&#x200B;关于Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

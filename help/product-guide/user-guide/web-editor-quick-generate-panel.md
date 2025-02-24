@@ -4,14 +4,19 @@ description: 使用AEM Guides中的快速生成面板。 了解如何从快速�
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # 使用“快速生成”面板生成和查看输出 {#id22AKE050F5L}
+
+>[!NOTE]
+>
+> 从版本4.0到2502开始，已弃用之前在Adobe Experience Manager Guides中提供的快速生成面板。 您不能访问“快速生成”面板来生成和查看输出
+
 
 AEM Guides提供了一个集成在Web编辑器中的&#x200B;**快速生成**&#x200B;面板。 此面板允许您同时为为DITA映射创建的输出预设生成输出。 可以为一个或多个预设或为DITA映射创建的所有预设生成输出。 您还可以使用&#x200B;**快速生成**&#x200B;面板来查看为预设生成的输出。
 

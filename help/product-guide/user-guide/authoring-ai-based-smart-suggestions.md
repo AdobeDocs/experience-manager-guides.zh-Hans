@@ -2,16 +2,16 @@
 title: 用于创作内容的AI支持的智能建议
 description: 了解如何在Web编辑器中查看和利用AI支持的智能建议。
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: 6cf65f70252e133cf8977ce925f0a103dc79c0ec
+source-git-commit: dd6fae108ddca23d36615fe38d176723bc4cfe86
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # 用于创作内容的AI支持的智能建议
 
-Experience Manager Guides提供了智能建议，可帮助您创建一致且准确的内容。
+Adobe Experience Manager Guides提供了智能建议，可帮助您创建一致且准确的内容。
 
 在创作内容时，AI助手工具中的&#x200B;**建议可重用内容**&#x200B;功能可以使用AI进行搜索并显示语义上与您的内容类似的现有内容。 然后，您可以选择要在当前主题中包含的最佳匹配内容作为引用。
 
@@ -24,7 +24,7 @@ Experience Manager Guides提供了智能建议，可帮助您创建一致且准�
 
 
 1. 选择主题中的内容以查看相关建议。 确保内容的字符长度超过管理员在文件夹配置文件中为显示内容建议而设置的长度。
-1. 从AI助手面板中，选择&#x200B;**建议可重用内容** ![ai建议可重用内容图标](./images/ai-suggest-reusable-content-icon.svg)。
+1. 在AI助手的&#x200B;**创作面板**&#x200B;中，选择&#x200B;**建议可重用内容** ![ai建议可重用内容图标](./images/ai-suggest-reusable-content-icon.svg)。
 
 1. 选择标记可查看当前标记的创作建议。  根据当前标记中的内容，显示从索引文件中查看和添加内容引用的建议。 您还可以选择多个标记。
 
@@ -38,7 +38,7 @@ Experience Manager Guides提供了智能建议，可帮助您创建一致且准�
    > 您只能查看有关当前视区（屏幕上显示的内容）的建议。 要查看文档中任何其他内容的建议，请向上或向下滚动以在视区中显示该内容，然后选择&#x200B;**建议可重用内容** ![ai建议可重用内容图标](./images/ai-suggest-reusable-content-icon.svg)。
 
 
-1. 您可以在建议面板中查看智能建议。  Experience Manager Guides提供的建议内容在上下文上类似或具有相同含义。 例如，您可以搜索包含确切版本号的主题，如“发行版本2023.03.12”。 您还可以搜索“Adobe的总部在加利福尼亚州的圣何塞”，并找到类似“圣何塞拥有像Adobe这样的许多软件公司的季度”的内容。
+1. 您可以在建议面板中查看智能建议。  Experience Manager Guides提供的建议内容在上下文上类似或具有相同含义。 例如，您可以搜索包含确切版本号的主题，如“发行版本2023.03.12”。 您还可以搜索“Adobe总部在加利福尼亚州的圣何塞”，并找到类似内容，如“圣何塞拥有像Adobe这样的许多软件公司的季度”。
 1. 选择&#x200B;**内容信息** ![内容信息](images/smart-suggestions-content-info-icon.svg)以查看详细信息。
 
    ![内容信息面板](images/smart-suggestions-content-information.png){width="300" align="left"}
@@ -55,7 +55,7 @@ Experience Manager Guides提供了智能建议，可帮助您创建一致且准�
 
    *预览当前内容与建议内容之间的比较。*
 
-1. 单击&#x200B;**接受**&#x200B;在&#x200B;**建议可重用内容**&#x200B;预览中添加建议的内容引用。
+1. 选择&#x200B;**接受**&#x200B;以在&#x200B;**建议可重用内容**&#x200B;预览中添加建议的内容引用。
 1. 您还可以在建议面板中选择&#x200B;**接受**&#x200B;或&#x200B;**消除**&#x200B;以获取相应的建议。
 
 

@@ -4,62 +4,63 @@ description: 了解如何导入和验证DITA主题、使用声明报表语句检
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
 # 支持Schematron文件
 
-“架构”是指用于定义XML文件测试的基于规则的验证语言。 Web编辑器支持Schematron文件。 您可以导入Schematron文件，也可以在Web编辑器中编辑它们。 使用Schematron文件，您可以定义某些规则，然后针对DITA主题或映射验证这些规则。
+“架构”是指用于定义XML文件测试的基于规则的验证语言。 该编辑器支持Schematron文件。 您可以导入Schematron文件，也可以在编辑器中编辑它们。 使用Schematron文件，您可以定义某些规则，然后针对DITA主题或映射验证这些规则。
 
 >[!NOTE]
 >
-> Web编辑器支持ISO模式。
+> 编辑器支持ISO架构。
 
 
 ## 导入Schematron文件
 
 执行以下步骤以导入Schematron文件：
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/schematron-panel.png){width="300" align="left"}
 
-1. 在&#x200B;*存储库视图*&#x200B;中导航到所需的文件夹（您要上传文件的位置）。
-1. 单击&#x200B;**选项**&#x200B;图标以打开上下文菜单，然后选择&#x200B;**上传Assets**。
-1. 在&#x200B;**上传Assets**&#x200B;对话框中，您可以在&#x200B;**选择资源文件夹**&#x200B;字段中更改目标文件夹。
-1. 单击&#x200B;**选择文件**&#x200B;并浏览以选择架构文件。 您可以选择一个或多个Schematron文件，然后单击&#x200B;**上传**。
+1. 导航到&#x200B;*存储库*&#x200B;中的所需文件夹（您要上传文件的位置）。
+1. 选择&#x200B;**选项**&#x200B;图标以打开上下文菜单，然后选择&#x200B;**上传资源**。
+1. 在&#x200B;**上传资源**&#x200B;对话框中，您可以在&#x200B;**选择资源文件夹**&#x200B;字段中更改目标文件夹。
+1. 选择&#x200B;**选择文件**&#x200B;并浏览以选择架构文件。 您可以选择一个或多个架构文件，然后选择&#x200B;**上传**。
 
 ## 使用Schematron验证DITA主题或映射
 
-导入Schematron文件后，可以在Web编辑器中编辑它们。 可以使用Schematron文件验证主题或DITA映射。 例如，您可以为DITA映射或主题创建以下规则：
+导入Schematron文件后，可在编辑器中编辑它们。 可以使用Schematron文件验证主题或DITA映射。 例如，您可以为DITA映射或主题创建以下规则：
 
 * 为DITA映射定义标题。
 * 添加了特定长度的简短描述。
 * 地图中应至少有一个topicref。
 
-在Web编辑器中打开主题时，右侧会显示“架构验证”面板。 执行以下步骤以添加和验证主题或使用Schematron文件的映射：
-![](images/schematron-validate.png){width="300" align="left"}
+在编辑器中打开主题时，右侧会显示“架构验证”面板。 执行以下步骤以添加和验证主题或使用Schematron文件的映射：
 
-1. 单击架构图标()以打开架构面板。
-1. 使用添加Schematron文件添加Schematron文件。
+![](images/schematron-panel-file-validated.png){width="500" align="left"}
+
+1. 选择架构图标()以打开架构面板。
+1. 使用&#x200B;**添加Schematron文件**&#x200B;添加Schematron文件。
 1. 如果Schematron文件没有错误，则会添加该文件并将其列在验证面板中。 将显示包含错误的Schematron文件的错误消息。
    >[!NOTE]
    >
    >可以使用Schematron文件名旁边的交叉图标将其删除。
-1. 单击使用模式验证来验证主题。
+1. 选择&#x200B;**使用Schematron进行验证**&#x200B;以验证主题。
 
    * 如果主题未破坏任何规则，则会显示文件的验证成功消息。
    * 如果主题破坏了规则，例如，如果它不包含标题并为上述给定架构进行了验证，则会显示验证错误。
 
-1. 单击错误消息，在打开的主题/映射中突出显示包含错误的元素。
+1. 选择错误消息，以在打开的主题/映射中突出显示包含错误的元素。
 
-Web编辑器中的架构支持可帮助您根据一组规则验证文件并维护主题的一致性和正确性。
+编辑器中的架构支持可帮助您根据一组规则验证文件并维护主题的一致性和正确性。
 
 ## 使用声明和报表语句检查规则{#schematron-assert-report}
 
-AEM Guides还支持Schematron中的声明和报告语句。 这些语句可帮助您验证DITA主题。
+Experience Manager Guides还支持Schematron中的声明和报告语句。 这些语句可帮助您验证DITA主题。
 
 ### Assert语句
 
@@ -107,7 +108,7 @@ No one word titles.
 
 ## 定义抽象模式{#schematron-abstract-patterns}
 
-AEM Guides还支持Schematron中的抽象模式。 可以定义通用的抽象模式并重用这些抽象模式。  可以创建指定实际模式的占位符参数。
+Experience Manager Guides还支持Schematron中的抽象模式。 可以定义通用的抽象模式并重用这些抽象模式。  可以创建指定实际模式的占位符参数。
 
 
 使用抽象模式可减少规则的重复并简化验证逻辑的管理和更新，从而简化您的Schematron模式。 这样还可以使架构更易于理解，因为可以在可以在整个架构中重用的单个抽象模式中定义复杂的验证逻辑。
