@@ -1,7 +1,9 @@
 ---
 title: 用于创作内容的AI支持的智能建议
 description: 了解如何在Web编辑器中查看和利用AI支持的智能建议。
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -37,7 +39,7 @@ Experience Manager Guides提供了智能建议，可帮助您创建一致且准�
    > 您只能查看有关当前视区（屏幕上显示的内容）的建议。 要查看文档中任何其他内容的建议，请向上或向下滚动以在视区中显示该内容，然后选择&#x200B;**建议可重用内容** ![ai建议可重用内容图标](./images/ai-suggest-reusable-content-icon.svg)。
 
 
-1. 您可以在建议面板中查看智能建议。  Experience Manager Guides提供的建议内容在上下文上类似或具有相同含义。 例如，您可以搜索包含确切版本号的主题，如“发行版本2023.03.12”。 您还可以搜索“Adobe的总部在加利福尼亚州的圣何塞”，并找到类似“圣何塞拥有像Adobe这样的许多软件公司的季度”的内容。
+1. 您可以在建议面板中查看智能建议。  Experience Manager Guides提供的建议内容在上下文上类似或具有相同含义。 例如，您可以搜索包含确切版本号的主题，如“发行版本2023.03.12”。 您还可以搜索“Adobe总部在加利福尼亚州的圣何塞”，并找到类似内容，如“圣何塞拥有像Adobe这样的许多软件公司的季度”。
 1. 选择&#x200B;**内容信息** ![内容信息](images/smart-suggestions-content-info-icon.svg)以查看详细信息。
 
    ![内容信息面板](images/smart-suggestions-content-information.png){width="300" align="left"}

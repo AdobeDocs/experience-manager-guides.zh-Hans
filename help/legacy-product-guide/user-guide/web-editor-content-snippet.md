@@ -3,7 +3,9 @@ title: 插入数据源中的内容片段
 description: 在AEM Guides中使用来自数据源的数据。 了解如何从数据源插入内容片段。 使用主题生成器创建主题。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,9 +28,9 @@ ht-degree: 0%
 <summary> Cloud Service </summary>
 
 
-- 如果您使用的是2023年10月版或更高版本，请在Cloud Service的《安装和配置指南》中了解如何[从用户界面](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)配置数据源连接器。
+- 如果您使用的是2023年10月版或更高版本，请在《云服务安装和配置指南》中了解如何[从用户界面](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)配置数据源连接器。
 
-- 如果您使用的是2023年7月或2023年9月版本，请了解Cloud Service安装和配置指南中的如何[配置数据源连接器](/help/product-guide/cs-install-guide/conf-data-source-connector.md)。
+- 如果您使用的是2023年7月或2023年9月版本，请在《云服务安装和配置指南》中了解如何[配置数据源连接器](/help/product-guide/cs-install-guide/conf-data-source-connector.md)。
 
 </details>
 

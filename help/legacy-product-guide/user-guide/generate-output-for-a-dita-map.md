@@ -3,7 +3,9 @@ title: 从映射控制台生成DITA映射的输出
 description: 从AEM Guides的映射控制台生成DITA映射的输出。 了解增量输出生成以及如何查看状态、取消和删除输出任务。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -53,7 +55,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 重新生成AEM Site输出时，将使用文件的当前版本而不是附加的基线来创建输出。
+> 重新生成AEM Site输出时，将使用文件的当前版本而不是附加的基线创建输出。
 
 1. 在Assets UI中，导航到并单击DITA映射文件。
 
@@ -104,7 +106,7 @@ ht-degree: 0%
 
      列出正在等待生成或正在生成过程中的输出。 已排队或正在进行的任务在预设名称之前会显示一个蓝色图标。 您还可以找到用于已排队任务的输出生成设置或预设、类型、启动任务的用户、自任务排队以来的时间以及当前状态。
 
-     单击该链接以访问&#x200B;**Publish功能板**&#x200B;并查看当前运行状态。 Publish功能板中提供了所有活动发布任务的列表。 仅当存在等待生成或正在生成过程中的输出时，才会显示&#x200B;**已排队输出**&#x200B;和&#x200B;**Publish功能板**&#x200B;链接。 输出任务完成后，它们不会显示。有关Publish仪表板的更多详细信息，请参阅[使用Publish仪表板管理发布任务](generate-output-publish-dashboard.md#)。
+     单击链接以访问&#x200B;**发布功能板**&#x200B;并查看当前运行状态。 发布功能板中提供了所有活动发布任务的列表。 仅当存在等待生成或正在生成过程中的输出时，才会显示&#x200B;**排队的输出**&#x200B;和&#x200B;**发布功能板**&#x200B;链接。 输出任务完成后，它们不会显示。有关发布仪表板的更多详细信息，请参阅[使用发布仪表板管理发布任务](generate-output-publish-dashboard.md#)。
 
    - **生成的输出**
 
@@ -121,7 +123,7 @@ ht-degree: 0%
 
 ## 取消输出生成任务 {#id2061H100T5Z}
 
-AEM Guides为出版商提供了一种简单而轻松的方式来取消任何正在进行的发布任务。 作为发布者，您可以从DITA映射控制台或[Publish功能板](generate-output-publish-dashboard.md#)取消正在进行的发布任务。
+AEM Guides为出版商提供了一种简单而轻松的方式来取消任何正在进行的发布任务。 作为发布者，您可以从DITA映射控制台或[发布仪表板](generate-output-publish-dashboard.md#)取消正在进行的发布任务。
 
 执行以下步骤以从DITA映射控制台取消输出生成任务：
 

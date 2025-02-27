@@ -1,16 +1,17 @@
 ---
-title: Publish主题到AEM Sites页面
-description: 将主题或主题中的元素Publish到Adobe Experience Manager Sites输出。  了解如何查看呈现的主题的Experience Manager Sites页面并重新发布它们。
+title: 将主题发布到AEM Sites页面
+description: 将主题或主题中的元素发布到Adobe Experience Manager Sites输出。  了解如何查看呈现的主题的Experience Manager Sites页面并重新发布它们。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sites pages
+# 发布Adobe Experience Manager Sites页面
 
 
 Experience Manager Sites页面是指在Adobe Experience Manager网站上发布的内容。 Experience Manager Guides允许您将独立主题发布到站点页面。

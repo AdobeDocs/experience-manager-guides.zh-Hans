@@ -3,7 +3,9 @@ title: 地图编辑器中的其他功能
 description: 了解基本和高级映射编辑器中的一些常见功能。 了解如何在映射编辑器中解析键引用。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: d6e00884-e17c-499e-9568-0807a75051ad
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

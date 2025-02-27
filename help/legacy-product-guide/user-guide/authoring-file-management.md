@@ -3,7 +3,9 @@ title: 管理文件和文件夹
 description: 了解如何在AEM Guides中管理文件和文件夹。 复制和粘贴、拖放、删除、批量移动文件和文件夹以及搜索DITA内容。
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -60,13 +62,13 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > **为上载的文件创建新版本**&#x200B;功能必须由管理员启用。 如果启用了此功能，则会为上传的文件创建一个新版本。 如果取消选择该选项，则不会创建已上传文件的版本。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*为上传的文件创建新版本*&#x200B;部分。
+  > **为上载的文件创建新版本**&#x200B;功能必须由管理员启用。 如果启用了此功能，则会为上传的文件创建一个新版本。 如果取消选择该选项，则不会创建已上传文件的版本。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*为上传的文件创建新版本*&#x200B;部分。
 
   如果某个文件已由其他用户签出以进行编辑，并且您尝试上载和覆盖现有文件，则该文件将失败并显示错误。
 
   >[!NOTE]
   >
-  >管理员必须禁用&#x200B;**在上传时覆盖签出文件**&#x200B;功能。 如果启用了此功能，则可以覆盖签出的文件。 如果未启用该功能，则阻止覆盖已签出的文件。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*在上传时覆盖签出的文件*&#x200B;部分。
+  >管理员必须禁用&#x200B;**在上传时覆盖签出文件**&#x200B;功能。 如果启用了此功能，则可以覆盖签出的文件。 如果未启用该功能，则阻止覆盖已签出的文件。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*在上传时覆盖签出的文件*&#x200B;部分。
 
 
 - *在不同位置拖放文件*：已创建文件的新副本，并在新位置为其分配了新的UUID。 此处，文件名与原始文件名相同。
@@ -82,7 +84,7 @@ ht-degree: 0%
 
 如果选择&#x200B;**为现有工作副本创建版本**&#x200B;选项，则会从文档的工作副本创建一个新版本；将上载新文件，同时创建一个文件的新版本，并将其作为文档的工作副本。
 
-**为上载的文件创建新版本**&#x200B;功能必须由管理员启用。 如果启用了此功能，则会为上传的文件创建一个新版本。 如果取消选择该选项，则不会创建已上传文件的版本。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*为已上传的文件创建新版本*&#x200B;部分。
+**为上载的文件创建新版本**&#x200B;功能必须由管理员启用。 如果启用了此功能，则会为上传的文件创建一个新版本。 如果取消选择该选项，则不会创建已上传文件的版本。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*为上传的文件创建新版本*&#x200B;部分。
 
 
 *在不同的位置拖放文件*：为您提供了&#x200B;**覆盖现有文件\(s\)**、**将文件移动到新位置\(s\)的选项**&#x200B;以及创建现有工作副本版本的选项。
@@ -98,7 +100,7 @@ ht-degree: 0%
 
 ## 批量移动文件 {#move-files-bulk}
 
-AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件的文件夹从一个位置移动到另一个位置。 此工具可以轻松地将一个或多个文件夹中的文件移到AEM存储库中的其他文件夹中。 此工具的主要功能之一是，它不仅可以移动大量文件，还可以维护对要移动文件的引用和来自要移动文件的引用。 您可以调整可以批量移动的文件数量，而不会妨碍创作和发布任务。
+AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件的文件夹从一个位置移动到另一个位置。 此工具可以轻松地将一个或多个文件夹中的文件移到AEM存储库的其他文件夹中。 此工具的主要功能之一是，它不仅可以移动大量文件，还可以维护对要移动文件的引用和来自要移动文件的引用。 您可以调整可以批量移动的文件数量，而不会妨碍创作和发布任务。
 
 >[!NOTE]
 >
@@ -130,7 +132,7 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
    <details>
 
-   <summary> Cloud Service和基于UUID的内部部署文件系统 </summary>
+   <summary> Cloud Services和基于On-premise UUID的文件系统 </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -217,11 +219,11 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
 ## 搜索DITA内容
 
-默认情况下，AEM不识别DITA内容，因此，它不提供任何机制来搜索其存储库中的DITA内容。 AEM Guides在AEM之上添加了一个层，使AEM能够理解和处理DITA内容。 AEM Guides中的搜索DITA内容功能允许您在AEM存储库中搜索DITA内容。
+默认情况下，AEM不识别DITA内容，因此，它不提供任何机制来搜索其存储库中的DITA内容。 AEM Guides在AEM之上添加了一个层，从而使AEM能够理解和处理DITA内容。 AEM Guides中的搜索DITA内容功能允许您在AEM存储库中搜索DITA内容。
 
 >[!NOTE]
 >
->您的系统管理员可以配置&#x200B;**DITA元素**&#x200B;搜索组件，然后您可以从AEM Assets UI使用该功能。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*在Assets UI中添加DITA元素搜索组件*&#x200B;部分。
+>您的系统管理员可以配置&#x200B;**DITA元素**&#x200B;搜索组件，然后您可以从AEM Assets UI使用该功能。 有关更多详细信息，请参阅安装和配置Assets as a Cloud Service中的&#x200B;*在Adobe Experience Manager Guides UI中添加DITA元素搜索组件*&#x200B;部分。
 
 使用搜索功能，您可以：
 
@@ -275,7 +277,7 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
 ## 删除文件
 
-从AEM存储库中删除文件是一项受限制的功能，由系统管理员控制。 根据配置，如果文件满足以下条件，则可能会限制删除文件：
+从AEM存储库中删除文件是一项受限制的功能，由您的系统管理员控制。 根据配置，如果文件满足以下条件，则可能会限制删除文件：
 
 - 已签出
 - 具有传入或传出引用
@@ -284,7 +286,7 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
 >[!NOTE]
 >
-> 有关文件管理配置的更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*阻止删除已签出的文件*&#x200B;和&#x200B;*阻止删除引用的文件*&#x200B;部分。
+> 有关文件管理配置的更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*阻止删除已签出的文件*&#x200B;和&#x200B;*阻止删除引用的文件*&#x200B;部分。
 
 如果管理员已授予所有用户文件删除权限，则在删除包含引用的文件时，将显示以下消息：
 

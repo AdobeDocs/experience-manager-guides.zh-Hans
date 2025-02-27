@@ -3,7 +3,9 @@ title: 内容翻译的最佳实践
 description: 了解AEM Guides中内容翻译的最佳实践。 了解如何配置翻译服务、创建新翻译项目以及启动翻译作业。
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%
@@ -28,7 +30,7 @@ ht-degree: 1%
 - 不需要本地化的全局使用内容和媒体应放在语言副本之外。
 - 所有必须本地化的常用内容都应保存在语言文件夹下的公用文件夹中。
 
-下图显示了在全局使用内容和三个语言副本时AEM中的文件夹结构示例。
+下图显示了一个例子，说明了当您全局使用内容和三个语言副本时，AEM中的文件夹结构。
 
 ![](images/aem-directory_structure.png){width="800" align="left"}
 
@@ -38,9 +40,9 @@ ht-degree: 1%
 
 1. 在Assets UI中，选择源语言文件夹。
 
-1. 打开文件夹属性，然后转到&#x200B;**Cloud Service**&#x200B;选项卡。
+1. 打开文件夹属性，然后转到&#x200B;**云服务**&#x200B;选项卡。
 
-1. 在&#x200B;**Cloud Service**&#x200B;选项卡中，配置要使用的翻译服务。
+1. 在&#x200B;**云服务**&#x200B;选项卡中，配置要使用的翻译服务。
 
    您可以配置机器翻译或人工翻译。
 

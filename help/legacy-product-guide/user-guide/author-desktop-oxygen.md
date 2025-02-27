@@ -3,7 +3,9 @@ title: 使用氧气
 description: 了解对AEM Guides中内容创作和发布的氧XML编辑器支持。
 feature: Authoring, Desktop Tools
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c6395d35-b8fd-446e-a17a-df7f5a432053
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%

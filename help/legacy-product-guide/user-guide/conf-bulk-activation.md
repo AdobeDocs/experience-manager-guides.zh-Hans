@@ -1,9 +1,11 @@
 ---
 title: 批量激活已发布的内容
-description: 了解批量激活已发布内容的情况。 了解AEM guides中批量激活功能的好处。
+description: 了解批量激活已发布内容的情况。 了解AEM Guides中批量激活功能的好处。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4b60bf50-f6c2-4e87-8af6-fd1c26d4898f
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -12,17 +14,17 @@ ht-degree: 0%
 
 # 批量激活已发布的内容 {#id214GG080LE8}
 
-在现实场景中，当实际内容发布到AEM的发布实例上时，您的作者将有权访问AEM的创作实例。 然后，可以在不同的地理位置中进一步部署发布实例。 已发布的输出必须通过不同的进程移动到这些发布服务器上。 将内容从创作实例移动到发布实例的过程称为内容的激活或复制。
+在现实场景中，您的作者将有权访问AEM的创作实例，而实际内容将发布到AEM的发布实例。 然后，可以在不同的地理位置中进一步部署发布实例。 已发布的输出必须通过不同的进程移动到这些发布服务器上。 将内容从创作实例移动到发布实例的过程称为内容的激活或复制。
 
 >[!NOTE]
 >
-> 有关如何在AEM中设置创作和发布实例的更多详细信息，请参阅[创作和Publish架构概述](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
+> 有关如何在AEM中设置创作和发布实例的更多详细信息，请参阅[创作和发布架构概述](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
 
 借助AEM Guides的批量激活功能，您可以快速轻松地激活内容从创作到发布实例。 批量激活功能可让您灵活地：
 
 - 将一个或多个映射\（到映射集合\）添加到单个激活任务
 
-- 选择要发布的一个或多个输出预设。 您可以添加AEM Site、PDF、本机PDF、HTML5、自定义和
+- 选择要发布的一个或多个输出预设。 您可以添加AEM Site、PDF、原生PDF、HTML5、自定义和
 json输出预设。
 
 

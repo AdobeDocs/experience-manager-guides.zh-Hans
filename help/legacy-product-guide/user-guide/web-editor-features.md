@@ -3,7 +3,9 @@ title: 了解Web编辑器功能
 description: 探索AEM Guides中Web编辑器的功能。 了解Web编辑器的界面，包括主工具栏、辅助工具栏、左侧面板、内容编辑区域和右侧面板。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 - [辅助工具栏](#id2051EA0J0Y4)
 - [左侧面板](#id2051EA0M0HS)
 - [内容编辑区域](#id2051EB000UI)
-- [右侧面板](#id2051EB003YK)
+- [右面板](#id2051EB003YK)
 
 以下小节详细介绍了Web编辑器的各个部分。
 
@@ -98,7 +100,7 @@ ht-degree: 0%
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - **拼写检查**：有两个选项 — **AEM拼写检查**&#x200B;和&#x200B;**浏览器拼写检查**。 默认情况下，编辑器使用浏览器拼写检查功能，其中拼写检查使用浏览器的内置词典执行。 您可以切换到AEM拼写检查以使用AEM词典，也可以自定义该词典以添加自定义单词列表。 有关自定义AEM词典的更多信息，请参阅安装和配置AEMas a Cloud Service中的&#x200B;*自定义Adobe Experience Manager Guides的默认词典*&#x200B;部分。
+   - **拼写检查**：有两个选项 — **AEM拼写检查**&#x200B;和&#x200B;**浏览器拼写检查**。 默认情况下，编辑器使用浏览器拼写检查功能，其中拼写检查使用浏览器的内置词典执行。 您可以切换到AEM拼写检查以使用AEM的词典，也可以自定义该词典以添加您的自定义单词列表。 有关自定义AEM词典的更多信息，请参阅安装和配置AEM as a Cloud Service中的&#x200B;*自定义Adobe Experience Manager Guides的默认词典*&#x200B;部分。
 
 
    - **条件**
@@ -128,7 +130,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果自定义面板已配置，则它也会出现在面板列表中。 您可以切换开关以显示或隐藏自定义面板。 有关配置的更多详细信息，请参阅“安装和配置Adobe Experience Manager Guides”as a Cloud Service中的&#x200B;*在左侧面板中配置自定义面板*&#x200B;部分。
+> 如果自定义面板已配置，则它也会出现在面板列表中。 您可以切换开关以显示或隐藏自定义面板。 有关配置的更多详细信息，请参阅“安装和配置Adobe Experience Manager Guides as a Cloud Service”中的&#x200B;*在左侧面板中配置自定义面板*&#x200B;部分。
 
 - **元素列表**：作为管理员，您可以控制作者可以使用[插入元素](#id204SG30105Z)弹出窗口插入的元素列表，还可以定义元素的显示名称。 元素列表设置允许您根据DITA规范指定元素名称以及要使用的标签而不是DITA定义的元素名称：
 
@@ -148,9 +150,9 @@ ht-degree: 0%
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish配置文件**：它包含可用于发布&#x200B;**知识库**&#x200B;输出的Publish配置文件。 您可以为目标知识库创建新的用户档案。 例如，Salesforce或ServiceNow。
+- **发布配置文件**：这包含可用于发布&#x200B;**知识库**&#x200B;输出的发布配置文件。 您可以为目标知识库创建新的用户档案。 例如，Salesforce或ServiceNow。
 
-   - **创建Salesforce Publish配置文件**
+   - **创建Salesforce发布配置文件**
 
      **前提条件**
 
@@ -168,18 +170,18 @@ ht-degree: 0%
 
   配置应用程序后，Salesforce会提供&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。
 
-  这些配置文件可用于创建Salesforce Publish配置文件。
+  这些资源可用于创建Salesforce发布配置文件。
 
 
-   - 要创建Salesforce Publish配置文件，请从&#x200B;**服务器类型**&#x200B;下拉列表中选择&#x200B;**Salesforce**&#x200B;知识库。 输入配置文件名称。 在&#x200B;**站点URL**&#x200B;中，输入用于发布输出的使用者站点，然后添加由Salesforce使用者站点提供的&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 然后，**验证**&#x200B;和&#x200B;**保存**新创建的配置文件。
+   - 要创建Salesforce发布配置文件，请从&#x200B;**服务器类型**&#x200B;下拉列表中选择&#x200B;**Salesforce**&#x200B;知识库。 输入配置文件名称。 在&#x200B;**站点URL**&#x200B;中，输入用于发布输出的使用者站点，然后添加由Salesforce使用者站点提供的&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 然后，**验证**&#x200B;和&#x200B;**保存**新创建的配置文件。
      在编辑器设置中![salesforce发布配置文件](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >要在Experience Manager Guides中配置Salesforce的代理，请在AEM中使用Apache HTTP组件代理配置。 了解如何[配置AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的代理。
+     >要在Experience Manager Guides中配置Salesforce的代理，请使用AEM中的Apache HTTP组件代理配置。 了解如何[配置AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的代理。
 
 
-   - **创建ServiceNow Publish配置文件**
+   - **创建ServiceNow发布配置文件**
 
      **前提条件**
 
@@ -192,12 +194,12 @@ ht-degree: 0%
 
       - 单击&#x200B;**保存**。
 
-     配置应用程序后，创建&#x200B;**ServiceNow** Publish配置文件。
-   - 要创建Publish配置文件，请从&#x200B;**服务器类型**&#x200B;下拉列表中选择ServiceNow知识库。 输入配置文件&#x200B;**名称**。 在&#x200B;**ServiceNow URL**&#x200B;中，输入用于发布输出的使用者网站，然后添加由ServiceNow使用者网站提供的&#x200B;**用户名**&#x200B;和&#x200B;**密码**。 然后，**验证**&#x200B;和&#x200B;**保存**&#x200B;新创建的配置文件。
+     配置应用后，创建&#x200B;**ServiceNow**&#x200B;发布配置文件。
+   - 要创建发布配置文件，请从&#x200B;**服务器类型**&#x200B;下拉列表中选择ServiceNow知识库。 输入配置文件&#x200B;**名称**。 在&#x200B;**ServiceNow URL**&#x200B;中，输入用于发布输出的使用者网站，然后添加由ServiceNow使用者网站提供的&#x200B;**用户名**&#x200B;和&#x200B;**密码**。 然后，**验证**&#x200B;和&#x200B;**保存**&#x200B;新创建的配置文件。
 
      ![ServiceNow发布配置文件](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  验证后，您可以在DITA映射的输出预设中选择Publish配置文件，然后使用该配置文件生成到您选择的&#x200B;**Salesforce**&#x200B;或&#x200B;**ServiceNow**&#x200B;服务器的输出。
+  验证后，您可以在DITA Map的输出预设中选择发布配置文件，并使用它生成到您选择的&#x200B;**Salesforce**&#x200B;或&#x200B;**ServiceNow**&#x200B;服务器的输出。
 
   了解有关[知识库](../user-guide/generate-output-knowledge-base.md)输出预设的更多信息。
 
@@ -284,7 +286,7 @@ ht-degree: 0%
 
    - **文件夹配置文件**：文件夹配置文件控制与条件属性、创作模板、输出预设和Web编辑器配置相关的各种配置。 默认情况下，将显示“全局配置文件”。 此外，如果您的管理员在系统中配置了文件夹配置文件，则这些文件夹配置文件也会显示在文件夹配置文件列表中。
 
-     管理员可以在文件夹配置文件中定义的Web编辑器配置包括：自定义用户界面，包括工具栏图标、Web编辑器的布局、代码片段和根映射。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*配置全局或文件夹级别的配置文件*。
+     管理员可以在文件夹配置文件中定义的Web编辑器配置包括：自定义用户界面，包括工具栏图标、Web编辑器的布局、代码片段和根映射。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置全局或文件夹级别的配置文件*。
 
      >[!NOTE]
      >
@@ -465,7 +467,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 >[!NOTE]
 >
-> 添加YouTube视频链接时，您需要在URL中将字符串`watch?v=`替换为`embed`。 例如，要添加YouTube视频链接： `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`，您需要将其添加为： `https://www.youtube.com/**embed/**WlIKQOrmZcs`。 此更改可确保在AEM站点和PDF输出中嵌入视频。
+> 添加YouTube视频链接时，您需要在URL中将字符串`watch?v=`替换为`embed`。 例如，要添加YouTube视频链接： `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`，您需要将其添加为： `https://www.youtube.com/**embed/**WlIKQOrmZcs`。 此更改可确保在AEM Site和PDF输出中嵌入视频。
 
 也可以从“插入多媒体”对话框添加音频或视频文件。 选择“音频/视频文件”选项，然后单击浏览图标以启动存储库视图。 从存储库中选择音频或视频文件，然后单击选择，以在音频/视频文件字段中添加该文件的链接。 如果选择视频文件，则文件的预览也会显示在“预览”区域中。 您可以播放视频文件以查看其预览。
 
@@ -517,7 +519,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 >[!NOTE]
 >
-> 系统管理员还可以配置文本过滤器，并显示或隐藏其他过滤器。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的配置文本过滤器部分。
+> 系统管理员还可以配置文本过滤器，并显示或隐藏其他过滤器。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的配置文本过滤器部分。
 
 将显示包含搜索文本的已过滤文件的列表。 例如，在上面的屏幕截图中，列出了包含文本“general”的文件。 您还可以预览文件的内容。
 
@@ -531,7 +533,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 对于插入“内容引用”，您还可以输入文件的UUID，并且该文件中的可重用内容将在“预览”部分中列出。
 
-根据插入链接的设置，您可以在“属性”面板或Source代码视图中查看插入内容的UUID或相对路径。 链接始终使用引用内容的UUID创建。 请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的配置基于UUID的链接。
+根据插入链接的设置，您可以在“属性”面板或Source代码视图中查看插入内容的UUID或相对路径。 链接始终使用引用内容的UUID创建。 请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的配置基于UUID的链接。
 
 >[!NOTE]
 >
@@ -629,7 +631,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 >[!NOTE]
 >
-> 如果用户从Web编辑器中启用标记视图，则即使跨会话，该视图也会保持启用状态。 这意味着您无需再次启用“标记视图”即可稍后访问它。新用户会话的“标记视图”的默认值由ui\_config.json文件中的tagsView属性决定。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*为标记视图配置默认值*&#x200B;部分。
+> 如果用户从Web编辑器中启用标记视图，则即使跨会话，该视图也会保持启用状态。 这意味着您无需再次启用“标记视图”即可稍后访问它。新用户会话的“标记视图”的默认值由ui\_config.json文件中的tagsView属性决定。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*为标记视图配置默认值*&#x200B;部分。
 
 **启用/禁用跟踪更改** ![](images/track-change-icon.svg)
 
@@ -785,7 +787,7 @@ Web编辑器中的&#x200B;**版本历史记录**&#x200B;功能允许您检查DIT
 
 标签可帮助您确定特定主题在DDLC \（文档开发生命周期\）中的阶段。 例如，在处理主题时，可以将标签设置为“已批准”。 发布主题并提供给客户后，您可以为该主题分配“已发布”标签。
 
-AEM Guides允许您以自由格式文本格式指定标签或使用一组预定义标签。 自定义标签将允许系统中的任何作者根据其选择指定标签。 这提供了灵活性；但是，它会在系统中引入不一致的标签。 要解决此问题，管理员可以配置一组预定义标签。 有关配置预定义标签的详细信息，请参阅“安装和配置Adobe Experience Manager Guides”as a Cloud Service中的&#x200B;*配置和自定义XML Web编辑器*。
+AEM Guides允许您以自由格式文本格式指定标签或使用一组预定义标签。 自定义标签将允许系统中的任何作者根据其选择指定标签。 这提供了灵活性；但是，它会在系统中引入不一致的标签。 要解决此问题，管理员可以配置一组预定义标签。 有关配置预定义标签的详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置和自定义XML Web编辑器*。
 
 这些标签会以下拉列表形式显示给需要指定标签的作者。 这可确保在系统中仅使用预定义、一致的标签。
 
@@ -974,7 +976,7 @@ Web编辑器为搜索文本提供了增强的筛选器。 您可以搜索和筛�
 
   >[!NOTE]
   >
-  >系统管理员还可以配置文本过滤器，并显示或隐藏其他过滤器。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*配置文本过滤器*&#x200B;部分。
+  >系统管理员还可以配置文本过滤器，并显示或隐藏其他过滤器。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置文本过滤器*&#x200B;部分。
   >
   >将显示包含搜索文本的已过滤文件的列表。 例如，包含文本`general purpose`的文件将列在上一个屏幕快照中。 您可以从筛选列表中选择多个文件以将其拖放到打开进行编辑的映射中。
 
@@ -1105,7 +1107,7 @@ Web编辑器为搜索文本提供了增强的筛选器。 您可以搜索和筛�
 
      >[!NOTE]
      >
-     > 如果管理员阻止删除已签出的文件，则只会显示错误消息。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*阻止删除已签出的文件*&#x200B;部分。
+     > 如果管理员阻止删除已签出的文件，则只会显示错误消息。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*阻止删除签出的文件*&#x200B;部分。
 
    - 如果文件已添加到收藏夹收藏集，则会显示&#x200B;**强制删除**&#x200B;对话框，您可以强制删除它。
    - 如果该文件是从任何其他文件引用的，则会显示带有确认消息的&#x200B;**强制删除**&#x200B;对话框，您可以强制删除该文件：
@@ -1114,7 +1116,7 @@ Web编辑器为搜索文本提供了增强的筛选器。 您可以搜索和筛�
 
      >[!NOTE]
      >
-     > 如果管理员已授予文件删除权限，则启用&#x200B;**强制删除**。 否则，**强制删除**&#x200B;已禁用，并显示一条消息，指出您无权删除引用的文件。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*阻止删除引用的文件*&#x200B;部分。
+     > 如果管理员已授予文件删除权限，则启用&#x200B;**强制删除**。 否则，**强制删除**&#x200B;已禁用，并显示一条消息，指出您无权删除引用的文件。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*阻止删除引用的文件*&#x200B;部分。
 
    - 如果删除了引用的主题并且打开了包含要编辑的引用的文件，则将显示被引用文件的断开链接。
 
@@ -1149,7 +1151,7 @@ Web编辑器为搜索文本提供了增强的筛选器。 您可以搜索和筛�
 
 - **下载为PDF**：使用选项生成并下载PDF输出。
 
-- **Publish As**：使用选项将主题或主题中的元素发布到内容片段。
+- **发布为**：使用选项将主题或主题中的元素发布到内容片段。
 
 - **快速生成**：为所选文件生成输出。 只能为作为输出预设一部分的文件生成输出。 有关更多详细信息，请参阅[从Web编辑器中基于文章的发布](web-editor-article-publishing.md#id218CK0U019I)。
 
@@ -1943,7 +1945,7 @@ AEM Guides提供用于显示项目中所有审阅任务的功能。 您可以在
 
 ![](images/content-editing-area.png){width="650" align="left"}
 
-## 右侧面板 {#id2051EB003YK}
+## 右面板 {#id2051EB003YK}
 
 右侧面板是一个永久面板，其中包含有关当前选定文档的信息。
 

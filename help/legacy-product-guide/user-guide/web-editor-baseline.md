@@ -3,7 +3,9 @@ title: 从Web编辑器创建和管理基线
 description: 在AEM Guides中通过Web编辑器创建和管理基线。 了解如何基于标签创建基线并将过滤器应用于基线。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 如果您已升级到AEM Guidesas a Cloud Service三月版或更高版本，则建议从Web编辑器使用此基线功能。
+> 如果您已升级到AEM Guides as a Cloud Service 3月版或更高版本，则建议从Web编辑器使用此基线功能。
 
 AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建基线，并使用它们发布或翻译不同版本的主题。 它们还可以并行发布同一DITA映射的多个输出预设。
 
@@ -153,4 +155,3 @@ AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建�
 编辑基线后，可以单击顶部的&#x200B;**保存**&#x200B;按钮以保存对基线的更改。 如果不想保存更改并重置基线，可单击&#x200B;**重置**&#x200B;按钮。 单击“**重置**”按钮时，会显示一条警告，指出未保存的更改将丢失。
 
 **父主题：**[&#x200B;使用Web编辑器](web-editor.md)
-

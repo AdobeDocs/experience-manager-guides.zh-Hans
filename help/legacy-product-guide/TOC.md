@@ -4,9 +4,9 @@ user-guide-description: 使用旧用户界面阅读Adobe Experience Manager Guid
 breadcrumb-title: AEM Guides 文档
 hide: true
 badgeAll: label="旧UI指南 — 更多信息" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="旧UI指南"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 3%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 3%
                - [Web编辑器视图](./user-guide/web-editor-views.md)
                - [支持Schematron文件](./user-guide/support-schematron-file.md)
                - [用于创作内容的AI支持的智能建议](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [用于搜索内容的AI支持的智能帮助](./user-guide/ai-based-smart-help.md)
+               - [AI助手，可智能高效地创作文档](./user-guide/ai-assistant-right-panel.md)
                - [从Web编辑器创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
                - [将引用添加到您的内容](./user-guide/web-editor-apply-citations.md)
                - [使用来自您的数据源的数据](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 3%
       - [基本疑难解答](./user-guide/generate-output-basic-troubleshooting.md)
       - [发布内容片段](./user-guide/publish-content-fragment.md)
       - [发布体验片段](./user-guide/publish-experience-fragment.md)
+      - [发布AEM Sites页面](./user-guide/publish-aem-sites.md)
       - 批量激活内容{#bulk-activation}
          - [批量激活已发布的内容](./user-guide/conf-bulk-activation.md)
          - [创建批量激活映射集合](./user-guide/conf-bulk-activation-create-map-collection.md)

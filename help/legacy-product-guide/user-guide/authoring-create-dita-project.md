@@ -3,7 +3,9 @@ title: 创建DITA项目
 description: 使用AEM Guides中的模板创建DITA项目。 了解如何使用DITA项目启动审阅。
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -20,7 +22,7 @@ AEM Guides提供了一个DITA项目模板，您可以使用它来创建和管理
 
 创建DITA项目后，您可以从Web编辑器或Assets UI启动审核。 有关更多详细信息，请参阅[发送审核主题](review-send-topics-for-review.md#)。
 
-同样，每当作者启动任何审阅工作流时，项目的选定成员都会收到电子邮件通知。 要配置电子邮件通知，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*自定义电子邮件模板*。
+同样，每当作者启动任何审阅工作流时，项目的选定成员都会收到电子邮件通知。 要配置电子邮件通知，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*自定义电子邮件模板*。
 
 执行以下步骤以创建DITA项目：
 

@@ -3,7 +3,9 @@ title: 转化状态报表
 description: 在AEM Guides中将不同格式的文档转换为DITA。 了解如何添加过滤器并查看转化状态报告。
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -30,7 +32,7 @@ AEM Guides提供强大的转换功能，可将各种格式的文档转换为DITA
 
    - **筛选器：**
 
-     您可以根据“文件类型”和“转换状态”筛选报表数据。 在“文件类型”中，您可以选择查看Word文档、结构化HTML、XML和DocBook文档类型的报表数据。 在状态中，您可以选择查看已成功执行、失败、活动或已排队任务的报表数据。
+     您可以根据“文件类型”和“转换状态”筛选报表数据。 在“文件类型”中，您可以选择查看Word文档、结构化HTML、XML和DocBook类型文档的报表数据。 在状态中，您可以选择查看已成功执行、失败、活动或已排队任务的报表数据。
 
      以下屏幕截图显示了状态为“失败”、“活动”和“已排队”的转化任务的报表数据。
 

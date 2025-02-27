@@ -3,7 +3,9 @@ title: 在Web编辑器中编辑主题
 description: 了解如何在Web编辑器中编辑主题。 了解各种编辑功能，以便在AEM Guides中修改主题文件。
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%

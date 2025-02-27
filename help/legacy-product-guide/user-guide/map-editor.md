@@ -3,7 +3,9 @@ title: 使用映射编辑器
 description: 使用AEM Guides中的地图编辑器。 了解如何在AEM映射编辑器中创建和编辑映射文件。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1928364f-3ea9-4e53-9184-dad8fe40f58c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

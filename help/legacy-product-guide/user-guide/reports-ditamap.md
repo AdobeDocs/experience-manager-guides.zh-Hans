@@ -3,7 +3,9 @@ title: 映射仪表板中的DITA映射报表
 description: 从AEM Guides中的映射仪表板生成DITA映射报告。 了解如何生成DITA映射报告的CSV。
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -86,7 +88,7 @@ AEM Guides为管理员提供了报告功能，可在文档上线或提供给最�
    ![](images/download-report-dialog.png){width="550" align="left"}
 
 
-   您也可以稍后从AEM通知收件箱中下载所生成报告的CSV文件。
+   您也可以稍后从AEM通知收件箱下载所生成报告的CSV文件。
 
    单击收件箱中生成的报告以下载报告。
 

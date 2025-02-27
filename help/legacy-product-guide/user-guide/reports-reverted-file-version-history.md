@@ -3,7 +3,9 @@ title: 还原文件版本历史记录报告
 description: 在AEM Guides中查看还原文件版本历史记录报告。 了解如何从Assets UI、主题预览和AEM工具选择访问还原版本日志。
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -24,7 +26,7 @@ AEM Guides允许您为单个文件或文件夹中的所有文件生成版本历�
 
 - **主题预览**：在预览主题时，还可以从左边栏打开&#x200B;**版本历史记录**&#x200B;面板。 您将获得一个与Assets UI类似的面板，您可以从其中单击&#x200B;**还原版本日志**&#x200B;链接以访问活动文档的还原版本历史记录。
 
-- **AEM工具部分**：您还可以从AEM工具部分访问此报告。 以下过程说明了如何从“AEM工具”部分访问还原版本历史记录。
+- **AEM的“工具”部分**：您也可以从AEM的“工具”部分访问此报表。 以下过程说明了如何从AEM的“工具”部分访问还原版本历史记录。
 
 
 执行以下步骤以访问还原历史记录报告：

@@ -3,7 +3,9 @@ title: 在内容中添加和管理引文
 description: 在AEM Guides中添加和管理引文。 了解如何应用、导入、筛选、搜索、更改引文样式、编辑、预览、插入、删除和生成包含引文的内容输出。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -17,14 +19,14 @@ ht-degree: 0%
 在AEM Guides中，您可以添加和导入引用，并将它们应用于您的内容。 您可以从任何书籍、网站和日记帐来源添加这些引文。
 
 
-AEM Guides可帮助您编辑、预览和排序您的引用。 将引用添加到内容中后，您可以使用本机PDF生成输出。 您还可以在本机PDF输出中添加书目或引用页面。
+AEM Guides可帮助您编辑、预览和排序您的引用。 将引用添加到内容中后，您可以使用本机PDF生成输出。 您还可以在本机PDF输出中添加目录或引用页面。
 
 AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国心理协会(APA)、芝加哥、电气和电子工程师协会(IEEE)和美国心脏协会(AHA)。 建议明确和一致地使用这些指标。
 
 
 >[!NOTE]
 >
->目前，AEM Guides仅支持对引文进行本机PDF。
+>目前，AEM Guides仅支持在本机PDF中进行引用。
 
 
 ## 添加引文
@@ -255,12 +257,12 @@ AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国�
 
 在主题中插入引文后，您可以使用本机PDF发布包含引文的内容。
 
-在本机PDF输出中，引文会出现在您插入它们的内容中。 您还可以创建“书目”页面。 当您单击任何引文时，您将被重定向到文献目录页面。
+在本机PDF输出中，引用显示在您插入它们的内容中。 您还可以创建“书目”页面。 当您单击任何引文时，您将被重定向到文献目录页面。
 
-在PDF模板中创建&#x200B;**引用**&#x200B;页面布局，并将其包含在您的文档中。 书中使用的所有引文都会列在PDF输出中的一个页面上。 要了解有关创建页面布局的更多信息，请查看[创建页面布局](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout)。
+在PDF模板中创建&#x200B;**引用**&#x200B;页面布局，并将其包含在您的文档中。 本书中使用的所有引文都会列在PDF输出中显示的一个页面上。 要了解有关创建页面布局的更多信息，请查看[创建页面布局](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout)。
 
 
-若要更改引文页的视图和风格，请查看[自定义PDF模板](/help/product-guide/native-pdf/pdf-template.md)。
+若要更改引文页面的视图和风格，请查看[自定义PDF模板](/help/product-guide/native-pdf/pdf-template.md)。
 
 
 
@@ -268,7 +270,7 @@ AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国�
 
 将格式添加到主题后，应用于引文。
 
-1. 在本机PDF输出预设的&#x200B;**模板**&#x200B;面板中选择&#x200B;**样式表**。   它打开包含所有样式选项的&#x200B;**样式**&#x200B;面板。
+1. 在Native PDF输出预设的&#x200B;**模板**&#x200B;面板中选择&#x200B;**样式表**。   它打开包含所有样式选项的&#x200B;**样式**&#x200B;面板。
 
 1. 在“搜索”面板中，搜索`<cite>`。
 

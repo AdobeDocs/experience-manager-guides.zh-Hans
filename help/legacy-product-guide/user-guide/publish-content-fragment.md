@@ -1,16 +1,18 @@
 ---
-title: Publish内容片段的主题
-description: 在AEM Guides中，将主题或主题中的元素Publish为内容片段。  了解如何查看呈现给某个主题的内容片段并重新发布它们。
+title: 将主题发布到内容片段
+description: 将主题或主题中的元素发布到AEM Guides中的内容片段。  了解如何查看呈现给某个主题的内容片段并重新发布它们。
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
-# Publish内容片段
+# 发布内容片段
 
 内容片段是Adobe Experience Manager中的离散内容片段。 它们是基于内容模型的结构化内容。 内容片段是纯内容，没有设计或布局信息。 它们可以独立于Adobe Experience Manager支持的渠道进行创作和管理。 内容片段是模块化的，其中的内容被划分为较小的组件。
 
@@ -39,7 +41,7 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 1. 在&#x200B;**生成内容片段**&#x200B;对话框中，在&#x200B;**常规**&#x200B;和&#x200B;**映射**&#x200B;选项卡下填写以下详细信息。
 
    **常规**选项卡
-   ![在Publish中添加片段模型和映射详细信息作为内容片段对话框](images/generate-content-fragment.png)
+   ![在“作为内容片段发布”对话框中添加片段模型和映射详细信息](images/generate-content-fragment.png)
    *添加路径、名称、标题和条件筛选以将主题或其元素发布为内容片段。*
 
 
@@ -63,7 +65,7 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 
    **映射**&#x200B;选项卡
 
-   ![在Publish中添加片段模型和映射详细信息作为内容片段对话框](images/content-fragment-mapping.png)
+   ![在“作为内容片段发布”对话框中添加片段模型和映射详细信息](images/content-fragment-mapping.png)
 
    *选择内容片段模型并添加映射详细信息，以将主题或其元素发布为内容片段。*
 

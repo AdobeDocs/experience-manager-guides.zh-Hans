@@ -1,9 +1,11 @@
 ---
 title: 输出预设简介
-description: Publish在AEM Guides中FrameMaker文档。 了解如何为PDF、HTML5和EPUB格式的FrameMaker文档生成输出。
+description: 在AEM Guides中发布FrameMaker文档。 了解如何为PDF、HTML5和EPUB格式的FrameMaker文档生成输出。
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 691773e5-547f-4638-9ce0-f6d08e1153d7
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

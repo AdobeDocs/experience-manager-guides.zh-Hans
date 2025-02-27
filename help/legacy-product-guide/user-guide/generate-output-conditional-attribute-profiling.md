@@ -3,10 +3,12 @@ title: 条件属性分析
 description: 了解如何在AEM Guides中创建条件属性。 使用文件夹和全局配置文件中的条件属性来条件化您的内容。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -50,7 +52,7 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 
 1. 如果要添加更多属性，请单击&#x200B;**添加**。
 
-1. 单击&#x200B;**保存**&#x200B;以保存更改。
+1. 点击&#x200B;**保存**&#x200B;即可保存更改。
 
 
 `platform`属性存储在系统中。 每当作者决定使用文件夹中DITA主题中的`platform`属性时，他们都会在Web编辑器的“属性”选项卡中看到值。

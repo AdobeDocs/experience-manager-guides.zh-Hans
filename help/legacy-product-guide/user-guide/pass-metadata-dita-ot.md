@@ -3,7 +3,9 @@ title: 使用DITA-OT将元数据传递到输出
 description: 了解如何使用AEM Guides中的DITA-OT发布将元数据传递到输出。
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -32,7 +34,7 @@ ht-degree: 0%
 
    此文件可以覆盖在： `/apps/fmdita/config/metadataList`。
 
-   要传递已为其定义值的自定义属性，请参阅[在DITA-OTPDF输出中使用AEM元数据](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)。
+   要传递已为其定义值的自定义属性，请参阅[在DITA-OT PDF输出中使用AEM元数据](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)。
 
 1. 从&#x200B;**属性**&#x200B;下拉列表中，选择所需的自定义属性和默认属性。 例如，选择`author`、`dc:title`和`dc:description`。 这些是在我们创建文件后创建的标准`metadata/properties`。 选定的属性列在收存箱的下方。
 

@@ -3,7 +3,9 @@ title: 激活输出
 description: 在AEM Guides中激活DITA映射的输出。 了解如何在发布实例上激活您的内容。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 1%
@@ -18,7 +20,7 @@ ht-degree: 1%
 
 1. 单击顶部的Adobe Experience Manager链接，然后选择&#x200B;**工具**。
 
-1. 单击&#x200B;**批量Publish仪表板**&#x200B;磁贴。
+1. 单击&#x200B;**批量发布功能板**&#x200B;磁贴。
 
    此时将显示批量激活映射集合列表。
 
@@ -40,19 +42,19 @@ ht-degree: 1%
 
 ![在云服务上批量收集 — 发布](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-您可以激活&#x200B;**预览**&#x200B;或&#x200B;**Publish**&#x200B;实例的输出。
+您可以激活输出到&#x200B;**预览**&#x200B;或&#x200B;**发布**&#x200B;实例。
 
 **预览**
 
-* 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**Publish到** > **预览**。
-* 要激活所有DITA映射及其配置预设的输出，请选中&#x200B;**映射**&#x200B;列旁边的复选框，然后选择&#x200B;**Publish to** > **Publish**。
+* 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**发布到** > **预览**。
+* 要激活所有DITA映射及其配置预设的输出，请选中&#x200B;**映射**&#x200B;列旁边的复选框，然后选择&#x200B;**发布到** > **发布**。
 
 
-**Publish**
+**发布**
 
-* 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**Publish to** > **Publish**。
+* 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**发布到** > **发布**。
 
-* 要激活所有DITA映射及其配置预设的输出，请选中映射（列）旁边的复选框，然后选择&#x200B;**Publish to** > **Publish**。
+* 要激活所有DITA映射及其配置预设的输出，请选中映射（列）旁边的复选框，然后选择&#x200B;**发布到** > **发布**。
 
 
 >[!NOTE]
@@ -71,8 +73,8 @@ ht-degree: 1%
 
 执行下列操作之一：
 
-* 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**快速Publish**。
-* 要激活所有DITA映射及其配置预设的输出，请选中映射（列）旁边的复选框，然后选择&#x200B;**快速Publish。**
+* 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**快速发布**。
+* 要激活所有DITA映射及其配置预设的输出，请选中映射（列）旁边的复选框，然后选择&#x200B;**快速发布。**
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]

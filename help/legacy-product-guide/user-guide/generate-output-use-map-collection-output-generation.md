@@ -3,7 +3,9 @@ title: 使用映射集合生成输出
 description: 了解如何创建和删除映射收藏集以及添加或删除DITA映射。 在AEM Guides中，通过映射集合配置、生成和取消输出生成任务。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 1%
@@ -54,7 +56,7 @@ ht-degree: 1%
 
 - **筛选器：**&#x200B;最近边栏显示以下筛选器：
    - **已修改**：您可以选择“是”或“否”。 如果选择“是”，则只有修改的DITA映射才会显示在“映射和预设”表中。
-   - **预设**：选择要过滤掉映射文件的预设。 例如，如果您选择&#x200B;*AEM Site*&#x200B;预设，则仅显示上面配置了&#x200B;*AEM Site*&#x200B;输出预设的映射。
+   - **预设**：选择要过滤掉映射文件的预设。 例如，如果选择&#x200B;*AEM Site*&#x200B;预设，则仅显示上面配置了&#x200B;*AEM Site*&#x200B;输出预设的映射。
    - **语言**：您可以选择任何可用的语言代码，并在“映射和预设”表中仅显示选定的语言。
 - **映射和预设**&#x200B;表：“映射和预设”表显示以下列的信息：
    - **映射**：显示DITA映射文件的标题。
@@ -137,7 +139,7 @@ ht-degree: 1%
 
 ## 从映射集合中取消输出生成任务
 
-与从[DITA映射控制台](generate-output-for-a-dita-map.md#id2061H100T5Z)或[Publish仪表板](generate-output-publish-dashboard.md#)取消输出生成任务的方法类似，您可以从映射集合中取消输出生成任务。 访问映射集合的“输出”选项卡，转到要取消的发布任务，然后单击&#x200B;**取消此作业**&#x200B;图标以取消发布任务。
+与从[DITA映射控制台](generate-output-for-a-dita-map.md#id2061H100T5Z)或[发布仪表板](generate-output-publish-dashboard.md#)取消输出生成任务的方法类似，您可以从映射集合中取消输出生成任务。 访问映射集合的“输出”选项卡，转到要取消的发布任务，然后单击&#x200B;**取消此作业**&#x200B;图标以取消发布任务。
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 

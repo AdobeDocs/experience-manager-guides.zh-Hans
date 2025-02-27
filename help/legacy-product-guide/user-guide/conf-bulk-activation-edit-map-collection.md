@@ -3,7 +3,9 @@ title: 编辑批量激活映射集合
 description: 在AEM Guides中使用批量发布功能板。 了解如何通过添加或删除映射文件来编辑批量激活映射集合。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a15ee164-ec60-483e-8760-b1c290625415
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -18,16 +20,16 @@ ht-degree: 2%
 
 1. 单击顶部的Adobe Experience Manager链接，然后选择&#x200B;**工具**。
 
-1. 单击&#x200B;**批量Publish仪表板**&#x200B;磁贴。
+1. 单击&#x200B;**批量发布功能板**&#x200B;磁贴。
 
    此时将显示批量激活映射集合列表。
 
 1. 选择要编辑的收藏集，然后单击&#x200B;**打开**。
 
-1. 点击&#x200B;**编辑**。
+1. 单击&#x200B;**编辑**。
 
    此时会显示批量激活映射收集页面，其中显示了映射以及每个可用区域设置的预配置预设。
-您可以查看各种类型的输出预设及其图标，例如AEM Site、PDF、本机PDF、HTML5、自定义和JSON输出
+您可以查看各种类型的输出预设及其图标，例如AEM Site、PDF、Native PDF、HTML5、Custom和JSON输出
 .
 
    >[!NOTE]

@@ -3,7 +3,9 @@ title: 启动Web编辑器
 description: 了解如何从AEM Guides中的AEM导航页面、AEM Assets UI和DITA映射控制台启动Web编辑器。
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -32,7 +34,7 @@ ht-degree: 0%
 
 由于您启动了Web编辑器而未选择任何文件，因此将显示一个空白的Web编辑器屏幕。 您可以从AEM存储库或“收藏夹”收藏集中打开文件进行编辑。
 
-- 单击&#x200B;**Guides**&#x200B;图标(![](images/aem-guides-icon.png))以返回AEM导航页面。
+- 单击&#x200B;**指南**&#x200B;图标(![](images/aem-guides-icon.png))以返回AEM导航页面。
 
 - “**关闭**”按钮根据您的设置将您转到目标：
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
   <summary> Cloud Service </summary>
 
-  如果您正在使用Cloud Service，请单击&#x200B;**关闭**&#x200B;按钮以返回“AEM导航”页。
+  如果您使用的是Cloud Services，请单击&#x200B;**关闭**&#x200B;按钮以返回AEM导航页面。
   </details>
 
   <details>

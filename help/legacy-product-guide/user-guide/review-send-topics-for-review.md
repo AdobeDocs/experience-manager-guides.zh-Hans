@@ -3,7 +3,9 @@ title: 发送主题以供审阅
 description: 了解如何在AEM Guides中创建审阅任务和发送审阅主题。 在DITA映射中发送一个或多个主题以供审阅。
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%

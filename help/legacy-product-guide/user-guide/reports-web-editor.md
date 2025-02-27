@@ -3,7 +3,9 @@ title: Web编辑器中的DITA映射报表
 description: 从AEM Guides中的Web编辑器生成DITA映射报告。 了解如何为主题列表、多媒体、元数据和断开链接报表生成CSV。
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 0%

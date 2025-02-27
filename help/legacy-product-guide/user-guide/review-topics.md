@@ -3,7 +3,9 @@ title: 查看主题
 description: 了解如何在AEM Guides中查看主题并将这些功能用作查看者、文档视图、主题视图、上下文工具栏、预览模式、向注释添加附件和条件面板。
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -22,7 +24,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 您还可以从AEM用户界面的“收件箱通知”区域访问主题查看链接。
+   > 您还可以从AEM用户界面的收件箱通知区域访问主题查看链接。
 
 1. 根据主题审阅的启动方式，您可以看到以下两个屏幕中的任何一个：
 
@@ -30,7 +32,7 @@ ht-degree: 0%
    >
    > 如果您是在以下位置创建审阅的，则UI可能会不同：
    >
-   > - AEM Guidesas a Cloud Service2022年11月版或更早版本
+   > - AEM Guides as a Cloud Service 2022年11月版或更早版本
    > - AEM Guides版本4.1或更低版本
 
 

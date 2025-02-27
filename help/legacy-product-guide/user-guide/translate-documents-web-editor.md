@@ -3,7 +3,9 @@ title: 从Web编辑器翻译文档
 description: 从Web编辑器将内容翻译成多种语言。 了解如何在AEM Guides中创建翻译项目、添加规则、查看版本和关闭不同步的文件。
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -14,13 +16,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 如果您已升级到AEM Guides as a Cloud Service2022年2月版或更高版本，则建议从Web编辑器使用此翻译功能。
+> 如果您已升级到AEM Guides as a Cloud Service 2022年2月版或更高版本，则建议从Web编辑器使用此翻译功能。
 
 AEM Guides在Web编辑器中提供了强大的功能，使您能够把内容翻译成多种语言。 您可以创建新翻译项目，稍后将翻译作业添加到现有翻译项目。 您还可以创建多语言翻译项目，该项目包含所有选定语言的翻译作业。
 
 >[!NOTE]
 >
-> 您的管理员可以在Web编辑器中配置管理选项卡\（用于翻译\）。 有关更多详细信息，请参阅“安装和配置Adobe Experience Manager Guides”as a Cloud Service中的&#x200B;*在Web编辑器中配置翻译功能*。
+> 您的管理员可以在Web编辑器中配置管理选项卡\（用于翻译\）。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*在Web编辑器中配置翻译功能*&#x200B;部分。
 
 ## 开始之前
 
@@ -136,7 +138,7 @@ AEM Guides允许管理员配置翻译规则。 SRX（分段规则交换）格式
 SRX文件应命名为`<language-code>.srx`。 例如，en-US或ar-AE。
 
 >[!NOTE]
->标题不区分大小写，因此您可以具有“en-US”、“en-us”或“EN-us”。 此外，AEM guides可以解析“ — ”（连字符）或“_”（下划线）。 因此，您可以设置“en-US”或“en_US”。
+>标题不区分大小写，因此您可以具有“en-US”、“en-us”或“EN-us”。 此外，AEM Guides可以解析“ — ”（连字符）或“_”（下划线）。 因此，您可以设置“en-US”或“en_US”。
 
 此外，您还可以将这些文件放入AEM资源根目录下的任何文件夹`./content/dam`中。
 
@@ -150,7 +152,7 @@ SRX文件应命名为`<language-code>.srx`。 例如，en-US或ar-AE。
 AEM Guides根据翻译项目的源语言选择SRX规则。 它会查找某种语言的自定义SRX文件，如果您未定义自定义SRX文件，则它会根据现成的翻译规则选取规则。
 
 
-有关设置全局和文件夹级别配置文件的详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*配置创作模板*&#x200B;部分。
+有关设置全局和文件夹级别配置文件的详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置创作模板*&#x200B;部分。
 
 ## 将版本标签传递到目标版本
 
@@ -205,7 +207,7 @@ AEM Guides提供了用于检查主题的所选版本与上次翻译的源版本�
 
 >[!NOTE]
 >
-> 您可以看到正在AEM Guides 2023年2月as a Cloud Service版本或更高版本中创建的已翻译项目的链接。
+> 您可以看到在AEM Guides as a Cloud Service 2023年2月版或更高版本中创建的已翻译项目的正在进行中链接。
 
 在对话框中单击参照的名称，以在预览模式下将其打开。 您还可以单击翻译项目以开始翻译。
 

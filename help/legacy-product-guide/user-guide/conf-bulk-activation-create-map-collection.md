@@ -1,9 +1,11 @@
 ---
 title: 创建批量激活映射集合
-description: 了解如何在AEM guides中创建批量激活图收藏集。
+description: 了解如何在AEM指南中创建批量激活图收藏集。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 1. 选择顶部的Adobe Experience Manager链接，然后选择&#x200B;**工具**。
 
-1. 选择&#x200B;**批量Publish仪表板**&#x200B;磁贴。
+1. 选择&#x200B;**批量发布仪表板**&#x200B;磁贴。
 
    首次显示空白收藏集页面。 如果您之前已创建批量激活收藏集，则它们将显示在此页面上。
 
@@ -75,7 +77,7 @@ DITA映射文件将添加到批量激活映射集合中。
 - **语言**：显示DITA映射的语言代码。
 - **预设**：显示在映射文件上配置的输出预设的标题。 它还会根据输出预设的类型显示图标。
 - **状态**：将激活状态显示为成功或不成功。
-- **目标**：如果在Experience Manager Guidesas a Cloud Service上生成输出，则可以以Publish或“预览”形式查看输出的目标。
+- **目标**：如果在Experience Manager Guides as a Cloud Service上生成输出，则可以以“发布”或“预览”形式查看输出的目标。
 
   >[!NOTE]
   >
@@ -99,7 +101,7 @@ DITA映射文件将添加到批量激活映射集合中。
 左侧面板上提供了以下筛选选项：
 
 - **已修改**：您可以选择“是”或“否”。 如果选择“是”，则仅显示修改的DITA映射。 修改后的映射是自上次发布以来生成的映射。
-- **预设**：选择要过滤掉映射文件的预设。 此列显示在映射文件上配置的输出预设的标题。 例如，如果您选择&#x200B;*AEM Site*&#x200B;预设，则仅显示上面配置了&#x200B;*AEM Site*&#x200B;输出预设的映射。
+- **预设**：选择要过滤掉映射文件的预设。 此列显示在映射文件上配置的输出预设的标题。 例如，如果选择&#x200B;*AEM Site*&#x200B;预设，则仅显示上面配置了&#x200B;*AEM Site*&#x200B;输出预设的映射。
 - **语言**：您可以选择任何可用的语言代码，并在“映射和预设”选项卡中仅显示选定的语言。
 
 当您从&#x200B;**映射和预设**&#x200B;选项卡切换到&#x200B;**审核历史记录**&#x200B;选项卡时，筛选器会更新，反之亦然。

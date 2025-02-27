@@ -3,7 +3,9 @@ title: Web编辑器视图
 description: 在创作、源和预览模式下查看文档。 了解如何在AEM Guides中查看基于条件筛选器的内容、查看跟踪更改标记以及将主题导出为PDF。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: dbc27856-6903-4694-9875-77dc778c80bd
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -120,7 +122,7 @@ Source视图显示构成该主题的基础XML。 如果您习惯直接使用XML�
 
 ### 将主题导出为PDF {#id2114BL00B5U}
 
-PDF是在文档开发周期的每一个可能阶段使用的最常见输出格式之一。 AEM Guides使您能够灵活地生成单个主题或整个映射文件的PDF。 “导出为PDF”功能允许作者、发布者或管理员轻松生成单个主题的PDF输出。 它使用保存在文件夹级别配置文件中的DITA-OT配置来生成PDF。
+PDF是在文档开发周期的每一个可能阶段使用的最常见输出格式之一。 AEM Guides使您可以灵活地生成单个主题的PDF或整个映射文件。 导出为PDF功能允许作者、发布者或管理员轻松生成单个主题的PDF输出。 它使用保存在文件夹级别配置文件中的DITA-OT配置来生成PDF。
 
 此功能支持以下功能：
 
@@ -135,7 +137,7 @@ PDF是在文档开发周期的每一个可能阶段使用的最常见输出格�
 
 1. 单击&#x200B;**导出为PDF** \(![](images/export-as-pdf-icon.svg)\)图标。
 
-   此时将显示“导出为PDF”对话框。
+   此时将显示导出为PDF对话框。
 
    ![](images/export-as-pdf-dialog.png){width="350" align="left"}
 
@@ -145,9 +147,9 @@ PDF是在文档开发周期的每一个可能阶段使用的最常见输出格�
 
    >[!NOTE]
    >
-   > 请确保已在浏览器配置中启用了弹出窗口，否则将不会下载PDF。
+   > 请确保已在浏览器配置中启用弹出窗口，否则将不会下载PDF。
 
-   PDF会生成并在新选项卡中打开，或者您会看到一个对话框，用于在本地系统上保存PDF。
+   将生成PDF并在新选项卡中打开，或者您会看到一个对话框，用于在本地系统上保存PDF。
 
 
 **父主题：**[&#x200B;使用Web编辑器](web-editor.md)

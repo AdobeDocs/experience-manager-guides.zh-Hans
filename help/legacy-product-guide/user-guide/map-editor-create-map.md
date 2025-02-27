@@ -3,7 +3,9 @@ title: 创建映射
 description: 在AEM Guides中使用“映射编辑器”创建映射。 查找基于映射模板创建映射文件的步骤。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -50,7 +52,7 @@ AEM Guides提供两个现成的映射模板 — DITA映射和Bookmap。 您还�
 
    >[!NOTE]
    >
-   > 要使用高级映射编辑器，请在Web编辑器中访问映射文件。 如果管理员已将高级映射编辑器配置为映射文件中的默认编辑器，则直接在高级映射编辑器中打开映射文件以进行编辑。 请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*将高级映射编辑器设置为默认值*&#x200B;部分。
+   > 要使用高级映射编辑器，请在Web编辑器中访问映射文件。 如果管理员已将高级映射编辑器配置为映射文件中的默认编辑器，则直接在高级映射编辑器中打开映射文件以进行编辑。 请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*将高级映射编辑器设置为默认值*&#x200B;部分。
 
 
 **父主题：**[&#x200B;使用映射编辑器](map-editor.md)

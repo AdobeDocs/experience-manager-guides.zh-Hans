@@ -3,8 +3,9 @@ title: 使用高级映射编辑器
 description: 了解如何在AEM Guides中使用高级映射编辑器。 了解高级映射编辑器的功能。 通过DITA映射编辑主题，并使用布局视图、作者视图和预览模式。
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -272,7 +273,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您的管理员可以配置自动向添加到映射的每个引用文件添加`@navtitle`属性。 有关配置自动添加`@navtitle`属性的更多详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*默认情况下包含@navtitle属性*。
+> 您的管理员可以配置自动向添加到映射的每个引用文件添加`@navtitle`属性。 有关配置自动添加`@navtitle`属性的更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*默认情况下包含@navtitle属性*。
 
 单击“刷新导航标题属性”图标以同步`title`元素和`@navtitle`属性的值。
 

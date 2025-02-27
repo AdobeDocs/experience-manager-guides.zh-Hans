@@ -1,7 +1,8 @@
 ---
 title: 用于搜索内容的AI支持的智能帮助
 description: 了解如何在Web编辑器中查看和利用AI支持的智能帮助。
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Experience Manager Guides提供了基于GenAI的智能帮助，该对话式搜�
 
 >[!NOTE]
 >
-> 您的管理员必须配置&#x200B;**智能帮助**&#x200B;功能。 有关更多详细信息，请查看《Cloud Service的安装和配置指南》中的[配置AI支持的Smart Help以搜索content](/help/product-guide/cs-install-guide/conf-smart-help.md)部分。
+> 您的管理员必须配置&#x200B;**智能帮助**&#x200B;功能。 有关更多详细信息，请查看Cloud Services的安装和配置指南中的[配置AI支持的智能帮助以搜索内容](/help/product-guide/cs-install-guide/conf-smart-help.md)部分。
 
 ![智能帮助面板](images/smart-help-panel.png){width="300" align="left"}
 

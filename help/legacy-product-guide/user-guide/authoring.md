@@ -3,7 +3,9 @@ title: 管理内容
 description: 在AEM Guides中管理内容并确定您的角色和权限。 了解内容管理以及使用全局或文件夹级别配置文件的主要概念。
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 9%
@@ -98,4 +100,4 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
 此外，您还可以将特定于文件夹的配置委派给部门或产品管理员，以分散管理。
 
-有关设置全局和文件夹级别配置文件的详细信息，请参阅安装和配置Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*配置全局或文件夹级别配置文件*。
+有关设置全局和文件夹级别配置文件的详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置全局或文件夹级别配置文件*。

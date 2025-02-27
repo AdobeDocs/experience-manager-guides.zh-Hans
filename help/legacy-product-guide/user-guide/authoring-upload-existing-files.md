@@ -3,7 +3,9 @@ title: 上载文件
 description: 了解如何将文件上传到AEM存储库并处理错误。 了解资源控制台用户界面、AEM桌面应用程序、资源批量提取器，并使用FrameMaker进行批量上传。
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # 上载文件 {#id176FF000JUI}
 
-您很可能有一个包含要与AEM Guides一起使用的现有DITA内容的存储库。 对于此类现有内容，您可以使用以下任意方法将内容批量上传到AEM存储库：
+您很可能有一个包含要与AEM Guides一起使用的现有DITA内容的存储库。 对于此类现有内容，您可以使用以下任意方法将您的内容批量上传到AEM存储库：
 
 >[!IMPORTANT]
 >
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 ## Assets Console用户界面
 
-您可以选择桌面上的内容，然后在AEM用户界面\（Web浏览器\）上拖动到目标文件夹。 有关更多详细信息，请参阅AEM文档中的[上传资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets)。
+您可以在桌面上选择内容，然后在AEM用户界面\（Web浏览器\）上拖动到目标文件夹。 有关详细信息，请参阅AEM文档中的[上传资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets)。
 
 ## AEM 桌面应用程序
 
@@ -44,6 +46,6 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
 
 有关各种文件上传方案的详细信息，请参阅[上传DITA内容](authoring-file-management.md#)。
 
-如果您使用AEM桌面应用程序或资产批量摄取器等工具，则对重复文件执行的操作将由AEM服务器上的设置控制。 请与系统管理员联系以了解此配置。
+如果您使用AEM桌面应用程序或资产批量引入器等工具，则对重复文件执行的操作将由AEM服务器中的设置控制。 请与系统管理员联系以了解此配置。
 
 **父主题：**[&#x200B;管理内容](authoring.md)

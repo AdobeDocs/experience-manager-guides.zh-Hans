@@ -3,7 +3,9 @@ title: 内容重用报告
 description: 了解如何在AEM Guides中查看内容重用报告。 生成报告以查找内容重用百分比。
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%

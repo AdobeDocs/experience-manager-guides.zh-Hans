@@ -3,7 +3,9 @@ title: 生成.book或.fm文件的输出
 description: 了解如何在AEM Guides中生成.book或.fm文件的输出。
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # 生成.book或.fm文件的输出 {#generating_output_fm_docs}
 
-执行以下步骤以生成FrameMaker单据的输出：
+执行以下步骤以生成FrameMaker文档的输出：
 
 1. 在Assets UI中，导航到要发布的`.book`或`.fm`文件并单击它。
 

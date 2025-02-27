@@ -3,7 +3,9 @@ title: 使用通知重新分配审核任务
 description: 使用AEM Guides中的通知重新分配审核任务。 了解如何从收件箱通知中重新分配审核者任务。
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
