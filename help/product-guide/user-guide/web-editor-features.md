@@ -4,9 +4,9 @@ description: 了解Adobe Experience Manager Guides中编辑器的功能。 了�
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
 workflow-type: tm+mt
-source-wordcount: '18656'
+source-wordcount: '18661'
 ht-degree: 0%
 
 ---
@@ -1265,7 +1265,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 您可以使用映射文件的“选项”菜单执行以下操作：
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+地图视图中的![选项菜单](images/options-menu-map-view_cs.png){width="800" align="left"}
 
 - **编辑**：打开映射文件以在映射编辑器中编辑。
 
