@@ -4,9 +4,9 @@ description: 了解Adobe Experience Manager Guides中编辑器的功能。 了�
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 14afe993292c78ed2f14178b3ab9dcbbaee7c372
+source-git-commit: 1e3a957dffc7296210eea89814cf6ca83ff1200e
 workflow-type: tm+mt
-source-wordcount: '18660'
+source-wordcount: '18659'
 ht-degree: 0%
 
 ---
@@ -1245,7 +1245,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 ### 地图
 
-选择映射视图图标时，将显示映射视图，其中显示映射文件中主题的列表。 如果尚未打开任何映射文件，则“映射”视图将显示为空白。 双击任何映射文件将在此视图中打开映射文件。 您可以双击映射中的任意文件以在编辑器中打开它。
+选择映射视图图标时，将显示映射视图，其中显示了映射文件中的主题列表。 如果尚未打开任何映射文件，则“映射”视图将显示为空白。 双击任何映射文件将在此视图中打开映射文件。 您可以双击映射中的任意文件以在编辑器中打开它。
 
 默认情况下，您可以按标题查看文件。 当您将鼠标悬停在文件上时，您可以作为工具提示查看文件标题和文件路径。
 
@@ -1572,36 +1572,36 @@ Experience Manager Guides还支持嵌套级别主题方案映射，并且您可�
 
 1. 在您选择的工具中创建主题方案文件。 以下XML代码创建绑定`platform`属性的值的主题方案。
 
-   ```XML
-   <?xml version="1.0" encoding="UTF-8"?>
-   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
-   <subjectScheme id="GUID-4f942f63-9a20-4355-999f-eab7c6273270">
-       <title>rw</title>
-       <!-- Define new OS values that are merged with those in the unixOS scheme -->
-       <subjectdef keys="os">
-           <subjectdef keys="linux">    </subjectdef>
-           <subjectdef keys="mswin">    </subjectdef>
-           <subjectdef keys="zos">    </subjectdef>
-       </subjectdef>
-       <!-- Define application values -->
-       <subjectdef keys="app" navtitle="Applications">
-           <subjectdef keys="apacheserv">    </subjectdef>
-           <subjectdef keys="mysql">    </subjectdef>
-       </subjectdef>
-       <!-- Define an enumeration of the platform attribute, equal to       each value in the OS subject. This makes the following values       valid for the platform attribute: linux, mswin, zos -->
-       <enumerationdef>
-           <attributedef name="platform">    </attributedef>
-           <subjectdef keyref="os">    </subjectdef>
-       </enumerationdef>
-       <!-- Define an enumeration of the otherprops attribute, equal to       each value in the application subjects.       This makes the following values valid for the otherprops attribute:       apacheserv, mysql -->
-       <enumerationdef>
-           <attributedef name="otherprops">    </attributedef>
-           <subjectdef keyref="app">    </subjectdef>
-       </enumerationdef>
-   </subjectScheme>
-   ```
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
+    <subjectScheme id="GUID-4f942f63-9a20-4355-999f-eab7c6273270">
+        <title>rw</title>
+        <!-- Define new OS values that are merged with those in the unixOS scheme -->
+        <subjectdef keys="os">
+            <subjectdef keys="linux">    </subjectdef>
+            <subjectdef keys="mswin">    </subjectdef>
+            <subjectdef keys="zos">    </subjectdef>
+        </subjectdef>
+        <!-- Define application values -->
+        <subjectdef keys="app" navtitle="Applications">
+            <subjectdef keys="apacheserv">    </subjectdef>
+            <subjectdef keys="mysql">    </subjectdef>
+        </subjectdef>
+        <!-- Define an enumeration of the platform attribute, equal to       each value in the OS subject. This makes the following values       valid for the platform attribute: linux, mswin, zos -->
+        <enumerationdef>
+            <attributedef name="platform">    </attributedef>
+            <subjectdef keyref="os">    </subjectdef>
+        </enumerationdef>
+        <!-- Define an enumeration of the otherprops attribute, equal to       each value in the application subjects.       This makes the following values valid for the otherprops attribute:       apacheserv, mysql -->
+        <enumerationdef>
+            <attributedef name="otherprops">    </attributedef>
+            <subjectdef keyref="app">    </subjectdef>
+        </enumerationdef>
+    </subjectScheme>
+```
 
-   ![](images/subject-scheme-panel-new.png){width="300" align="left"}
+![](images/subject-scheme-panel-new.png){width="300" align="left"}
 
 1. 保存扩展名为a.ditamap的文件，并将其上传到DAM中的任何文件夹。
 
@@ -1630,7 +1630,7 @@ Experience Manager Guides还支持嵌套级别主题方案映射，并且您可�
 
 
 ```XML
-  <?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
     <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
     <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
 
@@ -1674,7 +1674,7 @@ Experience Manager Guides还支持嵌套级别主题方案映射，并且您可�
 枚举定义存在于中    subject_scheme_map_2.ditamap。
 
 ```XML
-    ?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
         <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
         <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
         <title>subject_scheme_map_2</title> 
