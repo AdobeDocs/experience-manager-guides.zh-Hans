@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 48f5e2693cae093cf19f8254d1c222536642498e
+source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2052'
 ht-degree: 6%
 
 ---
@@ -86,6 +86,10 @@ ht-degree: 6%
             - [1月发行说明](./release-info/release-notes-2022-1-0.md)
       - 内部部署/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
+         - 5.0.0版本{#500-release}
+            - [新增功能](./release-info/whats-new-5-0-0.md)
+            - [修复的问题](./release-info/fixed-issues-5-0-0.md)
+            - [升级说明](./release-info/upgrade-instructions-5-0-0.md)
          - 4.6.0 SP3版本{#460-sp3-release}
             - [已修复问题](./release-info/fixed-issues-4-6-0-sp2.md)
             - [升级说明](./release-info/upgrade-instructions-4-6-0-sp2.md)

@@ -1,10 +1,10 @@
 ---
-title: 从Web编辑器翻译文档
+title: 从地图控制台翻译文档
 description: 从Web编辑器将内容翻译成多种语言。 了解如何在AEM Guides中创建翻译项目、添加规则、查看版本和关闭不同步的文件。
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: f29c1225fcb95dbe05a3fc8aa471c88dc7b8ffb2
+source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%

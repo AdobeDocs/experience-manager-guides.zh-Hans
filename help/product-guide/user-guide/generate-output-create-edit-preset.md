@@ -1,12 +1,12 @@
 ---
-title: 创建、编辑、复制或删除输出预设
+title: 编辑、复制或删除输出预设
 description: 了解如何在AEM Guides中创建、编辑、复制和删除自定义输出预设。
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: e6c14a478d8119c11b8541898c3314688e7fa51b
+source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
