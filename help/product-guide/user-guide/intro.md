@@ -1,13 +1,13 @@
 ---
 title: 关于Adobe Experience Manager Guides
-description: 了解 Adobe Experience Manager Guides 这款企业级基于 DITA 的组件内容管理解决方案。了解Experience Manager Guides的好处。
+description: 了解 Adobe Experience Manager Guides 这款企业级基于 DITA 的组件内容管理解决方案。了解 Experience Manager Guides 的优势。
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
 feature: Introduction
 role: User
 source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
