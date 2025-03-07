@@ -2,7 +2,8 @@
 title: 发行说明 | Adobe Experience Manager Guides 5.0.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 5.0.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: a5c18c228f68db9a3282a004dc56c8a0735e4926
+exl-id: 523667d9-fed4-4798-9554-2a27033c8027
+source-git-commit: 14641e72c4b488251c10318f4661e31b5d811cef
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Adobe Experience Manager Guides现在提供经过改进的设计和增强的功�
 
   有关详细信息，请查看[Adobe Experience Manager Guides主页体验](../user-guide/intro-home-page.md)。
 
-  ![](assets/aem-home-page-new.png){width="800" align="left"}
+  ![](assets/aem-home-page-whats-new.png){width="800" align="left"}
 
 
 - **新编辑器体验**：现在，以新外观体验编辑器。 改版后的编辑器界面具有更清晰、更有条理的工具栏、无缝导航和全面的直观体验，可帮助更快、更高效地创作文档。
@@ -54,7 +55,7 @@ Experience Manager Guides现在与Adobe Workfront无缝集成，除了Experience
 
 有关详细信息，请参阅[Workfront集成](../user-guide/workfront-integration.md)。
 
-![](assets/workfront-new-ui-whats-new.png){width="800" align="left"}
+![](assets/workfront-new.png){width="800" align="left"}
 
 
 ## 更快且可扩展的新AEM Sites发布引擎

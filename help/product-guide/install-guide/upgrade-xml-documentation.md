@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: de79a2d63328fc6142b475a776dafd7e6d12f911
+source-git-commit: fec62d9c14acbbfc632f08af003f386aa2a6ab35
 workflow-type: tm+mt
-source-wordcount: '8018'
+source-wordcount: '8021'
 ht-degree: 0%
 
 ---
@@ -1298,7 +1298,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 ## 重新索引damAssetLucene的步骤
 
-带有指南的damAssetLucene的索引定义已更新。 请参阅https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460以在升级到5.0.0版本后重新索引damAssetLucene。
+带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.0.0版本后如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
