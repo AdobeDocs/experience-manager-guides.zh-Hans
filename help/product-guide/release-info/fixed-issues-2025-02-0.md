@@ -2,9 +2,9 @@
 title: 发行说明 | 修复了Adobe Experience Manager Guides 2025.02.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2025.02.0版本中的错误修复。
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -102,3 +102,4 @@ Adobe发现了2025.02.0版本的以下已知问题：
 - 将图像用作`<keyref>`时，图像的&#x200B;**引用类型**&#x200B;未显示在&#x200B;**多媒体报告**&#x200B;中。
 - 在某些情况下，CSS文件的锁定功能无法按预期工作，导致其他用户编辑并保存文件，即使这些文件被其他用户锁定也是如此。
 - 如果预设名称包含任何大写字符，则应用预设设置更改不会反映在映射中已创建的预设上。
+- 在启用Unified Shell的情况下打开DITA映射时，编辑器会间歇性地刷新。

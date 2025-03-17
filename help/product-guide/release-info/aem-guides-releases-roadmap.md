@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides 2024年版路线图
 description: 获取有关Adobe Experience Manager Guides内部部署和Adobe Experience Manager Guides as a Cloud Service的实时版本和即将发行的版本的信息
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
+source-git-commit: 18f15390fa26229f5d14552835a3c7e645b3e81d
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '366'
 ht-degree: 30%
 
 ---
@@ -27,13 +27,13 @@ Experience Manager Guides as a Cloud Service的发行计划如下：
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 修复的问题 | 状态 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.04.0 | 自动更新 | ~ 2025年4月 |  |  |  | 目标 |
+| Adobe Experience Manager Guides 2025.04.0 | 自动更新 | 2025 年 4 月 21-23 日 |  |  |  | 目标 |
 
 ### 实时版本
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 修复的问题 | 状态 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.2.0 | 自动更新 | 2025 年 2 月 24-26 日 | [此处](whats-new-2025-02-0.md) | [此处](upgrade-instructions-2025-02-0.md) | [此处](fixed-issues-2025-02-0.md) | 进行中 |
+| Adobe Experience Manager Guides 2025.2.0 | 自动更新 | 2025 年 3 月 10-12 日 | [此处](whats-new-2025-02-0.md) | [此处](upgrade-instructions-2025-02-0.md) | [此处](fixed-issues-2025-02-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.12.0 | 自动更新 | 2025 年 1 月 13-15 日 |  | [此处](upgrade-instructions-2024-12-0.md) | [此处](fixed-issues-2024-12-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.10.0 | Service Pack 1 | 2024年10月29日 | - | - | [此处](fixed-issues-2024-10-0-sp1.md) | 已更新 |
 | Adobe Experience Manager Guides 2024.10.0 | 自动更新 | 2024 年 10 月 14-16 日 | [此处](whats-new-2024-10-0.md) | [此处](upgrade-instructions-2024-10-0.md) | [此处](fixed-issues-2024-10-0.md) | 已更新 |
@@ -53,6 +53,7 @@ Experience Manager Guides as a Cloud Service的发行计划如下：
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 状态 |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 4.6.0 | Service Pack 4 | 2025年4月4日 |  |  | 目标 |
 | Adobe Experience Manager Guides 5.1.0 | 发行版本 | ~ 2025年8月 |  |  | 目标 |
 
 ### 实时版本
