@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '4756'
 ht-degree: 0%
@@ -548,17 +548,13 @@ Adobe Experience Manager Guides中的AI助手是一款功能强大的、由AI驱
 
 创建代码片段需要以下详细信息：
 
-snippetID
-：   片段的唯一ID。 它可以采用字母数字值。
+**snippetID** — 代码片段的唯一ID。 它可以采用字母数字值。
 
-name
-：   用于标识代码片段的描述性名称。 此名称显示在“代码片段”面板中。
+**name** — 用于标识代码片段的描述性名称。 此名称显示在“代码片段”面板中。
 
-描述
-：   为代码片段添加描述性信息。
+**description** — 为代码片段添加描述性信息。
 
-值
-：   提供代码片段的XML代码。
+**value** — 提供代码片段的XML代码。
 
 >[!NOTE]
 >
