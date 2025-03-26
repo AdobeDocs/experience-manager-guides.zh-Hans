@@ -3,7 +3,8 @@ title: 关于在映射控制台中打开文件
 description: 了解如何在Adobe Experience Manager Guides的映射控制台界面中打开DITA映射文件。
 feature: Publishing
 role: User
-source-git-commit: 2e233a1bf061eba539a4af483f5f9ba32ff613c2
+exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
+source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -44,9 +45,4 @@ ht-degree: 0%
 
    映射文件将在“映射”控制台中打开。
 
-   ![新](images/map-console.png){width="800" align="left"}
-
-
-
-
-
+   ![新](images/map-console.png){align="left"}

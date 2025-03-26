@@ -4,7 +4,7 @@ description: 在AEM Guides中激活DITA映射的输出。 了解如何在发布�
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 1. 选择要发布的收藏集，然后选择&#x200B;**打开**。
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){align="left"}
 
 1. \（*可选*\）应用左边栏中的必需筛选器，以根据其修改的\(status\)、输出预设或语言对映射进行筛选。
 

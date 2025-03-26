@@ -4,7 +4,7 @@ description: 了解AEM Guides中条件预设的使用。 了解如何在AEM中�
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Experience Manager Guides允许您从“映射”控制台创建和管理条件预设，并在&#x200B;**输出预设**&#x200B;中使用它们来生成最终条件输出。
 
-<img src="images/manage-condtions-presets.png" alt= "地图控制台中的条件预设" width="800" border="1px">
+<img src="images/manage-condtions-presets.png" alt= "地图控制台中的条件预设" border="1px">
 
 ### 创建条件预设
 

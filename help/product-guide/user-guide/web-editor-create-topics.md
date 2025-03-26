@@ -4,7 +4,7 @@ description: 了解如何使用Adobe Experience Manager Guides中的自定义模
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题
 
 该主题在指定的路径中创建。 此外，该主题将在编辑器中打开以进行编辑。
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## 从Assets UI创建主题
 
@@ -61,7 +61,7 @@ Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题
 
 1. 在Blueprint页面上，选择要创建的DITA文档类型，然后选择&#x200B;**下一步**。
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    默认情况下，Experience Manager Guides提供最常用的DITA主题模板。 您可以根据组织要求配置更多主题模板，在“安装”中查看&#x200B;*配置创作模板*，并为您的设置配置Adobe Experience Manager Guides。
 

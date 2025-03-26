@@ -4,7 +4,7 @@ description: 浏览Adobe Experience Manager Guides中编辑器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2406'
 ht-degree: 0%
@@ -222,7 +222,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 根据在“创作”、“Source”或“预览”模式中的定义以及最终发布的输出中的定义，支持并呈现包含换行符和空格的DITA元素。 以下屏幕截图显示了`msgblock`元素中的内容，其中换行符和空格\(indentation\)已被保留：
 
-![](images/new-line-support_cs.png){width="800" align="left"}
+![](images/new-line-support_cs.png){align="left"}
 
 
 

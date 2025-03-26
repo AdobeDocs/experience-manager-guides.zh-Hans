@@ -4,7 +4,7 @@ description: 了解如何在Adobe Experience Manager Guides中为不同版本的
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Experience Manager Guides允许您将标签添加到文件的不同版本�
 
 要从主题中删除版本标签，请使用针对在版本标签管理对话框中添加的每个标签提供的&#x200B;**删除**&#x200B;图标。
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## 从Assets UI使用标签

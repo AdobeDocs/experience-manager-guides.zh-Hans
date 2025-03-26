@@ -4,7 +4,7 @@ description: 了解如何创建和删除映射收藏集以及添加或删除DITA
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 1%
@@ -54,7 +54,7 @@ ht-degree: 1%
 
    DITA映射文件将添加到您的映射集合中。
 
-   ![映射收藏集仪表板](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![映射收藏集仪表板](./images/map-collection-dashboard.png){align="left"}
 
 **筛选选项**
 
@@ -95,7 +95,7 @@ ht-degree: 1%
    - 为DITA映射启用&#x200B;**所有预设**&#x200B;以一次性选择所有预设。 默认禁用此选项。
    - 为DITA映射启用&#x200B;**文件夹配置文件预设**&#x200B;以为其选择所有文件夹配置文件预设。 默认禁用此选项。
 
-![在云服务上编辑地图集合](images/edit-map-collection-cs.png){width="800" align="left"}
+![在云服务上编辑地图集合](images/edit-map-collection-cs.png){align="left"}
 
 
 
@@ -112,7 +112,7 @@ ht-degree: 1%
 
 在映射集合中，可以为DITA映射批量配置元数据属性。 选择&#x200B;**配置元数据**&#x200B;以打开&#x200B;**资源元数据**&#x200B;页面。 在&#x200B;**资产元数据**&#x200B;页面上，收藏集中存在的所有映射都列在左侧。
 
-![配置元数据](images/map-collection-asset-metadata.png){width="800" align="left"}
+![配置元数据](images/map-collection-asset-metadata.png){align="left"}
 
 执行以下步骤可配置元数据属性：
 
@@ -147,6 +147,6 @@ ht-degree: 1%
 
 与从[DITA映射控制台](generate-output-for-a-dita-map.md#id2061H100T5Z)或[发布仪表板](generate-output-publish-dashboard.md#)取消输出生成任务的方法类似，您可以从映射集合中取消输出生成任务。 访问映射集合的“输出”选项卡，转到要取消的发布任务，并选择&#x200B;**取消此作业**&#x200B;图标以取消发布任务。
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){align="left"}
 
 **父主题：**[&#x200B;输出生成](generate-output.md)

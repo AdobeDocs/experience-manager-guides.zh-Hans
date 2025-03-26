@@ -4,7 +4,7 @@ description: 在AEM Guides中查看还原文件版本历史记录报告。 了�
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Adobe Experience Manager Guides允许您为单个文件或文件夹中的所有�
 
 1. 选择&#x200B;**显示日志**&#x200B;以生成所选文件或文件夹的报告。
 
-   ![](images/revert-version-history-report.png){width="800" align="left"}
+   ![](images/revert-version-history-report.png){align="left"}
 
    该报告包含以下详细信息：
 

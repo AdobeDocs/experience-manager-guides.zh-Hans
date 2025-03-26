@@ -3,7 +3,8 @@ title: 输出生成
 description: 通过AEM Guides中的DITA-OT插件、本机PDF发布和FMPS，管理AEM Sites、PDF、HTML5、EPUB、自定义和JSON中的输出生成流程。
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Adobe Experience Manager Guides允许您对生成的输出执行以下操作：
 
 1. 选择&#x200B;**输出**。
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){align="left"}
 
    “输出”页面分为两个部分：
 
@@ -63,17 +64,17 @@ Experience Manager Guides为出版商提供了一种简单而轻松的方式来�
 
 1. 选择&#x200B;**取消此作业**&#x200B;图标。
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){align="left"}
 
 1. 在&#x200B;**确认取消**&#x200B;消息提示中选择&#x200B;**是**。
 
-   ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-console.png){align="left"}
 
    如果任务尚未启动，则对任务执行cancel命令。 对于正在取消的任务，“状态”将设置为“正在取消”。
 
    成功取消任务后，该任务将移至&#x200B;**生成的输出**&#x200B;列表，状态为&#x200B;**已取消**。 当您将鼠标悬停在已取消的任务上时，它会显示已取消任务的用户的名称。 在以下屏幕截图中，*HTML5*&#x200B;任务已被取消。
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 ## 删除输出任务
@@ -90,9 +91,8 @@ Experience Manager Guides为出版商提供了一种简单而轻松的方式来�
 
 1. 选择删除图标。
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){align="left"}
 
 1. 在&#x200B;**确认删除**&#x200B;消息提示中选择&#x200B;**是**。
 
    该任务将从“生成的输出”列表中删除。
-

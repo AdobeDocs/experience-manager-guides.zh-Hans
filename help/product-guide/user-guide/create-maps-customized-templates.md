@@ -4,7 +4,7 @@ description: 了解如何创建自定义模板，使用它们创建新映射文�
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Adobe Experience Manager Guides允许您从dita-templates文件夹创建自定�
 
 1. 在&#x200B;**Assets UI**&#x200B;中，导航到dita-templates文件夹。
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){align="left"}
 
 1. 如果要创建&#x200B;**主题**&#x200B;模板，请打开&#x200B;**主题**&#x200B;文件夹。 如果要创建&#x200B;**映射**&#x200B;模板，请打开&#x200B;**映射**&#x200B;文件夹。
 1. 选择&#x200B;**创建\> DITA模板**。

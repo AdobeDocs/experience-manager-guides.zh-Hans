@@ -4,7 +4,7 @@ description: 了解如何在AEM Guides中创建审阅任务和发送审阅主题
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    此时将显示“内容”页面。
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){align="left"}
 
 1. 在“内容”页面上，选择要共享以进行审阅的主题版本。
 
@@ -214,7 +214,7 @@ Experience Manager Guides允许您同时在DITA映射中发送一个或多个主
 
    此时将显示内容页面，其中包含映射文件中引用的所有主题。 如果DITA映射包含嵌套映射，则嵌套映射中的主题也会在此处列出。
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){align="left"}
 
 1. 在“内容”页面上，选择要共享以进行审阅的主题版本。
 

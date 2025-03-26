@@ -4,7 +4,7 @@ description: 使用AEM Guides中的快速生成面板。 了解如何从快速�
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -24,7 +24,7 @@ AEM Guides提供了一个集成在Web编辑器中的&#x200B;**快速生成**&#x2
 >
 > 对于在“映射视图”面板中打开的DITA映射，将显示&#x200B;**快速生成**&#x200B;面板。
 
-![](images/quick-generate-map-view.png){width="800" align="left"}
+![](images/quick-generate-map-view.png){align="left"}
 
 执行以下步骤以从&#x200B;**快速生成**&#x200B;面板生成输出：
 

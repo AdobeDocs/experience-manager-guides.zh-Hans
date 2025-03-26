@@ -4,7 +4,7 @@ description: 从Web编辑器创建输出预设。 了解如何在AEM Guides中�
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -41,21 +41,21 @@ ht-degree: 0%
    将创建知识库预设。
 
 
-   ![新](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+   ![新](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 创建预设后，即可生成特定知识库文章的输出。 为此，请导航到&#x200B;**文章**&#x200B;选项卡，并选择要为其生成输出的主题。
 1. 选择顶部的&#x200B;**生成输出**&#x200B;以生成输出。
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. 在&#x200B;**确认要发布的文件**&#x200B;提示中，选择要发布的文件，并通过选择&#x200B;**发布**&#x200B;进行确认。
 
-   ![新](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![新](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 您将查看输出生成过程的状态。 **主题**&#x200B;列列出正在为其生成输出的主题，而&#x200B;**状态**&#x200B;列显示每个主题的发布状态。
 
 
-![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+![](images/add-preset-output-generated_cs.png){align="left"}
 
 要查看输出，请关闭“生成的输出”对话框，然后在预设页面上选择&#x200B;**查看输出**。
 

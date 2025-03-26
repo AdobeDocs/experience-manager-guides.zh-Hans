@@ -4,7 +4,7 @@ description: 从AEM Guides中的映射仪表板生成DITA映射报告。 了解�
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Experience Manager Guides为管理员提供了报告功能，可在文档�
 
 1. 选择&#x200B;**报告**。
 
-   ![](images/reports-page-uuid-new.png){width="800" align="left"}
+   ![](images/reports-page-uuid-new.png){align="left"}
 
    “报告”页面分为两个部分：
 
@@ -37,7 +37,7 @@ Adobe Experience Manager Guides为管理员提供了报告功能，可在文档�
 
      选择主题时，将显示所选主题的详细报告。
 
-     ![](images/detailed-report-uuid-new.png){width="800" align="left"}
+     ![](images/detailed-report-uuid-new.png){align="left"}
 
      在&#x200B;**A**、**B**、**C**&#x200B;和&#x200B;**D**&#x200B;下高亮显示的项目说明如下：
 
@@ -82,7 +82,7 @@ Adobe Experience Manager Guides为管理员提供了报告功能，可在文档�
 
 1. 选择左上方的&#x200B;**生成报告**&#x200B;以生成DITA映射报告。
 
-   ![](images/generate-DITA-map-report-new.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report-new.png){align="left"}
 
 1. 报告可供下载后，您将收到通知。 选择&#x200B;**下载**&#x200B;以下载所生成报告的CSV。
 

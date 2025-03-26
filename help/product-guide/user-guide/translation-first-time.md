@@ -4,7 +4,7 @@ description: 了解AEM Guides中内容翻译的最佳实践。 了解如何配�
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 下图显示了一个例子，说明了当您全局使用内容和三个语言副本时，Adobe Experience Manager中的文件夹结构。
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){align="left"}
 
 ## 配置翻译服务
 

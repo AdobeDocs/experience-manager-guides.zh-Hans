@@ -4,7 +4,7 @@ description: 了解如何在AEM Guides中重新翻译修改的主题。
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    如果选择箭头查看更多详细信息，则可以查看不同步的特定语言副本。
 
-   ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid-new.png){align="left"}
 
 1. 选中该复选框可选择要发送以供重新翻译的主题。
 

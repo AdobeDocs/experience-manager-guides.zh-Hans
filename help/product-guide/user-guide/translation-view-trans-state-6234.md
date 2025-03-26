@@ -4,7 +4,7 @@ description: 了解如何在AEM Guides的DITA映射中查看每个主题的翻�
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -26,6 +26,6 @@ ht-degree: 0%
    >
    > 您可以根据内容的翻译状态\（如不同步、缺少副本、进行中或同步\）、Source类型\（如全部、DITA、DITA映射或资源\）和修改日期进一步筛选内容。 此外，您可以输入关键字来搜索特定主题。 如果进行了任何更改，则可以使用&#x200B;**刷新**&#x200B;来更新状态。
 
-   ![](images/translation-status-new.png){width="800" align="left"}
+   ![](images/translation-status-new.png){align="left"}
 
 **父主题：**[&#x200B;内容翻译概述](translation.md)

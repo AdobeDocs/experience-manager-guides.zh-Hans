@@ -4,7 +4,7 @@ description: 了解如何在AEM指南中创建批量激活图收藏集。
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 DITA映射文件将添加到批量激活映射集合中。
 
-![已创建批量激活集合](images/bulk-activation-collection-created.png){width="800" align="left"}
+![已创建批量激活集合](images/bulk-activation-collection-created.png){align="left"}
 
 ## “映射和预设”选项卡
 
@@ -87,7 +87,7 @@ DITA映射文件将添加到批量激活映射集合中。
 
 - **修改时间**：指示在上次发布后是否更新了DITA映射。 根据此信息，可以决定是否激活此DITA映射的输出。
 - **已发布**：显示上次发布（或激活）输出的日期和时间。 如果选择该链接，则会显示“激活结果”页面，其中包含日志，其中包含有关激活内容的根路径的信息。
-  ![已创建批量激活集合审核历史记录选项卡](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![已创建批量激活集合审核历史记录选项卡](images/bulk-collection-audit-history.png){align="left"}
 
   *在&#x200B;**审核历史记录**选项卡中查看有关激活的映射输出的信息。*
 

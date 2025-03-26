@@ -4,7 +4,7 @@ description: 使用AEM Guides中的发布仪表板管理发布任务。 了解�
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 发布仪表板提供当前在系统中运行的所有发布任务的完整概述。
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){align="left"}
 
 发布功能板包含以下详细信息：
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 - **输出预设** — 选择要查看当前活动发布任务的一个或多个输出预设。 在以下屏幕截图中，对发布任务进行了筛选，以仅显示使用AEM站点输出预设的任务：
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){align="left"}
 
 - **启动者** — 从列表中选择用户名以显示所选用户启动的发布任务。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    如果选择“文件名”链接，则会显示选定映射的DITA映射仪表板。
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){align="left"}
 
 
 >[!NOTE]
@@ -80,13 +80,13 @@ ht-degree: 0%
 
 1. 从活动发布任务列表中，选择要取消的任务的删除图标。
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){align="left"}
 
 1. 在&#x200B;**确认取消**&#x200B;消息提示中选择&#x200B;**是**。
 
    只要任务保持活动状态，就会接受取消命令并尝试取消。 任务成功终止后，将从当前活动任务列表中删除该任务。 任务状态也会在DITA映射仪表板中更新为“已取消”。 在以下屏幕截图中，*HTML5*&#x200B;任务已从发布仪表板取消，其状态也会在DITA映射仪表板中更改。
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 **父主题：**[&#x200B;输出生成](generate-output.md)

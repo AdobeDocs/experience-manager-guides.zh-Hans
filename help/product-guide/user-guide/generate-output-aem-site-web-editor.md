@@ -4,7 +4,7 @@ description: 使用复合组件映射和旧版组件映射，在映射控制台�
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3533'
 ht-degree: 0%
@@ -122,7 +122,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 **主题列表**&#x200B;选项卡显示DITA映射的当前工作副本中存在的主题列表。 默认情况下，包含所有主题。 您可以选择特定主题，并仅为其生成AEM Sites输出。 例如，您已更新了某些主题，以便可以仅发布这些主题，而不是发布整个DITA映射。
 
-![aem sites主题列表](images/aem-presets-topic-list.png) {width="800" align="left"}
+![aem sites主题列表](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE]

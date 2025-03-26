@@ -4,7 +4,7 @@ description: 了解如何在Adobe Experience Manager Guides中预览主题。 �
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    此时将显示主题的“预览”。
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **从预览模式预览主题**
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 从Assets UI使用“预览”功能时，可以在工具栏中执行以下操作，
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **属性**
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 **在**&#x200B;中使用的引用部分中的\(+\)图标允许您进一步向上导航以查找正在使用或引用该主题的位置。
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 选择文档旁边的![](images/right-arrow-used-in-dialog.svg)图标将显示该文档被进一步引用的映射或主题文件。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
   >
   > 要获取DITA映射文件的源代码视图，请在Assets UI中选择该文件，然后选择Source。
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **共享UUID链接**
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 新选项&#x200B;**共享UUID链接**&#x200B;将显示在上述区域的工具栏中。 以下屏幕截图显示了主题预览模式中的&#x200B;**共享UUID链接**&#x200B;选项：
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 在资产UI中，当您选择文件时，此选项可见。 在“预览”模式下，此选项默认位于主工具栏中。 在DITA映射控制台中，此选项在输出预设部分中可见。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 如果“已签出”列不可见，请在&#x200B;**列表视图**&#x200B;下选择&#x200B;**视图设置**，然后在&#x200B;**配置列**&#x200B;对话框中选择&#x200B;**已签出**&#x200B;状态。
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ ht-degree: 0%
 
    1. 在左边栏中，选择&#x200B;**版本历史记录**&#x200B;并选择版本。
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. 从列出的版本中，选择要用作基本版本的版本，然后选择&#x200B;**预览版本**。 所选版本的预览将显示在“版本预览”窗口中。
 
    1. 从&#x200B;**显示差异**&#x200B;列表中，选择要与基本版本进行比较的版本。
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       更改的内容在主题预览中突出显示。 以绿色高亮显示的内容表示新添加的内容，而以红色显示的内容表示已删除的内容。
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## 分支、还原和后续版本控制

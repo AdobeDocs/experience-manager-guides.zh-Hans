@@ -4,7 +4,7 @@ description: 了解Adobe Experience Manager Guides中地图编辑器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 显示主题搜索对话框。 导航到要插入的主题/映射文件，然后选择&#x200B;**选择**&#x200B;以将其添加到映射中。
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **主题组** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 **作者**&#x200B;视图允许您在编辑器中编辑DITA映射。 这会显示映射编辑器的WYSIWYG视图，并且在“创作”视图中显示的某些图标与在“布局”视图中显示的图标相同。
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 此外，您还可以从“作者”视图中查看以下图标并执行相关任务：
 
@@ -243,7 +243,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 通过此视图，可编辑原始格式的内容，从而完全控制结构和格式。
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 在此视图中，工具栏提供了&#x200B;**菜单**&#x200B;下拉菜单下可用的基本内容编辑和插入选项，包括“剪切”、“复制”、“撤消”、“重做”、“删除”、“查找和替换”、“版本标签”、“合并”、“另存为新版本”、“锁定”和“解锁”。
@@ -254,7 +254,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 除了能够查看地图中每个主题文件的位置之外，还希望在一个连续流中查看地图内容。 预览映射功能允许您通过单击查看映射文件的整个内容。 您不必生成映射文件的输出即可查看整个映射在发布后的外观。 您只需访问映射的预览即可，所有主题和子映射将以书籍的形式呈现。
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Experience Manager Guides允许作者在编辑器中打开DITA映射并查看主
 
    可在编辑器中打开多个主题，每个主题都将在编辑器的新选项卡中打开。 即使DITA映射包含子映射，子映射中的主题也将在新选项卡中打开以进行编辑。 如果要查看子映射下的主题，可以选择并展开子映射。
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    如果选择映射文件，则该映射将在编辑器的新选项卡中打开。
 

@@ -4,7 +4,7 @@ description: 在创作、源和预览模式下查看主题。 了解如何在AEM
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Source视图显示构成该主题的基础XML。 如果您习惯直接使用XML�
 
 下图显示了一个使用两个条件的主题 — `Audience`和`Product`。 条件化内容以黄色背景突出显示。
 
-![](images/preview-filters.png){width="800" align="left"}
+![](images/preview-filters.png){align="left"}
 
 ### 查看跟踪更改标记 {#id2114BJ00CE8}
 

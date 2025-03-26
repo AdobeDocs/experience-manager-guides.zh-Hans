@@ -4,7 +4,7 @@ description: 从地图功能板在AEM Guides中创建并配置AEM站点预设。
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 链接内容的另一种方法是使用`peer` `@scope`创建链接。 对于此类内容，在运行时通过从DITA映射的发布上下文中选取文件的标题和链接主题的已配置上下文来解析链接。 以下屏幕截图显示了具有`peer` `@scope`的链接的“属性”面板：
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 为了简化复杂映射和链接到其他映射中其他主题的主题的发布工作，Adobe Experience Manager Guides允许您为每个输出预设设置发布上下文。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    您会获得“AEM预设设置”和“发布上下文”选项卡。
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. 打开&#x200B;**发布上下文**&#x200B;选项卡。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    默认情况下，已选择所有链接的主题的最新输出预设和映射。
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. 要更改DITA映射和预设的默认选择，请选择&#x200B;**编辑** \（在主工具栏中\）。
 

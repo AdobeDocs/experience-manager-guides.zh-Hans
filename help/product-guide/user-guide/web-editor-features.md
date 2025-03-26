@@ -4,7 +4,7 @@ description: 了解Adobe Experience Manager Guides中编辑器的功能。 了�
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e3a957dffc7296210eea89814cf6ca83ff1200e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '18659'
 ht-degree: 0%
@@ -299,7 +299,7 @@ ht-degree: 0%
 
 **查找和替换**&#x200B;功能在创作和Source视图模式下可用。 启用后，“查找并替换”文本栏将显示在主题编辑区域的底部。 您可以使用快捷键&#x200B;**CTRL**+**F**&#x200B;调用查找和替换栏。
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 使用设置图标\(![](images/settings-find-replace-icon.svg)\)，您可以切换&#x200B;**忽略大小写**&#x200B;和&#x200B;**仅限全字**&#x200B;搜索选项。 要执行不区分大小写的搜索，请打开（或选择）**忽略大小写**&#x200B;选项。 否则，如果要执行区分大小写的搜索，请关闭（或取消选择）**忽略大小写**&#x200B;选项。 您还可以选择搜索整个词。
 
@@ -365,7 +365,7 @@ ht-degree: 0%
 
    在还原到早期版本时，将显示一个可视提示，指示您当前使用的版本不是最新版本。
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 **版本标签**
 
@@ -544,7 +544,7 @@ Experience Manager Guides提供了跟踪的更改功能，该功能包含在文�
 
 如果您在块元素（如`note`）中工作，则使用插入元素图标在`note`元素之后插入新元素。 在以下屏幕快照中，注释元素已插入p \(paragraph\)元素中：
 
-![在块元素中插入元素](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![在块元素中插入元素](images/note-in-para-insert-element_cs.png){align="left"}
 
 如果在注释元素中按Enter键，则会在注释元素本身中创建一个新段落。 要在注释外部插入新元素，请在元素痕迹导航中选择p元素\（在屏幕快照中高亮显示\），然后选择“元素”图标或按&#x200B;***Alt***+***Enter***&#x200B;以打开“插入元素”对话框。 然后，选择所需的元素并按Enter键将所选元素插入到注释元素之后。
 
@@ -613,7 +613,7 @@ Experience Manager Guides提供了跟踪的更改功能，该功能包含在文�
 1. 从值下拉列表中，选择要应用于选定表单元格的所需文本对齐方式。
 1. 选择&#x200B;**添加。**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 **图像** - ![](images/Image_icon.svg)
 
@@ -636,7 +636,7 @@ Experience Manager Guides提供了跟踪的更改功能，该功能包含在文�
 
 插入图像后，您可以从“内容属性”面板中更改高度、宽度、版面和属性。 选择图像文件，然后在右侧面板的“内容属性”面板中进行更改。
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在Source字段上，可以找到所插入图像文件的完整路径。 该路径将显示在工具提示中。
 
@@ -713,7 +713,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 如果您的管理员在&#x200B;*XMLEditorConfig*&#x200B;中启用了UUID选项，则您将在&#x200B;**Link**&#x200B;属性中查看引用内容的UUID。
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -816,12 +816,12 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
   版本号会随为主题或映射文件创建的每个新版本而更改。 如果您正在处理新创建的文档，则版本信息显示为&#x200B;**none**。
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **另存为新版本**&#x200B;是一个按钮，用于保存您在主题中所做的更改，并创建主题的新版本。
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 当您选择使用&#x200B;**另存为新版本**&#x200B;保存主题或映射时，将出现以下对话框：
@@ -842,7 +842,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 将指针悬停在主题标题上时，会显示文件标题、文件路径和版本号。
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -852,7 +852,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 锁定或解锁当前文件。 锁定文件可为您提供对文件的独占写入权限。 这会限制其他用户编辑文件。 如果您希望其他人具有编辑权限，请解锁文件。 当文件被解锁时，更改将保存在文件的当前版本中。
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 如果您在“映射视图”中并展开父映射，则只需单击一下即可锁定映射中的所有文件。 只需展开父映射文件并选择父文件即可，这将导致选择映射中的所有文件。 然后，您可以选择&#x200B;**锁定** ![](images/LockClosed_icon.svg)以获取映射中所有文件的锁定。
 
@@ -935,7 +935,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 - 在编辑器中右键单击文件的选项卡以打开上下文菜单。 选择&#x200B;**添加到** > **收藏集**&#x200B;以将文件添加到收藏夹列表。
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -1098,7 +1098,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
   如果您的管理员在&#x200B;*XMLEditorConfig*&#x200B;中启用了UUID选项，则您将在&#x200B;**Source**&#x200B;属性中查看已上传图像的UUID。
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **在文件夹中查找文件**：将焦点转移到可在其中输入搜索词的存储库搜索。 搜索在存储库中的选定文件夹下执行。 也可以应用过滤器返回DITA文件和/或图像文件。
 
@@ -1150,7 +1150,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 - **预览**：获取文件（.dita、.xml、音频、视频或图像）的快速预览而不打开它。 您可以调整预览窗格的大小。 如果内容包含任何`<xref>`或`<conref>`，您可以选择它以在新选项卡中打开它。 文件的标题将显示在窗口中。 如果不存在标题，则会显示文件名。 要关闭&#x200B;**预览**&#x200B;面板，您可以选择关闭图标，也可以选择窗格之外的任意位置。
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **重命名**：使用此选项重命名所选文件。 在&#x200B;**重命名资源**&#x200B;对话框中输入新文件的名称。
    - 您可以重命名任何类型的文件。
@@ -1270,7 +1270,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 您可以使用映射文件的“选项”菜单执行以下操作：
 
-地图视图中的![选项菜单](images/options-menu-map-view_cs.png){width="800" align="left"}
+地图视图中的![选项菜单](images/options-menu-map-view_cs.png){align="left"}
 
 - **编辑**：打开映射文件以在映射编辑器中编辑。
 
@@ -1326,7 +1326,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 以下屏幕截图显示了映射视图中文件的“选项”菜单：
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 您可以使用“选项”菜单执行以下操作：
 
@@ -1436,11 +1436,11 @@ DITA的主要功能之一是能够重用内容。 **可重用内容**&#x200B;面
 
 - 拖放元素。 您可以通过将另一个元素拖放到元素上来轻松替换元素。 如果将元素拖放到另一个元素上，并查看元素周围的虚线矩形框，则表示元素将被替换。 它会替换元素被放置到的元素。
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   如果拖放元素，则虚线矩形表示元素可以放置在当前位置。 如果拖放无效，则会显示一条错误消息，指示不允许执行该操作。
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - *大纲*&#x200B;视图中的&#x200B;**选项**&#x200B;菜单允许您执行常规操作，例如，剪切、复制、删除、生成ID、在当前元素之前或之后插入元素、重命名或替换元素、包装元素、取消包装元素，以及从所选元素创建代码片段。
 
@@ -1523,7 +1523,7 @@ DITA的主要功能之一是能够重用内容。 **可重用内容**&#x200B;面
 
 您还可以通过在元素上拖放多个条件来对元素应用多个条件。 对一个元素应用多个条件时，“属性”面板显示应用的条件（以逗号分隔）。
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 但是，在代码视图中，使用空格分隔符分隔条件。 在代码视图中添加或编辑条件时，请确保使用空格分隔多个条件。
 
@@ -1531,7 +1531,7 @@ DITA的主要功能之一是能够重用内容。 **可重用内容**&#x200B;面
 >
 > 以下屏幕截图显示具有管理权限的用户。 作为具有管理权限的用户，您可以添加、编辑和删除条件。 否则，作为普通作者，您将只能选择应用条件。
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 要添加或定义条件，请选择“条件”面板旁边的+图标以显示“定义条件”对话框：
 
@@ -1761,7 +1761,7 @@ Experience Manager Guides还支持嵌套级别主题方案映射，并且您可�
 >
 > 以下屏幕截图显示具有管理权限的用户。 作为具有管理权限的用户，您可以添加、编辑和删除代码片段。 否则，作为普通作者，您将只获得预览和插入代码片段的选项。
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 要添加代码片段，请使用以下任一方法：
 
@@ -1826,7 +1826,7 @@ Experience Manager Guides允许您创建和管理变量以供本机PDF发布。 
 
 查找和替换图标位于左侧面板的底部。 “查找和替换”面板允许您在映射或存储库内的文件夹中的文件间搜索和替换文本。 您可以查找和替换地图的所有主题以及地图内子地图中存在的主题。
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 默认情况下，您可以按标题查看文件。 当您将鼠标悬停在文件上时，您可以作为工具提示查看文件标题和文件路径。
 
@@ -1919,7 +1919,7 @@ Experience Manager Guides提供用于显示项目中所有审阅任务的功能�
 1. 您还可以输入要在主题标题或文件路径中查找的搜索词或文本。 标题或文件路径中包含术语的主题将列出。
 1. 双击任何主题以在创作视图中将其打开。 您可以在&#x200B;**注释**&#x200B;面板中查看注释。
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 
@@ -1935,7 +1935,7 @@ Experience Manager Guides提供用于显示项目中所有审阅任务的功能�
 
 在内容编辑区域的左下方，您有当前光标位置处的元素的痕迹导航。 在右下角，将显示可用的编辑器视图。
 
-![](images/content-editing-area.png){width="800" align="left"}
+![](images/content-editing-area.png){align="left"}
 
 要了解有关内容编辑区域中主题文件可用的编辑器视图的详细信息，请查看[编辑器视图](./web-editor-views.md)。
 

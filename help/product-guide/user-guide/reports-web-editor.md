@@ -4,7 +4,7 @@ description: 从AEM Guides中的映射控制台生成DITA映射报表。 了解�
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Adobe Experience Manager Guides在映射控制台中提供了一个功能，允�
 
 您可以从&#x200B;**报告**&#x200B;面板中找到所有四个报告。 根据您的要求，您可以选择此处所示的任何报表。
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 通过“报告”面板可访问四种不同类型的报告。 下文将详细讨论每个报告及其辅助功能和特性。
 
@@ -44,7 +44,7 @@ Adobe Experience Manager Guides在映射控制台中提供了一个功能，允�
 
 1. 从“报告”面板中选择&#x200B;**主题列表**。 将显示DITA映射中存在的主题列表。
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. 从&#x200B;**筛选器**&#x200B;面板中，您可以根据&#x200B;**引用类型** \（直接或间接\）、**文档状态** \（例如，如果您的主题处于“编辑”、“审阅”或“已审阅”状态，则将列出这些内容\）或主题的&#x200B;**作者**&#x200B;来筛选主题。
 
@@ -78,7 +78,7 @@ Adobe Experience Manager Guides在映射控制台中提供了一个功能，允�
 1. 从“报表”面板中选择&#x200B;**元数据**。 此时将显示映射的所有引用列表及其元数据，例如标记、文档状态、自定义元数据。 要添加新的自定义元数据列，请参阅[添加自定义元数据列](#add-custom-metadata-columns)部分。
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. 从&#x200B;**筛选器**&#x200B;面板中，您可以根据&#x200B;**文档状态**&#x200B;筛选主题\（例如，如果主题处于编辑、审核中或审核状态，则将列出\）、**引用** \（直接或间接引用）、**文件类型** \（映射、主题、文档、图像、视频及其他\）。
@@ -127,7 +127,7 @@ Adobe Experience Manager Guides在映射控制台中提供了一个功能，允�
    >
    > 您不能选择任何已签出的文件。 签出图标也会出现在签出文件的标题附近。 您可以将鼠标悬停在图标上以查看用户的名称。
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. 从顶部选择&#x200B;**管理**。
@@ -225,13 +225,13 @@ Adobe Experience Manager Guides在映射控制台中提供了一个功能，允�
     — 当您按&#x200B;**断开链接**&#x200B;排序时，断开链接的路径将显示在第一列中，而使用它们的所有引用的名称将显示在单独行上的另一列中。 如果在多个文件中使用了相同的断开链接，则它们将显示在一行中，并显示为分组行或子行。 例如，以下屏幕截图显示第一列中两个断开的链接以及使用这些链接的引用，`m_ElectricalSpecs_900.ditamap`显示在第三列中两个单独的行中。
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
     — 如果按&#x200B;**在**&#x200B;列中使用，您将查看变换视图，其中已使用断开链接的引用的名称在第一列中列出，而断开的链接在同一行的另一列中列出。 例如，以下屏幕截图显示了第一列中的引用（使用了断开的链接） `m_ElectricalSpecs_900.ditamap`，并且断开的链接显示在同一行的第三列中。
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. 您可以根据&#x200B;**文件类型**&#x200B;和&#x200B;**链接类型**&#x200B;筛选断开的链接。 系统会根据您在下拉列表中的选择，显示断开的链接列表。 例如，您可以选择仅显示DITA映射中的内容引用，而文件仅显示其中使用的已断开的内容引用。

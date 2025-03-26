@@ -4,7 +4,7 @@ description: 了解如何从地图控制台和地图仪表板创建自定义预�
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 在“映射”控制台中，预设配置选项组织在&#x200B;**常规**&#x200B;和&#x200B;**高级**&#x200B;选项卡下。
 
-![](images/custom-preset-config.png){width="800" align="left"}
+![](images/custom-preset-config.png){align="left"}
 
 **常规**&#x200B;选项卡包含以下配置选项：
 

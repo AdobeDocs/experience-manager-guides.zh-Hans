@@ -4,7 +4,7 @@ description: 了解如何使用AEM Guides中的DITA-OT发布将元数据传递�
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 1. 选择并打开要向其传递元数据字段的输出预设。 例如，选择PDF输出预设。 确保使用&#x200B;**DITA-OT**&#x200B;选项创建它。
 1. 从&#x200B;**文件属性**&#x200B;下拉列表中，选择要传递到DITA-OT发布的元数据。
 
-   ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+   ![](images/custom-metadata-output-preset-new.png){align="left"}
 
    “属性”下拉列表同时列出了自定义属性和默认属性。 例如，在上面的屏幕快照中，`dc:description`、`dc:language`、`dc:title`和`docstate`是默认属性。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 1. 选择并编辑要向其传递元数据字段的输出预设。 例如，选择PDF输出预设。
 1. 在所选输出预设中选择&#x200B;**DITA-OT**&#x200B;选项。
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. 从属性下拉列表中选择要传递到DITA-OT发布的元数据。
 

@@ -4,7 +4,7 @@ description: 在AEM Guides中将不同格式的文档转换为DITA。 了解如�
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Experience Manager Guides提供强大的转换功能，可将各种格式�
 
    对于系统上执行的所有转换任务，将显示转换状态报告。
 
-   ![](images/conversion-status-report-new.png){width="800" align="left"}
+   ![](images/conversion-status-report-new.png){align="left"}
 
 1. 报告页面分为两个部分：
 
@@ -35,7 +35,7 @@ Adobe Experience Manager Guides提供强大的转换功能，可将各种格式�
 
      以下屏幕截图显示了状态为成功的转化任务的报表数据。
 
-     ![](images/conversion-report-failed-active-queued-new.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued-new.png){align="left"}
 
    - **报表数据：**
 

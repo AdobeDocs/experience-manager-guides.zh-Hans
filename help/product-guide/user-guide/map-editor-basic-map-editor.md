@@ -4,7 +4,7 @@ description: 了解如何在AEM Guides中使用“基本映射编辑器”。 �
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 > 以前在Experience Manager Guides中提供的Basic Map Editor已从版本4.3和2307开始弃用。 您不能访问“基本映射编辑器”来创建和管理DITA映射。
 >建议您使用高级映射编辑器。 高级映射编辑器提供了增强功能和更好的自定义选项。 详细了解如何使用[高级映射编辑器](../user-guide/map-editor-advanced-map-editor.md)。
 
-基本映射编辑器提供了简单的拖放功能，可从AEM存储库添加主题以创建DITA映射或书图。 您可以添加嵌套主题、关系表\(reltable\)、属性和元数据信息，还可以验证映射是否正确。
+基本映射编辑器提供简单的拖放功能，可从AEM存储库添加主题以创建DITA映射或书图。 您可以添加嵌套主题、关系表\(reltable\)、属性和元数据信息，还可以验证映射是否正确。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    将在映射编辑器中打开映射文件进行编辑。 使用映射编辑器，您可以使用引用边栏中显示的当前可用主题来构建映射。
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){align="left"}
 
 1. 使用&#x200B;**引用**&#x200B;边栏，导航到包含要添加的主题或子映射的文件夹。
 
@@ -73,13 +73,13 @@ ht-degree: 0%
 
 基本映射编辑器中的主工具栏允许您执行以下任务：
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){align="left"}
 
 **A：搜索**
 
 您可以搜索并包含DAM中的所需主题。 单击此图标将显示“搜索”对话框：
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){align="left"}
 
 输入要搜索的关键字，这些关键字在主题的文件名、内容甚至属性值中匹配。 搜索结果可用后，选择所需的主题\(s\)，然后单击“检查”按钮以在映射结构末尾添加选定的文件。 您可以通过指定修改日期参数来筛选搜索结果。
 

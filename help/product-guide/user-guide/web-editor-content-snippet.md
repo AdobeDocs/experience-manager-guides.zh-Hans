@@ -4,7 +4,7 @@ description: 在AEM Guides中使用来自数据源的数据。 了解如何从�
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 0%
@@ -154,7 +154,7 @@ Adobe Experience Manager Guides提供了与数据源连接的功能。 您可以
 
 您还可以使用工具栏中的&#x200B;**查询数据** ![](images/data-sources-new-icon.svg)将数据片段插入到主题中。  您可以从下拉菜单中选择生成器，编辑查询，或更改模板并在主题中插入数据。
 
-![](images/add-content-snippet-generator.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){align="left"}
 
 *编辑并插入数据片段。*
 
@@ -248,7 +248,7 @@ Adobe Experience Manager Guides提供了与数据源连接的功能。 您可以
 
 
 
-   ![](images/add-topic-generator.png){width="800" align="left"}
+   ![](images/add-topic-generator.png){align="left"}
 
    *从现有主题生成器生成新主题。*
 

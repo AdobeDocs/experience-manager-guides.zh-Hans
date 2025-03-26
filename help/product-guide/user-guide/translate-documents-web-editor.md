@@ -4,7 +4,7 @@ description: 从Web编辑器将内容翻译成多种语言。 了解如何在AEM
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    - **目标标签**：目标文件选定版本的标签
 1. 选择右上角的&#x200B;**发送以进行翻译**。
 
-   ![](images/translation-send.png){width="800" align="left"}
+   ![](images/translation-send.png){align="left"}
 
 1. 从下拉列表中，选择&#x200B;**新建翻译项目**。
 

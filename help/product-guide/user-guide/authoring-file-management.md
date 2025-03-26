@@ -4,7 +4,7 @@ description: 了解如何在AEM Guides中管理文件和文件夹。 复制和�
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3131'
 ht-degree: 0%
@@ -310,7 +310,7 @@ Experience Manager Guides附带了批量移动工具，可帮助管理员将包�
 1. 在左边栏中，选择&#x200B;**版本历史记录**&#x200B;并选择版本。
 1. 您还可以在“版本历史记录”下查看不同版本的缩略图。
 
-   ![](images/media-version-history-icon.png){width="800" align="center"}
+   ![](images/media-version-history-icon.png){align="center"}
 
 1. 从列出的版本中，选择要用作基本版本的版本，然后选择&#x200B;**预览版本**。 所选版本的预览将显示在“版本预览”窗口中。
 

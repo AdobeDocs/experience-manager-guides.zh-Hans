@@ -3,7 +3,8 @@ title: Adobe Experience Manager Guides主页体验
 description: 了解Adobe Experience Manager Guides的主页。
 feature: Authoring
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 主页是您登录Experience Manager Guides时查看的第一个屏幕。 它为您提供了统一且直观的欢迎屏幕体验，包括您最近访问的文件、收藏集等的快速视图。
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 Experience Manager Guides主页分为以下部分：
 
@@ -26,7 +27,7 @@ Experience Manager Guides主页分为以下部分：
 
 标题栏是主页的顶部栏，用于显示Adobe Experience Manager徽标(如果您将Unified Shell用作Experience Manager Guides UI，则为Unified Shell)。 当您选择徽标时，它会将您定向到Experience Manager导航页面。
 
-![](images/aem-home-header.png){width="800" align="left"}
+![](images/aem-home-header.png){align="left"}
 
 ## 导航栏
 
@@ -36,7 +37,7 @@ Experience Manager Guides主页分为以下部分：
 >
 > 如果使用Adobe Experience Manager Guides as a Cloud Service，则导航栏中会显示一个标记为&#x200B;**AI助手**&#x200B;的附加功能。
 
-![](images/aem-home-nav-bar.png){width="800" align="left"}
+![](images/aem-home-nav-bar.png){align="left"}
 
 导航栏中可用的功能说明如下：
 
@@ -88,11 +89,11 @@ Experience Manager Guides主页分为以下部分：
 
 - **最近打开的文件**：小组件为您提供最近打开的文件（您在编辑器中访问的文件列表）的快照，以及关键文件详细信息，包括标题、文件名、文件类型、文件路径和日期访问。
 
-  ![](images/aem-home-recent-files.png){width="800" align="left"}
+  ![](images/aem-home-recent-files.png){align="left"}
 
   您可以通过从列下拉菜单中选择选项来对列进行排序和调整大小。 默认情况下，数据会根据上次访问的日期和时间排序。
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){width="800" align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
 
 
   在[用户首选项](#user-preferences)中，您可以设置此构件可显示的最大文件数。 默认情况下，此限制设置为&#x200B;**20**。
@@ -110,11 +111,11 @@ Experience Manager Guides主页分为以下部分：
 - **收藏集**：如果您处理一组文件或文件夹，则可以将其添加到此构件以快速访问它们。 添加后，您可以按标题以及其他关键详细信息（例如，所有者和创建日期）查看文件。 在选择列下拉列表时，您可以查看用于排序列和调整列大小的选项。
 
 
-  ![](images/aem-home-collections.png){width="800" align="left"}
+  ![](images/aem-home-collections.png){align="left"}
 
   所选收藏集的痕迹导航显示在收藏集小部件的顶部。 您可以选择它以返回到层次结构中的特定文件夹。
 
-  ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
 
   当您将光标悬停在收藏集上并选择“更多”图标![](images/Smock_MoreSmallList_18_N.svg)时，以下选项可用：
 
@@ -158,7 +159,7 @@ Experience Manager Guides允许您使用名为&#x200B;**映射收藏集**&#x200B
 
 - **常规**：“常规”选项卡允许您配置以下设置：
 
-  ![](images/user_preference_editor.PNG){width="800" align="left"}
+  ![](images/user_preference_editor.PNG){align="left"}
 
    - **文件夹配置文件**：文件夹配置文件控制与条件属性、创作模板、输出预设和编辑器配置相关的各种配置。 默认情况下，将显示全局配置文件。 此外，如果您的管理员在系统中配置了文件夹配置文件，则这些文件夹配置文件也会显示在文件夹配置文件列表中。
    - **基本路径**：默认情况下，当您从编辑器访问Experience Manager Guides存储库时，您会看到来自/content/dam位置的资源。 您的工作文件夹很可能是/content/dam/文件夹中的几个文件夹。 您可以设置工作文件夹的基本路径，然后存储库视图会预先显示来自该位置的内容。 这可以缩短访问工作文件夹的时间。 此外，在主题中插入任何引用或媒体文件时，文件浏览位置将以Base路径中设置的文件夹开始。
@@ -168,7 +169,7 @@ Experience Manager Guides允许您使用名为&#x200B;**映射收藏集**&#x200B
 
 - **外观**：“外观”选项卡为您提供了选择应用程序主题和内容编辑区域源视图的选项。 使用此选项卡可配置以下设置：
 
-  ![](images/user_preference_editor_appearance.png){width="800" align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **编辑器文件显示配置**：选择在编辑器中查看文件的默认方式。 您可以在“创作”视图的各个面板中按标题或文件名查看文件列表。 默认情况下，文件在编辑器中按标题显示。
    - **应用程序主题和Source视图**：您可以从应用程序和源视图的浅色或深色主题中进行选择。 在浅色主题的情况下，工具栏和面板使用浅灰色背景。 在深色主题的情况下，工具栏和面板使用黑色背景。 选择&#x200B;**使用设备**&#x200B;主题，以允许Experience Manager Guides根据设备主题选择浅色和深色主题。

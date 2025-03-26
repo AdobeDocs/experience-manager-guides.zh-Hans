@@ -4,7 +4,7 @@ description: 在AEM Guides中，从存储库面板或地图视图面板生成输
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
    - **映射**：列出包含选定主题的DITA映射。
    - **状态**：显示每个主题的发布状态。
 要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){align="left"}
 
 
 ## 从Web编辑器生成DITA映射的输出

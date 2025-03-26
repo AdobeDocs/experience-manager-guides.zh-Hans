@@ -4,7 +4,7 @@ description: 从AEM Guides中的映射控制台和映射仪表板生成DITA映�
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 选择一个或多个要用于生成输出的输出预设。
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){align="left"}
 
 1. 选择&#x200B;**生成**&#x200B;图标以启动输出生成进程。
 

@@ -4,7 +4,7 @@ description: 使用AEM Guides中的通知重新分配审核任务。 了解如�
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
    >
    > 审阅人必须具有重新分配的权限，并且应属于用户管理员组。
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){align="left"}
 
 1. 选择&#x200B;**重新分配**。
 

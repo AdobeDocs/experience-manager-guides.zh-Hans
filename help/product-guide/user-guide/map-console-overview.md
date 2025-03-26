@@ -3,23 +3,23 @@ title: Adobe Experience Manager Guides中的映射控制台
 description: 了解地图控制台以及允许您在Adobe Experience Manager Guides中发布和管理地图的各种可用功能。
 feature: Publishing
 role: User
-source-git-commit: 4c13d0dab23c19fe2340128aaa05803bb711a486
+exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # 映射控制台概述
 
 Adobe Experience Manager Guides提供了一个专用控制台（称为&#x200B;**地图控制台**），用于简化所有地图管理和发布任务。 此集中式界面通过提供用于生成输出、翻译内容、访问报告等功能的选项，提高了与地图相关活动的生产力和准确性 — 所有这些功能都在一处完成。
 
-![文件属性选项选项卡](./images/map-console-screen.png){width="800" align="left"}
+![文件属性选项选项卡](./images/map-console-screen.png){align="left"}
 
 地图控制台界面主要分为两个部分 — **导航栏**&#x200B;和&#x200B;**左侧面板**。
 
-![新建](images/map-console-sections.png){width="800" align="left"}
+![新建](images/map-console-sections.png){align="left"}
 
 - (**A**) **导航栏**：导航栏会显示一些工具，用于切换导航、调整页面视图并显示所选映射文件的名称。
 

@@ -4,7 +4,7 @@ description: 了解AEM Sites的增量输出生成如何在AEM Guides中工作。
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 1. 选择要为其生成增量输出的AEM Sites预设。
 1. 在&#x200B;**主题**&#x200B;选项卡中，选择要发布的主题。
 
-   ![aem sites主题列表](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![aem sites主题列表](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ ht-degree: 0%
    >
    > 如果您向DITA映射中添加了新主题，您将无法从此处生成这些新主题。 必须首先使用DITA映射发布函数发布新添加的主题。
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. 选择&#x200B;**重新生成**。
 

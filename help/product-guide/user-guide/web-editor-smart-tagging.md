@@ -4,7 +4,7 @@ description: 了解如何在AEM Guides中添加智能标记。 使用XML关键�
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Adobe Experience Manager Guides具有添加智能标记的功能。 您可以使
 1. 选择“运行后处理”选项。 成功启动工具时将显示一条消息。
 1. 标记将自动提取，并可在所选主题的“属性”页面上看到。
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){align="left"}
 
    >[!NOTE]
    >

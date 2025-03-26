@@ -4,7 +4,7 @@ description: 了解如何使用Adobe Experience Manager Guides中的DIVATAL编�
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Adobe Experience Manager Guides允许您使用DITAVAL编辑器轻松创建和编
 
 1. 在“存储库”面板中，选择&#x200B;**新建文件**&#x200B;图标，然后从下拉菜单中选择&#x200B;**主题**。
 
-   ![](images/new-file-option.png){width="800" align="left"}
+   ![](images/new-file-option.png){align="left"}
 
    您还可以从[Experience Manager Guides主页](./intro-home-page.md)以及存储库视图中文件夹的选项菜单访问此选项。
 
@@ -49,7 +49,7 @@ Adobe Experience Manager Guides允许您使用DITAVAL编辑器轻松创建和编
 
 该主题在指定的路径中创建。 此外，该主题将在编辑器中打开以进行编辑。
 
-![](images/ditaval-file-editor.png){width="800" align="left"}
+![](images/ditaval-file-editor.png){align="left"}
 
 ## 编辑DITAVAL文件
 

@@ -4,7 +4,7 @@ description: 了解如何在AEM Guides中查看主题并将这些功能用作查
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    使用DITA映射启动审阅工作流时，将显示以下屏幕：
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){align="left"}
 
    此屏幕上提供以下选项：
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
    映射中的所有主题都显示为单个复合文档。 允许查看者查看的主题正常显示。 不允许审阅的主题不显示。
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){align="left"}
 
    在上面的屏幕截图中，将共享“常规”描述主题以供当前审阅者审阅，该主题正常显示。 但是，下一个主题“外部测试版的历史记录”内容不会共享以供审阅，并且会以只读模式显示。 目录中也突出显示了当前关注的专题。
 
    选择并共享一个或多个主题以进行审阅时，将显示以下屏幕：
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){align="left"}
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 当您查看单个主题时，您会获得一个附加选项，用于切换回文档视图。 在以下屏幕截图中，将打开映射文件中的特定主题进行审阅。 突出显示的选项 — **显示文档视图**&#x200B;允许用户切换回映射文件的文档视图。
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){align="left"}
 
 **使用不同类型的注释工具** — 您可以通过突出显示文本、突出显示文本、插入文本或添加注释注释来添加内联注释。 “注释”工具栏中提供的不同类型的注释工具如下所述：
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
 插入任何注释时，将出现注释弹出窗口。 在弹出窗口中提供其他注释或信息后，可通过按Enter键提交注释。 添加注释后，您可以选择将附件添加到该注释。
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){align="left"}
 
 在上述屏幕快照中，文档包含高亮注释的弹出窗口，并且注释也添加到“注释”面板中。 文件附件图标![](images/file-attach-review.svg)与注释一起在两个位置都可用。
 
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 - 选择过时的注释图标\(![](images/outdated-comment-icon.svg)\)将显示文档最新版本与注释版本之间的差异。 版本号\（正在比较的版本\）显示在文档顶部。
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){align="left"}
 
   >[!NOTE]
   >
