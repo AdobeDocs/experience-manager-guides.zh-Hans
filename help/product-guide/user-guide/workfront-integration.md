@@ -3,7 +3,8 @@ title: Workfront集成
 description: 了解如何将Workfront与Adobe Experience Manager Guides集成并开始创建用于创作、发布、审阅和翻译工作流的任务。
 feature: Authoring
 role: User
-source-git-commit: aa50c63588f18f2aabc03d8b81edca4281258876
+exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
+source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
 workflow-type: tm+mt
 source-wordcount: '2436'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Adobe Workfront是一个基于云的工作管理解决方案，可帮助团队�
 
    显示&#x200B;**Workfront tasks**&#x200B;页面。
 
-   ![](./images/workfront-sign-in.png){width="800" align="left"}
+   ![](./images/workfront-sign-in.png){align="left"}
 3. 选择&#x200B;**登录**。
 
    系统会将您重定向至Adobe Workfront登录页面。
@@ -48,7 +49,7 @@ Adobe Workfront是一个基于云的工作管理解决方案，可帮助团队�
 
    系统会自动将您重定向到Experience Manager Guides上的&#x200B;**Workfront任务**&#x200B;页面。
 
-   ![](./images/workfront-tasks-page.png){width="800" align="left"}
+   ![](./images/workfront-tasks-page.png){align="left"}
 
 ## Workfront任务页面上的可用功能
 
@@ -72,7 +73,7 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
    此时将显示&#x200B;**创建任务**&#x200B;对话框。
 
-   ![](./images/workfront-create-task.png){width="650" align="left"}
+   ![](./images/workfront-create-task.png){align="left"}
 2. 在&#x200B;**常规**&#x200B;选项卡中，输入以下任务详细信息：
 
    * **任务类型**：选择要创建的任务类型。 可用选项为：**创作**、**审阅**、**发布**&#x200B;和&#x200B;**翻译**。
@@ -83,20 +84,20 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
    * **代理人**：为任务选择代理人。
 3. 在&#x200B;**Assets**&#x200B;选项卡中，选择&#x200B;**添加**&#x200B;以将资源添加到此任务。
 
-   ![](./images/workfront-create-tasks-asset.png){width="650" align="left"}
+   ![](./images/workfront-create-tasks-asset.png){align="left"}
 
    * 对于创作、发布和翻译任务，系统会提示您在&#x200B;**选择路径**&#x200B;对话框中选择所需文件的位置。 选择&#x200B;**创建**&#x200B;按钮后，选定的文件（用于创作并映射以进行发布和翻译的主题）即会添加到任务中。
 
-     ![](./images/attach-asset.png){width="650" align="left"}
+     ![](./images/attach-asset.png){align="left"}
 
    * 对于审阅任务，首先提示您选择资源类型（映射或主题），然后选定的文件显示如下：
 
 
-     ![将映射添加到审阅任务](./images/attach-asset-topics.png){width="650" align="left"}
+     ![将映射添加到审阅任务](./images/attach-asset-topics.png){align="left"}
 
      *向审核任务添加主题*
 
-     ![将映射添加到审阅任务](./images/attach-asset-maps.png){width="650" align="left"}
+     ![将映射添加到审阅任务](./images/attach-asset-maps.png){align="left"}
 
      *将映射添加到审阅任务*
 
@@ -125,7 +126,7 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
 您已创建且仍处于活动状态的所有任务将显示在“Workfront任务”页面的&#x200B;**由您创建**&#x200B;选项卡中，为您提供关键任务详细信息，如项目名称、任务接受者、任务创建日期、任务完成日期和任务状态。
 
-![](./images/workfront-tasks-created-by-you.png){width="800" align="left"}
+![](./images/workfront-tasks-created-by-you.png){align="left"}
 
 当您将鼠标悬停在“由您创建”选项卡中存在的任务上时，可以使用以下选项：
 
@@ -147,7 +148,7 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
 分配给您且仍处于活动状态的所有任务将显示在“Workfront任务”页面的&#x200B;**分配给您**&#x200B;选项卡中，为您提供关键任务详细信息，如项目名称、任务接受者、截止日期和任务状态。
 
-![](./images/workfront-tasks-assigned-to-you.png){width="800" align="left"}
+![](./images/workfront-tasks-assigned-to-you.png){align="left"}
 
 当您将鼠标悬停在“分配给您”选项卡中存在的任务上时，可以使用以下选项：
 
@@ -159,7 +160,7 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
 显示任务信息，包括在任务创建期间输入的详细信息、任务状态和任何添加的资源。
 
-![](images/task-details.png){width="800" align="left"}
+![](images/task-details.png){align="left"}
 
 #### 从“概述”部分访问已分配任务
 
@@ -167,7 +168,7 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
 **您的任务**&#x200B;是这样一个小组件，其中显示了Adobe Workfront任务（已分配给您并且仍然有效）的列表以及关键任务详细信息，包括任务名称、相关项目、截止日期和当前状态。
 
-![](./images/workfront-your-tasks-widget.png){width="800" align="left"}
+![](./images/workfront-your-tasks-widget.png){align="left"}
 
 与“分配给您”选项卡类似，当您将鼠标悬停在任务上时，“您的任务”小组件还提供&#x200B;**打开**&#x200B;和查看&#x200B;**任务详细信息**&#x200B;的选项。
 
@@ -194,11 +195,11 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
 1. 从[概述](#accessing-assigned-tasks-from-overview-section)部分或[分配给您](#managing-tasks-assigned-to-you)选项卡访问任务。
 
-   ![在“分配给您”选项卡中创作任务](./images/authoring-task-access.png){width="650" align="left"}
+   ![在“分配给您”选项卡中创作任务](./images/authoring-task-access.png){align="left"}
 
    *在“分配给您”选项卡中创作任务*
 
-   ![在您的任务小部件中创作任务](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
+   ![在您的任务小部件中创作任务](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *在您的任务小部件中创作任务*
 2. 将鼠标悬停在要处理的任务上并选择  ![](images/Smock_OpenIn_18_N.svg)  打开它。 也可以通过简单地选择任务来打开任务。
@@ -206,7 +207,7 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
    所有创作任务都将在编辑器中打开。
 3. 查看&#x200B;**详细信息**&#x200B;选项卡中的任务详细信息，然后选择&#x200B;**资源**&#x200B;文件以将其打开。
 
-   ![](./images/authoring-task-review-details-editor.png){width="650" align="left"}
+   ![](./images/authoring-task-review-details-editor.png){align="left"}
 
 4. 进行所需的编辑并选择&#x200B;**标记为完成**。
 5. 切换到&#x200B;**评论**&#x200B;选项卡以向此任务添加评论。 在任务级别添加的这些注释也将反映在Adobe Workfront项目仪表板上。
@@ -223,18 +224,18 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
 1. 从[概述](#accessing-assigned-tasks-from-overview-section)部分或[分配给您](#managing-tasks-assigned-to-you)选项卡访问任务。
 
-   ![在“分配给您”选项卡中查看任务](./images/review-task-access.png){width="650" align="left"}
+   ![在“分配给您”选项卡中查看任务](./images/review-task-access.png){align="left"}
 
    *在“分配给您”选项卡中查看任务*
 
-   ![审阅任务小部件中的任务](./images/review-task-access-your-tasks.png){width="650" align="left"}
+   ![审阅任务小部件中的任务](./images/review-task-access-your-tasks.png){align="left"}
 
    *在您的任务小部件中创作任务*
 2. 将鼠标悬停在要处理的任务上并选择  ![](images/Smock_OpenIn_18_N.svg)  打开它。 也可以通过简单地选择任务来打开任务。
 
    对于审阅人，审阅任务将在&#x200B;**审阅UI**&#x200B;中打开。
 
-   ![](./images/review-task-access-review-ui.png){width="650" align="left"}
+   ![](./images/review-task-access-review-ui.png){align="left"}
 
 3. 执行所需的检查。 有关如何审阅主题的详细信息，请查看[审阅主题](./review-topics.md)。
 4. 审核完成后，选择&#x200B;**标记为完成**。
@@ -248,13 +249,13 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
 可以从[概述](#accessing-assigned-tasks-from-overview-section)部分或[分配给您的选项卡](#managing-tasks-assigned-to-you)访问重新分配给审阅合并的创建者/作者的审阅任务。
 
-![在创作模式下审阅任务](./images/review-task-author-mode.png){width="800" align="left"}
+![在创作模式下审阅任务](./images/review-task-author-mode.png){align="left"}
 
 *审阅分派回作者的任务*
 
 对于此类任务，被分配人的任务状态更改为&#x200B;**创作**，而任务类型仍为&#x200B;**审阅**。 当所有审阅人完成审阅时，会发生此状态更改。
 
-![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
+![](./images/review-tasks-with-authoring-doc-state.png){align="left"}
 
 
 选择任务或打开图标![](images/Smock_OpenIn_18_N.svg)会在编辑器中打开任务，作者可以在编辑器中[处理审阅注释](../user-guide/review-address-review-comments.md)，通过更新主题版本来编辑任务，然后根据需要将任务重新分配给审阅人。
@@ -271,21 +272,21 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
 1. 从[概述](#accessing-assigned-tasks-from-overview-section)部分或[分配给您](#managing-tasks-assigned-to-you)选项卡访问任务。
 
-   ![在“分配给您”选项卡中的翻译任务](./images/translation-tasks-access.png){width="650" align="left"}
+   ![在“分配给您”选项卡中的翻译任务](./images/translation-tasks-access.png){align="left"}
 
    *在“分配给您”选项卡中的翻译任务*
 
-   您的任务小部件中的![翻译任务](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
+   您的任务小部件中的![翻译任务](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    您的任务小部件中的&#x200B;*翻译任务*
 
 2. 将鼠标悬停在要处理的任务上并选择  ![](images/Smock_OpenIn_18_N.svg)  以在&#x200B;**映射控制台**&#x200B;中打开它。 也可以通过简单地选择任务来打开任务。
 3. 查看任务详细信息和添加以进行翻译的文件。
 
-   ![](./images/translation-tasks-review-details.png){width="650" align="left"}
+   ![](./images/translation-tasks-review-details.png){align="left"}
 4. 导航到&#x200B;**翻译**&#x200B;选项卡以查看各种翻译选项。 了解如何在Experience Manager Guides中[翻译内容](../user-guide/translation.md)。
 5. 执行所需的翻译并选择&#x200B;**发送以进行翻译**。
-   ![](./images/translation-tasks-send-translation.png){width="650" align="left"}
+   ![](./images/translation-tasks-send-translation.png){align="left"}
 6. 导航到&#x200B;**Workfront**&#x200B;部分，然后选择&#x200B;**标记为完成**&#x200B;以指示任务已完成。
 7. 切换到&#x200B;**评论**&#x200B;选项卡以向此任务添加评论。 这些在任务级别添加的注释将反映在Adobe Workfront项目仪表板上。
 
@@ -301,17 +302,17 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
 1. 从[概述](#accessing-assigned-tasks-from-overview-section)部分或[分配给您](#managing-tasks-assigned-to-you)选项卡访问任务。
 
-   ![在“分配给您”选项卡中发布任务](./images/publishing-tasks-access.png){width="650" align="left"}
+   ![在“分配给您”选项卡中发布任务](./images/publishing-tasks-access.png){align="left"}
 
    *在“分配给您”选项卡中发布任务*
 
-   ![发布任务小部件中的任务](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
+   ![发布任务小部件中的任务](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *在任务小部件中发布任务*
 2. 将鼠标悬停在要处理的任务上并选择  ![](images/Smock_OpenIn_18_N.svg)  以在&#x200B;**映射控制台**&#x200B;中打开它。 也可以通过简单地选择任务来打开任务。
 3. 查看任务详细信息和为发布添加的文件。
 
-   ![](./images/publishing-tasks-review-details.png){width="650" align="left"}
+   ![](./images/publishing-tasks-review-details.png){align="left"}
 4. 导航到&#x200B;**输出预设**&#x200B;并执行发布任务所需的发布操作。 有关详细信息，请查看[了解输出预设](../user-guide/generate-output-understand-presets.md/)。
 5. 发布完成后，导航到&#x200B;**Workfront**&#x200B;部分，然后选择&#x200B;**标记为完成**&#x200B;以指示任务已完成。
 6. 切换到&#x200B;**评论**&#x200B;选项卡以向此任务添加评论。 这些在任务级别添加的注释将反映在Workfront的项目仪表板上。
