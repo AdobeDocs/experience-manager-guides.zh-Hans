@@ -4,9 +4,9 @@ description: 浏览Adobe Experience Manager Guides中编辑器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -213,9 +213,9 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 在XML中，空格包括空格、制表符、回车符和空行。 Experience Manager Guides将多个后续空格转换为一个空格。 这有助于保留编辑器的WYSIWYG视图。
 
-    >[！NOTE]
-    >
-    >在某些根据DITA规则需要保留空格的元素中，将保留多个后续空格。 例如，“&lt;pre>”和“&lt;codeblock>”元素。
+>[!NOTE]
+>
+> 在某些根据DITA规则需要保留空格的元素中，将保留多个后续空格。 例如，`<pre>`和`<codeblock>`个元素。
 
 
 **保留换行符和缩进**

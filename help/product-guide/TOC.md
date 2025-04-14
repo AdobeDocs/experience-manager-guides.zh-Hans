@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 995cb28356fb087871225475e0d69fc96a9b5f98
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2089'
 ht-degree: 6%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 6%
 - [[!DNL AEM Guides]概述](overview.md)
 - [免责声明](./user-guide/rebranding-disclaimer.md)
 - 发行信息 {#release-info}
-   - [AEM指南发布路线图](./release-info/aem-guides-releases-roadmap.md)
+   - [AEM Guides版本发行路线图](./release-info/aem-guides-releases-roadmap.md)
    - 发行说明 {#release-notes}
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
@@ -34,7 +34,7 @@ ht-degree: 6%
                - [新增功能](./release-info/whats-new-2024-10-0.md)
                - [修复的问题](./release-info/fixed-issues-2024-10-0.md)
                - [升级说明](./release-info/upgrade-instructions-2024-10-0.md)
-            - 2024.6.0 版 {#2406-release}
+            - 2024.6.0版本{#2406-release}
                - [新增功能](./release-info/whats-new-2024-06-0.md)
                - [修复的问题](./release-info/fixed-issues-2024-06-0.md)
                - [升级说明](./release-info/upgrade-instructions-2024-06-0.md)
@@ -68,15 +68,15 @@ ht-degree: 6%
             - 4月版{#2304-release}
                - [新增功能](./release-info/whats-new-2023-4-0.md)
                - [发行说明](./release-info/release-notes-2023-4-0.md)
-            - 3月版 {#2303-release}
+            - 3月版{#2303-release}
                - [新增功能](./release-info/whats-new-2023-3-0.md)
                - [发行说明](./release-info/release-notes-2023-3-0.md)
             - 2月版{#2302-release}
                - [新增功能](./release-info/whats-new-2023-2-0.md)
                - [发行说明](./release-info/release-notes-2023-2-0.md)
-         - 2022 版 {#2022-releases}
-            - [11 月发行说明](./release-info/release-notes-2022-11-0.md)
-            - [10 月发行说明](./release-info/release-notes-2022-10-0.md)
+         - 2022版本{#2022-releases}
+            - [11月发行说明](./release-info/release-notes-2022-11-0.md)
+            - [10月发行说明](./release-info/release-notes-2022-10-0.md)
             - [9月发行说明](./release-info/release-notes-2022-9-0.md)
             - [8月发行说明](./release-info/release-notes-2022-8-0.md)
             - [5月发行说明](./release-info/release-notes-2022-5-0.md)
@@ -93,11 +93,11 @@ ht-degree: 6%
          - 4.6.0 SP4版本{#460-sp4-release}
             - [已修复问题](./release-info/fixed-issues-4-6-0-sp4.md)
             - [升级说明](./release-info/upgrade-instructions-4-6-0-sp4.md)
-         - 4.6.0 SP3 版本 {#460-sp3-release}
-            - [修复的问题](./release-info/fixed-issues-4-6-0-sp2.md)
+         - 4.6.0 SP3版本{#460-sp3-release}
+            - [已修复问题](./release-info/fixed-issues-4-6-0-sp2.md)
             - [升级说明](./release-info/upgrade-instructions-4-6-0-sp2.md)
-         - 4.6.0 SP1 版本 {#460-sp1-release}
-            - [修复的问题](./release-info/fixed-issues-4-6-0-sp1.md)
+         - 4.6.0 SP1版本{#460-sp1-release}
+            - [已修复问题](./release-info/fixed-issues-4-6-0-sp1.md)
             - [升级说明](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0版本{#460-release}
             - [新增功能](./release-info/whats-new-4-6.md)
@@ -126,16 +126,16 @@ ht-degree: 6%
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
          - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x 发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-- 用户指南（新 UI） {#user-guide}
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+- 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
-      - [大约 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] 工作和主要功能 {#aemg-works-features}
-         - [工作原理 [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
+      - [!DNL AEM Guides]正在工作和主要功能{#aemg-works-features}
+         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页{#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
-   - 作者内容 {#author-content}
+   - 作者内容{#author-content}
       - [创作概述](./user-guide/authoring-content.md)
       - [使用AEM Guides创作内容的方法](./user-guide/authoring-content-xml-doc.md)
       - 编辑器{#work-with-editor}
@@ -147,7 +147,15 @@ ht-degree: 6%
             - [创建主题](./user-guide/web-editor-create-topics.md)
             - [预览主题](./user-guide/web-editor-preview-topics.md)
          - [了解编辑器功能](./user-guide/web-editor-features.md)
+         - 了解编辑器界面和功能{#editor-interface-features}
+            - [标题栏](./user-guide/web-editor-header-bar.md)
+            - [选项卡栏](./user-guide/web-editor-tab-bar.md)
+            - [工具栏](./user-guide/web-editor-toolbar.md)
+            - [左侧面板](./user-guide/web-editor-left-panel.md)
+            - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
+            - [右面板](./user-guide/web-editor-right-panel.md)
          - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+         - [使用编辑器设置](./user-guide/web-editor-settings.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -157,17 +165,17 @@ ht-degree: 6%
          - [文档状态](./user-guide/web-editor-document-states.md)
          - [使用标签](./user-guide/web-editor-use-label.md)
       - 映射编辑器{#map-editor}
-         - [地图编辑器简介](./user-guide/map-editor.md)
-         - [创建地图](./user-guide/map-editor-create-map.md)
-         - [基于自定义模板创建地图](./user-guide/create-maps-customized-templates.md)
-         - [地图编辑器功能](./user-guide/map-editor-advanced-map-editor.md)
+         - [映射编辑器简介](./user-guide/map-editor.md)
+         - [创建映射](./user-guide/map-editor-create-map.md)
+         - [根据自定义模板创建映射](./user-guide/create-maps-customized-templates.md)
+         - [映射编辑器功能](./user-guide/map-editor-advanced-map-editor.md)
          - [地图编辑器中的其他功能](./user-guide/map-editor-other-features.md)
       - DITAVAL编辑器{#ditaval-editor}
          - [使用DITAVAL编辑器](./user-guide/ditaval-editor.md)
       - 用于创作内容{#author-using-desktop-tools}的桌面工具
          - [使用桌面工具创作内容](./user-guide/author-desktop-tools.md)
-   - 审阅内容{#review}
-      - [审阅简介](./user-guide/review.md)
+   - 审核内容{#review}
+      - [评论简介](./user-guide/review.md)
       - [创建DITA项目](./user-guide/authoring-create-dita-project.md)
       - [发送主题以供审阅](./user-guide/review-send-topics-for-review.md)
       - [使用通知重新分配审核任务](./user-guide/reassign-review-using-notification.md)
@@ -187,17 +195,17 @@ ht-degree: 6%
       - [在“映射”控制台中打开文件](./user-guide/open-files-map-console.md)
       - 报告 {#reports-aem-guide}
          - [报告简介](./user-guide/reports-intro.md)
-         - [来自地图控制台的 DITA 地图报告](./user-guide/reports-web-editor.md)
-         - [“地图”仪表板中的 DITA 地图报告](./user-guide/reports-ditamap.md)
-         - [内容重复使用报告](./user-guide/reports-content-reuse.md)
-         - [转换状态报告](./user-guide/reports-convertion-status.md)
+         - [“映射”控制台中的DITA映射报表](./user-guide/reports-web-editor.md)
+         - [映射仪表板中的DITA映射报表](./user-guide/reports-ditamap.md)
+         - [内容重用报告](./user-guide/reports-content-reuse.md)
+         - [转化状态报表](./user-guide/reports-convertion-status.md)
          - [还原的文件版本历史记录报告](./user-guide/reports-reverted-file-version-history.md)
       - 内容翻译{#translate-content}
          - [内容翻译概述](./user-guide/translation.md)
          - [内容翻译的最佳实践](./user-guide/translation-first-time.md)
-         - [从地图控制台翻译文档](./user-guide/translate-documents-web-editor.md)
+         - [从“地图”控制台翻译文档](./user-guide/translate-documents-web-editor.md)
          - [查看翻译状态](./user-guide/translation-view-trans-state-6234.md)
-         - [翻译修改后的主题](./user-guide/translation-modified-topics-6234.md)
+         - [翻译修改的主题](./user-guide/translation-modified-topics-6234.md)
       - 输出生成{#output-gen}
          - [输出生成基础知识](./user-guide/generate-output.md)
          - AEM Guides {#output-presets-aemg}中的输出预设
@@ -207,8 +215,8 @@ ht-degree: 6%
                - [地图仪表板中的AEM Sites预设](./user-guide/generate-output-aem-site-map-dashboard.md)
             - PDF {#pdf-preset}
                - [PDF输出预设概述](./user-guide/generate-output-pdf.md)
-               - [DITA-OTPDF输出预设](./user-guide/generate-output-pdf-dita-ot.md)
-               - [本机PDF输出预设](./web-editor/native-pdf-web-editor.md)
+               - [DITA-OT PDF输出预设](./user-guide/generate-output-pdf-dita-ot.md)
+               - [原生PDF输出预设](./web-editor/native-pdf-web-editor.md)
             - [知识库](./user-guide/generate-output-knowledge-base.md)
             - [HTML5](./user-guide/generate-output-html5.md)
             - [ePub](./user-guide/generate-output-epub.md)
@@ -218,19 +226,19 @@ ht-degree: 6%
          - 条件化内容{#conditional-content}
             - [使用条件预设](./user-guide/generate-output-use-condition-presets.md)
             - [条件属性分析](./user-guide/generate-output-conditional-attribute-profiling.md)
-         - 使用基线 {#work-with-baseline}
-            - [从地图控制台创建和管理基线](./user-guide/web-editor-baseline.md)
-            - [从“映射”操控板创建和管理基线](./user-guide/generate-output-use-baseline-for-publishing.md)
+         - 使用基线{#work-with-baseline}
+            - [从“映射”控制台创建和管理基线](./user-guide/web-editor-baseline.md)
+            - [从“映射”功能板创建和管理基线](./user-guide/generate-output-use-baseline-for-publishing.md)
          - [管理全局和文件夹配置文件输出预设](./user-guide/web-editor-manage-output-presets.md)
-         - [使用变量设置“目标路径”、“站点名称”或“文件名”选项](./user-guide/generate-output-use-variables.md)
+         - [使用变量设置目标路径、站点名称或文件名选项](./user-guide/generate-output-use-variables.md)
          - [使用DITA-OT将元数据传递到输出](./user-guide/pass-metadata-dita-ot.md)
          - 生成输出{#generate-output}
             - [为DITA映射生成输出](./user-guide/generate-output-for-a-dita-map.md)
             - [生成知识库输出](./user-guide/web-editor-article-publishing.md)
             - 单个主题发布{#single-topic-publishing}
-               - [Publish内容片段](./user-guide/publish-content-fragment.md)
-               - [Publish体验片段](./user-guide/publish-experience-fragment.md)
-               - [Publish AEM Sites页面](./user-guide/publish-aem-sites.md)
+               - [发布内容片段](./user-guide/publish-content-fragment.md)
+               - [发布体验片段](./user-guide/publish-experience-fragment.md)
+               - [发布AEM Sites页面](./user-guide/publish-aem-sites.md)
                - [增量输出生成](./user-guide/generate-output-aem-site.md)
          - [使用映射集合生成输出](./user-guide/generate-output-use-map-collection-output-generation.md)
          - [管理输出生成流程](./user-guide/generate-output-manage-process.md)
@@ -249,10 +257,10 @@ ht-degree: 6%
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [ePub](./user-guide/fm-output-epub-preset.md)
-      - [生成 .book 或 .fm 文件的输出](./user-guide/fm-output-generate.md)
+      - [生成.book或.fm文件的输出](./user-guide/fm-output-generate.md)
       - [查看输出生成任务的状态](./user-guide/fm-output-view-status.md)
-   - AEM 指南 中的 AI 助手 {#ai-assistant-aem}
-      - [Adobe Generative AI 用户披露](./user-guide/adobe-generative-ai-disclosures.md)
+   - AEM Guides {#ai-assistant-aem}中的AI助手
+      - [Adobe Generative AI用户披露](./user-guide/adobe-generative-ai-disclosures.md)
       - [AI Assistant概述](./user-guide/ai-assistant.md)
       - [用于搜索内容的AI支持的智能帮助](./user-guide/ai-based-smart-help.md)
       - [AI助手创作以智能地创作文档](./user-guide/ai-assistant-right-panel.md)
@@ -267,7 +275,7 @@ ht-degree: 6%
 - 用户指南（旧UI） {#user-guide-old-ui}
    - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置{#install-guide}
-   - 本地{#on-prem-ig}
+   - 内部部署{#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
       - 下载、安装和升级{#download-install-upgrade-aemg}
          - [下载和安装概述](./install-guide/download-install.md)
@@ -279,7 +287,7 @@ ht-degree: 6%
          - [升级AEM Guides](./install-guide/upgrade-xml-documentation.md)
          - [卸载AEM Guides](./install-guide/download-install-unistall-aemg.md)
          - [性能优化建议](./install-guide/download-install-recommend-perf-optimiz.md)
-      - 使用用户组和安全性 {#user-group-sec}
+      - 使用用户组和安全性{#user-group-sec}
          - [用户管理和安全性](./install-guide/user-admin-sec.md)
       - 内容迁移{#content-migration}
          - [非UUID到UUID内容迁移](./install-guide/migrate-uuid-non-uuid.md)
@@ -287,9 +295,9 @@ ht-degree: 6%
             - [使用版本迁移非UUID内容](./install-guide/migrate-non-uuid-uuid.md)
             - [使用版本（旧版）迁移非UUID内容](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
          - [迁移现有内容](./install-guide/migrate-content.md)
-         - [上传现有DITA内容](./install-guide/migrate-content-upload-existing-dita-content.md)
+         - [上载现有DITA内容](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [迁移非DITA内容](./install-guide/migrate-content-non-dita.md)
-      - 使用自定义DITA-OT和专门化{#custom-dita-ot-spec}
+      - 使用自定义DITA-OT和专业化{#custom-dita-ot-spec}
          - [使用自定义DITA-OT和DITA专业化](./install-guide/dita-ot-specialization.md)
       - 配置UUID和非UUID文件名{#conf-non-uuid-filename}
       - [为文件夹配置后处理](./install-guide/conf-folder-post-processing.md)
@@ -327,7 +335,7 @@ ht-degree: 6%
          - [配置选项以在氧气中进行编辑](./cs-install-guide/conf-edit-in-oxygen.md)
          - [配置其他特殊字符](./web-editor/configure-additional-special-characters.md)
       - 使用全局和文件夹级别配置文件{#global-folder-profiles}
-         - [配置全局或文件夹级配置文件](./install-guide/conf-folder-level.md)
+         - [配置全局或文件夹级别的配置文件](./install-guide/conf-folder-level.md)
       - 配置版本{#version-mgt}
          - [版本管理](./install-guide/version-management.md)
       - 使用基于桌面的XML编辑器{#desktop-xml-editor}
@@ -337,20 +345,20 @@ ht-degree: 6%
          - [下载并安装aem sites模板](./install-guide/download-install-aem-sites-templates.md)
          - [在AEM Sites输出中叠加HTML标记](./install-guide/overlay-html-tags-aem-sites.md)
          - 本机PDF发布{#config-native-pdf-publish}
-            - [PDF 模板](./native-pdf/pdf-template.md)
-            - [PDF 模板的组件](./native-pdf/components-pdf-template.md)
+            - [PDF模板](./native-pdf/pdf-template.md)
+            - [PDF模板的组件](./native-pdf/components-pdf-template.md)
             - [设计页面布局](./native-pdf/design-page-layout.md)
-            - [PDF 输出中的变量](./native-pdf/native-pdf-variables.md)
+            - [PDF输出中的变量](./native-pdf/native-pdf-variables.md)
             - [支持语言变量](./native-pdf/native-pdf-language-variables.md)
-            - [将条形码添加到PDF输出](./native-pdf/add-barcode.md)
-            - 常用内容样式{#content-styles}
+            - [向PDF输出添加条形码](./native-pdf/add-barcode.md)
+            - 通用内容样式{#content-styles}
                - [使用常见的内容样式](./native-pdf/stylesheet.md)
                - [使用自定义更改条样式](./native-pdf/change-bar-style.md)
                - [对目录条目和主题内容应用自定义样式](./native-pdf/custom-style-toc.md)
                - [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
                - [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
                - [将样式应用于脚注](./native-pdf/footnote-number-style.md)
-         - [为本机PDF发布配置JVM标志](./native-pdf/configure-jvm-flags.md)
+         - [为本机PDF发布配置JVM标记](./native-pdf/configure-jvm-flags.md)
          - 使用自定义工作流{#custom-workflow}
          - [配置和自定义工作流](./install-guide/customize-workflows.md)
       - 使用翻译配置{#translate-config}
@@ -399,8 +407,8 @@ ht-degree: 6%
          - [配置粘贴表的显示](./cs-install-guide/conf-pasted-tables.md)
          - [在同一选项卡中打开DITA主题或映射文件](./cs-install-guide/open-dita-files-same-tab.md)
          - [在左侧面板中配置自定义面板](./cs-install-guide/configure-custom-panel.md)
-         - [在 Web 编辑器中配置文件自动保存](./cs-install-guide/auto-save-in-editor.md)
-         - [配置提示以在关闭时另存为新版本](./cs-install-guide/conf-save-as-new-version-close.md)
+         - [在Web编辑器中配置文件自动保存](./cs-install-guide/auto-save-in-editor.md)
+         - [配置关闭时另存为新版本的提示](./cs-install-guide/conf-save-as-new-version-close.md)
          - [配置关闭时签入文件的提示](./cs-install-guide/conf-checkin-file-close.md)
          - [配置允许的特殊字符](./cs-install-guide/conf-special-chars.md)
          - [自动生成元素ID](./cs-install-guide/auto-generate-ids.md)
@@ -448,7 +456,7 @@ ht-degree: 6%
    - [用于处理DITA映射的基于Java的API](./api-reference/dita-map-management-java.md)
    - [用于转化工作流的基于Java的API](./api-reference/convert-to-dita-java.md)
    - [用于基线和标签的基于Java的API](./api-reference/create-baseline-label-java.md)
-   - [基于Java的API，用于处理文件夹配置文件](./api-reference/folder-profile-java.md)
+   - [用于处理文件夹配置文件的基于Java的API](./api-reference/folder-profile-java.md)
    - [用于创建和激活包的基于Java的API](./api-reference/create-activate-package-java.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [批量激活完成事件处理程序](./api-reference/bulk-activation-complete-event.md)
@@ -519,7 +527,7 @@ ht-degree: 6%
          - [集成数据源](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
          - [配置数据源连接器](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - 发布 {#publishing}
-         - 本地 PDF {#native-pdf}
+         - 本机PDF {#native-pdf}
             - [将自定义字体添加到DITA Native PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
             - [为本机PDF发布配置AEM环境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
             - [将企业品牌添加到PDF的第一页](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
