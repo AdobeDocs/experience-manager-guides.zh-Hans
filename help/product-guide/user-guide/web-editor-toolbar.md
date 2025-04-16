@@ -3,7 +3,8 @@ title: 编辑器中的工具栏
 description: 了解编辑器中的工具栏。 了解Adobe Experience Manager Guides中的编辑器界面和功能。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -38,7 +39,7 @@ ht-degree: 0%
 
 **查找和替换**&#x200B;功能在创作和Source视图模式下可用。 启用后，“查找并替换”文本栏将显示在主题编辑区域的底部。 您可以使用快捷键&#x200B;**CTRL**+**F**&#x200B;调用查找和替换栏。
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 使用设置图标\(![](images/settings-find-replace-icon.svg)\)，您可以切换&#x200B;**忽略大小写**&#x200B;和&#x200B;**仅限全字**&#x200B;搜索选项。 要执行不区分大小写的搜索，请打开\（或选择\）**忽略大小写**&#x200B;选项。 否则，如果要执行区分大小写的搜索，请关闭\（或取消选择\）**忽略大小写**&#x200B;选项。 您还可以选择搜索整个词。
 
@@ -107,7 +108,7 @@ ht-degree: 0%
 
    在还原到早期版本时，将显示一个可视提示，指示您当前使用的版本不是最新版本。
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 </details>
 
@@ -295,7 +296,7 @@ Experience Manager Guides提供了跟踪的更改功能，该功能包含在文�
 
 如果您在块元素（如`note`）中工作，则使用插入元素图标在`note`元素之后插入新元素。 在以下屏幕快照中，注释元素已插入p \(paragraph\)元素中：
 
-![在块元素中插入元素](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![在块元素中插入元素](images/note-in-para-insert-element_cs.png){align="left"}
 
 如果在注释元素中按Enter键，则会在注释元素本身中创建一个新段落。 要在注释外部插入新元素，请在元素痕迹导航中选择p元素\（在屏幕快照中高亮显示\），然后选择“元素”图标或按&#x200B;***Alt***+***Enter***&#x200B;以打开“插入元素”对话框。 然后，选择所需的元素并按Enter键将所选元素插入到注释元素之后。
 
@@ -366,7 +367,7 @@ Experience Manager Guides提供了跟踪的更改功能，该功能包含在文�
 1. 从值下拉列表中，选择要应用于选定表单元格的所需文本对齐方式。
 1. 选择&#x200B;**添加。**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 </details>
 
@@ -379,11 +380,11 @@ Experience Manager Guides提供了跟踪的更改功能，该功能包含在文�
 > 您也可以通过将图像从本地系统拖放到文章上来添加图像。 在本例中，使用&#x200B;**上传Assets**&#x200B;工作流添加图像文件。  有关更多详细信息，请在[左侧面板](#left-panel)部分中查看&#x200B;**上传Assets**&#x200B;工作流。
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="300" align="left"}
 
 可以在“插入图像”对话框中为图像添加图像/图形标题和替换文本。
 
->
+>[!NOTE]
 >
 > 插入图像并为该图像指定替换文本时，会按照最新的DITA标准将其添加到`<alt>`元素中。 不建议将`@alt`属性用于替换文本，但在以前的DITA版本中仍支持此属性。
 
@@ -391,7 +392,7 @@ Experience Manager Guides提供了跟踪的更改功能，该功能包含在文�
 
 插入图像后，您可以从“内容属性”面板中更改高度、宽度、版面和属性。 选择图像文件，然后在右侧面板的“内容属性”面板中进行更改。
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在Source字段上，可以找到所插入图像文件的完整路径。 该路径将显示在工具提示中。
 
@@ -468,7 +469,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 如果您的管理员在&#x200B;*XMLEditorConfig*&#x200B;中启用了UUID选项，则您将在&#x200B;**Link**&#x200B;属性中查看引用内容的UUID。
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -523,7 +524,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 >
 > Experience Manager Guides提供了可移动和可调整大小的对话框。 可以在右下角调整具有两条交叉线的对话框的大小。 “特殊字符”对话框中的交叉线如下所示。
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="350" align="left"}
 
 在“插入特殊字符”对话框中，可以使用特殊字符的名称搜索特殊字符。 所有特殊字符都存储在各种类别下。 使用选择类别下拉列表并选择类别。 将显示所选类别中可用的特殊字符。 您可以使用箭头键浏览特殊字符列表，或选择要插入的所需字符。 所选特殊字符的“名称”和“十六进制代码”显示在列表下方。 选择&#x200B;**插入**&#x200B;以在文档中插入选定的字符。
 
@@ -543,7 +544,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 **代码片段** - ![](images/insert-snippet-icon.svg)
 
-在当前或下一个有效位置插入代码片段。 要使此功能正常工作，您必须在系统中定义代码片段。 有关添加代码片段的更多信息，请在[左侧面板](web-editor-features.md#left-panel)部分中查看&#x200B;**代码片段**&#x200B;功能说明。
+在当前或下一个有效位置插入代码片段。 要使此功能正常工作，您必须在系统中定义代码片段。 有关添加代码片段的更多信息，请在[左侧面板](./web-editor-left-panel.md)部分中查看&#x200B;**代码片段**&#x200B;功能说明。
 
 选择“代码片段”选项时，您会看到插入代码片段目录。 目录是上下文相关的，这表示只有在当前位置允许显示代码片段时，才会显示代码片段。
 
@@ -571,12 +572,12 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
   版本号会随为主题或映射文件创建的每个新版本而更改。 如果您正在处理新创建的文档，则版本信息显示为&#x200B;**none**。
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **另存为新版本**&#x200B;是一个按钮，用于保存您在主题中所做的更改，并创建主题的新版本。
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 当您选择使用&#x200B;**另存为新版本**&#x200B;保存主题或映射时，将出现以下对话框：
@@ -597,7 +598,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 将指针悬停在主题标题上时，会显示文件标题、文件路径和版本号。
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -607,7 +608,7 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 锁定或解锁当前文件。 锁定文件可为您提供对文件的独占写入权限。 这会限制其他用户编辑文件。 如果您希望其他人具有编辑权限，请解锁文件。 当文件被解锁时，更改将保存在文件的当前版本中。
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 如果您在“映射视图”中并展开父映射，则只需单击一下即可锁定映射中的所有文件。 只需展开父映射文件并选择父文件即可，这将导致选择映射中的所有文件。 然后，您可以选择&#x200B;**锁定** ![](images/LockClosed_icon.svg)以获取映射中所有文件的锁定。
 

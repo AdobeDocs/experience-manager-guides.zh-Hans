@@ -3,9 +3,10 @@ title: 编辑器中的左侧面板
 description: 了解编辑器中的左侧面板。 了解Adobe Experience Manager Guides中的编辑器界面和功能。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '9325'
+source-wordcount: '9323'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 左侧面板中可用的功能由您的管理员管理，允许他们启用或禁用左侧面板中存在的单个功能。 左侧面板中仅显示已启用的功能。 有关更多详细信息，请查看[选项卡栏](#tab-bar)的&#x200B;**面板**&#x200B;部分。
+> 左侧面板中可用的功能由您的管理员管理，允许他们启用或禁用左侧面板中存在的单个功能。 左侧面板中仅显示已启用的功能。 有关更多详细信息，请查看[选项卡栏](./web-editor-tab-bar.md)的&#x200B;**面板**&#x200B;部分。
 
 左侧面板功能的详细说明如下：
 
@@ -89,7 +90,7 @@ ht-degree: 0%
 
 - 在编辑器中右键单击文件的选项卡以打开上下文菜单。 选择&#x200B;**添加到** > **收藏集**&#x200B;以将文件添加到收藏夹列表。
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -131,7 +132,7 @@ ht-degree: 0%
 视频的视图。 在快捷菜单中，您还可以选择下载、更改播放
 速度，或查看画中画。
 
-选择一个映射，然后按Enter或双击以在&#x200B;**映射视图**&#x200B;中打开它。 有关更多详细信息，请在[左侧面板](#left-panel)部分中查看&#x200B;**映射视图**&#x200B;功能说明。 选择一个主题并按Enter键或双击以在[内容编辑区域](#content-editing-area)中将其打开。 能够直接从编辑器中导航和打开文件可节省时间并提高生产效率。
+选择一个映射，然后按Enter或双击以在&#x200B;**映射视图**&#x200B;中打开它。 有关更多详细信息，请在左侧面板中查看&#x200B;**映射视图**&#x200B;功能描述。 选择一个主题并按Enter键或双击以在[内容编辑区域](./web-editor-content-editing-area.md)中将其打开。 能够直接从编辑器中导航和打开文件可节省时间并提高生产效率。
 
 **在存储库中筛选搜索**
 
@@ -154,7 +155,7 @@ ht-degree: 0%
 - **DITA文件**：您可以查找所选路径中存在的所有&#x200B;**DITA主题**&#x200B;和&#x200B;**DITA映射**。 默认情况下，将选择这些选项。
 - **非DITA文件**：您可以在所选路径中搜索&#x200B;**Ditaval文件**、**图像文件**、**多媒体**、**文档**&#x200B;和&#x200B;**JSON**。
 
-  ![快速搜索筛选器](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![快速搜索过滤器 ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *使用快速过滤器搜索 DITA 和非 DITA 文件。*
 
@@ -220,7 +221,6 @@ ht-degree: 0%
    - 主题所基于的模板。 例如，对于现成的设置，您可以从空白、概念、DITAVAL、引用、任务、主题、Markdown、术语表和故障排除模板中进行选择。 如果您的文件夹配置了文件夹配置文件，则您将仅查看在文件夹配置文件中配置的主题模板。
 
    - 要保存主题文件的路径。 默认情况下，存储库中当前选定文件夹的路径将显示在路径字段中。
-
 4. 选择&#x200B;**创建**。该主题在指定的路径中创建。 此外，该主题将在编辑器中打开以进行编辑。
 
 </details>
@@ -269,7 +269,7 @@ ht-degree: 0%
 
   如果您的管理员在&#x200B;*XMLEditorConfig*&#x200B;中启用了UUID选项，则您将在&#x200B;**Source**&#x200B;属性中查看已上传图像的UUID。
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **在文件夹中查找文件**：将焦点转移到可在其中输入搜索词的存储库搜索。 搜索在存储库中的选定文件夹下执行。 也可以应用过滤器返回DITA文件和/或图像文件。
 
@@ -321,7 +321,7 @@ ht-degree: 0%
 
 - **预览**：获取文件（.dita、.xml、音频、视频或图像）的快速预览而不打开它。 您可以调整预览窗格的大小。 如果内容包含任何`<xref>`或`<conref>`，您可以选择它以在新选项卡中打开它。 文件的标题将显示在窗口中。 如果不存在标题，则会显示文件名。 要关闭&#x200B;**预览**&#x200B;面板，您可以选择关闭图标，也可以选择窗格之外的任意位置。
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **重命名**：使用此选项重命名所选文件。 在&#x200B;**重命名资源**&#x200B;对话框中输入新文件的名称。
    - 您可以重命名任何类型的文件。
@@ -441,7 +441,7 @@ ht-degree: 0%
 
 您可以使用映射文件的“选项”菜单执行以下操作：
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![](images/options-menu-map-view_cs.png){align="left"}
 
 - **编辑**：打开映射文件以在映射编辑器中编辑。
 
@@ -497,7 +497,7 @@ ht-degree: 0%
 
 以下屏幕截图显示了映射视图中文件的“选项”菜单：
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 您可以使用“选项”菜单执行以下操作：
 
@@ -607,11 +607,11 @@ DITA的主要功能之一是能够重用内容。 **可重用内容**&#x200B;面
 
 - 拖放元素。 您可以通过将另一个元素拖放到元素上来轻松替换元素。 如果将元素拖放到另一个元素上，并查看元素周围的虚线矩形框，则表示元素将被替换。 它会替换元素被放置到的元素。
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   如果拖放元素，则虚线矩形表示元素可以放置在当前位置。 如果拖放无效，则会显示一条错误消息，指示不允许执行该操作。
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - *大纲*&#x200B;视图中的&#x200B;**选项**&#x200B;菜单允许您执行常规操作，例如，剪切、复制、删除、生成ID、在当前元素之前或之后插入元素、重命名或替换元素、包装元素、取消包装元素，以及从所选元素创建代码片段。
 
@@ -634,7 +634,7 @@ DITA的主要功能之一是能够重用内容。 **可重用内容**&#x200B;面
 如果管理员为属性创建了配置文件，则您将获得这些属性及其配置的值。 您还可以在&#x200B;**设置**&#x200B;的&#x200B;**显示属性**&#x200B;选项卡下分配管理员配置的显示属性。 为元素定义的属性将显示在“布局”和“大纲”视图中。
 
 
-有关更多详细信息，请在[左侧面板](#left-panel)部分中查看&#x200B;*设置*&#x200B;功能描述中的&#x200B;*显示属性*。
+有关更多详细信息，请在左侧面板中查看&#x200B;*设置*&#x200B;功能描述中的&#x200B;*显示属性*。
 
 **搜索功能**
 
@@ -698,7 +698,7 @@ DITA的主要功能之一是能够重用内容。 **可重用内容**&#x200B;面
 
 您还可以通过在元素上拖放多个条件来对元素应用多个条件。 对一个元素应用多个条件时，“属性”面板显示应用的条件（以逗号分隔）。
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 但是，在代码视图中，使用空格分隔符分隔条件。 在代码视图中添加或编辑条件时，请确保使用空格分隔多个条件。
 
@@ -706,7 +706,7 @@ DITA的主要功能之一是能够重用内容。 **可重用内容**&#x200B;面
 >
 > 以下屏幕截图显示具有管理权限的用户。 作为具有管理权限的用户，您可以添加、编辑和删除条件。 否则，作为普通作者，您将只能选择应用条件。
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 要添加或定义条件，请选择“条件”面板旁边的+图标以显示“定义条件”对话框：
 
@@ -929,7 +929,7 @@ Experience Manager Guides还支持嵌套级别主题方案映射，并且您可�
 
 您还可以从“条件”面板查看和应用主题方案。
 
-若要从“条件”面板查看主题方案，系统管理员必须在“设置”的“常规”选项卡下选择&#x200B;**在条件面板中显示主题方案**&#x200B;选项。 有关更多详细信息，请查看[选项卡栏](#tab-bar)中的&#x200B;**设置**&#x200B;部分。
+若要从“条件”面板查看主题方案，系统管理员必须在“设置”的“常规”选项卡下选择&#x200B;**在条件面板中显示主题方案**&#x200B;选项。 有关更多详细信息，请查看[选项卡栏](./web-editor-tab-bar.md)中的&#x200B;**设置**&#x200B;部分。
 
 “条件”面板显示主题方案中的主题定义的扁平垂直结构。
 
@@ -943,7 +943,7 @@ Experience Manager Guides还支持嵌套级别主题方案映射，并且您可�
 >
 > 以下屏幕截图显示具有管理权限的用户。 作为具有管理权限的用户，您可以添加、编辑和删除代码片段。 否则，作为普通作者，您将只获得预览和插入代码片段的选项。
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 要添加代码片段，请使用以下任一方法：
 
@@ -1008,7 +1008,7 @@ Experience Manager Guides允许您创建和管理变量以供本机PDF发布。 
 
 查找和替换图标位于左侧面板的底部。 “查找和替换”面板允许您在映射或存储库内的文件夹中的文件间搜索和替换文本。 您可以查找和替换地图的所有主题以及地图内子地图中存在的主题。
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 默认情况下，您可以按标题查看文件。 当您将鼠标悬停在文件上时，您可以作为工具提示查看文件标题和文件路径。
 
@@ -1111,7 +1111,7 @@ Experience Manager Guides提供用于显示项目中所有审阅任务的功能�
 1. 您还可以输入要在主题标题或文件路径中查找的搜索词或文本。 标题或文件路径中包含术语的主题将列出。
 1. 双击任何主题以在创作视图中将其打开。 您可以在&#x200B;**注释**&#x200B;面板中查看注释。
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 

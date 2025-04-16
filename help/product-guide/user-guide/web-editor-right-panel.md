@@ -3,7 +3,8 @@ title: 编辑器中的右侧面板
 description: 了解编辑器中的右侧面板。 了解Adobe Experience Manager Guides中的编辑器界面和功能。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e7d600da4373cb046e6adad3c5afe3164c9d0fa
+exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -130,7 +131,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 跟踪更改功能显示已使用[选项卡栏](#tab-bar)的启用/禁用跟踪更改功能跟踪的所有更新。
+> 跟踪更改功能显示已使用[选项卡栏](./web-editor-tab-bar.md)的启用/禁用跟踪更改功能跟踪的所有更新。
 
 ## 模式管
 

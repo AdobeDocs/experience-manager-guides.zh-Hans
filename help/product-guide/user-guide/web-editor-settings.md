@@ -1,18 +1,19 @@
 ---
-title: 主题的编辑器视图
-description: 在创作、源和预览模式下查看主题。 了解如何在AEM Guides中查看基于条件筛选器的内容、查看跟踪更改标记以及将主题导出为PDF。
-Sfeature: Authoring, Features of Web Editor
+title: Experience Manager Guides中的编辑器设置
+description: 了解Experience Manager Guides编辑器界面中可用的各种设置。
+feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 0fb079d08c31688046acf0e5a1e2ce7997d24cd6
+exl-id: fad2874f-dab5-4538-8502-f7112c51d941
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # 编辑器设置
 
-编辑器[选项卡栏]中存在的&#x200B;**设置**&#x200B;选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
+编辑器[选项卡栏](./web-editor-tab-bar.md)中存在的&#x200B;**设置**&#x200B;选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
 
 - [常规](#general)
 - [面板](#panels)
