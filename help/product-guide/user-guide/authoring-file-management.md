@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中管理文件和文件夹。 复制和�
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Experience Manager Guides附带了批量移动工具，可帮助管理员将包�
 
    - **Source path\(s\)**：指定要移动的文件夹的位置。
 
-      - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">    打开“浏览文件”对话框。 选择要移动的文件夹，然后选择&#x200B;**选择**&#x200B;以完成该过程。
+      - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">    打开&#x200B;**选择路径**&#x200B;对话框。 选择要移动的文件夹，然后选择&#x200B;**选择**&#x200B;以完成该过程。 您可以选择位于路径浏览器中不同位置的多个文件夹。 所选文件夹的路径将保留，允许您在重新打开对话框时轻松查看或修改它们。
 
       - 您还可以键入或复制并粘贴源位置。 按Enter将文件夹添加到列表。
 
@@ -195,7 +195,7 @@ Experience Manager Guides附带了批量移动工具，可帮助管理员将包�
 
    - **Source path\(s\)**：指定要移动的文件夹的位置。
 
-      - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">    打开“浏览文件”对话框。 选择要移动的文件夹，然后选择&#x200B;**选择**&#x200B;以完成该过程。
+      - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">    打开&#x200B;**选择路径**&#x200B;对话框。 选择要移动的文件夹，然后选择&#x200B;**选择**&#x200B;以完成该过程。 您可以选择位于路径浏览器中不同位置的多个文件夹。 所选文件夹的路径将保留，允许您在重新打开对话框时轻松查看或修改它们。
 
       - 您还可以键入或复制并粘贴源位置。 按Enter将文件夹添加到列表。
 

@@ -4,9 +4,9 @@ description: 浏览Adobe Experience Manager Guides中编辑器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 编辑器中还有一些其他有用的功能可供您使用：
 
-**文件选项卡上的上下文菜单功能**
+## 文件选项卡上的上下文菜单功能
 
 在编辑器中打开文件时，可以从上下文菜单执行各种操作。 根据您是打开介质文件、单个DITA文件还是多个文件，可能会查看不同的选项。
 
@@ -142,19 +142,21 @@ Generate the output for the selected file. Output can be generated only for file
 >
 > 对于图像、音频或视频文件，文件浏览对话框默认为文件的位置，而不是上次使用的位置。
 
-**支持基于文章的发布**
+## 支持基于文章的发布
 
 从编辑器中，可以为一个或多个主题或整个DITA映射生成输出。 您需要为DITA映射创建输出预设，然后可以轻松生成一个或多个主题的输出。 如果更新了映射中的几个主题，则也可以仅从编辑器中生成这些主题的输出。 有关详细信息，请查看[基于文章的发布](web-editor-article-publishing.md#id218CK0U019I)。
 
-**支持Markdown文档**
+## 支持Markdown文档
 
 该编辑器允许您将Markdown文档\(.md\)与DITA文档一起使用。 您可以在编辑器中轻松创作和预览Markdown文档，还可以通过DITA映射编辑器将其添加到映射文件中。 有关更多详细信息，请通过编辑器](web-editor-markdown-topic.md#)查看[创作Markdown文档。
 
-**支持DITA术语主题**
+## 支持DITA术语主题
 
 编辑器支持可通过添加`term`或`abbreviated-form`元素插入的DITA术语表。
 
-**插入MathML公式**
+## 使用MathML公式
+
+### 插入MathML公式
 
 Experience Manager Guides为您提供开箱即用的支持，以便通过与[MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)应用程序集成来插入MathML公式。 要插入MathML公式，请选择&#x200B;**元素**&#x200B;图标并键入mathml。 从列表中选择mathml元素时，将显示&#x200B;**插入MathML**&#x200B;对话框：
 
@@ -164,22 +166,22 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 您可以随时更新公式，方法是右键单击现有公式并从上下文菜单中选择&#x200B;**编辑MathML**。
 
-- **在MathML编辑器中验证公式**
+### 在MathML编辑器中验证公式
 
-  当您保存包含公式的主题时，Experience Manager Guides会验证MathML公式。
+当您保存包含公式的主题时，Experience Manager Guides会验证MathML公式。
 使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择**插入**，则会显示警告。
 
-  ![验证mathml公式](images/validate-mathml-equation.png){width="400" align="left"}
+![验证mathml公式](images/validate-mathml-equation.png){width="400" align="left"}
 
-  如果插入包含语法错误的MathML公式，则在尝试保存主题时会发生验证错误。
+如果插入包含语法错误的MathML公式，则在尝试保存主题时会发生验证错误。
 
 
-**插入脚注**
+## 插入脚注
 
 使用`fn`元素在内容中插入脚注。 在创作模式下，脚注值与内容内联显示。 但是，当您切换“预览”模式或发布文档时，脚注会出现在主题末尾。
 
 
-**重命名或替换元素**
+## 重命名或替换元素
 
 编辑器在主题的左下角显示元素的痕迹导航。 如果要使用其他元素交换或替换元素，则可以从痕迹导航的上下文菜单执行此操作。 例如，您可以将`p`元素与上下文中的`note`或任何其他有效元素交换。
 
@@ -195,9 +197,9 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 - 可通过调用“轮廓”面板中元素的“选项”菜单来访问“重命名元素”对话框。
 
+## 包装和展开元素
 
-
-**包装元素**
+### 将元素换行
 
 - 使用元素换行，可以向所选文本添加元素标记。 您可以按照DITA标准将文本换行到任何子元素。 例如，如果在`note`元素下有文本，则可以将文本换行到`p`元素。
 
@@ -205,11 +207,11 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 - 您还可以选择内容中的文本或元素，然后从上下文菜单中选择&#x200B;**环绕元素**&#x200B;选项。
 
-**解除元素包装**
+### 取消包裹元素
 
 通过展开元素，可以从所选文本中删除元素标记并将其与其父元素合并。 例如，如果在`note`元素中有一个`p`元素，则可以取消换行`p`元素以直接在`note`元素中合并文本。 在主题痕迹导航的上下文菜单中，**取消环绕元素**&#x200B;选项可用。 若要取消环绕某个元素，请右键单击该元素以打开上下文菜单，最后选择&#x200B;**取消环绕元素**&#x200B;以删除该元素并将该元素的文本与其父元素合并。
 
-**DITA元素的空格处理**
+## DITA元素的空格处理
 
 在XML中，空格包括空格、制表符、回车符和空行。 Experience Manager Guides将多个后续空格转换为一个空格。 这有助于保留编辑器的WYSIWYG视图。
 
@@ -218,7 +220,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 > 在某些根据DITA规则需要保留空格的元素中，将保留多个后续空格。 例如，`<pre>`和`<codeblock>`个元素。
 
 
-**保留换行符和缩进**
+## 保留换行符和缩进
 
 根据在“创作”、“Source”或“预览”模式中的定义以及最终发布的输出中的定义，支持并呈现包含换行符和空格的DITA元素。 以下屏幕截图显示了`msgblock`元素中的内容，其中换行符和空格\(indentation\)已被保留：
 
@@ -226,7 +228,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 
 
-**在编辑器中处理不间断空格**
+## 在编辑器中处理不间断空格
 
 - 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)图标或&#x200B;**Alt** + **空格**&#x200B;快捷键在文档中插入不间断空格。  在编辑器中编辑主题时，这些不间断的空格会显示为指示符。 在[用户首选项](./intro-home-page.md#user-preferences)的&#x200B;**外观**&#x200B;选项卡中，可以使用&#x200B;**在创作模式下显示不间断空格指示符**&#x200B;选项关闭不间断空格的显示。
 
@@ -234,7 +236,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 但是，如果您从**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
 
 
-**自动生成元素ID**
+## 自动生成元素ID
 
 您可以为DITA主题中的元素自动生成ID。 这些ID在DITA主题中是唯一的。 例如，如果为段落元素生成ID，则ID将为p\_1、p2、p\_3等。 您可以选择多个元素，并为每个选定的元素生成ID。
 
@@ -246,5 +248,24 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
    或者，您可以右键单击痕迹导航并选择&#x200B;**生成ID**。
 
+
+
+## 在编辑器中处理大文件
+
+提出了改善大文件处理能力的关键功能：
+
+- 为了提高性能，某些功能（如撤消、重做、大纲面板和脏标记）将被禁用。 建议将主题分成较小的主题以获得最佳体验。
+
+- 对于大型文件，顶部会显示一条警告消息，如下面的代码片段所示。 此警报会根据uiconfig.json文件的&#x200B;**largeFileTagCount**&#x200B;参数中指定的值突出显示元素的数量。 默认情况下，**largeFileTagCount**&#x200B;设置为2500。
+
+![](images/add-toast-notification.png){width="600" align="left"}
+
+
+- 此外，标签计数会显示在界面的底部栏中。 当您将鼠标悬停在此标记计数值上时，将会显示工具提示。 选择&#x200B;**了解更多**&#x200B;选项卡提供了有关处理大型文件的详细信息。
+
+![](images/add-toast-tag-count.png){width="600" align="left"}
+
+
+- 警报消息仅适用于DITA文件，并且在所有视图(创作、Source和布局)中都可见。
 
 **父主题：**[&#x200B;编辑器简介](web-editor.md)

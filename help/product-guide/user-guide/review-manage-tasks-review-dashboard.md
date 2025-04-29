@@ -4,9 +4,9 @@ description: 从AEM Guides的审核仪表板管理审核任务。 了解任务�
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 - 修改&#x200B;**到期日期**。 您可以提前或推迟完成任务的截止日期。
 - 选择选项可限制用户仅查看分配给他们的那些主题。
 - 选择&#x200B;**更新**&#x200B;以更新修改后的详细信息。
+
+  将显示一个toast消息以确认更新是否成功。
 - 选择&#x200B;**完成**&#x200B;以在到期日期之前将审阅任务标记为完成。 当单个主题的任务标记为“完成”时，将关闭对选定主题的复查。 但是，对于通过DITA映射共享以供审阅的主题，将DITA映射任务标记为完成将关闭对映射中共享以供审阅的所有主题的审阅。
 - 选择&#x200B;**复制**&#x200B;以创建审阅任务的副本。 创建重复审阅任务的过程与创建新审阅任务的过程类似。 启动复制任务工作流后，您会看到“创建审阅任务”页面。 您需要提供新任务详细信息，如[发送主题以供审阅](review-send-topics-for-review.md#)中所述。
 

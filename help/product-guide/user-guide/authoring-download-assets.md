@@ -4,7 +4,7 @@ description: 了解如何从AEM Guides中的DITA映射控制台下载文件，�
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: f3858b1694837c7a3fa7bb222ed8ff31ce7103f8
+source-git-commit: 632b253a36822b4b5b93766153f0fc3a1116b616
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -36,7 +36,10 @@ ht-degree: 0%
 1. 选择&#x200B;**下载**。 在“下载映射”对话框中，您可以选择以下选项：
 
    - **使用基线**：选择此选项可获取为DITA映射创建的基线列表。 如果要根据特定基线下载映射文件及其内容，请从下拉列表中选择基线。 有关使用基线的更多详细信息，请查看[使用基线](generate-output-use-baseline-for-publishing.md#)。
+
    - **平面化文件层次结构**：选择此选项可将所有引用的主题和媒体文件保存在单个文件夹中。
+
+
    >[!NOTE]
    >
    > 您也可以在不选择任何选项的情况下下载映射文件。 在这种情况下，将下载引用的主题和媒体文件的最新保留版本。

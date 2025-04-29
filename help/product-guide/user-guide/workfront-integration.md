@@ -4,9 +4,9 @@ description: 了解如何将Workfront与Adobe Experience Manager Guides集成并
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
+source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,8 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 3. 在&#x200B;**Assets**&#x200B;选项卡中，选择&#x200B;**添加**&#x200B;以将资源添加到此任务。
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
+
+   将显示&#x200B;**选择路径**&#x200B;对话框。 选择所需资源的路径。 您可以通过选择路径浏览器中的有效路径来添加多个资源。 您选择的路径将保留，允许您在重新打开对话框时轻松查看或修改它们。
 
    * 对于创作、发布和翻译任务，系统会提示您在&#x200B;**选择路径**&#x200B;对话框中选择所需文件的位置。 选择&#x200B;**创建**&#x200B;按钮后，选定的文件（用于创作并映射以进行发布和翻译的主题）即会添加到任务中。
 

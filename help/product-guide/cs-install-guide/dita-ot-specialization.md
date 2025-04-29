@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ DITA Open Toolkit \(DITA-OT\)是一组基于Java的开源工具，用于处理DI
 
 >[!NOTE]
 >
-> AEM Guides随DITA-OT版本3.3.2提供。但是，AEM Guides支持DITA-OT版本1.7及更高版本。 有关DITA-OT版本的完整列表，请参阅[DITA-OT版本](http://www.dita-ot.org/download)。
+> AEM Guides随DITA-OT版本3.3.2一起提供，但它支持从DITA-OT 1.7到DITA-OT 4.x的一系列版本。有关DITA-OT版本的完整列表，请参阅[DITA-OT版本](http://www.dita-ot.org/download)。
 
 >[!TIP]
 >
@@ -30,9 +30,9 @@ DITA Open Toolkit \(DITA-OT\)是一组基于Java的开源工具，用于处理DI
 
 通过将自定义DITA-OT插件上载到AEM存储库，可以使用自定义DITA-OT插件进行发布。 默认情况下，AEM Guides附带预配置的配置文件，其中包含用于编辑和发布内容的默认模板的配置。 您可以使用编辑文档时使用的自定义模板以及自定义DITA-OT插件创建自定义配置文件以发布内容。
 
-AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处理器不支持渲染MathML方程组。 如果在内容中使用MathML公式，请确保已集成适用于Apache FOP的MathML渲染引擎插件，或使用不同的XSL-FO处理器。
+AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处理器不支持渲染MathML方程。 如果在内容中使用MathML公式，请确保已集成适用于Apache FOP的MathML渲染引擎插件，或使用其他XSL-FO处理器。
 
-执行以下步骤以将自定义DITA-OT插件上载到AEM存储库：
+执行以下步骤以将自定义DITA-OT插件上传到AEM存储库：
 
 1. 从欢迎电子邮件中共享的链接下载DITA-OT.zip文件。
 
@@ -48,11 +48,11 @@ AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处�
 
    - 在Mac/Linux操作系统上运行集成器\（以安装自定义插件\）以避免文件分隔符出现问题 — 由于Windows和Linux操作系统具有不同的文件分隔符，因此集成在Mac/Linux操作系统上的插件与Windows和Linux安装程序兼容。
    - 确保`DITA-OT.ZIP`文件包含一个名为“DITA-OT”的文件夹，其中包含所有相关的插件和文件。
-   - 检查您创建的`DITA-OT.ZIP`文件是否为mimeType： &quot;nt：file&quot; \(这与上传到AEM时的ZIP文件的主要类型相对应\)。 使用WebDAV工具或代码部署将此ZIP文件上传到AEM中的所需路径。 \(请勿使用AEM包管理器部署此ZIP文件，因为此ZIP文件不是AEM内容包，而只是存档文件。\)
+   - 检查您创建的`DITA-OT.ZIP`文件是否为mimeType： &quot;nt：file&quot; \(这与上传到AEM时的ZIP文件的主要类型相对应\)。 使用WebDAV工具或代码部署将此ZIP文件上传到AEM中的所需路径。 \(请勿使用AEM的包管理器来部署此ZIP文件，因为此ZIP文件不是AEM内容包，而只是存档文件。\)
 
    >[!NOTE]
    >
-   > 建议不要覆盖默认的DITA-OT包。 您应该上载包含插件/var/dxml/dita\_resources/dita-ot文件夹的自定义DITA-OT包。 您也可以使用Cloud Manager管道来执行此操作。有关更多详细信息，请参阅AEM文档中的[部署到AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html)。
+   > 建议不要覆盖默认的DITA-OT包。 您应该上载包含插件/var/dxml/dita\_resources/dita-ot文件夹的自定义DITA-OT包。 您还可以使用Cloud Manager管道执行此操作，有关更多详细信息，请参阅AEM文档中的[部署到AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html)。
 
 1. 您可以选择编辑默认配置文件，创建新配置文件，或者从默认配置文件中复制设置以创建新配置文件。
 
@@ -71,8 +71,8 @@ AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处�
    | 已分配路径 | \（*可选*\）指定内容存储库中此配置文件适用的路径。 您可以指定多个位置。 |
    | **DITA-OT属性** |
    | DITA-OT超时 | \（*可选*\）指定AEM Guides等待DITA-OT插件响应的时间\（以秒为单位）。 如果在指定时间内未收到响应，则AEM Guides将终止发布任务，并且该任务被标记为失败。 此外，在输出生成日志文件中提供故障日志。 <br>默认值： 300秒\（5分钟\） |
-   | DITA-OTPDF参数 | 指定由自定义DITA-OT插件处理的命令行参数，以生成PDF输出。 对于所有自定义DITA-OT配置文件，请指定以下命令行参数：`-lib plugins/org.dita.pdf2.fop/lib/` |
-   | DITA-OT AEM参数 | \（*可选*\）指定由自定义DITA-OT插件处理的自定义命令行参数，用于生成AEM Site输出。 |
+   | DITA-OT PDF参数 | 指定由自定义DITA-OT插件处理的命令行参数，用于生成PDF输出。 对于所有自定义DITA-OT配置文件，请指定以下命令行参数：`-lib plugins/org.dita.pdf2.fop/lib/` |
+   | DITA-OT AEM参数 | \（*可选*\）指定由自定义DITA-OT插件处理的自定义命令行参数，用于生成AEM站点输出。 |
    | DITA-OT库路径 | \（*可选*\）指定DITA-OT插件的其他库路径。 |
    | DITA-OT构建XML | \（*可选*\）指定与自定义DITA-OT插件捆绑在一起的自定义Ant生成脚本的路径。 此路径相对于文件系统中的目录DITA-OT。 |
    | DITA-OT Ant脚本文件夹 | \（可选\）指定DITA-OT Ant脚本文件夹的路径。 此路径相对于文件系统中的目录DITA-OT。 |

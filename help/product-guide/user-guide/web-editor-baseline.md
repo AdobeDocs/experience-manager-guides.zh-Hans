@@ -4,9 +4,9 @@ description: 从Adobe Experience Manager Guides的映射控制台创建和管理
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ ht-degree: 0%
   > 添加或删除标签的过程是异步进行的，因此您可以继续处理其他文件。 添加或删除标签后，将显示一条弹出消息，确认已添加或删除标签，并且您还会收到该标签的收件箱通知。
 
 - **编辑您在创建基线时设置的现有静态基线的属性**。
-- 使用&#x200B;**导出基线**&#x200B;选项导出Microsoft Excel文件中基线的快照。
+- **导出基线**&#x200B;选项在Microsoft Excel文件中导出基线的快照，包括所有基本详细信息，如标题、文件名、文件类型、版本号、文档状态和其他相关信息。
 
 
 ### 标签列表 {#labels-list}

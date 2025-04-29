@@ -4,10 +4,10 @@ description: 在AEM Guides中管理内容并确定您的角色和权限。 了�
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 9%
+source-wordcount: '584'
+ht-degree: 11%
 
 ---
 
@@ -88,15 +88,3 @@ Experience Manager Guides提供了三个现成的组。 这些组是： *作者*
 [1](#fnsrc_1)如果邀请了&#x200B;*作者*&#x200B;和&#x200B;*发布者*&#x200B;进行审阅。
 
 [2](#fnsrc_2)取决于在文档状态配置文件中授予用户的权限。
-
-## 内容创作的先决条件
-
-**使用全局或文件夹级别的配置文件**
-
-在企业中，不同的组或产品可能使用不同的创作模板、输出模板、条件属性配置文件\（或主题方案\）和Web编辑器配置。 仅在企业\（或全局\）级别配置这些组件会让作者难以获得体验，因为他们将查看与其无关的模板或配置文件。
-
-Experience Manager Guides允许您在企业\(global\)级别和文件夹级别配置创作\（topic或map\）模板、输出模板、条件属性和Web编辑器配置。 这样，您就可以分离企业中不同部门或产品的配置。
-
-此外，您还可以将特定于文件夹的配置委派给部门或产品管理员，以分散管理。
-
-有关设置全局和文件夹级别配置文件的详细信息，请在“安装和配置Adobe Experience Manager Guides as a Cloud Service”中查看&#x200B;*配置全局或文件夹级别配置文件*。
