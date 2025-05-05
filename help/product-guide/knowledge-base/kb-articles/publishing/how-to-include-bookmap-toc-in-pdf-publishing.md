@@ -93,8 +93,8 @@ Ditamap本身并不像书签那样直接具有目录(TOC)。 但是，在定义�
 
 ## 其他资源：
 
-- [本机PDF设计页布局文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [预先录制的本机PDF要点Expert讲座](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [本机PDF设计页布局文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [预先录制的本机PDF要点Expert讲座](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>

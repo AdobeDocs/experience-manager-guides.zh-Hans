@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ### 步骤1：更新配置
 
-1. 请确保可用空间至少是AEM （crx-quickstart目录）在迁移期间占用空间的10倍。 完成迁移后，可以通过运行压缩回收大部分磁盘空间（请参阅[修订清理](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)）。
+1. 请确保可用空间至少是AEM （crx-quickstart目录）在迁移期间占用空间的10倍。 完成迁移后，可以通过运行压缩回收大部分磁盘空间（请参阅[修订清理](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hans)）。
 
 1. 在`com.adobe.fmdita.config.ConfigManager`中启用&#x200B;*启用Post处理工作流启动器*，在`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`中启用&#x200B;*版本后处理*
 
@@ -125,5 +125,5 @@ ht-degree: 0%
 ![验证迁移中的系统升级选项卡](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. 迁移完成后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。
+1. 迁移完成后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hans`）。
 

@@ -40,11 +40,11 @@ Adobe Experience Manager Guides允许您有效地定义、应用和使用系统�
 
 ### 文档
 
-- [元数据架构](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
-- [元数据配置文件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
-- [管理DITA资源中的元数据](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
-- [将DITA元提取为元数据](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
-- [在DITA-OT输出中使用元数据](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
+- [元数据架构](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
+- [元数据配置文件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
+- [管理DITA资源中的元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
+- [将DITA元提取为元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
+- [在DITA-OT输出中使用元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
 - [在本机PDF中使用元数据](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 

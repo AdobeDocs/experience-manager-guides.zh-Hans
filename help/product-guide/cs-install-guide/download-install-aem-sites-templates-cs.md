@@ -35,7 +35,7 @@ ht-degree: 0%
 1. 输入`Site title`和`Site name`。
 1. 单击&#x200B;**创建**。软件包已安装，并且创建了AEM Sites模板。
 
-了解有关[将站点模板添加到AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding)的详细信息。
+了解有关[将站点模板添加到AEM](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding)的详细信息。
 
 
 >[!NOTE]
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 
 **AEMG**&#x200B;包含以下组件。
-- **AEMG**&#x200B;文件夹中存在英语(en)语言的文件夹。 您可以根据要求创建类似的语言副本。 例如，多语言网站包括英语(en)、德语(de)和法语(fr)语言副本。  了解有关如何使用[语言副本向导](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard)创建语言副本的详细信息。
+- **AEMG**&#x200B;文件夹中存在英语(en)语言的文件夹。 您可以根据要求创建类似的语言副本。 例如，多语言网站包括英语(en)、德语(de)和法语(fr)语言副本。  了解有关如何使用[语言副本向导](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard)创建语言副本的详细信息。
 - 在English(en)语言文件夹中，Experience Manager Guides提供了许多现成的示例页面，如&#x200B;**搜索**、**登录**、**文档**&#x200B;和&#x200B;**支持**。
 
 - **文档**&#x200B;是示例文档主页。 它是所有产品相关文档的中心位置
@@ -96,7 +96,7 @@ ht-degree: 0%
 1. 选择要编辑的模板。
 1. 选择顶部的&#x200B;**编辑**&#x200B;图标。
 
-将打开AEM模板编辑器。 您可以编辑主题模板。 了解有关[创建页面模板](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author)的详细信息。
+将打开AEM模板编辑器。 您可以编辑主题模板。 了解有关[创建页面模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author)的详细信息。
 
 
 ## 自定义现有AEM Sites模板 {#customize-existing-aem-sites-templates}

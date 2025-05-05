@@ -40,7 +40,7 @@ AEM Guides通过强大的翻译功能为多语言内容创建提供终极解决�
 
 ## 相关资源
 
-- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=zh-Hans)
 
 - **用户指南** - [翻译内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 有关如何在Adobe Experience Manager中设置创作和发布实例的更多详细信息，请查看[创作和发布架构概述](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
+> 有关如何在Adobe Experience Manager中设置创作和发布实例的更多详细信息，请查看[创作和发布架构概述](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=zh-Hans#prerequisites)。
 
 借助Experience Manager Guides的批量激活功能，您可以快速轻松地激活内容从创作到发布实例。 批量激活功能可让您灵活地：
 

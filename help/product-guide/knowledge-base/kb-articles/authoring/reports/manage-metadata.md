@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ### 在管理 — >元数据中的列表为空或不完整
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [升级说明（为您的内容编制索引）](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [升级说明（为您的内容编制索引）](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=zh-Hans#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### 自定义元数据未在列表中显示
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 - [使用映射仪表板(Assets UI)批量标记](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - 在Web编辑器中[个Ditamap报告](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- 在AEM中标记[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
+- 在AEM中标记[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=zh-Hans)
 
 
 **有关任何其他查询，请与相应的CSM联系**

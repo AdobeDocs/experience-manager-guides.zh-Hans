@@ -52,7 +52,7 @@ AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处�
 
    >[!NOTE]
    >
-   > 建议不要覆盖默认的DITA-OT包。 您应该上载包含插件/var/dxml/dita\_resources/dita-ot文件夹的自定义DITA-OT包。 您还可以使用Cloud Manager管道执行此操作，有关更多详细信息，请参阅AEM文档中的[部署到AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html)。
+   > 建议不要覆盖默认的DITA-OT包。 您应该上载包含插件/var/dxml/dita\_resources/dita-ot文件夹的自定义DITA-OT包。 您还可以使用Cloud Manager管道执行此操作，有关更多详细信息，请参阅AEM文档中的[部署到AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=zh-Hans)。
 
 1. 您可以选择编辑默认配置文件，创建新配置文件，或者从默认配置文件中复制设置以创建新配置文件。
 

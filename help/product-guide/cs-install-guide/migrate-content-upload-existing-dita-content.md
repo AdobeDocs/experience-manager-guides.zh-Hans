@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 上载现有DITA内容 {#id176FF000JUI}
 
-您很可能有一个包含要与AEM Guides一起使用的现有DITA内容的存储库。 对于此类现有内容，您可以使用[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)中介绍的任何受支持方法。
+您很可能有一个包含要与AEM Guides一起使用的现有DITA内容的存储库。 对于此类现有内容，您可以使用[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans)中介绍的任何受支持方法。
 
 ## 配置UUID文件名模式
 

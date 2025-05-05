@@ -40,7 +40,7 @@ AEM Guides中的版本管理使用基线完成，该基线允许您选择主题�
 
 ## 相关资源
 
-- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=zh-Hans)
 
 - **用户指南** - [使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 

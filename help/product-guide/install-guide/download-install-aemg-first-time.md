@@ -32,7 +32,7 @@ ht-degree: 0%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   包管理器可管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。
+   包管理器可管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/package-manager.html)。
 
    ![](assets/package-manager.png){width="650" align="left"}
 

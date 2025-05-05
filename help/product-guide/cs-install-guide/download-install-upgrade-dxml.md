@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 有关使用CI/CD管道的更多详细信息，请参阅[在AdobeCloud Manager中使用CI/CD管道](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html)。
+> 有关使用CI/CD管道的更多详细信息，请参阅[在AdobeCloud Manager中使用CI/CD管道](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=zh-Hans)。
 
 ## 清除浏览器缓存
 

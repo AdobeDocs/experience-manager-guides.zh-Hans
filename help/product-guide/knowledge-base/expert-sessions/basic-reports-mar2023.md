@@ -51,7 +51,7 @@ ht-degree: 1%
 
 - **[下载AEM Guides报告手册](./assets/aem-guides-expert-session-reports-documentation.pdf)**&#x200B;以了解会话中展示的报告的详细信息。
 
-- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
+- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=zh-Hans)
 
 - **用户指南** - [作者内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 

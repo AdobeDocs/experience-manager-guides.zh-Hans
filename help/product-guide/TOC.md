@@ -129,8 +129,8 @@ ht-degree: 7%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -277,7 +277,7 @@ ht-degree: 7%
          - [管理文件和文件夹](./user-guide/authoring-file-management.md)
          - [下载文件](./user-guide/authoring-download-assets.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)

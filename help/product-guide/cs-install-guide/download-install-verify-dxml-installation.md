@@ -18,11 +18,11 @@ ht-degree: 0%
 
 1. 访问Cloud Service的Developer Console。
 
-   有关访问Developer Console的详细信息，请参阅AEM文档中的[Developer Console访问](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html)。
+   有关访问Developer Console的详细信息，请参阅AEM文档中的[Developer Console访问](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=zh-Hans)。
 
 1. 访问AEM中的OSGi包列表。
 
-   有关访问包的详细信息，请参阅AEM文档中的[包](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles)。
+   有关访问包的详细信息，请参阅AEM文档中的[包](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=zh-Hans#bundles)。
 
 1. 在捆绑列表中搜索fmdita并检查其状态。
 

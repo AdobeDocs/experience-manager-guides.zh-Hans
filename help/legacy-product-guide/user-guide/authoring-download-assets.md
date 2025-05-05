@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 下载文件 {#id216MC0H0BE8}
 
-您可以下载包括DITA和非DITA文件的资源。 您可以通过多种方式下载资源，有些方法是AEM的固有方法，而其他方法受AEM Guides支持。 有关本机AEM资源下载信息，请参阅AEM文档中的[从Adobe Experience Manager下载资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)。 以下部分将介绍通过AEM Guides中的DITA映射控制台下载文件的机制。
+您可以下载包括DITA和非DITA文件的资源。 您可以通过多种方式下载资源，有些方法是AEM的固有方法，而其他方法受AEM Guides支持。 有关本机AEM资源下载信息，请参阅AEM文档中的[从Adobe Experience Manager下载资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=zh-Hans)。 以下部分将介绍通过AEM Guides中的DITA映射控制台下载文件的机制。
 
 ## 导出DITA映射文件
 

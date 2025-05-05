@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 从旧UI迁移到新AEM Guides UI(适用于AEM Guides的2502和5.0版本)时，`ui_config`的更新必须转换为更灵活和模块化的UI配置。 此框架有助于在适用的情况下无缝地采用对editor_toolbar和其他目标构件所做的更改。 有关详细信息，请查看[转换UI配置概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
+> 从旧UI迁移到新AEM Guides UI(适用于AEM Guides的2502和5.0版本)时，`ui_config`的更新必须转换为更灵活和模块化的UI配置。 此框架有助于在适用的情况下无缝地采用对editor_toolbar和其他目标构件所做的更改。 有关详细信息，请查看[转换UI配置概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
 
 可通过两种方式自定义Web编辑器的工具栏：
 

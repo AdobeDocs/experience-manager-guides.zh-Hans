@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关使用Dispatcher的详细信息，请参阅[Dispatcher概述](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en)。
+> Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关使用Dispatcher的详细信息，请参阅[Dispatcher概述](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=zh-Hans)。
 
 ## 在URL中启用AllowEncodedSlases
 

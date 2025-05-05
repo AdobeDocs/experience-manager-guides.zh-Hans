@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 利用AI助手(Beta)中的智能帮助提高效率
 
-Experience Manager Guides提供了基于GenAI的智能帮助，这是一项对话式搜索功能，可帮助您从[Adobe Experience Manager Guides文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中查找相关内容。
+Experience Manager Guides提供了基于GenAI的智能帮助，这是一项对话式搜索功能，可帮助您从[Adobe Experience Manager Guides文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/overview)中查找相关内容。
 
 您可以提出问题并以信息性的方式获得答案。 您的查询答案取决于产品文档中的内容。 此搜索完全是对话式的。 您可以询问有关Experience Manager Guides各种功能的问题，也可以选择咨询故障排除查询。 根据响应，您还可以提出进一步的问题。 响应中还包括指向源文档的链接，您可以参阅这些链接以了解详细信息。
 

@@ -25,7 +25,7 @@ ht-degree: 0%
 - 如果您使用的是版本 4.3.x、4.2、4.2.1（修补程序 4.2.1.3）、4.1 或 4.1.x，则需要先升级到版本 4.4，然后再升级到版本 5.0.0。
 - 如果您使用的是版本 4.0，则需要先升级到版本 4.2，然后再升级到版本 4.3.x。
 - 如果您使用的是版本 3.8.5，则需要先升级到版本 4.0，然后再升级到版本 4.2。
-- 如果您使用的是 3.8.5 之前的版本，请参阅 Adobe Experience Manager Guides 帮助 PDF 存档[&#128279;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的特定产品安装指南中的“升级体验管理器指南”部分。
+- 如果您使用的是 3.8.5 之前的版本，请参阅 Adobe Experience Manager Guides 帮助 PDF 存档[&#128279;](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)中提供的特定产品安装指南中的“升级体验管理器指南”部分。
 
 
 >[!NOTE]
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅[Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的&#x200B;*升级Adobe Experience Manager Guides*&#x200B;部分。
+> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅[Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的&#x200B;*升级Adobe Experience Manager Guides*&#x200B;部分。
 
 
 
@@ -1297,7 +1297,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 ## 对 damAssetLucene 重新编制索引的步骤
 
-使用指南更新了damAssetLucene的索引定义。 有关在升级到 5.0.0 版本后对 damAssetLucene 重新编制索引的文章，请参阅 [此文章](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) 。
+使用指南更新了damAssetLucene的索引定义。 有关在升级到 5.0.0 版本后对 damAssetLucene 重新编制索引的文章，请参阅 [此文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-16460) 。
 
 >[!NOTE]
 >

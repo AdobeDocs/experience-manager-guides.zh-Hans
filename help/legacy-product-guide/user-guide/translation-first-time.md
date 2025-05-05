@@ -50,7 +50,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 有关与第三方翻译服务集成的详细信息，请参阅AEM文档中的[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)。
+   > 有关与第三方翻译服务集成的详细信息，请参阅AEM文档中的[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hans)。
 
 1. 单击&#x200B;**保存并关闭**&#x200B;以保存更新的文件夹属性。
 

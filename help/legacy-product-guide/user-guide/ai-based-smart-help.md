@@ -13,7 +13,7 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides提供了基于GenAI的智能帮助，该对话式搜索功能可帮助您从[Adobe Experience Manager Guides文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中查找相关内容。
+Experience Manager Guides提供了基于GenAI的智能帮助，该对话式搜索功能可帮助您从[Adobe Experience Manager Guides文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/overview)中查找相关内容。
 您可以提出问题并以信息性的方式获得答案。 您的查询答案取决于产品文档中的内容。 此搜索完全是对话式的。 您可以先提出问题，然后根据响应情况，您还可以提出进一步的问题。 响应中还包括指向源文档的链接，您可以参阅这些链接以了解详细信息。
 
 例如，您可能需要在Experience Manager Guides中为文档创建一个主题。 您可以询问，*如何创建主题？*&#x200B;您收到了响应和相关文章的链接。 然后，如果您想了解如何为文档生成PDF输出，可以询问有关该文档的问题。 例如，*如何将主题发布到PDF？*&#x200B;或&#x200B;*如何生成主题的PDF输出？*

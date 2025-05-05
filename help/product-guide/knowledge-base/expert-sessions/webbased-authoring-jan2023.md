@@ -40,7 +40,7 @@ AEM Guides附带用于创作结构化内容的内置Web编辑器。 您可以使
 
 ## 相关资源
 
-- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=zh-Hans)
 
 - **用户指南** - [作者内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 

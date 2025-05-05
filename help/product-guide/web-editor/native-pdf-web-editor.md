@@ -184,7 +184,7 @@ ht-degree: 0%
 | **创建交互式PDF表单** | 如果要包含交互式和可自定义的PDF表单字段，以便在生成的PDF输出中提供增强的用户输入，请选择此选项。 |
 | **包含跟踪更改** | 如果要在生成的PDF中包含跟踪的更改以便于查看和比较，请选择此选项。 |
 | **保留临时文件** | 如果要保留在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 |
-| **PDF合规性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用的PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请查看[关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
+| **PDF合规性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用的PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请查看[关于PDF标准](https://helpx.adobe.com/cn/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
 | **文件属性** | 选择要传递到本机PDF发布的元数据。 该下拉列表会同时列出自定义属性和默认属性。 例如，`dc:description`、`dc:language`、`dc:title`和`docstate`是默认属性，而您可以将`author`作为自定义属性。 所选的元数据属性将传递到使用本机PDF生成的PDF文件。 <br>这些属性是从位于`/libs/fmdita/config/metadataList`的`metadataList`文件中选取的。 <br>此文件可以覆盖在： `/apps/fmdita/config/metadataList`。 |
 
 

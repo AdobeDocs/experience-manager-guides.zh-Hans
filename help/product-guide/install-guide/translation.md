@@ -23,17 +23,17 @@ ht-degree: 8%
 
 翻译内容涉及以下步骤：
 
-1. 将AEM与您的[翻译服务提供商](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)连接并创建[翻译集成框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
+1. 将AEM与您的[翻译服务提供商](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)连接并创建[翻译集成框架配置](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
 
-1. 将语言母版页面与[翻译服务和框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)关联。
+1. 将语言母版页面与[翻译服务和框架配置](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)关联。
 
-1. 标识要翻译的[内容的类型](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html)。
+1. 标识要翻译的[内容的类型](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-rules.html)。
 
-1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)。
+1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-prep.html)。
 
-1. 创建[翻译项目](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻译的内容并准备翻译过程。
+1. 创建[翻译项目](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻译的内容并准备翻译过程。
 
-1. 使用翻译项目[管理内容翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)进程。
+1. 使用翻译项目[管理内容翻译](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-manage.html)进程。
 
 
 如果翻译服务提供商不提供连接器来与AEM集成，则AEM支持以XML格式手动导出和导入已翻译内容。
@@ -88,7 +88,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   > 如果您使用的是翻译连接器，请确保已按照AEM文档中的&#x200B;*[配置翻译集成框架](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主题中所述配置连接器。
+   > 如果您使用的是翻译连接器，请确保已按照AEM文档中的&#x200B;*[配置翻译集成框架](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主题中所述配置连接器。
 
 1. 单击&#x200B;**保存**。
 

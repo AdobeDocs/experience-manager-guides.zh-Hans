@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 有关如何在AEM中设置创作和发布实例的更多详细信息，请参阅[创作和发布架构概述](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
+> 有关如何在AEM中设置创作和发布实例的更多详细信息，请参阅[创作和发布架构概述](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=zh-Hans#prerequisites)。
 
 借助AEM Guides的批量激活功能，您可以快速轻松地激活内容从创作到发布实例。 批量激活功能可让您灵活地：
 

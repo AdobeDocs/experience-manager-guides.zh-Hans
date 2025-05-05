@@ -18,9 +18,9 @@ ht-degree: 9%
 
 AEM文档中的以下主题将帮助您了解用户管理与安全相关的概念和功能：
 
-- [AEM用户、组和权限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
+- [AEM用户、组和权限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hans)
 
-- [用户管理和安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
+- [用户管理和安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=zh-Hans)
 
 
 ## AEM Guides创建的用户组 {#id181TF0K0MHT}

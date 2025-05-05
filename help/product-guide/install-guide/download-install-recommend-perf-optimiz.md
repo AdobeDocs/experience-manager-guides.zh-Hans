@@ -17,7 +17,7 @@ ht-degree: 0%
 ## 配置数据存储\（必需\）
 
 **有什么变化？**
-在配置`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`下将`minRecordLength`属性设置为值`100`有关文件日期存储和S3数据存储的更多信息，请参阅[在AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html)中配置节点存储和数据存储。
+在配置`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`下将`minRecordLength`属性设置为值`100`有关文件日期存储和S3数据存储的更多信息，请参阅[在AEM 6](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/data-store-config.html)中配置节点存储和数据存储。
 
 >[!NOTE]
 >

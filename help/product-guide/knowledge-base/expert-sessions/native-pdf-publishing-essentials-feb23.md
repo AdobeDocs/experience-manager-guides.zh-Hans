@@ -41,7 +41,7 @@ AEM Guides具有内置的PDF发布引擎，该引擎为用户提供了以PDF格�
 
 ## 相关资源
 
-- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=zh-Hans)
 
 - **用户指南** - [本机PDF发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 

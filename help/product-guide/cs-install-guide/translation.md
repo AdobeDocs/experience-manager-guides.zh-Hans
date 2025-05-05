@@ -23,17 +23,17 @@ ht-degree: 9%
 
 翻译内容涉及以下步骤：
 
-1. 将AEM与您的[翻译服务提供商](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)连接并创建翻译集成框架配置。
+1. 将AEM与您的[翻译服务提供商](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hans)连接并创建翻译集成框架配置。
 
 1. 将语言母版页面关联到翻译服务和框架配置。
 
-1. 标识要翻译的[内容的类型](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en)。
+1. 标识要翻译的[内容的类型](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=zh-Hans)。
 
-1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)。
+1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=zh-Hans)。
 
-1. 创建[翻译项目](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)以收集要翻译的内容并准备翻译过程。
+1. 创建[翻译项目](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=zh-Hans)以收集要翻译的内容并准备翻译过程。
 
-1. 使用翻译项目[管理内容翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)进程。
+1. 使用翻译项目[管理内容翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=zh-Hans)进程。
 
 
 如果翻译服务提供商不提供连接器来与AEM集成，则AEM支持以XML格式手动导出和导入已翻译内容。
@@ -88,7 +88,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
-> 如果您使用的是翻译连接器，请确保已按照Adobe Experience Manager文档中的&#x200B;*[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)*&#x200B;主题中所述配置连接器。
+> 如果您使用的是翻译连接器，请确保已按照Adobe Experience Manager文档中的&#x200B;*[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hans)*&#x200B;主题中所述配置连接器。
 
 >[!IMPORTANT]
 >

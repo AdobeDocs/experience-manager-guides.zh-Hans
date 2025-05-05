@@ -18,20 +18,20 @@ ht-degree: 1%
 
 有关AEM中工作流的详细信息，请参阅：
 
-- [管理工作流](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
+- [管理工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 应用和参与工作流： [使用工作流](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- 应用和参与工作流： [使用工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/authoring/using/workflows.html)。
 
-- 创建工作流模型和扩展工作流功能： [开发和扩展工作流](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)。
+- 创建工作流模型和扩展工作流功能： [开发和扩展工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/using/workflows.html)。
 
-- 提高使用重要服务器资源的工作流的性能： [并发工作流处理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
+- 提高使用重要服务器资源的工作流的性能： [并发工作流处理](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
 
 
 本主题中的部分将指导您逐步完成AEM Guides中提供的默认工作流中可以进行的各种自定义设置。
 
 ## 自定义审核工作流 {#id176NE0C00HS}
 
-每个组织的内容创作团队都以特定的方式工作，以满足其业务要求。 有些组织设有专门的编辑人员，而有些其他组织则设有自动编辑审查系统。 例如，在组织中，典型的创作和发布工作流程可能包括以下任务 — 每当作者完成创作内容时，它会自动发送给审阅人，审阅完成后会发送给发布者，以生成最终输出。 在AEM中，您可以采用流程的形式组合对内容和资产执行的活动并将其映射到AEM工作流。 有关AEM中工作流的详细信息，请参阅AEM文档中的[管理工作流](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)。
+每个组织的内容创作团队都以特定的方式工作，以满足其业务要求。 有些组织设有专门的编辑人员，而有些其他组织则设有自动编辑审查系统。 例如，在组织中，典型的创作和发布工作流程可能包括以下任务 — 每当作者完成创作内容时，它会自动发送给审阅人，审阅完成后会发送给发布者，以生成最终输出。 在AEM中，您可以采用流程的形式组合对内容和资产执行的活动并将其映射到AEM工作流。 有关AEM中工作流的详细信息，请参阅AEM文档中的[管理工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/workflows.html)。
 
 AEM Guides允许您自定义默认审核工作流。 您可以将以下四个与自定义审阅相关的流程用于其他创作或发布工作流。
 

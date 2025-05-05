@@ -69,11 +69,11 @@ Adobe Experience Manager为领先的翻译提供商提供了内置连接器。 �
 
 ## 其他资源
 
-以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)页面上：
+以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)页面上：
 
 * 用户指南
 * API参考指南
 * 快速入门指南
-* [帮助*存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) （访问旧版文档）
+* [帮助*存档页面](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html) （访问旧版文档）
 
 **父主题：**&#x200B;[&#x200B;关于Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

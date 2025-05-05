@@ -44,11 +44,11 @@ Adobe Experience Manager Guides现在包含到外部数据源的现成连接器�
 
 ## 相关资源
 
-- **在Experience League[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)上配置数据源连接器** - 
+- **在Experience League[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=zh-Hans)上配置数据源连接器** - 
 
-- Experience League[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)上的&#x200B;**文档** - 
+- Experience League[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=zh-Hans)上的&#x200B;**文档** - 
 
-- **使用Experience League[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)上的Velocity工具** - 
+- **使用Experience League[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=zh-Hans#use-velocity-tools)上的Velocity工具** - 
 
 
 

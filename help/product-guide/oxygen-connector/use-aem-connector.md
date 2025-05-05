@@ -44,7 +44,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“E
 
 >[!IMPORTANT]
 >
->如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 有关卸载说明，请参阅[如何使用包](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)文章中的&#x200B;**卸载包**&#x200B;部分。
+>如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 有关卸载说明，请参阅[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html)文章中的&#x200B;**卸载包**&#x200B;部分。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -78,7 +78,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“E
 
 >[!IMPORTANT]
 >
->如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅[如何使用包](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)文章卸载说明中的&#x200B;**卸载包**&#x200B;部分。
+>如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html)文章卸载说明中的&#x200B;**卸载包**&#x200B;部分。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -117,7 +117,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“E
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   包管理器可管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en)。
+   包管理器可管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=zh-Hans)。
 
    ![包管理器](images/package-manager.png) {width="650" align="left"}
 

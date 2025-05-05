@@ -18,19 +18,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 有关AEM中支持的内容上传方法的详细信息，请参阅[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)。
+> 有关AEM中支持的内容上传方法的详细信息，请参阅[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans)。
 
 ## Assets Console用户界面
 
-您可以在桌面上选择内容，然后在AEM用户界面\（Web浏览器\）上拖动到目标文件夹。 有关详细信息，请参阅AEM文档中的[上传资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets)。
+您可以在桌面上选择内容，然后在AEM用户界面\（Web浏览器\）上拖动到目标文件夹。 有关详细信息，请参阅AEM文档中的[上传资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#upload-assets)。
 
 ## AEM 桌面应用程序
 
-如果您是创意专业人士并想要在本地桌面上管理资源，请使用AEM桌面应用程序。 您可以使用桌面应用程序打开和编辑这些资源。 您还可以维护版本并与其他用户共享您的文件。 有关更多详细信息，请参阅[AEM桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)。
+如果您是创意专业人士并想要在本地桌面上管理资源，请使用AEM桌面应用程序。 您可以使用桌面应用程序打开和编辑这些资源。 您还可以维护版本并与其他用户共享您的文件。 有关更多详细信息，请参阅[AEM桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=zh-Hans)。
 
 ## 资源批量提取器
 
-如果您进行了大规模迁移并偶尔进行了批量摄取，请使用资产批量摄取器上传您的内容。 使用此工具，您可以从受支持的数据存储（如Azure或S3）上载批量内容。 有关更多详细信息，请参阅[资产批量引入器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)。
+如果您进行了大规模迁移并偶尔进行了批量摄取，请使用资产批量摄取器上传您的内容。 使用此工具，您可以从受支持的数据存储（如Azure或S3）上载批量内容。 有关更多详细信息，请参阅[资产批量引入器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#asset-bulk-ingestor)。
 
 ## 使用FrameMaker进行批量上传
 
