@@ -165,6 +165,7 @@ PDF文档通常包含以下部分：
 1. 更改“视图旋转”属性以顺时针90°方向渲染内容。
 
    1. 从视图旋转下拉列表中选择&#x200B;**顺时针90°**。
+
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. 单击&#x200B;**全部保存**&#x200B;可保存更新的页面布局属性。
@@ -179,9 +180,11 @@ PDF文档通常包含以下部分：
       将打开布局样式表进行编辑。
 
    1. 右键单击&#x200B;**其他样式**&#x200B;并选择&#x200B;**新建样式**。
+
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. 在“添加样式”弹出窗口中，在&#x200B;**classname**&#x200B;中输入&#x200B;**横向样式**。
+
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. 单击&#x200B;**完成**。
@@ -437,6 +440,7 @@ PDF文档通常包含以下部分：
    1. 在右侧面板中，单击&#x200B;**内容属性** (<img src="./assets/content-properties-icon.png" width="25">)图标。
 
    1. 展开&#x200B;**布局**&#x200B;属性部分，并将&#x200B;**浮点**&#x200B;属性值设置为&#x200B;**右**。
+
       <img src="./assets/float-prop-html-content.png" width="400">
 
       章节标题字段朝向页脚的右侧。

@@ -55,4 +55,4 @@ AEM Guides提供两个现成的映射模板 — DITA映射和Bookmap。 您还�
    > 要使用高级映射编辑器，请在Web编辑器中访问映射文件。 如果管理员已将高级映射编辑器配置为映射文件中的默认编辑器，则直接在高级映射编辑器中打开映射文件以进行编辑。 请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*将高级映射编辑器设置为默认值*&#x200B;部分。
 
 
-**父主题：**[&#x200B;使用映射编辑器](map-editor.md)
+**父主题：**&#x200B;[&#x200B;使用映射编辑器](map-editor.md)

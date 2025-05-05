@@ -14,7 +14,7 @@ ht-degree: 0%
 
 本文介绍Adobe Experience Manager Guides 4.6.0 Service Pack 3版本中修复的各个方面的错误。
 
-了解4.6.0 Service Pack 3版本](upgrade-instructions-4-6-0-sp2.md)的[升级说明。
+了解4.6.0 Service Pack 3版本[&#128279;](upgrade-instructions-4-6-0-sp2.md)的升级说明。
 
 ## 创作
 

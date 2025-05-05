@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 第2步：对PDF模板的样式表进行必要的更改
 
-PDF模板样式表](../assets/publishing/custom-font2.png)中的![字体
+PDF模板样式表![&#128279;](../assets/publishing/custom-font2.png)中的字体
 
 ## 步骤3（可选） ：在PDF中嵌入使用的字体
 

@@ -42,4 +42,4 @@ AEM Guides提供了与Web编辑器集成的强大的基于文章的发布功能�
 
 您可以使用AEM站点通过Web编辑器中的输出预设发布文章。
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)

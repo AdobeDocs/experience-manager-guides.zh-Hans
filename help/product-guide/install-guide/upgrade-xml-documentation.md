@@ -25,7 +25,7 @@ ht-degree: 0%
 - 如果您使用的是版本 4.3.x、4.2、4.2.1（修补程序 4.2.1.3）、4.1 或 4.1.x，则需要先升级到版本 4.4，然后再升级到版本 5.0.0。
 - 如果您使用的是版本 4.0，则需要先升级到版本 4.2，然后再升级到版本 4.3.x。
 - 如果您使用的是版本 3.8.5，则需要先升级到版本 4.0，然后再升级到版本 4.2。
-- 如果您使用的是 3.8.5 之前的版本，请参阅 Adobe Experience Manager Guides 帮助 PDF 存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中[提供的特定产品安装指南中的“升级体验管理器指南”部分。
+- 如果您使用的是 3.8.5 之前的版本，请参阅 Adobe Experience Manager Guides 帮助 PDF 存档[&#128279;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)中提供的特定产品安装指南中的“升级体验管理器指南”部分。
 
 
 >[!NOTE]
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 
 
-****前提条件****
+**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides升级过程之前，请确保您已：
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 如果您使用的是版本4.0、4.1或4.1.x，则可以直接升级到版本4.2。
 
-****前提条件****
+**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.2升级过程之前，请确保您具有：
 
@@ -201,7 +201,7 @@ ht-degree: 0%
 
    **进程选项卡**
 
-   - 从“进程&#x200B;**”下拉列表中选择“DXML 后处理启动程序**”****
+   - 从“进程&#x200B;**”下拉列表中选择“DXML 后处理启动程序**”**&#x200B;**
 
    - 选择 **处理程序高级**
 
@@ -310,7 +310,7 @@ ht-degree: 0%
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****前提条件****
+**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
 
 在开始 Experience Manager 指南 4.2.1 升级过程之前，请确保您已：
 
@@ -487,7 +487,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****前提条件****
+**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.3.0升级过程之前，请确保您具有：
 
@@ -545,7 +545,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****前提条件****
+**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.3.1升级过程之前，请确保您具有：
 
@@ -786,7 +786,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****前提条件****
+**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.4.0升级过程之前，请确保您具有：
 
@@ -979,7 +979,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 在此升级过程中，由于`'order'`值从1000更改为50，因此您需要将现有的自定义重写器（如果有）与`'fmdita-rewriter'`合并。
 
 
-**父主题：**[&#x200B;下载并安装](download-install.md)
+**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
 
 
 ## 升级到版本4.6.0
@@ -994,7 +994,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****前提条件****
+**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.6.0升级过程之前，请确保您具有：
 
@@ -1149,7 +1149,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****前提条件****
+**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 5.0.0升级过程之前，请确保您具有：
 

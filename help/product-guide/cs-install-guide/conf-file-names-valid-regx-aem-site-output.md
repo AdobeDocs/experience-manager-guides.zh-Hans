@@ -22,4 +22,4 @@ ht-degree: 1%
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | 在AEM Site输出文件名中添加要替换为下划线的字符。<br> **默认值**： ``'<\>\`@$`` |
 
-**父主题：**[&#x200B;配置文件名](conf-file-names.md)
+**父主题：**&#x200B;[&#x200B;配置文件名](conf-file-names.md)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 有关此版本中已修复的问题的列表，请查看[4.4.0版本](../release-info/fixed-issues-4-4.md)中已修复的问题。
 
-了解4.4.0版本](../release-info/upgrade-instructions-4-4.md)的[升级说明。
+了解4.4.0版本[&#128279;](../release-info/upgrade-instructions-4-4.md)的升级说明。
 
 
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 您可以在DITA主题中定义条件属性。 然后，使用条件预设中的条件属性发布DITA映射中的内容。 Experience Manager Guides现在还可以在Web编辑器中提供丰富的体验，帮助您更高效地创建和管理条件预设。 您还可以轻松地编辑、复制或删除它们。
 
-Web编辑器](assets/web-editor-manage-condition-presets.png){width="550" align="left"}的“管理”选项卡中的![条件预设
+Web编辑器![&#128279;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}的“管理”选项卡中的条件预设
 
 有关详细信息，请查看[使用条件预设](../user-guide/generate-output-use-condition-presets.md)。
 
@@ -154,7 +154,7 @@ Experience Manager Guides提供了一个增强的“地图收集”功能板。 
 
 ![用户首选项对话框](assets/user-preferences-2311.png){width="550" align="left"}
 
-*从&#x200B;**用户首选项**对话框更改查看文件的默认方式。*
+*从&#x200B;**用户首选项**&#x200B;对话框更改查看文件的默认方式。*
 
 
 ## 刷新浏览器时恢复文件选项卡
@@ -220,7 +220,7 @@ Experience Manager Guides允许您作为管理员配置AEM站点输出的URL。 
 您可以应用样式并使用HTML标记来设置变量的格式。  您还可以在需要时快速更新任何变量的值并重新生成输出。 例如，如果需要更新版本的详细信息，可以在VersionNumber变量中编辑版本值并重新生成输出。
 
 
-了解有关如何在PDF输出](../native-pdf/native-pdf-variables.md)中使用[变量的更多信息。
+了解有关如何在PDF输出[&#128279;](../native-pdf/native-pdf-variables.md)中使用变量的更多信息。
 
 
 ### 将资源元数据传播到PDF输出

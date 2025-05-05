@@ -70,7 +70,7 @@ ht-degree: 3%
                - [地图编辑器中的其他功能](./user-guide/map-editor-other-features.md)
             - DITAVAL编辑器{#ditaval-editor}
                - [使用DITAVAL编辑器](./user-guide/ditaval-editor.md)
-         - 用于创作内容{#author-using-desktop-tools}的桌面工具
+         - 用于创作内容的桌面工具{#author-using-desktop-tools}
             - [使用桌面工具创作内容](./user-guide/author-desktop-tools.md)
             - [使用FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [使用氧气](./user-guide/author-desktop-oxygen.md)
@@ -84,7 +84,7 @@ ht-degree: 3%
          - [地址审核注释](./user-guide/review-address-review-comments.md)
       - [使用审阅功能板管理审阅任务](./user-guide/review-manage-tasks-review-dashboard.md)
       - [查看已完成的审核任务](./user-guide/review-view-completed-task.md)
-   - AEM Guides {#manaege-metadata}中的元数据
+   - AEM Guides中的元数据 {#manaege-metadata}
       - [管理元数据](./user-guide/manage-metadata.md)
       - [在AEM中使用元数据](./user-guide/metadata-dita.md)
       - [智能标记](./user-guide/web-editor-smart-tagging.md)
@@ -97,7 +97,7 @@ ht-degree: 3%
    - 输出生成{#output-gen}
       - [输出生成基础知识](./user-guide/generate-output.md)
       - [输出预设简介](./user-guide/generate-output-understand-presets.md)
-      - AEM Guides {#output-presets-aemg}中的输出预设
+      - AEM Guides中的输出预设 {#output-presets-aemg}
          - [AEM站点](./user-guide/generate-output-aem-site.md)
          - [地图仪表板上的AEM Sites预设](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [Web编辑器中的AEM Sites预设](./user-guide/generate-output-aem-site-web-editor.md)
@@ -126,7 +126,7 @@ ht-degree: 3%
          - [激活输出](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [编辑批量激活映射集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [删除批量激活映射集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   - 生成FrameMaker文档{#generate-fm-output}的输出
+   - 生成FrameMaker文档的输出{#generate-fm-output}
       - [生成FrameMaker文档输出](./user-guide/fm-output-generatation.md)
       - 支持的预设{#fm-docs-generating-presets}
          - [用于生成FrameMaker文档的预设](./user-guide/fm-output-understand-presets.md)
@@ -135,7 +135,7 @@ ht-degree: 3%
          - [ePub](./user-guide/fm-output-epub-preset.md)
       - [生成.book或.fm文件的输出](./user-guide/fm-output-generate.md)
       - [查看输出生成任务的状态](./user-guide/fm-output-view-status.md)
-   - AEM Guides {#reports-aem-guide}中的报告
+   - AEM Guides中的报告 {#reports-aem-guide}
       - [报告简介](./user-guide/reports-intro.md)
       - [Web编辑器中的DITA映射报表](./user-guide/reports-web-editor.md)
       - [映射仪表板中的DITA映射报表](./user-guide/reports-ditamap.md)

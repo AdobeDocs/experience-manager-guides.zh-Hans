@@ -28,4 +28,4 @@ AEM Guides还允许用户在氧气连接器插件中编辑其DITA主题和DITA�
 >
 > 默认情况下，此配置处于禁用状态，并且选项在Web编辑器中不可用。
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)

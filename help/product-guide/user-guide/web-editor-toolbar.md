@@ -621,4 +621,4 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 作为管理员，您还可以访问&#x200B;**强制解锁**&#x200B;功能，该功能允许您解锁其他用户锁定的文件。 使用此功能可以访问其他用户锁定的文件的编辑权限。
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)

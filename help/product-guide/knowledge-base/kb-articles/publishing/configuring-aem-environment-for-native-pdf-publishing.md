@@ -105,7 +105,7 @@ AEM Guides包括本机PDF发布引擎，该引擎使用户能够以PDF格式设�
 
 10. 如果未安装/识别unzip命令，则可以使用以下命令安装它
 
-   **yum安装unzip**
+    **yum安装unzip**
 
 11. 安装fontconfig包。
 命令： yum install fontconfig

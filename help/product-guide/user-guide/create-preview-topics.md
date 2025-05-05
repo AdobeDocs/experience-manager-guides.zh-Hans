@@ -20,4 +20,4 @@ Adobe Experience Manager Guides提供了一项强大的功能，可用于创建�
 - **[预览主题](web-editor-preview-topics.md)**
 
 
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)

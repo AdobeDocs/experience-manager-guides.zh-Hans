@@ -45,4 +45,4 @@ AEM Guides提供了简单的配置设置，您需要在其中定义自动生成I
 1. 单击&#x200B;**保存**。
 
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)

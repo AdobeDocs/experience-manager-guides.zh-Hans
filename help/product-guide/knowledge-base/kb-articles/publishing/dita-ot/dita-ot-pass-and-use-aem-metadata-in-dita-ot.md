@@ -22,7 +22,7 @@ ht-degree: 0%
 ## 背景
 
 借助AEM Guides，您可以使用DITA-OT插件通过配置的插件发布到您选择的输出格式，并且
-您还可以将在AEM DAM中管理的资源的元数据传递给DITA-OT进程，以便在生成的输出中使用它 — 请参阅有关如何设置ditamap/主题以通过输出预设传递元数据的文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)[
+您还可以将在AEM DAM中管理的资源的元数据传递给DITA-OT进程，以便在生成的输出中使用它 — 请参阅有关如何设置ditamap/主题以通过输出预设传递元数据的文档[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## 假设
@@ -65,8 +65,8 @@ ht-degree: 0%
 ##### 了解metadata.xml
 
 - 此文件包含已发布的所有资源的列表，每个资源具有：
-   - 路径元素]的DITA目录[id属性中的文件路径
-   - _元数据_&#x200B;元素]下的元数据属性值对[的列表
+   - 路径元素&rbrack;的DITA目录&lbrack;id属性中的文件路径
+   - _元数据_&#x200B;元素&rbrack;下的元数据属性值对&lbrack;的列表
 
 ```
         <Path id="topics\about-this-document.dita">

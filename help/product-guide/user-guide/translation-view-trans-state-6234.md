@@ -28,4 +28,4 @@ ht-degree: 0%
 
    ![](images/translation-status-new.png){align="left"}
 
-**父主题：**[&#x200B;内容翻译概述](translation.md)
+**父主题：**&#x200B;[&#x200B;内容翻译概述](translation.md)

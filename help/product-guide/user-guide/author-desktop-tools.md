@@ -27,4 +27,4 @@ FrameMaker支持在Experience Manager Guides中创作和发布内容。 FrameMak
 
 *联系您的客户成功团队以在环境中启用此功能。 这并非现成支持的一部分。*
 
-**父主题：**[&#x200B;作者内容](authoring-content.md)
+**父主题：**&#x200B;[&#x200B;作者内容](authoring-content.md)

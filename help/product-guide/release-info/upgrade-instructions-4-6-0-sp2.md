@@ -74,4 +74,4 @@ ht-degree: 1%
 >
 >在升级Experience Manager Guides版本之前，必须安装AEM Service Pack。
 
-4.6.0 Service Pack 3版本的升级过程与4.6.0版本的升级过程相同。 有关详细说明，请查看Experience Manager Guides内部部署版本](../install-guide/upgrade-xml-documentation.md)的[升级说明。
+4.6.0 Service Pack 3版本的升级过程与4.6.0版本的升级过程相同。 有关详细说明，请查看Experience Manager Guides内部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升级说明。

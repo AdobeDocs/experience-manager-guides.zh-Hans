@@ -37,7 +37,7 @@ AEM Guides提供的强大功能使您能够将内容翻译成多种语言。 AEM
 
 ## 相关资源
 
-- Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)上的&#x200B;**文档** - [
+- Experience League[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)上的&#x200B;**文档** - 
 
 - **社区论坛** — 对于Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 

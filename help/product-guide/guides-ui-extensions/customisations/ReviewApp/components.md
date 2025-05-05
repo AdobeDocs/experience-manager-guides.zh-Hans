@@ -35,12 +35,15 @@ ht-degree: 0%
 
 - 审阅评论回复：`id: comment_reply`
    - 每个审核评论回复的构件。
+
      ![查看评论回复屏幕截图](./imgs/reply.png)
 
 - 新的评论回复：`id: comment_new_reply`
    - 用于新审核评论回复的小部件。
+
      ![新评论回复屏幕截图](./imgs/new_reply.png)
 
 - 注释工具箱： `id: annotation_toolbox`
    - 审阅应用程序右上角的工具栏。
+
      ![注释工具箱屏幕快照](./imgs/annotation_toolbox.png)

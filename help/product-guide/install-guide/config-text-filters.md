@@ -102,4 +102,4 @@ AEM Guides提供了在AEM存储库的选定路径上的文件中搜索文本的�
 
 配置的筛选器在筛选器面板中可用。
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)

@@ -178,4 +178,4 @@ Features available in the tab bar are explained as follows:
 > **查找和替换**&#x200B;功能不处理存储库级别的Markdown文件。 这包括搜索映射或文件夹中的Markdown文件。 但是，它仍可以在Markdown编辑器中使用。 此外，存储库视图中的&#x200B;**搜索**&#x200B;和&#x200B;**筛选器**&#x200B;选项不处理Markdown文件。
 
 
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)

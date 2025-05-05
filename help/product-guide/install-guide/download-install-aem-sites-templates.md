@@ -55,7 +55,7 @@ ht-degree: 0%
 - **AEMG**&#x200B;文件夹中存在英语(en)语言的文件夹。 您可以根据要求创建类似的语言副本。 例如，多语言网站包括英语(en)、德语(de)和法语(fr)语言副本。  了解有关如何使用[语言副本向导](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard)创建语言副本的详细信息。
 - 在English(en)语言文件夹中，Experience Manager Guides提供了许多现成的示例页面，如&#x200B;**搜索**、**登录**、**文档**&#x200B;和&#x200B;**支持**。
 
-- **文档**是示例文档主页。 它是所有产品相关文档的中心位置
+- **文档**&#x200B;是示例文档主页。 它是所有产品相关文档的中心位置
 和显示其文档作为单个图块提供的每个产品。
 
 - 除了文档主页之外，还有&#x200B;**搜索**、**登录**&#x200B;和&#x200B;**支持**&#x200B;的示例页面。 您可以根据需要自定义这些示例。
@@ -114,8 +114,10 @@ ht-degree: 0%
   ![节页面模板](assets/customize-existing-aem-templates-section.png)
    - 详细信息页面或主题页面模板：此模板用于地图主题的内容。 DITA/XML内容的所有“站点”页面都是使用主题页面模板创建的。 要创建这些模板，需满足两个先决条件：
       - 将文本组件添加到模板中（包含在容器组件中），该模板具有必需属性。`text="$topic.content$"`。
+
         ![容器页面模板](assets/customize-existing-aem-templates-container.png)
       - 在同一个模板的结构中反映相同的容器和文本组件，如下面的屏幕快照所示：
+
         ![容器模板的结构](assets/customize-existing-aem-templates-structure.png)
 
 ### 将类别页面标记为文档容器

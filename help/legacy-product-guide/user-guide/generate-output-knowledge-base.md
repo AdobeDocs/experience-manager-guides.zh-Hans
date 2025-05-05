@@ -66,7 +66,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果管理员已配置Adobe Experience Manager知识库预设，则可以使用该预设。 有关更多详细信息，请参阅安装和配置指南中的Web编辑器](/help/product-guide/install-guide/configure-article-based-publishing.md)部分中的[基于文章的发布。
+>如果管理员已配置Adobe Experience Manager知识库预设，则可以使用该预设。 有关更多详细信息，请参阅安装和配置指南中的Web编辑器[&#128279;](/help/product-guide/install-guide/configure-article-based-publishing.md)部分中的基于文章的发布。
 
 | Adobe Experience Manager选项 | 描述 |
 | --- | --- |

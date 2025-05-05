@@ -37,4 +37,4 @@ AEM Guides是一个安装在Adobe Experience Manager之上的插件。 安装AEM
 >
 > 您可以考虑使用许多性能优化建议来提高系统性能。 有关详细信息，请参阅[Recommendations以进行性能优化](download-install-recommend-perf-optimiz.md#)。
 
-**父主题：**[&#x200B;下载并安装](download-install.md)
+**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)

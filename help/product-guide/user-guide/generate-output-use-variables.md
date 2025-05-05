@@ -30,4 +30,4 @@ ht-degree: 0%
 | `${system_time}` | 使用当前服务器时间创建目标路径。 | **DITA映射文件名：** <br>`SampleDita.ditamap` <br> <br> **DITA映射文件路径：** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**目标路径**&#x200B;配置为： <br> `/content/output/sites/${system_time}`<br><br>**最终输出位置：**<br>`/content/output/sites/055612/SampleDita.html` |
 
 此外，您还可以使用为DITA映射或书图文件定义的元数据作为变量。 可以在DITA映射或书签映射文件的`/jcr:content/metadata`节点下找到元数据。 例如，`/jcr:content/metadata`节点中定义的元数据属性之一是`dc:title`。 您可以指定`${dc:title}`并在最终输出中使用标题值。
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

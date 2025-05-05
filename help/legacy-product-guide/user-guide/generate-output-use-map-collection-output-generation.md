@@ -88,7 +88,8 @@ ht-degree: 1%
 
    - 启用任何单个预设。
    - 为DITA映射启用&#x200B;**所有预设**&#x200B;以一次性选择所有预设。 默认禁用此选项。
-   - 为DITA映射启用&#x200B;**文件夹配置文件预设**以为其选择所有文件夹配置文件预设。 默认禁用此选项。
+   - 为DITA映射启用&#x200B;**文件夹配置文件预设**&#x200B;以为其选择所有文件夹配置文件预设。 默认禁用此选项。
+
      ![在云服务上编辑地图集合](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -143,4 +144,4 @@ ht-degree: 1%
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

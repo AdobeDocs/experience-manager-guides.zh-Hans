@@ -15,7 +15,7 @@ ht-degree: 1%
 
 有关新功能和增强功能的更多信息，请查看 [5.0.0 版本中的新增功能](whats-new-5-0.md)。
 
-了解5.0.0版](upgrade-instructions-5-0-0.md)的[升级说明。
+了解5.0.0版[&#128279;](upgrade-instructions-5-0-0.md)的升级说明。
 
 
 ## 创作

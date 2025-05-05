@@ -51,7 +51,7 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 
  — 将JVM栈大小设置为最小总可用内存的1/4。 使用参数`-Xmx<size>`设置栈内存大小。 将 — `Xms`的值设置为等于`-Xmx`。
 
- — 启用`-XX:+HeapDumpOnOutOfMemoryError`并设置`-XX:HeapDumpPath=</path/to/folder``>`的路径。
+ — 启用`-XX:+HeapDumpOnOutOfMemoryError`并设置`-XX:HeapDumpPath=</path/to/folder` `>`的路径。
 
  — 启用Java GC日志为：
 
@@ -80,7 +80,7 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 ## 创作实例上的客户端库缩小\（可选\）
 
 **有什么变化？**
-应将客户端库设置为在创作实例中缩小。 这可以确保在用户从不同位置浏览系统时下载的字节数减少。 要进行此更改，请从Felix控制台的**HTML库管理器**&#x200B;中设置配置。
+应将客户端库设置为在创作实例中缩小。 这可以确保在用户从不同位置浏览系统时下载的字节数减少。 要进行此更改，请从Felix控制台的&#x200B;**HTML库管理器**&#x200B;中设置配置。
 
 **何时配置？**
 这可以在运行时通过Felix控制台或通过代码部署完成。
@@ -115,4 +115,4 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 **Limit AEM Site Pages in Heap**&#x200B;属性的数量增加会优化AEM Site输出生成过程。
 
 
-**父主题：**[&#x200B;下载并安装](download-install.md)
+**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)

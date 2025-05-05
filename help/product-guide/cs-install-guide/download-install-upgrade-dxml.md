@@ -31,4 +31,4 @@ ht-degree: 0%
 
 完成升级过程后，所有用户必须先清除浏览器缓存，然后才能使用AEM Guides的升级版本。
 
-**父主题：**[&#x200B;下载并安装](download-install.md)
+**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)

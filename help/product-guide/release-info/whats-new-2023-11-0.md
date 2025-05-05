@@ -59,14 +59,14 @@ Experience Manager Guides现在改进了本机PDF模板的资源管理。 您现
 
 ![用户首选项对话框](assets/user-preferences-2311.png){width="550" align="left"}
 
-*从&#x200B;**用户首选项**对话框更改查看文件的默认方式。*
+*从&#x200B;**用户首选项**&#x200B;对话框更改查看文件的默认方式。*
 
 
 ### 管理条件预设
 
 您可以在DITA主题中定义条件属性。 然后，使用条件预设中的条件属性发布DITA映射中的内容。 Experience Manager Guides现在还允许您从Web编辑器创建和管理条件预设。 您还可以轻松地编辑、复制或删除它们。
 
-Web编辑器](assets/web-editor-manage-condition-presets.png){width="550" align="left"}的“管理”选项卡中的![条件预设
+Web编辑器![&#128279;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}的“管理”选项卡中的条件预设
 
 有关详细信息，请查看[使用条件预设](../user-guide/generate-output-use-condition-presets.md)。
 

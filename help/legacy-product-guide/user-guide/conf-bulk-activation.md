@@ -42,4 +42,4 @@ json输出预设。
 - **[删除批量激活映射集合](conf-bulk-activation-delete-map-collection.md)**
 
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

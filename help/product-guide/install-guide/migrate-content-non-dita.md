@@ -390,4 +390,4 @@ AEM Guides允许您将现有结构化文档转换为有效的DITA文档。 您�
 
 使用`<config> </config>`块，您可以定义一个或多个转换配置块。 将执行转换工作流，并且以DITA主题形式的最终输出保存在`outputDir`元素中指定的位置。
 
-**父主题：**[&#x200B;迁移现有内容](migrate-content.md)
+**父主题：**&#x200B;[&#x200B;迁移现有内容](migrate-content.md)

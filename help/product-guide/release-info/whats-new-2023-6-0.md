@@ -121,7 +121,7 @@ AEM Guides提供了创建主题方案映射的强大功能，主题方案映射�
 
 ## 在翻译中支持XLIFF格式
 
-AEM Guides还支持翻译中的XML本地化交换文件格式(XLIFF)格式。 现在还可以选择&#x200B;**创建新的XLIFF翻译项目**以将XML内容转换为XLIFF格式。
+AEM Guides还支持翻译中的XML本地化交换文件格式(XLIFF)格式。 现在还可以选择&#x200B;**创建新的XLIFF翻译项目**&#x200B;以将XML内容转换为XLIFF格式。
 使用此格式，您可以将内容导出为行业标准XLIFF格式，然后将其提供给翻译供应商。 有关详细信息，请参阅[创建翻译项目](../user-guide/translate-documents-web-editor.md#create-translation-project)。
 
 ![](assets/translation-project-types.png){width="350" align="left"}

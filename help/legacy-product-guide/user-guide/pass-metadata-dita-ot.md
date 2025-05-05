@@ -45,4 +45,4 @@ ht-degree: 0%
 
 所选的元数据属性将传递到使用DITA-OT生成的输出。
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

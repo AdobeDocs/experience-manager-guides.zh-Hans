@@ -149,4 +149,4 @@ ht-degree: 1%
 
 ![](images/cancel-publish-task-map-collection.png){align="left"}
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

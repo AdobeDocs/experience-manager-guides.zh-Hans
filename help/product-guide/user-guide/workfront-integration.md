@@ -61,7 +61,7 @@ Adobe Workfront是一个基于云的工作管理解决方案，可帮助团队�
 
 Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg)，选中该图标后，您将转到Adobe Workfront项目页面。 在这里，您可以根据映射到您的Adobe Workfront帐户的权限，查看任务详细信息、查看注释、添加注释并访问其他功能。
 
-有关更多详细信息，请在Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates)中查看[项目、任务和问题日期的概述。
+有关更多详细信息，请在Workfront[&#128279;](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates)中查看项目、任务和问题日期的概述。
 
 ### 创建Workfront任务
 

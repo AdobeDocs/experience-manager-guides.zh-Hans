@@ -27,4 +27,4 @@ AEM Guides附带三个现成的编辑器。 您可以使用它们来创建、编
 - **[DITAVAL编辑器](ditaval-editor.md)**
 
 
-**父主题：**[&#x200B;作者内容](authoring-content.md)
+**父主题：**&#x200B;[&#x200B;作者内容](authoring-content.md)

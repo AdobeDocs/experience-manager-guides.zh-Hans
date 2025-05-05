@@ -46,4 +46,4 @@ Adobe Experience Manager Guides附带基于文章的发布功能，允许用户�
    > 也可以从“选项”菜单中重命名现有输出预设、复制或删除现有输出预设。
 
 
-**父主题：**[&#x200B;使用编辑器](web-editor.md)
+**父主题：**&#x200B;[&#x200B;使用编辑器](web-editor.md)

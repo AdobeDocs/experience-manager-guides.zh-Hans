@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**作者**&#x200B;选项卡中，选择要发布的DITA映射中的主题。
 
-1. 从所选主题的“选项”菜单中选择“快速生成”****。
+1. 从所选主题的“选项”菜单中选择“快速生成”**&#x200B;**。
    ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
 1. 要发布单个DITA映射中使用的主题，请选择要发布的映射的输出预设，然后单击&#x200B;**生成**。
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**作者**&#x200B;选项卡中，选择要发布的DITA映射。
 
-1. 从DITA映射的“选项”菜单中选择“快速生成”****。
+1. 从DITA映射的“选项”菜单中选择“快速生成”**&#x200B;**。
 
    ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
@@ -89,4 +89,4 @@ ht-degree: 0%
 1. 您将看到输出生成过程的状态。要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
 
 
-**父主题：**[&#x200B;从Web编辑器中基于文章的发布](web-editor-article-publishing.md)
+**父主题：**&#x200B;[&#x200B;从Web编辑器中基于文章的发布](web-editor-article-publishing.md)

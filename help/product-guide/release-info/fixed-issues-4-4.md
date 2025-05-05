@@ -17,7 +17,7 @@ ht-degree: 0%
 
 有关新增功能和增强功能的详细信息，请查看[ 4.4.0版本中的新增功能](./whats-new-4-4.md)。
 
-了解4.4.0版本](../release-info/upgrade-instructions-4-4.md)的[升级说明。
+了解4.4.0版本[&#128279;](../release-info/upgrade-instructions-4-4.md)的升级说明。
 
 
 ## 创作

@@ -17,4 +17,4 @@ Adobe Experience Manager Guides支持为PDF、HTML5和EPUB格式的FrameMaker文
 
 以下各节将介绍适用于支持的输出格式的选项。
 
-**父主题：**[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)
+**父主题：**&#x200B;[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)

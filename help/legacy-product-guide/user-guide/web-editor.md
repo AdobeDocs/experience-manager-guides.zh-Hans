@@ -47,4 +47,4 @@ AEM Guides附带一个易于使用的基于Web的Web编辑器，用于创建和�
 - **[使用标签](web-editor-use-label.md)**
 
 
-**父主题：**[&#x200B;使用AEM Guides创作内容](authoring-content-xml-doc.md)
+**父主题：**&#x200B;[&#x200B;使用AEM Guides创作内容](authoring-content-xml-doc.md)

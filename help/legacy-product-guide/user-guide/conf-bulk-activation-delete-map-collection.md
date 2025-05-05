@@ -33,4 +33,4 @@ ht-degree: 0%
    将从系统中删除批量激活映射集合。
 
 
-**父主题：**[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)
+**父主题：**&#x200B;[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)

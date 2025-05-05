@@ -102,5 +102,5 @@ AEM Guides的当前版本仅支持使用基于“断言”的规则进行验证�
 #### 资源
 
 - 了解[架构基础](https://da2022.xatapult.com/#what-is-schematron)
-- 有关Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)中的[断言规则的更多信息
+- 有关Schematron[&#128279;](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)中的断言规则的更多信息
 - [模式文件示例](../../../assets/authoring/sample_schematron.sch)

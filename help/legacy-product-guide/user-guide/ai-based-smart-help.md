@@ -30,7 +30,7 @@ Experience Manager Guides提供了基于GenAI的智能帮助，该对话式搜�
 
 ![智能帮助面板](images/smart-help-panel.png){width="300" align="left"}
 
-*查看&#x200B;**智能帮助**面板。*
+*查看&#x200B;**智能帮助**&#x200B;面板。*
 
 执行以下步骤以使用对话式搜索来查找相应的内容并解决您的查询：
 

@@ -31,7 +31,7 @@ Experience Manager Sites页面是指在Adobe Experience Manager网站上发布�
 1. 选择&#x200B;**站点页面**。
 
 
-1. 在&#x200B;**生成站点页面**对话框中，填写以下详细信息：
+1. 在&#x200B;**生成站点页面**&#x200B;对话框中，填写以下详细信息：
    ![在生成站点页面中添加路径和模板详细信息](images/aem-sites-page-generate.png){width="500" align="left"}
 
    *添加路径、标题、名称和模板详细信息，将主题或其元素发布为站点页面。 *

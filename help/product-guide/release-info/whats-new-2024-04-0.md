@@ -15,7 +15,7 @@ ht-degree: 28%
 
 有关此版本中修复的问题列表，请查看 [2024.4.0 版本中已修复的问题](fixed-issues-2024-04-0.md)。
 
-了解2024.4.0版本](upgrade-instructions-2024-04-0.md)的[升级说明。
+了解2024.4.0版本[&#128279;](upgrade-instructions-2024-04-0.md)的升级说明。
 
 ## 能够使用预配置的语言组将内容翻译成多种语言
 
@@ -70,7 +70,7 @@ Experience Manager Guides 现在允许您创建语言组，并轻松地将您的
 
 ![已创建批量激活集合审核历史记录选项卡](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
-*在&#x200B;**审核历史记录**选项卡中查看有关激活的映射输出的信息。*
+*在&#x200B;**审核历史记录**&#x200B;选项卡中查看有关激活的映射输出的信息。*
 
 
 了解有关[批量激活](../user-guide/conf-bulk-activation-publish-map-collection.md)的详细信息。
@@ -201,7 +201,7 @@ Experience Manager Guides允许您在Web编辑器中编辑文档时显示不间�
 ## 改进了从映射编辑器批量检查文件的性能
 
 Experience Manager Guides改进了映射编辑器中批量文件签入功能的性能和体验。 这项改进可帮助您更快地批量签入文件。
-您还可以从**另存为新版本和解锁**&#x200B;对话框中查看文件的签入操作的进度。 最后，在操作完成且所有选定的检出文件都已检入后，将显示成功消息。
+您还可以从&#x200B;**另存为新版本和解锁**&#x200B;对话框中查看文件的签入操作的进度。 最后，在操作完成且所有选定的检出文件都已检入后，将显示成功消息。
 
 ![另存为新版本并解锁对话框](./assets/save-version-lock.png){width="300" align="left"}
 

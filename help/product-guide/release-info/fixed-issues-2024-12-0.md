@@ -13,7 +13,7 @@ ht-degree: 1%
 
 本文介绍Adobe Experience Manager Guides as a Cloud Service 2024.12.0版本中修复的各个方面的错误。
 
-了解2024.12.0版本](./upgrade-instructions-2024-12-0.md)的[升级说明。
+了解2024.12.0版本[&#128279;](./upgrade-instructions-2024-12-0.md)的升级说明。
 
 ## 创作
 

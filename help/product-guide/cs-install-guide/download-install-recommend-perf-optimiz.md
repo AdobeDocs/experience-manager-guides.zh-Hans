@@ -25,4 +25,4 @@ ht-degree: 0%
   此更改可减少发布时间和内存使用率，同时发布包含大量主题的DITA映射。
 
 
-**父主题：**[&#x200B;下载并安装](download-install.md)
+**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)

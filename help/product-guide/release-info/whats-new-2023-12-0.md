@@ -49,7 +49,7 @@ ht-degree: 0%
 您可以应用样式并使用HTML标记来设置变量的格式。  您还可以在需要时快速更新任何变量的值并重新生成输出。 例如，如果需要更新版本的详细信息，可以在VersionNumber变量中编辑版本值并重新生成输出。
 
 
-了解有关如何在PDF输出](../native-pdf/native-pdf-variables.md)中使用[变量的更多信息。
+了解有关如何在PDF输出[&#128279;](../native-pdf/native-pdf-variables.md)中使用变量的更多信息。
 
 
 

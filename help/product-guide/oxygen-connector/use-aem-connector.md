@@ -255,13 +255,14 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 1. 在&#x200B;**扩展**&#x200B;选项卡中，进行以下更改：
 
    - 单击&#x200B;**扩展包**&#x200B;旁边的&#x200B;**选择**&#x200B;并选择   **类**&#x200B;列表中的`LinkResolverExtensionBundle - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
+
      ![为DITA主题配置的扩展](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作扩展状态侦听器**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作自定义属性值编辑器**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomValueEditor - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作外部对象插入处理程序**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomURLInsertionHandler - com.adobe.o2.ui `。 单击&#x200B;**确定**。
 
 
-   以下屏幕截图显示了为DITA主题配置的&#x200B;**扩展**选项卡：
+   以下屏幕截图显示了为DITA主题配置的&#x200B;**扩展**&#x200B;选项卡：
    <img src="images/dita-topic-extension-tab.png" alt="为DITA主题配置的扩展" width="650" border="2px">
 1. 在所有对话框中单击&#x200B;**确定**&#x200B;以保存更改。
 
@@ -286,7 +287,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**引用解析程序**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomDITAMapReferenceResolver - com.adobe.o2`。 单击&#x200B;**确定**。
    - *\（可选\）*&#x200B;如果在打开映射文件时不想解析引用，则需要执行以下附加配置：
 
-   以下屏幕截图显示了配置的&#x200B;**扩展**选项卡：
+   以下屏幕截图显示了配置的&#x200B;**扩展**&#x200B;选项卡：
    <img src="images/dita-map-extension-tab.png" alt="为DITA映射配置的扩展" width="650" border="2px">
 
 1. 在所有对话框中单击&#x200B;**确定**&#x200B;以保存更改。

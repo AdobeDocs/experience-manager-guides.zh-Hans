@@ -19,4 +19,4 @@ ht-degree: 0%
 
 *联系您的客户成功团队以在环境中启用此功能。 这并非现成支持的一部分。*
 
-**父主题：**[&#x200B;使用桌面工具创作内容](author-desktop-tools.md)
+**父主题：**&#x200B;[&#x200B;使用桌面工具创作内容](author-desktop-tools.md)

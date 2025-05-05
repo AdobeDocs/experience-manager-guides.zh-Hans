@@ -51,16 +51,16 @@ ht-degree: 0%
    **项**：   在工具栏中指定所有组的定义。 每个组可以包含一个或多个工具栏图标。 若要在工具栏组中定义图标，您需要在`items`中再次定义`type`属性，并将其值设置为`buttonGroup`。 在`extraclass`属性中指定一个或多个类名。 在`label`属性中指定功能名称。 `ui_config.json`文件中的以下代码片段显示了主工具栏块的定义，后跟`buttonGroup`定义：
 
        “
-”       “工具栏”： {
+”       “工具栏”： &lbrace;
        &quot;type&quot;： &quot;blockGroup&quot;，
        “extraclass”：
        “工具栏操作”，
-       “项”：[
-       {
+       “项”：&lbrack;
+       &lbrace;
        &quot;type&quot;： &quot;buttonGroup&quot;，
        “extraclass”：“left-controls”，
        &quot;label&quot;： &quot;Left Controls&quot;，
-       “项”：[
+       “项”：&lbrack;
        “
 ”   
    在`items`集合中，您需要指定一个或多个工具栏图标的定义。
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    **点击**：   在JavaScript文件中指定为该功能定义的命令名称。 如果命令需要输入参数，则将命令名称指定为：
 
-       ``Javascript
+       &grave;&grave;Javascript
        &quot;on-click&quot;： {&quot;name&quot;： &quot;AUTHOR_INSERT_ELEMENT&quot;， &quot;args&quot;： &quot;simpletable&quot;}
        “
 ”   
@@ -145,4 +145,4 @@ ht-degree: 0%
 1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载Web编辑器。
 
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)

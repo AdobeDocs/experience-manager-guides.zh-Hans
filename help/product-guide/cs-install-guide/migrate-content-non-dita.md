@@ -128,7 +128,7 @@ AEM Guides允许您转换InDesign文档。 与FrameMaker类似，InDesign还允�
 - 创建和验证单个DITA主题和DITA映射文件。
 - 删除临时文件。
 
-概括地说，转换过程要求您[准备InDesign文件以进行转换](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z)和[准备映射文件以InDesign到DITA迁移](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)，然后您需要按照给定的过程运行转换过程。
+概括地说，转换过程要求您[准备InDesign文件以进行转换](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z)和[准备映射文件以InDesign到DITA迁移](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)，然后您需要按照给定的过程运行转换过程。
 
 执行以下步骤，将现有InDesign文档转换为DITA主题类型文档：
 
@@ -396,4 +396,4 @@ AEM Guides允许您将现有结构化文档转换为有效的DITA文档。 您�
 
 使用`<config> </config>`块，您可以定义一个或多个转换配置块。 将执行转换工作流，并且以DITA主题形式的最终输出保存在`outputDir`元素中指定的位置。
 
-**父主题：**[&#x200B;迁移现有内容](migrate-content.md)
+**父主题：**&#x200B;[&#x200B;迁移现有内容](migrate-content.md)

@@ -81,4 +81,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`：完整的文件夹路径，包括文件名及其元数据节点。 例如，如果将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`，则指定的元数据信息在`intro.xml`文件中设置。
 
 
-**父主题：**[&#x200B;迁移现有内容](migrate-content.md)
+**父主题：**&#x200B;[&#x200B;迁移现有内容](migrate-content.md)

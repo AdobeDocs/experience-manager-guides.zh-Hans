@@ -58,4 +58,4 @@ Adobe Experience Manager Guides允许您使用相关的DITA属性轻松创建和
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

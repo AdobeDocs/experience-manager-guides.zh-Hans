@@ -53,7 +53,7 @@ Cloud Service的`preview`或`publish`，内部部署软件的`publish`
 以下示例显示使用带有可选参数的curl命令的API调用：
 
 
-    ``XML
+    &grave;&grave;XML
     
     curl -u &lt;*用户名*>：&lt;*password*> -H &quot;Content-Type： application/json； charset=UTF-8&quot; -k -XPOST-d &quot;{[JSON规则字符串](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>：&lt;*port-number*>/bin/fmdita/activate？activationTarget=&#39;&lt;validActivationTarget=&#39;&lt;validActivationTarget值>“
     ”“

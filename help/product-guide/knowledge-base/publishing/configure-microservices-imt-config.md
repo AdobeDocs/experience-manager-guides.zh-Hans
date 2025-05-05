@@ -40,7 +40,7 @@ ht-degree: 0%
 
    <img src="assets/projects-tab.png" alt="“项目”选项卡" width="500">
 
-   *在&#x200B;**Adobe Developer Console***上选择**&#x200B;项目&#x200B;**选项卡
+   *在&#x200B;**Adobe Developer Console***上选择&#x200B;**&#x200B;项目&#x200B;**&#x200B;选项卡
 
 1. 要创建新的空项目，请从&#x200B;**创建新项目**&#x200B;下拉列表中选择&#x200B;**空项目**。
 

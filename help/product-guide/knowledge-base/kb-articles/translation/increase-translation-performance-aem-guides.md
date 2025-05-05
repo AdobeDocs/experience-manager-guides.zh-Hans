@@ -24,10 +24,12 @@ ht-degree: 0%
 
 - 一旦翻译完成并批准，将所有项目标记为“非活动”。项目仍可供审查，并且只是标记为非活动。
    - 遵循这些步骤将有助于保持整体翻译性能的良好状态。
+
      ![不活动的翻译项目](../assets/translation/translation-project-image1.png)
 
 - 对于标记为不活动的旧项目文件夹，应删除已批准和已审阅的文件夹
    - 执行以下步骤将有助于通过清除与此项目文件夹关联的临时翻译文件和用户组，保持整体翻译性能良好。
+
      ![删除翻译项目和文件夹](../assets/translation/translation-project-image2.png)
 
 

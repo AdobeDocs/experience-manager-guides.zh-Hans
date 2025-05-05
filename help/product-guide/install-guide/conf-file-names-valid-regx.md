@@ -47,4 +47,4 @@ ht-degree: 0%
 >
 > 与有效文件名字符列表类似，您还可以为AEM Site输出指定有效文件名字符列表。 有关详细信息，请参阅[为AEM站点输出配置有效文件名](conf-file-names-valid-regx-aem-site-output.md#)。
 
-**父主题：**[&#x200B;配置文件名](conf-file-names.md)
+**父主题：**&#x200B;[&#x200B;配置文件名](conf-file-names.md)

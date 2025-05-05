@@ -54,4 +54,4 @@ ht-degree: 1%
 
 使用此配置，添加到映射的每个引用文件默认情况下将包含`@navtitle`属性。
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)

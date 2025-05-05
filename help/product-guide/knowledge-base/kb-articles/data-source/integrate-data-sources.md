@@ -53,6 +53,7 @@ ht-degree: 0%
 1. **设置数据源连接器**
    - 数据源连接器用作与外部数据源建立连接的接口。 必须配置连接器以建立连接并包括身份验证方法，如`Basic Auth`或`API key Auth`。 所有配置详细信息（包括加密信息）都安全地存储在Adobe Experience Manager中。
    - 连接器层旨在实现可扩展性，允许您创建用于连接到Experience Manager Guides未提供现成可用的各种系统的实施。
+
      ![连接器层](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -98,8 +99,10 @@ ht-degree: 0%
         ```
 
       - 模板
+
         ![模板引擎](assets/data-source-TemplatingEngine.png){width="800" align="left"}
       - 从相同数据源但不同模板生成的数据
+
         ![已生成数据](assets/data-source-templates-topics.png){width="800" align="left"}
 
 1. **使用模板生成内容**

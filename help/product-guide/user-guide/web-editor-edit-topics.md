@@ -48,6 +48,7 @@ Experience Manager Guides还允许您跨元素选择内容。 选择内容后，
 
    - 选择元素中的内容。
    - 从顶部的工具栏中选择![添加](images/Add_icon.svg)图标以查看&#x200B;**插入元素**&#x200B;对话框。 该对话框列出了选定内容的有效元素。
+
      >[!NOTE]
      >
      > 您还可以通过选择所选内容的上下文菜单来查看“插入元素”对话框。
@@ -114,4 +115,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 您可以关闭此功能以通过&#x200B;**用户首选项**&#x200B;的&#x200B;**外观**&#x200B;选项卡中的&#x200B;**始终在存储库中查找文件**&#x200B;选项来查找文件。
 
 
-**父主题：**[&#x200B;使用编辑器](web-editor.md)
+**父主题：**&#x200B;[&#x200B;使用编辑器](web-editor.md)

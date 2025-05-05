@@ -65,6 +65,7 @@ AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处�
    - 在Mac/Linux操作系统上运行集成器\（以安装自定义插件\）以避免文件分隔符出现问题 — 由于Windows和Linux操作系统具有不同的文件分隔符，因此集成在Mac/Linux操作系统上的插件与Windows和Linux安装程序兼容。
    - 确保`DITA-OT.ZIP`文件包含一个名为“DITA-OT”的文件夹，其中包含所有相关的插件和文件。
    - 检查您创建的`DITA-OT.ZIP`文件是否为mimeType： &quot;nt：file&quot; \(这与上传到AEM时的ZIP文件的主要类型相对应\)。 使用WebDAV工具或代码部署将此ZIP文件上传到AEM中的所需路径。 \(请勿使用AEM包管理器部署此ZIP文件，因为此ZIP文件不是AEM内容包，而只是存档文件。\)
+
    >[!NOTE]
    >
    > 建议不要覆盖默认的DITA-OT包。 您应该将包含插件的自定义DITA-OT包上载到`apps`文件夹下的其他位置。

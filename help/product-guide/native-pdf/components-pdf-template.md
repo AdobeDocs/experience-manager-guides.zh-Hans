@@ -236,7 +236,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
   >如果您是CSS开发人员，则也可以直接在CSS文件中定义引线格式。
 
 * **使用表继续标记**：选择此选项可定义跨多个页面的长表的标记。
-您可以定义要在断点前后显示的文本。 例如，第5页上有表分隔，而您为**分隔前文本**&#x200B;定义`<Continued on page %page-num%>`。  文本在第5页的底部显示“第6页继续”。
+您可以定义要在断点前后显示的文本。 例如，第5页上有表分隔，而您为&#x200B;**分隔前文本**&#x200B;定义`<Continued on page %page-num%>`。  文本在第5页的底部显示“第6页继续”。
 
   使用语言变量定义断点前后连续标记文本。 根据您选择的语言，将在PDF输出中自动选取本地化的值。 例如，您可以将`Continued on page %page-num%`发布为英语文本，将`Fortsetzung auf Seite %page-num%`发布为德语文本。
 
@@ -323,7 +323,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
 
 
 .
-默认情况下始终启用**章节和主题**&#x200B;布局。 您无法切换它。
+默认情况下始终启用&#x200B;**章节和主题**&#x200B;布局。 您无法切换它。
 
 **合并页面**
 
@@ -459,11 +459,11 @@ AEM Guides提供了以下开箱即用的变量：
 将`${lng:<variable name>}`添加到“段落”部分时，输出段落中的交叉引用包含本地化文本和页码。\
 例如，以下屏幕截图以英语显示交叉引用“View on page 1”并以德语显示“Einzelheiten finden Sie auf der Seite 1”。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出" width ="800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出&quot; width =&quot;800" border="2px">
 
 *以英语发布时，段落中的交叉引用。*
 
-<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出" width ="800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出&quot; width =&quot;800" border="2px">
 
 
 *以德语发布的段落中的交叉引用。*

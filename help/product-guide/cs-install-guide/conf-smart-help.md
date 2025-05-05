@@ -29,11 +29,11 @@ ht-degree: 0%
 
 1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕显示了可用于开发应用程序的Adobe产品和技术的所有可用API、事件和服务。
 
-1. 选择&#x200B;**I/O管理API**以将其添加到您的项目中。
+1. 选择&#x200B;**I/O管理API**&#x200B;以将其添加到您的项目中。
    ![IO管理API](assets/confi-ss-io-management.png)
    *将I/O管理API添加到您的项目中。*
 
-1. 创建新的&#x200B;**OAuth凭据**并保存它。
+1. 创建新的&#x200B;**OAuth凭据**&#x200B;并保存它。
    配置API中的![OAuth凭据磁贴](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
    *为你的API配置OAuth凭据。*
 
@@ -105,5 +105,5 @@ ht-degree: 0%
 ```
 
 
-配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在Web编辑器的右侧面板中。 选择图标以查看&#x200B;**智能帮助**面板。
+配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在Web编辑器的右侧面板中。 选择图标以查看&#x200B;**智能帮助**&#x200B;面板。
 有关更多详细信息，请查看《Experience Manager用户指南》中的[AI支持的Smart Help以搜索内容](../user-guide/ai-based-smart-help.md)部分。

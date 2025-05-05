@@ -105,7 +105,7 @@ ht-degree: 0%
   >
   >在动态基线的情况下进行编辑操作允许您编辑基线的属性，因为动态基线的引用是在运行时使用标签生成的。
 
-  基线](images/baseline-options.png){width="500" align="left"}的![选项
+  基线![&#128279;](images/baseline-options.png){width="500" align="left"}的选项
 
 ### 可用于现有基线的操作
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 ![复制基线](images/baseline-duplicate.png){width="300" align="left"}
 *根据标签复制基线或创建精确副本。*
 
-1. 从基线的“选项”菜单中选择&#x200B;**复制**。 将打开&#x200B;**复制基线**对话框。
+1. 从基线的“选项”菜单中选择&#x200B;**复制**。 将打开&#x200B;**复制基线**&#x200B;对话框。
 >[!NOTE]
 >
 >基线的默认名称为`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根据自己的要求更改名称。
@@ -164,5 +164,5 @@ ht-degree: 0%
 
 编辑基线后，选择&#x200B;**保存**&#x200B;以将更改保存到基线。 如果不想保存更改并重置基线，则可以选择&#x200B;**重置**。 选择&#x200B;**重置**&#x200B;时，会显示一条警告，指出未保存的更改将丢失。
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
 

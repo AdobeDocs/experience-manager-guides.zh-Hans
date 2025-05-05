@@ -79,4 +79,4 @@ ht-degree: 0%
 1. 在Assets UI中导航回源语言文件夹中的DITA映射文件。 重新翻译的主题现在已同步。
 
 
-**父主题：**[&#x200B;翻译内容](translation.md)
+**父主题：**&#x200B;[&#x200B;翻译内容](translation.md)

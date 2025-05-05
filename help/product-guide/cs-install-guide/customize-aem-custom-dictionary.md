@@ -35,4 +35,4 @@ ht-degree: 1%
 
 作者需要重新启动Web编辑器会话才能在AEM词典中更新自定义词列表。
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
