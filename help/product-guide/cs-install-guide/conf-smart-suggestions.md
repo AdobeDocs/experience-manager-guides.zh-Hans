@@ -2,7 +2,7 @@
 title: 配置AI助手以进行智能帮助和创作
 description: 了解如何在Experience Manager Guides中配置AI助手
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 7b217cfd52dbf716b626e66373fffcc1b9eff695
+source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕可显示Adobe产品和技术的所有可用API、事件和服务，您可以使用这些产品和技术开发应用程序。
 
-1. 选择&#x200B;**I/O管理API**&#x200B;以将其添加到您的项目中。
+1. 选择&#x200B;**I/O管理API**以将其添加到您的项目中。
    ![IO管理API](assets/confi-ss-io-management.png)
    *将I/O管理API添加到您的项目中。*
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## 在环境中启用AI标记
 
-要在Experience Manager Guides UI上启用AI助手功能，请在环境中添加`ENABLES_GUIDES_AI`标志。
+要在Experience Manager Guides UI上启用AI助手功能，请在环境中添加`ENABLE_GUIDES_AI`标志。
 
 确保您使用的名称和配置与以下屏幕快照中给出的名称和配置相同。
 
