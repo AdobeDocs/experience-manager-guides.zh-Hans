@@ -38,11 +38,11 @@ ht-degree: 1%
 
 ## 相关资源
 
-- [新的主页体验](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [新的主页体验](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- AEM Guides中的[AI功能](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- AEM Guides中的[AI功能](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [配置AI助手](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [配置AI助手](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
