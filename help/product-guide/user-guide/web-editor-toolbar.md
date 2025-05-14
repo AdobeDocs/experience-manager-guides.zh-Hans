@@ -4,7 +4,7 @@ description: 了解编辑器中的工具栏。 了解Adobe Experience Manager Gu
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 系统管理员可以从&#x200B;**设置**&#x200B;中的“元数据”选项卡更改要显示的元数据。 有关详细信息，请参阅[选项卡栏](#tab-bar)的&#x200B;**更多操作**&#x200B;部分。
+   > 系统管理员可以从&#x200B;**设置**&#x200B;中的“元数据”选项卡更改要显示的元数据。 有关详细信息，请参阅[选项卡栏](./web-editor-tab-bar.md)的&#x200B;**更多操作**&#x200B;部分。
 
    您还可以查看当前版本和比较版本的用户和时间详细信息。
 
@@ -132,7 +132,7 @@ Experience Manager Guides允许您以自由格式文本格式指定标签或使�
 
    此时将显示“版本标签管理”对话框。
 
-   ![](images/version-label-management-dialog.png){width="650" align="left"}
+   ![](images/version-label-management-dialog.png){width="350" align="left"}
 
    “版本标签管理”对话框分为两部分 — 左侧面板包含可用于主题的版本列表以及标签下拉列表\（或用于输入标签的文本框），右侧面板包含主题的预览。
 
@@ -249,7 +249,7 @@ Experience Manager Guides提供了跟踪的更改功能，该功能包含在文�
 
 >[!NOTE]
 >
-> “预览”模式允许您查看文档，无论是否包含已更改内容的标记。 有关详细信息，请查看[预览](web-editor-views.md#preview-mode-id19AAGL00163)模式。
+> “预览”模式允许您查看文档，无论是否包含已更改内容的标记。 有关详细信息，请查看[预览](web-editor-views.md#preview-mode)模式。
 
 **标记**
 
@@ -377,7 +377,7 @@ Experience Manager Guides提供了跟踪的更改功能，该功能包含在文�
 
 >[!NOTE]
 >
-> 您也可以通过将图像从本地系统拖放到文章上来添加图像。 在本例中，使用&#x200B;**上传Assets**&#x200B;工作流添加图像文件。  有关更多详细信息，请在[左侧面板](#left-panel)部分中查看&#x200B;**上传Assets**&#x200B;工作流。
+> 您也可以通过将图像从本地系统拖放到文章上来添加图像。 在本例中，使用&#x200B;**上传Assets**&#x200B;工作流添加图像文件。  有关更多详细信息，请在[左侧面板](./web-editor-left-panel.md)部分中查看&#x200B;**上传Assets**&#x200B;工作流。
 
 
 ![](images/insert-image.png){width="300" align="left"}
@@ -621,4 +621,4 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 作为管理员，您还可以访问&#x200B;**强制解锁**&#x200B;功能，该功能允许您解锁其他用户锁定的文件。 使用此功能可以访问其他用户锁定的文件的编辑权限。
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

@@ -2,9 +2,10 @@
 title: 发行说明 | Adobe Experience Manager Guides 2025.04.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 2025.04.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: 2d0be1a3b3d4b625333e5b8c93e6b01f38e00b39
+exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
+source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '569'
 ht-degree: 2%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 有关此版本中修复的问题列表，请查看 [2025.04.0 版本中已修复的问题](fixed-issues-2025-04-0.md)。
 
-了解2025.04.0版本[&#128279;](../release-info/upgrade-instructions-2025-04-0.md)的升级说明。
+了解2025.04.0版本](../release-info/upgrade-instructions-2025-04-0.md)的[升级说明。
 
 ## 为引用链接添加了“格式”属性
 
@@ -51,6 +52,6 @@ Experience Manager Guides在可重用内容面板中引入了增强的搜索体�
 有关更多详细信息，请查看[可重复使用的内容](../user-guide/web-editor-features.md#reusable-content)。
 
 
-## 微服务容器的DITA OT版本更新
+## 微服务容器的Java版本升级
 
 对于启用了微服务的云环境，我们将过渡到使用Java 21，确保现有DITA-OT和本机PDF生成流程不受影响。 现有的DITA-OT 3工作流将继续与Java 21无缝配合使用。  此外，DITA-OT 4将完全可操作，允许用户使用DITA-OT和本机PDF生成PDF，以及生成本机AEM站点和其他格式的输出。
