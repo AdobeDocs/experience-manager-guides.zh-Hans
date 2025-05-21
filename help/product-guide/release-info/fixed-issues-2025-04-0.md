@@ -1,9 +1,10 @@
 ---
 title: 发行说明 | 修复了Adobe Experience Manager Guides 2025.04.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2025.04.0版本中的错误修复。
-source-git-commit: 9a943a26a22b64035b61c72c47268a0de2c23b7f
+exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
+source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '771'
 ht-degree: 3%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 3%
 
 有关新功能和增强功能的更多信息，请查看 [2025.04.0 版本中的新增功能](whats-new-2025-04-0.md)。
 
-了解2025.04.0版本[&#128279;](upgrade-instructions-2025-04-0.md)的升级说明。
+了解2025.04.0版本](upgrade-instructions-2025-04-0.md)的[升级说明。
 
 ## 创作
 
@@ -60,12 +61,10 @@ Adobe发现了2025.04.0版本的以下已知问题：
 - 将新内容粘贴到`codeblock`元素中的新行时，会自动插入空行。(27842)
 - 在使用相同基线的预设之间切换时，将停用当前预设的&#x200B;**保存**&#x200B;按钮。 (28025)
 - DITA映射中的主题在其子映射中同时用作`keydef`和`topicref`时，无法在AEM Sites输出中发布。 (22269)
-- 在AEM Sites输出中，如果在发布时未应用基线，则图像中断。 (28043)
 - 编辑映射的多个主题，然后使用&#x200B;**全部关闭**&#x200B;选项关闭并启用&#x200B;**关闭时询问保存版本**&#x200B;设置时，出现应用程序错误。(27931)
 
+Adobe已识别以下已知问题并提供了解决方法：
 
-
-
-
-
-
++++在AEM Sites输出中，如果在发布时未应用基线，则图像将中断。 (28043)
+***解决方法：***&#x200B;您可以从&#x200B;**Assets UI**发布此类资源，链接将在发布后正常运行。
++++

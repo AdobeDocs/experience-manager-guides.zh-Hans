@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides 2024年版路线图
 description: 获取有关Adobe Experience Manager Guides内部部署和Adobe Experience Manager Guides as a Cloud Service的实时版本和即将发行的版本的信息
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 6ec7f5142de71b270caaccd5a26b8723efa42a00
+source-git-commit: 1a3e9734119db9fe6a2657cc0c18aae9da3bbcdf
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '407'
 ht-degree: 30%
 
 ---
@@ -27,7 +27,8 @@ Experience Manager Guides as a Cloud Service的发行计划如下：
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 修复的问题 | 状态 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.06.0 | 自动更新 | 2025 年 6 月 02-04 日 |  |  |  | 目标 |
+| Adobe Experience Manager Guides 2025.06.0 | 自动更新 | 2025 年 6 月 02-04 日 |  |  |  | Target |
+| Adobe Experience Manager Guides 2025.07.0 | 自动更新 | 2025 年 7 月 15-17 日 |  |  |  | Target |
 
 ### 实时版本
 
@@ -54,7 +55,8 @@ Experience Manager Guides as a Cloud Service的发行计划如下：
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 状态 |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.1.0 | 发行版本 | ~ 2025年8月 |  |  | 目标 |
+| Adobe Experience Manager Guides 5.0.0 | Service Pack 1 | 2025年6月4日 |  |  | Target |
+| Adobe Experience Manager Guides 5.1.0 | 发行版本 | ~ 2025年8月 |  |  | Target |
 
 ### 实时版本
 
