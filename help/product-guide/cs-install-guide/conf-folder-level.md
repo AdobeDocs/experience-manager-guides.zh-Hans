@@ -456,7 +456,7 @@ Adobe Experience Manager Guides中的AI助手是一款功能强大的、由AI驱
 
 对于![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service。
 
-您可以配置AI支持的智能&#x200B;**帮助**，以帮助作者提出问题并轻松地从[Experience Manager Guides文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中找到所需内容。
+您可以配置AI支持的智能&#x200B;**帮助**，以帮助作者提出问题并轻松地从[Experience Manager Guides文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/overview)中找到所需内容。
 
 “**XML编辑器配置**”选项卡允许您配置&#x200B;**帮助**&#x200B;面板的默认问题。
 
@@ -508,7 +508,7 @@ Adobe Experience Manager Guides中的AI助手是一款功能强大的、由AI驱
 
 通过此设置，可创建反映`ui_config.json`文件中所做修改的JSON扩展名。 您可以在文件夹配置文件级别独立上传这些扩展，从而提高灵活性和进行自定义。 例如，当您对&#x200B;**XML编辑器配置**&#x200B;进行更改（如更新按钮）时，系统会自动识别差异。 通过将这些更改上载到&#x200B;**XML编辑器UI配置**，并使用&#x200B;**将UI配置转换为JSON**&#x200B;按钮将它们转换为JSON扩展，系统生成了一个包含新功能的扩展。
 
-了解有关[自定义新AEM Guides编辑器的JSON配置和转换UI配置的更多信息](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
+了解有关[自定义新AEM Guides编辑器的JSON配置和转换UI配置的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
 
 >[!NOTE]
 >
