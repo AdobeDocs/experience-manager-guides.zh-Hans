@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 7%
+source-wordcount: '2122'
+ht-degree: 8%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 7%
       - Cloud Service {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2025版 {#2025-releases}
+            - 2025.06.0发行版 {#2506-release}
+               - [新增功能](./release-info/whats-new-2025-06-0.md)
+               - [修复的问题](./release-info/fixed-issues-2025-06-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2025-06-0.md)
             - 2025.04.0发行版 {#2504-release}
                - [新增功能](./release-info/whats-new-2025-04-0.md)
                - [修复的问题](./release-info/fixed-issues-2025-04-0.md)
@@ -129,8 +133,8 @@ ht-degree: 7%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -173,6 +177,7 @@ ht-degree: 7%
          - [创建映射](./user-guide/map-editor-create-map.md)
          - [根据自定义模板创建映射](./user-guide/create-maps-customized-templates.md)
          - [映射编辑器功能](./user-guide/map-editor-advanced-map-editor.md)
+         - [下载文件](./user-guide/authoring-download-assets.md)
          - [地图编辑器中的其他功能](./user-guide/map-editor-other-features.md)
       - DITAVAL编辑器 {#ditaval-editor}
          - [使用DITAVAL编辑器](./user-guide/ditaval-editor.md)
@@ -275,9 +280,11 @@ ht-degree: 7%
          - [关键概念、角色和权限以及先决条件](./user-guide/authoring.md)
          - [上载文件](./user-guide/authoring-upload-existing-files.md)
          - [管理文件和文件夹](./user-guide/authoring-file-management.md)
-         - [下载文件](./user-guide/authoring-download-assets.md)
+         - [处理或重新处理资产](./user-guide/asset-processor.md)
+      - 疑难解答 {#troubleshooting}
+         - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)

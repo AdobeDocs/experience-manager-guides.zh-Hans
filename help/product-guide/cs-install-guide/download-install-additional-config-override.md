@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
+source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 在2025.4.0版本发布之前，用于在新旧用户界面之间切换的此配置选项将可用。 之后，新UI将成为默认UI，并且不再支持切换回上一个UI的选项。
+> 在2025.4.0版本之前，支持使用此配置选项在新旧用户界面之间切换。 在2025.6.0版本中，此设置已弃用，并且无法再用于还原到旧UI。
 
 执行以下步骤来配置Experience Manager Guides UI：
 
@@ -65,4 +65,4 @@ ht-degree: 0%
 
 
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)

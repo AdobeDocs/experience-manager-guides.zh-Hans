@@ -4,14 +4,14 @@ description: 在映射编辑器中了解一些常见功能。 了解如何在映
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: 41c6e4edb470038c4934c01f1c28539f1e4d4f86
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
-# 映射编辑器中的其他功能 {#id1942D0T0HUI}
+# 地图编辑器中的其他功能 {#id1942D0T0HUI}
 
 映射编辑器中的一些常见功能包括：
 
@@ -41,4 +41,35 @@ DITA内容键引用，或`conkeyref`是一种将部分内容从一个主题插�
 
 **主题编辑视图** — 在编辑DITA主题时选择“键解析”图标，然后选择要用于解析键引用的DITA文件。
 
-**父主题：**&#x200B;[&#x200B;映射编辑器简介](map-editor.md)
+## 添加导航引用
+
+`navref`元素在DITA映射中使用以包含来自其他DITA映射的导航引用。 这允许作者重复使用导航结构，如共享菜单或链接，而无需将引用的映射的实际内容合并到输出中。
+
+>[!NOTE]
+>
+> `navref`元素仅用于映射结构中的导航目的。 它不参与生成的DITA映射输出，并且被排除在映射视图、报表、基线、翻译和预览中的处理和显示之外。
+
+要将导航引用添加到映射，请执行以下步骤：
+
+1. 打开要添加导航引用的DITA映射文件。
+
+   将在映射编辑器中打开映射文件。
+1. 切换到“创作”视图，并将光标置于导航引用的有效位置。
+1. 从工具栏中选择&#x200B;**元素**&#x200B;选项。
+1. 在&#x200B;**插入元素**&#x200B;对话框中，选择&#x200B;**navref**。
+
+   ![](./images/select-navref-element.png)
+1. 显示&#x200B;**选择路径**&#x200B;对话框。 选择要作为地图导航引用的地图文件，然后选择&#x200B;**选择**。
+
+所选映射文件的导航引用被添加到指定位置。 此外，引用的地图的标题会同时显示在创作视图和布局视图中。
+
+![](./images/navref-added-author-view.png)
+
+*作者视图*
+
+![](./images/navref-added-layout-view.png)
+
+*布局视图*
+
+
+**父主题：**[&#x200B;映射编辑器简介](map-editor.md)

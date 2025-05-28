@@ -2,9 +2,9 @@
 title: 配置AI助手以进行智能帮助和创作
 description: 了解如何在Experience Manager Guides中配置AI助手
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,10 @@ ht-degree: 0%
 1. [在Adobe Developer Console中创建IMS配置](#create-ims-configurations-in-adobe-developer-console)。
 2. [将IMS配置添加到环境](#add-ims-configuration-to-the-environment)
 3. [在环境中启用AI标记](#enable-ai-flag-in-the-environment)
-4. [将更改应用到环境](#apply-changes-to-the-environment)
-5. [在文件夹配置文件中启用AI助手](#enable-ai-assistant-in-folder-profile)
-6. [在文件夹配置文件中配置智能建议](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
+4. [在环境中添加GUIDES_AI_SITE_ID变量](#add-the-guides_ai_site_id-variable-in-the-environment)
+5. [将更改应用到环境](#apply-changes-to-the-environment)
+6. [在文件夹配置文件中启用AI助手](#enable-ai-assistant-in-folder-profile)
+7. [在文件夹配置文件中配置智能建议](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## 在Adobe Developer Console中创建IMS配置
 
@@ -38,7 +39,7 @@ ht-degree: 0%
 
 1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕可显示Adobe产品和技术的所有可用API、事件和服务，您可以使用这些产品和技术开发应用程序。
 
-1. 选择&#x200B;**I/O管理API**&#x200B;以将其添加到您的项目中。
+1. 选择&#x200B;**I/O管理API**以将其添加到您的项目中。
    ![IO管理API](assets/confi-ss-io-management.png)
    *将I/O管理API添加到您的项目中。*
 
@@ -92,6 +93,14 @@ ht-degree: 0%
 
 将该标志设置为&#x200B;**true**&#x200B;可启用该功能，将其设置为&#x200B;**false**&#x200B;可禁用该功能。
 
+## 在环境中添加GUIDES_AI_SITE_ID变量
+
+在环境(Cloud Manager)中添加`GUIDES_AI_SITE_ID`变量并将值设置为`id_f651abc807c84f52b425737bb93f87ba`以启用它。
+
+确保您使用的名称和配置与以下屏幕快照中给出的名称和配置相同。
+
+![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+
 ## 将更改应用到环境
 
 添加IMS配置并向环境启用AI Assistant标记后，执行以下步骤以使用OSGi将这些资产与AEM Guides链接：
@@ -143,8 +152,8 @@ ht-degree: 0%
   "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
   "instance.type":"prod",
-  "chat.url":"https://aem-guides-ai.adobe.io"
-}
+  "chat.url":"https://aem-guides-ai-v2.adobe.io"
+  }
 ```
 
 ## AI助手配置详细信息
@@ -154,7 +163,7 @@ ht-degree: 0%
 | conref.inline.threshold | 控制为用户当前键入的标记获取的建议精确度/回调度的阈值。 | 从–1.0到1.0的任何值。 | 0.6 |
 | conref.block.threshold | 控制在整个文件中为标记获取的建议精确度/回调度的阈值。 | 从–1.0到1.0的任何值。 | 0.7 |
 | emerald.url | 智能建议矢量数据库的端点 | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| chat.url | AI助手服务的端点 | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) |
+| chat.url | AI助手服务的端点 | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | AEM实例的类型。 请确保对于已配置智能建议的每个AEM实例而言，此变量都是唯一的。 用例是在暂存环境中使用“instance.type”=“stage”测试该功能，与此同时，该功能也在“prod”上配置。 | 标识环境的任意唯一键。 仅允许&#x200B;*个字母数字*&#x200B;值。 “dev”/“stage”/“prod”/“test1”/“stage2” | &quot;prod&quot; |
 
 配置完毕后，AI助手图标将显示在Experience Manager Guides的主页和编辑器中。 有关更多详细信息，请查看《Experience Manager用户指南》中的[AI助手](../user-guide/ai-assistant.md)部分。

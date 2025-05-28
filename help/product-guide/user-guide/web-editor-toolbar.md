@@ -4,7 +4,7 @@ description: 了解编辑器中的工具栏。 了解Adobe Experience Manager Gu
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -380,7 +380,7 @@ Experience Manager Guides提供了跟踪的更改功能，该功能包含在文�
 > 您也可以通过将图像从本地系统拖放到文章上来添加图像。 在本例中，使用&#x200B;**上传Assets**&#x200B;工作流添加图像文件。  有关更多详细信息，请在[左侧面板](./web-editor-left-panel.md)部分中查看&#x200B;**上传Assets**&#x200B;工作流。
 
 
-![](images/insert-image.png){width="300" align="left"}
+![](images/insert-image-new-dialog.png){width="300" align="left"}
 
 可以在“插入图像”对话框中为图像添加图像/图形标题和替换文本。
 
@@ -621,4 +621,4 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 作为管理员，您还可以访问&#x200B;**强制解锁**&#x200B;功能，该功能允许您解锁其他用户锁定的文件。 使用此功能可以访问其他用户锁定的文件的编辑权限。
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

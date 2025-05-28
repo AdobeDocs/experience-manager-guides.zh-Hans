@@ -4,9 +4,9 @@ description: 了解Experience Manager Guides如何与AEM及其他DITA编辑器�
 exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 feature: Introduction
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 288375d153ff805af05a60eb9c58ae1af4dd8744
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -17,5 +17,7 @@ ht-degree: 0%
 
 ![](images/xml-add-on-how-it-works.png){align="center"}
 
+在处理任何工作流时，如果会话长时间保持不活动状态，则会触发会话超时提示以防止内容丢失。 有关详细信息，请查看[会话超时](./session-timeout-prompt.md)。
 
-**父主题：**&#x200B;[&#x200B;关于Adobe Experience Manager Guides as a Cloud Service](intro.md)
+
+**父主题：**[&#x200B;关于Adobe Experience Manager Guides as a Cloud Service](intro.md)

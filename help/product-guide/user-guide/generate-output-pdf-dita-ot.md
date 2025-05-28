@@ -3,9 +3,10 @@ title: 使用DITA-OT生成PDF
 description: 了解如何从映射控制台和映射仪表板中使用DITA-OT创建PDF预设。 在AEM Guides中配置PDF输出预设。
 feature: Publishing
 role: User
-source-git-commit: b970df013a24ca256d7cbd07308367b1207e9163
+exl-id: 6ac82dad-34af-4f9e-8b52-4e4f2eb982a4
+source-git-commit: 9ae2690c52ab5408a9d17e9a40a89fe1f902042f
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -97,8 +98,8 @@ ht-degree: 0%
 | 条件筛选/应用条件，使用 | 选择以下选项之一：<br><br>* **未应用任何项**：如果不想对已发布的输出应用任何条件，请选择此选项。<br>* **DITAVal文件**：选择DITAVal文件以生成个性化内容。 可使用浏览对话框或键入文件路径来选择多个DITAVal文件。 使用文件名旁边的交叉图标可将其删除。 DITAVal文件将按指定的顺序进行计算，因此第一个文件中指定的条件优先于后续文件中指定的匹配条件。 您可以通过添加或删除文件来维护文件顺序。 如果将DITAVal文件移动到其他位置或将其删除，则不会从映射操控板中自动将其删除。 如果移动或删除了文件，则需要更新位置。 您可以将鼠标悬停在文件名上以查看存储该文件的AEM存储库中的路径。 您只能选择DITAVal文件，如果已选择任何其他文件类型，则会显示错误。 FrameMaker Publishing Server不支持多个DITAVAL文件。<br>* **条件预设**：从下拉列表中选择条件预设，以在发布输出时应用条件。 如果您在DITA映射控制台的条件预设选项卡中添加了条件，则该选项可见。 要了解有关条件预设的更多信息，请查看[使用条件预设](generate-output-use-condition-presets.md#id1825FL004PN)。 |
 | 运行后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在AEM中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。<br><br>**注意**：有关创建自定义输出后生成工作流的详细信息，请在安装和配置Adobe Experience Manager Guides as a Cloud Service中查看自定义输出后生成工作流程。 |
 | 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br>查看[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以了解更多详细信息。 |
-| 保留临时文件 | 选择此选项可保留由DITA-OT生成的临时文件。 如果在通过DITA-OT生成输出时遇到错误，请选择此选项以保留临时文件。 然后，您可以使用这些文件来排查输出生成错误。<br> <br>生成输出后，选择&#x200B;**下载临时文件** ![下载临时文件图标](images/download-temp-files-icon.png)图标以下载包含临时文件的ZIP文件夹。<br><br> **注意**：如果在生成期间添加文件属性，则输出临时文件还包括包含这些属性的&#x200B;*metadata.xml*&#x200B;文件。 |
+| 保留临时文件 | 选择此选项可保留由DITA-OT生成的临时文件。 如果在通过DITA-OT生成输出时遇到错误，请选择此选项以保留临时文件。 然后，您可以使用这些文件来排查输出生成错误。<br> <br>生成输出后，选择&#x200B;**下载临时文件** ![下载临时文件图标](images/download-temp-files-icon.png)图标以下载包含临时文件的ZIP文件夹。 下载的文件还将包括`system_config.json`文件，该文件为您提供了有关作者URL、本地URL和发布URL的信息。<br><br> **注意**：如果在生成期间添加文件属性，则输出临时文件还包括包含这些属性的&#x200B;*metadata.xml*&#x200B;文件。 |
 | 文件属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性显示在&#x200B;**文件属性**&#x200B;字段下。 选择资产旁边的交叉图标以将其删除。 <br><br>注意：您还可以使用DITA-OT发布将元数据传递到输出。 有关更多详细信息视图，[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)将元数据传递到输出。 |
 
 
-**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)
