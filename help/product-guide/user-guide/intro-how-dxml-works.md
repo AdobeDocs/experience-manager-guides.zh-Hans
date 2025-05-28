@@ -20,4 +20,4 @@ ht-degree: 0%
 在处理任何工作流时，如果会话长时间保持不活动状态，则会触发会话超时提示以防止内容丢失。 有关详细信息，请查看[会话超时](./session-timeout-prompt.md)。
 
 
-**父主题：**[&#x200B;关于Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**父主题：**&#x200B;[&#x200B;关于Adobe Experience Manager Guides as a Cloud Service](intro.md)
