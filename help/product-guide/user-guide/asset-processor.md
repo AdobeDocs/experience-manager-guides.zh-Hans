@@ -4,7 +4,8 @@ description: 了解如何处理资源
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,7 +28,7 @@ ht-degree: 0%
 1. 在&#x200B;**工具**&#x200B;面板中选择&#x200B;**指南**。
 1. 选择&#x200B;**资产处理器**&#x200B;磁贴。
 
-   ![flow-asset-processor](images/flow-asset-processor.png){width="550" align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
 
 1. 将打开“Guides Asset Processor（指南资产处理器）”窗口，详细信息如下所示。 此外，此窗口中仅显示与最近五次迁移有关的信息。
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
    - **状态**：指向重新处理的状态，即“进行中”、“已完成”或“已取消”。
 
-   ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor.png){align="left"}
 
 1. 选择窗口右上角的&#x200B;**新建进程**&#x200B;选项卡以启动新的处理任务。
 
@@ -66,20 +67,16 @@ ht-degree: 0%
 
 - **重新启动** ：重新启动之前成功的资源处理任务。
 
-  ![重新启动asset-processor](images/restart-asset-processor.png){width="550" align="left"}
+  ![重新启动asset-processor](images/restart-asset-processor.png){align="left"}
 
 - **继续** ：继续先前取消或失败的资产处理任务。
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="550" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){align="left"}
 
 - **取消** ：取消当前正在处理的资源处理任务。
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="550" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
 
 - **查看日志**：显示资源处理任务的日志。 对于正在进行的任务，日志会显示详细的处理信息，包括预计剩余时间和资源状态。 此日志列表最多可显示500个最新条目。 可以下载完整日志。
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![logs-asset-processor](images/logs-asset-processor.png){align="left"}

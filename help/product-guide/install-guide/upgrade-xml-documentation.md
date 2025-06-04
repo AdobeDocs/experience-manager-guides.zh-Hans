@@ -1,13 +1,13 @@
 ---
-title: 升级 Adobe Experience Manager 指南
-description: 了解如何升级 Adobe Experience Manager 指南
+title: 升级Adobe Experience Manager Guides
+description: 了解如何升级Adobe Experience Manager Guides
 exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: f43d8d01a9c3b29328641680f3ba7d96ce7ecd79
+source-git-commit: 579be351210f8a32d9cb66950b935bfad039f51b
 workflow-type: tm+mt
-source-wordcount: '8023'
+source-wordcount: '8041'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 >
 > 按照特定于您的产品的许可版本的升级说明进行操作。
 
-您可以将当前版本的Experience Manager Guides升级到版本5.0.0：
+您可以将当前版本的Experience Manager Guides升级到版本5.0.0 Service Pack 1：
 
 
-- 如果您使用的是版本 4.6.x、4.6 或 4.4，则可以直接升级到版本 5.0.0。
-- 如果您使用的是版本 4.3.x、4.2、4.2.1（修补程序 4.2.1.3）、4.1 或 4.1.x，则需要先升级到版本 4.4，然后再升级到版本 5.0.0。
-- 如果您使用的是版本 4.0，则需要先升级到版本 4.2，然后再升级到版本 4.3.x。
-- 如果您使用的是版本 3.8.5，则需要先升级到版本 4.0，然后再升级到版本 4.2。
-- 如果您使用的是 3.8.5 之前的版本，请参阅 Adobe Experience Manager Guides 帮助 PDF 存档[&#128279;](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)中提供的特定产品安装指南中的“升级体验管理器指南”部分。
+- 如果您使用的是版本5.0.0、4.6.x、4.6或4.4，则可以直接升级到版本5.0.0 Service Pack 1。
+- 如果您使用的是版本4.3.x、4.2、4.2.1（修补程序4.2.1.3）、4.1或4.1.x，则需要在升级到版本5.0.0之前升级到版本4.4。
+- 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
+- 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
 
 
 >[!NOTE]
@@ -35,9 +35,9 @@ ht-degree: 0%
 有关更多详细信息，请参阅以下过程：
 
 - [从3.8.5升级到版本4.0](#upgrade-from-version-385-to-version-40)
-- [升级到版本 4.2](#upgrade-to-version-42)
-- [升级到版本 4.2.1](#upgrade-to-version-421)
-- [升级到版本 4.3.0](#upgrade-to-version-430)
+- [升级到版本4.2](#upgrade-to-version-42)
+- [升级到版本4.2.1](#upgrade-to-version-421)
+- [升级到版本4.3.0](#upgrade-to-version-430)
 - [升级到版本4.3.1](#upgrade-to-version-431)
 - [升级到版本4.3.1.5](#upgrade-to-version-4315)
 - [升级到版本4.4.0](#upgrade-to-version-440)
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅[Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的&#x200B;*升级Adobe Experience Manager Guides*&#x200B;部分。
+> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅[Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的&#x200B;*升级Adobe Experience Manager Guides*&#x200B;部分。
 
 
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides升级过程之前，请确保您已：
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 | 终点 | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | 请求类型 | **GET**&#x200B;您可以使用Web浏览器，在该浏览器中，您以管理员身份登录到AEM实例。 |
-| 预期响应 | - 如果所有必需的节点都可以移动，您将获得通过的检查。 <br>- 如果目标位置存在节点，您将收到相关错误。 清理存储库\（删除节点 /var/dxml\） 并重新安装升级包，然后再次触发此端点。 <br>**注意：**&#x200B;这不是常见的错误，因为3.x Experience Manager Guides之前未使用目标位置。 <br> -   如果此脚本不成功，请不要继续，并报告给您的客户成功团队。 |
+| 预期响应 | -   如果可以移动所有需要的节点，您将获得一个通过检查。 <br>-   如果目标位置中存在节点，您将收到相关错误。 清理存储库\（删除节点/var/dxml\）并重新安装升级包，然后再次触发此端点。 <br>**注意：**&#x200B;这不是常见的错误，因为3.x Experience Manager Guides之前未使用目标位置。 <br> -   如果此脚本不成功，请不要继续，并报告给您的客户成功团队。 |
 
 **系统数据迁移API**
 
@@ -101,21 +101,22 @@ ht-degree: 0%
 | 请求类型 | **POST**&#x200B;此脚本是POST请求，因此应通过Postman等代理执行。 |
 | 预期响应 | -   成功迁移后，您可以安装XML Documentation解决方案版本4.0.<br>-   如果出现错误，请还原到最后一个检查点，并与您的客户成功团队共享错误日志以及API输出。 |
 
-**迁移映射**：上述 API 将源位置下的所有数据迁移到目标位置。
+**迁移映射**：上述API将源位置下的所有数据迁移到目标位置。
 
-| 源 | 目标 |
+| 源 | Target |
 |------|------|
 | /content/fmdita | /var/dxml |
 | /content/dxml | /var/dxml |
 | /etc/fmdita | /libs/fmdita |
 
-## 安装 4.0 版 {#id23598G006XA}
+## 安装版本4.0 {#id23598G006XA}
 
 1. 仅当升级步骤成功时，才安装版本4.0。
 1. 从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载4.0版本包：
 
    - 如果您使用的是UUID版本的软件，请搜索“适用于AEM 6.5的XML Documentation解决方案的4.0 UUID版本”。
-   - 如果您使用的是非 UUID 版本的软件，请搜索“用于 AEM 6.5 的 XML 文档的 4.0 非 UUID 版本解决方案”。使用CRX包管理器将包上传到现有的AEM服务器实例\（s\）并安装它。
+   - 如果您使用的是非UUID版本的软件，请搜索“适用于AEM 6.5的XML Documentation解决方案的4.0非UUID版本”。
+使用AEM包管理器将包上传到现有CRX服务器实例并进行安装。
 
    >[!NOTE]
    >
@@ -134,7 +135,7 @@ ht-degree: 0%
 
 如果您使用的是版本4.0、4.1或4.1.x，则可以直接升级到版本4.2。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.2升级过程之前，请确保您具有：
 
@@ -177,7 +178,7 @@ ht-degree: 0%
 >
 > 可以自定义dam-update-asset模型。 因此，如果已完成任何自定义设置，那么我们需要将自定义设置和Experience Manager Guides同步到模型的工作副本中。
 
-1. **DAM 更新资产工作流 \（后处理更改\）：**
+1. **DAM更新资产工作流\（后处理更改\）：**
 
 1. 打开URL：
 
@@ -191,7 +192,7 @@ ht-degree: 0%
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
 
 1. 单击&#x200B;**插入组件** \(作为流程的最后一步负责Experience Manager Guides后处理\)。
-1. 使用以下详细信息配置&#x200B;**处理步骤**：
+1. 使用以下详细信息配置&#x200B;**流程步骤**：
 
    **常用选项卡**
 
@@ -201,9 +202,9 @@ ht-degree: 0%
 
    **进程选项卡**
 
-   - 从“进程&#x200B;**”下拉列表中选择“DXML 后处理启动程序**”**&#x200B;**
+   - 从&#x200B;**进程**&#x200B;下拉列表中选择&#x200B;**DXML后处理启动器**
 
-   - 选择 **处理程序高级**
+   - 选择&#x200B;**处理程序前进**
 
    - 选择&#x200B;**完成**
 
@@ -213,15 +214,15 @@ ht-degree: 0%
    >
    > 刷新并验证最终工作流模型中是否存在自定义更改和Experience Manager Guides后处理步骤。
 
-1. 验证 DAM 更新资产工作流&#x200B;**后**，请检查相应的启动器配置。为此，请转到AEM工作流界面并打开启动器。
+1. 验证&#x200B;**DAM更新资产工作流**&#x200B;后，检查相应的启动器配置。 为此，请转到AEM工作流界面并打开启动器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   查找并更改与DAM更新资产工作流&#x200B;**对应的**&#x200B;以下两个启动器\（如有必要）：
+   查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 用于 DAM 更新资产工作流的“*已创建*&#x200B;节点”的启动器 - 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应&#x200B;**为：**
+1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -310,11 +311,11 @@ ht-degree: 0%
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****先决条件****
 
-在开始 Experience Manager 指南 4.2.1 升级过程之前，请确保您已：
+在开始Experience Manager Guides 4.2.1升级过程之前，请确保您具有：
 
-1. 已升级到 Experience Manager Guides 版本 4.1、4.1.x 或 4.2。
+1. 已升级到Experience Manager Guides版本4.1、4.1.x或4.2。
 1. 已关闭所有翻译任务。
 1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**信息**，并将这些日志附加到新日志文件中，例如`logs/translation_upgrade.log.`
 
@@ -337,8 +338,8 @@ ht-degree: 0%
 
    如果您遇到以下任何错误前缀，请将其报告给您的客户成功团队：
 
-   - 部署后安装脚本中出错
-   - 移植转换 MAP 时出现异常
+   - 部署后设置脚本出错
+   - 移植翻译映射时出现异常
    - 无法为属性将翻译映射从v1端口转换为v2
 1. 升级随版本4.2一起发布的氧气连接器插件\（如果需要\）。
 1. 安装包后清除浏览器缓存。
@@ -458,8 +459,8 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    - 应审查产品中使用的任何clientlib类别是否有更改。 任何覆盖的配置\（见以下示例\）应与最新的配置进行比较，以获取最新的功能：
    - elementmapping.xml
    - ui\_config.json\（可能已在文件夹配置文件中设置\）
-   - 修订 `com.adobe.fmdita.config.ConfigManager`
-   - 检查是否有任何自定义代码使用了任何旧路径 \（如迁移 [映射](#id2244LE040XA) 部分所述\） - 应更新到新路径，以便自定义项也按预期工作。
+   - 已修改`com.adobe.fmdita.config.ConfigManager`
+   - 检查是否有任何自定义代码使用任何旧路径\（如[迁移映射](#id2244LE040XA)部分中所述\） — 应更新为新路径，以便自定义项也能按预期工作。
 1. 阅读当前版本中引入的任何新配置\（查看[发行说明](../release-info/release-notes-4-2-1.md)\），了解是否有任何功能受到影响，然后采取适当措施。 例如，可以使用4.0版中引入的“改进的文件和版本处理”，您需要启用该版本的配置。
 
 ## 为现有内容编制索引以使用新的查找和替换的步骤：
@@ -487,7 +488,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.3.0升级过程之前，请确保您具有：
 
@@ -545,7 +546,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.3.1升级过程之前，请确保您具有：
 
@@ -786,7 +787,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.4.0升级过程之前，请确保您具有：
 
@@ -926,15 +927,15 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **POST**&#x200B;此脚本是POST请求，因此应通过Postman等代理执行。 |
-   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，您可以向同一端点发送一个带有作业ID的GET请求。<br> 示例网址： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，您可以向同一端点发送一个带有作业ID的GET请求。<br>示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
-   | 请求类型 | **获取** |
+   | 请求类型 | **GET** |
    | 参数 | jobId：传递从上一个post请求收到的jobId。 |
-   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。 <br> - 如果出现错误，请与客户成功团队共享错误日志以及 API 输出。  <br>示例网址： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。 <br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
-1. 如果已在步骤 1 中更改了默认值，请恢复为默认值 `queryLimitReads` 或先前的现有值。
+1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
 
 ### 通过Servlet启用脚本触发器
 
@@ -979,7 +980,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 在此升级过程中，由于`'order'`值从1000更改为50，因此您需要将现有的自定义重写器（如果有）与`'fmdita-rewriter'`合并。
 
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)
 
 
 ## 升级到版本4.6.0
@@ -994,7 +995,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.6.0升级过程之前，请确保您具有：
 
@@ -1029,9 +1030,9 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 >[!NOTE]
 >
-> 可以自定义dam-update-asset模型。 因此，如果完成了任何自定义，则需要将自定义设置和Experience Manager Guides同步到模型的工作副本中。
+> 可以自定义dam-update-asset模型。 因此，如果已完成任何自定义设置，那么我们需要将自定义设置和Experience Manager Guides同步到模型的工作副本中。
 
-1. **DAM更新资源工作流\（后处理更改\）：**
+1. **DAM更新资产工作流\（后处理更改\）：**
 
 1. 打开URL：
 
@@ -1040,8 +1041,8 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
    ```
 
 1. 选择&#x200B;**DAM更新资产工作流**。
-1. 单击“编辑&#x200B;**”。**
-1. **如果存在 DXML 后处理启动器**&#x200B;组件，请确保自定义项已同步。
+1. 单击&#x200B;**编辑**。
+1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件存在，请确保已同步自定义项。
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
 
 1. 单击&#x200B;**插入组件** \(作为流程的最后一步负责Experience Manager Guides后处理\)。
@@ -1049,11 +1050,11 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
    **常用选项卡**
 
-   **标题：** DXML 后处理启动器
+   **标题：** DXML后处理发起程序
 
-   **描述**：DXML 后处理启动器步骤，该步骤将触发对修改/创建的资源进行 DXML 后处理的吊索作业
+   **描述**： DXML后处理发起程序步骤，它将触发用于已修改/创建的资产的DXML后处理的Sling作业
 
-   **“进程”选项卡**
+   **进程选项卡**
 
    - 从&#x200B;**进程**&#x200B;下拉列表中选择&#x200B;**DXML后处理启动器**
 
@@ -1065,15 +1066,15 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
    >[!NOTE]
    >
-   > 刷新并验证最终工作流模型中是否存在自定义更改和 Experience Manager 指南后处理步骤。
+   > 刷新并验证最终工作流模型中是否存在自定义更改和Experience Manager Guides后处理步骤。
 
-1. 验证 DAM 更新资产工作流&#x200B;**后**，请检查相应的启动器配置。为此，请转到AEM工作流界面并打开启动器。
+1. 验证&#x200B;**DAM更新资产工作流**&#x200B;后，检查相应的启动器配置。 为此，请转到AEM工作流界面并打开启动器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   查找并更改与DAM更新资产工作流&#x200B;**对应的**&#x200B;以下两个启动器\（如有必要）：
+   查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
 1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
@@ -1143,26 +1144,26 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 >[!TIP]
 >
-> 升级到版本5.0.0取决于Experience Manager Guides的当前版本。 如果您使用的是版本4.6.3、4.6.1、4.6.0或4.4，则可以直接升级到版本5.0.0。
+> 升级到5.0.0版Service Pack 1取决于当前版本的Experience Manager Guides。 如果您使用的是版本5.0.0、4.6.4、4.6.3、4.6.1、4.6.0或4.4，则可以直接升级到版本5.0.0 Service Pack 1。
 
 >[!NOTE]
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 5.0.0升级过程之前，请确保您具有：
 
 1. 已升级到Experience Manager Guides版本4.6.3、4.6.1、4.6.0或4.4，并完成了各自的安装步骤。
 1. （可选）已关闭所有翻译任务。
-1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 
 ## 安装版本5.0.0
 
 1. 从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载5.0.0版本包。
-1. 安装 5.0.0 版软件包。
-1. 您可以选择点击触发器以启动翻译地图升级作业。 有关详细信息，请参阅 [通过 Servlet](#enable-trigger-of-script-via-a-servlet) 启用脚本触发器。
+1. 安装版本5.0.0包。
+1. 您可以选择点击触发器以启动翻译图升级作业。 有关详细信息，请参阅[通过Servlet启用脚本触发器](#enable-trigger-of-script-via-a-servlet)。
 
 1. 完成软件包安装后，请等待日志中显示以下消息：
 
@@ -1172,10 +1173,10 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
    如果您遇到以下任何错误前缀，请将其报告给您的客户成功团队：
 
-   - 部署后安装脚本中出错
-   - 移植转换 MAP 时出现异常
-   - 无法将属性的转换映射从 v1 移植到 v2
-1. 升级 Oxygen 连接器插件随版本 5.0.0 发布\（如果需要）。
+   - 部署后设置脚本出错
+   - 移植翻译映射时出现异常
+   - 无法为属性将翻译映射从v1端口转换为v2
+1. 升级随版本5.0.0一起发布的氧气连接器插件\（如果需要\）。
 1. 安装包后清除浏览器缓存。
 
 ## 安装版本5.0.0之后
@@ -1184,17 +1185,17 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 >[!NOTE]
 >
-> 可以自定义dam-update-asset模型。 因此，如果已完成任何自定义，则需要将自定义项和 Experience Manager 指南同步到模型的工作副本中。
+> 可以自定义dam-update-asset模型。 因此，如果已完成任何自定义设置，那么我们需要将自定义设置和Experience Manager Guides同步到模型的工作副本中。
 
-1. **DAM 更新资产工作流 \（后处理更改\）：**
+1. **DAM更新资产工作流\（后处理更改\）：**
 
-1. 打开网址：
+1. 打开URL：
 
    ```
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
    ```
 
-1. 选择DAM **更新资产工作流**。
+1. 选择&#x200B;**DAM更新资产工作流**。
 1. 单击&#x200B;**编辑**。
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件存在，请确保已同步自定义项。
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
@@ -1254,9 +1255,9 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 1. 如果您在damAssetLucene中添加了任何自定义项，则可能需要再次应用它们。 完成这些更改后，将reindex设置为true。 这将使用自定义项重新索引所有现有节点。 完成后，重新索引标志将再次设置为false。 这可能需要几个小时，具体取决于系统中的资源数量。
 
-## 为 Experience Manager Guides 索引重新编制索引的步骤
+## 重新索引Experience Manager Guides索引的步骤
 
-1. 打开 `crx/de` 并导航到索引路径：  `/oak:index/guidesAssetProperties`
+1. 打开`crx/de`并导航到索引路径： `/oak:index/guidesAssetProperties`
 2. 将重新索引属性设置为`true` （默认为`false`），然后单击&#x200B;**全部保存**。
 3. 重新索引完成后，重新索引属性再次设置为`false`，并且重新索引计数以1为单位递增。
 
@@ -1271,16 +1272,16 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 执行以下步骤来索引现有内容：
 
-- 对服务器\（使用正确的身份验证\）运行POST请求 — `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径以进行索引，默认情况下，所有映射都将进行索引 || 示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- 该API将返回jobId。 若要检查作业的状态，可以将作业ID为`http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）的GET请求发送到同一端点
+- 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
 - 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
 
 >[!NOTE]
 >
-> 如果使用自定义架构，则必须在“集成目录&#x200B;**”选项中**&#x200B;定义 AEM 存储库中自定义 DTD 和 XSD catalog.xml文件的路径。
+> 如果使用自定义架构，则必须在&#x200B;**集成目录**&#x200B;选项中定义AEM存储库中自定义DTD和XSD catalog.xml文件的路径。
 
 
 
@@ -1295,13 +1296,13 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 
 
-## 对 damAssetLucene 重新编制索引的步骤
+## 重新索引damAssetLucene的步骤
 
-使用指南更新了damAssetLucene的索引定义。 有关在升级到 5.0.0 版本后对 damAssetLucene 重新编制索引的文章，请参阅 [此文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-16460) 。
+带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.0.0版本后如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
-> 在遵循文档的同时，请确保通过保存作同时更新两个属性（reindex=true 和 reindex-async=true 表示 /oak：index/damAssetLucene）。
+> 在遵循该文档的同时，确保通过保存操作同时更新两个属性（对于/oak：index/damAssetLucene，reindex=true和reindex-async=true）。
 
 
 **父主题：** [下载并安装](download-install.md)
