@@ -2,9 +2,9 @@
 title: 发行说明 | 修复了Adobe Experience Manager Guides 2025.06.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2025.06.0版本中的错误修复。
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
+source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 有关新功能和增强功能的更多信息，请查看 [2025.06.0 版本中的新增功能](whats-new-2025-06-0.md)。
 
-了解2025.06.0版本[&#128279;](upgrade-instructions-2025-06-0.md)的升级说明。
+了解2025.06.0版本](upgrade-instructions-2025-06-0.md)的[升级说明。
 
 ## 创作
 
@@ -50,6 +50,6 @@ Adobe发现了2025.06.0版本的以下已知问题：
 
 - 在启用Unified Shell的情况下打开DITA映射时，编辑器会间歇性地刷新。 (指南 — 26919)
 
-- 在文件夹配置文件中，当从UI中删除已编制索引的资源时，不会删除相应的编制索引路径，并且重新编制索引的尝试会失败，并出现错误消息。 (GUIDES-29147) <br>**解决方法：**&#x200B;在启动重新索引之前，必须删除不再存在的过时路径。
+- 对于文件夹配置文件下的AI配置，当从UI中删除已编制索引的资源时，不会删除相应的编制索引路径，并且重新编制索引的尝试会失败，并出现错误消息。 (GUIDES-29147) <br>**解决方法：**&#x200B;在启动重新索引之前，必须删除不再存在的过时路径。
 
-- 如果映射包含循环依赖关系，并且您打开了映射预览，则在刷新页面之前，Source、创作和布局视图将无法访问。 (GUIDES-28334) <br>**解决方法：**&#x200B;必须刷新页面才能恢复对这些视图的访问。
+- 如果映射包含循环依赖关系，并且您打开了映射预览，则在刷新浏览器之前，将无法访问Source、创作和布局视图。 (GUIDES-28334) <br>**解决方法：**&#x200B;必须刷新浏览器才能恢复对这些视图的访问。
