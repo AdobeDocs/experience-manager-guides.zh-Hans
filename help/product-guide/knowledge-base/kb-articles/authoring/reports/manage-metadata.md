@@ -57,8 +57,8 @@ ht-degree: 1%
 
 ## 其他有用资源
 
-- [使用映射仪表板(Assets UI)批量标记](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- 在Web编辑器中[个Ditamap报告](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [使用映射仪表板(Assets UI)批量标记](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=zh-Hans)
+- 在Web编辑器中[个Ditamap报告](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=zh-Hans)
 - 在AEM中标记[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=zh-Hans)
 
 
