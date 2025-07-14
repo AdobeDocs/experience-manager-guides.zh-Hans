@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 0cbeef94aa1c2300feae33ad3bc53bef82ebec47
+source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 8%
+source-wordcount: '2277'
+ht-degree: 7%
 
 ---
 
@@ -140,8 +140,8 @@ ht-degree: 8%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -282,6 +282,47 @@ ht-degree: 8%
       - [AI助手创作以智能地创作文档](./user-guide/ai-assistant-right-panel.md)
       - [用于创作内容的AI支持的智能建议](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [常见问题解答](./user-guide/ai-assistant-faq.md)
+   - 管理学习内容 {#learning-training-content}
+      - 快速入门指南 {#get-started}
+         - 简介 {#intro-lc}
+            - [学习与培训内容概述](./learning-content/intro.md)
+            - [访问学习和培训内容界面](./learning-content/access-lc-interface.md)
+         - 设置您的课程 {#setup-course}
+            - [课程概述](./learning-content/course-overview.md)
+            - [创建您的第一个课程](./learning-content/create-first-course.md)
+            - [了解课程经理基础知识](./learning-content/course-manager-basics.md)
+            - [管理您的课程](./learning-content/manage-course.md)
+         - 创建和自定义学习内容 {#customize-lc}
+            - [学习内容概述](./learning-content/lc-overview.md)
+            - [创建学习内容](./learning-content/create-content.md)
+            - [编辑学习内容](./learning-content/edit-content.md)
+            - [添加基本构建基块](./learning-content/lc-basic-blocks.md)
+            - [使用交互式小组件](./learning-content/lc-widgets.md)
+            - [使用内联样式](./learning-content/lc-inline-styles.md)
+         - 创建和管理测验 {#quiz}
+            - [测试概述](./learning-content/quiz-overview.md)
+            - [创建测验](./learning-content/create-quiz.md)
+            - [编辑测验](./learning-content/edit-quiz.md)
+            - [在测验中插入问题](./learning-content/quiz-insert-questions.md)
+            - 题库 {#question-bank}
+               - [创建问题银行](./learning-content/create-qb.md)
+               - [插入来自问题库的问题](./learning-content/insert-questions.md)
+            - [测验属性](./learning-content/quiz-properties.md)
+         - 发布您的课程 {#publish-course}
+            - [关于课程发布](./learning-content/publish-overview.md)
+            - [支持的预设](./learning-content/course-presets.md)
+            - 以SCORM格式发布课程 {#scorm-output}
+               - [创建SCORM输出预设](./learning-content/create-scorm-preset.md)
+               - [配置SCORM输出预设](./learning-content/config-scorm-preset.md)
+               - [生成SCORM输出](./learning-content/generate-scorm-output.md)
+            - 以PDF格式发布课程 {#pdf-output}
+               - [创建PDF输出预设](./learning-content/create-course-pdf-preset.md)
+               - [配置PDF输出预设](./learning-content/config-course-pdf-preset.md)
+               - [生成 PDF](./learning-content/generate-course-pdf.md)
+      - 配置指南 {#config-lc}
+         - [关于本指南](./lc-config-guide/introduction.md)
+         - [配置文件夹配置文件](./lc-config-guide/lc-folder-profile.md)
+         - [配置其他设置](./lc-config-guide/lc-other-settings.md)
    - 附录 {#appendix}
       - 管理内容 {#manage-content}
          - [关键概念、角色和权限以及先决条件](./user-guide/authoring.md)
@@ -291,7 +332,7 @@ ht-degree: 8%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
@@ -462,7 +503,6 @@ ht-degree: 8%
       - 使用AEM Assets搜索 {#aem-asset-search-cs}
          - [配置AEM Assets UI搜索](./cs-install-guide/conf-dita-search.md)
       - [附录](./cs-install-guide/appendix.md)
-
 - API 引用 {#api-reference}
    - [简介](./api-reference/introduction.md)
    - [用于输出管理的REST API](./api-reference/output-management.md)
