@@ -3,7 +3,8 @@ title: 管理学习和培训内容中的课程
 description: 了解Experience Manager Guides中的各种功能，利用这些功能，您可以有效管理课程。
 feature: Authoring
 role: User
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -36,24 +37,24 @@ ht-degree: 0%
 
 1. 选择&#x200B;**选项**&#x200B;菜单> **添加现有**。
 2. 选择要创建的课程内容类型。
-3. 在选择路径对话框中，导航到内容位置并选择所需的学习内容。
+3. 在&#x200B;**选择路径**&#x200B;对话框中，导航到内容位置并选择所需的学习内容。
 
    ![](assets/add-existing-learning-content.png)
 4. 选择&#x200B;**选择**。
 
-选定的学习内容即从存储库添加到课程中。
+所选课程内容即从存储库添加到课程。
 
 ## 删除内容
 
 您可以通过选择该特定主题的&#x200B;**选项**&#x200B;菜单，然后选择&#x200B;**删除**，从课程中删除任何主题，如下所示。
 
-![](assets/remove-learning-content.png){width="350" align="left"}
+![](assets/remove-learning-content.png)
 
 ## 创建课程版本
 
 您可以通过选择&#x200B;**选项**&#x200B;菜单> **版本控制**&#x200B;来控制课程的版本控制。
 
-![](assets/course-versioning.png){width="650" align="left"}
+![](assets/course-versioning.png)
 
 您将获得以下课程版本控制选项：
 
@@ -70,7 +71,3 @@ ht-degree: 0%
 > 这些视图设置仅在“课程管理器”中适用，对已发布的输出没有影响。
 
 ![](assets/course-display-settings.png)
-
-
-
-

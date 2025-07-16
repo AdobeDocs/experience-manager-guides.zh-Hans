@@ -3,7 +3,8 @@ title: 创建PDF预设
 description: 在学习与培训内容中创建PDF预设
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 1%
@@ -18,7 +19,7 @@ ht-degree: 1%
 
    ![](assets/open-in-map-console.png){width="350" align="left"}
 
-1. 在&#x200B;**输出预设**&#x200B;选项卡中，选择+图标以创建输出预设。
+1. 在&#x200B;**输出预设**&#x200B;面板中，选择+图标以创建输出预设。
 1. 从“新建输出预设”对话框的&#x200B;**类型**&#x200B;下拉列表中选择&#x200B;**PDF**。
 1. 在&#x200B;**名称**&#x200B;字段中，提供此预设的名称。
 1. 在&#x200B;**使用**&#x200B;生成PDF字段中，选择&#x200B;**本机PDF**。
@@ -28,5 +29,3 @@ ht-degree: 1%
 将打开PDF预设页面，您可以在其中进行必要的配置。
 
 ![](assets/learning-pdf-preset.png){width="650" align="left"}
-
-

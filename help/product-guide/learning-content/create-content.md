@@ -3,7 +3,8 @@ title: 创建学习内容
 description: 介绍如何在学习和培训内容中创建学习内容。
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: a08a165d-801b-4b35-9626-b27471349327
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -19,7 +20,7 @@ ht-degree: 2%
    ![](assets/workflow-learning-content.png){width="650" align="left"}
 
 1. 选择&#x200B;**学习内容**。
-此时会显示新建学习内容对话框。
+显示**新学习内容**&#x200B;对话框。
 
    ![](assets/learning-content-dialog.png){width="350" align="left"}
 
@@ -35,4 +36,3 @@ ht-degree: 2%
 >[!NOTE]
 >
 > 创建新学习内容后，系统会自动为其分配版本1.0。
-
