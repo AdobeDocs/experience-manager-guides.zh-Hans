@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: cc57af80f2556a9be9a7cc610ae0efa50e0e086b
+source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2282'
 ht-degree: 7%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 7%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -285,10 +285,10 @@ ht-degree: 7%
    - 管理学习内容 {#learning-training-content}
       - 快速入门指南 {#get-started}
          - 简介 {#intro-lc}
-            - [学习与培训内容概述](./learning-content/intro.md)
-            - [访问学习和培训内容界面](./learning-content/access-lc-interface.md)
+            - [学习和培训内容概述](./learning-content/intro.md)
          - 设置您的课程 {#setup-course}
             - [课程概述](./learning-content/course-overview.md)
+            - [探索界面和先决条件](./learning-content/access-lc-interface-preq.md)
             - [创建您的第一个课程](./learning-content/create-first-course.md)
             - [了解课程经理基础知识](./learning-content/course-manager-basics.md)
             - [管理您的课程](./learning-content/manage-course.md)
@@ -335,7 +335,7 @@ ht-degree: 7%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
