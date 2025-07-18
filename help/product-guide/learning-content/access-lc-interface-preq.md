@@ -3,7 +3,7 @@ title: 探索界面和先决条件
 description: 探索在Adobe Experience Manager Guides中处理学习和培训内容时的界面和先决条件。
 feature: Authoring
 role: User
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    有关详细信息，请查看[Adobe Experience Manager Guides主页体验](../user-guide/intro-home-page.md)。
 
-   ![](assets/aem-navigation-switcher.png){width="300" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
 ## 先决条件
 
