@@ -1,9 +1,10 @@
 ---
 title: 发行说明 | 修复了Adobe Experience Manager Guides 2025.07.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2025.07.0版本中的错误修复。
-source-git-commit: bf8b295444a1e21fc19bfbc04efaa20fe78f71bb
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
+source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '527'
 ht-degree: 4%
 
 ---
@@ -50,6 +51,6 @@ ht-degree: 4%
 Adobe发现了2025.07.0版本的以下已知问题：
 
 - 使用Markdown主题时，“编辑器”工具栏中会显示&#x200B;**主题引用**&#x200B;按钮，但该按钮无法正常工作。 (指南 — 31038)
-- 使用Adobe Experience Manager桌面应用程序上载大写文件夹时，不会保留大小写，并且名称在编辑器中以小写形式显示。 (指南 — 30909)
+- 在编辑器中，文件夹节点名称无法正确代替文件夹标题显示。 (指南 — 30909)
 - 在&#x200B;**合并**&#x200B;对话框中，下拉列表错误地显示&#x200B;**主内容**，而不是显示所选主题的可用版本。 (指南 — 30820)
 - 在启用Unified Shell的情况下打开DITA映射时，编辑器会间歇性地刷新。(指南 — 26919)
