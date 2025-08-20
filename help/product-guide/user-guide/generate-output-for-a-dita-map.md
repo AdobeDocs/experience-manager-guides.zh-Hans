@@ -78,4 +78,4 @@ DITA映射可以包含不同的主题类型，例如引用、概念和任务。 
 
 
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
