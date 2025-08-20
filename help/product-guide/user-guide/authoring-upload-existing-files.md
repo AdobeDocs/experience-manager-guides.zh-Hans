@@ -17,21 +17,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 查看[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)，以详细了解Adobe Experience Manager中支持的内容上传方法。
+> 查看[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans)，以详细了解Adobe Experience Manager中支持的内容上传方法。
 
 ## Assets Console用户界面
 
-要使用Adobe Experience Manager as a Cloud Service Console用户界面[将数字资源添加到Assets Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling#upload-assets)，请在桌面上选择所需的资源，然后在Adobe Experience Manager用户界面\（Web浏览器\）上拖动到目标文件夹。 上传资产时，请确保文件名不包含任何不支持或禁止使用的字符。
+要使用Adobe Experience Manager as a Cloud Service Console用户界面[将数字资源添加到Assets Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#filename-handling?lang=zh-Hans#upload-assets)，请在桌面上选择所需的资源，然后在Adobe Experience Manager用户界面\（Web浏览器\）上拖动到目标文件夹。 上传资产时，请确保文件名不包含任何不支持或禁止使用的字符。
 
-有关更多详细信息，请查看Adobe Experience Manager文档中的[文件名处理和禁止使用的字符](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling)部分。
+有关更多详细信息，请查看Adobe Experience Manager文档中的[文件名处理和禁止使用的字符](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#filename-handling)部分。
 
 ## Adobe Experience Manager 桌面应用程序
 
-如果您是创意专业人士并想要在本地桌面上管理资源，请使用Adobe Experience Manager桌面应用程序。 您可以使用桌面应用程序打开和编辑这些资源。 您还可以维护版本并与其他用户共享您的文件。 有关更多详细信息，请查看[Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)。
+如果您是创意专业人士并想要在本地桌面上管理资源，请使用Adobe Experience Manager桌面应用程序。 您可以使用桌面应用程序打开和编辑这些资源。 您还可以维护版本并与其他用户共享您的文件。 有关更多详细信息，请查看[Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=zh-Hans)。
 
 ## 资源批量提取器
 
-如果您进行了大规模迁移并偶尔进行了批量摄取，请使用资产批量摄取器上传您的内容。 使用此工具，您可以从受支持的数据存储（如Azure或S3）上载批量内容。 有关更多详细信息，请查看[资产批量引入器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)。
+如果您进行了大规模迁移并偶尔进行了批量摄取，请使用资产批量摄取器上传您的内容。 使用此工具，您可以从受支持的数据存储（如Azure或S3）上载批量内容。 有关更多详细信息，请查看[资产批量引入器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#asset-bulk-ingestor)。
 
 ## 使用FrameMaker进行批量上传
 
