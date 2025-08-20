@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中管理文件和文件夹。 复制和�
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 0%
 - *如果目标文件夹中不存在同名文件*：已创建文件的新副本，并在新位置为其分配了新的UUID。 此处，文件名与UUID相同。
 - *如果目标文件夹中已存在同名文件*：创建了文件的新副本，并且还为其分配了新的UUID。 文件名与UUID相同。
 
-
 ## 复制并粘贴文件夹
 
 **在同一位置复制并粘贴文件夹**
@@ -43,6 +42,16 @@ ht-degree: 0%
 - *该文件夹的文件具有人类可读的文件名*：创建了该文件夹的新副本，并且还为该文件夹中位于新位置的所有文件分配了新的UUID。 此处，文件夹或文件名没有变化。
 
 - *该文件夹的文件名基于UUID模式*：创建了该文件夹的新副本，其名称与原始文件夹相同。 新的UUID也会分配给新文件夹中的所有文件。 文件名也会更改；文件名与新的UUID相同。
+
+**成功消息和通知**
+
+Assets UI中文件夹的复制粘贴操作在后台异步运行，允许您在系统处理请求时继续工作。 此时会显示一个弹出消息，指示进程已启动。
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+操作完成后，将触发成功或失败通知，以指示操作是成功还是失败。
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## 拖放文件
@@ -317,4 +326,4 @@ Experience Manager Guides附带了批量移动工具，可帮助管理员将包�
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**父主题：**&#x200B;[&#x200B;管理内容](authoring.md)
+**父主题：**[&#x200B;管理内容](authoring.md)

@@ -4,9 +4,9 @@ description: 从AEM Guides的审核仪表板管理审核任务。 了解任务�
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 0%
    此时将显示一个带有任务拼贴的“项目”面板。
 
    ![](images/review-management.png){align="left"}
+
+   >[!NOTE]
+   >
+   > 或者，您也可以从编辑器的左侧面板直接访问项目仪表板。 打开[审阅面板](./web-editor-left-panel.md#review)并使用针对审阅面板中列出的每个审阅项目放置的&#x200B;**打开项目仪表板**&#x200B;图标。
 
 1. 选择&#x200B;**审核**&#x200B;拼贴中的三个点。
 
@@ -126,4 +130,4 @@ ht-degree: 0%
 - 在所有主题上发表的评论总数。 若有多个正在审查的主题，则每个主题的评论数都以\（在方括号中\）的形式与主题名称相对应。
 - 查看者上次访问任何主题的日期。
 
-**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)
+**父主题：**[&#x200B;要审阅的简介](review.md)

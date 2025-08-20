@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
 workflow-type: tm+mt
-source-wordcount: '2282'
-ht-degree: 7%
+source-wordcount: '2323'
+ht-degree: 8%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 7%
       - Cloud Service {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2025版 {#2025-releases}
+            - 2025.08.0发行版 {#2508-release}
+               - [新增功能](./release-info/whats-new-2025-08-0.md)
+               - [修复的问题](./release-info/fixed-issues-2025-08-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2025-08-0.md)
             - 2025.07.0发行版 {#2507-release}
                - [新增功能](./release-info/whats-new-2025-07-0.md)
                - [修复的问题](./release-info/fixed-issues-2025-07-0.md)
@@ -140,8 +144,8 @@ ht-degree: 7%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -194,11 +198,14 @@ ht-degree: 7%
       - [评论简介](./user-guide/review.md)
       - [创建DITA项目](./user-guide/authoring-create-dita-project.md)
       - [发送主题以供审阅](./user-guide/review-send-topics-for-review.md)
-      - [使用通知重新分配审核任务](./user-guide/reassign-review-using-notification.md)
       - [查看主题](./user-guide/review-topics.md)
+      - [使用通知重新分配审核任务](./user-guide/reassign-review-using-notification.md)
+      - [以审阅者身份完成审阅任务](./user-guide/review-complete-review-tasks.md)
       - [地址审核注释](./user-guide/review-address-review-comments.md)
+      - [关闭或请求重新审核审核任务](./user-guide/review-close-review-task.md)
       - [使用审阅功能板管理审阅任务](./user-guide/review-manage-tasks-review-dashboard.md)
       - [查看已完成的审核任务](./user-guide/review-view-completed-task.md)
+      - [了解审阅通知](./user-guide/review-understanding-review-notifications.md)
    - 使用Adobe Workfront进行协作 {#workfront-integration}
       - [Workfront与Experience Manager Guides集成](./user-guide/workfront-integration.md)
    - 元数据和标记 {#manage-metadata}
@@ -335,7 +342,7 @@ ht-degree: 7%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
@@ -344,7 +351,7 @@ ht-degree: 7%
          - [技术要求](./install-guide/download-install-technical-requirements.md)
          - [安装Adobe Experience Manager](./install-guide/download-install-aem.md)
          - [首次下载并安装AEM Guides](./install-guide/download-install-aemg-first-time.md)
-         - [配置Dispatcher](./install-guide/download-install-configure-dispatcher.md)
+         - [配置 Dispatcher](./install-guide/download-install-configure-dispatcher.md)
          - [验证AEM Guides安装](./install-guide/download-install-verify-aemg-installation.md)
          - [升级AEM Guides](./install-guide/upgrade-xml-documentation.md)
          - [卸载AEM Guides](./install-guide/download-install-unistall-aemg.md)
@@ -421,6 +428,7 @@ ht-degree: 7%
                - [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
                - [将样式应用于脚注](./native-pdf/footnote-number-style.md)
          - [为本机PDF发布配置JVM标记](./native-pdf/configure-jvm-flags.md)
+         - [配置用于发布输出的基本输出位置](./native-pdf/configure-base-output-location.md)
          - 使用自定义工作流 {#custom-workflow}
          - [配置和自定义工作流](./install-guide/customize-workflows.md)
       - 使用翻译配置 {#translate-config}
@@ -433,7 +441,7 @@ ht-degree: 7%
       - 部署和配置AEM Guides as Cloud Service {#deploy-conf-aemg-cs}
          - [下载并安装](./cs-install-guide/download-install.md)
          - [部署AEM Guides模块](./cs-install-guide/download-install-dxml-first-time.md)
-         - [配置Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
+         - [配置 Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
          - [验证AEM Guides安装](./cs-install-guide/download-install-verify-dxml-installation.md)
          - [升级AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
          - [配置覆盖](./cs-install-guide/download-install-additional-config-override.md)
@@ -499,6 +507,7 @@ ht-degree: 7%
          - [为本机PDF发布配置节点进程](./native-pdf/configure-node-options.md)
          - [创建主题和内容片段之间的映射](./cs-install-guide/conf-content-fragment-mapping-cs.md)
          - [创建主题和体验片段之间的映射](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
+         - [配置用于发布输出的基本输出位置](./native-pdf/configure-base-location-cs.md)
       - 使用自定义工作流 {#custom-workflow-cs}
          - [配置和自定义工作流](./cs-install-guide/customize-workflows.md)
       - 使用翻译配置 {#translate-config-cs}

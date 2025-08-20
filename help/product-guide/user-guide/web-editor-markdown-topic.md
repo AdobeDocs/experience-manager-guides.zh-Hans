@@ -4,10 +4,10 @@ description: 从编辑器中创作Markdown文档。 了解如何在AEM Guides中
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 2%
+source-wordcount: '1197'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Markdown是一种轻量级的标记语言，可帮助您将格式元素添加到
 执行以下步骤，从编辑器创建Markdown主题：
 
 1. 在“存储库”面板中，选择![](images/Add_icon.svg)，然后从下拉列表中选择&#x200B;**主题**。
-1. 在&#x200B;**新建主题**&#x200B;对话框中，提供以下详细信息：
+2. 在&#x200B;**新建主题**&#x200B;对话框中，提供以下详细信息：
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -29,10 +29,10 @@ Markdown是一种轻量级的标记语言，可帮助您将格式元素添加到
    * **模板**：从下拉列表中选择&#x200B;**Markdown**。 默认情况下选择模板&#x200B;**主题**。
    * **路径**：浏览要保存主题文件的路径。 默认情况下，存储库中当前选定文件夹的路径将显示在路径字段中。
 
-   >
+   >[!NOTE]
    >
    > 如果升级，您需要将Markdown模板添加到当前使用的文件夹配置文件中。 您可以[从编辑器](./web-editor-features.md#templates)中创建新的Markdown模板，或者使用现有的Markdown模板进行创作。 有关如何在Experience Manager Guides中添加创作模板的详细信息，请查看[配置全局或文件夹级别的配置文件](../cs-install-guide/conf-folder-level.md)。
-1. 选择&#x200B;**创建**。
+3. 选择&#x200B;**创建**。
 
    Markdown主题将在选定的路径中创建，并会打开以进行编辑。
 
@@ -158,7 +158,7 @@ Features available in the tab bar are explained as follows:
 * **用于**： Used in references列出引用或使用当前文件的文档。
 * **传出链接**：传出链接列出当前文档中引用的文档。
 
->
+>[!NOTE]
 >
 > 所有“用于中”和“出站”链接引用均使用超链接链接到文档。 您可以轻松打开和编辑链接的文档。
 
@@ -166,16 +166,13 @@ Features available in the tab bar are explained as follows:
 
 以下Experience Manager Guides功能当前不适用于Markdown创作：
 
-1. 审查
+1. 审阅
 2. 合并
 3. AI 助手
 4. 跟踪更改
-5. 查找并替换
-6. 搜索和筛选
-
->[!NOTE]
->
-> **查找和替换**&#x200B;功能不处理存储库级别的Markdown文件。 这包括搜索映射或文件夹中的Markdown文件。 但是，它仍可以在Markdown编辑器中使用。 此外，存储库视图中的&#x200B;**搜索**&#x200B;和&#x200B;**筛选器**&#x200B;选项不处理Markdown文件。
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+
+
+
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

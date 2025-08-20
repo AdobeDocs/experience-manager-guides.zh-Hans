@@ -4,9 +4,9 @@ description: 使用复合组件映射和旧版组件映射，在映射控制台�
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 8f2658bd3a724ff375d6d1a9b4474a5cdd8ce270
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '3534'
+source-wordcount: '3592'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 | AEM Sites选项 | 描述 |
 | --- | --- |
 | 使用站点路径 | 使用此选项可将您的内容发布到Experience Manager站点。 |
-| 站点路径 | **如果您选择**&#x200B;使用站点路径&#x200B;**选项**，则会显示此选项。 浏览预定义的Experience Manager站点路径，或指定要发布输出的自定义路径。 通过&#x200B;**使用站点选项**，可以指定整个发布路径，即使尚未在AEM Sites结构中预先创建指定的路径也是如此。 在这种情况下，系统在发布过程中使用选定的映射主页模板创建必要的结构。 |
+| 站点路径 | **如果您选择**&#x200B;使用站点路径&#x200B;**选项**，则会显示此选项。 浏览预定义的Experience Manager站点路径，或指定要发布输出的自定义路径。 通过&#x200B;**使用站点选项**，可以指定整个发布路径，即使尚未在AEM Sites结构中预先创建指定的路径也是如此。 在这种情况下，系统在发布过程中使用选定的映射主页模板创建必要的结构。<br><br>您还可以在设置网站路径时使用变量。 有关详细信息，请查看[使用变量设置目标路径、站点名称或文件名选项](./generate-output-use-variables.md) |
 | 映射页面模板 | **如果您选择**&#x200B;使用站点路径&#x200B;**选项**，则会显示此选项。 选择要应用于映射主页的模板。 |
 | 站点 | 要将内容发布到的Experience Manager Sites的名称。 下拉列表中的选项会根据AEM Sites中可用的站点列表进行填充。 <br>选择&#x200B;**刷新** ![刷新图标](images/navtitle-refresh-icon.svg)以获取新选项列表并反映更新的数据。 |
 | 发布路径 | AEM存储库中存储输出的路径。 发布路径中填充了所有路径，这些路径包含根据主页模板创建的页面。 DITA映射的AEM Sites输出在此路径下生成。  例如，如果您将站点指定为`AEMG-Docs`，将发布路径指定为`aemg-docs-en/docs/product-abc.`，则将在`aemg-docs-en/docs/product-abc/`中的`crx/de`节点下生成AEM Sites输出。 |
@@ -161,8 +161,8 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 | AEM Sites选项 | 描述 |
 | --- | --- |
-| Site 名称 | 将输出存储在AEM存储库中的网站名称。<br><br>AEM存储库中的节点将使用此处指定的名称创建。 如果未指定站点名称，则使用DITA映射文件名创建站点节点。<br><br>您在此指定的网站名称也用作浏览器选项卡中的标题。<br><br>您还可以在设置网站名称时使用变量。 |
-| 输出路径 | AEM存储库中存储输出的路径。 在生成最终输出时，站点名称和输出路径将组合在一起。 例如，如果您将站点名称指定为`user-guide`，将输出路径指定为`/content/output/aem-guides`，则最终输出将在`/content/output/aem-guides/user-guide`节点下生成。<br><br>您还可以在设置输出路径时使用变量。 |
+| Site 名称 | 将输出存储在AEM存储库中的网站名称。<br><br>AEM存储库中的节点将使用此处指定的名称创建。 如果未指定站点名称，则使用DITA映射文件名创建站点节点。<br><br>您在此指定的网站名称也用作浏览器选项卡中的标题。<br><br>您还可以在设置网站名称时使用变量。 有关详细信息，请查看[使用变量设置目标路径、站点名称或文件名选项](./generate-output-use-variables.md) |
+| 输出路径 | AEM存储库中存储输出的路径。 在生成最终输出时，站点名称和输出路径将组合在一起。 例如，如果您将站点名称指定为`user-guide`，将输出路径指定为`/content/output/aem-guides`，则最终输出将在`/content/output/aem-guides/user-guide`节点下生成。<br><br>您还可以在设置输出路径时使用变量。 有关详细信息，请查看[使用变量设置目标路径、站点名称或文件名选项](./generate-output-use-variables.md) |
 | 现有输出页面 | 选择&#x200B;**覆盖内容**&#x200B;选项可覆盖现有页面中的内容。 此选项仅覆盖页面内容和标题节点下存在的内容。 此选项允许混合发布内容。 选择此选项将提供一个选项，用于从已发布的输出中选择删除孤立页面。 这也是用于创建AEM Sites输出的&#x200B;*默认*&#x200B;选项。<br><br>选择&#x200B;**删除并创建**&#x200B;选项以在发布期间强制删除任何现有页面。 此选项会删除页面节点及其内容和其下的所有子页面。 如果您已更改输出预设的设计模板，或者希望删除目标中已存在的任何额外页面，请使用此选项。 |
 | 为从映射中删除的主题删除以前生成的页面 | 如果DTIA映射的结构发生更改，可以使用此选项为已删除的主题删除先前生成的页面。 此功能仅适用于完全映射发布。<br><br>假设您已发布一个DITA映射，其中包含主题a.dita、b.dita和c.dita。 再次发布映射之前，您已从映射中删除了b.dita主题。 现在，如果您选择了此选项，则与b.dita相关的所有内容都将从AEM Sites输出中删除，并且仅发布a.dita和c.dita。<br><br>**注意**：输出生成日志中还捕获了有关已删除页面的信息。 有关访问日志文件的详细信息，请[查看并检查日志文件](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS)。 <br><br>**警告**：删除主题时，已发布站点中的页面将不可用。 因此，在删除主题之前，会出现警告。 您必须确认删除它们。 |
 | 设计 | 选择要用于生成输出的设计模板。<br><br>有关如何使用自定义设计模板生成输出的详细信息，请与发布管理员联系。 |
@@ -216,7 +216,7 @@ Experience Manager Guides允许您使用`peer @scope`创建主题引用。 然�
 
    ![交叉映射引用](images/aem-sites-preset-cross-map-references.png)
 
-1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**&#x200B;发布上下文。
+1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**发布上下文。
 在发布包含链接主题的映射之前，您应该发布选定作为父映射的映射。 如果未发布包含链接主题的映射，则在AEM Sites输出中，链接将显示为普通文本而非超链接。
 您应为链接的主题选择相同类型的AEM Sites预设。 例如，如果当前AEM Sites预设使用旧版组件映射，则为链接的主题选择类似的AEM Sites预设。
 1. 在“父映射”下拉列表中，选择要为其输出链接当前映射输出的映射文件。

@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f61aa6615a1b9765154d55249a33136443dfa33
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -18,20 +18,20 @@ ht-degree: 2%
 
 有关AEM中工作流的详细信息，请参阅：
 
-- [管理工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/workflows.html)
+- [管理工作流](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 应用和参与工作流： [使用工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- 应用和参与工作流： [使用工作流](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)。
 
-- 创建工作流模型和扩展工作流功能： [开发和扩展工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/using/workflows.html)。
+- 创建工作流模型和扩展工作流功能： [开发和扩展工作流](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)。
 
-- 提高使用重要服务器资源的工作流的性能： [并发工作流处理](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
+- 提高使用重要服务器资源的工作流的性能： [并发工作流处理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
 
 
 本主题中的部分将指导您逐步完成AEM Guides中提供的默认工作流中可以进行的各种自定义设置。
 
 ## 自定义审核工作流 {#id176NE0C00HS}
 
-每个组织的内容创作团队都以特定的方式工作，以满足其业务要求。 有些组织设有专门的编辑人员，而有些其他组织则设有自动编辑审查系统。 例如，在组织中，典型的创作和发布工作流程可能包括以下任务 — 每当作者完成创作内容时，它会自动发送给审阅人，审阅完成后会发送给发布者，以生成最终输出。 在AEM中，您可以采用流程的形式组合对内容和资产执行的活动并将其映射到AEM工作流。 有关AEM中工作流的详细信息，请参阅AEM文档中的[管理工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/workflows.html)。
+每个组织的内容创作团队都以特定的方式工作，以满足其业务要求。 有些组织设有专门的编辑人员，而有些其他组织则设有自动编辑审查系统。 例如，在组织中，典型的创作和发布工作流程可能包括以下任务 — 每当作者完成创作内容时，它会自动发送给审阅人，审阅完成后会发送给发布者，以生成最终输出。 在AEM中，您可以采用流程的形式组合对内容和资产执行的活动并将其映射到AEM工作流。 有关AEM中工作流的详细信息，请参阅AEM文档中的[管理工作流](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)。
 
 AEM Guides允许您自定义默认审核工作流。 您可以将以下四个与自定义审阅相关的流程用于其他创作或发布工作流。
 
@@ -108,9 +108,9 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 | `startTime` | 长 | 使用`System.currentTimeMillis()`函数获取当前系统时间。 |
 | `projectPath` | 字符串 | 将为其分配审阅任务的审阅项目的路径，例如： /content/projects/samplereviewproject。 |
 | `reviewType` | 字符串 | 静态值“AEM”。 |
-| `versionJson` | JSON 对象 | versionJson是审核中的主题列表，其中每个主题对象具有以下结构{ &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } |
+| `versionJson` | JSON 对象 | versionJson是审核中的主题列表，其中每个主题对象具有以下结构[ { &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | 布尔值 | false/true |
-| `ditamapHierarchy` | JSON 对象 | 如果发送了映射以供审查，则此处的值应如下所示：[ &lbrace; &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： “”，“items”： [] } ] ]。 |
+| `ditamapHierarchy` | JSON 对象 | 如果发送了映射以供审查，则此处的值应如下所示：[ { &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： “”，“items”： [] } ] ]。 |
 | `ditamap` | 字符串 | 指定审核任务的日期映射的路径 |
 | `allowAllReviewers` | 布尔值 | false/true |
 | `notifyViaEmail` | 布尔值 | false/true |
@@ -126,8 +126,8 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 
 在&#x200B;**Adobe Granite工作流清除配置**&#x200B;中，确保至少列出一个可安全清除的工作流。 例如，您可以使用由AEM Guides创建的以下任何工作流：
 
-- /etc/workflow/models/publishditamap/jcr：content/model
-- /etc/workflow/models/post-dita-project-creation-tasks/ jcr：content/model
+- /etc/workflow/models/publishditamap/jcr:content/model
+- /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
 在&#x200B;**Adobe Granite工作流清除配置**&#x200B;中添加工作流可确保AEM仅清除配置中列出的那些工作流。 这会阻止AEM清除审核工作流信息。
 
@@ -147,7 +147,7 @@ AEM Guides包含一组您可自定义的电子邮件模板。 执行以下步骤
 
    >[!NOTE]
    >
-   > 请勿在``libs``节点中使用默认配置文件中的任何自定义设置。 您必须在``apps``节点中创建``libs``节点的叠加，并仅更新``apps``节点中的所需文件。
+   > 请勿在``libs``节点中使用默认配置文件中的任何自定义设置。 您必须在``libs``节点中创建``apps``节点的叠加，并仅更新``apps``节点中的所需文件。
 
 1. 邮件文件夹包含以下可自定义的模板：
 
@@ -227,7 +227,7 @@ generatedPath;
    jcr:content/metadata/dc:format!=application/xml
    ```
 
-1. 单击&#x200B;**保存并关闭**
+1. 点击&#x200B;**保存并关闭**
 
 
 ## 配置后处理XML工作流 {#id18CJB03J0Y4}

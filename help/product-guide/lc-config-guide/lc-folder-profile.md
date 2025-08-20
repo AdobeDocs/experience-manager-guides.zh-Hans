@@ -4,9 +4,10 @@ description: 了解如何在Experience Manager Guides中处理学习和培训内
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+exl-id: dc26ae48-c953-492c-823a-5f65157b6902
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -17,12 +18,23 @@ ht-degree: 0%
 
 要开始使用学习和培训内容的文件夹配置文件配置，您需要：
 
-1. [创建文件夹配置文件](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)。
-2. **选择要配置的文件夹配置文件**：创建文件夹配置文件后，您需要在[用户首选项](../user-guide/intro-home-page.md#user-preferences)页面上选择文件夹配置文件，以确保作者和发布者可以访问正确的模板。
+1. **创建其他文件夹以管理创作和输出模板**：您可以为企业中不同部门或产品中工作的作者和发布者创建文件夹。 这些文件夹可以映射到特定的文件夹配置文件，每个文件夹都配置了不同的创作和输出模板，以支持特定于部门的学习课程创建和分散管理。
+
+   您可以从“存储库”面板创建新文件夹。
+
+   ![](assets/create-new-folder.png){width="350" align="left"}
+2. **创建语言文件夹以管理翻译**：如果将内容翻译成不同的语言，则必须创建与每种语言对应的文件夹。 其中每个语言文件夹都将包含与该语言对应的内容。
+
+   有关详细信息，请查看[内容翻译的最佳实践](../user-guide/translation-first-time.md)。
+3. **创建文件夹以管理Assets**：与文件夹类似，您也可以创建其他Assets文件夹以满足不同部门的需求。 通过这种方式，您还可以确保作者和发布者有权访问其模板、图像和其他资产中配置的正确CSS。
+
+   ![](assets/configure-assets-folder.png){width="350" align="left"}
+4. [创建文件夹配置文件](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)以映射不同的文件夹。
+5. **选择要配置的文件夹配置文件**：创建文件夹配置文件后，您需要在[用户首选项](../user-guide/intro-home-page.md#user-preferences)页面上选择文件夹配置文件，以确保作者和发布者可以访问正确的模板。
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
-3. **配置文件夹配置文件设置**：对于学习和培训内容，可以在文件夹级别配置以下设置：
+6. **配置文件夹配置文件设置**：对于学习和培训内容，可以在文件夹级别配置以下设置：
    - [面板](#configure-panels)
    - [模板](#configure-templates)
    - [输出预设](#configure-output-presets)

@@ -4,7 +4,7 @@ description: 了解如何使用Adobe Experience Manager Guides中的DIVATAL编�
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
+source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL文件用于生成条件输出。 在单个主题中，您可以使用元素属性添加条件以条件化内容。 然后，创建一个DITAVAL文件，在该文件中指定应选取以生成内容的条件，以及应从最终输出中排除哪些条件。
 
-Adobe Experience Manager Guides允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 DITAVAL编辑器将检索系统中定义的属性（可用作条件），您可以使用这些属性来创建或编辑DITAVAL文件。 有关在Adobe Experience Manager中创建和管理条件的更多详细信息，请查看Adobe Experience Manager文档中的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=zh-Hans)部分。
+Adobe Experience Manager Guides允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 DITAVAL编辑器将检索系统中定义的属性（可用作条件），您可以使用这些属性来创建或编辑DITAVAL文件。 有关在Adobe Experience Manager中创建和管理条件的更多详细信息，请查看Adobe Experience Manager文档中的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)部分。
 
 以下各节介绍了Experience Manager Guides中可用于DITAVAL文件的选项。
 
@@ -30,7 +30,7 @@ Adobe Experience Manager Guides允许您使用DITAVAL编辑器轻松创建和编
 
 1. 在“存储库”面板中，选择&#x200B;**新建文件**&#x200B;图标，然后从下拉菜单中选择&#x200B;**主题**。
 
-   ![](images/new-file-option.png){width="300" align="left"}
+   ![](images/new-file-option.png){width="350" align="left"}
 
    您还可以从[Experience Manager Guides主页](./intro-home-page.md)以及存储库视图中文件夹的选项菜单访问此选项。
 
@@ -42,7 +42,7 @@ Adobe Experience Manager Guides允许您使用DITAVAL编辑器轻松创建和编
    - 主题所基于的模板。 对于DITAVAL文件，请从下拉列表中选择&#x200B;**Ditaval**。
    - 要保存主题文件的路径。 默认情况下，存储库中当前选定文件夹的路径将显示在路径字段中。
 
-   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
 
 4. 选择&#x200B;**创建**。
@@ -112,35 +112,35 @@ DITAVAL编辑器允许您使用“编辑器”工具栏中的选项执行以下�
 - **背景颜色**：从背景颜色中选择色相、饱和度和对比度。 相应的十六进制值将根据您的选择自动更新。 您还可以使用下拉菜单在十六进制、RGB和HSB之间切换色彩空间格式。
 
 
-![](images/ditaval-background-color.png){width="650" align="left"}
+  ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **文本颜色**：从文本颜色中选择色相、饱和度和对比度。 相应的十六进制值将根据您的选择自动更新。 您还可以使用下拉菜单在十六进制、RGB和HSB之间切换色彩空间格式。
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+  ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **样式选项**：您可以添加一些样式选项，如粗体、斜体、下划线、上划线、双下划线。
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+  ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **开始和结束标志**：您可以使用&#x200B;**添加标志**&#x200B;按钮将图像插入为开始和结束标志。 若要选择图像，请使用&#x200B;**浏览Assets**&#x200B;以从Guides存储库中选择，或者使用&#x200B;**添加文件**&#x200B;以从本地系统上传。 此外，还可以为图像指定替换文本。
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **样式冲突**：它解决了单个元素包含多个具有不同标志样式的属性时出现的冲突。 在这种情况下，会选择样式冲突属性中定义的值，从而有效地充当背景和文本颜色的默认值选取器。
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### 版本信息并另存为新版本

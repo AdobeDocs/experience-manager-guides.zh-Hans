@@ -4,16 +4,16 @@ description: 了解Experience Manager Guides编辑器界面中可用的各种设
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 84cc3db0e14217a7ba92143cb63b94329d5c26e1
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
 
 # 编辑器设置
 
-编辑器[选项卡栏](./web-editor-tab-bar.md)中存在的&#x200B;**设置**&#x200B;选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
+编辑器&#x200B;**选项卡栏**&#x200B;中存在的[设置](./web-editor-tab-bar.md)选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
 
 - [常规](#general)
 - [面板](#panels)
@@ -33,11 +33,34 @@ ht-degree: 0%
 
 ## 常规
 
-常规设置允许您配置要与编辑器一起使用的词典。 此选项卡包含四个部分：**拼写检查**、**条件**、**创作**&#x200B;和&#x200B;**引用**。
+常规设置允许您配置设置以使用编辑器。 此选项卡包含五个部分：**AI助手**、**创作**、**引用**、**条件**&#x200B;和&#x200B;**拼写检查**。
 
-![](images/editor-setting-general.png){width="650" align="left"}
+![](images/editor-setting-general-new.png){width="350" align="left"}
 
-- **拼写检查**：有两个选项 — **AEM拼写检查**&#x200B;和&#x200B;**浏览器拼写检查**。 默认情况下，编辑器使用浏览器拼写检查功能，其中拼写检查使用浏览器的内置词典执行。 您可以切换到AEM拼写检查以使用Adobe Experience Manager的词典，也可以自定义该词典以添加自定义单词列表。 有关自定义AEM词典的详细信息，请在“安装和配置AEM as a Cloud Service”中查看[自定义Adobe Experience Manager Guides的默认词典](../cs-install-guide/customize-aem-custom-dictionary.md)部分。
+- **AI助手**
+选择此项可在Experience Manager Guides中启用[AI助手](./ai-assistant.md)功能。 取消选择可禁用该功能。
+
+  启用&#x200B;**AI助手**&#x200B;切换后，您可以使用&#x200B;**创作快速操作**&#x200B;菜单为作者配置在&#x200B;**创作选项卡**&#x200B;下显示的选项，如下所示。\
+  这些更改适用于您正在处理的特定文件夹配置文件。 如果创建新的文件夹配置文件，它将默认继承&#x200B;**全局**&#x200B;文件夹配置文件中定义的编辑器设置。 您可以使用&#x200B;**编辑器设置**&#x200B;根据需要修改这些设置并保存更新的配置。\
+  有关使用AI助手创作可用选项的详细概述，请使用AI助手智能地查看[创作文档](./ai-assistant-right-panel.md)。
+
+  通过&#x200B;**创作快速操作**&#x200B;菜单，您可以：
+
+   - 使用这些切换可启用或禁用作者在使用AI Assistant时可以访问的特定选项。
+
+   - 更改选项的显示顺序，根据需要拖放它们。
+
+  ![](images/authoring-quick-actions.png){width="350" align="left"}
+
+
+
+- **创作**
+
+   - **启用全部替换**：选择此项以查看&#x200B;**查找和替换**&#x200B;面板中的&#x200B;**全部替换**&#x200B;图标。
+
+- **引用**
+
+  更改引文样式。 从要在项目中使用的下拉列表中选择引用样式。 有关更多详细信息，请查看[更改引文样式](./web-editor-apply-citations.md#change-citation-style)。
 
 - **条件**
 
@@ -51,16 +74,8 @@ ht-degree: 0%
 
    - **在条件面板中显示主题方案**：选择此项可在条件面板中查看主题方案。 如果取消选择此选项，则定义的条件将显示在条件面板中。
 
-- **创作**
-
-   - **启用全部替换**：选择此项以查看&#x200B;**查找和替换**&#x200B;面板中的&#x200B;**全部替换**&#x200B;图标。
-
-- **引用**
-
-  更改引文样式。 从要在项目中使用的下拉列表中选择引用样式。 有关更多详细信息，请查看[更改引文样式](./web-editor-apply-citations.md#change-citation-style)。
-
-- **AI助手**
-选择此项可在Experience Manager Guides中启用[AI助手](./ai-assistant.md)功能。 取消选择可禁用该功能。
+- **拼写检查**
+有两个选项 — **AEM拼写检查**&#x200B;和&#x200B;**浏览器拼写检查**。 默认情况下，编辑器使用浏览器拼写检查功能，其中拼写检查使用浏览器的内置词典执行。 您可以切换到AEM拼写检查以使用Adobe Experience Manager的词典，也可以自定义该词典以添加自定义单词列表。 有关自定义AEM词典的详细信息，请在“安装和配置AEM as a Cloud Service”中查看[自定义Adobe Experience Manager Guides的默认词典](../cs-install-guide/customize-aem-custom-dictionary.md)部分。
 
 
 ## 面板
@@ -114,9 +129,9 @@ ht-degree: 0%
 
 **创建Salesforce配置文件**
 
-**前提条件**
+**先决条件**
 
-- 为Salesforce创建连接的应用程序。 有关更多详细信息，请参阅[为API集成启用OAuth设置](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5)。
+- 为Salesforce创建连接的应用程序。 有关更多详细信息，请参阅[为API集成启用OAuth设置](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5)。
 
 - 配置连接的应用程序时，请确保满足以下条件：
 
@@ -142,7 +157,7 @@ ht-degree: 0%
 
 **创建ServiceNow配置文件**
 
-**前提条件**
+**先决条件**
 
 配置ServiceNow服务器以上传资产。
 
@@ -237,11 +252,11 @@ ht-degree: 0%
 
 编辑器设置中的![元数据选项卡](images/editor-setting-metadata.png){width="550" align="left"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
 您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

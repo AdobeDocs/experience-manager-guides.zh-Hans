@@ -4,9 +4,10 @@ description: 了解如何在Experience Manager Guides中为不同的部门配置
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,18 +16,6 @@ ht-degree: 0%
 
 作为管理员，您还可以为学习课程作者和发布者配置以下设置：
 
-- **文件夹设置**
-   - **创建不同的文件夹**：您可以为企业中不同部门或产品中工作的作者和发布者创建文件夹。 这些文件夹可以映射到特定的文件夹配置文件，每个文件夹都配置了不同的创作和输出模板，以支持特定于部门的学习课程创建和分散管理。
-
-     您可以从“存储库”面板创建新文件夹。
-
-     ![](assets/create-new-folder.png){width="350" align="left"}
-   - **创建语言文件夹**：如果将内容翻译成不同的语言，则必须创建与每种语言对应的文件夹。 其中每个语言文件夹都将包含与该语言对应的内容。
-
-     有关详细信息，请查看[内容翻译的最佳实践](../user-guide/translation-first-time.md)。
-   - **Assets管理**：与文件夹类似，您也可以创建其他Assets文件夹以满足不同部门的需求。 通过这种方式，您还可以确保作者和发布者有权访问其模板、图像和其他资产中配置的正确CSS。
-
-     ![](assets/configure-assets-folder.png){width="350" align="left"}
 - **代码片段**：您可以在文件夹级别配置代码片段，以确保作者可以访问正确的代码片段。 只有管理员可以在Experience Manager Guides中创建代码片段，然后作者可以在编辑器中使用该代码片段。
 
   您可以从编辑器的左侧面板访问代码片段。

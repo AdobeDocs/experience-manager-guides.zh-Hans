@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中查看主题并将这些功能用作查
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # 查看主题 {#id2056B0W0FBI}
 
 如果您是审阅人，则会收到一封包含审阅主题链接的审阅请求电子邮件。 使用此链接，您可以访问审阅页面，可在其中添加有关共享主题的反馈。
+
+>[!NOTE]
+>
+> 从通知访问审阅请求时，您可以选择将其重新分配给属于同一审阅项目的其他用户。 有关详细信息，请查看[使用通知](./reassign-review-using-notification.md)重新分配审阅任务。
 
 执行以下步骤以查看主题：
 
@@ -34,8 +38,6 @@ ht-degree: 0%
    > - Adobe Experience Manager Guides as a Cloud Service 2022年11月版或更早版本
    > - Adobe Experience Manager Guides版本4.1或更低版本
 
-
-
    使用DITA映射启动审阅工作流时，将显示以下屏幕：
 
    ![](images/multiple-topics-review.png){align="left"}
@@ -54,7 +56,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     > 应用过滤器时，注释面板中仅显示与所选过滤器匹配的注释。 过滤的评论数显示在主题面板的左侧。
+     > 应用过滤器时，“注释”面板中仅显示与所选过滤器匹配的注释。 过滤的评论数显示在主题面板的左侧。
 
    - **E**：分配给当前审阅人的审阅主题以黑色显示，可以选择。 当查看者选择主题链接时，该主题将出现在屏幕顶部。
    - **F**：无法查看的主题灰显。 该主题以只读模式显示，不允许在此类主题中添加任何审阅注释。
@@ -79,7 +81,7 @@ ht-degree: 0%
 1. 选择工具栏右上角的&#x200B;**注释**&#x200B;图标，打开“注释”面板。
 
    通过从工具栏中选择适当的评论类型来提供评论并按Enter键提交您的评论。
-评论框支持多行条目，并允许用户根据需要展开以提供详细反馈。 您可以在编写评论时使用&#x200B;**Shift** + **Enter**&#x200B;转到下一行。
+评论框支持多行条目，并允许用户根据需要展开以提供详细反馈。 您可以在编写评论时使用**Shift** + **Enter**&#x200B;转到下一行。
 
    >[!NOTE]
    >
@@ -161,6 +163,21 @@ ht-degree: 0%
 以下屏幕截图显示了&#x200B;*预览*&#x200B;模式下的内容：
 
 ![](images/review-preview-mode.png){width="550" align="left"}
+
+
+**在评论中标记任务用户**
+
+当与多个审阅人协作处理审阅任务时，可通过在新评论和回复中标记特定用户来增强通信。 作为审阅人，您可以启动评论或响应现有评论，同时标记参与同一审阅任务的其他用户，以吸引其注意或分配跟进。 此功能仅适用于活动审阅任务。
+
+>[!NOTE]
+>
+> 要查看分配给审阅任务的用户列表并在评论中标记这些用户，您必须对&#x200B;*节点具有*&#x200B;读取`/home/users and /home/groups`访问权限。 有关详细信息，请查看[用户管理和安全性](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)。 <br>如果在确认访问后标记仍然不可用，则您的管理员可能需要分配`user-admin`许可证才能启用此功能。
+
+![](images/tag-users-review-ui.png){width="350" align="left"}
+
+标记的用户会收到电子邮件和AEM通知，确保他们及时获得通知。 有关如何触发审阅通知的更多详细信息，请查看[了解审阅通知](./review-understanding-review-notifications.md)。
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
 
 **向评论添加附件** -   如果想通过提供其他文件中提供的附加信息来补充您的评论，您可以将其与您的评论一起附加。 作为审阅者，您可以轻松地将本地系统中的一个或多个文件添加到您的注释中。 可以将文件添加到所有受支持的注释形式 — 高亮、删除线、插入文本或注释。
 
@@ -257,4 +274,4 @@ ht-degree: 0%
 
 若要移除筛选器并查看所有注释，请从&#x200B;**筛选器类型**&#x200B;对话框中取消选择所有筛选器，然后选择&#x200B;**应用**。
 
-**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)
+**父主题：**[&#x200B;要审阅的简介](review.md)

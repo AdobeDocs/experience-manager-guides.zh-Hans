@@ -4,9 +4,9 @@ description: 了解Adobe Experience Manager Guides中地图编辑器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **此项前插入/此项后插入** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-显示&#x200B;**在之前插入元素或**&#x200B;在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
+显示**在之前插入元素或**在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
 
 **元素** - ![](images/Add_icon.svg)
 
@@ -219,13 +219,11 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 **刷新导航标题属性** - ![](images/refresh.svg)
 
-将映射中引用文件的`title`元素与其`@navtitle`属性中指定的值同步。 可以在映射中添加不同类型的引用文件，例如主题、引用、任务、\(sub\)映射等。 这些文件中的大多数都支持`@navtitle`属性。 如果文件包含`@navtitle`属性，则映射中相同文件的`@navtitle`属性将更新。 如果`@navtitle`属性不存在，则`@navtitle`属性将添加到该引用文件，并且其`title`也会更新为显示`@navtitle`。
+允许您使引用文件的`@navtitle`属性和元素`title`保持同步。 可以将不同类型的文件（如主题、任务、引用或子映射）添加到映射中。 其中大多数支持`@navtitle`属性，该属性控制文件名在映射或目录中的显示方式。 如果文件包含`@navtitle`属性，则映射中相同文件的`@navtitle`属性将更新。 如果`@navtitle`属性不存在，则`@navtitle`属性将添加到该引用文件，并且其`title`也会更新为显示`@navtitle`。
 
 >[!NOTE]
 >
-> 您的管理员可以配置自动向添加到映射的每个引用文件添加`@navtitle`属性。 有关配置自动添加`@navtitle`属性的更多详细信息，请在“安装和配置Adobe Experience Manager Guides as a Cloud Service”中查看&#x200B;*默认情况下包含@navtitle属性*。
-
-选择“刷新导航标题属性”图标以同步`title`元素和`@navtitle`属性的值。
+> 管理员可以使用配置属性选择在映射编辑器工具栏中显示或隐藏此按钮。 当文件添加到映射时，它们还可以启用自动添加`@navtitle`属性。 有关更多详细信息，请在“安装和配置Adobe Experience Manager Guides as a Cloud Service”中查看[默认情况下包含@navtitle属性](../cs-install-guide/auto-add-navtitle.md)*。
 
 **标记**
 
@@ -282,7 +280,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
   >
   > 如果&#x200B;*预览图*&#x200B;选项在主工具栏中不可见，则它可能已移动到&#x200B;**更多**&#x200B;工具栏菜单下。
 
-- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”**&#x200B;**&#x200B;以查看当前映射的预览。
+- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”****&#x200B;以查看当前映射的预览。
 
   ![](images/map-preview-icon.png){width="650" align="left"}
 
@@ -350,7 +348,7 @@ Experience Manager Guides允许作者在编辑器中打开DITA映射并查看主
   ![布局视图](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  有关详细信息，请在[编辑器](web-editor-features.md#main-toolbar)中查看&#x200B;*设置*&#x200B;功能描述中的&#x200B;*显示属性*。
+  有关详细信息，请在&#x200B;*编辑器*&#x200B;中查看&#x200B;*设置*&#x200B;功能描述中的[显示属性](web-editor-features.md#main-toolbar)。
 
 - **元数据**&#x200B;您可以使用元数据设置元数据信息。 您可以定义导航标题、链接文本、简短说明和关键字。
 

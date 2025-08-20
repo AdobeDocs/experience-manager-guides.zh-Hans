@@ -5,9 +5,9 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 92d422de65b6bf50755d69dfb741d6530a9190ce
+source-git-commit: 896c9c870942edd00a115977bc658f0a99fa699b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 对于在4.6版本中生成AEM站点输出，Adobe Experience Manager的发布实例必须具有Service Pack 21、20、19。
+> 对于在5.0版本中生成AEM站点输出，Adobe Experience Manager的发布实例必须具有Service Pack 22、21和20。
 
 
 
@@ -35,6 +35,7 @@ ht-degree: 0%
 
 | [!DNL AEM Guides]版本 | 技术规范 |
 |---|---|
+| **AEM Guides 5.0.0** | **UUID 5.0.0** <ul><li> AEM 6.5 SP 22、SP21或SP20<br><br> <li>   Java： 11或8 <br><br>   <li>操作系统： <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
 | **AEM Guides 4.6.0** | **非UUID和UUID 4.6.0** <ul><li> AEM 6.5 SP 21、SP20或SP19<br><br> <li>   Java： 11或8 <br><br>   <li>操作系统： <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
 | **AEM Guides 4.4.0** | **非UUID和UUID 4.4.0** <ul><li> AEM 6.5 SP20、SP19、SP18或SP17 <br><br> <li>   Java： 11或8 <br><br>   <li>操作系统： <ul><li> Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |
 | **AEM Guides 4.2** | **非UUID和UUID 4.2.1**<br><br><ul> <li>AEM 6.5 SP15、SP14、SP13或SP12 <br><br><li>Java：11或8   <br><br><li> 操作系统： <ul><li>Windows Server 2012 R2  <li>Red Hat Linux 7和6</ul></ul> <br>**非UUID和UUID 4.2**<br><br><ul> <li>AEM 6.5 SP15、SP14、SP13或SP12 <br><br><li>Java： 11或8<br><br> <li> 操作系统： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7和6</ul> |

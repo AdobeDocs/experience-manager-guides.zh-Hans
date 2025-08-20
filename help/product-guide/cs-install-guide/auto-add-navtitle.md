@@ -5,10 +5,10 @@ exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a3c7973868549c72e868c05a3fc6ca8bdce9bce3
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -41,12 +41,13 @@ ht-degree: 1%
                            },
    ```
 
-1. 将`required`参数更改为：
+1. 更改`required`参数，如下所示：
 
    ```
    "required": {"navtitle": true}
    ```
 
+   当设置为`true`时，将启用&#x200B;**刷新导航标题属性**&#x200B;按钮，使其显示在编辑器工具栏中。 当设置为`false`或留空时，按钮在编辑器中保持隐藏状态。
 1. 保存文件。
 
 1. 将文件上传到相应的配置文件\（全局或文件夹\）。
@@ -54,4 +55,6 @@ ht-degree: 1%
 
 使用此配置，添加到映射的每个引用文件默认情况下将包含`@navtitle`属性。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+
+
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

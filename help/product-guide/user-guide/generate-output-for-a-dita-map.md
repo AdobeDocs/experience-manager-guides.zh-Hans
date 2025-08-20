@@ -4,9 +4,9 @@ description: 从AEM Guides中的映射控制台和映射仪表板生成DITA映�
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,15 @@ ht-degree: 0%
 
 您还可以从“映射”控制台为一个或多个主题或整个DITA映射生成AEM Sites输出。 有关详细信息，请查看[生成知识库输出](web-editor-article-publishing.md#id218CK0U019I)。
 
+## 使用`chunk`属性合并DITA映射中的不同主题
+
+DITA映射可以包含不同的主题类型，例如引用、概念和任务。 利用`chunk=to-content`属性，可合并这些主题以在AEM Sites上生成单页输出。 但是，要正确发布合并的主题，请确保管理员已在DITA配置文件中配置了正确的XML目录。
+
+系统要求在XML目录中具有关键字`composite`的公共ID才能正确识别并应用相应的DTD规则。
+默认情况下，此配置包含在标准XML目录中。 但是，如果您使用的是自定义XML目录，请确保管理员已将此公共ID添加到配置中。 如果没有它，合并的主题可能无法正确发布。
+
+有关如何在自定义DTD/XSD中使用公共ID和系统ID的详细信息，请查看[集成DITA专业化](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa)。
 
 
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)
