@@ -35,7 +35,7 @@ ht-degree: 0%
 ## 使用CRX包管理器安装包
 
 1. **安装组件包：**
-   1. 导航到&#x200B;[**CRX包管理器**](http://<your-aem-instance>/crx/packmgr)。
+   1. 导航到&#x200B;[**CRX包管理器**](http://&lt;your-aem-instance>/crx/packmgr)。
    2. 上传并安装on-prem-guides-components.all-1.x.0.zip包。
 
 2. **安装站点包：**&#x200B;使用CRX包管理器上载并安装aemg-docs.all-1.x.0.zip包。
