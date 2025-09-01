@@ -133,4 +133,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 在部署到生产环境之前，请确保所有配置都已在非生产环境中进行了测试。 <br><br>有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
+> 在部署到生产环境之前，请确保所有配置都已在非生产环境中进行了测试。 <br><br>有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
