@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '2126'
 ht-degree: 2%
 
 ---
@@ -18,20 +18,20 @@ ht-degree: 2%
 
 有关AEM中工作流的详细信息，请参阅：
 
-- [管理工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/workflows.html)
+- [管理工作流](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 应用和参与工作流： [使用工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- 应用和参与工作流： [使用工作流](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)。
 
-- 创建工作流模型和扩展工作流功能： [开发和扩展工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/using/workflows.html)。
+- 创建工作流模型和扩展工作流功能： [开发和扩展工作流](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)。
 
-- 提高使用重要服务器资源的工作流的性能： [并发工作流处理](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
+- 提高使用重要服务器资源的工作流的性能： [并发工作流处理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)。
 
 
 本主题中的部分将指导您逐步完成AEM Guides中提供的默认工作流中可以进行的各种自定义设置。
 
 ## 自定义审核工作流 {#id176NE0C00HS}
 
-每个组织的内容创作团队都以特定的方式工作，以满足其业务要求。 有些组织设有专门的编辑人员，而有些其他组织则设有自动编辑审查系统。 例如，在组织中，典型的创作和发布工作流程可能包括以下任务 — 每当作者完成创作内容时，它会自动发送给审阅人，审阅完成后会发送给发布者，以生成最终输出。 在AEM中，您可以采用流程的形式组合对内容和资产执行的活动并将其映射到AEM工作流。 有关AEM中工作流的详细信息，请参阅AEM文档中的[管理工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/workflows.html)。
+每个组织的内容创作团队都以特定的方式工作，以满足其业务要求。 有些组织设有专门的编辑人员，而有些其他组织则设有自动编辑审查系统。 例如，在组织中，典型的创作和发布工作流程可能包括以下任务 — 每当作者完成创作内容时，它会自动发送给审阅人，审阅完成后会发送给发布者，以生成最终输出。 在AEM中，您可以采用流程的形式组合对内容和资产执行的活动并将其映射到AEM工作流。 有关AEM中工作流的详细信息，请参阅AEM文档中的[管理工作流](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)。
 
 AEM Guides允许您自定义默认审核工作流。 您可以将以下四个与自定义审阅相关的流程用于其他创作或发布工作流。
 
@@ -64,6 +64,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 地图&#x200B;**的**
@@ -90,6 +91,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 您可以在`/etc/workflows/scripts`节点中创建此脚本。 下表描述了此ECMA脚本所分配的属性：
@@ -110,10 +112,11 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 | `reviewType` | 字符串 | 静态值“AEM”。 |
 | `versionJson` | JSON 对象 | versionJson是审核中的主题列表，其中每个主题对象具有以下结构[ { &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | 布尔值 | false/true |
-| `ditamapHierarchy` | JSON 对象 | 如果发送了映射以供审查，则此处的值应如下所示：[ &lbrace; &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： “”，“items”： [] } ] ]。 |
+| `ditamapHierarchy` | JSON 对象 | 如果发送了映射以供审查，则此处的值应如下所示：[ { &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： “”，“items”： [] } ] ]。 |
 | `ditamap` | 字符串 | 指定审核任务的日期映射的路径 |
 | `allowAllReviewers` | 布尔值 | false/true |
 | `notifyViaEmail` | 布尔值 | false/true |
+| `reviewVersion` | 字符串 | 指定审阅工作流的当前版本。 默认值设置为`3.0` 。<br>要为[作者](../user-guide/review-close-review-task.md)和[审阅人](../user-guide/review-complete-review-tasks.md)启用新的审阅工作流功能，请确保`reviewVersion`设置为`3.0`。 |
 
 
 创建脚本后，请在调用工作流中的创建审阅进程之前调用该脚本。 然后，根据您的要求，您可以调用其他审阅工作流流程。
@@ -133,29 +136,58 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 
 有关配置&#x200B;**Adobe Granite工作流清除配置**&#x200B;的更多详细信息，请参阅AEM文档中的&#x200B;*管理工作流实例*。
 
-### 自定义电子邮件模板
+### 自定义电子邮件和AEM通知
 
 许多AEM Guides工作流会使用电子邮件通知。 例如，如果您启动审阅任务，则会向审阅人发送电子邮件通知。 但是，要确保电子邮件通知已发送，您必须在AEM中启用此功能。 要在AEM中启用电子邮件通知，请参阅AEM文档中的文章[配置电子邮件通知](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans)。
 
-AEM Guides包含一组您可自定义的电子邮件模板。 执行以下步骤可自定义这些模板：
+AEM Guides包含一组电子邮件和AEM通知，您可以对其进行自定义。 执行以下步骤以自定义这些通知：
 
-1. 登录AEM并打开CRXDE Lite模式。
-
-1. 在“导航”选项卡中，转到以下位置：
-
-   `/libs/fmdita/mail`
+1. 使用包管理器下载`/libs/fmdita/mail/review`文件夹。
 
    >[!NOTE]
    >
    > 请勿在``libs``节点中使用默认配置文件中的任何自定义设置。 您必须在``libs``节点中创建``apps``节点的叠加，并仅更新``apps``节点中的所需文件。
 
-1. 邮件文件夹包含以下可自定义的模板：
+1. `review`文件夹包含以下子文件夹：
 
-   | 模板文件名 | 描述 |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   这些子文件夹的详细说明如下：
+
+   | 查看子文件夹 | 描述 |
    |-----------------|-----------|
-   | closereview.html | 此电子邮件模板在关闭审核任务时使用。 |
-   | createreview.html | 创建新审阅任务时使用此电子邮件模板。 |
-   | reviewapproval.css | 此CSS文件包含电子邮件模板的样式。 |
+   | `aem-notification` | 包含可供自定义的其他AEM通知类型。<br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br>在这些子文件夹中，找到`primary.vm`和`secondary.vm`个分别允许您自定义AEM通知标题和描述的文件。 |
+   | `CSS` | 包含用于自定义电子邮件通知样式的`email-notification.css`文件。 |
+   | `email-notification` | 包含可供自定义的不同电子邮件通知类型。<br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br>在这些子文件夹中，找到`primary.vm`和`secondary.vm`个分别允许您自定义电子邮件通知主题和正文的文件。 |
+
+每种通知类型的定义概述如下：
+
+- `closed`：审核任务关闭时触发。
+- `content-updated`：作者或发起人更新内容时触发。
+- `feedback-addressed`：作者或发起者处理注释并请求审阅者重新审阅时触发。
+- `feedback-provided`审阅者通过向审阅任务的作者或发起者提供任务级注释，将任务标记为完成时触发。
+- `requested`：作者或发起者创建审核任务时触发。
+- `reviewer-removed`：从审核任务中取消分配审核者时触发。
+- `tag-mention`：在审核评论中提及或标记用户时触发。
+
+在自定义电子邮件或AEM通知时，请确保仅使用在`primary.vm`和`secondary.vm`文件中使用的以下预定义变量集。
+
+
+| **变量名称** | **描述** | **数据类型** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | 包含审阅任务的项目的路径 | 字符串 |
+| `reviewTitle` | 审核任务的标题 | 字符串 |
+| `projectName` | 项目名称 | 字符串 |
+| `commentator` | 添加评论的用户的名称 | 字符串 |
+| `commentExcerpt` | 添加的评论片段 | 字符串 |
+| `taskLink` | 审阅任务的直接链接 | URL |
+| `authorName` | 创建或更新审阅任务的作者的姓名 | 字符串 |
+| `dueDate` | 审核任务的截止日期 | 日期 |
+| `reviewerName` | 分派给任务的审阅者姓名 | 字符串 |
+| `user` | 审阅任务中涉及的用户，如作者、审阅者，甚至管理员。 | 字符串 |
+| `recipient` | 接收通知的特定用户 | 字符串 |
 
 
 ## 自定义输出后生成工作流 {#id17A6GI004Y4}

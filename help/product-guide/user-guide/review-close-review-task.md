@@ -3,9 +3,10 @@ title: 以作者身份请求重新审阅或关闭审阅任务
 description: 了解在Experience Manager Guides中作为作者关闭审阅任务或重新请求审阅的工作流。
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,18 @@ ht-degree: 0%
 4. 选择&#x200B;**更新任务**&#x200B;以对所选审阅任务执行进一步的操作。
 5. 在&#x200B;**更新任务**&#x200B;对话框中，选择以下操作之一：
 
-   - **请求重新审阅**：启动另一轮审阅。 您可以选择主题的其他版本进行审阅。 默认情况下，将选择发送以供审阅的主题或映射文件的最新（或上次编辑的）版本。 完成上一次审阅的审阅人将收到通知，就更新的版本提供反馈。 对于未将审阅任务标记为完成的其他审阅人，将会收到有关主题更新的通知。
+   - **请求重新审阅**：启动另一轮审阅。 您可以选择主题的其他版本进行审阅。 默认情况下，将选择发送以供审阅的主题或映射文件的最新（或上次编辑的）版本。 您还可以根据需要使用&#x200B;**编辑版本**&#x200B;选项将所选主题的版本设置为&#x200B;**最新版本**、**版本为**&#x200B;和&#x200B;**基线**。  完成上一次审阅的审阅人将收到通知，就更新的版本提供反馈。 对于未将审阅任务标记为完成的其他审阅人，将会收到有关主题更新的通知。
 
    - **关闭审阅**：关闭审阅任务。 审核面板底部的&#x200B;**更新任务**&#x200B;按钮更改为&#x200B;**已关闭**，并且会向参与审核任务的所有用户发送一个通知，指示其关闭。
 
-   有关如何触发审阅通知的更多详细信息，请查看[了解审阅通知](./review-understanding-review-notifications.md)。
+   有关审阅通知如何触发的详细信息，请查看[了解审阅通知](./review-understanding-review-notifications.md)。
 
-   ![](images/update-task-dialog.png)。
+   ![](images/update-task-dialog.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   > **更新任务**&#x200B;对话框还将包括&#x200B;**文档状态**&#x200B;列，以指示使用Experience Manager Guides作为云服务时列出的审阅主题的当前状态。
+
 
 6. 选择&#x200B;**确认**。
 

@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 579be351210f8a32d9cb66950b935bfad039f51b
+source-git-commit: c9ea64eb0445ec5767ba62ac6f9c1871dc3e98a3
 workflow-type: tm+mt
-source-wordcount: '8041'
+source-wordcount: '9118'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 >
 > 按照特定于您的产品的许可版本的升级说明进行操作。
 
-您可以将当前版本的Experience Manager Guides升级到版本5.0.0 Service Pack 1：
+您可以将当前版本的Experience Manager Guides升级到版本5.1.0：
 
-
-- 如果您使用的是版本5.0.0、4.6.x、4.6或4.4，则可以直接升级到版本5.0.0 Service Pack 1。
+- 如果您使用的是版本4.6.3、4.6.4、5.0.0或5.0.0 Service Pack 1，则可以直接升级到版本5.1.0。
+- 如果您使用的是版本4.6.0、4.6.1，则需要在升级到版本5.1.0之前升级到版本4.6.3、4.6.4或5.0.0。
 - 如果您使用的是版本4.3.x、4.2、4.2.1（修补程序4.2.1.3）、4.1或4.1.x，则需要在升级到版本5.0.0之前升级到版本4.4。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
 
 
 >[!NOTE]
@@ -43,6 +43,7 @@ ht-degree: 0%
 - [升级到版本4.4.0](#upgrade-to-version-440)
 - [升级到版本4.6.0](#upgrade-to-version-460)
 - [升级到版本5.0.0](#upgrade-to-version-500)
+- [升级到版本5.1.0](#upgrade-to-version-510)
 
 
 
@@ -58,11 +59,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅[Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的&#x200B;*升级Adobe Experience Manager Guides*&#x200B;部分。
+> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅&#x200B;*Experience Manager Guides帮助PDF存档*&#x200B;上提供的产品特定安装指南中的[升级Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)部分。
 
 
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides升级过程之前，请确保您已：
 
@@ -135,13 +136,13 @@ ht-degree: 0%
 
 如果您使用的是版本4.0、4.1或4.1.x，则可以直接升级到版本4.2。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.2升级过程之前，请确保您具有：
 
 1. 已升级到Experience Manager Guides版本4.0、4.1或4.1.x。
 1. 已关闭所有翻译任务。
-1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**信息**，并将这些日志附加到新日志文件中，例如`logs/translation_upgrade.log.`
+1. 已将&#x200B;**类的日志级别更改为**&#x200B;信息`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新日志文件中，例如`logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
@@ -222,14 +223,14 @@ ht-degree: 0%
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器（适用于条件“`jcr:content/jcr:mimeType!=video`”），
+   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器（适用于条件“`jcr:content/jcr:mimeType!=video`”），
    - “通配”值应为：
 
    ```json
@@ -311,13 +312,13 @@ ht-degree: 0%
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.2.1升级过程之前，请确保您具有：
 
 1. 已升级到Experience Manager Guides版本4.1、4.1.x或4.2。
 1. 已关闭所有翻译任务。
-1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**信息**，并将这些日志附加到新日志文件中，例如`logs/translation_upgrade.log.`
+1. 已将&#x200B;**类的日志级别更改为**&#x200B;信息`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新日志文件中，例如`logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
@@ -439,14 +440,14 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -488,7 +489,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.3.0升级过程之前，请确保您具有：
 
@@ -502,7 +503,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载4.3.0版本包。
 1. 安装版本4.3.0包。
 1. 安装包后清除浏览器缓存。
-1. 从文件夹配置文件的&#x200B;**XML编辑器配置**&#x200B;选项卡中升级`ui_config.json`文件。
+1. 从文件夹配置文件的`ui_config.json`XML编辑器配置&#x200B;**选项卡中升级**&#x200B;文件。
 
 
 ## 安装版本4.3.0之后
@@ -514,7 +515,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 执行以下步骤后处理现有内容并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个dita文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个dita文件，请将`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
    | PID | 属性键 | 属性值 |
    |---|---|---|
@@ -546,13 +547,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.3.1升级过程之前，请确保您具有：
 
 1. 已升级到Experience Manager Guides版本4.3.0、4.2或4.2.1，并完成了各自的安装步骤。
 1. （可选）已关闭所有翻译任务。
-1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 
 ## 安装版本4.3.1
@@ -667,14 +668,14 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -715,7 +716,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 执行以下步骤后处理现有内容并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个dita文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个dita文件，请将`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
    | PID | 属性键 | 属性值 |
    |---|---|---|
@@ -747,7 +748,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 ## 安装版本4.3.1.5
 
-1. 从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载4.3.1.5版本包。
+1. 从4.3.1.5Adobe软件分发门户[下载](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)版本包。
 1. 安装版本4.3.1.5包。
 
 1. 等待安装过程成功完成。
@@ -787,13 +788,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.4.0升级过程之前，请确保您具有：
 
 1. 已升级到Experience Manager Guides版本4.3.1、4.3.0或4.2.1（修补程序4.2.1.3），并完成了各自的安装步骤。
 1. （可选）已关闭所有翻译任务。
-1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 
 ## 安装版本4.4.0
@@ -870,14 +871,14 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -916,7 +917,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 执行以下步骤后处理现有内容并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个dita文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个dita文件，请将`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
    | PID | 属性键 | 属性值 |
    |---|---|---|
@@ -980,7 +981,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 在此升级过程中，由于`'order'`值从1000更改为50，因此您需要将现有的自定义重写器（如果有）与`'fmdita-rewriter'`合并。
 
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)
 
 
 ## 升级到版本4.6.0
@@ -995,13 +996,13 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.6.0升级过程之前，请确保您具有：
 
 1. 已升级到Experience Manager Guides版本4.3.1、4.3.0或4.2.1（修补程序4.2.1.3），并完成了各自的安装步骤。
 1. （可选）已关闭所有翻译任务。
-1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 
 ## 安装版本4.6.0
@@ -1076,14 +1077,14 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -1150,13 +1151,13 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 5.0.0升级过程之前，请确保您具有：
 
 1. 已升级到Experience Manager Guides版本4.6.3、4.6.1、4.6.0或4.4，并完成了各自的安装步骤。
 1. （可选）已关闭所有翻译任务。
-1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 
 ## 安装版本5.0.0
@@ -1231,14 +1232,14 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -1298,11 +1299,176 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 ## 重新索引damAssetLucene的步骤
 
-带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.0.0版本后如何重新索引damAssetLucene。
+带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.0.0版本后如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
-> 在遵循该文档的同时，确保通过保存操作同时更新两个属性（对于/oak：index/damAssetLucene，reindex=true和reindex-async=true）。
+> 在遵循文档操作时，请确保通过保存操作同时更新两个属性（对于/oak:index/damAssetLucene，reindex=true和reindex-async=true）。
+
+## 升级到版本5.1.0
+
+>[!TIP]
+>
+> 升级到版本5.1.0取决于Experience Manager Guides的当前版本。 如果您使用的是版本4.6.3、4.6.4、5.0.0或5.0.0 Service Pack 1，则可以直接升级到版本5.1.0。
+
+>[!NOTE]
+>
+> 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
+
+****先决条件****
+
+在开始Experience Manager Guides 5.1.0升级过程之前，请确保您具有：
+
+1. 已升级到Experience Manager Guides版本4.6.3、4.6.4、5.0.0或5.0.0 Service Pack 1，并完成了各自的安装步骤。
+1. （可选）已关闭所有翻译任务。
+1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+
+
+## 安装版本5.1.0
+
+1. 从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载5.1.0版本包。
+1. 安装版本5.1.0包。
+1. 您可以选择点击触发器以启动翻译图升级作业。 有关详细信息，请参阅[通过Servlet启用脚本触发器](#enable-trigger-of-script-via-a-servlet)。
+
+1. 完成软件包安装后，请等待日志中显示以下消息：
+
+   `Completed the post deployment setup script`
+
+   上述消息指示所有安装步骤均已完成。
+
+   如果您遇到以下任何错误前缀，请将其报告给您的客户成功团队：
+
+   - 部署后设置脚本出错
+   - 移植翻译映射时出现异常
+   - 无法为属性将翻译映射从v1端口转换为v2
+1. 升级随版本5.1.0一起发布的氧气连接器插件\（如果需要\）。
+1. 安装包后清除浏览器缓存。
+
+## 安装版本5.1.0之后
+
+安装Experience Manager Guides后，您可以将适用于从新安装的版本到设置的各种配置合并到一起。
+
+>[!NOTE]
+>
+> 可以自定义dam-update-asset模型。 因此，如果已完成任何自定义设置，那么我们需要将自定义设置和Experience Manager Guides同步到模型的工作副本中。
+
+1. **DAM更新资产工作流\（后处理更改\）：**
+
+1. 打开URL：
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. 选择&#x200B;**DAM更新资产工作流**。
+1. 选择&#x200B;**编辑**。
+1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件存在，请确保已同步自定义项。
+1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
+
+1. 选择&#x200B;**插入组件** \(负责将Experience Manager Guides后处理作为流程的最后一步\)。
+1. 使用以下详细信息配置&#x200B;**流程步骤**：
+
+   **常用选项卡**
+
+   **标题：** DXML后处理发起程序
+
+   **描述**： DXML后处理发起程序步骤，它将触发用于已修改/创建的资产的DXML后处理的Sling作业
+
+   **进程选项卡**
+
+   - 从&#x200B;**进程**&#x200B;下拉列表中选择&#x200B;**DXML后处理启动器**
+
+   - 选择&#x200B;**处理程序前进**
+
+   - 选择&#x200B;**完成**
+
+1. 完成更改后，选择右上角的&#x200B;**同步**。 您将收到成功通知。
+
+   >[!NOTE]
+   >
+   > 刷新并验证最终工作流模型中是否存在自定义更改和Experience Manager Guides后处理步骤。
+
+1. 验证&#x200B;**DAM更新资产工作流**&#x200B;后，检查相应的启动器配置。 为此，请转到AEM工作流界面并打开启动器。
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
+
+1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
+   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList`应具有`"event-user-data:changedByWorkflowProcess"`。
+
+1. 升级完成后，请确保验证并更新任何自定义项/叠加图，以匹配新的应用程序代码。 下面给出了一些示例：
+   - 任何来自/libs/fmditor/libsis的叠加组件都应与新的产品代码进行比较，并且更新应在/apps下的叠加文件中完成。
+   - 应审查产品中使用的任何clientlib类别是否有更改。 任何覆盖的配置\（见以下示例\）应与最新的配置进行比较，以获取最新的功能：
+   - elementmapping.xml
+   - ui\_config.json\（可能已在文件夹配置文件中设置\）
+   - 已修改`com.adobe.fmdita.config.ConfigManager`
+
+1. 如果您在damAssetLucene中添加了任何自定义项，则可能需要再次应用它们。 完成这些更改后，将reindex设置为true。 这将使用自定义项重新索引所有现有节点。 完成后，重新索引标志将再次设置为false。 这可能需要几个小时，具体取决于系统中的资源数量。
+
+## 重新索引Experience Manager Guides索引的步骤
+
+1. 打开`crx/de`并导航到索引路径： `/oak:index/guidesAssetProperties`
+2. 将重新索引属性设置为`true` （默认为`false`），然后单击&#x200B;**全部保存**。
+3. 重新索引完成后，重新索引属性再次设置为`false`，并且重新索引计数以1为单位递增。
+
+   >[!NOTE]
+   >
+   > 这可能需要几分钟的时间，具体取决于存在的数据量。
+4. 对其他添加或修改的索引执行相同的步骤： `guidesBulkActivation`、`guidesPeerLinkIndex`和`guidesKonnectTemplateIndex`。
+
+## 索引现有内容的步骤
+
+
+
+执行以下步骤来索引现有内容：
+
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
+
+- 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
+
+
+>[!NOTE]
+>
+> 如果使用自定义架构，则必须在&#x200B;**集成目录**&#x200B;选项中定义AEM存储库中自定义DTD和XSD catalog.xml文件的路径。
+
+
+
+
+## 处理`'fmdita rewriter'`冲突的步骤
+
+Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-install-guide/conf-output-generation.md#custom-rewriter)&#x200B;模块，用于处理在交叉映射（两个不同映射的主题之间的链接）情况下生成的链接。
+
+如果您的代码库中有另一个自定义sling重写器，请使用大于50的`'order'`值，因为Experience Manager Guides sling重写器使用`'order'` 50。  要覆盖此值，您需要一个大于50的值。 有关详细信息，请查看[输出重写管道](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)。
+
+在此升级过程中，由于`'order'`值从1000更改为50，因此您需要将现有的自定义重写器（如果有）与`'fmdita-rewriter'`合并。
+
+
+
+## 重新索引damAssetLucene的步骤
+
+带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.1.0版本后如何重新索引damAssetLucene。
+
+>[!NOTE]
+>
+> 在遵循文档操作时，请确保通过保存操作同时更新两个属性（对于/oak:index/damAssetLucene，reindex=true和reindex-async=true）。
+
 
 
 **父主题：** [下载并安装](download-install.md)
