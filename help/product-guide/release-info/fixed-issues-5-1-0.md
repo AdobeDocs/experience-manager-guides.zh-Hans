@@ -1,9 +1,9 @@
 ---
 title: 发行说明 | 修复了Adobe Experience Manager Guides 5.1.0版本中的问题
 description: 了解Adobe Experience Manager Guides 5.1.0版本中的错误修复。
-source-git-commit: 64df76f371867469d738f59a174e7931176e8591
+source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,6 @@ Adobe已发现5.1.0版本的以下已知问题：
 
 - 如果Reviewer在不添加注释的情况下完成任务，则最近的任务级注释会显示在发送给任务发起者的电子邮件通知中。 (指南 — 33590)
 - 在合并对话框中，下拉列表错误地显示主内容，而不是显示所选主题的可用版本。 (指南 — 30820)
-链路开始工作。 (指南 — 30820)
 - 在使用同一基线的预设之间切换时，将停用当前预设的“保存”按钮。 (指南 — 28025)
 - 将新内容粘贴到代码块元素中的新行时，会自动插入空行。(指南 — 27842)
 - DITA映射中的主题在其子映射中同时用作keydef和topicref时，无法在AEM Sites输出中发布。 (指南 — 22269)
