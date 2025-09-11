@@ -2,9 +2,9 @@
 title: 配置AI助手以进行智能帮助和创作
 description: 了解如何在Experience Manager Guides中配置AI助手
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b5b4c5484593a2f7d9121da1c7bfb28dd2c36a57
+source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕可显示Adobe产品和技术的所有可用API、事件和服务，您可以使用这些产品和技术开发应用程序。
 
-1. 选择&#x200B;**I/O管理API**&#x200B;以将其添加到您的项目中。
+1. 选择&#x200B;**I/O管理API**以将其添加到您的项目中。
    ![IO管理API](assets/confi-ss-io-management.png)
    *将I/O管理API添加到您的项目中。*
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 1. 切换到&#x200B;**环境**&#x200B;选项卡。
 1. 选择要配置的环境名称。 这应该会将您导航到&#x200B;**环境信息**&#x200B;页面。
 1. 切换到&#x200B;**配置**&#x200B;选项卡。
-1. 更新JSON字段 — `SERVICE_ACCOUNT_DETAILS`。 确保您使用以下屏幕快照中给出的相同名称和配置。
+1. 将JSON服务详细信息（在上一部分中下载）粘贴到与&#x200B;**对应的**&#x200B;值`SERVICE_ACCOUNT_DETAILS`字段中。 请确保您使用以下屏幕快照中给出的相同名称和配置。
 
    ![ims服务帐户配置](assets/ims-service-account-config.png){width="800" align="left"}
 
