@@ -39,7 +39,7 @@ ht-degree: 0%
 
 作为作者，此功能可帮助您轻松地打开审阅任务、查看注释并在集中视图中快速处理注释。
 ![](assets/active-review-task-comments.png){width="800" align="left"}
-有关更多详细信息，请查看**左侧面板**&#x200B;部分中的[审阅](../user-guide/web-editor-features.md#id2051EA0M0HS)功能说明。
+有关更多详细信息，请查看&#x200B;**左侧面板**&#x200B;部分中的[审阅](../user-guide/web-editor-features.md#id2051EA0M0HS)功能说明。
 
 
 ## 映射收藏集增强
