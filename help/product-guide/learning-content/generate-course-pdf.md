@@ -1,9 +1,10 @@
 ---
 title: 生成 PDF
-description: 了解如何在学习和培训内容中生成PDF输出。
+description: 了解如何在产品培训和学习中生成PDF输出。
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 364aa6a4-4ef6-4f7d-b207-ee011b79183c
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
@@ -26,8 +27,3 @@ ht-degree: 4%
 1. 您可以通过选择成功消息上的&#x200B;**查看输出**&#x200B;以及工具栏中的来下载PDF。
 
    ![](assets/view-output.png){width="650" align="left"}
-
-
-
-
-

@@ -1,11 +1,12 @@
 ---
 title: 创建测验
-description: 了解如何在学习与培训内容中创建测验。
+description: 了解如何在产品培训和学习中创建测试。
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 96c1d233-66d8-4f4e-b08a-d533d74fe0ff
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '102'
 ht-degree: 1%
 
 ---
@@ -19,9 +20,9 @@ ht-degree: 1%
    ![](assets/workflow-quiz.png){width="650" align="left"}
 
 1. 选择&#x200B;**测试**。\
-   将打开&#x200B;**新测验**&#x200B;对话框以指定测验的相关详细信息。 您可以从下拉菜单中选择模板并为其指定合适的标题。
+   将打开&#x200B;**新学习测验**&#x200B;对话框以指定测验的相关详细信息。 您可以从下拉菜单中选择模板并为其指定合适的标题。
 
-   ![](assets/create-quiz.png){width="350" align="left"}
+   ![](assets/new-learning-quiz.png){width="350" align="left"}
 
 1. 选择&#x200B;**创建**。
 
@@ -30,4 +31,3 @@ ht-degree: 1%
 >[!NOTE]
 >
 >  创建测验后，会自动为其分配版本1.0。
-

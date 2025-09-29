@@ -1,10 +1,10 @@
 ---
 title: 创建PDF预设
-description: 在学习与培训内容中创建PDF预设
+description: 在产品培训和学习中创建PDF预设
 feature: Authoring
 role: User
 exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 1%

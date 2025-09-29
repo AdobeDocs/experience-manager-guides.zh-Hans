@@ -1,12 +1,13 @@
 ---
 title: 使用内联样式
-description: 了解如何在学习和培训内容中创建学习内容时使用各种内联样式
+description: 了解如何在产品培训和学习中创建学习内容时使用各种内联样式
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: '261'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +19,14 @@ ht-degree: 1%
 >
 > 仅当管理员启用样式选项时，这些样式选项才可见。
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
+
+
+以下选项内联样式选项可用。
+
 ![](assets/content-properties-learning-content.png){width="350" align="left"}
 
-以下选项可供选择：
 
 - **字体：**&#x200B;允许您使用各种选项（如字体系列、字体粗细、文本修饰、字体大小等）自定义文本外观。 这些设置可帮助您设置内容的样式，如下例所示。
 

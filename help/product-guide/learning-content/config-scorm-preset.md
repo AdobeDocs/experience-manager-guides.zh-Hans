@@ -1,9 +1,10 @@
 ---
 title: SCORM预设配置
-description: 在学习和培训内容中了解各种SCORM预设配置
+description: 在产品培训和学习中了解各种SCORM预设配置
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: b3000708-6120-4725-bea1-0b8e58048948
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -27,5 +28,3 @@ ht-degree: 0%
   ![](assets/scorm-publish-tab.png){width="650" align="left"}
 
 配置所有更改后，使用SCORM预设页面工具栏右角的&#x200B;**保存**&#x200B;保存对SCORM预设所做的更改。
-
-

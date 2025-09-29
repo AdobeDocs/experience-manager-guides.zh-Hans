@@ -1,20 +1,27 @@
 ---
-title: 将基本构建块添加到学习内容
-description: 在学习和培训内容中了解可添加到学习内容中的基本构建基块
+title: 添加基本构建基块
+description: 在产品培训和学习中了解可添加到主题或学习内容的基本构建基块
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# 将基本构建块添加到学习内容
+# 将基本构建块添加到主题
 
-您可以使用学习内容工具栏上提供的基本编辑功能，如下所述：
+为了更清楚地了解如何创建学习主题并向其中添加基本构建块，以下视频简要介绍了可用的功能。
 
-- **小组件**：使用&#x200B;**插入**&#x200B;菜单将折叠面板、轮播、热点等小组件添加到您的学习内容中，如下所示。 有关交互式小组件的更多详细信息，请查看[使用交互式小组件](./lc-widgets.md)。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+您可以使用编辑器工具栏上提供的基本编辑功能，如下所述：
+
+- **小组件**：使用&#x200B;**插入**&#x200B;菜单将折叠面板、轮播、热点等小组件添加到您的主题或学习内容中，如下所示。 有关交互式小组件的更多详细信息，请查看[使用交互式小组件](./lc-widgets.md)。
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 
@@ -50,5 +57,3 @@ ht-degree: 0%
 - **超链接**：将超链接添加到内容中的所需位置。 您可以从工具栏上的&#x200B;**更多**&#x200B;菜单使用它。 它可以是文件引用、Web URL或电子邮件链接，如下所示。
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
-
-

@@ -1,9 +1,10 @@
 ---
 title: 课程经理基础知识
-description: 了解在Adobe Experience Manager Guides中处理学习和培训内容时课程经理的基础知识。
+description: 了解Course Manager在Adobe Experience Manager Guides中处理产品培训和学习时的基础知识。
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 091cd47e-558b-49d7-ae47-b600fc8fe79d
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

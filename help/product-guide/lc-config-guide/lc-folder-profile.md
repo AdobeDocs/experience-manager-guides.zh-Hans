@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # 配置文件夹配置文件
 
 需要文件夹配置文件来分隔企业中不同部门或产品的配置。 对于学习和培训内容，您可以创建和配置文件夹级别的配置文件，以管理创作模板、输出模板、输出预设和其他文件夹级别的设置。
+
+了解[设置文件夹结构的最佳实践](best-practices-folder-structure.md)。
 
 要开始使用学习和培训内容的文件夹配置文件配置，您需要：
 
@@ -25,7 +27,6 @@ ht-degree: 0%
    ![](assets/create-new-folder.png){width="350" align="left"}
 2. **创建语言文件夹以管理翻译**：如果将内容翻译成不同的语言，则必须创建与每种语言对应的文件夹。 其中每个语言文件夹都将包含与该语言对应的内容。
 
-   有关详细信息，请查看[内容翻译的最佳实践](../user-guide/translation-first-time.md)。
 3. **创建文件夹以管理Assets**：与文件夹类似，您也可以创建其他Assets文件夹以满足不同部门的需求。 通过这种方式，您还可以确保作者和发布者有权访问其模板、图像和其他资产中配置的正确CSS。
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}

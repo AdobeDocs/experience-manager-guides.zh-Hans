@@ -1,11 +1,12 @@
 ---
 title: 支持的预设
-description: 介绍在学习与培训内容中发布课程的支持预设
+description: 介绍了在产品培训和学习中用于发布课程的支持预设
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
+source-git-commit: 37eeecfa5683ce9de95f576b185e98bf180fab18
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,4 @@ ht-degree: 0%
 
 - **PDF：** PDF输出预设允许您以专业的、可打印的格式发布课程内容。 PDF格式非常适合用于共享内容以供审阅或存档。
 
-
-
-
+有关如何创建、配置和生成预设输出的视频概述，请查看[创建和配置预设](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)。

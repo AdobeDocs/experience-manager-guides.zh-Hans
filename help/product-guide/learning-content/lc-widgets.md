@@ -3,16 +3,22 @@ title: 使用交互式小组件
 description: 了解可在学习内容中使用的交互式小组件。
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # 使用交互式小组件
 
-您可以通过添加多个小组件来增强学习内容，使课程更具互动性。 选择工具栏上的&#x200B;**插入**&#x200B;菜单以访问构件。 可用的小组件包括：
+您可以通过添加多个小组件来增强学习内容，使课程更具互动性。 以下是一段关于各种小部件的简短演练视频。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides)
+
+
+用于增强用户体验和简化内容交付的可用小组件包括：
 
 - **可折叠项：**&#x200B;向内容添加可折叠项。 您可以在折叠标题及其正文中插入合适的文本。 可以使用&#x200B;**内容属性**&#x200B;面板管理其属性，包括允许同时打开单个或多个折叠以及添加或删除元素的选项。
 

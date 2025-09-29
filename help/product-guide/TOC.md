@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: a437256345b923bbcdbfb3fcdd79d1e0f67bc9f7
+source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2373'
 ht-degree: 8%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 8%
 - 版本信息 {#release-info}
    - [AEM Guides版本发行路线图](./release-info/aem-guides-releases-roadmap.md)
    - 发行说明 {#release-notes}
-      - Cloud Service {#cloud-release-notes}
+      - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2025版 {#2025-releases}
             - 2025.08.0发行版 {#2508-release}
@@ -151,8 +151,8 @@ ht-degree: 8%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -291,7 +291,7 @@ ht-degree: 8%
       - [查看输出生成任务的状态](./user-guide/fm-output-view-status.md)
    - AEM Guides的人工智能助手 {#ai-assistant-aem}
       - [Adobe Generative AI用户披露](./user-guide/adobe-generative-ai-disclosures.md)
-      - [AI Assistant概述](./user-guide/ai-assistant.md)
+      - [AI 助手概述](./user-guide/ai-assistant.md)
       - [用于搜索内容的AI支持的智能帮助](./user-guide/ai-based-smart-help.md)
       - [AI助手创作以智能地创作文档](./user-guide/ai-assistant-right-panel.md)
       - [用于创作内容的AI支持的智能建议](./user-guide/authoring-ai-based-smart-suggestions.md)
@@ -307,9 +307,9 @@ ht-degree: 8%
             - [了解课程经理基础知识](./learning-content/course-manager-basics.md)
             - [管理您的课程](./learning-content/manage-course.md)
          - 创建和自定义学习内容 {#customize-lc}
-            - [学习内容概述](./learning-content/lc-overview.md)
-            - [创建学习内容](./learning-content/create-content.md)
-            - [编辑学习内容](./learning-content/edit-content.md)
+            - [概述](./learning-content/lc-overview.md)
+            - [创建主题](./learning-content/create-content.md)
+            - [编辑主题](./learning-content/edit-content.md)
             - [添加基本构建基块](./learning-content/lc-basic-blocks.md)
             - [使用交互式小组件](./learning-content/lc-widgets.md)
             - [使用内联样式](./learning-content/lc-inline-styles.md)
@@ -318,10 +318,10 @@ ht-degree: 8%
             - [创建测验](./learning-content/create-quiz.md)
             - [编辑测验](./learning-content/edit-quiz.md)
             - [在测验中插入问题](./learning-content/quiz-insert-questions.md)
+            - [测验属性](./learning-content/quiz-properties.md)
             - 题库 {#question-bank}
                - [创建问题银行](./learning-content/create-qb.md)
-               - [插入来自问题库的问题](./learning-content/insert-questions.md)
-            - [测验属性](./learning-content/quiz-properties.md)
+               - [插入来自题库的问题](./learning-content/insert-questions.md)
          - 发布您的课程 {#publish-course}
             - [关于课程发布](./learning-content/publish-overview.md)
             - [支持的预设](./learning-content/course-presets.md)
@@ -336,6 +336,7 @@ ht-degree: 8%
       - 配置指南 {#config-lc}
          - [关于本指南](./lc-config-guide/introduction.md)
          - [配置文件夹配置文件](./lc-config-guide/lc-folder-profile.md)
+         - [设置文件夹结构的最佳实践](./lc-config-guide/best-practices-folder-structure.md)
          - [配置其他设置](./lc-config-guide/lc-other-settings.md)
       - 视频教程 {#lc-video}
          - [创作工作流](./lc-video-tutorials/author-workflow.md)
@@ -349,7 +350,7 @@ ht-degree: 8%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
@@ -443,7 +444,7 @@ ht-degree: 8%
       - 使用AEM Assets搜索 {#aem-asset-search}
          - [配置AEM Assets UI搜索](./install-guide/conf-dita-search.md)
       - [附录](./install-guide/appendix.md)
-   - Cloud Service {#cs-ig}
+   - 云服务 {#cs-ig}
       - [关于本指南](./cs-install-guide/introduction.md)
       - 部署和配置AEM Guides as Cloud Service {#deploy-conf-aemg-cs}
          - [下载并安装](./cs-install-guide/download-install.md)
@@ -629,7 +630,7 @@ ht-degree: 8%
       - 翻译 {#translation}
          - [提高翻译性能的最佳实践](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
          - [从翻译中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-      - 用例 {#use-cases}
+      - 使用案例 {#use-cases}
          - [使用条件内容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [使用键](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
          - [在从AEM Guides生成的AEM Sites页面中启用上下文内容变量(CCVAR)](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)

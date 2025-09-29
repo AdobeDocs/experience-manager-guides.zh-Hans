@@ -1,9 +1,10 @@
 ---
 title: 生成SCORM输出
-description: 了解如何在学习和培训内容中生成SCORM输出
+description: 了解如何在产品培训和学习中生成SCORM输出
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 3de623d6-c547-42a5-9ce4-c3e09accb8b1
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -28,6 +29,3 @@ ht-degree: 0%
    ![](assets/scorm-view-output.png){width="650" align="left"}
 
 您可以将ZIP文件上传到学习管理系统，以便学习者可以使用该课程。
-
-
-
