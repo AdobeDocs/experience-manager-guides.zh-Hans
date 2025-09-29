@@ -73,5 +73,5 @@ ht-degree: 0%
 
 这些权限可帮助确保用户只能在其指定的文件夹中创建或修改内容。
 
-有关详细信息，请在AEM中查看[权限](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem)。
+有关详细信息，请在AEM中查看[权限](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/security/security#permissions-in-aem)。
 
