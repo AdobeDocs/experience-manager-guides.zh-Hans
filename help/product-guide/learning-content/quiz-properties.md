@@ -28,5 +28,5 @@ ht-degree: 0%
 
   ![](assets/additional-quiz-properties.png){width="350" height="200" align="left"}
 
-- 您可以使用测验属性中的&#x200B;**允许内容重新访问**选项在正在进行的测验期间重新访问课程内容；类似于打开的书籍测试。 但是，启用此选项后，无法配置提交选项，并且测验计时功能被禁用。
+- 您可以使用测验属性中的&#x200B;**允许内容重新访问**&#x200B;选项在正在进行的测验期间重新访问课程内容；类似于打开的书籍测试。 但是，启用此选项后，无法配置提交选项，并且测验计时功能被禁用。
   ![](assets/quiz-allow-content-revist.png){width="350" height="200" align="left"}
