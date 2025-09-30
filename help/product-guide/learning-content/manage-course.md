@@ -4,7 +4,7 @@ description: 了解Experience Manager Guides中的各种功能，利用这些功
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您还可以使用&#x200B;**Add Existing**>**File (Resource only zip)**&#x200B;选项来包含解压缩并集成到最终SCORM输出的文件夹结构中的zip文件。 这有助于在课程发布期间简化资源打包。
+>您还可以使用&#x200B;**Add Existing** > **File (Resource only zip)**&#x200B;选项来包含解压缩并集成到最终SCORM输出的文件夹结构中的zip文件。 这有助于在课程发布期间简化资源打包。
 
 有关视频概述，请查看[将现有内容添加到课程](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
 
