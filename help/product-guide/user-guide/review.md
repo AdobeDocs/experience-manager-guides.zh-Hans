@@ -4,9 +4,9 @@ description: 在AEM Guides中高效地查看主题或地图，以实现顺利的
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+source-git-commit: 6f18b2e4b5cd095f5b446fa9a78badfcdbefc068
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Adobe Experience Manager Guides为&#x200B;*启动器\（或作者\）*&#x200B;�
 - 实时查看其他审阅人发表的评论或作者对评论的回复。
 - 访问针对旧版主题给出的注释。
 
->[!NOTE]
->
-> 查看最佳实践指南中的&#x200B;*审核*&#x200B;部分，了解有关创建审核任务的最佳实践。
 
 - **[创建DITA项目](authoring-create-dita-project.md)**
 
