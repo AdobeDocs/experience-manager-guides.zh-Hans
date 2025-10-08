@@ -60,7 +60,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
-> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.1.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.1.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 在继续升级到版本5.1.0的Experience Manager Guides之前，必须考虑以下几点：
 
@@ -69,7 +69,7 @@ ht-degree: 7%
 - 如果您使用的是版本4.3.x、4.2、4.2.1（修补程序4.2.1.3）、4.1或4.1.x，则需要在升级到版本5.1.0之前升级到版本4.4。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
 
 >[!NOTE]
 >
