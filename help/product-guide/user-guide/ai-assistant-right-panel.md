@@ -2,7 +2,7 @@
 title: 使用AI助手智能创作文档'
 description: 了解如何使用AI Assistant智能高效地创作文档。
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 3d344a1d1b8d51ddadd618db5296531f549dc70b
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Adobe Experience Manager Guides提供了一个AI助手工具，可帮助您更�
 
 >[!NOTE]
 >
-> 此创作功能仅适用于DITA主题，并且只能从编辑器界面访问。 在主页和地图控制台上，仅显示&#x200B;**帮助**&#x200B;面板。 “创作”功能下可用的选项由管理员使用编辑器设置在文件夹配置文件级别进行配置。
+> 此创作功能仅适用于DITA主题，并且只能从编辑器界面访问。 在主页和地图控制台上，仅显示&#x200B;**帮助**&#x200B;面板。 “创作”功能下可用的选项由管理员使用Workspace设置在文件夹配置文件级别配置。
 
 在主题中选择文本后，您可以选择执行任何AI助手操作：
 

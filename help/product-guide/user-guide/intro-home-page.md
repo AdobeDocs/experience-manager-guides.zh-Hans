@@ -4,9 +4,9 @@ description: 了解Adobe Experience Manager Guides的主页。
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Experience Manager Guides主页分为以下部分：
   [AI助手](./ai-assistant.md)功能当前仅适用于Adobe Experience Manager as Cloud Service。
 - **自定义概述部分**：允许您隐藏或显示小组件部分中的小组件。
 - **正在使用的文件夹配置文件**：显示当前正在使用的文件夹配置文件。
+- **更多操作**：提供对其他选项的访问权限。 选择此按钮将打开一个菜单，其中包含以下选项：
+
+   - **Assets**：根据您的设置将您转到目标。
+      - **Cloud Services**：如果您使用的是Cloud Services，则选择&#x200B;**Assets**&#x200B;选项会转到AEM导航页面。
+
+      - **内部部署软件**：如果您使用的是Adobe Experience Manager Guides（4.2.1及更高版本），则选择&#x200B;**Assets**&#x200B;选项会将您转到Assets UI中的当前文件路径。
+   - **Workspace设置**：转到&#x200B;**Workspace设置**&#x200B;对话框。 有关详细信息，请查看[配置Workspace设置](../cs-install-guide/workspace-settings.md)。
+
+     >[!NOTE]
+     >
+     > 在主页上，Workspace设置选项仅可用于Cloud Services设置。 在On-Premise设置中，主页上的更多操作选项不可用。 但是，您仍然可以通过“编辑器”界面和“映射”控制台访问相关设置，方法是导航到更多选项>设置。
+
 - **展开视图**：允许您使用&#x200B;**展开**&#x200B;图标展开页面视图。 在此视图中，标题栏是隐藏的，从而最大化内容空间。 要返回到标准视图，请使用&#x200B;**退出扩展视图**&#x200B;图标。
 
 ## 左侧面板
@@ -169,7 +181,7 @@ Experience Manager Guides允许您使用名为&#x200B;**映射收藏集**&#x200B
 
 - **外观**：“外观”选项卡为您提供了选择应用程序主题和内容编辑区域源视图的选项。 使用此选项卡可配置以下设置：
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **应用程序主题和Source视图**：您可以从应用程序和源视图的浅色或深色主题中进行选择。 在浅色主题的情况下，工具栏和面板使用浅灰色背景。 在深色主题的情况下，工具栏和面板使用黑色背景。 选择&#x200B;**使用设备**&#x200B;主题，以允许Experience Manager Guides根据设备主题选择浅色和深色主题。
 

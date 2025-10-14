@@ -4,10 +4,10 @@ description: 了解如何从“地图”控制台创建知识库预设。 在AEM
 feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1260'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 1. [在映射控制台](./open-files-map-console.md)中打开DITA映射文件。
 
-   您还可以从[概述部分](./intro-home-page.md#overview)中的&#x200B;**最近使用的文件**&#x200B;构件访问映射文件。 选定的映射文件将在映射控制台中打开。
+   您还可以从&#x200B;**概述部分**&#x200B;中的[最近使用的文件](./intro-home-page.md#overview)构件访问映射文件。 选定的映射文件将在映射控制台中打开。
 1. 在&#x200B;**输出预设**&#x200B;选项卡中，选择+图标以创建输出预设。
 1. 从&#x200B;**新建输出预设**&#x200B;对话框的“类型”下拉列表中选择&#x200B;**知识库**。
 1. 在&#x200B;**目标**&#x200B;字段中，为生成的输出选择目标。 可用选项为：**Adobe Experience Manager**、**Salesforce**&#x200B;和&#x200B;**ServiceNow**。
@@ -71,7 +71,7 @@ ht-degree: 1%
 | --- | --- |
 | 使用文章路径 | 选择此选项可查看包含知识库模板的文件夹的&#x200B;**文章路径**。 |
 | 文章路径 | 如果您选择选项&#x200B;**使用文章路径**，则会显示此字段。 浏览以选择Adobe Experience Manager存储库中存储输出的知识库网站。 |
-| 站点 | 使用此字段选择所需的Adobe Experience Manager知识库。 您可以在Adobe Experience Manager站点中配置知识库，以根据权限存储内容。 可以将此DITA映射中的文章发布到这些知识库。 |
+| 网站 | 使用此字段选择所需的Adobe Experience Manager知识库。 您可以在Adobe Experience Manager站点中配置知识库，以根据权限存储内容。 可以将此DITA映射中的文章发布到这些知识库。 |
 | 类别 | 从下拉列表中选择一个类别，以在Adobe Experience Manager站点上发布该类别中目录的主题。 |
 | 区域模板和文章模板 | 这些是用于组织输出内容的结构组件。 这些是在Adobe Experience Manager站点模板中预定义的。 |
 | 后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在Adobe Experience Manager中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。<br>了解有关如何[自定义输出后生成工作流](../install-guide/customize-workflows.md#id17A6GI004Y4)部分的详细信息，请参阅安装和配置指南。 |
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 | ServiceNow选项 | 描述 |
 | --- | --- |
-| 发布个人资料 | 使用下拉菜单从管理员配置的ServiceNow连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的详细信息，请在[左侧面板](./web-editor-features.md#id2051EA0M0HS)部分中查看&#x200B;**编辑器设置**&#x200B;功能说明。 |
+| 发布个人资料 | 使用下拉菜单从管理员配置的ServiceNow连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的更多信息，请在&#x200B;**左侧面板**&#x200B;部分中查看&#x200B;**Workspace设置**（显示为&#x200B;**内部部署**&#x200B;的[设置](./web-editor-features.md#id2051EA0M0HS)）功能说明。 |
 | 知识库 | 使用此字段选择所需的ServiceNow知识库。 您可以在ServiceNow站点中配置知识库，以根据权限存储内容。 可以将此DITA映射中的文章发布到这些知识库。 |
 | 类别和子类别 | 类别类似于用于查找和分类ServiceNow Knowledge Base文章的分层树。 添加类别和子类别，将目录的主题和子主题发布到ServiceNow站点上的该类别和子类别中。 |
 
@@ -96,7 +96,7 @@ ht-degree: 1%
 
 | Salesforce选项 | 描述 |
 | --- | --- |
-| 发布个人资料 | 使用下拉菜单从管理员配置的Salesforce连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的详细信息，请在[选项卡栏](./web-editor-features.md#tab-bar)部分中查看&#x200B;**设置**&#x200B;功能说明。 |
+| 发布个人资料 | 使用下拉菜单从管理员配置的Salesforce连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的详细信息，请在&#x200B;**选项卡栏**&#x200B;部分中查看&#x200B;**Workspace设置**（显示为&#x200B;**内部部署**&#x200B;的[设置](./web-editor-features.md#tab-bar)）功能说明。 |
 | 记录类型 | 根据基于用户配置文件的可见性设置，使用下拉菜单从Salesforce中设置的记录类型中进行选择。 Salesforce记录类型是一种对该对象进行多种类型记录分组的方法。 它们定义出版物的组织方式。 例如，您可以选择常见问题解答记录类型，并根据常见问题解答页面布局和字段进行发布。 |
 | 文章内容字段 | 每个记录类型模板可以有不同的字段和唯一的布局。 使用这些字段可根据文章类型输入特定信息。 例如，您可以查看常见问题解答文章的标题、答案和方程式。 |
 | 类别 | 从下拉列表中选择一个类别，以在Salesforce站点上发布该类别中目录的主题。 |

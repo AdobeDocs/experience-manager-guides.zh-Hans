@@ -3,9 +3,10 @@ title: 编辑器中的选项卡栏
 description: 了解编辑器中的选项卡栏。 了解Adobe Experience Manager Guides中的编辑器界面和功能。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 作为管理员，您还可以选择在选项卡中按文件名查看文件列表。 在[用户首选项](./intro-home-page.md#user-preferences)中选择&#x200B;**编辑器文件显示配置**&#x200B;节的&#x200B;**文件名**&#x200B;选项。
+> 作为管理员，您还可以选择在选项卡中按文件名查看文件列表。 在&#x200B;**用户首选项**&#x200B;中选择&#x200B;**编辑器文件显示配置**&#x200B;节的[文件名](./intro-home-page.md#user-preferences)选项。
 
 选择“文件”选项卡将打开一个上下文菜单，其中具有“另存为新版本”、“复制”、“查找位置”、“添加到”、“属性”、“拆分”、“下载为PDF”和“关闭”选项。
 
@@ -50,6 +51,10 @@ ht-degree: 0%
    - **Cloud Services**：如果您使用的是Cloud Services，则选择&#x200B;**Assets**&#x200B;选项会转到AEM导航页面。
 
    - **内部部署软件**：如果您使用的是Adobe Experience Manager Guides（4.2.1及更高版本），则选择&#x200B;**Assets**&#x200B;选项会将您转到Assets UI中的当前文件路径。
-- **设置**：转到“编辑器设置”对话框。 有关详细信息，请参阅[使用编辑器设置](./web-editor-settings.md)。
+- **Workspace设置**：转到Workspace设置对话框。 有关详细信息，请查看[配置Workspace设置](../cs-install-guide/workspace-settings.md)。
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+>[!NOTE]
+>
+> 如果在内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下继续显示为&#x200B;**设置**。
+
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

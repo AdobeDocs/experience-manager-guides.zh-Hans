@@ -4,9 +4,9 @@ description: 了解地图控制台以及允许您在Adobe Experience Manager Gui
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,12 @@ Adobe Experience Manager Guides提供了一个专用控制台（称为&#x200B;**
 
    - **导航切换器**：允许无缝导航到其他页面 — 编辑器或主页：
    - **选定的映射文件**：显示当前选定映射文件的名称。 您可以在编辑器中打开它，或为“映射”控制台选择其他映射文件。
-   - **更多操作**：提供用于导航到&#x200B;**Assets UI**&#x200B;和&#x200B;**设置**&#x200B;的选项。 有关详细信息，请参阅[了解编辑器功能](./web-editor-features.md#tab-bar)文档的&#x200B;**更多操作**&#x200B;部分。
+   - **更多操作**：提供用于导航到&#x200B;**Assets UI**&#x200B;和&#x200B;**Workspace设置**&#x200B;的选项。 有关详细信息，请查看[选项卡栏](./web-editor-tab-bar.md)。
+
+  >[!NOTE]
+  >
+  > 如果在内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下继续显示为&#x200B;**设置**。
+
    - **展开视图**：允许您使用&#x200B;**展开**&#x200B;图标展开页面视图。 在此视图中，标题栏是隐藏的，从而最大化内容空间。 要返回到标准视图，请使用&#x200B;**退出扩展视图**&#x200B;图标。
 
   >[!NOTE]
@@ -50,7 +55,7 @@ Adobe Experience Manager Guides提供了一个专用控制台（称为&#x200B;**
 
 **报告创建和管理**
 
-在组织设置中，您需要先验证技术文档的整体完整性，然后再开始处理技术文档或将文档推送到现场。 在多用户和大规模环境中，这种需求变得更加重要。 通过映射控制台，您可以访问Experience Manager Guides报表，这些报表可以针对存储库中内容的整体运行状况以及文档过程中内容的使用方式提供有用的洞察。
+在组织设置中，您需要先验证技术文档的整体完整性，然后再开始处理技术文档或将文档推送到现场。 在多用户和大规模环境中，这种需求变得更加重要。 通过映射控制台，您可以访问Experience Manager Guides报表，这些报表为存储库中内容的整体运行状况以及文档过程中内容的使用方式提供了有用的insight。
 
 有关更多详细信息，请在Experience Manager Guides中查看[报告](./reports-intro.md)。
 
@@ -77,6 +82,6 @@ Experience Manager Guides提供的强大功能使您能够将内容翻译成多�
 
 Workfront功能也存在于映射控制台中，允许您直接从Experience Manager Guides处理Adobe Workfront任务。
 
-了解Experience Manager Guides[&#128279;](./workfront-integration.md)中的Adobe Workfront集成。
+了解Experience Manager Guides[中的](./workfront-integration.md)Adobe Workfront集成。
 
 仅当管理员在Experience Manager Guides实例中配置了&#x200B;**Adobe Workfront**&#x200B;集成时，您才可以访问此功能。

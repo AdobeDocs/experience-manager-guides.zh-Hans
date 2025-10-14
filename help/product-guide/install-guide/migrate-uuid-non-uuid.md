@@ -5,23 +5,35 @@ exl-id: f8b723bf-84c0-4fe6-936e-63970fb3e417
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: c9ad3bd0e43863ac9ad65776e4e8a81c3176f9a0
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# UUID内容迁移 {#id226TI0U20XA}
+# 非UUID到UUID内容迁移 {#id226TI0U20XA}
 
 
-您可以将非UUID内容迁移到UUID。
+您可以根据正在使用的Experience Manager Guides的当前版本，将非UUID内容迁移到UUID。
 
 >[!IMPORTANT]
 >
 > 在将内容迁移到UUID服务器之前，请确保您的非UUID服务器上安装了兼容的AEM Guides版本。
 
+## 兼容性矩阵
 
-* [**从NON-UUID迁移到UUID内容**](./migrate-non-uuid-uuid.md)
-* [**迁移受版本控制的内容（旧版）**](./migrate-non-uuid-uuid-with-versions-legacy.md)
+请根据您当前的非UUID版本使用以下矩阵来确定正确的迁移路径。 这确保在迁移后实现平稳过渡。
+
+| 迁移需要非UUID版本 | 迁移后的UUID版本 | 迁移后支持的升级路径 |
+|---|---|---|
+| 4.3.1非UUID | 4.3.2 UUID | 迁移到版本4.3.2 UUID后，您可以直接安装4.6.0 (UUID)。 在4.6.0上运行后，升级到5.1.0版，然后安装5.1.0 Service Pack 1。 |
+| 4.6.0 Service Pack 4非UUID | 4.6.1 UUID | 迁移到版本4.6.1 UUID后，您可以直接升级到5.1.0 (UUID)。 升级完成后，安装版本5.1.0 Service Pack 1。 |
+
+有关迁移内容的详细步骤，请参阅以下文章：
+
+- [从**4.3.1非UUID迁移到4.3.2 UUID内容**](./migrate-non-uuid-4-3.md)
+- [从**4.6.0 Service Pack 4非UUID迁移到4.6.1 UUID内容**](./migrate-non-uuid-uuid-4-6.md)
+
+
 

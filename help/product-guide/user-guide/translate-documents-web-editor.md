@@ -4,9 +4,9 @@ description: 从Web编辑器将内容翻译成多种语言。 了解如何在AEM
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    除了新的翻译项目外，您还可以从以下选项中进行选择：
 
    - 您可以选择&#x200B;**仅为翻译项目创建结构**。
-   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**&#x200B;以将XML内容转换为XML本地化交换文件格式(XLIFF)。 XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。 Experience Manager Guides支持XLIFF版本1.2。
+   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**以将XML内容转换为XML本地化交换文件格式(XLIFF)。 XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。 Experience Manager Guides支持XLIFF版本1.2。
 在XLIFF项目中，内容将导出为行业标准XLIFF格式，可提供给翻译供应商。 XLIFF格式使您在翻译阶段已翻译的区段有可能得到重用。\
      翻译XLIFF内容后，可将其导入Experience Manager Guides，从而创建原始DITA项目的翻译版本。
 
@@ -157,7 +157,7 @@ Experience Manager Guides根据翻译项目的源语言选择SRX规则。 它会
 
 Experience Manager Guides允许您将源文件的标签传递到目标文件。 这将帮助您轻松识别已翻译文件的源版本。
 
-若要在目标副本中添加源版本标签，系统管理员必须在&#x200B;**设置**&#x200B;中的&#x200B;**翻译**&#x200B;选项卡下启用&#x200B;**将源版本标签传播到目标版本**&#x200B;选项。
+若要在目标副本中添加源版本标签，系统管理员必须在&#x200B;**Workspace设置**&#x200B;中的&#x200B;**翻译**&#x200B;选项卡下启用&#x200B;**将源版本标签传播到目标版本**&#x200B;选项（对&#x200B;**内部部署**&#x200B;显示为&#x200B;**设置**）。
 
 例如，如果您有一些应用了版本标签`Release 1.0`的源文件，则还可以将源标签\(`Release 1.0`\)传递到已翻译的文件。
 
@@ -219,11 +219,11 @@ Experience Manager Guides提供了用于检查主题的所选版本与上次翻�
 > 
 >此功能适用于您使用Experience Manager Guides 2404版本或更高版本创建的新翻译项目。  它不会影响任何现有项目。
 
-您的管理员可以在&#x200B;**编辑器设置**&#x200B;中的&#x200B;**翻译**&#x200B;选项卡下配置&#x200B;**完成后翻译项目清理**&#x200B;选项，以自动禁用或删除翻译项目。
+您的管理员可以在&#x200B;**Workspace设置**（对&#x200B;**内部部署**&#x200B;显示为&#x200B;**设置**）中的&#x200B;**翻译**&#x200B;选项卡下配置&#x200B;**完成后翻译项目清理**&#x200B;选项，以自动禁用或删除翻译项目。
 
 为实现文档管理，Experience Manager Guides提供了在完成翻译之后删除翻译项目的功能。
 
 如果您希望稍后使用翻译项目，也可以禁用这些项目。 删除项目会删除项目中存在的所有文件和文件夹。 禁用项目不会删除它，而是将其保留在存储库中。 但无法更新或编辑已禁用的项目。  删除或禁用项目不会影响任何引用的翻译状态。
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

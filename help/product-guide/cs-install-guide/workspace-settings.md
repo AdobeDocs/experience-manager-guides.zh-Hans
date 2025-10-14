@@ -3,17 +3,16 @@ title: Experience Manager Guides中的Workspace设置
 description: 了解Experience Manager Guides编辑器界面中可用的各种设置。
 feature: Authoring, Features of Web Editor
 role: User
-exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: a1e0571e596a44ee67d49658a718e24d9ab3b467
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
 
 # Workspace设置
 
-编辑器&#x200B;**选项卡栏**&#x200B;中存在的[Workspace设置](./web-editor-tab-bar.md)选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
+编辑器&#x200B;**选项卡栏**&#x200B;中存在的[Workspace设置](../user-guide/web-editor-tab-bar.md)选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
 
 - [常规](#general)
 - [面板](#panels)
@@ -29,20 +28,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果要更新任何默认设置，则应重新打开文档以使更改生效。
+> - 如果在内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下继续显示为&#x200B;**设置**。
+> - 如果要更新任何默认设置，则应重新打开文档以使更改生效。
 
 ## 常规
 
 常规设置允许您配置设置以使用编辑器。 此选项卡包含五个部分：**AI助手**、**创作**、**引用**、**条件**&#x200B;和&#x200B;**拼写检查**。
 
-![](images/editor-setting-general.png){width="350" align="left"}
+![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **AI助手**
-选择此项可在Experience Manager Guides中启用[AI助手](./ai-assistant.md)功能。 取消选择可禁用该功能。
+选择此项可在Experience Manager Guides中启用[AI助手](../user-guide/ai-assistant.md)功能。 取消选择可禁用该功能。
 
   启用&#x200B;**AI助手**&#x200B;切换后，您可以使用&#x200B;**创作快速操作**&#x200B;菜单为作者配置在&#x200B;**创作选项卡**&#x200B;下显示的选项，如下所示。\
   这些更改适用于您正在处理的特定文件夹配置文件。 如果您创建新的文件夹配置文件，则默认情况下它将继承&#x200B;**全局**&#x200B;文件夹配置文件中定义的Workspace设置。 您可以使用&#x200B;**Workspace设置**&#x200B;根据需要修改这些设置并保存更新的配置。\
-  有关使用AI助手创作可用选项的详细概述，请使用AI助手智能地查看[创作文档](./ai-assistant-right-panel.md)。
+  有关使用AI助手创作可用选项的详细概述，请使用AI助手智能地查看[创作文档](../user-guide/ai-assistant-right-panel.md)。
 
   通过&#x200B;**创作快速操作**&#x200B;菜单，您可以：
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    - 更改选项的显示顺序，根据需要拖放它们。
 
-  ![](images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
 
 
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 - **引用**
 
-  更改引文样式。 从要在项目中使用的下拉列表中选择引用样式。 有关更多详细信息，请查看[更改引文样式](./web-editor-apply-citations.md#change-citation-style)。
+  更改引文样式。 从要在项目中使用的下拉列表中选择引用样式。 有关更多详细信息，请查看[更改引文样式](../user-guide/web-editor-apply-citations.md#change-citation-style)。
 
 - **条件**
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    - **在“主题方案”面板中显示带有标题的键**：选择此项可显示主题方案中的键和标题。 如果不选择此选项，则只显示标题。 例如，此处“os”、“audience”和“other”键也会与标题一起显示。
 
-     ![](images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
 
    - **在条件面板中显示主题方案**：选择此项可在条件面板中查看主题方案。 如果取消选择此选项，则定义的条件将显示在条件面板中。
 
@@ -82,11 +82,11 @@ ht-degree: 0%
 
 此设置控制编辑器和“地图”控制台的左右面板中显示的面板。 您可以切换按钮以显示或隐藏所需的面板。
 
-![](images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
 
 还可定义面板中特征的显示顺序。 要更改面板中可用功能的默认顺序，请选择虚线将功能选项卡拖放到所需位置。 功能也可以根据需要从&#x200B;**更多**&#x200B;部分移动到面板的主部分，反之亦然。 重新排序后，这些功能将以相同的顺序显示在相应的右侧面板和左侧面板中。
 
-![](images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen.png){width="650" align="left"}
 
 
 一次最多可以显示8个面板。 对面板设置所做的任何更改都将立即应用。
@@ -100,23 +100,23 @@ ht-degree: 0%
 
 作为管理员，您可以控制作者可以插入到文件中的元素列表，还可以定义元素的显示名称。 利用元素列表设置，可根据DITA规范指定元素名称以及要使用的标签而不是DITA定义的元素名称：
 
-![](images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
 
 在上述屏幕快照中，`p`元素被赋予了Paragraph标签，`codeblock`被赋予了Code Block标签以及其他一些元素。 如果选择&#x200B;**仅使用以上元素**&#x200B;选项，则&#x200B;**插入元素**&#x200B;对话框中只会显示此列表中的有效元素\（在当前插入点\）。
 
 在以下屏幕快照中，当前上下文中只显示前一个屏幕快照中4个已配置元素中的3个：
 
-![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
 
 ## 属性列表
 
 与元素列表类似，您可以控制要在元素的属性列表中显示的属性及其显示名称。 在以下屏幕截图中，只有3个属性已配置为在元素的属性列表中显示：
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
 
 使用此设置，当尝试将属性添加到元素时，您只能查看列表中配置的属性列表。
 
-![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
 
 ## 颜色
@@ -148,7 +148,7 @@ ht-degree: 0%
 
    - 要创建Salesforce配置文件，请从&#x200B;**服务器类型**&#x200B;下拉列表中选择&#x200B;**Salesforce**&#x200B;知识库。 输入配置文件名称。 在&#x200B;**站点URL**&#x200B;中，输入用于发布输出的使用者站点，然后添加由Salesforce使用者站点提供的&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 然后，**验证**&#x200B;和&#x200B;**保存**&#x200B;新创建的配置文件。
 
-     ![工作区设置中的salesforce发布配置文件](./images/salesforce-publish-profile.png){width="550" align="left"}
+     ![工作区设置中的salesforce发布配置文件](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 - 要创建配置文件，请从&#x200B;**服务器类型**&#x200B;下拉列表中选择ServiceNow知识库。 输入配置文件&#x200B;**名称**。 在&#x200B;**ServiceNow URL**&#x200B;中，输入用于发布输出的使用者网站，然后添加由ServiceNow使用者网站提供的&#x200B;**用户名**&#x200B;和&#x200B;**密码**。 然后，**验证**&#x200B;和&#x200B;**保存**&#x200B;新创建的配置文件。
 
-  ![ServiceNow发布配置文件](./images/service-now-publish-profile.png){width="550" align="left"}
+  ![ServiceNow发布配置文件](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
   验证后，您可以在DITA Map的输出预设中选择发布配置文件，并使用它生成到您选择的&#x200B;**Salesforce**&#x200B;或&#x200B;**ServiceNow**&#x200B;服务器的输出。
 
@@ -190,7 +190,7 @@ ht-degree: 0%
   >
   > 选定的架构文件将在选定的文件夹配置文件中保留。
 
-  ![在工作区设置中进行验证](./images/editor-setting-validation.png){width="550" align="left"}
+  ![在工作区设置中进行验证](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
   这会阻止用户保存任何违反选定架构文件中定义的规则的文件。 如果未选择此选项，则在保存更改之前不会验证文件。
 
@@ -203,13 +203,13 @@ ht-degree: 0%
 
 为元素定义的属性将显示在“布局”和“大纲”视图中。
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
 
 ## 翻译
 
 此选项卡包含创建语言组、将源标签传播到目标版本以及清理翻译项目的选项。
 
-![](images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
 
 - **语言组**：作为管理员，您可以创建一组语言，并将它们作为一组用于翻译内容。
 
@@ -227,7 +227,7 @@ ht-degree: 0%
       >
       > 将&#x200B;**显示更多**&#x200B;切换为&#x200B;**显示更少**&#x200B;并只查看几种语言。
 
-   1. 将鼠标悬停在组中的语言上以编辑![编辑图标](images/edit_pencil_icon.svg)或删除![删除](images/Delete_icon.svg)语言组。
+   1. 将鼠标悬停在组中的语言上以编辑![编辑图标](../user-guide/images/edit_pencil_icon.svg)或删除![删除](../user-guide/images/Delete_icon.svg)语言组。
    1. 保存&#x200B;**设置**。
 
       >[!NOTE]
@@ -250,7 +250,7 @@ ht-degree: 0%
 如果元数据路径为空，则会显示错误。 如果将标签留空，则会选取最后一个元素作为标签。
 
 
-工作区设置中的![元数据选项卡](images/editor-setting-metadata.png){width="550" align="left"}
+工作区设置中的![元数据选项卡](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
 *为&#x200B;**版本历史记录**对话框配置元数据。*
 
@@ -259,4 +259,4 @@ ht-degree: 0%
 您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
 元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。
 
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
+source-git-commit: fc262885e33f7874dd4a9a09cf3c90d3e6b805d5
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2401'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 8%
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2025版 {#2025-releases}
+            - 2025.10.0发行版 {#2510-release}
+               - [新增功能](./release-info/whats-new-2025-10-0.md)
+               - [修复的问题](./release-info/fixed-issues-2025-10-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2025-10-0.md)
             - 2025.08.0发行版 {#2508-release}
                - [新增功能](./release-info/whats-new-2025-08-0.md)
                - [修复的问题](./release-info/fixed-issues-2025-08-0.md)
@@ -151,8 +155,8 @@ ht-degree: 8%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -180,8 +184,7 @@ ht-degree: 8%
             - [左侧面板](./user-guide/web-editor-left-panel.md)
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
-         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
-         - [使用编辑器设置](./user-guide/web-editor-settings.md)
+         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -350,7 +353,7 @@ ht-degree: 8%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
@@ -369,8 +372,8 @@ ht-degree: 8%
       - 内容迁移 {#content-migration}
          - [非UUID到UUID内容迁移](./install-guide/migrate-uuid-non-uuid.md)
          - 迁移过程 {#migration-process}
-            - [使用版本迁移非UUID内容](./install-guide/migrate-non-uuid-uuid.md)
-            - [使用版本（旧版）迁移非UUID内容](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
+            - [从4.3.1非UUID迁移到4.3.2 UUID内容](./install-guide/migrate-non-uuid-4-3.md)
+            - [从4.6.0非UUID迁移到4.6.1 UUID内容](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [迁移现有内容](./install-guide/migrate-content.md)
          - [上载现有DITA内容](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [迁移非DITA内容](./install-guide/migrate-content-non-dita.md)
@@ -475,6 +478,8 @@ ht-degree: 8%
          - [配置自定义DITA映射模板](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - 使用文档状态 {#doc-state-cs}
          - [配置文档状态](./cs-install-guide/customize-doc-state.md)
+      - 配置Workspace设置 {#workspace-configs}
+         - [Workspace设置](./cs-install-guide/workspace-settings.md)
       - 使用Web编辑器配置 {#web-editor-configs-cs}
          - [自定义Web编辑器](./cs-install-guide/conf-web-editor.md)
          - [自定义工具栏](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -538,6 +543,7 @@ ht-degree: 8%
    - [用于处理文件夹配置文件的基于Java的API](./api-reference/folder-profile-java.md)
    - [用于创建和激活包的基于Java的API](./api-reference/create-activate-package-java.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
+   - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
    - [批量激活完成事件处理程序](./api-reference/bulk-activation-complete-event.md)
    - [转换过程事件处理程序](./api-reference/conversion-complete-event.md)
 - 知识库 {#knowledge-base}
@@ -630,7 +636,7 @@ ht-degree: 8%
       - 翻译 {#translation}
          - [提高翻译性能的最佳实践](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
          - [从翻译中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-      - 使用案例 {#use-cases}
+      - 用例 {#use-cases}
          - [使用条件内容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [使用键](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
          - [在从AEM Guides生成的AEM Sites页面中启用上下文内容变量(CCVAR)](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)

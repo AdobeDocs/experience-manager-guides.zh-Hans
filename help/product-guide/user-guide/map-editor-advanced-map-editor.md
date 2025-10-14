@@ -4,9 +4,9 @@ description: 了解Adobe Experience Manager Guides中地图编辑器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
+source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **此项前插入/此项后插入** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-显示&#x200B;**在之前插入元素或**&#x200B;在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
+显示**在之前插入元素或**在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
 
 **元素** - ![](images/Add_icon.svg)
 
@@ -280,7 +280,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
   >
   > 如果&#x200B;*预览图*&#x200B;选项在主工具栏中不可见，则它可能已移动到&#x200B;**更多**&#x200B;工具栏菜单下。
 
-- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”**&#x200B;**&#x200B;以查看当前映射的预览。
+- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”****&#x200B;以查看当前映射的预览。
 
   ![](images/map-preview-icon.png){width="650" align="left"}
 
@@ -343,12 +343,12 @@ Experience Manager Guides允许作者在编辑器中打开DITA映射并查看主
 
 “内容”属性面板包含有关地图中当前选定主题的类型、其链接URL及其属性的信息。 有关详细信息，请在编辑器中查看[内容属性](web-editor-features.md#right-panel)。
 
-- **其他属性**&#x200B;如果管理员为属性创建了配置文件，则您将获得这些属性及其配置值。 使用“内容属性”面板，您可以选择这些属性，并将它们分配给主题中的相关内容。 您还可以在编辑器设置的&#x200B;**显示属性**&#x200B;选项卡下分配管理员配置的属性。 为元素定义的属性将显示在“布局”和“大纲”视图中。 这有助于快速查看映射中为其定义了特定属性的所有主题。 例如，所有具有`audience`属性的主题都定义为`US`。
+- **其他属性**&#x200B;如果管理员为属性创建了配置文件，则您将获得这些属性及其配置值。 使用“内容属性”面板，您可以选择这些属性，并将它们分配给主题中的相关内容。 您还可以在&#x200B;**显示属性**&#x200B;下分配管理员配置的属性。 为元素定义的属性将显示在“布局”和“大纲”视图中。 这有助于快速查看映射中为其定义了特定属性的所有主题。 例如，所有具有`audience`属性的主题都定义为`US`。
 
   ![布局视图](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  有关详细信息，请在&#x200B;*编辑器*&#x200B;中查看&#x200B;*设置*&#x200B;功能描述中的[显示属性](web-editor-features.md#main-toolbar)。
+  有关详细信息，请查看[显示属性](../cs-install-guide/workspace-settings.md#display-attributes)。
 
 - **元数据**&#x200B;您可以使用元数据设置元数据信息。 您可以定义导航标题、链接文本、简短说明和关键字。
 

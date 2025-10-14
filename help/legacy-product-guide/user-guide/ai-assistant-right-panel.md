@@ -2,7 +2,8 @@
 title: 使用AI助手智能创作文档'
 description: 了解如何使用AI助手在Web编辑器中高效地创作文档。
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: c7d37da8-e838-47a2-b469-287bcd841933
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -16,8 +17,8 @@ Experience Manager Guides提供了一个AI助手工具，可帮助您更智能�
 
 >[!NOTE]
 >
-> 要在右侧面板中添加AI助手功能，系统管理员必须在&#x200B;**编辑器设置** ![编辑器设置图标](./images/editor_settings_icon.svg)的&#x200B;**面板**&#x200B;选项卡下选择&#x200B;**AI助手**&#x200B;选项。
-> 此外，您必须签出文档才能查看AI助手图标。
+> 要在右侧面板中添加AI助手功能，系统管理员必须在&#x200B;**Workspace设置****Workspace设置图标**&#x200B;的&#x200B;**面板**&#x200B;选项卡下选择![AI助手](./images/editor_settings_icon.svg)选项。
+> > 此外，您必须签出文档才能查看AI助手图标。
 
 此功能仅适用于DITA主题。 在主题中选择文本后，您可以选择执行任何AI助手操作：
 
@@ -44,7 +45,7 @@ Experience Manager Guides提供了一个AI助手工具，可帮助您更智能�
 
 
 1. 选择要为其使用文本提示的文本。
-1. 从&#x200B;**AI助手**&#x200B;面板中选择&#x200B;**使用文本提示** ![ai使用文本提示图标](./images/ai-use-text-prompt.svg)。
+1. 从&#x200B;**AI助手**&#x200B;面板中选择![使用文本提示](./images/ai-use-text-prompt.svg) **ai使用文本提示图标**。
 1. 通过以下方式之一发出提示：
 
    - 从建议的提示中选择一个提示。

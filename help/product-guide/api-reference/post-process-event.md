@@ -5,9 +5,9 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8c992afc1cc56052e6c07ac3cea6e7d3412259b2
+source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '414'
 ht-degree: 5%
 
 ---
@@ -22,6 +22,9 @@ Adobe Experience Manager Guides公开用于执行任何后处理操作的`com/ad
 - 创建
 - 修改
 
+>[!NOTE]
+>
+> 后处理事件是通过启用`fire.processing.events`标志而触发的，该标志是`fmdita config manager`中的配置参数。 如果设置为true，它会触发事件(com/adobe/guides/postprocess/complete)以跟踪后处理完成。 默认情况下，设置为false（禁用）。
 
 您需要创建一个Adobe Experience Manager事件处理程序，以读取此事件中可用的属性并进行进一步处理。
 
