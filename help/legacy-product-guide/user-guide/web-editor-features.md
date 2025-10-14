@@ -156,7 +156,7 @@ ht-degree: 0%
 
      **前提条件**
 
-      - 为Salesforce创建连接的应用程序。 有关更多详细信息，请参阅[为API集成启用OAuth设置](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5)。
+      - 为Salesforce创建连接的应用程序。 有关更多详细信息，请参阅[为API集成启用OAuth设置](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5)。
 
       - 配置连接的应用程序时，请确保满足以下条件：
 

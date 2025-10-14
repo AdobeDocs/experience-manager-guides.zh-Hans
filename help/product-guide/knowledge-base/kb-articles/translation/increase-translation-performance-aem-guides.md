@@ -39,4 +39,4 @@ ht-degree: 0%
 
 参考：[自动删除或禁用已完成的翻译项目](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project)
 
-![在AEM Guides ](../assets/translation/translation-project-image3.png)中删除并禁用翻译项目的自动设置
+![在AEM Guides &#x200B;](../assets/translation/translation-project-image3.png)中删除并禁用翻译项目的自动设置
