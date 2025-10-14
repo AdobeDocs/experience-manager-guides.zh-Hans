@@ -219,5 +219,5 @@ ht-degree: 1%
    > 如果在迁移之前，属性&#x200B;**在**&#x200B;中使用AEM站点页面名称的标题`com.adobe.fmdita.config.ConfigManager`，设置为&#x200B;*False*，则在迁移之后，需要更新此属性。
 
 
-1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。
+1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hans`）。
 
