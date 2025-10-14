@@ -161,7 +161,7 @@ ht-degree: 8%
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页 {#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -184,7 +184,7 @@ ht-degree: 8%
             - [左侧面板](./user-guide/web-editor-left-panel.md)
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
-         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
+         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)

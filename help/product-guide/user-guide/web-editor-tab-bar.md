@@ -57,4 +57,4 @@ ht-degree: 0%
 >
 > 如果在内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下继续显示为&#x200B;**设置**。
 
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
