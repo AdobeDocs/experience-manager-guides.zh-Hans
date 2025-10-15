@@ -28,4 +28,4 @@ ht-degree: 1%
 
 * [[!DNL AEM Guides] 用户指南（新UI）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/overview)
 * [[!DNL AEM Guides] 学习与支持](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)
-* [Experience League — 浏览AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
+* [Experience League — 浏览AEM](https://business.adobe.com/cn/products/experience-manager/adobe-experience-manager.html)
