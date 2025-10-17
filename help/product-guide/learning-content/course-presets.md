@@ -4,9 +4,9 @@ description: 介绍了在产品培训和学习中用于发布课程的支持预�
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 - **PDF：** PDF输出预设允许您以专业的、可打印的格式发布课程内容。 PDF格式非常适合用于共享内容以供审阅或存档。
 
-有关如何创建、配置和生成预设输出的视频概述，请查看[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)。
+有关如何创建、配置和生成预设输出的视频概述，请查看[支持的预设](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg)。
