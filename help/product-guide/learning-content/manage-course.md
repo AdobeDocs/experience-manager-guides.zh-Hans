@@ -4,9 +4,9 @@ description: 了解Experience Manager Guides中的各种功能，利用这些功
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
+source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
    - **组**：学习组帮助将相关主题（如章节、主题和其他模块）按逻辑顺序组织，从而构建清晰的层次结构，以便于管理和重复使用培训材料。
 3. 选择&#x200B;**创建**。
 
-选定内容随即会创建并添加到课程中。 有关视频概述，请查看[向课程添加新内容](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
+选定内容随即会创建并添加到课程中。 有关视频概述，请查看[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
 
 ## 添加现有内容
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 >
 >您还可以使用&#x200B;**Add Existing** > **File (Resource only zip)**&#x200B;选项来包含解压缩并集成到最终SCORM输出的文件夹结构中的zip文件。 这有助于在课程发布期间简化资源打包。
 
-有关视频概述，请查看[将现有内容添加到课程](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
+有关视频概述，请查看[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)。
 
 ## 删除内容
 
@@ -58,7 +58,8 @@ ht-degree: 1%
 
 ![](assets/remove-learning-content.png)
 
-有关视频概述，请查看[从课程](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)中删除内容。
+有关视频概述，请查看[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)。
+
 
 ## 创建课程版本
 
@@ -82,4 +83,4 @@ ht-degree: 1%
 
 ![](assets/course-display-settings.png)
 
-有关视频概述，请查看[显示选项](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)。
+有关视频概述，请查看[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)。
