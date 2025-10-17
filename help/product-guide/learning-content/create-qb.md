@@ -4,9 +4,9 @@ description: 了解如何在产品培训和学习中创建问题库
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
-执行以下步骤以创建题库：
+**创建问题库的步骤**
 
->[!VIDEO](https://video.tv.adobe.com/v/3469321)
+执行以下步骤以创建题库：
 
 1. 在&#x200B;**课程经理**&#x200B;中打开课程，然后从&#x200B;**选项菜单**&#x200B;中选择&#x200B;**添加新课程**。
 1. 选择&#x200B;**题库**。
-将打开&#x200B;**新问题库**&#x200B;对话框。 您可以从下拉菜单中选择模板，为问题库指定合适的标题，并指定希望此问题库存储在存储库中的路径。
+将打开**新问题库**&#x200B;对话框。 您可以从下拉菜单中选择模板，为问题库指定合适的标题，并指定希望此问题库存储在存储库中的路径。
 
    ![](assets/question-bank-create.png){width="350" align="left"}
 
