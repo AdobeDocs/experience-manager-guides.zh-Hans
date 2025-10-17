@@ -4,9 +4,9 @@ description: 了解如何在产品培训和学习测验中插入问题库中的�
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
+source-git-commit: 757582f6bdcb64b004d430679eaf6e8a5fbdc807
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ ht-degree: 0%
    ![](assets/inserted-question.png){width="650" align="left"}
 
 
-要快速了解视频概述，[插入来自题库](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)的问题![](assets/Smock_VideoCheckedOut_18_N.svg)。
+要快速查看视频概述，请查看[插入题库](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)中的问题![](assets/Smock_VideoCheckedOut_18_N.svg)。
