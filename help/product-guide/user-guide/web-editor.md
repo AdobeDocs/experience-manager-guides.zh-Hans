@@ -20,4 +20,4 @@ Experience Manager Guides附带一个易于使用的编辑器，用于创建和�
 
 
 
-**父主题：**[&#x200B;使用Experience Manager Guides创作内容](authoring-content-xml-doc.md)
+**父主题：**&#x200B;[&#x200B;使用Experience Manager Guides创作内容](authoring-content-xml-doc.md)
