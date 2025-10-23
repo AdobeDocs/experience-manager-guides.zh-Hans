@@ -4,7 +4,7 @@ description: 了解Adobe Experience Manager Guides中地图编辑器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
+source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 映射编辑器功能 {#id1942D0S0IHS}
 
-映射编辑器中的工具栏与主题编辑器类似。 切换左侧面板、保存映射、创建新版本的映射、撤消/重做上一个操作以及删除所选元素等基本操作在两个编辑器中都是通用的。 有关这些操作如何工作的详细信息，请查看[了解编辑器功能](web-editor-features.md#)部分。
+映射编辑器中的工具栏与主题编辑器类似。 切换左侧面板、保存映射、创建新版本的映射、撤消/重做上一个操作以及删除所选元素等基本操作在两个编辑器中都是通用的。 有关这些操作如何工作的详细信息，请查看编辑器[部分中的](web-editor-toolbar.md#)工具栏。
 
 您在编辑器工具栏中查看的选项基于映射编辑器视图。 地图编辑器中提供了四个视图：
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **此项前插入/此项后插入** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-显示&#x200B;**在之前插入元素或**&#x200B;在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
+显示**在之前插入元素或**在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
 
 **元素** - ![](images/Add_icon.svg)
 
@@ -280,7 +280,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
   >
   > 如果&#x200B;*预览图*&#x200B;选项在主工具栏中不可见，则它可能已移动到&#x200B;**更多**&#x200B;工具栏菜单下。
 
-- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”**&#x200B;**&#x200B;以查看当前映射的预览。
+- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”****&#x200B;以查看当前映射的预览。
 
   ![](images/map-preview-icon.png){width="650" align="left"}
 
