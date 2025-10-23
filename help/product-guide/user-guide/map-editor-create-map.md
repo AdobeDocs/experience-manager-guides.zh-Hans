@@ -4,7 +4,7 @@ description: 在Experience Manager Guides中使用“映射编辑器”创建映
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -56,17 +56,17 @@ Adobe Experience Manager Guides提供两个现成的映射模板 — DITA映射�
    ![](images/new-map-file-in-editor.png){align="left"}
 
 
-   - **A** - \（*选项卡栏*\）：这与编辑器的选项卡栏类似。 在编辑器中查看[选项卡栏](./web-editor-features.md#tab-bar)以了解更多详细信息。
+   - **A** - \（*选项卡栏*\）：这与编辑器的选项卡栏类似。 在编辑器中查看[选项卡栏](./web-editor-tab-bar.md)以了解更多详细信息。
 
    - **B** - \（*工具栏*\）这是允许您处理映射文件的工具栏。 有关通过工具栏提供的功能的详细信息，请查看地图编辑器工具栏中的[可用功能](#features-available-in-the-map-editors-toolbar)。
 
    - **C** - \（*映射视图*\）：允许您在布局、创作、Source和预览之间切换映射编辑器。 **布局**&#x200B;视图允许您在DITA映射中组织主题。 这将给出该映射的树或分层视图。 **作者**&#x200B;视图允许您在映射编辑器中编辑主题。 这还可以提供映射文件的WYSIWYG视图。 **Source**&#x200B;视图允许您使用映射文件的基础XML。 预览为您提供了映射文件中所有主题和子映射的统一视图。
 
-   - **D** - \（*左侧面板*\）：允许您访问左侧面板，该面板允许您访问收藏集、存储库、映射、大纲和其他功能。 您可以通过选择“展开/折叠”图标来展开或折叠它。 有关左侧面板中可用功能的更多详细信息，请在编辑器中查看[左侧面板](./web-editor-features.md#left-panel)。
+   - **D** - \（*左侧面板*\）：允许您访问左侧面板，该面板允许您访问收藏集、存储库、映射、大纲和其他功能。 您可以通过选择“展开/折叠”图标来展开或折叠它。 有关左侧面板中可用功能的更多详细信息，请在编辑器中查看[左侧面板](./web-editor-left-panel.md)。
 
    - **E** - \（*中间区域*\）：映射内容编辑区域。
 
-   - **F** - \（*右侧面板*\）：授予对“属性”面板的访问权限。 您可以查看所选主题或映射的内容属性和映射属性。 有关此面板中可用功能的更多详细信息，请在编辑器中查看[右侧面板](web-editor-features.md#right-panel)。
+   - **F** - \（*右侧面板*\）：授予对“属性”面板的访问权限。 您可以查看所选主题或映射的内容属性和映射属性。 有关此面板中可用功能的更多详细信息，请在编辑器中查看[右侧面板](web-editor-right-panel.md)。
 
 1. 在左侧面板中，切换到&#x200B;**存储库**&#x200B;视图。
 

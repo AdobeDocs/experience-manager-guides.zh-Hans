@@ -4,7 +4,7 @@ description: 浏览Adobe Experience Manager Guides中编辑器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2652'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ***另存为新版本***
 
-若要创建文件的新版本，请选择&#x200B;**另存为新版本**。 有关&#x200B;**保存**&#x200B;和&#x200B;**另存为新版本**&#x200B;的详细信息，请查看[了解编辑器功能](web-editor-features.md#)。
+若要创建文件的新版本，请选择&#x200B;**另存为新版本**。 有关&#x200B;**保存**&#x200B;和&#x200B;**另存为新版本**&#x200B;的更多详细信息，请在编辑器中查看[工具栏](web-editor-toolbar.md)。
 
 ***复制***：您可以选择以下选项：
 
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 ***添加到***：您可以从以下选项中进行选择：
 
-- **收藏集**：要将所选文件添加到收藏集，请选择&#x200B;**添加到\>收藏集**。 有关更多详细信息，请在&#x200B;**左侧面板**&#x200B;部分中查看[收藏集](web-editor-features.md#left-panel)功能描述。
+- **收藏集**：要将所选文件添加到收藏集，请选择&#x200B;**添加到\>收藏集**。 有关更多详细信息，请在&#x200B;**左侧面板**&#x200B;部分中查看[收藏集](web-editor-left-panel.md)功能描述。
 
-- **可重用内容**：要将所选文件复制到可重用内容列表，请选择&#x200B;**添加到\>可重用内容**。 有关更多详细信息，请在&#x200B;**左侧面板**&#x200B;部分中查看[可重用内容](web-editor-features.md#left-panel)功能说明。
+- **可重用内容**：要将所选文件复制到可重用内容列表，请选择&#x200B;**添加到\>可重用内容**。 有关更多详细信息，请在&#x200B;**左侧面板**&#x200B;部分中查看[可重用内容](web-editor-left-panel.md)功能说明。
 
 ***属性***
 
@@ -114,7 +114,7 @@ Generate the output for the selected file. Output can be generated only for file
 您可以查看以下选项，具体取决于文件是否已锁定/解锁，以及是否已保存或未保存的更改：
 
 - **解锁并关闭**：文件锁定已解除，文件已关闭。
-- **另存为新版本**：这将保存您在内容中所做的更改，并创建文件的新版本。 您还可以为新保存的版本添加标签和注释。 有关保存新版本的更多信息，请查看[另存为新版本](web-editor-features.md#save-as-new-version)。
+- **另存为新版本**：这将保存您在内容中所做的更改，并创建文件的新版本。 您还可以为新保存的版本添加标签和注释。 有关保存新版本的更多信息，请查看[另存为新版本](web-editor-toolbar.md#version-information-and-save-as-new-version)。
 
 - **解锁文件**：如果选择解锁文件，文件将解除锁定，更改将保存在文件的当前版本中。
 
@@ -169,7 +169,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 ### 在MathML编辑器中验证公式
 
 当您保存包含公式的主题时，Experience Manager Guides会验证MathML公式。
-使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择&#x200B;**插入**，则会显示警告。
+使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择**插入**，则会显示警告。
 
 ![验证mathml公式](images/validate-mathml-equation.png){width="400" align="left"}
 
@@ -232,8 +232,8 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 - 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)图标或&#x200B;**Alt** + **空格**&#x200B;快捷键在文档中插入不间断空格。  在编辑器中编辑主题时，这些不间断的空格会显示为指示符。 在&#x200B;**用户首选项**&#x200B;的&#x200B;**外观**&#x200B;选项卡中，可以使用[在创作模式下显示不间断空格指示符](./intro-home-page.md#user-preferences)选项关闭不间断空格的显示。
 
-- 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**&#x200B;视图中，则不间断空格的内容将转换为空格。
-但是，如果您从&#x200B;**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
+- 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**视图中，则不间断空格的内容将转换为空格。
+但是，如果您从**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
 
 
 ## 自动生成元素ID
@@ -279,4 +279,4 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 - 警报消息仅适用于DITA文件，并且在所有视图(创作、Source和布局)中都可见。
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

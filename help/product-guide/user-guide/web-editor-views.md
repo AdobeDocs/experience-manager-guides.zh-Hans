@@ -4,7 +4,7 @@ description: 在创作、源和预览模式下查看主题。 了解如何在AEM
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Source视图显示构成该主题的基础XML。 如果您习惯直接使用XML�
   在上面的屏幕快照中，交叉高亮用于指向包含错误XML的行。
 
 * “查找和替换”功能允许您在Source视图中搜索任何文本、元素或属性。
-有关更多详细信息，请在[选项卡栏](web-editor-features.md#tab-bar)部分中查看&#x200B;**查找和替换**&#x200B;功能说明。
+有关更多详细信息，请在**选项卡栏**&#x200B;部分中查看[查找和替换](web-editor-tab-bar.md)功能说明。
 
 * Source视图提供了许多快捷方式，帮助您快速导航和处理文档。 下表列出了支持的操作及其快捷键：
 
@@ -149,4 +149,4 @@ PDF是在文档开发周期的每一个可能阶段使用的最常见输出格�
    将生成PDF并在新选项卡中打开，或者您会看到一个对话框，用于在本地系统上保存PDF。
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)
