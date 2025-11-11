@@ -2,9 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides 2025.10.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 2025.10.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -53,5 +53,10 @@ Experience Manager Guides现在在编辑器中包含&#x200B;**重复ID**&#x200B;
 
 新API现在可用于跟踪单个资源和文件夹的后处理状态。 这对于使用自动化工作流的团队特别有用，因为在这些团队中，发布需要仅在内容经过完全处理之后进行。 API提供了一种确认就绪性的可靠方式，从而降低了因处理不完整而导致发布失败的风险。
 
-有关详细信息，请查看[API以跟踪文件夹或资产的后处理状态](../api-reference/track-post-processing-status.md)。
+此外，通过引入此API，资产后处理事件将不会自动触发。 管理员现在可以通过`fmdita config manager`中的设置启用此事件。
+
+有关详细信息，请查看：
+
+- [用于跟踪单个资源和文件夹后处理状态的API](../api-reference/track-post-processing-status.md)
+- [fmdita配置管理器中的后处理事件处理程序设置](../api-reference/post-process-event.md)
 
