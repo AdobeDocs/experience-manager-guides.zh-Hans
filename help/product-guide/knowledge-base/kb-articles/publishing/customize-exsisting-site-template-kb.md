@@ -140,4 +140,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 在部署到生产环境之前，请确保在非生产环境中测试模板。<br><br>有关更多详细信息，请参阅官方的[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/get-started/authoring)文档。
+> 在部署到生产环境之前，请确保在非生产环境中测试模板。<br><br>有关更多详细信息，请参阅官方的[AEM Guides](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/get-started/authoring)文档。
