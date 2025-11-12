@@ -4,9 +4,10 @@ description: 了解如何在Prem Services上下载并安装适用于的AEM Sites
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 20ba7f4582f1d155e555c9ff3ac58e1e3c400765
+exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ ht-degree: 0%
 ## 使用CRX包管理器安装包
 
 1. **安装组件包：**
-   1. 导航到&#x200B;[**CRX包管理器**](http://&lt;your-aem-instance>/crx/packmgr)。
+   1. 导航到&#x200B;[**CRX包管理器**](http://<your-aem-instance>/crx/packmgr)。
    2. 上传并安装on-prem-guides-components.all-1.x.0.zip包。
 
 2. **安装站点包：**&#x200B;使用CRX包管理器上载并安装aemg-docs.all-1.x.0.zip包。
@@ -60,14 +61,14 @@ ht-degree: 0%
 
    1. 选择&#x200B;**站点**&#x200B;作为&#x200B;**AEMG文档**。
    2. 验证&#x200B;**发布路径**&#x200B;和&#x200B;**主题页模板**&#x200B;是否自动设置为：
-      - 发布路径： aemg-docs/en/docs/product1
+      - 发布路径： `aemg-docs/en/docs/product1`
       - 主题页模板：主题页。
 
       ![使用网站下拉列表](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
 
    **选项2：使用站点路径**
 
-   1. 手动将&#x200B;**站点路径**&#x200B;设置为/content/aemg-docs/en/docs/product1。
+   1. 手动将&#x200B;**站点路径**&#x200B;设置为`/content/aemg-docs/en/docs/product1`。
    2. 验证&#x200B;**主题页模板**&#x200B;是否自动设置为主题页。
 
       ![使用站点路径](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
@@ -78,7 +79,7 @@ ht-degree: 0%
 
 1. **生成站点：**
    1. 配置预设后，您现在可以为相应的DITA映射生成AEM站点。
-   2. 生成的站点将位于以下路径： /content/aemg-docs/en/docs/product1。
+   2. 生成的站点将在以下路径中可用： `/content/aemg-docs/en/docs/product1`。
 2. **更改默认生成路径（可选）：**&#x200B;如果要更改网站生成的默认路径，请执行以下步骤：
 
    1. 导航到&#x200B;**AEM Sites**。
@@ -93,4 +94,3 @@ ht-degree: 0%
 
    5. 输入页面的&#x200B;**标题**&#x200B;和&#x200B;**名称**。
    6. 选择&#x200B;**创建**。
-

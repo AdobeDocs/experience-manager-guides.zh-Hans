@@ -3,9 +3,9 @@ title: Experience Manager Guides中的Workspace设置
 description: 了解Experience Manager Guides编辑器界面中可用的各种设置。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2151'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 还可定义面板中特征的显示顺序。 要更改面板中可用功能的默认顺序，请选择虚线将功能选项卡拖放到所需位置。 功能也可以根据需要从&#x200B;**更多**&#x200B;部分移动到面板的主部分，反之亦然。 重新排序后，这些功能将以相同的顺序显示在相应的右侧面板和左侧面板中。
 
-![](../user-guide/images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
 
 
 一次最多可以显示8个面板。 对面板设置所做的任何更改都将立即应用。
@@ -188,13 +188,16 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > 选定的架构文件将在选定的文件夹配置文件中保留。
+  >- 选定的架构文件将在选定的文件夹配置文件中保留。
+  >- 添加无效的Schematron文件时，将显示错误消息，如下所示。
 
-  ![在工作区设置中进行验证](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![在工作区设置中进行验证](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
   这会阻止用户保存任何违反选定架构文件中定义的规则的文件。 如果未选择此选项，则在保存更改之前不会验证文件。
 
 - **允许所有用户在验证面板中添加架构文件**：选择此项可允许用户在编辑器的验证面板中添加任何架构文件。 这允许用户添加Schematron文件，然后针对Schematron文件验证主题。 如果未选择此选项，则编辑器&#x200B;**验证面板**&#x200B;中的用户无法使用添加模式文件&#x200B;**添加模式文件**&#x200B;按钮的选项。
+
+  ![在工作区设置中进行验证](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## 显示属性
@@ -252,11 +255,11 @@ ht-degree: 0%
 
 工作区设置中的![元数据选项卡](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
 您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。
 
 

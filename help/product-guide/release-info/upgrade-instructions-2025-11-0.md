@@ -1,37 +1,37 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides 2025.10.0版本中的升级说明和修复的问题
-description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides as a Cloud Service的2025.10.0版本。
-source-git-commit: 25bfa20f469930b3b683e4753812227abdf36f24
+title: 发行说明 | Adobe Experience Manager Guides 2025.11.0版本中的升级说明和修复的问题
+description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides as a Cloud Service的2025.11.0版本。
+source-git-commit: b33f9385cd0364009a70c1a5fddcc1a5c118b08b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1039'
 ht-degree: 3%
 
 ---
 
-# 2025.10.0版的升级说明
+# 2025.11.0版的升级说明
 
-本文介绍Adobe Experience Manager Guides as a Cloud Service 2025.10.0版的升级说明和兼容性矩阵。
+本文介绍Adobe Experience Manager Guides as a Cloud Service 2025.11.0版的升级说明和兼容性矩阵。
 
-有关新功能和增强功能的更多信息，请查看 [2025.10.0 版本中的新增功能](whats-new-2025-10-0.md)。
+有关新功能和增强功能的更多信息，请查看 [2025.11.0 版本中的新增功能](whats-new-2025-11-0.md)。
 
-有关此版本中修复的问题列表，请查看 [2025.10.0 版本中已修复的问题](fixed-issues-2025-10-0.md)。
+有关此版本中修复的问题列表，请查看 [2025.11.0 版本中已修复的问题](fixed-issues-2025-11-0.md)。
 
 ## 兼容性矩阵
 
-本节介绍Experience Manager Guides as a Cloud Service 2025.10.0版本支持的软件应用程序的兼容性矩阵。
+本节介绍Experience Manager Guides as a Cloud Service 2025.11.0版本支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
 | Experience Manager Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025.10.0 | 不兼容 | 2022或更高版本 |
+| 2025.11.0 | 不兼容 | 2022或更高版本 |
 
 
 ### 氧气连接器
 
 | Experience Manager Guides as a Cloud | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
 | --- | --- | --- | --- | --- |
-| 2025.10.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2.3 | 2.3 |
+| 2025.11.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2.3 | 2.3 |
 
 
 ### 知识库模板版本
@@ -48,13 +48,9 @@ ht-degree: 3%
 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 
-## 升级到2025.10.0版
+## 升级到2025.11.0版
 
 Experience Manager Guides在升级到最新版本的Experience Manager as a Cloud Service时自动升级。
-
->[!NOTE]
->
-> 此版本包括对文件夹配置文件设置(ui_config.json)的更新。 如果您使用的是自定义设置，请确保在升级之前备份这些设置。 更新后，查看并调整您的设置，以与最新版本中引入的更改保持一致。
 
 如果您之前尚未对现有版本实施Experience Manager Guides as a Cloud Service，请对其执行以下步骤：
 
@@ -177,7 +173,7 @@ http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1
 
 ### 对所有输出预设的DITAVAL文件应用搜索过滤器的步骤
 
-要确保DITAVAL文件的搜索筛选器正常工作，请通过在`ui_config.json`非DITA文件&#x200B;**部分的** browseFilters **字段下应用以下更新来修改**&#x200B;文件：
+要确保过滤器正常运行，请更新ui_config.json。 更改&#x200B;**browseFilters** > **非DITA文件** > **Ditaval文件**&#x200B;下列出的属性，如下所示：
 
 ```
 {

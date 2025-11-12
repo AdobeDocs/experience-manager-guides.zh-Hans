@@ -4,9 +4,9 @@ description: 了解如何导入和验证DITA主题、使用声明报表语句检
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ ht-degree: 0%
 
 1. 选择架构图标()以打开架构面板。
 1. 使用&#x200B;**添加Schematron文件**&#x200B;添加Schematron文件。
+
+   >[!NOTE]
+   >
+   > 添加无效的Schematron文件时，“验证”面板中将显示错误消息。
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. 如果Schematron文件没有错误，则会添加该文件并将其列在验证面板中。 将显示包含错误的Schematron文件的错误消息。
+
    >[!NOTE]
    >
    >可以使用Schematron文件名旁边的交叉图标将其删除。
+
 1. 选择&#x200B;**使用Schematron进行验证**&#x200B;以验证主题。
 
    * 如果主题未破坏任何规则，则会显示文件的验证成功消息。

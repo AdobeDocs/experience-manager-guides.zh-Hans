@@ -4,9 +4,9 @@ description: 了解Adobe Experience Manager Guides的主页。
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 主页是您登录Experience Manager Guides时查看的第一个屏幕。 它为您提供了统一且直观的欢迎屏幕体验，包括您最近访问的文件、收藏集等的快速视图。
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 Experience Manager Guides主页分为以下部分：
 
@@ -66,9 +66,13 @@ Experience Manager Guides主页分为以下部分：
 
 ## 左侧面板
 
-通过左侧面板，可快速访问概述、映射收藏集、批量发布、发布队列和用户首选项功能。 您可以通过选择位于界面左下角的&#x200B;**展开**&#x200B;图标来展开面板。 展开后，使用&#x200B;**折叠**&#x200B;图标折叠面板。
+>[!NOTE]
+>
+> 左侧面板中提供的存储库仅适用于2025.11.0版本之后的Cloud Service设置。 对于内部部署设置，将继续从编辑器界面访问存储库。
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+通过左侧面板，可快速访问概述、存储库、映射集合、批量发布、发布队列和用户首选项功能。 您可以通过选择位于界面左下角的&#x200B;**展开**&#x200B;图标来展开面板。 展开后，使用&#x200B;**折叠**&#x200B;图标折叠面板。
+
+![](images/home-with-repository.png){width="300" align="left"}
 
 您在此面板上查看的内容取决于您的用户角色。 下表列出了左侧面板中显示的角色和相应的部分。
 
@@ -80,6 +84,7 @@ Experience Manager Guides主页分为以下部分：
 左侧面板中提供的功能说明如下：
 
 - [概述](#overview)
+- [存储库](#repository)
 - [映射收藏集](#map-collections)
 - [批量发布](#bulk-publish)
 - [发布队列](#publish-queue)
@@ -151,6 +156,10 @@ Experience Manager Guides主页分为以下部分：
 >
 > 此外，如果管理员在系统中配置了Adobe Workfront集成，则&#x200B;**您的任务**&#x200B;构件也会显示在构件部分中。 详细了解Experience Manager Guides中的[Adobe Workfront集成](./workfront-integration.md#working-with-the-your-tasks-widget)。
 
+### 存储库
+
+存储库是轻松发现文件夹和文件的集中中心。 它提供了所有文件和文件夹的全面的表格式列表视图，以及它们的上下文详细信息。 通过这个统一的界面，您可以使用强大的筛选选项无缝浏览文件和执行搜索，从而确保效率和增强的体验。 了解有关[存储库](./home-page-repository-view.md)的详细信息。
+
 ### 映射收藏集
 
 Experience Manager Guides允许您使用名为&#x200B;**映射收藏集**&#x200B;的功能板来组织内容以供发布。 若要使用此功能，请从左侧面板中选择&#x200B;**映射收藏集**。 它会将您转到&#x200B;**Assets UI**&#x200B;中的“映射集合”页面，您可以在其中使用[映射集合生成输出。](./generate-output-use-map-collection-output-generation.md)
@@ -189,4 +198,8 @@ Experience Manager Guides允许您使用名为&#x200B;**映射收藏集**&#x200B
 
    - **编辑器文件显示配置**：选择在编辑器中查看文件的默认方式。 您可以在“创作”视图中按各个面板的标题或文件名查看文件列表。 默认情况下，文件在编辑器中按标题显示。
 
-   - **始终在存储库中查找文件**：选择此选项可在编辑器中编辑文件时显示文件在存储库中的位置。
+   - **始终在资源管理器中查找文件**：选择此选项可在编辑器中编辑文件时显示文件在存储库中的位置。
+
+  >[!NOTE]
+  >
+  >从2025.11.0版本开始，**始终查找存储库中的文件**&#x200B;设置重命名为&#x200B;**始终查找资源管理器中的文件**。 对于内部部署设置，在Experience Manager Guides 5.1版发布之前，它将继续在存储库中作为始终定位文件提供。

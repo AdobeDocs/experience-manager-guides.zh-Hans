@@ -4,9 +4,9 @@ description: 了解如何在编辑器中编辑主题。 了解各种编辑功能
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
+source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 您还可以通过配置位于 — `/etc/designs/fmdita/clientlibs/xmleditor/`的`ui_config.json`文件来选择要在工具栏中显示的图标。 有关自定义功能的详细信息，请与系统管理员联系。
+   > 您还可以通过配置位于 — `ui_config.json`的`/etc/designs/fmdita/clientlibs/xmleditor/`文件来选择要在工具栏中显示的图标。 有关自定义功能的详细信息，请与系统管理员联系。
 
 1. 编辑完文档后，选择&#x200B;**全部保存**。
 
@@ -48,12 +48,11 @@ Experience Manager Guides还允许您跨元素选择内容。 选择内容后，
 
    - 选择元素中的内容。
    - 从顶部的工具栏中选择![添加](images/Add_icon.svg)图标以查看&#x200B;**插入元素**&#x200B;对话框。 该对话框列出了选定内容的有效元素。
-
      >[!NOTE]
      >
      > 您还可以通过选择所选内容的上下文菜单来查看“插入元素”对话框。
 
-   - 从对话框中选择元素。 选定的内容将封装在该元素下。 例如，如果您在段落中选择内容，然后从&#x200B;**插入元素**&#x200B;对话框中选择`<note>`元素，则所选内容将显示在注释下。
+   - 从对话框中选择元素。 选定的内容将封装在该元素下。 例如，如果您在段落中选择内容，然后从`<note>`插入元素&#x200B;**对话框中选择**&#x200B;元素，则所选内容将显示在注释下。
 
      ![插入元素对话框](./images/insert-element-editor.png) {width="300" align="left"}
 
@@ -108,11 +107,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## 在“存储库”视图中查找打开的文件
+## 在资源管理器中找到打开的文件
 
-在编辑器中打开文件时，Experience Manager Guides提供在“存储库”视图中查找文件的功能。 例如，在编辑当前主题时，它会找到该主题。
+在编辑器中打开文件时，Experience Manager Guides提供在资源管理器中查找文件的功能。 例如，在编辑当前主题时，它会找到该主题。
 
-您可以关闭此功能以通过&#x200B;**用户首选项**&#x200B;的&#x200B;**外观**&#x200B;选项卡中的&#x200B;**始终在存储库中查找文件**&#x200B;选项来查找文件。
+您可以关闭此功能以通过&#x200B;**用户首选项**&#x200B;的&#x200B;**外观**&#x200B;选项卡中的&#x200B;**始终在资源管理器**&#x200B;中查找文件选项来查找文件。
 
+>[!NOTE]
+>
+>从2025.11.0版本开始，**始终查找存储库中的文件**&#x200B;设置重命名为&#x200B;**始终查找资源管理器中的文件**。 对于内部部署设置，在Experience Manager Guides 5.1版发布之前，它将继续在存储库中作为始终定位文件提供。
 
-**父主题：**&#x200B;[&#x200B;使用编辑器](web-editor.md)
+**父主题：**[&#x200B;使用编辑器](web-editor.md)

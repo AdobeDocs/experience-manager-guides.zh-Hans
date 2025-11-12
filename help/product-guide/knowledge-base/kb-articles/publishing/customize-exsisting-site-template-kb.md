@@ -4,9 +4,10 @@ description: 了解如何为AEM Guides自定义现有AEM站点模板
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -32,9 +33,9 @@ ht-degree: 1%
 
 模板名称将因项目设置而异。 例如，在OOTB AEMG文档配置中：
 
-- 文档容器页面： /conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- 文档容器页面： `/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- 主题页面： /conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- 主题页： `/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **自定义：**&#x200B;自定义过程包含两个主要步骤：
 
@@ -85,7 +86,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 确保将wcm/foundation/components下使用sling:resourceType的组件迁移到相应的核心/wcm/components。
+> 确保将:resourceType下使用sling`wcm/foundation/components`的组件迁移到相应的`core/wcm/components`。
 
 在同一模板的结构中添加相同的（容器和文本组件）：
 
@@ -139,4 +140,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 在部署到生产环境之前，请确保在非生产环境中测试模板。<br><br>有关更多详细信息，请参阅官方的[AEM Guides](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/get-started/authoring)文档。
+> 在部署到生产环境之前，请确保在非生产环境中测试模板。<br><br>有关更多详细信息，请参阅官方的[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/get-started/authoring)文档。

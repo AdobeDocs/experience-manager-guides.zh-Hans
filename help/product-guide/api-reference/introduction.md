@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 00a926e82f7d848e0c8041de758f20e79758b01b
+source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -18,222 +18,113 @@ Adobe Experience Manager Guides \(以后称为&#x200B;*AEM Guides*\)是一种端
 
 ## AEM GUIDES API
 
-AEM Guides API有两种格式：HTTP和Java。 这些API向应用程序开发人员公开AEM Guides的关键功能。 使用这些函数，开发人员可以创建自己的插件来扩展现成的工作流。 这些API可用于管理DITA内容的输出、使用DITA映射、将条件属性添加到文件夹级别配置文件以及将HTML和Words文档转换为DITA格式。
+AEM Guides API有两种格式：
 
-## 在本地Apache Maven存储库中安装JAR {#install-jar-local}
+- [基于Java的API](#java-based-apis)
+- [基于REST的API](#rest-based-apis)
 
-为了能够使用AEM Guides公开的JAR文件，您需要将它们安装到本地Apache Maven存储库中。 执行以下步骤以在您的位置Maven存储库上安装JAR：
-
-1. 提取本地系统上的AEM Guides包\(.zip\)文件的内容。
-
-2. 在命令提示符下，导航到提取的内容路径中的以下文件夹：
-
-   ```
-   \jcr_root\libs\fmdita\osgi-bundles\install
-   ```
-
-3. 运行以下命令将API捆绑包安装到本地Maven存储库：
-
-   ```
-   mvn install:install-file -Dfile=api-X.x.jar -DgroupId=com.adobe.fmdita -DartifactId=api -Dversion=X.x -Dpackaging=jar**
-   ```
-
-   >[!NOTE]
-   >
-   > 在上述命令中，X.x应替换为Dfile和Dversion参数中的实际版本号。
-
-4. \（*可选*\）在本地Maven项目的存储库中安装依赖项。 您可以通过在Maven项目中创建文件夹，然后使用以下附加参数运行上一步中给定的`mvn install`命令来实现这一点：
-
-   ```
-   -DlocalRepositoryPath=<path_to_project_repository>
-   ```
-
-   接下来，要向Maven构建过程公开项目的本地存储库文件夹，请在父pom.xml文件中添加`repository`元素，如下所示：
-
-   ```XML
-   <repositories>
-      <repository>
-         <id>project-repository</id>
-         <url>file://${project.basedir}/repository</url>
-      </repository>
-   </repositories>
-   ```
+这些API向应用程序开发人员公开AEM Guides的关键功能。 使用这些函数，开发人员可以创建自己的插件来扩展现成的工作流。 这些API可用于管理DITA内容的输出、使用DITA映射、将条件属性添加到文件夹级别配置文件以及将HTML和Words文档转换为DITA格式。
 
 
-此过程将API JAR安装到本地Maven存储库中。
+### 基于Java的API
 
-## 在Maven项目中使用服务API JAR
+您可以使用Experience Manager Guides中提供的基于Java的API来创建自定义插件和扩展现成工作流。
 
-在本地Maven存储库中安装API JAR后，执行以下步骤以在项目中使用JAR：
+**从Maven中央存储库为AEM Guides as a Cloud Service配置SDK**
 
-1. 将JAR添加到代码库，并将其提交到文件夹下的代码库存储库，如“依赖项”。 请注意，文件夹名称取决于您的代码基层次结构。
+>[!INFO]
+>
+>查看[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)，了解有关使用适用于Experience Manager Guides as a Cloud Service的基于Java的API的最新和详细文档。
 
-2. 按如下方式配置项目pom.xml文件：
+要在项目中从Maven存储库配置和使用服务API JAR，请将API SDK作为项目依赖项添加到项目的`pom.xml`文件中，如下所示。
 
-   父项目的pom.xml文件：
+    ``XML
+    &lt;依赖项>
+    &lt;groupId>com.adobe.aem&lt;/groupId>
+    &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
+    &lt;版本>${RELEASE}&lt;/version>
+    &lt;/依赖项>
+    
+    `
 
-   >[!IMPORTANT]
-   >
-   > 在以下代码片段中，应将X.x替换为实际版本号和API JAR的文件名。 此信息将与[安装过程](#install-jar-local)的步骤3中提供的信息相同。
+>[!NOTE]
+>
+> 确保使用与服务器上安装的AEM Guides包相同版本的API JAR。
 
-   ```XML
-   <plugin>
-   
-       <groupId>org.apache.maven.plugins</groupId>
-   
-      <artifactId>maven-install-plugin</artifactId>
-   
-       <version>2.5.2</version>
-   
-       <configuration>
-   
-               <groupId>com.adobe.fmdita</groupId>
-   
-               <artifactId>api</artifactId>
-   
-               <version>X.x</version>
-   
-               <file>${basedir}/dependencies/fmdita/api-X.x.jar</file>
-   
-               <packaging>jar</packaging>
-   
-               <generatePom>true</generatePom>
-   
-       </configuration>
-   
-       <executions>
-   
-           <execution>
-   
-               <id>inst_fmdita</id>
-   
-                   <goals>
-   
-                       <goal>install-file</goal>
-   
-                   </goals>
-   
-                   <phase>clean</phase>
-   
-           </execution>
-   
-       </executions>
-   </plugin>
-   ```
+**配置并使用Maven中央存储库中的API JAR（内部部署）**
 
-   子模块的pom.xml文件：
+>[!INFO]
+>
+>有关使用基于Java的API进行Experience Manager Guides本地设置的最新和详细文档，请查看[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html)。
 
-   ```XML
-   <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-   
-      <artifactId>maven-install-plugin</artifactId>
-   
-      <configuration>
-   
-         <groupId>com.adobe.fmdita</groupId>
-   
-         <artifactId>api</artifactId>
-   
-         <version>3.6</version>
-   
-         <file>${basedir}/../dependencies/fmdita/api-3.6.jar</file>
-   
-         <packaging>jar</packaging>
-   
-         <generatePom>true</generatePom>
-   
-      </configuration>
-   
-      <executions>
-   
-         <execution>
-   
-            <id>inst_fmdita</id>
-   
-            <goals>
-   
-               <goal>install-file</goal>
-   
-            </goals>
-   
-            <phase>clean</phase>
-   
-         </execution>
-   
-      </executions>
-   
-   </plugin>
-   ```
+要为内部部署配置和使用服务API JAR，请将服务API JAR作为项目依赖项添加到项目的`pom.xml`文件中，如下所示：
+
+    ``XML
+    &lt;依赖项>
+    &lt;groupId>com.adobe.aem&lt;/groupId>
+    &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
+    &lt;版本>${RELEASE}&lt;/version>
+    &lt;/依赖项>
+    
+    `
+
+>[!NOTE]
+>
+> 确保使用与服务器上安装的AEM Guides包相同版本的API JAR。
 
 
-## 从公共Maven存储库配置并使用服务API JAR
+**配置并使用AEM Guides公共Maven存储库中的API JAR（内部部署）**
 
-执行以下步骤以配置和使用项目中的公共Maven存储库中的服务API JAR：
+>[!NOTE]
+>
+> 在5.3.0版本的Experience Manager Guides之后，将弃用公共AEM Guides Maven存储库。 之后，API JAR将仅在Maven中央存储库中可用。
 
-1. 要在项目中使用服务API JAR，请在pom.xml文件中配置AEM Guides公共Maven存储库。
-2. 按如下方式在Maven的settings.xml文件中配置公共Maven存储库：
+执行以下步骤以使用公共Maven存储库中的服务API JAR：
+
+1. 在`pom.xml`或`settings.xml`文件中配置AEM Guides公共Maven存储库，如下所示：
 
    ```XML
    <repository>
-      <id>fmdita-public</id>
-      <name>fmdita-public</name>
-      <url>https://repo.aem-guides.com/repository/fmdita-public</url>
-   </repository>
+       <id>fmdita-public</id>
+       <name>fmdita-public</name>
+       <url>https://repo.aem-guides.com/repository/fmdita-public</url>
+    </repository>
    ```
 
-3. 设置存储库后，将服务API JAR作为项目依赖项添加到项目的pom.xml文件中。
+1. 设置存储库后，将服务API JAR作为项目依赖项添加到项目的`pom.xml`文件中。
+
+   ```XML
+   <dependency>
+       <groupId>com.adobe.fmdita</groupId>
+       <artifactId>api</artifactId>
+       <version>${RELEASE}</version>
+   </dependency>
+   ```
 
    >[!NOTE]
    >
    > 使用与您在服务器上安装的AEM Guides包相同版本的API JAR。
 
-4. 配置Maven依赖项，如下所示：
-
-   ```XML
-   <dependency>
-      <groupId>com.adobe.fmdita</groupId>
-      <artifactId>api</artifactId>
-      <version>4.0</version>
-   </dependency>
-   ```
+一旦在项目的`pom.xml`文件中将服务API JAR添加为项目依赖项，您便可以在项目中生成和使用AEM Guides Java API。
 
 
-在项目的pom.xml文件中添加服务API JAR作为项目依赖项后，您可以在项目中构建和使用AEM Guides Java API。
+### 基于REST的API
 
-## 使用AEM Guides as a Cloud Service的Maven中央存储库中的API JAR
+Experience Manager Guides提供了一组全面的基于REST的API，允许开发人员通过HTTP访问核心功能并与之交互。
 
-对于AEM Guides as a Cloud Service，API JAR已部署到Maven Central。 您无需任何设置即可使用API JAR。
+这些API非常适合：
 
->[!NOTE]
->
-> API jar的命名约定已根据云加载项命名约定进行了更新。
+- 将Experience Manager Guides与其他企业系统集成
+- 自动化发布和审核工作流
+- 构建自定义应用程序和扩展
 
-要使用API JAR，您需要将依赖关系添加到项目的pom.xml，如下所示：
-
-```XML
-<dependency>
-   <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-dox-sdk-api</artifactId>
-   <version>${RELEASE}</version>
-</dependency>
-```
-
->[!NOTE]
->
-> 由于API JAR中的包仍然相同，因此无需更改代码即可在现有云项目中使用此API JAR。
-
-### 基于Java的API
-
-您可以使用Experience Manager Guides中提供的基于Java的API来创建自定义插件和扩展现成工作流。 有关使用基于Java的API的最新和详细文档，请查看[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api)。
-
-
+有关API使用情况、参数和示例请求的详细信息，请在Experience Manager Guides文档的&#x200B;**API引用**&#x200B;部分中查看相关主题。
 
 ## 其他资源
 
-以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)页面上：
+以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)页面上：
 
 - 用户指南
 - 安装和配置指南
 - 快速入门指南
-- [帮助存档页面](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）
+- [帮助存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）

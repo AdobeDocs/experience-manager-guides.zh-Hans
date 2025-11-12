@@ -4,9 +4,10 @@ description: 了解如何下载并安装适用于Cloud Service的AEM Sites模板
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -45,7 +46,7 @@ ht-degree: 1%
    3. 使用提供的用户名和密码将存储库克隆到本地系统（如果需要，生成密码）。
 2. **将包添加到Maven捆绑包：**
    1. 在本地克隆的存储库中，创建一个新的Maven捆绑包或将其添加到现有捆绑包中。
-   2. 确保Maven项目中存在/jcr_root/apps/fmdita/install结构。
+   2. 确保Maven项目中存在结构`/jcr_root/apps/fmdita/`安装。
 
       Maven项目中的![结构](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
 
@@ -55,7 +56,7 @@ ht-degree: 1%
 3. **更新筛选器.xml：**
 
    1. 打开位于父内容目录的META-INF文件夹中的filters.xml文件。
-   2. 添加以下筛选器：filter root=&quot;/apps/fmdita&quot; mode=&quot;merge&quot;/
+   2. 添加以下筛选器：筛选器根=`/apps/fmdita` mode=`merge`/
 
 
       ![添加筛选器](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
@@ -98,14 +99,14 @@ ht-degree: 1%
 
    1. 选择&#x200B;**站点**&#x200B;作为上面创建的站点（例如，AEMG文档站点）。
    2. 验证&#x200B;**发布路径**&#x200B;和&#x200B;**主题页面**&#x200B;模板是否自动设置为：
-      - 发布路径：/content/AEMG-Docs-Site/en/docs/product
+      - 发布路径： `/content/AEMG-Docs-Site/en/docs/product`
       - 主题页模板：“主题”页
 
       ![使用站点下拉菜单配置AEM站点](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
    **选项2：使用站点路径**
 
-   1. 手动将&#x200B;**站点路径**&#x200B;设置为/content/AEMG-Docs-Site/en/docs/product。
+   1. 手动将&#x200B;**站点路径**&#x200B;设置为`/content/AEMG-Docs-Site/en/docs/product`。
    2. 验证&#x200B;**主题页**&#x200B;模板是否自动设置为主题页。
 
       ![使用站点路径配置AEM站点](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
@@ -116,7 +117,7 @@ ht-degree: 1%
 
 1. **生成站点：**
    1. 配置预设后，为相应的DITA映射生成AEM站点。
-   2. 生成的站点将位于以下路径：/content/AEMG-Docs-Site/en/docs/product。
+   2. 生成的站点将在以下路径中可用： `/content/AEMG-Docs-Site/en/docs/product`。
 2. **更改默认生成路径（可选）：**&#x200B;如果要更改网站生成的默认路径，请执行以下步骤：
    1. 导航到&#x200B;**AEM Sites**。
    2. 在OOTB站点结构下创建新产品页面。
@@ -133,4 +134,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 在部署到生产环境之前，请确保所有配置都已在非生产环境中进行了测试。 <br><br>有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
+> 在部署到生产环境之前，请确保所有配置都已在非生产环境中进行了测试。 <br><br>有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。

@@ -4,7 +4,7 @@ description: 从编辑器中创作Markdown文档。 了解如何在AEM Guides中
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
+source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Markdown是一种轻量级的标记语言，可帮助您将格式元素添加到
 执行以下步骤，从编辑器创建Markdown主题：
 
 1. 在“存储库”面板中，选择![](images/Add_icon.svg)，然后从下拉列表中选择&#x200B;**主题**。
-2. 在&#x200B;**新建主题**&#x200B;对话框中，提供以下详细信息：
+1. 在&#x200B;**新建主题**&#x200B;对话框中，提供以下详细信息：
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -32,7 +32,7 @@ Markdown是一种轻量级的标记语言，可帮助您将格式元素添加到
    >[!NOTE]
    >
    > 如果升级，您需要将Markdown模板添加到当前使用的文件夹配置文件中。 您可以[从编辑器](./web-editor-features.md#templates)中创建新的Markdown模板，或者使用现有的Markdown模板进行创作。 有关如何在Experience Manager Guides中添加创作模板的详细信息，请查看[配置全局或文件夹级别的配置文件](../cs-install-guide/conf-folder-level.md)。
-3. 选择&#x200B;**创建**。
+1. 选择&#x200B;**创建**。
 
    Markdown主题将在选定的路径中创建，并会打开以进行编辑。
 
@@ -83,7 +83,7 @@ Features available in the tab bar are explained as follows:
 
 ![](images/markdown-main-toolbar.png){align="left"}
 
-| 功能 | 描述 |
+| 特性 | 描述 |
 |----------------|----------------|
 | 编辑操作 | 提供对各种文档编辑功能的访问权限，包括&#x200B;**剪切**  ![](images/S_Cut_18_N.svg)，**撤消**  ![](images/S_Undo_18_N.svg)，**重做**  ![](images/S_Redo_18_N.svg)，**副本**  ![](images/S_Copy_18_N.svg)，**删除**  ![](images/S_Delete_18_N.svg)和&#x200B;**查找和替换**  ![](images/S_FindAndReplace_18_N.svg)。 您可以从&#x200B;**菜单**&#x200B;下拉菜单中访问可用选项。 |
 | 文本格式设置选项 | 提供对各种文本格式选项（包括&#x200B;**标题**）的访问权限  ![](images/S_DisplayHeading_18_N.svg)，**粗体**  ![](images/S_TextBold_18_N.svg)，**斜体**  ![](images/S_TextItalic_18_N.svg)，**删除线**  ![](images/S_TextStrikethrough_18_N.svg)，**代码**  ![](images/S_Code_18_N.svg)和&#x200B;**块引用**  ![](images/S_BlockQuoteMultipleLines_18_N.svg)。 |
@@ -175,4 +175,4 @@ Features available in the tab bar are explained as follows:
 
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)
