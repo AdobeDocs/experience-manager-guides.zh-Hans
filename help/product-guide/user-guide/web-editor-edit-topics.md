@@ -117,4 +117,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 >
 >从2025.11.0版本开始，**始终查找存储库中的文件**&#x200B;设置重命名为&#x200B;**始终查找资源管理器中的文件**。 对于内部部署设置，在Experience Manager Guides 5.1版发布之前，它将继续在存储库中作为始终定位文件提供。
 
-**父主题：**[&#x200B;使用编辑器](web-editor.md)
+**父主题：**&#x200B;[&#x200B;使用编辑器](web-editor.md)

@@ -38,14 +38,14 @@ AEM Guides API有两种格式：
 
 要在项目中从Maven存储库配置和使用服务API JAR，请将API SDK作为项目依赖项添加到项目的`pom.xml`文件中，如下所示。
 
-    ``XML
+    &grave;&grave;XML
     &lt;依赖项>
     &lt;groupId>com.adobe.aem&lt;/groupId>
     &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
     &lt;版本>${RELEASE}&lt;/version>
     &lt;/依赖项>
     
-    `
+    &grave;
 
 >[!NOTE]
 >
@@ -59,14 +59,14 @@ AEM Guides API有两种格式：
 
 要为内部部署配置和使用服务API JAR，请将服务API JAR作为项目依赖项添加到项目的`pom.xml`文件中，如下所示：
 
-    ``XML
+    &grave;&grave;XML
     &lt;依赖项>
     &lt;groupId>com.adobe.aem&lt;/groupId>
     &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
     &lt;版本>${RELEASE}&lt;/version>
     &lt;/依赖项>
     
-    `
+    &grave;
 
 >[!NOTE]
 >
