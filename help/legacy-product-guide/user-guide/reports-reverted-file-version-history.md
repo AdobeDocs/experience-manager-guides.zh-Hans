@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: e5d02c6047c3ed74efa1777ce6585efc391af426
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -57,5 +57,6 @@ AEM Guides允许您为单个文件或文件夹中的所有文件生成版本历�
 
    - **注释**：还原文件的用户提供的任何注释。
 
+{{test}}
 
-**父主题：**&#x200B;[&#x200B;报告](reports-intro.md)
+**父主题：**[&#x200B;报告](reports-intro.md)
