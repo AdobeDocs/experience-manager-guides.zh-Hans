@@ -59,4 +59,4 @@ AEM Guides允许您为单个文件或文件夹中的所有文件生成版本历�
 
 {{$include /help/_includes/overview.md}}
 
-**父主题：**[&#x200B;报告](reports-intro.md)
+**父主题：**&#x200B;[&#x200B;报告](reports-intro.md)
