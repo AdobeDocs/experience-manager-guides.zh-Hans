@@ -3,7 +3,7 @@ title: 编辑器界面中的“搜索”面板
 description: 了解如何在编辑器界面中使用搜索面板。
 feature: Authoring
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
   ![](images/search-icon-editor.png){align="left"}
 
-- **主页**：从主页上的存储库界面导航时，使用&#x200B;**在搜索面板中显示**&#x200B;选项。 有关详细信息视图，[从存储库](#search-from-repository-interface-on-the-home-page)中搜索。
+- **主页**：从主页上的存储库界面导航时，使用&#x200B;**在搜索面板中显示**&#x200B;选项。 有关详细信息视图，[从存储库](#search-from-the-repository-interface-on-the-home-page)中搜索。
 
   ![](images/search-panel-repo.png){align="left"}
 
