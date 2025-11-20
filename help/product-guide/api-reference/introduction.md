@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
+source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -34,18 +34,18 @@ AEM Guides API有两种格式：
 
 >[!INFO]
 >
->查看[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)，了解有关使用适用于Experience Manager Guides as a Cloud Service的基于Java的API的最新和详细文档。
+>查看[![javadoc](./images/javadoc-cs-icon.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)，了解有关使用适用于Experience Manager Guides as a Cloud Service的基于Java的API的最新和详细文档。
 
 要在项目中从Maven存储库配置和使用服务API JAR，请将API SDK作为项目依赖项添加到项目的`pom.xml`文件中，如下所示。
 
-    &grave;&grave;XML
+    ``XML
     &lt;依赖项>
     &lt;groupId>com.adobe.aem&lt;/groupId>
     &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
     &lt;版本>${RELEASE}&lt;/version>
     &lt;/依赖项>
     
-    &grave;
+    `
 
 >[!NOTE]
 >
@@ -59,14 +59,14 @@ AEM Guides API有两种格式：
 
 要为内部部署配置和使用服务API JAR，请将服务API JAR作为项目依赖项添加到项目的`pom.xml`文件中，如下所示：
 
-    &grave;&grave;XML
+    ``XML
     &lt;依赖项>
     &lt;groupId>com.adobe.aem&lt;/groupId>
     &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
     &lt;版本>${RELEASE}&lt;/version>
     &lt;/依赖项>
     
-    &grave;
+    `
 
 >[!NOTE]
 >
@@ -122,9 +122,9 @@ Experience Manager Guides提供了一组全面的基于REST的API，允许开发
 
 ## 其他资源
 
-以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)页面上：
+以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)页面上：
 
 - 用户指南
 - 安装和配置指南
 - 快速入门指南
-- [帮助存档页面](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）
+- [帮助存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）
