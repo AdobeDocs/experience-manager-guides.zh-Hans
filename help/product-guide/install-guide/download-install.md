@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 下载并安装 {#id1645E0O04MK}
 
-AEM Guides可通过Adobe软件分发门户使用。 您可以从Adobe软件分发门户帐户下载AEM Guides，并将其安装在安装程序中的所有Adobe Experience Manager \(AEM\)实例上。 通常，您的AEM创作实例和生产实例将托管在不同服务器上。 您必须在要使用的所有AEM实例上安装AEM Guides。
+AEM Guides可通过Adobe软件分发门户获取。 您可以从Adobe软件分发门户帐户下载AEM Guides，并将其安装到安装程序中的所有Adobe Experience Manager \(AEM\)实例上。 通常，您的AEM创作实例和生产实例将托管在不同服务器上。 您必须在要使用的所有AEM实例上安装AEM Guides。
 
 在开始下载和安装过程之前，必须确保您的系统满足安装AEM Guides的技术要求。
 
@@ -32,4 +32,4 @@ AEM Guides可通过Adobe软件分发门户使用。 您可以从Adobe软件分�
 
 - **[卸载AEM Guides](download-install-unistall-aemg.md)**
 
-- 用于性能优化的&#x200B;**[Recommendations](download-install-recommend-perf-optimiz.md)**
+- **[性能优化建议](download-install-recommend-perf-optimiz.md)**
