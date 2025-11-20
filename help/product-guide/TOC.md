@@ -168,7 +168,7 @@ ht-degree: 8%
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页 {#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -194,7 +194,7 @@ ht-degree: 8%
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
             - [搜索面板](./user-guide/search-panel-explorer.md)
-         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
+         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -554,7 +554,7 @@ ht-degree: 8%
    - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
    - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
    - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-   - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
+   - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
    - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
