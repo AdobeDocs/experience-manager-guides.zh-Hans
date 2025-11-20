@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: 6261e1aa1966a81830fe8e5cf14337c8be4f81cb
+source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 当您同时处理多个发行版本和多位作者时，您的内容将绑定有多个版本。 多个版本中可能存在一些常见信息，不同作者可在他们的项目中使用这些信息。 要处理此类工作任务，作者最终可能会拥有多个版本的文件。 此类版本可能只是文件的较新版本或恢复到较早版本。 确定文件还原时间和原因是一项复杂的任务。
 
 AEM Guides允许您为单个文件或文件夹中的所有文件生成版本历史记录报告。 此版本历史记录为您提供了已还原的文件的所有版本、创建这些版本的人以及创建这些版本的原因的合并视图。
+
+{{$include /help/_includes/overview.md}}
 
 您可以从以下位置访问此报表：
 
@@ -59,4 +61,4 @@ AEM Guides允许您为单个文件或文件夹中的所有文件生成版本历�
 
 
 
-**父主题：**&#x200B;[&#x200B;报告](reports-intro.md)
+**父主题：**[&#x200B;报告](reports-intro.md)
