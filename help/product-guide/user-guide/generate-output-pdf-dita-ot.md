@@ -102,4 +102,4 @@ ht-degree: 0%
 | 文件属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性显示在&#x200B;**文件属性**&#x200B;字段下。 选择资产旁边的交叉图标以将其删除。 <br><br>注意：您还可以使用DITA-OT发布将元数据传递到输出。 有关更多详细信息视图，[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)将元数据传递到输出。 |
 
 
-**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)

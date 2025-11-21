@@ -323,7 +323,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
 
 
 .
-默认情况下始终启用**章节和主题**&#x200B;布局。 您无法切换它。
+默认情况下始终启用&#x200B;**章节和主题**&#x200B;布局。 您无法切换它。
 
 **合并页面**
 
@@ -459,11 +459,11 @@ AEM Guides提供了以下开箱即用的变量：
 将`${lng:<variable name>}`添加到“段落”部分时，输出段落中的交叉引用包含本地化文本和页码。\
 例如，以下屏幕截图以英语显示交叉引用“View on page 1”并以德语显示“Einzelheiten finden Sie auf der Seite 1”。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出" width ="800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出&quot; width =&quot;800" border="2px">
 
 *以英语发布时，段落中的交叉引用。*
 
-<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出" width ="800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出&quot; width =&quot;800" border="2px">
 
 
 *以德语发布的段落中的交叉引用。*

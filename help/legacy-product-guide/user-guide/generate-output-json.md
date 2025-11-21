@@ -49,4 +49,4 @@ ht-degree: 0%
 | 要在输出中传播的属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 从下拉列表中选择的属性列在属性字段的下方。<br><br>**注意**：您还可以定义自定义属性，并使用DITA-OT发布将元数据传递到输出。 有关详细信息，请参阅[使用元数据](metadata-dita.md#id21BJ00QD0XA)。 |
 | 后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在AEM中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。<br><br>**注意**：有关创建自定义输出后生成工作流的详细信息，请参阅“安装和配置Adobe Experience Manager Guides as a Cloud Service”指南中的&#x200B;_自定义输出后生成工作流程_。 |
 
-**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)
