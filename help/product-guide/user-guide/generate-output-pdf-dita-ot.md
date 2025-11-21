@@ -4,7 +4,7 @@ description: 了解如何从映射控制台和映射仪表板中使用DITA-OT创
 feature: Publishing
 role: User
 exl-id: 6ac82dad-34af-4f9e-8b52-4e4f2eb982a4
-source-git-commit: 47927187ec0d9eb4f2f78e3cf6062f1992ad0615
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -102,4 +102,4 @@ ht-degree: 0%
 | 文件属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性显示在&#x200B;**文件属性**&#x200B;字段下。 选择资产旁边的交叉图标以将其删除。 <br><br>注意：您还可以使用DITA-OT发布将元数据传递到输出。 有关更多详细信息视图，[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)将元数据传递到输出。 |
 
 
-**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)

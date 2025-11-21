@@ -1,38 +1,38 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2022年9月版
-description: Adobe Experience Manager Guidesas a Cloud Service的9月版
+title: 发行说明 | Adobe Experience Manager Guides as a Cloud Service，2022年9月版
+description: Adobe Experience Manager Guides as a Cloud Service 9月版
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service的9月版
+# Adobe Experience Manager Guides as a Cloud Service 9月版
 
 ## 升级到9月版
 
-请通过以下步骤升级当前的Adobe Experience Manager Guidesas a Cloud Service(以后称为&#x200B;*AEM Guidesas a Cloud Service*)安装程序：
-1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-1. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2022.9.178。
-1. 提交更改并运行Cloud Service管道，以升级到AEM Guidesas a Cloud Service的9月版。
+请通过以下步骤升级当前的Adobe Experience Manager Guides as a Cloud Service(以后称为&#x200B;*AEM Guides as a Cloud Service*)安装程序：
+1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
+1. 将云服务Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2022.9.178。
+1. 提交更改并运行云服务管道，以升级到AEM Guides as a Cloud Service的9月版。
 
 ## 索引现有内容的步骤
 
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 * 对服务器运行POST请求（使用正确的身份验证） — `http://<server:port>/bin/guides/map-find/indexin`。
 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 ||  示例：   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
-* 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (例如： `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
 * 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
 
 ## 兼容性矩阵
 
-本部分列出了AEM Guides as a Cloud Service 2022年9月版支持的软件应用程序的兼容性矩阵。
+本部分列出了AEM Guides as a Cloud Service 2022年9月版本支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -48,12 +48,12 @@ ht-degree: 0%
 | AEM Guides as a Cloud | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
 | --- | --- | --- | --- | --- |
 | 2022.9.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## 新增功能和增强功能
 
-AEM Guidesas a Cloud Service在9月版本中提供了许多增强功能和新功能：
+AEM Guides as a Cloud Service在9月版本中提供了许多增强功能和新功能：
 
 
 ### 基于标签创建动态基线
@@ -66,7 +66,7 @@ AEM Guidesas a Cloud Service在9月版本中提供了许多增强功能和新功
 ### 在映射级别查找和替换文本
 
 现在，您可以在映射中搜索包含特定文本的文件。 搜索到的文本将在文件中突出显示。 您也可以使用文件中的其他单词或短语替换搜索的单词或短语。
-选择&#x200B;**替换**&#x200B;图标以替换当前出现的项，选择&#x200B;**替换文件**&#x200B;中的所有项图标以替换选定文件中的所有出现的项。
+选择**替换**&#x200B;图标以替换当前出现的项，选择&#x200B;**替换文件**&#x200B;中的所有项图标以替换选定文件中的所有出现的项。
 
 ![在映射中查找替换](assets/map-find-replace.png)
 
@@ -112,27 +112,27 @@ AEM Guidesas a Cloud Service在9月版本中提供了许多增强功能和新功
 * 查找和替换 | 在Web编辑器中，无法读取搜索结果中的深色模式。 (9978)
 * 翻译 | 元数据和标记不会传播到翻译的副本。 (4696)
 * 复制粘贴(ctrl+c/ctrl+v)内容会在创作模式下引发错误。 (10304)
-* PDF模板 | 将背景图像添加到任何页面布局时，将绝对显示图像路径，并且图像不会显示在输出PDF中。 (10297)
-* 本机PDF | 章节标题和章节标题在PDF发布中不起作用。 (9947)
-* 本机PDF | 对于特定DITA主题，未正确解析概念的`xref`。 (10229)
-* 本机PDF | 无法在生成的PDF输出中查看表的标题文本。 (9827)
-* 本机PDF | 附录中的引用不会在PDF输出中显示为附录。 (10182)
-* 本机PDF | 表的Frame属性不会传播到tempHTML(as class)。 (10353)
-* 本机PDF | 临时HTML文件将colsep和rowsep类添加到td和th，即使它们在源DITA中的值为0。 (10352)
-* 本机PDF |  不接受在页面布局中添加的标准的元数据。 (10377)
-* 本机PDF |  为特定PDF生成内容失败。 (9927)
-* 本机PDF | PDF输出中未显示通过conkeyref的内容。 (9836)
-* 本机PDF | 无法解析包含图像或外部链接的Keydef的关键引用。 (10063)
+* PDF模板 | 将背景图像添加到任何页面布局都会绝对显示图像路径，并且图像不会显示在输出PDF中。 (10297)
+* 原生PDF | 章节标题和章节标题在PDF发布中不起作用。 (9947)
+* 原生PDF | 对于特定DITA主题，未正确解析概念的`xref`。 (10229)
+* 原生PDF | 无法在生成的PDF输出中查看表的标题文本。 (9827)
+* 原生PDF | 附录中的引用不会在PDF输出中显示为附录。 (10182)
+* 原生PDF | 表的Frame属性不会传播到temp HTML(as class)。 (10353)
+* 原生PDF | 临时HTML文件将colsep和rowsep类添加到td和th，即使它们在源DITA中的值为0。 (10352)
+* 原生PDF |  不接受在页面布局中添加的标准的元数据。 (10377)
+* 原生PDF |  针对特定内容，生成PDF失败。 (9927)
+* 原生PDF | PDF输出中未显示通过conkeyref的内容。 (9836)
+* 原生PDF | 无法解析包含图像或外部链接的Keydef的关键引用。 (10063)
 * 映射的“作者”视图不显示表格列表和数字列表的占位符文本。 (10330)
 * 创建新基线时，不会应用已选择的基线过滤器。 (9954)
 * 如果父文件夹名称包含空格字符，则基线中缺少视频文件。 10031)
 * 当用户时区与服务器时区不同时，基线创建不会选择最新版本。 (10190)
-* 在AEM 6.5.12上安装AEM Guides 4.1后，Control + F快捷键没有在Assets控制台上打开浏览器搜索模式。 (10189)
+* 在Assets 6.5.12上安装AEM Guides 4.1后，Control + F快捷键没有在AEM控制台上打开浏览器搜索模式。 (10189)
 
 
 ## 已知问题
 
-Adobe已发现AEM Guides 2022年9月as a Cloud Service版本的以下已知问题。
+Adobe已发现AEM Guides as a Cloud Service 2022年9月版中的以下已知问题。
 
 
 * 动态基线未与知识库发布集成。

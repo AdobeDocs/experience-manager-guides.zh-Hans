@@ -1,7 +1,7 @@
 ---
 title: 发行说明 | 修复了Adobe Experience Manager Guides 5.0.0版本中的问题
 description: 了解Adobe Experience Manager Guides 5.0.0版本中的错误修复。
-source-git-commit: 410d7c059ff1219b73f2dc6199690c77d1ba0e48
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 1%
@@ -12,10 +12,9 @@ ht-degree: 1%
 
 本文介绍5.0.0版本的Adobe Experience Manager Guides中修复的各个方面的错误。
 
+有关新功能和增强功能的更多信息，请查看 [5.0.0 版本中的新增功能](/help/product-guide/release-info/whats-new-5-0-0.md)。
 
-有关新功能和增强功能的更多信息，请查看 [5.0.0 版本中的新增功能](whats-new-5-0.md)。
-
-了解5.0.0版[&#128279;](upgrade-instructions-5-0-0.md)的升级说明。
+了解5.0.0版[的](upgrade-instructions-5-0-0.md)升级说明。
 
 
 ## 创作
@@ -72,7 +71,7 @@ ht-degree: 1%
 - 当您使用非旧版翻译同时发送未翻译主题的两个版本并在第一个版本之前审批第二个版本时，具有第一个版本的翻译项目会损坏。 (22200)
 
 
-## 审查
+## 审阅
 
 - 在图中选择多个要查看的主题时，查看者收到的电子邮件通知指示图中的所有主题都可以查看，而不仅仅是选定的主题。 (23214)
 - 主题标题和图标在审阅创建界面中未对齐。 (11670)

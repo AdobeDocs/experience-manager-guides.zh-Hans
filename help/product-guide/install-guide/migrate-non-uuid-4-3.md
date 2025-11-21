@@ -5,7 +5,7 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
-source-git-commit: dfac88a4a1ca0247a4b1f07982e178fd7126d2e2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 1%
@@ -179,10 +179,10 @@ ht-degree: 1%
 
 | 流程完成后的摘要 | 如何解释？ | 操作 |
 |---|---|---|
-| 文件总数：4833 | 至少1个基线的DITA映射数。 |
-| 已成功升级的文件数： 4705 | 已成功升级为所有基线的DITA映射数。 |
-| 升级后出现错误的文件数： 0 | 基线未升级的DITA映射数。 |
-| 跳过的文件数： 1647 | 没有任何基线的DITA映射数。 |
+| 文件总数：4833 | 至少1个基线的DITA映射数。 |  |
+| 已成功升级的文件数： 4705 | 已成功升级为所有基线的DITA映射数。 |  |
+| 升级后出现错误的文件数： 0 | 基线未升级的DITA映射数。 |  |
+| 跳过的文件数： 1647 | 没有任何基线的DITA映射数。 |  |
 | 升级失败的文件数： 128 | 无效基线对象的数量（为空）将列在报表(Excel)中。 | 检查是否存在除`baselineObj not found on`以外的错误 |
 
 
@@ -220,5 +220,5 @@ ht-degree: 1%
    > 如果在迁移之前，属性&#x200B;**在**&#x200B;中使用AEM站点页面名称的标题`com.adobe.fmdita.config.ConfigManager`，设置为&#x200B;*False*，则在迁移之后，需要更新此属性。
 
 
-1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hans`）。
+1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。
 

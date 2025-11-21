@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -46,15 +46,13 @@ Cloud Service的`preview`或`publish`，内部部署软件的`publish`
 
 - 对于内部部署软件，如果参数包含无效值，将记录错误，并使用默认值`publish`完成发布。
 
-如果未定义可选参数`activationTarget`，则它会使用默认发布代理来激活Cloud Service和内部部署软件。
+如果未定义可选参数`activationTarget`，则它会使用Cloud Service和On-premise Software的默认发布代理来激活。
 
 
 
 以下示例显示使用带有可选参数的curl命令的API调用：
 
 
-    &grave;&grave;XML
-    
-    curl -u &lt;*用户名*>：&lt;*password*> -H &quot;Content-Type： application/json； charset=UTF-8&quot; -k -XPOST-d &quot;{[JSON规则字符串](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>：&lt;*port-number*>/bin/fmdita/activate？activationTarget=&#39;&lt;validActivationTarget=&#39;&lt;validActivationTarget值>“
-    ”“
-”
+```XML
+curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate?activationTarget=`<validActivationTargetValue>`
+```

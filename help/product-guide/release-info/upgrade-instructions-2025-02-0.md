@@ -1,7 +1,8 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 2025.02.0版本中的升级说明和修复的问题
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides as a Cloud Service的2025.02.0版本。
-source-git-commit: b180621b54fa5c7390aa798e66ed91e5e738ab28
+exl-id: 7b01be4c-031f-4153-8d6d-d6352e94be65
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 3%
@@ -33,7 +34,7 @@ ht-degree: 3%
 | Experience Manager Guides as a Cloud | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
 | --- | --- | --- | --- | --- |
 | 2025.02.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### 知识库模板版本
@@ -103,7 +104,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 执行以下步骤对现有内容进行后处理，并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个DITA文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`和`queryLimitInMemory`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个DITA文件，请将`queryLimitReads`下的`queryLimitInMemory`和`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
    - 按照安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置覆盖*&#x200B;部分中提供的说明创建配置文件。
    - 在配置文件中，提供以下（属性）详细信息以配置`queryLimitReads`和`queryLimitInMemory`选项：

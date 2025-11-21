@@ -4,7 +4,7 @@ description: 使用复合组件映射和旧版组件映射，在映射控制台�
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3592'
 ht-degree: 0%
@@ -99,7 +99,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 | 使用站点路径 | 使用此选项可将您的内容发布到Experience Manager站点。 |
 | 站点路径 | **如果您选择**&#x200B;使用站点路径&#x200B;**选项**，则会显示此选项。 浏览预定义的Experience Manager站点路径，或指定要发布输出的自定义路径。 通过&#x200B;**使用站点选项**，可以指定整个发布路径，即使尚未在AEM Sites结构中预先创建指定的路径也是如此。 在这种情况下，系统在发布过程中使用选定的映射主页模板创建必要的结构。<br><br>您还可以在设置网站路径时使用变量。 有关详细信息，请查看[使用变量设置目标路径、站点名称或文件名选项](./generate-output-use-variables.md) |
 | 映射页面模板 | **如果您选择**&#x200B;使用站点路径&#x200B;**选项**，则会显示此选项。 选择要应用于映射主页的模板。 |
-| 站点 | 要将内容发布到的Experience Manager Sites的名称。 下拉列表中的选项会根据AEM Sites中可用的站点列表进行填充。 <br>选择&#x200B;**刷新** ![刷新图标](images/navtitle-refresh-icon.svg)以获取新选项列表并反映更新的数据。 |
+| 网站 | 要将内容发布到的Experience Manager Sites的名称。 下拉列表中的选项会根据AEM Sites中可用的站点列表进行填充。 <br>选择&#x200B;**刷新** ![刷新图标](images/navtitle-refresh-icon.svg)以获取新选项列表并反映更新的数据。 |
 | 发布路径 | AEM存储库中存储输出的路径。 发布路径中填充了所有路径，这些路径包含根据主页模板创建的页面。 DITA映射的AEM Sites输出在此路径下生成。  例如，如果您将站点指定为`AEMG-Docs`，将发布路径指定为`aemg-docs-en/docs/product-abc.`，则将在`aemg-docs-en/docs/product-abc/`中的`crx/de`节点下生成AEM Sites输出。 |
 | 主题页面模板 | 选择要应用于所有输出主题的模板。 |
 | 根据生成页面名称 | **主题文件名**：使用DITA主题的文件名创建站点URL。<br> **主题标题**：使用DITA主题的标题创建Experience Manager站点名称。 |
@@ -216,7 +216,7 @@ Experience Manager Guides允许您使用`peer @scope`创建主题引用。 然�
 
    ![交叉映射引用](images/aem-sites-preset-cross-map-references.png)
 
-1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**&#x200B;发布上下文。
+1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**发布上下文。
 在发布包含链接主题的映射之前，您应该发布选定作为父映射的映射。 如果未发布包含链接主题的映射，则在AEM Sites输出中，链接将显示为普通文本而非超链接。
 您应为链接的主题选择相同类型的AEM Sites预设。 例如，如果当前AEM Sites预设使用旧版组件映射，则为链接的主题选择类似的AEM Sites预设。
 1. 在“父映射”下拉列表中，选择要为其输出链接当前映射输出的映射文件。

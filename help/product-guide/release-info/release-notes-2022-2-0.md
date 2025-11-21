@@ -1,28 +1,28 @@
 ---
 title: ' [!DNL AEM Guides]的发行说明，2022年2月版'
-description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service的2月版本'
+description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service的2月版'
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides]as a Cloud Service的2月版
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service的2月版
 
 ## 升级到2月版
 
-请通过以下步骤升级当前[!DNL Adobe Experience Manager Guides]as a Cloud Service(以后称为[!DNL AEM Guides]as a Cloud Service)安装程序：
-1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-1. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2022.2.114。
-1. 提交更改并运行Cloud Service管道，以升级到[!DNL AEM Guides]的2月版as a Cloud Service。
+请通过以下步骤升级当前[!DNL Adobe Experience Manager Guides] as a Cloud Service(以后称为[!DNL AEM Guides] as a Cloud Service)安装程序：
+1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
+1. 将Cloud Services Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2022.2.114。
+1. 提交更改并运行云服务管道以升级到[!DNL AEM Guides] as a Cloud Service的2月版本。
 
 ## 兼容性矩阵
 
-本部分列出了[!DNL AEM Guides] 2022年2月as a Cloud Service版本支持的软件应用程序的兼容性矩阵。
+本部分列出了[!DNL AEM Guides] as a Cloud Service 2022年2月版支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -42,17 +42,17 @@ ht-degree: 0%
 
 ## 新增功能和增强功能
 
-### 本机PDF发布
+### 原生PDF发布
 
-[!DNL AEM Guides]as a Cloud Service的2月版本中还添加了创建本机PDF的支持。 引入了新的发布引擎，其具有以下功能：
+[!DNL AEM Guides] as a Cloud Service的2月版本中还添加了创建本机PDF的支持。 引入了新的发布引擎，其具有以下功能：
 * 创建CSS模板
 * 创建其他页面模板
-* 设计包含CSS和PDF模板的模板
-* Publish映射和主题内容(PDF格式)
+* 设计包含CSS和页面模板的PDF模板
+* 以PDF格式发布映射和主题内容
 
 ### 在基于文章的发布中支持知识库网站路径
 
-[!DNL AEM Guides]as a Cloud Service提供了基于文章的发布功能，可增量生成一个或多个主题的输出，或将您的内容发布到知识库平台。 在2月版中，您还有一个选项，可用于选择主题/地图需要发布到的知识库网站路径。 选择路径后，将在指定的路径下生成输出。
+[!DNL AEM Guides] as a Cloud Service提供了基于文章的发布功能，可增量生成一个或多个主题的输出，或将您的内容发布到知识库平台。 在2月版中，您还有一个选项，可用于选择主题/地图需要发布到的知识库网站路径。 选择路径后，将在指定的路径下生成输出。
 
 ### Web编辑器增强功能
 
@@ -60,7 +60,7 @@ Web编辑器中添加了许多增强功能和新功能：
 
 * **已改进文件关闭对话框**
 
-当您尝试关闭在Web编辑器中打开的文件时，[!DNL AEM Guides]as a Cloud Service提示您保存更改并解锁锁定的文件。 根据管理员配置的&#x200B;**关闭时要求签入**&#x200B;和&#x200B;**关闭时要求新版本**&#x200B;设置显示提示。
+当您尝试关闭在Web编辑器中打开的文件时，[!DNL AEM Guides] as a Cloud Service会提示您保存更改并解锁锁定的文件。 根据管理员配置的&#x200B;**关闭时要求签入**&#x200B;和&#x200B;**关闭时要求新版本**&#x200B;设置显示提示。
 
 根据配置，您可以选择保存更改并创建文档的新版本。 或者，您也可以检入文件并将更改保存到当前版本。
 
@@ -68,7 +68,7 @@ Web编辑器中添加了许多增强功能和新功能：
 
 有关更多详细信息，请参阅《用户指南》中的&#x200B;*文件关闭和保存方案*。
 
-* 字符托盘中添加了不间断空格。  **不间断的**&#x200B;空格可防止HTML文档中的特定点出现自动换行。 Web编辑器支持AEM Site和HTML5输出的不间断空格。
+* 字符托盘中添加了不间断空格。  **不间断的**&#x200B;空格可防止HTML文档中的特定点出现自动换行符。 Web编辑器支持AEM Site和HTML5输出的不间断空格。
 
 * 从Web编辑器上传图像时，如果已存在同名图像，则会显示确认对话框。 您可以同时保留现有文件和新文件，也可以覆盖现有文件并仅保存新文件。
 
@@ -80,7 +80,7 @@ Web编辑器中添加了许多增强功能和新功能：
 
 ![映射下载](assets/download-map-prompt.png)
 
-### 审查
+### 审阅
 
 您可以在审核任务的描述字段中提及详细信息，该详细信息会显示在发送给审核者的电子邮件中。
 
@@ -93,7 +93,7 @@ Web编辑器中添加了许多增强功能和新功能：
 * 基于文章的发布不会发布基于所选基线的文章。 (8771)
 * 基于文章的发布中不允许DITAVAL文件。 (8770)
 * 当记录类型为常见问题解答且文章字段内容为问题时，无法为Salesforce配置文件执行基于文章的发布。 (8448)
-* 当记录类型为“手动”时，无法为Salesforce配置文件执行基于文章的发布。 (8447)
+* 记录类型为“手动”时，无法为Salesforce配置文件进行基于文章的发布。 (8447)
 
 ### Web编辑器
 

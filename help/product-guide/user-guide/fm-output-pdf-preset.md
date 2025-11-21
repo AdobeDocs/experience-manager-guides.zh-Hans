@@ -4,7 +4,7 @@ description: 在AEM Guides中为FrameMaker文档生成并配置PDF输出。
 exl-id: df3d3cd8-2aa1-4d82-8756-c3f5555cb904
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -23,13 +23,13 @@ ht-degree: 3%
 |-----------|-----------|
 | 输出类型 | 要生成的输出类型。 要生成PDF输出，请选择PDF选项。 |
 | 设置名称 | 为您正在创建的PDF输出设置提供一个描述性名称。 例如，您可以指定&#x200B;*内部客户输出*&#x200B;或&#x200B;*最终用户输出*。 |
-| **作业设置** |
+| **作业设置** |  |
 | 选项 | 选择要用于生成PDF输出的PDF预设。 |
 | 生成带标记的PDF | 选择此选项可生成将包含有关文档内容和结构的信息的标记PDF。 此信息供屏幕阅读器使用。 |
 | 为书籍中的每个文件生成PDF | 如果要为帐簿文件生成输出，请选择此选项，为帐簿中的每个文件生成单独的PDF。 |
 | 生成PDF以供仅查看 | 选择此选项可生成已启用评论功能的PDF。 |
 | 为所有元素和段落创建命名目标 | 选择此选项可根据元素和段落创建命名目标。 |
-| **显示设置** |
+| **显示设置** |  |
 | 在页面上打开文档 | 指定打开PDF时应显示的页码。 |
 | 初始缩放级别 | 选择文档缩放级别。 |
 | 注册标记 | 要打印具有裁切标记和注册标记的文档，请从“注册标记”下拉列表中选择一个选项。 |
@@ -40,4 +40,4 @@ ht-degree: 3%
 | 目标路径 | AEM存储库中存储PDF输出的路径。 |
 | 运行后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在AEM中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。 |
 
-**父主题：**&#x200B;[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)
+**父主题：**[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)

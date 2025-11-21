@@ -1,28 +1,28 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2022年4月版
-description: Adobe Experience Manager Guidesas a Cloud Service的4月版
+title: 发行说明 | Adobe Experience Manager Guides as a Cloud Service，2022年4月版
+description: Adobe Experience Manager Guides as a Cloud Service 4月版
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service的4月版
+# Adobe Experience Manager Guides as a Cloud Service 4月版
 
 ## 升级到4月版
 
-通过执行以下步骤升级当前[!DNL Adobe Experience Manager Guides]as a Cloud Service(以后称为&#x200B;*[!DNL AEM Guides]as a Cloud Service*)安装程序：
-1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-1. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2022.4.133。
-1. 提交更改并运行Cloud Service管道，以升级到[!DNL AEM Guides]的4月版本as a Cloud Service。
+请通过执行以下步骤升级当前[!DNL Adobe Experience Manager Guides] as a Cloud Service(以后称为&#x200B;*[!DNL AEM Guides]as a Cloud Service*)安装程序：
+1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
+1. 将云服务Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2022.4.133。
+1. 提交更改并运行云服务管道以升级到[!DNL AEM Guides] as a Cloud Service的4月版本。
 
 ## 兼容性矩阵
 
-本部分列出了[!DNL AEM Guides] 2022年4月as a Cloud Service版本支持的软件应用程序的兼容性矩阵。
+本部分列出了[!DNL AEM Guides] as a Cloud Service 2022年4月版支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -93,14 +93,14 @@ Web编辑器可帮助您管理版本。 现在，您还可以在主题的“预�
 * 使用元数据发布DITA映射后，无法删除元数据。  (9178)
 * 即使在映射编辑器中打开DITA映射时，翻译面板也可见。 (9053)
 * 用户定义的自定义DTD不会优先于嵌入到DITA-OT中的标准DITA DTD。 (9104)
-* 在本机PDF功能中，对于非DITA和非图像文件，在模板中上传失败。 (9070)
+* 在本机PDF功能中，对于非DITA和非图像文件，模板中的上传失败。 (9070)
 * 授权机制在某些特殊情况下执行两个查询而不是一个查询。 (9221)
 * 使用自定义DTD发布AEM站点输出失败。 (9243)
 * 引用脚注不会滚动到AEM站点输出中的脚注部分。 (9234)
 
 ## 已知问题
 
-Adobe已在[!DNL AEM Guides] 4月as a Cloud Service版本中发现以下已知问题。
+Adobe已在[!DNL AEM Guides] as a Cloud Service 4月版本中识别出以下已知问题。
 
 * 如果创建两个或更多具有相同名称但存在空格或大小写差异的基线，则Web编辑器不报告错误。 例如，“adobe”和“Adobe”或“Adobe”。
 * 频繁登录或注销或在不同身份验证类型之间切换时，氧气连接器会间歇性挂起。

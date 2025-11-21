@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -42,8 +42,8 @@ Experience Manager Guides提供了用于创建AEM Sites的预定义模板。 这
 >[!NOTE]
 >
 >在为Experience Manager Guides配置AEM Sites预设之前，管理员需要使用模板创建AEM Sites结构。
->- **内部部署软件**：了解有关如何[下载并安装内部部署软件的AEM Sites模板](/help/product-guide/install-guide/download-install-aem-sites-templates.md)的详细信息。
->- **Cloud Service**：了解有关如何[下载并安装适用于Cloud Service的AEM Sites模板](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)的更多信息。
+- **内部部署软件**：了解有关如何[下载并安装内部部署软件的AEM Sites模板](/help/product-guide/install-guide/download-install-aem-sites-templates.md)的详细信息。
+- **Cloud Service**：了解有关如何[下载并安装适用于Cloud Service的AEM Sites模板](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)的更多信息。
 
 
 
@@ -71,7 +71,7 @@ Experience Manager Guides提供了用于创建AEM Sites的预定义模板。 这
 
 - 使用站点路径
 - 站点路径
-- 站点
+- 网站
 - 发布路径
 - 主题页面模板
 - 根据生成页面名称
@@ -123,8 +123,8 @@ Experience Manager Guides提供了用于创建AEM Sites的预定义模板。 这
 | --- | --- |
 | 使用站点路径 | 使用此选项可将您的内容发布到Experience Manager站点。 如果您知道要将输出发布到的确切站点路径，请选择此选项。 此外，在站点路径字段中提及完整路径。 |
 | 站点路径 | 如果选择&#x200B;**使用站点路径**&#x200B;选项，则会显示此选项。 浏览您希望发布输出的确切的Experience Manager站点路径。 |
-| 站点 | 要将内容发布到的Experience Manager Sites的名称。 下拉列表中的选项会根据AEM Sites中可用的站点列表进行填充。 <br>选择&#x200B;**刷新** ![刷新图标](images/navtitle-refresh-icon.svg)以获取新选项列表并反映更新的数据。 |
-| 发布路径 | AEM存储库中存储输出的路径。 发布路径中填充了所有路径，这些路径包含根据主页模板创建的页面。 DITA映射的AEM Sites输出在此路径下生成。  例如，如果您将站点指定为`AEMG-Docs`，将发布路径指定为`aemg-docs-en/docs/product-abc.`，则将在`crx/de`中的`aemg-docs-en/docs/product-abc/`节点下生成AEM Sites输出。 |
+| 网站 | 要将内容发布到的Experience Manager Sites的名称。 下拉列表中的选项会根据AEM Sites中可用的站点列表进行填充。 <br>选择&#x200B;**刷新** ![刷新图标](images/navtitle-refresh-icon.svg)以获取新选项列表并反映更新的数据。 |
+| 发布路径 | AEM存储库中存储输出的路径。 发布路径中填充了所有路径，这些路径包含根据主页模板创建的页面。 DITA映射的AEM Sites输出在此路径下生成。  例如，如果您将站点指定为`AEMG-Docs`，将发布路径指定为`aemg-docs-en/docs/product-abc.`，则将在`aemg-docs-en/docs/product-abc/`中的`crx/de`节点下生成AEM Sites输出。 |
 | 主题页面模板 | 可用于在多个文档间以一致的方式组织内容的结构组件。 这些模板是在Adobe Experience Manager站点模板中预定义的。 这些选项中填充了可用于所选站点的所有主题页面模板。 选择要应用于所有输出主题的模板。 |
 | 根据生成页面名称 | **主题文件名**：使用DITA主题的文件名创建站点URL。<br> **主题标题**：使用DITA主题的标题创建Experience Manager站点名称。 |
 | 清理以前生成的页面 | - **删除从映射中删除的主题先前生成的页面**：如果DTIA映射的结构发生更改，则可以使用此选项为已删除的主题删除先前生成的页面。 此功能仅适用于完全映射发布。<br><br>假设您已发布一个DITA映射，其中包含主题a.dita、b.dita和c.dita。 再次发布映射之前，您已从映射中删除了b.dita主题。 现在，如果您选择了此选项，则与b.dita相关的所有内容都将从AEM Sites输出中删除，并且仅发布a.dita和c.dita。<br><br>**注意**：输出生成日志中还捕获了有关已删除页面的信息。 有关访问日志文件的详细信息，请[查看并检查日志文件](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS)。 <br><br>**警告**：删除主题时，已发布站点中的页面将不可用。 因此，在删除主题之前，会出现警告。 您必须确认删除它们。<br><br>- **删除此路径上其他源创建的所有页面**：如果选择此选项，则将从其他映射、单个主题或任何其他源中删除此路径上发布的所有页面。 已发布的站点中的页面也将不可用。 因此，在删除主题之前，会出现警告。 您必须确认删除它们。 |
@@ -208,7 +208,7 @@ Experience Manager Guides允许您使用现成的模板或添加您自己的AEM 
 
    ![交叉映射引用](images/aem-sites-cross-map-references.png)
 
-1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**&#x200B;发布上下文。
+1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**发布上下文。
 在发布包含链接主题的映射之前，您应该发布选定作为父映射的映射。 如果未发布包含链接主题的映射，则在AEM Sites输出中，链接将显示为普通文本而非超链接。
 您应为链接的主题选择相同类型的AEM Sites预设。 例如，如果当前AEM Sites预设使用旧版组件映射，则为链接的主题选择类似的AEM Sites预设。
 1. 在“父映射”下拉列表中，选择要为其输出链接当前映射输出的映射文件。

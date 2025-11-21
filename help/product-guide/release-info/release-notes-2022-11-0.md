@@ -1,34 +1,34 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2022年11月版
-description: 11月版的Adobe Experience Manager Guidesas a Cloud Service
+title: 发行说明 | Adobe Experience Manager Guides as a Cloud Service，2022年11月版
+description: Adobe Experience Manager Guides as a Cloud Service 11月版
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
 
-# 11月版的Adobe Experience Manager Guidesas a Cloud Service
+# Adobe Experience Manager Guides as a Cloud Service 11月版
 
 ## 升级到11月版
 
-请通过以下步骤升级当前的Adobe Experience Manager Guidesas a Cloud Service(以后称为&#x200B;*AEM Guidesas a Cloud Service*)安装程序：
-1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-1. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2022.11.198。
-1. 提交更改并运行Cloud Service管道，以升级到AEM Guidesas a Cloud Service的11月版。
+请通过以下步骤升级当前的Adobe Experience Manager Guides as a Cloud Service(以后称为&#x200B;*AEM Guides as a Cloud Service*)安装程序：
+1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
+1. 将Cloud Services Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2022.11.198。
+1. 提交更改并运行云服务管道以升级到AEM Guides as a Cloud Service的11月版。
 
-## 索引现有内容的步骤(仅当使用的版本早于9月份的AEM Guidesas a Cloud Service版本时)
+## 为现有内容编制索引的步骤(仅当使用的版本早于9月份的AEM Guides as a Cloud Service时)
 
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
 * 对服务器运行POST请求（使用正确的身份验证） — `http://<server:port>/bin/guides/map-find/indexing`。
 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(例如：http://&lt;_localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+* 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(例如：http://&lt;_localhost:8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
@@ -50,22 +50,22 @@ ht-degree: 0%
 | AEM Guides as a Cloud | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
 | --- | --- | --- | --- | --- |
 | 2022.11.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## 新增功能和增强功能
 
-AEM Guidesas a Cloud Service在11月版本中提供了以下增强功能和新功能：
+AEM Guides as a Cloud Service在11月版本中提供了以下增强功能和新功能：
 
 
 ### 从存储库面板中删除文件
 
-现在，您可以从存储库面板的选定文件的&#x200B;**选项**&#x200B;菜单中轻松删除文件（一次删除一个文件）。
+现在，您可以从存储库面板的选定文件的&#x200B;**选项**菜单中轻松删除文件（一次删除一个文件）。
 <img src="assets/repository-delete-file.png" alt="从存储库中删除" width="500">
 
 删除文件之前会显示确认提示。 如果文件未从任何其他文件引用，则会将其删除，并显示一条成功消息。
 
-如果所选文件已签出，则无法删除该文件，并会显示一条错误消息。 如果所选文件已添加到收藏夹集合或引用自任何其他文件，AEM guides将检查您的确认，并为您提供强制删除它的选项。 如果删除了引用的主题并且打开了包含要编辑的引用的文件，则将显示被引用文件的断开链接。
+如果所选文件已签出，则无法删除该文件，并会显示一条错误消息。 如果选定的文件已添加到收藏夹收藏集或从任何其他文件引用，AEM Guides将检查您的确认信息，并为您提供强制删除它的选项。 如果删除了引用的主题并且打开了包含要编辑的引用的文件，则将显示被引用文件的断开链接。
 
 **注意**：您也可以使用键盘的Delete键删除所选文件。
 
@@ -102,17 +102,17 @@ AEM Guides提供了为全局和文件夹配置文件创建和管理输出预设�
 <img src="assets/send-translation.png" alt="发送以供翻译" width="600">
 
 
-### 本机PDF | 带有显示文档版本之间差异的更改条的PDF
+### 原生PDF | 带有显示文档版本之间差异的更改条的PDF
 
-现在，您可以使用更改栏创建一个PDF，以显示两个版本之间的内容差异。 您可以选择将当前版本与先前版本的基线进行比较，或者将两个选定的基线版本进行比较。
+现在，您可以使用更改条创建一个PDF，以显示两个版本之间的内容差异。 您可以选择将当前版本与先前版本的基线进行比较，或者将两个选定的基线版本进行比较。
 
 <img src="assets/pdf-change-version.png" alt="spdf-change-version" width="600">
 
-PDF中将显示一个更改栏，以指示已修改、已插入或删除的内容。 您还可以选择执行以下操作：
+PDF中将显示一个更改栏，以指示已修改、插入或删除的内容。 您还可以选择执行以下操作：
 * 以绿色和带下划线的形式显示插入的内容
 * 以红色显示删除的内容并标记删除线
 
-### 本机PDF | 对输出路径和PDF文件名的变量支持
+### 原生PDF | 变量支持输出路径和PDF文件名
 
 现在，您还可以使用以下现成的变量来定义输出路径和PDF文件。 您可以使用单个变量或变量组合来定义以下选项：
 * `${map_filename}`
@@ -123,17 +123,17 @@ PDF中将显示一个更改栏，以指示已修改、已插入或删除的内�
 * `${path_after_langfolder}` （仅适用于输出路径）
 
 
-### 本机PDF | 为DITA映射生成目录并重新排序页面布局
+### 原生PDF | 为DITA映射生成目录并重新排序页面布局
 
-现在还可以使用模板的高级PDF设置在DITA映射中生成目录。 您可以选择启用或禁用各种页面布局的显示，也可以重新排列它们的位置。
+现在，您还可以使用模板的高级PDF设置在DITA映射中生成目录。 您可以选择启用或禁用各种页面布局的显示，也可以重新排列它们的位置。
 
 ## 修复的问题
 
 修复了多个区域中的错误如下：
 
-* 本机PDF | 在生成的PDF输出中未解析`conkeyref`。 (10564)
-* 本机PDF | 访问PDF输出中的映射元数据时出现问题。 (10556)
-* 本机PDF | 使用内联样式而不是类名生成标记。  (10498)
+* 原生PDF | 在生成的PDF输出中未解析`conkeyref`。 (10564)
+* 原生PDF | 访问PDF输出中的映射元数据时出现问题。 (10556)
+* 原生PDF | 使用内联样式而不是类名生成标记。  (10498)
 * Web编辑器间歇性地加载空白页。 (10678)
 * 如果我们通过复制现有预设来创建预设，则PDF发布失败。 (10584)
 * 当预设的PDF生成失败时，**查看日志**&#x200B;按钮不起作用。 (10576)
@@ -145,7 +145,7 @@ PDF中将显示一个更改栏，以指示已修改、已插入或删除的内�
 * 如果在基线编辑窗口中更改并保存了任何DITA资源版本，则会出现多个弹出窗口。 (10399)
 * 从“快速生成”面板中选择所有输出预设后，单击&#x200B;**编辑**&#x200B;按钮时出现应用程序错误。 (10388)
 * 从Assets UI执行复制粘贴操作时，不会保留DITA主题的自定义元数据。 (10367)
-* 对于资产位于活动翻译项目中的整个语言文件夹，将阻止Post处理。 (10332)
+* 对于资产位于活动翻译项目中的整个语言文件夹，后处理将被阻止。 (10332)
 * XML编辑器中的“模板”选项卡对文件夹配置文件管理员不可见。 (10266)
 * 升级4.0后，Web编辑器中出现导航问题。 (10159)
 * 在预览模式下不会显示SVG文件。 (10010)

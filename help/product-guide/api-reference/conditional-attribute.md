@@ -5,7 +5,7 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 一种POST方法，用于将条件属性添加到给定的文件夹级配置文件。
 
 **请求URL**：\
-http://*&lt;aem-guides-server\>*： *&lt;端口号\>*/bin/fmdita/folderprofiles
+http://*<aem-guides-server\>*： *<端口号\>*/bin/fmdita/folderprofiles
 
 **参数**：
 

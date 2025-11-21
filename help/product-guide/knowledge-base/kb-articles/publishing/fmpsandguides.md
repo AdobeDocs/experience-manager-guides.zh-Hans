@@ -1,43 +1,43 @@
 ---
-title: 在AEM Guides中使用FrameMaker Publishing Server(FMPS)发布
+title: 使用AEM Guides中的FrameMaker Publishing Server (FMPS)进行发布
 description: 使用AEM Guides通过FMPS发布
 exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
-# 在AEM Guides中使用FrameMaker Publishing Server(FMPS)发布
+# 使用AEM Guides中的FrameMaker Publishing Server (FMPS)进行发布
 
-如果您希望获得高质量的自动发布功能，AEM Guides与FrameMaker Publishing Server的集成可能是您的解决方案。\
+如果您希望获得高质量的自动发布，AEM Guides与FrameMaker Publishing Server的集成可能是您的解决方案。\
 文章可帮助您使用AEM Guides设置和运行FMPS。
 
 ## FMPS与AEM Guides的兼容性
 
-- 与4.1 AEM Guides的兼容性： [4.1兼容性矩阵](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=zh-Hans/#compatibility-matrix)
+- 与4.1 AEM Guides的兼容性： [4.1兼容性矩阵](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - 与4.0 AEM Guides的兼容性： [4.0兼容性矩阵](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 最新版本： [最新版本信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=zh-Hans)
+- 最新版本： [最新版本信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## 安装
 
 有关AEM Guides和FMPS的安装与配置，请参阅以下内容
 
-### AEM 指南
+### AEM Guides
 
 安装和配置请参阅： [4.1安装和配置](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ### FMPS
 
-对于FMPS安装，您可以参考给定的[YouTube链接](https://www.youtube.com/watch?v=2deelyM5VA8&t)或[FMPS安装和配置](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
+对于FMPS安装，您可以参考给定的[YouTube链接](https://www.youtube.com/watch?v=2deelyM5VA8&t)或[FMPS安装和配置](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
 
 ## 所需的配置
 
-FrameMaker Publishing Server(FMPS)可用于生成DITA内容。 FMPS支持多种输出格式。 在Web控制台中修改“com.adobe.fmdita.config.ConfigManager捆绑包”的以下属性以将AEM Guides配置为使用FMPS。
+FrameMaker Publishing Server (FMPS)可用于生成DITA内容。 FMPS支持多种输出格式。 在Web控制台中修改“com.adobe.fmdita.config.ConfigManager捆绑包”的以下属性以将AEM Guides配置为使用FMPS。
 
 要打开Web控制台，请转到URL Access http://\&lt;服务器名称\>：\&lt;端口\>/system/console/configMgr。
 
@@ -45,13 +45,13 @@ FrameMaker Publishing Server(FMPS)可用于生成DITA内容。 FMPS支持多种�
 
 ## 正在运行测试：
 
-使用FMPS，您可以自动发布DITA和FM Assets的&#x200B;**PDF、响应HTML5**&#x200B;和&#x200B;**Epub**。
+使用FMPS，您可以自动发布DITA和FM Assets的&#x200B;**PDF、响应式HTML5**&#x200B;和&#x200B;**Epub**。
 
-从“使用生成PDF”菜单中，选择“FrameMaker Publishing Server”。
+从“使用生成PDF”菜单中，选择FrameMaker Publishing Server。
 
 用户可以提供“settings File(.sts)”和“ditaval”。 根据您提供的条件，使用域进行筛选。
 
-- **设置文件**： /FMPS Publish设置文件FrameMaker，其中包含您希望FMPS在发布时遵循的所有设置。 例如，使用自定义模板创建输出，创建“标记和出血”(PDF)，以及使用TOC创建PDF。
+- **设置文件**：一个FrameMaker /FMPS发布设置文件，其中包含您希望FMPS在发布时遵循的所有设置。 例如，使用自定义模板创建输出，创建标记和出血(PDF)，以及使用目录创建PDF。
 - **FMPS预设：**&#x200B;它是预定义的ditaval和设置文件组合。 用户可以预先创建FMPS预设，而不是提供单独的视图和设置文件，可以重复使用这些预设来满足发布需求。
 
 **注意：**&#x200B;如果您未选择任何设置或FMPS预设，则FMPS将使用默认系统设置进行发布。
@@ -74,9 +74,9 @@ FrameMaker Publishing Server(FMPS)可用于生成DITA内容。 FMPS支持多种�
 
 >确保在服务器上创建了预定义的FMPS预设，并且您的连接设置正确。
 
-- ### 发布时我收到空白PDF
+- ### 发布时收到空白PDF
 
->如果您使用的是UUID，请确保您已在FrameMaker编辑首选项中选中“使用基于UUID的引用”，并反之选中非UUID AEM指南的引用。
+>如果您使用的是UUID，请确保已选中FrameMaker编辑首选项中的“使用基于UUID的引用”，并反之选中非UUID AEM指南的“使用UUID的引用”。
 
 - ### 我的设置/对话框未应用于最终发布的输出
 
@@ -86,12 +86,14 @@ FrameMaker Publishing Server(FMPS)可用于生成DITA内容。 FMPS支持多种�
 
 >FMPS2020.0.2或更高版本与基线发布兼容。
 >确保正确创建了基线；要进行检查，请转到“映射仪表板” — “主题” — “下载”  映射并选择“使用基线”。
->- ### FMPS中的Publish任务比其他引擎需要更多时间
->从FMPS发布时，理想的固定标头时间约为3 - 4分钟；如果您认为时间更长，请联系FMPS管理员或联系Adobe支持部门。
+
+- ### 从FMPS发布任务所花费的时间比其他引擎多
+
+>从FMPS发布时，理想的固定标头时间约为3 - 4分钟；如果您认为时间更长，请联系您的FMPS管理员或联系Adobe支持部门。
 
 ## 其他资源：
 
-[FMPS学习和支持](https://helpx.adobe.com/cn/support/framemaker-publishing-server.html)
+[FMPS学习和支持](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
 [AEM Guides学习与支持](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 

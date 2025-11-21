@@ -5,7 +5,7 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 9%
@@ -18,13 +18,13 @@ ht-degree: 9%
 
 AEM文档中的以下主题将帮助您了解用户管理与安全相关的概念和功能：
 
-- AEM中的[用户和组](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- AEM中的[用户和组](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- AEM中的[权限](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- AEM中的[权限](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [管理用户和组](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [管理用户和组](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [管理权限](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [管理权限](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## AEM Guides创建的用户组 {#id181TF0K0MHT}
@@ -53,27 +53,27 @@ AEM Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&
 | 复制 | 是 |   | 是 |
 | 删除 | 是 |   | 是 |
 | 共享 | 是 |   | 是 |
-| **文档状态** |
+| **文档状态** |  |  |  |
 | 创建/编辑文档状态配置文件 |   |   | 是 |
 | 更改文档状态[2](#fntarg_2) | 是 | 是 | 是 |
-| **DITA映射控制台中可用的功能\（输出预设选项卡\）** |
+| **DITA映射控制台中可用的功能\（输出预设选项卡\）** |  |  |  |
 | 生成 |   |   | 是 |
 | 编辑 |   |   | 是 |
 | 复制 |   |   | 是 |
 | 创建 |   |   | 是 |
 | 删除预设 |   |   | 是 |
-| **DITA映射控制台中可用的功能\（输出选项卡\）** |
+| **DITA映射控制台中可用的功能\（输出选项卡\）** |  |  |  |
 | 查看生成的输出 | 是 |   | 是 |
-| **DITA映射控制台中可用的功能\（主题选项卡\）** |
+| **DITA映射控制台中可用的功能\（主题选项卡\）** |  |  |  |
 | 创建审阅任务 | 是 |   | 是 |
 | 编辑 | 是 |   | 是 |
-| **DITA映射控制台中可用的功能\（“基线”选项卡\）** |
+| **DITA映射控制台中可用的功能\（“基线”选项卡\）** |  |  |  |
 | 创建 |   |   | 是 |
 | 编辑 |   |   | 是 |
 | 复制 |   |   | 是 |
 | 移除 |   |   | 是 |
 | DITA映射控制台\（报表选项卡\） | 是 |   | 是 |
-| DITA映射控制台中可用的&#x200B;**功能\（条件预设\）** |
+| DITA映射控制台中可用的&#x200B;**功能\（条件预设\）** |  |  |  |
 | 创建/编辑条件预设 |   |   | 是 |
 
 ## 有关用户组的其他说明

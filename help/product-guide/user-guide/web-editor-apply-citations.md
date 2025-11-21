@@ -4,7 +4,7 @@ description: 在AEM Guides中添加和管理引文。 了解如何应用、导�
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -66,8 +66,8 @@ Experience Manager Guides支持多种类型的引用，例如现代语言协会(
    | **年** <br>添加书籍发布的年份。 | **更新日期** <br>添加更新网站内容的日期。 | **页面** <br>添加找到的文章的页码或页面范围。 |
    | **版本** <br>添加书籍的版本。 | **唯一ID** <br>为引文添加唯一ID。 唯一ID是该引文的唯一标识符。 | **URL** <br>将Web链接添加到日志。 |
    | **系列** <br>添加书籍的系列。 |  | **唯一ID** <br>为引文添加唯一ID。唯一ID是该引文的唯一标识符。 |
-   | **URL** <br>添加Web链接到帐簿。 |
-   | **唯一ID** <br>为引文添加唯一ID。 唯一ID是该引文的唯一标识符。 |
+   | **URL** <br>添加Web链接到帐簿。 |  |  |
+   | **唯一ID** <br>为引文添加唯一ID。 唯一ID是该引文的唯一标识符。 |  |  |
 
 1. 选择&#x200B;**完成**。
 
@@ -96,7 +96,7 @@ Experience Manager Guides支持多种类型的引用，例如现代语言协会(
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides仅导入不重复且尚不存在的引用。
-   > &gt; <li> Experience Manager Guides可以从书籍、日记或网站导入引文。 目前不支持来自其他来源的引用。
+    &gt; <li> Experience Manager Guides可以从书籍、日记或网站导入引文。 目前不支持来自其他来源的引用。
 
 ## 管理引文
 
@@ -119,13 +119,13 @@ Experience Manager Guides支持多种类型的引用，例如现代语言协会(
 在引文中搜索您的内容。
 
 1. 在左侧面板中，选择“引文”。
-将打开&#x200B;**引用**&#x200B;面板。
+将打开**引用**&#x200B;面板。
 
 1. 使用搜索栏从长列表中搜索相应的引用。
 
 ### 更改引用样式 {#change-citation-style}
 
-您的系统管理员可以从&#x200B;**设置**&#x200B;的&#x200B;**常规**&#x200B;选项卡中的&#x200B;**引用**&#x200B;下拉菜单中更改引用的样式。
+您的系统管理员可以从&#x200B;**设置**&#x200B;的&#x200B;**常规**&#x200B;选项卡中的&#x200B;**引用**下拉菜单中更改引用的样式。
 这些样式决定引文在预览窗格或本机PDF输出中的显示方式。
 
 下拉菜单中提供了以下选项：
@@ -187,7 +187,7 @@ Experience Manager Guides支持多种类型的引用，例如现代语言协会(
 ### 从主工具栏
 
 1. 在主工具栏中选择&#x200B;**引用** ![引用图标](images/citations-icon.svg)图标。
-1. 在&#x200B;**引文**&#x200B;对话框中，选择引文。 您还可以选择多个引文。
+1. 在&#x200B;**引文**对话框中，选择引文。 您还可以选择多个引文。
    ![引文对话框](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. 您可以在&#x200B;**引文**&#x200B;对话框的搜索面板中键入前几个字母来筛选引文。
 
@@ -204,7 +204,7 @@ Experience Manager Guides支持多种类型的引用，例如现代语言协会(
 1. 在左侧面板中选择&#x200B;**引用** ![引用图标](images/citations-icon.svg)图标。
 1. 将引文从&#x200B;**引文**&#x200B;面板拖放到主题中的适当位置。
 
-   您还可以从![](images/options.svg) **选项**&#x200B;中选择&#x200B;**插入**&#x200B;以插入引用。
+   您还可以从&#x200B;****&#x200B;选项![](images/options.svg)中选择&#x200B;**插入**&#x200B;以插入引用。
 
    ![插入引文](images/citation-panel-insert.png)
 1. 要选择多个引文，请右键单击主题中的引文，然后从快捷菜单中选择&#x200B;**修改引文**。

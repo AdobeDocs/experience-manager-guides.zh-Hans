@@ -5,7 +5,7 @@ exl-id: 4d99c3d8-cf6a-4cf3-aaec-9009a0376c1e
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 1%
@@ -23,6 +23,6 @@ ht-degree: 1%
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | 布尔值\(true/false\)。<br> **默认值**： false |
-| `xmleditor.autosaveinterval` | 以秒为单位指定触发自动保存功能的时间间隔。 |
+| `xmleditor.autosaveinterval` | 以秒为单位指定触发自动保存功能的时间间隔。 |  |
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

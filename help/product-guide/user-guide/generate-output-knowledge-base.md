@@ -4,7 +4,7 @@ description: 了解如何从“地图”控制台创建知识库预设。 在AEM
 feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: d9a46a009477b1110208a509d4ad8c0616139661
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 1%

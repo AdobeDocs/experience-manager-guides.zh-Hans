@@ -1,24 +1,24 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2022年8月版
-description: 8月版的Adobe Experience Manager Guidesas a Cloud Service
+title: 发行说明 | Adobe Experience Manager Guides as a Cloud Service，2022年8月版
+description: Adobe Experience Manager Guides as a Cloud Service 8月版
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
 
 ---
 
-# 8月版的Adobe Experience Manager Guidesas a Cloud Service
+# Adobe Experience Manager Guides as a Cloud Service 8月版
 
 ## 升级到8月版
 
-请通过以下步骤升级当前的Adobe Experience Manager Guidesas a Cloud Service(以后称为&#x200B;*AEM Guidesas a Cloud Service*)安装程序：
-1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-1. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2022.8.167。
-1. 提交更改并运行Cloud Service管道，以升级到AEM Guides的8月版as a Cloud Service。
+请通过以下步骤升级当前的Adobe Experience Manager Guides as a Cloud Service(以后称为&#x200B;*AEM Guides as a Cloud Service*)安装程序：
+1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
+1. 将云服务Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2022.8.167。
+1. 提交更改并运行云服务管道，以升级到AEM Guides as a Cloud Service的8月版本。
 
 ## 兼容性矩阵
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 新增功能和增强功能
 
-AEM Guidesas a Cloud Service在8月版本中提供了许多增强功能和新功能：
+AEM Guides as a Cloud Service在8月版本中提供了许多增强功能和新功能：
 
 ### 映射编辑器中的布局视图
 
@@ -70,11 +70,11 @@ AEM Guidesas a Cloud Service在8月版本中提供了许多增强功能和新功
 
 ![布局视图右面板](assets/layout-inline-attributes.png)
 
-有关更多详细信息，请参阅使用Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*布局视图*&#x200B;部分。
+有关更多详细信息，请参阅使用Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*布局视图*&#x200B;部分。
 
 ### 编辑器设置中的内联属性
 
-AEM Guides现在允许管理员从&#x200B;**编辑器设置**&#x200B;配置&#x200B;**内联属性**。 您还可以在“编辑器设置”的&#x200B;**内联属性**&#x200B;选项卡中添加新的内联属性或删除现有属性。
+AEM Guides现在允许管理员从&#x200B;**编辑器设置**&#x200B;配置&#x200B;**内联属性**。 您还可以在“编辑器设置”的&#x200B;**内联属性**选项卡中添加新的内联属性或删除现有属性。
 为主题定义的已配置“内联属性”将针对“布局”视图中的主题显示。
 
 ![编辑器设置](assets/editor-settings-inline-attributes.png)
@@ -97,10 +97,10 @@ AEM Guides现在允许管理员从&#x200B;**编辑器设置**&#x200B;配置&#x20
 * 更新后的Node.js不用于发布。 (9835)
 * 在&#x200B;**属性**&#x200B;页面上完成的更改不会自动更新DITA主题。 (8745)
 * 添加到DITA书签时，Frontmatter元素无法正常工作。 (9507)
-* 本机PDF | 在选择了空元素时，为多个文件使用&#x200B;**快速生成**&#x200B;时生成空白PDF。 (9822)
-* 本机PDF | 附录作为PDF输出中的一章发布。 (9829)
-* 本机PDF | 编辑SVG图像时，不会在页面布局中显示更新后的图像。 (9069)
-* 当使用&#x200B;**插入特殊字符**&#x200B;对话框插入`Nonbreaking Hyphen`字符时，将插入常规连字符符。 (8919)
+* 原生PDF | 在选择了空元素时，为多个文件使用&#x200B;**快速生成**&#x200B;时生成空白PDF。 (9822)
+* 原生PDF | 附录作为一章在PDF输出中发布。 (9829)
+* 原生PDF | 编辑SVG图像时，不会在页面布局中显示更新后的图像。 (9069)
+* 当使用`Nonbreaking Hyphen`插入特殊字符&#x200B;**对话框插入**&#x200B;字符时，将插入常规连字符符。 (8919)
 * 如果更新图像已编辑，则XML编辑器不会在主题中显示更新图像。 (9500)
 * 通过编辑器发布输出时，无法从&#x200B;**输出**&#x200B;选项卡中删除预设。 (9100)
 * 未使用省略号菜单中的&#x200B;**全选**&#x200B;选项签出DITA映射的子映射。 (9814)
@@ -114,7 +114,7 @@ AEM Guides现在允许管理员从&#x200B;**编辑器设置**&#x200B;配置&#x20
 
 ## 已知问题
 
-Adobe已发现AEM Guides 2022年8月as a Cloud Service版本的以下已知问题。
+Adobe已发现AEM Guides as a Cloud Service 2022年8月版中的以下已知问题。
 
 ### 存在已知问题的解决方法
 

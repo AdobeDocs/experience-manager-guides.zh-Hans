@@ -4,9 +4,9 @@ description: 了解错误修复以及如何升级到Adobe Experience Manager Gui
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1307'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在升级Experience Manager Guides版本之前，必须安装AEM Service Pack。
+>在升级AEM版本之前，必须安装Experience Manager Guides Service Pack。
 
 有关详细信息，请参阅[升级说明](../install-guide/upgrade-xml-documentation.md)。
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 | --- | --- | --- | --- | --- |
 | 4.3.1（非UUID） | 2022或更高版本 | 2020.2或更高版本* | 2022或更高版本 | 2020.3或更高版本 |
 | 4.3.1 (UUID) | 2022或更高版本 | 2020.2或更高版本* | 2022或更高版本 | 2020.4或更高版本 |
-| | | | |
+| | | | | |
 
 *从2020.2开始的FMPS版本支持在AEM中创建的基线和条件。
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 | --- | --- | --- |--- |--- |
 | 4.3.1（非UUID） | 2.3 — 常规–5 | 2.3 — 常规–5 | 1.6 | 1.6 |
 | 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   | | |
 
 
 
@@ -107,25 +107,25 @@ ht-degree: 1%
 
 ### 发布
 
-- 本机PDF | 生成PDF输出时，主题的顺序未固定。 (13157)
-- 本机PDF| `<p>`元素没有可用的默认样式标记。 (12559)
-- 本机PDF | 应用于内容区域的内联样式不会应用于前件和后件主题。 (13510)
-- 生成AEM Site输出时未传播`DeliveryTarget`特性。  (13132)
-- 为包含某些错误的内容生成AEM站点输出时，**Publish**&#x200B;工作流卡住。 (12000)
+- 原生PDF | 生成PDF输出时，主题的顺序未固定。 (13157)
+- 原生PDF| `<p>`元素没有可用的默认样式标记。 (12559)
+- 原生PDF | 应用于内容区域的内联样式不会应用于前件和后件主题。 (13510)
+- 生成AEM站点输出时未传播`DeliveryTarget`特性。  (13132)
+- 为包含某些错误的内容生成AEM站点输出时，**发布**&#x200B;工作流卡住。 (12000)
 
-- 本机PDF | 包含多个Xref可将文本扩展至超出列宽的位置。 (13004)
-- 本机PDF | 当主题和标题具有相同的ID时，会导致生成的PDF输出格式不正确。 (12644)
-- 本机PDF | 向DITA映射中的父`<topicref>`元素添加outputclass并将自定义样式应用于outputclass时，该样式将应用于主题正文中的元素，包括节标题。 (12166)
+- 原生PDF | 包含多个Xref可将文本扩展至超出列宽的位置。 (13004)
+- 原生PDF | 当主题和标题具有相同的ID时，会导致生成的PDF输出格式不正确。 (12644)
+- 原生PDF | 向DITA映射中的父`<topicref>`元素添加outputclass并将自定义样式应用于outputclass时，该样式将应用于主题正文中的元素，包括节标题。 (12166)
 - 如果DITA映射具有多个ditavalref，则增量发布不起作用。 (12117)
 - AEM站点 | 在创建映射时，使用keydef指向作为变量的主题并添加processing-role=resource-only会创建一些意外页面。 (12099)
-- 如果在AEM站点以外的任何输出中使用来自AEM DAM的任何资源，则元数据“jcr：createdBy”不会反映发布者的名称或上次修改DITA映射或主题的用户的名称。 (12090)
+- 如果在AEM DAM中的任意资源用于AEM站点以外的任何输出，则元数据“jcr:createdBy”不会反映发布者的名称或上次修改DITA映射或主题的用户的名称。 (12090)
 - AEM Sites | DITA映射的navtitle中带有主题头（包含不受支持的字符）会导致页面URL损坏。 (11978)
-- 本机PDF | 在Frontmatter和Backmatter中支持topichead / topicmeta / navtitle时出现问题。 (11969)
-- 本机PDF | 为大型文档生成PDF非常耗时。 (11955)
-- 本机PDF | 在生成PDF输出时，重命名预设会引发NullPointerException。 (11889)
-- PDF输出中未显示`<conref>`内容。 (11131)
+- 原生PDF | 在Frontmatter和Backmatter中支持topichead / topicmeta / navtitle时出现问题。 (11969)
+- 原生PDF | 为大型文档生成PDF非常耗时。 (11955)
+- 原生PDF | 在生成PDF输出时，重命名预设会引发NullPointerException。 (11889)
+- `<conref>`内容未显示在PDF输出中。 (11131)
 - 在页面布局编辑器中的“创作”视图和“Source”视图之间切换时，`<div>`元素内会添加一个额外的空间。 (10750)
-- 在AEM Cloud Manager上复制的内容在Publish实例上不可见。 (9564)
+- 在AEM Cloud Manager上复制的内容在发布实例上不可见。 (9564)
 
 
 ### 管理
@@ -136,7 +136,7 @@ ht-degree: 1%
 - 使用“浏览所有主题”功能时，“基线”在“映射仪表板”上显示不正确的文件数。 (13265)
 - 在Web编辑器中，基线显示DITA文件的先前版本（而非所选版本）的标题。 (13444)
 
-### 审查
+### 审阅
 
 - 有关主题的“复查”显示不正确的注释。 (13453)
 - Experience Manager Guides中“查看”页面上的“关闭”按钮会将用户转到AEM主页。 (13535)

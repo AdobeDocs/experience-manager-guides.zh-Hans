@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 2%
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 | ServiceNow选项 | 描述 |
 | --- | --- |
-| 发布个人资料 | 使用下拉菜单从管理员配置的ServiceNow连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的详细信息，请在[左侧面板](./web-editor-features.md#id2051EA0M0HS)部分中查看&#x200B;**编辑器设置**&#x200B;功能说明。 |
+| 发布个人资料 | 使用下拉菜单从管理员配置的ServiceNow连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的详细信息，请在&#x200B;**左侧面板**&#x200B;部分中查看[编辑器设置](./web-editor-features.md#id2051EA0M0HS)功能说明。 |
 | 知识库 | 使用此字段选择所需的ServiceNow知识库。 您可以在ServiceNow站点中配置知识库，以根据权限存储内容。 可以将此DITA映射中的文章发布到这些知识库。 |
 | 类别和子类别 | 类别类似于用于查找和分类ServiceNow Knowledge Base文章的分层树。 添加类别和子类别，将目录的主题和子主题发布到ServiceNow站点上的该类别和子类别中。 |
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 | Salesforce选项 | 描述 |
 | --- | --- |
-| 发布个人资料 | 使用下拉菜单从管理员配置的Salesforce连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的详细信息，请在[左侧面板](./web-editor-features.md#id2051EA0M0HS)部分中查看&#x200B;**编辑器设置**&#x200B;功能说明。 |
+| 发布个人资料 | 使用下拉菜单从管理员配置的Salesforce连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的详细信息，请在&#x200B;**左侧面板**&#x200B;部分中查看[编辑器设置](./web-editor-features.md#id2051EA0M0HS)功能说明。 |
 | 记录类型 | 根据基于用户配置文件的可见性设置，使用下拉菜单从Salesforce中设置的记录类型中进行选择。 Salesforce记录类型是一种对该对象进行多种类型记录分组的方法。 它们定义出版物的组织方式。 例如，您可以选择常见问题解答记录类型，并根据常见问题解答页面布局和字段进行发布。 |
 | 文章内容字段 | 每个记录类型模板可以有不同的字段和唯一的布局。 使用这些字段可根据文章类型输入特定信息。 例如，您可以查看常见问题解答文章的标题、答案和方程式。 |
 | 类别 | 从下拉列表中选择一个类别，以在Salesforce站点上发布该类别中目录的主题。 |
@@ -61,18 +61,17 @@ ht-degree: 2%
 | 上传图像 | 如果希望主题中的任何图像包含在已发布的输出中，请选择此选项。 |
 | 上传链接的文档 | 选择此选项可在已发布输出中包括主题中链接的文档。 |
 
-
 ### Adobe Experience Manager
 
 >[!NOTE]
 >
->如果管理员已配置Adobe Experience Manager知识库预设，则可以使用该预设。 有关更多详细信息，请参阅安装和配置指南中的Web编辑器[&#128279;](/help/product-guide/install-guide/configure-article-based-publishing.md)部分中的基于文章的发布。
+>如果管理员已配置Adobe Experience Manager知识库预设，则可以使用该预设。 有关更多详细信息，请参阅安装和配置指南中的Web编辑器[部分中的](/help/product-guide/install-guide/configure-article-based-publishing.md)基于文章的发布。
 
 | Adobe Experience Manager选项 | 描述 |
 | --- | --- |
 | 使用文章路径 | 选择此选项可查看包含知识库模板的文件夹的&#x200B;**文章路径**。 |
 | 文章路径 | 如果您选择选项&#x200B;**使用文章路径**，则会显示此字段。 浏览以选择Adobe Experience Manager存储库中存储输出的知识库网站。 |
-| 站点 | 使用此字段选择所需的Adobe Experience Manager知识库。 您可以在Adobe Experience Manager站点中配置知识库，以根据权限存储内容。 可以将此DITA映射中的文章发布到这些知识库。 |
+| 网站 | 使用此字段选择所需的Adobe Experience Manager知识库。 您可以在Adobe Experience Manager站点中配置知识库，以根据权限存储内容。 可以将此DITA映射中的文章发布到这些知识库。 |
 | 类别 | 从下拉列表中选择一个类别，以在Adobe Experience Manager网站上发布该类别中目录的主题。 |
 | 区域模板和文章模板 | 这些是用于组织输出内容的结构组件。 这些是在Adobe Experience Manager站点模板中预定义的。 |
 | 后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在Adobe Experience Manager中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。<br>了解有关如何[自定义输出后生成工作流](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)部分的详细信息，请参阅安装和配置指南。 |

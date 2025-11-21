@@ -4,9 +4,9 @@ description: 了解错误修复以及如何升级到Adobe Experience Manager Gui
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在升级AEM Guides版本之前，必须安装AEM Service Pack。
+>在升级AEM版本之前，必须安装AEM Guides Service Pack。
 
 有关详细信息，请参阅[升级说明](../install-guide/upgrade-xml-documentation.md)。
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 | --- | --- | --- | --- | --- |
 | 4.3.0（非UUID） | 2022或更高版本 | 2020.2或更高版本* | 2022或更高版本 | 2020.3或更高版本 |
 | 4.3.0 (UUID) | 2022或更高版本 | 2020.2或更高版本* | 2022或更高版本 | 2020.4或更高版本 |
-| | | | |
+| | | | | |
 
 *从2020.2开始的FMPS版本支持在AEM中创建的基线和条件。
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 | --- | --- | --- |--- |--- |
 | 4.3.0（非UUID） | 2.3 — 常规–5 | 2.3 — 常规–5 | 1.6 | 1.6 |
 | 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## 修复的问题
 
@@ -105,7 +105,7 @@ ht-degree: 1%
 - 当尝试打开或更新基线中的主题版本时，“从服务器获取信息”加载程序将无限期运行。(12478)
 
 
-### 审查
+### 审阅
 
 - 新建审核UI | 这些条件会高亮显示，并且显示隐藏的工作方式与它们在Web编辑器中的工作方式有所不同。 (11628)
 
@@ -113,15 +113,15 @@ ht-degree: 1%
 
 - 重命名本机PDF预设时，发布失败。 (12564)
 - 复制本机PDF模板会复制到默认模板位置，而不是提供的自定义模板位置。 (12563)
-- 本机PDF | 无法将生成的PDF中的语言元数据设置为符合WCAG 2.0。 (12407)
-- 从可能刷新或重新启动的面板中读取临时文件时，发布到AEM站点失败。 (12113)
-- 本机PDF | 自定义属性不会传播到临时HTML或PDF引擎。 (DXML-12005)
-- 本机PDF |  发布大型内容时出现Java OutOfMemoryError。 (11789)
-- 本机PDF | Xref正在打印href主题标题的内容而不是Xref标签。 (11322)
-- 本机PDF | 无法保存PDF模板设置。 (10751)
-- 本机PDF | 文本在包含多个xref时超出列宽。 (10876)
-- 本机PDF | `<note>` `</note>`元素未生成其类型的额外范围标题。 (10549)
-- JSON输出 | JSON的jcr：content节点上的`fmUuid`属性不同于JSON中的“id”。 (11564)
+- 原生PDF | 在生成的PDF中无法设置语言元数据以符合WCAG 2.0。 (12407)
+- 从面板中读取可能已刷新或重新启动的临时文件时，发布到AEM站点失败。 (12113)
+- 原生PDF | 自定义属性不会传播到临时HTML或PDF引擎。 (DXML-12005)
+- 原生PDF |  发布大型内容时出现Java OutOfMemoryError。 (11789)
+- 原生PDF | Xref正在打印href主题标题的内容而不是Xref标签。 (11322)
+- 原生PDF | 无法保存PDF模板设置。 (10751)
+- 原生PDF | 文本在包含多个xref时超出列宽。 (10876)
+- 原生PDF | `<note>``</note>`元素未生成其类型的额外范围标题。 (10549)
+- JSON输出 | JSON的jcr`fmUuid`节点上的:content属性不同于JSON中的“id”。 (11564)
 - JSON输出 | 如果存在具有相同文件名的映射和主题，则将删除映射的JSON。 (11524)
 
 ## 已知问题
@@ -136,7 +136,7 @@ Adobe已发现AEM Guides 4.3.0版本的以下已知问题：
 
   解决方法：
 
-   1. 在`crx/de`中打开路径为`/libs/foundation/components/search/search.jsp`的文件
+   1. 在`/libs/foundation/components/search/search.jsp`中打开路径为`crx/de`的文件
    1. 将行号234替换为以下代码：
 
       ```

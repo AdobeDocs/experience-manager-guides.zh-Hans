@@ -5,9 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4702'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
 使用“设置”部分可以配置PDF页面布局的高级设置(从奇数页或偶数页开始PDF、交叉引用的格式)，并允许在生成的最终PDF中打印标记
 使用模板。
 
->
+>[!NOTE]
 >
 > 从Experience Manager Guides 5.0/2025.02.0版本开始，高级PDF设置中的&#x200B;**打印**&#x200B;部分已移至&#x200B;**输出预设**&#x200B;面板。 要配置打印设置，请查看[发布PDF输出](../web-editor/native-pdf-web-editor.md#print)。
 
@@ -236,7 +236,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
   >如果您是CSS开发人员，则也可以直接在CSS文件中定义引线格式。
 
 * **使用表继续标记**：选择此选项可定义跨多个页面的长表的标记。
-您可以定义要在断点前后显示的文本。 例如，第5页上有表分隔，而您为&#x200B;**分隔前文本**&#x200B;定义`<Continued on page %page-num%>`。  文本在第5页的底部显示“第6页继续”。
+您可以定义要在断点前后显示的文本。 例如，第5页上有表分隔，而您为`<Continued on page %page-num%>`分隔前文本&#x200B;**定义**。  文本在第5页的底部显示“第6页继续”。
 
   使用语言变量定义断点前后连续标记文本。 根据您选择的语言，将在PDF输出中自动选取本地化的值。 例如，您可以将`Continued on page %page-num%`发布为英语文本，将`Fortsetzung auf Seite %page-num%`发布为德语文本。
 
@@ -277,7 +277,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
 
   PDF输出词汇表中的术语始终按字母顺序排序。
 
-  您还可以添加标记`sort-as`来定义术语的排序键。 然后，Experience Manager Guides使用排序键对术语进行排序，以代替术语表。 如果您尚未定义排序键，则它使用术语表进行排序。 例如，您可以将标记`sort-as`添加到`glossterm`中，并将术语“USB”（例如，`<glossterm>USB<sort-as>A</sort-as></glossterm>`）的值设置为`A`。 同样，您可以添加`sort-as`标记并将术语“Pen Drive”的值设置为`B`。 当您对这些术语进行排序时，术语术语“USB”的排序键`A`显示在术语术语“Pen Drive”的排序键`B`之前。 因此，在PDF输出中，“USB”在术语表页上的“Pen Drive”前面。
+  您还可以添加标记`sort-as`来定义术语的排序键。 然后，Experience Manager Guides使用排序键对术语进行排序，以代替术语表。 如果您尚未定义排序键，则它使用术语表进行排序。 例如，您可以将标记`sort-as`添加到`glossterm`中，并将术语“USB”（例如，`A`）的值设置为`<glossterm>USB<sort-as>A</sort-as></glossterm>`。 同样，您可以添加`sort-as`标记并将术语“Pen Drive”的值设置为`B`。 当您对这些术语进行排序时，术语术语“USB”的排序键`A`显示在术语术语“Pen Drive”的排序键`B`之前。 因此，在PDF输出中，“USB”在术语表页上的“Pen Drive”前面。
 
   使用样式表，您可以在PDF输出中设置不同的术语表元素样式。 使用术语表样式`.glo-header`、`.glo-footer`、`.glo-body`、`.glo-title`、`.glo-unit`、`.glo-link`和`.glo-term`自定义术语表元素的样式。
 
@@ -323,7 +323,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
 
 
 .
-默认情况下始终启用&#x200B;**章节和主题**&#x200B;布局。 您无法切换它。
+默认情况下始终启用**章节和主题**&#x200B;布局。 您无法切换它。
 
 **合并页面**
 
@@ -420,8 +420,8 @@ AEM Guides提供了以下开箱即用的变量：
 * {chapter}：添加对章节编号的交叉引用。 例如，请参阅第1章中的。
 * {bookmarkText}：创建对已添加书签的文本的交叉引用。 例如，请参见第5页上的stop_words。
 * {captionText}：创建对主题中图形或表标题的交叉引用。 例如，请参阅第2页上的气流。
-* {figure}：添加对数字的交叉引用。 从您为数字定义的自动编号样式中选取数字编号。  例如，您可以使用“在页面{page}上查看{figure}”。 输出中的交叉引用包含自动生成的图号及其页码“请参见第5页的图1”。
-* {table}：向表编号添加交叉引用。 从您为标题定义的自动编号样式中选取表格编号。 例如，您可以使用“在页面{page}上查看{table}”。 输出中的交叉引用包含自动生成的表编号及其页码，“请参见第5页上的表1”。
+* {figure}：添加对数字的交叉引用。 从您为数字定义的自动编号样式中选取数字编号。  例如，您可以使用“在页面{figure}上查看{page}”。 输出中的交叉引用包含自动生成的图号及其页码“请参见第5页的图1”。
+* {table}：向表编号添加交叉引用。 从您为标题定义的自动编号样式中选取表格编号。 例如，您可以使用“在页面{table}上查看{page}”。 输出中的交叉引用包含自动生成的表编号及其页码，“请参见第5页上的表1”。
 
 
 
@@ -459,11 +459,11 @@ AEM Guides提供了以下开箱即用的变量：
 将`${lng:<variable name>}`添加到“段落”部分时，输出段落中的交叉引用包含本地化文本和页码。\
 例如，以下屏幕截图以英语显示交叉引用“View on page 1”并以德语显示“Einzelheiten finden Sie auf der Seite 1”。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出" width ="800" border="2px">
 
 *以英语发布时，段落中的交叉引用。*
 
-<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出" width ="800" border="2px">
 
 
 *以德语发布的段落中的交叉引用。*

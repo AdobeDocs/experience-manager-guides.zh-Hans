@@ -4,7 +4,7 @@ description: 在编辑器中使用Schematron
 exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 “*架构*”是指用于定义XML文件测试的基于规则的验证语言。 您可以导入Schematron文件，也可以在Web编辑器中编辑它们。 使用“架构”文件，您可以定义某些规则，然后针对DITA主题或映射验证这些规则。 Schematron规则可以通过施加定义为规则的限制来确保XML结构的一致性。 这些限制是由拥有内容质量和一致性的中小企业推动的。
 
-    注意： Web编辑器支持ISO架构。
+注意：Web编辑器支持ISO架构。
 
 
 ## 了解“Schematron”在Web编辑器中如何工作
@@ -41,7 +41,7 @@ Webeditor设置允许超级用户设置将在每次用户更新内容时执行�
 
 可以，作为作者/用户，在创建内容时，您可以使用Web编辑器中的“架构”面板上传架构文件并对在编辑器中打开的文件运行验证。
 
-    要使此功能正常工作，文件夹配置文件管理员必须允许所有用户在“验证”面板中添加架构文件。 查看编辑器设置（上面给出的屏幕快照）
+为使此功能正常工作，文件夹配置文件管理员必须允许所有用户在“验证”面板中添加架构文件。 请参阅编辑器设置（上面给出的屏幕快照）
 
 ![选择架构文件](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![运行验证](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
@@ -102,5 +102,5 @@ AEM Guides的当前版本仅支持使用基于“断言”的规则进行验证�
 #### 资源
 
 - 了解[架构基础](https://da2022.xatapult.com/#what-is-schematron)
-- 有关Schematron[&#128279;](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)中的断言规则的更多信息
+- 有关Schematron[中的](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)断言规则的更多信息
 - [模式文件示例](../../../assets/authoring/sample_schematron.sch)

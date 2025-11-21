@@ -1,8 +1,8 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 2024.04.0版本中的升级说明和修复的问题
-description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guidesas a Cloud Service的2024.04.0版本。
+description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides as a Cloud Service的2024.04.0版本。
 exl-id: deca46e5-12cc-497f-84af-61ee02da3d65
-source-git-commit: 989f1628adf417167525a068845203380573b077
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 4%
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 ## 兼容性矩阵
 
-本部分列出了2024.04.0版Experience Manager Guidesas a Cloud Service支持的软件应用程序的兼容性矩阵。
+本部分列出了2024.04.0版Experience Manager Guides as a Cloud Service支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 | Experience Manager Guides as a Cloud | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
 | --- | --- | --- | --- | --- |
 | 2024.04.0 | 3.5-uuid 1 | 3.5-uuid 1 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### 知识库模板版本
@@ -45,7 +45,7 @@ ht-degree: 4%
 
 ## 升级到2024.04.0版
 
-Experience Manager Guides会在升级当前（最新）版本的Experience Manageras a Cloud Service时自动升级。
+Experience Manager Guides会在升级当前（最新）版本的Experience Manager as a Cloud Service时自动升级。
 
 >[!NOTE]
 >
@@ -54,15 +54,15 @@ Experience Manager Guides会在升级当前（最新）版本的Experience Manag
 
 
 
-如果您之前尚未对现有版本实施Experience Manager Guidesas a Cloud Service，请对其执行以下步骤：
+如果您之前尚未对现有版本实施Experience Manager Guides as a Cloud Service，请对其执行以下步骤：
 
 ### 通过servlet启用脚本触发器的步骤
 
-(仅当使用的版本早于2023年6月的Experience Manager Guidesas a Cloud Service版本时)
+(仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时)
 
 完成安装后，您可以选择点击触发器以启动翻译作业：
 
-POST：
+发帖：
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -93,13 +93,13 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 后处理现有内容以使用断开链接报表的步骤
 
-(仅当使用的版本早于2023年6月的Experience Manager Guidesas a Cloud Service版本时)
+(仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时)
 
 执行以下步骤对现有内容进行后处理，并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个DITA文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`和`queryLimitInMemory`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个DITA文件，请将`queryLimitReads`下的`queryLimitInMemory`和`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
-   - 按照安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置覆盖*&#x200B;部分提供的说明创建配置文件。
+   - 按照安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置覆盖*&#x200B;部分中提供的说明创建配置文件。
    - 在配置文件中，提供以下（属性）详细信息以配置`queryLimitReads`和`queryLimitInMemory`选项：
 
      | PID | 属性键 | 属性值 |
@@ -109,16 +109,16 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server>//bin/guides/reports/upgrade`。
 
-1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. 作业完成后，先前的GET请求会成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。
+1. 作业完成后，上一个GET请求会做出成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。
 
 1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
 
 ### 为现有内容编制索引以使用“报表”选项卡下的新查找和替换以及主题列表的步骤：
 
-(仅当使用的版本早于2023年6月的Experience Manager Guidesas a Cloud Service版本时)
+(仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时)
 
 执行以下步骤来索引现有内容，并在报表选项卡下的映射级别和主题列表中使用新的查找和替换文本：
 
@@ -128,7 +128,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`（例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. 作业完成后，先前的GET请求会成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到该失败。
+1. 作业完成后，上一个GET请求会做出成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到该失败。
 
 ### 处理`'fmdita rewriter'`冲突的步骤
 

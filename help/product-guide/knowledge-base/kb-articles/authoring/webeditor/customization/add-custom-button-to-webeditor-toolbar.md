@@ -4,9 +4,9 @@ description: 了解如何在编辑器工具栏中添加新的自定义按钮并�
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -57,15 +57,15 @@ ht-degree: 0%
 }
 ```
 
-[使用此链接了解有关文件夹配置文件和配置ui_config.json的更多信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=zh-Hans)
+[使用此链接了解有关文件夹配置文件和配置ui_config.json的更多信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### 处理新按钮的点击事件
 
-    注意：以下步骤作为此帖子附加的包提供
+注：下面提到的步骤作为此帖子中附加的包提供
 
 
-- 保存文件夹配置文件后，在项目目录（可能位于&#x200B;*/apps*下）下创建“cq：ClientLibraryFolder”并添加属性，如下面的屏幕快照所示：
+- 保存文件夹配置文件后，在项目目录（可能位于:ClientLibraryFolder/apps *下）下创建“cq*”并添加属性，如下面的屏幕快照所示：
   Webeditor的![客户端库设置](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```

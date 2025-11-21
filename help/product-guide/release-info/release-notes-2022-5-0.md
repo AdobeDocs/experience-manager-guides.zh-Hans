@@ -1,28 +1,28 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2022年5月版
-description: 5月版的Adobe Experience Manager Guidesas a Cloud Service
+title: 发行说明 | Adobe Experience Manager Guides as a Cloud Service，2022年5月版
+description: 5月版Adobe Experience Manager Guides as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
 
 ---
 
-# 5月版的Adobe Experience Manager Guidesas a Cloud Service
+# 5月版Adobe Experience Manager Guides as a Cloud Service
 
 ## 升级到5月版
 
-请通过以下步骤升级当前的Adobe Experience Manager Guidesas a Cloud Service(以后称为&#x200B;*AEM Guidesas a Cloud Service*)安装程序：
-1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-1. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2022.5.144。
-1. 提交更改并运行Cloud Service管道，以升级到AEM Guides的5月版本as a Cloud Service。
+请通过以下步骤升级当前的Adobe Experience Manager Guides as a Cloud Service(以后称为&#x200B;*AEM Guides as a Cloud Service*)安装程序：
+1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
+1. 将云服务Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2022.5.144。
+1. 提交更改并运行云服务管道，以升级到AEM Guides as a Cloud Service的5月版本。
 
 ## 兼容性矩阵
 
-本节列出了AEM Guides as a Cloud Service 2022年5月版支持的软件应用程序的兼容性矩阵。
+本部分列出了AEM Guides as a Cloud Service 2022年5月版本支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 新增功能和增强功能
 
-AEM Guidesas a Cloud Service在5月版本中提供了许多增强功能和新功能：
+AEM Guides as a Cloud Service在5月版本中提供了许多增强功能和新功能：
 
 ### 增强的Web编辑器
 
@@ -74,7 +74,7 @@ AEM Guidesas a Cloud Service在5月版本中提供了许多增强功能和新功
 ### 改进了翻译流程
 
 * **能够创建范围设定翻译项目**
-如果您只需要为要翻译的项目创建范围，则可以选择&#x200B;**创建新的范围翻译项目**。 这不会发送副本以供翻译，并且文件的原始翻译状态将保持不变。
+如果您只需要为要翻译的项目创建范围，则可以选择**创建新的范围翻译项目**。 这不会发送副本以供翻译，并且文件的原始翻译状态将保持不变。
 
 ![设定翻译项目的范围](assets/scoping-translation-project.png)
 
@@ -88,12 +88,12 @@ AEM Guidesas a Cloud Service在5月版本中提供了许多增强功能和新功
 
 * 加载语言文件夹以外的DITA映射时，后端不会记录任何异常。
 
-有关翻译的更多详细信息，请参阅使用Adobe Experience Manager Guidesas a Cloud Service中的&#x200B;*从Web编辑器翻译文档*&#x200B;部分。
+有关翻译的更多详细信息，请参阅使用Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*从Web编辑器翻译文档*&#x200B;部分。
 
 
 ### 增强型发布
 
-* 从地图仪表板生成输出时，您还可以从“输出”选项卡访问&#x200B;**Publish仪表板**。 Publish功能板中提供了所有活动发布任务的列表。
+* 从映射仪表板生成输出时，您还可以从“输出”选项卡访问&#x200B;**发布仪表板**。 发布功能板中提供了所有活动发布任务的列表。
 
 ![已排队输出](assets/queued-output.png)
 
@@ -109,7 +109,7 @@ XML编辑器提供了在发布到Salesforce配置文件时将多个产品类别�
 ### 其他功能增强
 
 * 预览模式还支持DITA中的`deliveryTarget`条件处理属性。 它与&#x200B;**受众**、**平台**、**产品**、prop、**otherprops**&#x200B;一起作为下拉过滤器中的一个选项提供。
-* 提供了用于在Oxyo中的AEM服务器与本地系统之间强制同步的选项。
+* 提供了一个选项，用于在Oxyo中的AEM服务器与本地系统之间强制同步。
 
 ## 修复的问题
 
@@ -119,7 +119,7 @@ XML编辑器提供了在发布到Salesforce配置文件时将多个产品类别�
 * 在通过“选项”菜单刷新空白文件夹后，单击该文件夹时，应用程序会变为空白。 (9639)
 * 当我们&#x200B;**保存并关闭**&#x200B;签入的文件时，将创建新版本。 (9638)
 * 启用&#x200B;**另存为新版本**&#x200B;复选框时，未显示关闭按钮。 (9637)
-* 如果首先通过每个章节的单独PDF发布正确的PDF，然后又发布了一个PDF文件(取消选中创建单独的PDF文件)，则不会发布正确的文档。 (9632)
+* 如果首先通过每个章节单独的PDF发布正确的PDF，然后又通过单个PDF文件来发布它(取消选中创建单独的PDF文件)，则不会发布正确的。 (9632)
 * 地图仪表板给非管理员用户带来元数据问题。 (9620)
 * 创建基线后，如果服务器拥有超过10000个文件，则在UI上将状态设置为“失败”（获取状态调用失败）。 (9608)
 * 在属性中存储大数据会导致发布错误，因为拆分发布工作流失败。 (9586)
@@ -152,7 +152,7 @@ XML编辑器提供了在发布到Salesforce配置文件时将多个产品类别�
 * 无法使用&#x200B;**更多选项**&#x200B;菜单中的&#x200B;**在文件夹**&#x200B;中查找文件来搜索文件，应用程序将变得无响应。 (9337)
 * 如果存在大量键，则浏览对话框挂起。 (9332)
 * 进行基于文章的发布时，DITAVAL文件不起作用。 (9330)
-* AEM Site输出中的脚注顺序不正确。 (9327)
+* AEM站点输出中的脚注顺序不正确。 (9327)
 * 更改所选路径时，不会自动执行搜索。 (9323)
 * 完成翻译后，将为已翻译资产创建附加版本。 (9310)
 * 无法删除文件夹配置文件中的管理员用户。 (9306)
@@ -169,22 +169,22 @@ XML编辑器提供了在发布到Salesforce配置文件时将多个产品类别�
 * 基于文章的发布输出中不会显示不带文本的`xref`。 (8764)
 * 引用在文件名中有空格的活动图像或多媒体文件上中断。 (8624)
 * 选择`Select All`并将多媒体文件或DITA内容移动到另一个文件夹时引用中断。 (8622)
-* 在Publish功能板中，不会清理状态为“等待”或“正在执行”的输出作业。  (8569)
+* 在发布功能板中，不会清理状态为“等待”或“正在执行”的输出作业。  (8569)
 * 如果存在大量剩余的输出历史记录节点，则输出清除功能会失败。 (8568)
 * DITA附加组件包可防止DAM重复资产检测。 (8417)
 * 已为非DITA文件启用创建审阅任务按钮。 (8401)
 * 插入引用对话框在使用UI将subjectref添加到映射时打开。 (8212)
-* 将outputclass特性添加到`tgroup`元素时，在每个空白`entry`元素中发现了意外的空间。 (7532)
+* 将outputclass特性添加到`entry`元素时，在每个空白`tgroup`元素中发现了意外的空间。 (7532)
 * “存储库”面板不会在操作完成后立即显示签入或签出的文件锁定图标。 (5817)
 * 即使从编辑器中签入了文件，“锁定”图标也会显示在存储库视图中。  (5756)
-* “输出”选项卡下的AEM预设中缺少站点。 (9567)
+* AEM预设中的“输出”选项卡下缺少站点。 (9567)
 * XML编辑器在尝试编辑某些DITA文件时挂起。 (9537)
 * 在XML编辑器中执行搜索会导致页面冻结。 (9452)
 * 如果内容被移至其他文件夹，下载带有基线的映射将无法正常工作。 (9331)
 * 当文件已存在于AEM的同一位置时，在Oxygen中重新上传失败。 (9328)
 * 在并排视图中，突出显示位置不正确。 (9305)
-* 将文档从“氧”签入到AEM后，文档中的日语内容将被问号(???)替换。 (9276)
-* 将文件从Oxyor上传到AEM失败。 (9157)
+* 将文档从氧气签入到AEM后，文档中的日语内容将被问号(???)替换。 (9276)
+* 将文件从氧气上传到AEM失败。 (9157)
 * 在收件箱中重新分配审核任务时，未发送电子邮件通知。 (8376)
 
 ## 已知问题

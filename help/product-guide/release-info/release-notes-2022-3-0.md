@@ -4,25 +4,25 @@ description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service的3月�
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides]as a Cloud Service的3月版
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service的3月版
 
 ## 升级到3月版
 
-通过执行以下步骤升级当前[!DNL Adobe Experience Manager Guides]as a Cloud Service(以后称为&#x200B;*[!DNL AEM Guides]as a Cloud Service*)安装程序：
-1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-1. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2022.3.123。
-1. 提交更改并运行Cloud Service管道，以升级到[!DNL AEM Guides]的3月版as a Cloud Service。
+请通过执行以下步骤升级当前[!DNL Adobe Experience Manager Guides] as a Cloud Service(以后称为&#x200B;*[!DNL AEM Guides]as a Cloud Service*)安装程序：
+1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
+1. 将云服务Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2022.3.123。
+1. 提交更改并运行云服务管道以升级到[!DNL AEM Guides] as a Cloud Service的3月版本。
 
 ## 兼容性矩阵
 
-本部分列出了[!DNL AEM Guides] 2022年3月as a Cloud Service版本支持的软件应用程序的兼容性矩阵。
+本部分列出了[!DNL AEM Guides] as a Cloud Service 2022年3月版支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ### 新建基线仪表板
 
-[!DNL AEM Guides]as a Cloud Service3月版本提供了集成在Web编辑器中的基线功能。 您现在可以从Web编辑器创建基线，并使用它们发布或翻译不同版本的主题。
+[!DNL AEM Guides] as a Cloud Service 3月版提供了集成在Web编辑器中的基线功能。 您现在可以从Web编辑器创建基线，并使用它们发布或翻译不同版本的主题。
 
 注意：对于已升级的系统，请更新文件夹配置文件的最新&#x200B;**ui_config.json**。
 
@@ -75,9 +75,9 @@ Web编辑器中的内容。 如果在显示一个或多个文件的同时点击�
 
 ### 发布增强功能
 
-发布过程已通过3月版本的[!DNL AEM Guides]as a Cloud Service得到进一步改进：
+发布过程已通过[!DNL AEM Guides] as a Cloud Service的3月版本进一步改进：
 
-* 已对AEM站点输出的元数据应用基线。 您还可以将基线版本的属性作为元数据处理。 如果未定义基线，则最新版本的属性将作为元数据处理。
+* AEM站点输出的元数据已遵循基线。 您还可以将基线版本的属性作为元数据处理。 如果未定义基线，则最新版本的属性将作为元数据处理。
 
 * 已为HTML5、EPUB和自定义输出预设添加&#x200B;**文件名**&#x200B;和&#x200B;**DITA-OT命令行参数**&#x200B;选项。 现在，您可以指定要用来保存输出的文件名。 您还可以指定在生成输出时希望DITA-OT处理的其他参数。
 
@@ -95,7 +95,7 @@ Web编辑器中的内容。 如果在显示一个或多个文件的同时点击�
 
 ## 已知问题
 
-Adobe已在[!DNL AEM Guides] as a Cloud Service3月版本中识别出以下已知问题。
+Adobe已在[!DNL AEM Guides] as a Cloud Service 3月版本中识别出以下已知问题。
 
 * 删除直接引用上的标签也会从间接引用中删除标签。
 

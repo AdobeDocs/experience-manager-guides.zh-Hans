@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 41c0d4d5-5c46-4d2b-90b3-8c441fee8e99
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ### 从其他映射生成链接主题的输出
 
-一种非常常见的情形是，将大量文档分布在多个文件夹和DITA映射中。 发布从不同位置链接的内容变得极其复杂。 默认情况下，使用`local` `@scope`创建所有链接`<xref>`。 发布此类主题并不涉及任何挑战，因为它使用直接链接到该主题。 如果主题位于当前DITA映射之外，则该链接不会显示链接的内容。
+一种非常常见的情形是，将大量文档分布在多个文件夹和DITA映射中。 发布从不同位置链接的内容变得极其复杂。 默认情况下，使用`<xref>` `local`创建所有链接`@scope`。 发布此类主题并不涉及任何挑战，因为它使用直接链接到该主题。 如果主题位于当前DITA映射之外，则该链接不会显示链接的内容。
 
 链接内容的另一种方法是使用`peer` `@scope`创建链接。 对于此类内容，在运行时通过从DITA映射的发布上下文中选取文件的标题和链接主题的已配置上下文来解析链接。 以下屏幕截图显示了具有`peer` `@scope`的链接的“属性”面板：
 
@@ -115,4 +115,4 @@ AEM Guides支持在现有AEM站点中发布DITA内容。 例如，如果您现�
 
 有关更多详细信息，请参阅“安装和配置AEM”指南中的&#x200B;*配置Adobe Experience Manager Guides站点节点结构的扁平化*&#x200B;部分。
 
-**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)

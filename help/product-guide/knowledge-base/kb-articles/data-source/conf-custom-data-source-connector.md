@@ -4,7 +4,8 @@ description: 了解如何为数据源配置自定义连接器。
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: fdd19363c6768860ffa2f70c934b6f71c811c08b
+exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -63,7 +64,7 @@ Experience Manager Guides允许您根据自己的要求自定义连接器，然�
 | getName | 是 | <ul><li>此方法提供了一种检索分配给连接器的唯一名称的方法。 <li>返回的名称对于在用户界面(UI)上下文中标识连接器至关重要，尤其是在连接器的配置设置未明确指定名称的情况下。 <li>此名称用于各种UI组件中，以用户友好的方式显示或管理连接器。 |
 | getGroup | 是 | <ul> <li>此方法提供了一种检索与连接器关联的组名称的方法。 <li>组名称通常用于根据连接器的功能、用途或类型将连接器组织或分类为逻辑组。 <li> 这允许在配置UI中更轻松地管理和显示连接器。 |
 | getDefaultTemplatePath |  | <ul><li> 此方法返回与此连接器关联的模板的默认路径。 <li> 默认情况下，它返回一个空字符串，指示除非覆盖否则不设置默认路径。 |
-| getlogesvg |  | <ul><li>使用此方法可返回连接器徽标的SVG表示形式。 <li> 默认情况下，它返回一个空字符串，指示除非覆盖，否则不提供任何的SVG数据。 |
+| getlogesvg |  | <ul><li>使用此方法可返回连接器徽标的SVG表示形式。 <li> 默认情况下，它返回一个空字符串，这表示除非覆盖，否则不提供任何的SVG数据。 |
 | getMaxNoRowsForPreviewQuery | | <ul><li>此方法返回在UI预览中查询或显示的最大行数。 <li> 缺省情况下，它会返回DEFAULT_LIMIT_PREVIEW值，该常量表示预览行的缺省限制。 |
 | getConfigClass | 是 | <ul><li>此方法提供有关实现Config接口并受此连接器支持的类的信息。 <li> 它允许应用程序或框架动态发现和使用与连接器兼容的配置。 |
 

@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 9%
@@ -22,7 +22,7 @@ AEM中内容管理的一些关键概念如下所示：
 
 **资产管理**
 
-AEM Guides使用AEM的数字资源管理\(DAM\)来管理您的DITA文件。 您上传或签入DAM的文件存储为数字资产。 您可以在AEM Assets中管理和编辑资源。 有关资产管理的详细信息，请参阅[管理资产](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+AEM Guides使用AEM的数字资源管理\(DAM\)来管理您的DITA文件。 您上传或签入DAM的文件存储为数字资产。 您可以在AEM Assets中管理和编辑资源。 有关资产管理的详细信息，请参阅[管理资产](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en)。
 
 **链接管理**
 
@@ -63,27 +63,27 @@ AEM Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&
 | 复制 | 是 |   | 是 |
 | 删除 | 是 |   | 是 |
 | 共享 | 是 |   | 是 |
-| **文档状态** |
+| **文档状态** |  |  |  |
 | 创建/编辑文档状态配置文件 |   |   | 是 |
 | 更改文档状态[2](#fntarg_2) | 是 | 是 | 是 |
-| **DITA映射控制台中可用的功能\（输出预设选项卡\）** |
+| **DITA映射控制台中可用的功能\（输出预设选项卡\）** |  |  |  |
 | 生成 |   |   | 是 |
 | 编辑 |   |   | 是 |
 | 复制 |   |   | 是 |
 | 创建 |   |   | 是 |
 | 删除预设 |   |   | 是 |
-| **DITA映射控制台中可用的功能\（输出选项卡\）** |
+| **DITA映射控制台中可用的功能\（输出选项卡\）** |  |  |  |
 | 查看生成的输出 | 是 |   | 是 |
-| **DITA映射控制台中可用的功能\（主题选项卡\）** |
+| **DITA映射控制台中可用的功能\（主题选项卡\）** |  |  |  |
 | 创建审阅任务 | 是 |   | 是 |
 | 编辑 | 是 |   | 是 |
-| **DITA映射控制台中可用的功能\（“基线”选项卡\）** |
+| **DITA映射控制台中可用的功能\（“基线”选项卡\）** |  |  |  |
 | 创建 |   |   | 是 |
 | 编辑 |   |   | 是 |
 | 复制 |   |   | 是 |
 | 移除 |   |   | 是 |
 | DITA映射控制台\（报表选项卡\） | 是 |   | 是 |
-| DITA映射控制台中可用的&#x200B;**功能\（条件预设\）** |
+| DITA映射控制台中可用的&#x200B;**功能\（条件预设\）** |  |  |  |
 | 创建/编辑条件预设 |   |   | 是 |
 
 [1](#fnsrc_1)如果邀请了&#x200B;*作者*&#x200B;和&#x200B;*发布者*&#x200B;进行审阅。

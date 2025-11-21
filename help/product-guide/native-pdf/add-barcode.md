@@ -1,10 +1,10 @@
 ---
-title: 本机PDFPublish功能 | 添加条形码
+title: 原生PDF发布功能 | 添加条形码
 description: 了解如何添加条形码。
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ margin-top: 2mm;
 
 1. 将`<Sample barcode>`替换为您希望条形码扫描仪读取的值。
 
-使用包含页面布局的模板生成输出PDF时，您可以查看条形码。 执行上述步骤后，可以使用条形码生成PDF输出。
+您可以在使用该模板（包括页面布局）生成输出PDF时查看条形码。 执行上述步骤后，您可以使用条形码生成PDF输出。
 
-以下屏幕截图在PDF输出中显示一个条形码示例。
+以下屏幕截图在PDF输出中显示了一个条形码示例。
 
 <img src="./assets/barcode-output-sample.png" alt="带有条形码的示例输出" width="700" border="2px">
 
 **示例 2**
 
-修改&#x200B;**Basic**&#x200B;模板中的`Common.plt`文件以在项目标题后添加条形码。
+修改`Common.plt`Basic **模板中的**&#x200B;文件以在项目标题后添加条形码。
 
 要为ISBN编号创建条形码，请添加ISBN编号。 然后使用ISBN编号生成条形码。
 
@@ -89,7 +89,7 @@ margin-top: 2mm;
 
 要使用映射元数据创建条形码，请执行以下操作：
 
-使用DITA映射的`<topicmeta>`元素中存在的任何元数据显示为条形码。 确保使用正确的XPath。 例如，您可以在DITA映射的`<topicmeta>`中添加`<resourceid>`。
+使用DITA映射的`<topicmeta>`元素中存在的任何元数据显示为条形码。 确保使用正确的XPath。 例如，您可以在DITA映射的`<resourceid>`中添加`<topicmeta>`。
 
 在以下示例中，资源ID用作生成条形码的主输入。
 
@@ -126,33 +126,33 @@ margin-top: 2mm;
 
 | 类型 | -ro-barcode-type | 其他详细信息 |
 | ---| --- | --- |
-| QR代码 | qrcode | 根据ISO/IEC 18004：2015的二维码条码符号。 |
-| 代码128 | 代码128 | ISO/IEC 15417：2007中定义的代码128条码符号。 |
+| QR代码 | qrcode | 根据ISO/IEC 18004:2015的QR代码条码符号。 |
+| 代码128 | 代码128 | ISO/IEC 15417:2007中定义的代码128条形码符号。 |
 | 代码32 | 代码32 | 代码32，也称为意大利军码。 |
 | 代码49 | 代码49 | ANSI/AIM-BC6-2000中的代码49。 |
 | 代码11 | 代码11 |                            |
 | 代码93 | 代码93 |                            |
 | 代码16k | 代码16k |                            |
-| PDF417 | pdf417 | PDF417/MicroPDF417条码符号符合ISO/IEC 15438：2006和ISO/IEC 24728：2006。 |
-| 第3个代码（共9个） | 代码39 | 根据ISO/IEC 16388：2007,9条码符号的代码3。 |
+| PDF417 | pdf417 | PDF417/MicroPDF417条码符号符合ISO/IEC 15438:2006和ISO/IEC 24728:2006。 |
+| 第3个代码（共9个） | 代码39 | 根据ISO/IEC 16388:2007，9条码符号的代码3。 |
 | MSI Plessey | msiplessey |                            |
 | 渠道代码 | channelcode | 根据ANSI/AIM BC12-1998编写通道代码。 |
-| Codabar | codabar | 根据BS EN 798:1996，代码代码符号学。 |
+| Codabar | codabar | 根据BS EN 798:1996的代码标签条码符号。 |
 | EAN-8 | ean-8 | 根据BS EN 797:1996的EAN条码符号。 |
 | EAN-13 | ean-13 | 根据BS EN 797:1996的EAN条码符号。 |
 | UPC-A | upc-a | 根据BS EN 797:1996的UPC条码符号。 |
 | UPC-E | upc-e | 根据BS EN 797:1996的UPC条码符号。 |
-| Ean/UPC附加模块 | 加载项 | 根据BS EN 797:1996，EAN/UPC附加条码符号。 |
-| Telepen | 电话笔 | 也称为TelepenAlpha。 |
-| GS1数据库/数据库14 | 数据库 | GS1 DataBar符合ISO/IEC 24724：2011。 |
-| GS1数据库已扩展/数据库已扩展14 | 数据库扩展 | GS1 DataBar根据ISO/IEC 24724：2011扩展。 |
-| GS1数据库有限公司 | 数据库限制 | GS1 DataBar根据ISO/IEC 24724：2011受限。 |
+| Ean/UPC附加模块 | 加载项 | 根据BS EN 797:1996的EAN/UPC附加组件条码符号。 |
+| Telepen | 电话笔 | 又名Alpha。 |
+| GS1数据库/数据库14 | 数据库 | 根据ISO/IEC 24724:2011的GS1数据栏。 |
+| GS1数据库已扩展/数据库已扩展14 | 数据库扩展 | GS1 DataBar根据ISO/IEC 24724:2011扩展。 |
+| GS1数据库有限公司 | 数据库限制 | GS1数据栏根据ISO/IEC 24724:2011限制。 |
 | POSTNET（邮政数字编码技术） | postnet | 美国邮政局使用的POSTNET（邮政数字编码技术）条形码符号。 |
 | Pharmazentralnummer (PZN-8) | pzn8 | 德国制药业使用的基于代码39的符号学。 |
 | Pharmacode | pharmacode |                            |
 | 代码块F | codablockf | 根据AIM Europe的符号“统一符号规范Codablock F”，1995年。 |
 | Logmars | logmars | 美国国防部使用的LOGMARS（自动标记和读取符号的物流应用）标准。 |
-| Aztec Runes | aztec-runes | 根据ISO/IEC 24778：2008附件A的Aztec Runes条码符号。 |
-| Aztec代码 | aztec-code | 根据ISO/IEC 24778：2008，Aztec代码条码符号。 |                            |
-| 数据矩阵 | 数据矩阵 | 数据矩阵ECC 200条码符号根据ISO/IEC 16022：2006。 |
+| Aztec Runes | aztec-runes | 根据ISO/IEC 24778:2008 Annex A的Aztec Runes条码符号。 |
+| Aztec代码 | aztec-code | 根据ISO/IEC 24778:2008的Aztec条码符号。 |
+| 数据矩阵 | 数据矩阵 | 根据ISO/IEC 16022:2006，数据矩阵ECC 200条码符号。 |
 | 代码1 | code-one |                            |

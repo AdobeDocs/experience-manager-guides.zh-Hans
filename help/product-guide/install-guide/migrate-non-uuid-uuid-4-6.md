@@ -4,7 +4,7 @@ description: 了解如何将非UUID迁移到UUID内容
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 1%
@@ -178,9 +178,9 @@ ht-degree: 1%
 
 | 流程完成后的摘要 | 如何解释？ | 操作 |
 |---|---|---|
-| 文件总数：288 | 至少1个基线的DITA映射数。 |
-| 已成功迁移的文件数： 13 | 已成功升级为所有基线的DITA映射数。 |
-| 跳过的文件数： 275 | 没有任何基线的DITA映射数。 |
+| 文件总数：288 | 至少1个基线的DITA映射数。 |  |
+| 已成功迁移的文件数： 13 | 已成功升级为所有基线的DITA映射数。 |  |
+| 跳过的文件数： 275 | 没有任何基线的DITA映射数。 |  |
 | 升级失败的文件数： 0 | 无效基线对象的数量（为空）将列在报表(Excel)中。 | 检查是否存在除`baselineObj not found on`以外的错误 |
 
 此外，可以在报告的摘要表下访问在迁移过程中升级的&#x200B;**个文件**&#x200B;和&#x200B;**个失败的文件**&#x200B;的列表。
@@ -219,5 +219,5 @@ ht-degree: 1%
    > 如果在迁移之前，属性&#x200B;**在**&#x200B;中使用AEM站点页面名称的标题`com.adobe.fmdita.config.ConfigManager`，设置为&#x200B;*False*，则在迁移之后，需要更新此属性。
 
 
-1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hans`）。
+1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。
 

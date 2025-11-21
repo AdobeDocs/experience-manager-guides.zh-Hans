@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处�
 >
 > 如果您已将AEM Guides从版本2.2升级到2.5.1或2.6，那么通过配置管理器进行的所有更改都会被自动选取并存储在默认配置文件中。
 
-执行以下步骤以将自定义DITA-OT插件上载到AEM存储库：
+执行以下步骤以将自定义DITA-OT插件上传到AEM存储库：
 
 1. 登录AEM并打开CRXDE Lite模式。
 
@@ -64,8 +64,7 @@ AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处�
 
    - 在Mac/Linux操作系统上运行集成器\（以安装自定义插件\）以避免文件分隔符出现问题 — 由于Windows和Linux操作系统具有不同的文件分隔符，因此集成在Mac/Linux操作系统上的插件与Windows和Linux安装程序兼容。
    - 确保`DITA-OT.ZIP`文件包含一个名为“DITA-OT”的文件夹，其中包含所有相关的插件和文件。
-   - 检查您创建的`DITA-OT.ZIP`文件是否为mimeType： &quot;nt：file&quot; \(这与上传到AEM时的ZIP文件的主要类型相对应\)。 使用WebDAV工具或代码部署将此ZIP文件上传到AEM中的所需路径。 \(请勿使用AEM包管理器部署此ZIP文件，因为此ZIP文件不是AEM内容包，而只是存档文件。\)
-
+   - 检查您创建的`DITA-OT.ZIP`文件是否为mimeType： &quot;nt:file&quot; \(这与上传到AEM时的ZIP文件的主要类型相对应\)。 使用WebDAV工具或代码部署将此ZIP文件上传到AEM中的所需路径。 \(请勿使用AEM的包管理器来部署此ZIP文件，因为此ZIP文件不是AEM内容包，而只是存档文件。\)
    >[!NOTE]
    >
    > 建议不要覆盖默认的DITA-OT包。 您应该将包含插件的自定义DITA-OT包上载到`apps`文件夹下的其他位置。
@@ -101,15 +100,15 @@ AEM Guides提供的默认DITA-OT包附带了Apache FOP XSL-FO处理器，该处�
 
    | 属性名称 | 描述 |
    |-------------|-----------|
-   | **配置文件属性** |
+   | **配置文件属性** |  |
    | 配置文件名称 | 为此配置文件提供一个唯一的名称。 |
    | 重用输出 | *\（可选\）*&#x200B;如果您的配置文件基于现有的配置文件，请选择此选项。 选择此选项可确保AEM Guides不会再次提取DITA-OT包的内容并重用现有的DITA-OT包。 |
    | 配置文件提取路径 | *\（可选\）*&#x200B;指定在磁盘上保留DITA-OT的路径。 默认情况下，AEM Guides在其存储库中捆绑一个DITA-OT包，并将其提取到磁盘上的此路径下。<br>**注意**&#x200B;您可以使用任何现有系统变量或属性定义此路径。 有关详细信息，请参阅[DITA-OT环境变量](#id181NH0YN0AX)属性的描述。 |
    | 已分配路径 | \（*可选*\）指定内容存储库中此配置文件适用的路径。 您可以指定多个位置。 |
-   | **DITA-OT属性** |
+   | **DITA-OT属性** |  |
    | DITA-OT超时 | \（*可选*\）指定AEM Guides等待DITA-OT插件响应的时间\（以秒为单位）。 如果在指定时间内未收到响应，则AEM Guides将终止发布任务，并且该任务被标记为失败。 此外，在输出生成日志文件中提供故障日志。 <br>默认值： 300秒\（5分钟\） |
-   | DITA-OTPDF参数 | 指定由自定义DITA-OT插件处理的命令行参数，以生成PDF输出。 对于所有自定义DITA-OT配置文件，请指定以下命令行参数：`-lib plugins/org.dita.pdf2.fop/lib/` |
-   | DITA-OT AEM参数 | \（*可选*\）指定由自定义DITA-OT插件处理的自定义命令行参数，用于生成AEM Site输出。 |
+   | DITA-OT PDF参数 | 指定由自定义DITA-OT插件处理的命令行参数，用于生成PDF输出。 对于所有自定义DITA-OT配置文件，请指定以下命令行参数：`-lib plugins/org.dita.pdf2.fop/lib/` |
+   | DITA-OT AEM参数 | \（*可选*\）指定由自定义DITA-OT插件处理的自定义命令行参数，用于生成AEM站点输出。 |
    | DITA-OT库路径 | \（*可选*\）指定DITA-OT插件的其他库路径。 |
    | DITA-OT构建XML | \（*可选*\）指定与自定义DITA-OT插件捆绑在一起的自定义Ant生成脚本的路径。 此路径相对于文件系统中的目录DITA-OT。 |
    | DITA-OT Ant脚本文件夹 | \（可选\）指定DITA-OT Ant脚本文件夹的路径。 此路径相对于文件系统中的目录DITA-OT。 |
@@ -194,7 +193,7 @@ DITA专业化是通过添加新元素或删除现有元素来创建新DITA结构
    >
    > 仅当目录中缺少公共ID条目，或者DITA文件仅使用与从中上载它们的本地文件路径相关的系统ID时，才选择此选项。
 
-   有关“配置文件”页面上其他属性的更多信息，请参阅[使用自定义DITA-OT插件](#id181NH1020L7)部分的[步骤6](#id17A9F0D075Z)中的属性表。
+   有关“配置文件”页面上其他属性的更多信息，请参阅[使用自定义DITA-OT插件](#id17A9F0D075Z)部分的[步骤6](#id181NH1020L7)中的属性表。
 
 1. 单击&#x200B;**完成**&#x200B;以保存配置文件。
 

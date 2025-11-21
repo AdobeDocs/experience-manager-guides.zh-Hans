@@ -1,37 +1,37 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 2023年12月版中的升级说明和修复的问题
-description: 了解错误修复以及如何升级到Adobe Experience Manager Guidesas a Cloud Service的2023年12月版。
+description: 了解错误修复以及如何升级到Adobe Experience Manager Guides as a Cloud Service 2023年12月版。
 feature: Release Notes
 role: Leader
 exl-id: 63efe42a-b817-49df-8f76-df8d7acf9194
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
 
 ---
 
-# 2023年12月版的Adobe Experience Manager Guidesas a Cloud Service
+# 2023年12月版Adobe Experience Manager Guides as a Cloud Service
 
-此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guidesas a Cloud Service(以后称为&#x200B;*Experience Manager Guidesas a Cloud Service*)在2023年12月版本中修复的问题。
+此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides as a Cloud Service(以后称为&#x200B;*Experience Manager Guides as a Cloud Service*)在2023年12月版本中修复的问题。
 
 有关新增功能和增强功能的详细信息，请查看[Experience Manager Guides as a Cloud Service 2023年12月版的新增功能](whats-new-2023-12-0.md)。
 
 ## 升级到2023年12月版
 
-请通过以下步骤升级当前的Experience Manager Guidesas a Cloud Service设置：
+请通过以下步骤升级您当前的Experience Manager Guides as a Cloud Service设置：
 
-1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-2. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2023.12.0.16。
-3. 提交更改并运行Cloud Service管道，以升级到Experience Manager Guidesas a Cloud Service的2023年12月版。
+1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
+2. 将Cloud Services Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2023.12.0.16。
+3. 提交更改并运行云服务管道，以升级到Experience Manager Guides as a Cloud Service的2023年12月版。
 
 ## 通过servlet启用脚本触发器的步骤
 
-(仅限您使用的版本低于2023年6月发行的Experience Manager Guidesas a Cloud Service)
+(仅限您使用的版本低于2023年6月版本的Experience Manager Guides as a Cloud Service)
 
 完成安装后，您可以选择点击触发器以启动翻译作业：
 
-POST：
+发帖：
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -62,13 +62,13 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## 后处理现有内容以使用断开链接报表的步骤
 
-(仅限您使用的版本低于2023年6月发行的Experience Manager Guidesas a Cloud Service)
+(仅限您使用的版本低于2023年6月版本的Experience Manager Guides as a Cloud Service)
 
 执行以下步骤对现有内容进行后处理，并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个DITA文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`和`queryLimitInMemory`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个DITA文件，请将`queryLimitReads`下的`queryLimitInMemory`和`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
-   - 按照安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置覆盖*&#x200B;部分提供的说明创建配置文件。
+   - 按照安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置覆盖*&#x200B;部分中提供的说明创建配置文件。
    - 在配置文件中，提供以下（属性）详细信息以配置`queryLimitReads`和`queryLimitInMemory`选项：
 
      | PID | 属性键 | 属性值 |
@@ -78,16 +78,16 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server>//bin/guides/reports/upgrade`。
 
-1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. 作业完成后，先前的GET请求会成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。
+1. 作业完成后，上一个GET请求会做出成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。
 
 1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
 
 ## 为现有内容编制索引以使用“报表”选项卡下的新查找和替换以及主题列表的步骤：
 
-(仅限您使用的版本低于2023年6月发行的Experience Manager Guidesas a Cloud Service)
+(仅限您使用的版本低于2023年6月版本的Experience Manager Guides as a Cloud Service)
 
 执行以下步骤来索引现有内容，并在报表选项卡下的映射级别和主题列表中使用新的查找和替换文本：
 
@@ -126,7 +126,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 | Experience Manager Guides as a Cloud | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
 | --- | --- | --- | --- | --- |
 | 2023.12.0 | 3.3-uuid.5 | 3.3-uuid.5 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### 知识库模板版本
@@ -143,7 +143,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 ### 创作
 
-- Web编辑器选项卡中的&#x200B;**标题**&#x200B;在点(.)之后被截断 字符。(14372)
+- Web编辑器选项卡中的&#x200B;**标题**&#x200B;在点(.)字符之后被截断。 (14372)
 - Assets UI中重复映射名称的错误消息未更新。 (14320)
 - 拖放资产期间，版本创建逻辑中出错。 (14291)
 - 可重用内容会跳过元素ID。 (14213)
@@ -159,7 +159,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 ### 发布
 
 - Fmdita组件的硬编码路径为`delegator.jsp`，以防止叠加AEM Sites组件。 (13993)
-- 本机PDF发布输出中PDFReactor的标记视图无法按预期工作。 (13622)
+- 本机PDF发布输出中PDF reactor的标记视图无法按预期工作。 (13622)
 - AEM站点发布在提交到数据存储区以获取具有作用域对等链接的大型映射时遇到问题。 (13531)
 - 无法使用Experience Manager Guides批量发布仪表板激活站点。 (13439)
 - 元素标签本地化在AEM Sites输出中无法正常工作。 (12144)
@@ -172,7 +172,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 ### 翻译
 
 - 自动批准的人工翻译错误地显示&#x200B;**接受/拒绝**&#x200B;按钮。 (14318)
-- 在将非英语DITA文件转换为AEM页面时出现国际化(i18n)问题。 (14286)
+- 将非英语DITA文件转换为AEM页面时出现国际化(i18n)问题。 (14286)
 - 已翻译内容无法从临时翻译项目同步，并且DITA XML编辑器翻译向导错误地显示已批准作业的&#x200B;**正在进行**&#x200B;状态。 (9938)
 
 ### 辅助功能
@@ -181,5 +181,5 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 ## 已知问题
 
-Adobe已发现2023年12月版本的以下已知问题：
+Adobe已为2023年12月版确定以下已知问题：
 - 升级到2023年12月版本时，会间歇性地出现“获取无效的DTD错误”。

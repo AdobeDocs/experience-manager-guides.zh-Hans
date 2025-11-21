@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '5620'
+source-wordcount: '5615'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ AEM Guides提供了许多配置选项，供您自定义输出生成过程。 本
 
    >[!NOTE]
    >
-   > 请勿在`libs`节点中使用默认配置文件中的任何自定义设置。 您必须在`apps`节点中创建`libs`节点的叠加，并仅更新`apps`节点中的所需文件。
+   > 请勿在`libs`节点中使用默认配置文件中的任何自定义设置。 您必须在`libs`节点中创建`apps`节点的叠加，并仅更新`apps`节点中的所需文件。
 
 1. 添加以下属性：
 
@@ -128,7 +128,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 >
 > 创建自定义设计模板节点后，必须更新AEM站点输出预设中的设计选项才能使用自定义设计模板节点。
 
-有关详细信息，请参阅[创建您的第一个Adobe Experience Manager网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)和[在AEM上开发您自己的网站的基础知识](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=zh-Hans)。
+有关详细信息，请参阅[创建您的第一个Adobe Experience Manager网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en)和[在AEM上开发您自己的网站的基础知识](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)。
 
 ### 使用文档标题生成AEM站点输出
 
@@ -158,7 +158,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 布尔值(`true/false`)。 **默认值**： `false` |
 
-例如，如果`<topichead>`中的&#x200B;*@navtitle*&#x200B;包含所有特殊字符，并且您将`aemsite.pagetitle`属性设置为true，则默认情况下，它使用分隔符。 如果将`nodename.systemDefinedPageName`属性设置为true，它将显示第一个子主题的名称。
+例如，如果&#x200B;*中的*@navtitle`<topichead>`包含所有特殊字符，并且您将`aemsite.pagetitle`属性设置为true，则默认情况下，它使用分隔符。 如果将`nodename.systemDefinedPageName`属性设置为true，它将显示第一个子主题的名称。
 
 
 ### 配置用于创建主题和以AEM Sites和其他格式发布输出的文件名清理规则 {#id2164D0KD0XA}
@@ -207,7 +207,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 1. 确定要扁平化节点结构的元素：
 
-1. 覆盖`apps`节点中的`libs`节点，并打开elementmapping.xml文件。
+1. 覆盖`libs`节点中的`apps`节点，并打开elementmapping.xml文件。
 
 1. 在要扁平化节点结构的元素的定义中添加`<flatten>true</flatten>`属性。 例如，如果要拼合`p`元素的节点结构，则在`p`元素的定义中添加flatten属性，如下所示：
 
@@ -261,7 +261,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 **阻止拼合AEM站点节点结构**
 
-与在AEM站点输出中指定要拼合的节点类似，您还可以指定要从此配置中排除的元素。 例如，如果要拼合`body`元素上的节点，但不希望`body`中的任何`table`元素拼合，则可以在`table`元素的定义中添加exclude属性。
+与在AEM站点输出中指定要拼合的节点类似，您还可以指定要从此配置中排除的元素。 例如，如果要拼合`body`元素上的节点，但不希望`table`中的任何`body`元素拼合，则可以在`table`元素的定义中添加exclude属性。
 
 要从拼合中排除`table`元素，请将以下属性添加到`table`元素的定义中：
 
@@ -269,7 +269,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 ### 在AEM站点输出中为已删除的页面配置版本控制
 
-生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;**&#x200B;**&#x200B;选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
+生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;****选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
 
 执行以下步骤可停止为要删除的页面创建版本：
 
@@ -330,7 +330,7 @@ AEM Guides提供了一种在使用DITA-OT发布输出时传递自定义元数据
 
    3. 在&#x200B;**字段标签**&#x200B;中，输入元数据名称 — Audience。
 
-   4. 在&#x200B;**映射到属性**&#x200B;设置中，指定。/jcr：content/metadata/&lt;元数据的名称\>。 例如，我们将其设置为。/jcr：content/metadata/audience.
+   4. 在&#x200B;**映射到属性**&#x200B;设置中，指定。/jcr:content/metadata/&lt;元数据的名称\>。 例如，我们将其设置为。/jcr:content/metadata/audience。
 
    使用这些步骤，添加所有必需的元数据参数。
 
@@ -349,7 +349,7 @@ AEM Guides提供了一种在使用DITA-OT发布输出时传递自定义元数据
 
    >[!NOTE]
    >
-   > metadataList文件包含属性列表，这些属性显示在映射仪表板中DITA映射的&#x200B;**属性**&#x200B;下拉列表中。 默认情况下，此文件中列出了四个属性 — docstate、dc：language、dc：description和dc：title。
+   > metadataList文件包含属性列表，这些属性显示在映射仪表板中DITA映射的&#x200B;**属性**&#x200B;下拉列表中。 默认情况下，此文件列出了四个属性 — dostate、dc:language、dc:description和dc:title。
 
 1. 添加您在元数据架构Forms页面中添加的自定义元数据。 例如，将受众参数添加到默认列表的末尾。
 
@@ -446,7 +446,7 @@ AEM Guides中的DITA元素映射到其对应的AEM组件。 AEM Guides在发布�
 
 >[!NOTE]
 >
-> 请勿在``libs``节点中使用默认配置文件中的任何自定义设置。 您必须在``apps``节点中创建``libs``节点的叠加，并仅更新``apps``节点中的所需文件。
+> 请勿在``libs``节点中使用默认配置文件中的任何自定义设置。 您必须在``libs``节点中创建``apps``节点的叠加，并仅更新``apps``节点中的所需文件。
 
 您可以使用预定义的DITA元素映射，也可以将DITA元素映射到自定义AEM组件。 要使用自定义AEM组件，您需要了解`elementmapping.xml`文件的结构。
 
@@ -595,7 +595,7 @@ AEM Guides中的DITA元素映射到其对应的AEM组件。 AEM Guides在发布�
 | `<class>` | 要为其编写组件的目标DITA元素的类属性。<br>例如，DITA主题的类属性为： <br> `- topic/topic` |
 | `<componentpath>` | 映射的AEM组件的CRXDE路径。 |
 | `<type>` | 可能的值： <br> -   **复合**：处理子元素以及<br> -   **STANDALONE**：跳过子元素的处理 |
-| `<attributeprop>` | 用于将序列化DITA属性和值作为属性映射到AEM节点。 例如，如果您有`<note type="Caution">`元素，并且为此元素映射的组件有`<attributeprop>attr_t</ attributeprop>`，则节点的属性和值将序列化为相应AEM节点\(`attr_t->type="caution"`\)的`attr_t`属性。 |
+| `<attributeprop>` | 用于将序列化DITA属性和值作为属性映射到AEM节点。 例如，如果您有`<note type="Caution">`元素，并且为此元素映射的组件有`<attributeprop>attr_t</ attributeprop>`，则节点的属性和值将序列化为相应AEM节点\(`attr_t`\)的`attr_t->type="caution"`属性。 |
 | `<textprop>propname_t</textprop>` | 将`getTextContent()`输出保存到`propname_t.` <br>定义的属性 **注意：**&#x200B;这是一个优化的属性。 |
 | `<xmlprop>propname_x </xmlprop>` | 将此节点的序列化XML保存到&#x200B;`propname_x.<br> `**定义的属性。注意：**&#x200B;这是一个优化属性。 |
 | `<xpath>` | 如果在元素映射中提供了XPath元素，则还应与元素名称和类一起满足XPath条件以使用组件映射。 |
@@ -603,19 +603,19 @@ AEM Guides中的DITA元素映射到其对应的AEM组件。 AEM Guides在发布�
 | `<wrapelement>` | 要将内容包装在其中的HTML元素。 |
 | `<wrapclass>` | 属性`wrapclass.`的元素值 |
 | `<attributemap>` | 包含一个或多个`<attribute>`节点的容器节点。 |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | 将DITA属性映射到AEM属性： <br> -   **`from`**： DITA属性名称<br> -   **`to`**： AEM组件属性名称<br> -   **`ispath`**：如果属性是路径值\（例如： *image*\） <br> -   **`rel`**：如果路径是源或目标<br> **注意：**&#x200B;如果`attrname`以`%`开头，则将`attrname minus '%'`映射到prop“`propname`”。 |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | 将DITA属性映射到AEM属性： <br> -   **`from`**： DITA属性名称<br> -   **`to`**： AEM组件属性名称<br> -   **`ispath`**：如果属性是路径值\（例如： *image*\） <br> -   **`rel`**：如果路径是源或目标<br> **注意：**&#x200B;如果`attrname`以`%`开头，则将`attrname minus '%'`映射到prop“`propname`”。 |
 
 **其他备注**
 
 - 如果计划覆盖默认元素映射，建议不要在默认`elementmapping.xml`文件中进行更改。 您应该创建一个新的映射XML文件，并将该文件放置在其他位置，最好是放置在您创建的自定义apps文件夹中。
 
-- 在`elementmapping.xml`文件中，有许多映射条目引用fmdita/components/dita/wrapper组件。 包装器是一个通用组件，它使用站点节点上的属性来生成相关的HTML，从而呈现相对简单的DITA结构。 它使用`wrapelement`属性生成封闭标记并将子渲染委派给相应的组件。 当您只需要容器组件时，此选项非常有用。 您可以将Wrapper组件与`wrapelement`和`wrapclass`属性结合使用，而不是创建用于呈现特定容器标记（如`div`或`p`）的新组件，以实现相同的效果。
+- 在`elementmapping.xml`文件中，有许多映射条目引用fmdita/components/dita/wrapper组件。 包装器是一个通用组件，它使用站点节点上的属性来生成相关的HTML，从而呈现相对简单的DITA结构。 它使用`wrapelement`属性生成封闭标记并将子渲染委派给相应的组件。 当您只需要容器组件时，此选项非常有用。 您可以将Wrapper组件与`div`和`p`属性结合使用，而不是创建用于呈现特定容器标记（如`wrapelement`或`wrapclass`）的新组件，以实现相同的效果。
 
-- 建议不要在字符串JCR属性中保存大量文本。 输出生成中的优化属性类型计算可确保大型文本内容不会另存为字符串类型。 相反，当需要保存大于特定阈值的内容时，属性的类型会更改为二进制。 默认情况下，此阈值配置为512字节，但可以通过更改&#x200B;**另存为二进制阈值**&#x200B;设置在Configuration Manager \(*com.adobe.fmdita.config.ConfigManager*\)中更改。
+- 建议不要在字符串JCR属性中保存大量文本。 输出生成中的优化属性类型计算可确保大型文本内容不会另存为字符串类型。 相反，当需要保存大于特定阈值的内容时，属性的类型会更改为二进制。 默认情况下，此阈值配置为512字节，但可以通过更改&#x200B;*另存为二进制阈值*&#x200B;设置在Configuration Manager \(**com.adobe.fmdita.config.ConfigManager**\)中更改。
 
 - 如果您计划覆盖某些\（而非全部\）元素映射，则无需复制整个`elementmapping.xml`文件。 您需要创建一个新的XML映射文件，并仅定义要覆盖的元素。
 
-- 在自定义位置中创建XML文件后，更新`com.adobe.fmdita.config.ConfigManager`包中的`Override Element Mapping`设置。
+- 在自定义位置中创建XML文件后，更新`Override Element Mapping`包中的`com.adobe.fmdita.config.ConfigManager`设置。
 
 
 ## 自定义DITA映射控制台 {#id188HC08M0CZ}
@@ -630,17 +630,17 @@ AEM Guides提供了用于自定义映射控制台的`apps.fmdita.dashboard-extn`
 
 >[!NOTE]
 >
-> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hans)。
+> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)。
 
 ## 在输出生成期间处理图像演绎版 {#id177BF0G0VY4}
 
-AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=zh-Hans)。
+AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)。
 
 AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 例如，您可以从默认图像演绎版中选择或创建图像演绎版，然后使用相同的图像演绎版发布文档。 用于发布文档的图像演绎版映射存储在`/libs/fmdita/config/ **renditionmap.xml**`文件中。 `renditionmap.xml`文件的片段如下所示：
 
 >[!NOTE]
 >
-> 建议您在`apps`文件夹为所有自定义项创建`renditionmap.xml`文件的副本。
+> 建议您在`renditionmap.xml`文件夹为所有自定义项创建`apps`文件的副本。
 
 ```XML
 <renditionmap>
@@ -686,8 +686,8 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | 指定清除输出历史记录以及输出日志的天数。 如果要禁用此功能，则将此属性设置为0。每天在指定的时间，对此属性中指定的天数之前生成的输出执行清除过程。<br> **默认值**： 5 |
-| `output.history.purgetime` | 指定清除流程的启动时间。<br> **默认值**： 0:00 \（或12:00午夜\） |
+| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | 指定清除输出历史记录以及输出日志的天数。 如果要禁用此功能，则将此属性设置为0。每天在指定的时间，对此属性中指定的天数之前生成的输出执行清除过程。 | **默认值**： 5 |
+| `output.history.purgetime` | 指定清除流程的启动时间。 | **默认值**： 0:00 \（或12:00午夜\） |
 
 ## 更改最近生成的输出列表限制 {#id1679JH0H0O2}
 

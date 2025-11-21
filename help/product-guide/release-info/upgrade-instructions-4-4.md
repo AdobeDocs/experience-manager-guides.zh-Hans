@@ -3,9 +3,9 @@ title: 发行说明 | Adobe Experience Manager Guides 4.4.0版本的升级说明
 description: 了解如何升级到Adobe Experience Manager Guides的4.4.0版本
 role: Leader
 exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
-source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 5%
 | --- | --- | --- | --- | --- |
 | 4.4.0（非UUID） | 2022或更高版本 | 2020.2或更高版本* | 2022或更高版本 | 2020.3或更高版本 |
 | 4.4.0 (UUID) | 2022或更高版本 | 2020.2或更高版本* | 2022或更高版本 | 2020.4或更高版本 |
-| | | | |
+| | | | | |
 
 *从2020.2开始的FMPS版本支持在AEM中创建的基线和条件。
 
@@ -52,7 +52,7 @@ ht-degree: 5%
 | --- | --- | --- |--- |--- |
 | 4.4.0（非UUID） | 2.7-regular-1 | 2.7-regular-1 | 1.6 | 1.6 |
 | 4.4.0 (UUID) | 3.4-uuid-1 | 3.4-uuid-1 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   | |  |
 
 
 
@@ -74,12 +74,12 @@ ht-degree: 5%
 - 如果您使用的是版本4.2、4.1或4.1.x，则在升级到版本4.4.0之前，需要升级到版本4.3.1、4.3.0或4.2.1（修补程序4.2.1.3）。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级Experience Manager Guides”部分。
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
 
 
 
 >[!NOTE]
 >
->在升级Experience Manager Guides版本之前，必须安装AEM Service Pack。
+>在升级AEM版本之前，必须安装Experience Manager Guides Service Pack。
 
-有关详细信息，请查看Experience Manager Guides内部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升级说明。
+有关详细信息，请查看Experience Manager Guides内部部署版本[的](../install-guide/upgrade-xml-documentation.md)升级说明。

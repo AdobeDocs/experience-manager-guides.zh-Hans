@@ -4,25 +4,25 @@ description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service的1月�
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides]as a Cloud Service的1月版本
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service的1月版
 
 ## 升级到1月版
 
-请通过以下步骤升级当前[!DNL Adobe Experience Manager Guides]as a Cloud Service(以后称为[!DNL AEM Guides]as a Cloud Service)安装程序：
-1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-1. 将Cloud ServiceGit代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2022.1.78。
-1. 提交更改并运行Cloud Service管道，以升级到[!DNL AEM Guides]的1月版as a Cloud Service。
+请通过以下步骤升级当前[!DNL Adobe Experience Manager Guides] as a Cloud Service(以后称为[!DNL AEM Guides] as a Cloud Service)安装程序：
+1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
+1. 将Cloud Services Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2022.1.78。
+1. 提交更改并运行云服务管道以升级到[!DNL AEM Guides] as a Cloud Service的1月版本。
 
 ## 兼容性矩阵
 
-本部分列出了[!DNL AEM Guides] 2022年1月as a Cloud Service版本支持的软件应用程序的兼容性矩阵。
+本部分列出了[!DNL AEM Guides] as a Cloud Service 2022年1月版支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!DNL AEM Guides]云版本 | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2.2 | 2.2 |
-|  |  |  |  |  |
+|  |  |  |  |  |  |
 
 
 ## 新增功能和增强功能
@@ -82,10 +82,10 @@ Web编辑器中引入了许多增强功能和新功能：
 
 ### 使用FrameMaker创作
 
-现在，您可以用FrameMaker创作和发布文档。 FrameMaker附带到Adobe Experience Manager的现成连接器。 在FrameMaker中，您获得了一个易于使用的界面，它允许您在分布式协作环境中维护文档的版本。
+现在，您可以在FrameMaker中创作和发布文档。 FrameMaker附带一个到Adobe Experience Manager的现成连接器。 在FrameMaker中，您获得了一个易于使用的界面，它允许您在分布式协作环境中维护文档的版本。
 
-创建内容后，FrameMaker允许您以PDF、HTML5、EPUB和DITA等不同格式发布文档。 您还可以执行各种文件管理操作，如签出、带依赖项签出、签入、刷新等。
-要在[!DNL AEM Guides]as a Cloud Service中进行FrameMaker创作，请使用FrameMaker版本2020.4及更高版本。
+创建内容后，FrameMaker允许您以不同格式发布文档 — PDF、HTML5、EPUB和DITA。 您还可以执行各种文件管理操作，如签出、带依赖项签出、签入、刷新等。
+要在[!DNL AEM Guides] as a Cloud Service中使用FrameMaker进行创作，请使用FrameMaker版本2020.4及更高版本。
 
 ### 新建翻译仪表板
 
@@ -119,17 +119,17 @@ Web编辑器中引入了新的翻译功能板，该功能板具有以下功能�
 
 ![版本历史记录缩略图](assets/version-history-preview-image.png)
 
-* 无论用户何时创建DITA文件，缺省文件名都会显示在小大小写中，以便与本机AEM文件夹创建方案内联。
+* 无论用户何时创建DITA文件，默认文件名都会显示在小外壳中，以与本机AEM文件夹创建方案内联。
 
 ### 新的报告导出功能
 
-报告在确定内容的运行状况时非常有用。 [!DNL AEM Guides]as a Cloud Service提供各种报告以控制您的内容。 现在，您不仅可以查看报表，还可以将报表数据导出为CSV文件，以便查看和共享更大的团队。 报表数据可以让您快速浏览任何断开的链接或缺少的图像。
+报告在确定内容的运行状况时非常有用。 [!DNL AEM Guides] as a Cloud Service提供了各种报告来控制您的内容。 现在，您不仅可以查看报表，还可以将报表数据导出为CSV文件，以便查看和共享更大的团队。 报表数据可以让您快速浏览任何断开的链接或缺少的图像。
 
 ![报告导出](assets/export-report.png)
 
 ### 改进了氧气DAM刷新体验
 
-在氧气中刷新AEM Server中的文件时，如果当前氧气会话中有未保存的文件，则会显示警告消息。 您可以选择取消刷新操作以保存任何未保存的文件。 如果没有此功能，用户将丢失其文档中的任何未保存信息。
+在氧气中从AEM服务器刷新文件时，如果在当前氧气会话中有未保存的文件，则会显示警告消息。 您可以选择取消刷新操作以保存任何未保存的文件。 如果没有此功能，用户将丢失其文档中的任何未保存信息。
 
 
 ### 其他功能增强
@@ -163,9 +163,9 @@ Web编辑器中引入了新的翻译功能板，该功能板具有以下功能�
 * 移动源文件时，conrefred属性不会更新。 (7698)
 * 使用参考主题类型文档会导致多个UI问题。 (7656)
 * 当作者在映射中添加ditavalref时，不显示DITAVAL文件。 (7594)
-* 将outputclass特性添加到`<tgroup>`元素时，在每个空白`<entry>`元素中发现意外的空格。 (7532)
+* 将outputclass特性添加到`<entry>`元素时，在每个空白`<tgroup>`元素中发现意外的空格。 (7532)
 * Source按钮不适用于通过地图仪表板打开的主题。 (7465)
-* Pretty print插入空白行和空格，当文件以FrameMaker或氧气打开时，可以看到这些空格和空格。 (7408)
+* Pretty print插入空白行和空格，当文件在FrameMaker或Oxygon中打开时，可以看到这些空格和空格。 (7408)
 * 任何主题中带有href=&quot;/&quot;的映射都不会发布在AEM网站上。 (7405)
 * 当根映射包含大量键值时，在编辑器中发现性能问题。 (7400)
 * 带有自定义模板的映射的文档状态不会从其相应的状态配置文件继承。 (7359)
@@ -187,17 +187,17 @@ Web编辑器中引入了新的翻译功能板，该功能板具有以下功能�
 
 * 在Oxygon中加载时，其父文件夹包含特殊字符的文件会出错。 (8054)
 * 在Oxygen中打开新创建的文档时，会引发“无法找到GUID”错误。 (7856)
-* 使用“在氧气中编辑”从AEM签出文件后，签入选项被禁用。 (7471)
+* 将文件从AEM中签出后，使用“在氧气中编辑”禁用签入选项。 (7471)
 
 
-### 审查
+### 审阅
 
 * 实时同步不适用于注释。 (7661)
 
 ### 映射仪表板
 
 * 在地图仪表板的主题或报表选项卡的主题标题中无法查看conref内容。 (8263)
-* AEM Sites输出 | 更新DITA主题标题时，生成的网站页面的标题未更新。 (8131)
+* AEM Sites输出 | 更新DITA主题标题时，生成的网站页面的jcr:title未更新。 (8131)
 * 下载MAP不下载主题中使用的视频文件。 (8070)
 * 通过下载书图API使用对象标记时，不会下载媒体文件。 (8057)
 * 如果有任何主题的conref文件标题以conref开头，则“报告”选项卡中显示不正确的报告。 (4698)
@@ -206,7 +206,7 @@ Web编辑器中引入了新的翻译功能板，该功能板具有以下功能�
 ### 发布
 
 * 选择“启用版本控制”后，PDF创建首次失败。 (8053， 8294)
-* 在AEM Site输出中，空白字符会在“tm；”标记后自动添加。 (7964)
+* 在AEM站点输出中，空白字符会在“tm；”标记后自动添加。 (7964)
 * 无法在AEM站点输出中查看YouTube视频。 (7401)
 * 用户单击浏览映射仪表板基线选项卡中的所有主题后，无法按标签筛选引用内容。 (7388)
 * 具有属性值SM或reg的元素`<tm>`的发布主题在生成的输出中显示不正确。 (7239)
@@ -216,7 +216,7 @@ Web编辑器中引入了新的翻译功能板，该功能板具有以下功能�
 * 页面标题不用于生成输出URL，即使已勾选该设置也是如此。 (8257)
 * 基线发布选取图像的当前版本而不是冻结节点。 如果图像文件名中包含空格或特殊字符，也会出现这种情况。 (8274， 8322)
 * 对于具有mapref类型主题方案的DITA映射，增量发布失败。 (8218)
-* 每当将映射添加到批量Publish仪表板时，都会添加Null。 (8695)
+* 每当将映射添加到批量发布仪表板时，都会添加Null。 (8695)
 * 在主题中使用将图像作为conref的基线发布时，图像不会发布在输出中。 (8564)
 * 如果删除AEM站点发布中使用的基线，发布会失败并出现异常。 (8572)
 * 主题重新生成不起作用。 (8091)
@@ -237,13 +237,13 @@ Web编辑器中引入了新的翻译功能板，该功能板具有以下功能�
 ### 内容导入
 
 * HTML到DITA的转换 | 包含空“td”条目的“tr”表会导致输出中出现更多行。 (8132)
-* HTML到DITA的转换 | HTML具有一个带有多个表体的表时失败，出现异常。 (7940)
-* HTML到DITA的转换 | 如果源HTML有注释，则会出错。 (7937)
+* HTML到DITA的转换 | HTML具有一个具有多个主体的表失败，但出现异常。 (7940)
+* HTML到DITA的转换 | 如果源HTML包含注释，则会出错。 (7937)
 * 导入DITA 1.3 DITA文件会导致某些href转换为格式错误的链接。 (8019)
 
 ## 已知问题
 
-Adobe已发现[!DNL AEM Guides] 2022年1月as a Cloud Service版本的以下已知问题。
+Adobe已发现[!DNL AEM Guides] as a Cloud Service 2022年1月版的以下已知问题。
 
 
 ### 存在已知问题的解决方法

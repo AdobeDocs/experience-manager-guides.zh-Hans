@@ -1,7 +1,7 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 2025.11.0版本中的升级说明和修复的问题
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides as a Cloud Service的2025.11.0版本。
-source-git-commit: b33f9385cd0364009a70c1a5fddcc1a5c118b08b
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 3%

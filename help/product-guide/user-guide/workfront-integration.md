@@ -1,17 +1,17 @@
 ---
-title: Workfront集成
+title: Workfront 集成
 description: 了解如何将Workfront与Adobe Experience Manager Guides集成并开始创建用于创作、发布、审阅和翻译工作流的任务。
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2482'
 ht-degree: 0%
 
 ---
 
-# Workfront集成
+# Workfront 集成
 
 Adobe Workfront是一个基于云的工作管理解决方案，可帮助团队和组织高效地规划、跟踪和管理其工作。 Experience Manager Guides与Adobe Workfront之间的集成让您能够在Experience Manager Guides核心CCMS功能之上访问强大的项目管理功能，从而允许您高效地计划、分配和跟踪任务。
 
@@ -25,10 +25,10 @@ Adobe Workfront是一个基于云的工作管理解决方案，可帮助团队�
 
 * 计划、分配和跟踪单个任务和项目的进度，而无需依赖多个非集成工具。
 * 更有效地管理所有Experience Manager Guides工作流程，包括创作、审阅、发布和翻译内容。
-* 每当分配新任务时，接收来自Adobe Workfront的电子邮件通知。 有关详细信息，请查看[通知概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/use-notifications/wf-notifications)。
+* 每当分配新任务时，接收来自Adobe Workfront的电子邮件通知。 有关详细信息，请查看[通知概述](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications)。
 * 使用Adobe Workfront的直观仪表板监控项目运行状况，从而实时了解项目绩效。
 
-  要了解为Experience Manager Guides中的项目经理启用的Adobe Workfront强大的项目管理功能，请查看[计划项目概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-work/projects/plan-a-project/plan-project)。
+  要了解为Experience Manager Guides中的项目经理启用的Adobe Workfront强大的项目管理功能，请查看[计划项目概述](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project)。
 
 ## 开始使用
 
@@ -61,7 +61,7 @@ Adobe Workfront是一个基于云的工作管理解决方案，可帮助团队�
 
 Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg)，选中该图标后，您将转到Adobe Workfront项目页面。 在这里，您可以根据映射到您的Adobe Workfront帐户的权限，查看任务详细信息、查看注释、添加注释并访问其他功能。
 
-有关更多详细信息，请在Workfront[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/navigate/definitions-pti-dates)中查看项目、任务和问题日期的概述。
+有关更多详细信息，请在Workfront[中查看](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates)项目、任务和问题日期的概述。
 
 ### 创建Workfront任务
 
@@ -122,7 +122,7 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 
 >[!NOTE]
 >
-> 作为项目经理，您可以在Adobe Workfront功能板中查看此新创建的任务以及其他关键任务详细信息。 有关更多详细信息，请查看[了解仪表板](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards)。
+> 作为项目经理，您可以在Adobe Workfront功能板中查看此新创建的任务以及其他关键任务详细信息。 有关更多详细信息，请查看[了解仪表板](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards)。
 
 ### 管理您创建的任务
 
@@ -315,7 +315,7 @@ Workfront任务页面还包括链接出图标![](./images/Smock_LinkOut_18_N.svg
 3. 查看任务详细信息和为发布添加的文件。
 
    ![](./images/publishing-tasks-review-details.png){align="left"}
-4. 导航到&#x200B;**输出预设**&#x200B;并执行发布任务所需的发布操作。 有关详细信息，请查看[了解输出预设](../user-guide/generate-output-understand-presets.md/)。
+4. 导航到&#x200B;**输出预设**&#x200B;并执行发布任务所需的发布操作。 有关详细信息，请查看[了解输出预设](../user-guide/generate-output-understand-presets.md)。
 5. 发布完成后，导航到&#x200B;**Workfront**&#x200B;部分，然后选择&#x200B;**标记为完成**&#x200B;以指示任务已完成。
 6. 切换到&#x200B;**评论**&#x200B;选项卡以向此任务添加评论。 这些在任务级别添加的注释将反映在Workfront的项目仪表板上。
 
