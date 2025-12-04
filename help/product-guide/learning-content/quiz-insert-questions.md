@@ -4,9 +4,9 @@ description: 了解如何在产品培训和学习的测验中插入问题，
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 40c12185223cdc35c069d44ceb66a38cecacf84f
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 执行以下步骤将问题插入测验：
 
-1. 从工具栏的&#x200B;**问题**&#x200B;下拉菜单中选择所需的问题类型。 根据要求，您可以使用以下三种可用格式中的任意一种来添加问题：“True”或“False”、“Single correct”和“Multiple correct”，如下所示。
+1. 从工具栏的&#x200B;**问题**&#x200B;下拉菜单中选择所需的问题类型。 根据要求，您可以使用四种可用格式中的任意格式添加问题：True或False、Single correct、Multiple correct和Match，如下所示。 有关详细信息，请查看[问题类型](#question-types)。
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -48,3 +48,28 @@ ht-degree: 0%
 1. 在上下文菜单中，选择&#x200B;**删除问题**（以删除整个问题）或&#x200B;**删除选项**（仅删除选定的选项）。
 
 ![](assets/delete-options-lc.png){width="650" align="left"}
+
+## 问题类型
+
+测验支持以下问题类型：
+
+- **单个正确**：一个问题，该问题具有多个选项，其中只有一个答案是正确的。
+
+  ![](assets/single-correct.png){width="650" align="left"}
+
+- **True/False**：一个基于语句的问题，学习者可从中选择True还是False。
+
+  ![](assets/true-false.png){width="650" align="left"}
+
+
+- **多个正确**：一个问题，该问题具有多个选项，多个答案可以正确。
+
+  ![](assets/multi-correct.png){width="650" align="left"}
+
+- **匹配以下项**：允许学习者匹配两个列表中的项以形成正确的对。 您可以从&#x200B;**内容属性**&#x200B;面板添加新选项集。 为了提高复杂性，您可以从第一个列表中删除一个选项，并在“匹配”列中包含一个额外的匹配。 这就要求学习者仔细思考哪个选项没有直接的搭配，从而造成了一定难度。
+
+  ![](assets/match-the-following.png){width="650" align="left"}
+
+  在发布的输出中，每个项目都显示&#x200B;**与以下**&#x200B;匹配的问题，该问题带有下拉菜单，允许您从可用选项中选择正确的匹配项。
+
+  ![](assets/question-type-publishing.png){width="650" align="left"}

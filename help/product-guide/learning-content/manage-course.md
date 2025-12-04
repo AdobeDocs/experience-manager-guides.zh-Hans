@@ -4,10 +4,10 @@ description: 了解Experience Manager Guides中的各种功能，利用这些功
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 17d71e65e2f4f79a764d822f6f1ada136a7379d7
+source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '708'
+ht-degree: 0%
 
 ---
 
@@ -84,3 +84,15 @@ ht-degree: 1%
 ![](assets/course-display-settings.png)
 
 有关视频概述，请查看[显示设置](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg)。
+
+## 创建审核任务
+
+作为学习课程的作者或管理员，您可以创建课程的审阅任务，并将其分配给审阅人以获取反馈。 首先，在&#x200B;**课程管理员**&#x200B;面板中打开您的课程，然后从&#x200B;**选项**&#x200B;菜单中选择&#x200B;**创建审核任务**，如下所示：
+
+![](assets/create-review-task-lc.png)
+
+您被定向到&#x200B;**创建审阅任务**&#x200B;页面，在该页面中，您需要添加任务详细信息，例如审阅任务的标题、指定任务所属的DITA项目、定义任务时间线、分配审阅人等。 完成后，查看者将收到此任务的通知。 所选课程主题将在审核UI中打开，审核者可以在其中添加注释并将主题发回以获取更新。
+
+要了解Experience Manager Guides中的审阅工作流程，请查看，[发送审阅主题](../user-guide/review-send-topics-for-review.md)。
+
+

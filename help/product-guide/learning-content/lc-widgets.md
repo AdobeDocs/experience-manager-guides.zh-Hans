@@ -4,9 +4,9 @@ description: 了解可在学习内容中使用的交互式小组件。
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -32,29 +32,18 @@ ht-degree: 0%
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **块引号：**&#x200B;将块引号与引号一起添加到您的内容。
+- **选项卡：**&#x200B;用于将内容整理到交互式节中。  每个选项卡可以代表不同的主题或类别；学习者可以单击或点按选项卡以显示相应的内容。 将光标放在您希望选项卡构件在内容中显示的位置，然后导航到&#x200B;**插入>构件>选项卡**。 这会将选项卡容器添加到您的内容。 现在，开始向选项卡添加内容，包括选项卡标题及其相应内容。
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/insert-tab-lc.png)
 
-- **代码块：**&#x200B;向内容添加代码块。
+  要添加、删除和切换选项卡布局（垂直选项卡或水平选项卡），请使用右侧面板中的&#x200B;**内容属性**&#x200B;部分。
+- **翻转卡片：**&#x200B;将交互式卡片添加到您的内容中，该卡片会翻转以显示其他信息。 每张信息卡都有两面 — 正面和背面，让学习者能够引人入胜地探索信息。  要插入Flip卡，请将光标放在所需位置并导航到&#x200B;**插入>小组件>翻页卡**，这会将Flip卡容器添加到您的内容中。 然后，您可以在正面添加标题和可选图像，并在背面输入相应的内容。
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/insert-flip-card-lc.png)
 
-- **Iframe：**&#x200B;在内容中插入iframe以嵌入外部网页或交互式资源。 您可以使用&#x200B;**内容属性**&#x200B;面板配置iframe属性，包括源URL、宽度、高度、对齐方式和标题。 通过切换到&#x200B;**预览**&#x200B;模式，您可以查看在iframe中添加的内容，如下所示。
+  要添加或删除卡片，或更改其布局，请使用右侧面板中的&#x200B;**内容属性**&#x200B;部分。
+- **单击以显示：**&#x200B;在学习者单击以显示内容之前，为内容插入一个可隐藏内容的交互式小组件。 这有助于减少杂乱，并鼓励探索。 将光标放在所需位置并选择&#x200B;**插入>构件>单击以显示**&#x200B;来插入构件。 插入后，为小组件标题提供标题，并定义学习者交互时显示的隐藏内容。
 
-  **作者**&#x200B;视图：
+  ![](assets/insert-click-to-reveal-lc.png)
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
-
-
-  **预览**&#x200B;模式：
-
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
-
-- **输入字段：**&#x200B;向内容添加文本输入字段和按钮。 您可以使用此组合来捕获用户输入并触发特定操作。 播放按钮将添加到内容中，如下所示。
-
-  ![](assets/button-learning-content.png){width="650" align="left"}
-
-- **更多选项：**&#x200B;您有其他选项可增强您的学习内容，包括插入水平线、换行符、文本框、定位文本框和嵌入的HTML。
-
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  要添加或删除构件或管理构件方向，请使用右侧面板中的&#x200B;**内容属性**&#x200B;部分。
