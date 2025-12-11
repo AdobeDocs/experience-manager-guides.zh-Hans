@@ -3,9 +3,9 @@ title: “插入”菜单中的其他选项
 description: 了解可在学习内容中使用的插入菜单选项。
 feature: Authoring
 role: User
-source-git-commit: 1fe46636a82b87b65fb5b29e7282636e7dec2358
+source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ ht-degree: 0%
   > Adobe Experience Manager Guides不支持编辑或创建H5P内容。 在上载之前，请在外部准备H5P包。
 
 
-- **数学方程式：**&#x200B;将MathML方程式插入到您的内容。 您可以创建一个MathML公式，并选择&#x200B;**插入**&#x200B;以将其添加到您的文档中。
+- **MathML公式：**&#x200B;将MathML公式插入到您的内容中。 您可以创建一个MathML公式，并选择&#x200B;**插入**&#x200B;以将其添加到您的文档中。
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
   该公式使用浅灰色背景插入。 您可以随时更新公式，方法是右键单击现有公式并从上下文菜单中选择&#x200B;**编辑数学公式**。 有关在Experience Manager Guides中验证MathML方程式的详细信息，请在MathML编辑器中查看[方程式的验证](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor)。
 
-- **知识检查：**&#x200B;允许您以可用格式（“单个正确”、“多个正确”、“真/假”、“符合以下内容”或插入问题库）将问题添加到您的主题以供审阅，并且无需评分或报告即可确认理解。 这些问题反映了标准格式并排除了评分，因此非常适合于自我评估，并且适合作为课程内容的一部分或以后测验或评估之前的主题。
+- **知识检查：**&#x200B;允许您以可用格式（“单个正确”、“多个正确”、“真/假”、“符合以下内容”或插入问题库）将问题添加到主题以供审阅，并且无需评分即可确认理解。 这些问题反映了标准格式并排除了评分，因此非常适合于自我评估，并且适合作为课程内容的一部分或以后测验或评估之前的主题（如果可用）。
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
