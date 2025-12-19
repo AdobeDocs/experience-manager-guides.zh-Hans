@@ -5,9 +5,9 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9769a196346117237f2f72b6c88f8ac14fece740
 workflow-type: tm+mt
-source-wordcount: '5756'
+source-wordcount: '5824'
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 >
 > 创建自定义设计模板节点后，必须更新AEM站点输出预设中的设计选项才能使用自定义设计模板节点。
 
-有关详细信息，请参阅[创建您的第一个Adobe Experience Manager 6.3网站](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html)和[在AEM上开发您自己的网站的基础知识](https://helpx.adobe.com/cn/experience-manager/6-3/sites/developing/using/the-basics.html)。
+有关详细信息，请参阅[创建您的第一个Adobe Experience Manager 6.3网站](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html)和[在AEM上开发您自己的网站的基础知识](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html)。
 
 ### 使用文档标题生成AEM站点输出
 
@@ -332,7 +332,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 ### 在AEM站点输出中为已删除的页面配置版本控制
 
-生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;**&#x200B;**&#x200B;选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
+生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;****选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
 
 执行以下步骤可停止为要删除的页面创建版本：
 
@@ -642,11 +642,11 @@ AEM Guides提供了用于自定义映射控制台的`apps.fmdita.dashboard-extn`
 
 >[!NOTE]
 >
-> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://helpx.adobe.com/cn/experience-manager/6-4/sites/developing/using/clientlibs.html)。
+> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html)。
 
 ## 在输出生成期间处理图像演绎版 {#id177BF0G0VY4}
 
-AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://helpx.adobe.com/cn/experience-manager/6-5/assets/using/media-handlers.html)。
+AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html)。
 
 AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 例如，您可以从默认图像演绎版中选择或创建图像演绎版，然后使用相同的图像演绎版发布文档。 用于发布文档的图像演绎版映射存储在`/libs/fmdita/config/ **renditionmap.xml**`文件中。 `renditionmap.xml`文件的片段如下所示：
 
@@ -661,6 +661,7 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
       <rendition output="AEMSITE">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="PDF">original</rendition>
       <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
       <rendition output="EPUB">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="CUSTOM">cq5dam.web.1280.1280.jpeg</rendition>
    </mapelement>
@@ -669,6 +670,26 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
 ```
 
 `mimetype`元素指定文件格式的MIME类型。 `rendition output`元素指定输出格式的类型和应用于发布指定输出的格式副本\（例如，`cq5dam.web.1280.1280.jpeg`\）的名称。 您可以指定用于所有受支持的输出格式(AEMSITE、PDF、HTML5、EPUB和CUSTOM)的图像演绎版。
+
+如果要为输出预设指定不同的图像演绎版，可以使用`outputName`属性为同一输出类型下的特定输出预设定义自定义演绎版。 当不同的发布方案需要不同的图像大小或格式时，这将很有用。
+
+例如：
+
+
+```XML
+<renditionmap>
+   <mapelement>
+      <mimetype>image/png</mimetype>
+      
+      <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
+      
+   </mapelement>
+...
+</renditionmap>
+```
+
+在上述演绎版中，如果演绎版中定义了`outputName`属性，则ditahtml5预设使用`cq5dam.thumbnail.319.319.png`，如果不使用`outputName`，则所有HTML5输出都将使用`cq5dam.web.1280.1280.jpeg`。
 
 如果指定的呈现版本不存在，则AEM Guides发布过程将首先查找给定图像的Web呈现版本。 如果找不到Web演绎版，则使用图像的原始演绎版。
 
