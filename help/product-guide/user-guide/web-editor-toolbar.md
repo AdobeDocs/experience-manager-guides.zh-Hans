@@ -4,9 +4,9 @@ description: 了解编辑器中的工具栏。 了解Adobe Experience Manager Gu
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
 workflow-type: tm+mt
-source-wordcount: '5962'
+source-wordcount: '6011'
 ht-degree: 0%
 
 ---
@@ -233,7 +233,7 @@ Experience Manager Guides允许您以自由格式文本格式指定标签或使�
 
 “显示”菜单包含以下功能：
 
-- **跟踪更改：**&#x200B;您可以启用“跟踪更改”模式，以跟踪对文档所做的所有更新。 启用跟踪更改后，文档将捕获所有插入和删除。 使用删除线突出显示所有已删除的内容，并以绿色文本突出显示所有插入。 此外，您还可以在主题页面的边缘获得更改条。 再次重申，对于已删除的内容，将显示红色栏，对于添加的内容，将显示绿色栏。 如果在同一行上进行了添加和删除，则会同时显示绿色栏和红色栏。
+- **跟踪更改：**您可以启用“跟踪更改”模式，以跟踪对文档所做的所有更新。 启用跟踪更改后，文档将捕获所有插入和删除。 使用删除线突出显示所有已删除的内容，并以绿色文本突出显示所有插入。 此外，您还可以在主题页面的边缘获得更改条。 再次重申，对于已删除的内容，将显示红色栏，对于添加的内容，将显示绿色栏。 如果在同一行上进行了添加和删除，则会同时显示绿色栏和红色栏。
 以下屏幕截图突出显示删除和插入的内容以及更改条：
   ![](images/track-changes-content.png){width="650" align="left"}
 
@@ -471,6 +471,10 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 
 如果您的管理员在&#x200B;*XMLEditorConfig*&#x200B;中启用了UUID选项，则您将在&#x200B;**Link**&#x200B;属性中查看引用内容的UUID。
 
+>[!IMPORTANT]
+>
+> 根据标准DITA行为，scope=`external`属性不能应用于内部链接，因为它仅用于引用外部资源。 将此属性应用于内部链接可能会中断工作流。 对于Experience Manager Guides中管理的内容，请改用默认范围=`local`或基于键的引用。
+
 ![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
@@ -623,4 +627,4 @@ Source字段显示所插入图像文件的UUID。 通过将鼠标指针悬停在
 作为管理员，您还可以访问&#x200B;**强制解锁**&#x200B;功能，该功能允许您解锁其他用户锁定的文件。 使用此功能可以访问其他用户锁定的文件的编辑权限。
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)
