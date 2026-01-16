@@ -2,9 +2,9 @@
 title: 发行说明 | 修复了Adobe Experience Manager Guides 5.1.0 Service Pack 3版本中的问题
 description: 了解Adobe Experience Manager Guides 5.1.0 Service Pack 3版本中的错误修复
 role: Leader
-source-git-commit: 64d7e4f8028ade36c4fee9bb3407e70b10da6869
+source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,12 @@ ht-degree: 1%
 ## 平台
 
 - 在主题或映射中使用`scope="external"`引用DAM内容会导致资源的相对路径被替换为GUID。 (指南 — 35605)
+
+## 已知问题
+
+Adobe已发现5.1.0 Service Pack 3版本的以下已知问题：
+
+- 当您从任务详细信息页面将审核任务标记为完成时，任务已完成并关闭；但是，其状态在审核功能板上继续显示为&#x200B;**进行中**。 (指南 — 39375)
 
 
 
