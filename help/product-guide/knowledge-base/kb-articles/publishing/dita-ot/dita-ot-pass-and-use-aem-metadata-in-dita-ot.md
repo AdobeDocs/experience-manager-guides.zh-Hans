@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ### 部署
 
-开发DITA-OT插件后，可以使用DITA-OT目录下的&#x200B;_dita —install_&#x200B;命令将此插件集成到DITA-OT中，并将其部署到AEM服务器[有关更多详细信息，请参阅本文](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+开发DITA-OT插件后，可以使用DITA-OT目录下的&#x200B;_dita —install_&#x200B;命令将此插件集成到DITA-OT中，并将其部署到AEM服务器[有关更多详细信息，请参阅本文](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=zh-Hans)
 
 
 ## 资源

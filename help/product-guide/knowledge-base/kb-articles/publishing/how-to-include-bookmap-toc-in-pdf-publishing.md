@@ -99,7 +99,7 @@ Ditamap本身并不像书签那样直接具有目录(TOC)。 但是，在定义�
 <br>
 <br>
 
-AEM Guides社区[论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上的Post以进行任何查询。
+AEM Guides社区[论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=zh-Hans)上的Post以进行任何查询。
 
 
 

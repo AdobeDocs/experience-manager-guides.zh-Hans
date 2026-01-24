@@ -17,7 +17,7 @@ ht-degree: 0%
 
 在这些会议中，我们的专家将深入讨论我们产品的特性、功能和好处，并分享可帮助您充分利用它的实用技巧和最佳实践。 无论您是新用户还是经验丰富的专业人士，这些讲座都将为您提供充分使用AEM Guides所需的信息。
 
-我们理解您的时间非常有价值，因此我们为您提供了简单易用的专家讲座。 您可以通过访问我们的[社区论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)或通过发送给您的电子邮件来注册即将举行的会议。
+我们理解您的时间非常有价值，因此我们为您提供了简单易用的专家讲座。 您可以通过访问我们的[社区论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=zh-Hans)或通过发送给您的电子邮件来注册即将举行的会议。
 
 如果您错过了之前的任何会话，则可以访问此部分中的录制。
 

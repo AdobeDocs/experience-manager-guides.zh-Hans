@@ -59,7 +59,7 @@ Adobe已在Adobe Experience Manager Guidesas a Cloud Service的2024.12.0版本�
 
 **解决方法**：要解决此问题，请执行以下步骤：
 
-1. 添加repoinit文件。 如果文件不存在，请执行[示例repoinit配置创建步骤](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854)来创建该文件。
+1. 添加repoinit文件。 如果文件不存在，请执行[示例repoinit配置创建步骤](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854?profile.language=zh-Hans)来创建该文件。
 2. 在文件中添加以下行并部署代码：
 
    ```

@@ -50,7 +50,7 @@ Adobe Experience Manager Guides允许您有效地定义、应用和使用系统�
 
 ### 社区论坛
 
-- 有关Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
+- 有关Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hans)。
 
 
 >[!NOTE]

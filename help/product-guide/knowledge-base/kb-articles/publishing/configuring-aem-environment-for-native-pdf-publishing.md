@@ -185,4 +185,4 @@ iii) 。/node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js �
 
 
 
-如果您在执行上述任何步骤时遇到任何问题，请在AEM Guides社区[论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上发布问题以寻求帮助。
+如果您在执行上述任何步骤时遇到任何问题，请在AEM Guides社区[论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=zh-Hans)上发布问题以寻求帮助。
