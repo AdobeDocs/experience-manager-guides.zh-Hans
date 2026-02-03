@@ -28,7 +28,7 @@ ht-degree: 0%
 在此示例中，我们已将`Insert Element`、`Insert Paragraph`、`Insert Numbered List`、`Insert Bulleted List`按钮替换为包含所有这些按钮的单个`More Insert Options`按钮。
 
 6. 元数据面板上的[管理按钮](./examples/metadata_report_manage_button.ts)
-在此示例中，我们已自定义**管理**&#x200B;按钮（位于“报表”页面上的“元数据”面板中），以便在所选文件处于只读模式时禁用该按钮。 这有助于防止意外编辑不打算编辑的文件上的元数据。
+在此示例中，我们已自定义&#x200B;**管理**&#x200B;按钮（位于“报表”页面上的“元数据”面板中），以便在所选文件处于只读模式时禁用该按钮。 这有助于防止意外编辑不打算编辑的文件上的元数据。
 
 [查看应用示例]
 

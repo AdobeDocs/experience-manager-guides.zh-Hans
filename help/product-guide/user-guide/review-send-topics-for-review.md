@@ -306,4 +306,4 @@ Experience Manager Guides允许您同时在DITA映射中发送一个或多个主
 有关更多详细信息，请查看[了解审阅通知](./review-understanding-review-notifications.md)。
 
 
-**父主题：**[&#x200B;要审阅的简介](review.md)
+**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)

@@ -27,38 +27,38 @@ Adobe Experience Manager Guides提供了根据文件的当前文档状态搜索�
 在下载的`ui\_config.json`文件中，请参阅以下部分：
 
        “
-”       “repositoryFilters”： [
-       {
+”       “repositoryFilters”： &lbrack;
+       &lbrace;
        “title”：“Document state”，
        &quot;property&quot;： &quot;jcr：content/metadata/docstate&quot;，
-       “子项”：[
-       {
+       “子项”：&lbrack;
+       &lbrace;
        “title”：“Draft”，
        &quot;value&quot;： &quot;Draft&quot;
-       }，
-       {
+       &rbrace;，
+       &lbrace;
        &quot;title&quot;： &quot;Edit&quot;，
        &quot;value&quot;： &quot;Edit&quot;
-       }，
-       {
+       &rbrace;，
+       &lbrace;
        &quot;title&quot;：&quot;In-Review&quot;，
        &quot;value&quot;：&quot;In-Review&quot;
-       }，
-       {
+       &rbrace;，
+       &lbrace;
        &quot;title&quot;：&quot;Approved&quot;，
        &quot;value&quot;：&quot;Approved&quot;
-       }，
-       {
+       &rbrace;，
+       &lbrace;
        “title”：“已审核”，
        &quot;value&quot;：&quot;Reviewed&quot;
-       }，
-       {
+       &rbrace;，
+       &lbrace;
        &quot;title&quot;：&quot;Done&quot;，
        &quot;value&quot;： &quot;Done&quot;
-       }
-       ]
-       }
-       ]
+       &rbrace;
+       &rbrack;
+       &rbrace;
+       &rbrack;
        “
 ”   此代码片段表示Experience Manager Guides中可用的默认文档状态过滤器。
 
@@ -75,4 +75,4 @@ Adobe Experience Manager Guides提供了根据文件的当前文档状态搜索�
 
 配置的筛选器显示在主页存储库中的&#x200B;**筛选器**&#x200B;面板中。
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
