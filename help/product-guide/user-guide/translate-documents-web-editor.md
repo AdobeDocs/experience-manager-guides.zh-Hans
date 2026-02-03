@@ -4,9 +4,9 @@ description: 从Web编辑器将内容翻译成多种语言。 了解如何在AEM
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2446'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,15 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    - **文件名**：源文件的名称
    - **文件类型**：源文件的类型。 可用的选项有“映射”、“主题”和“图像”。
    - **引用类型**：直接或间接引用
-   - **版本**：源文件的版本号
+   - **版本**：源文件的版本号。
+
+     如果文件保存的更改尚未进行版本控制（即，未在映射中另存为新版本），则文件旁边会显示一个信息图标，指示存在未进行版本控制的更改。
+
+     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+
+     >
+     >
+     > 要仅查看具有无版本更改的文件，请在“筛选器”面板中启用&#x200B;**仅显示具有无版本更改的资源**&#x200B;设置。 此外，仅在基于文件的最新版本翻译文件时，未设置版本的指示符才可见。
    - **版本标签**：源文件的选定版本的标签
    - **目标版本**：目标文件的版本号
    - **文档状态**：源文件的状态。 可用的选项包括草稿、正在审阅和已审阅。
@@ -102,7 +110,7 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    除了新的翻译项目外，您还可以从以下选项中进行选择：
 
    - 您可以选择&#x200B;**仅为翻译项目创建结构**。
-   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**&#x200B;以将XML内容转换为XML本地化交换文件格式(XLIFF)。 XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。 Experience Manager Guides支持XLIFF版本1.2。
+   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**以将XML内容转换为XML本地化交换文件格式(XLIFF)。 XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。 Experience Manager Guides支持XLIFF版本1.2。
 在XLIFF项目中，内容将导出为行业标准XLIFF格式，可提供给翻译供应商。 XLIFF格式使您在翻译阶段已翻译的区段有可能得到重用。\
      翻译XLIFF内容后，可将其导入Experience Manager Guides，从而创建原始DITA项目的翻译版本。
 
@@ -226,4 +234,4 @@ Experience Manager Guides提供了用于检查主题的所选版本与上次翻�
 如果您希望稍后使用翻译项目，也可以禁用这些项目。 删除项目会删除项目中存在的所有文件和文件夹。 禁用项目不会删除它，而是将其保留在存储库中。 但无法更新或编辑已禁用的项目。  删除或禁用项目不会影响任何引用的翻译状态。
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

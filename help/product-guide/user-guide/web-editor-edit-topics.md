@@ -4,9 +4,9 @@ description: 了解如何在编辑器中编辑主题。 了解各种编辑功能
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,11 @@ Experience Manager Guides提供工作副本指示器，用于显示文件的当�
 
 Experience Manager Guides还指示文件的最后保存的\(working\)副本是否与保存的版本同步。 如果在工作副本和上次保存的版本之间有一些未保存的更改，则会在主题文件选项卡右上角显示一个\*标记以及版本信息。 此指示器用于提醒您保存并从文件的当前\(working\)副本创建版本。
 
-![版本更新指示器](images/version-update-indicator.png){width="550" align="left"}
+>[!NOTE]
+>
+> 对[文件属性](./web-editor-right-panel.md#file-properties)下可用的元数据字段的任何更改也将触发文档版本上的工作副本指示器。
 
+![版本更新指示器](images/version-update-indicator.png){width="550" align="left"}
 
 ## 在创作和Source模式下访问锁定的文件
 
@@ -117,4 +120,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 >
 >从2025.11.0版本开始，**始终查找存储库中的文件**&#x200B;设置重命名为&#x200B;**始终查找资源管理器中的文件**。 对于内部部署设置，在Experience Manager Guides 5.1版发布之前，它将继续在存储库中作为始终定位文件提供。
 
-**父主题：**&#x200B;[&#x200B;使用编辑器](web-editor.md)
+**父主题：**[&#x200B;使用编辑器](web-editor.md)

@@ -1,13 +1,13 @@
 ---
 title: 示例
 description: 自定义示例列表
-source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
+exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
+source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # 示例
 
@@ -17,15 +17,18 @@ ht-degree: 0%
 在此示例中，我们已自定义`file_options`上下文菜单，以删除`Delete`和`Edit`选项，并将`Duplicate`选项替换为`Download`选项。
 
 2. [左侧面板](./examples/left_panel_container.ts)
-在此示例中，我们已自定义`left tab panel`以使其他`tab`具有标题为“TEST EXTENSION”，以及具有标签`Test Tab Panel`的相应`tab panel`
+在此示例中，我们已自定义`left tab panel`以使其他`tab`具有标题为“TEST EXTENSION”，以及具有标签`tab panel`的相应`Test Tab Panel`
 
 3. [右侧面板](./examples/right_panel_container.ts)
-在此示例中，我们已自定义`right tab panel`，以使其具有名为“TEST EXTENSION”的其他`tab`，以及具有标签`New Tab Panel`的相应`tab panel`
+在此示例中，我们已自定义`right tab panel`，以使其具有名为“TEST EXTENSION”的其他`tab`，以及具有标签`tab panel`的相应`New Tab Panel`
 
 4. [存储库面板](./examples/repository_panel.ts)
 
 5. [工具栏](./examples/toolbar.ts)
 在此示例中，我们已将`Insert Element`、`Insert Paragraph`、`Insert Numbered List`、`Insert Bulleted List`按钮替换为包含所有这些按钮的单个`More Insert Options`按钮。
+
+6. 元数据面板上的[管理按钮](./examples/metadata_report_manage_button.ts)
+在此示例中，我们已自定义**管理**&#x200B;按钮（位于“报表”页面上的“元数据”面板中），以便在所选文件处于只读模式时禁用该按钮。 这有助于防止意外编辑不打算编辑的文件上的元数据。
 
 [查看应用示例]
 

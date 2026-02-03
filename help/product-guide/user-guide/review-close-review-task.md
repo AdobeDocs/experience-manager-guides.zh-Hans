@@ -4,9 +4,9 @@ description: 了解在Experience Manager Guides中作为作者关闭审阅任务
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 您还可以在任务仪表板中打开任务以获取更全面的视图。 要执行此操作，请从任何活动审阅任务的“选项”菜单中选择&#x200B;**在任务仪表板中打开**。 这将在项目控制台中打开任务详细信息。
+   > 您可以访问&#x200B;**任务详细信息**&#x200B;页面来管理审核任务。 要执行此操作，请从任何活动审阅任务的“选项”菜单中选择&#x200B;**打开任务详细信息**。 这将在项目控制台中打开任务详细信息。
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. 选择&#x200B;**任务注释**&#x200B;图标以访问和审阅审阅审阅人添加的任务级别注释。
 
    ![](images/task-comments-selection-author-view.png)。

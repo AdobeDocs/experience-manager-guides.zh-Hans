@@ -1,0 +1,192 @@
+---
+title: 发行说明 | Adobe Experience Manager Guides 2026.01.0版本中的升级说明和修复的问题
+description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides as a Cloud Service的2026.01.0版本。
+source-git-commit: e6dab21263731b42567729649a11e9d0a74f1dfd
+workflow-type: tm+mt
+source-wordcount: '1139'
+ht-degree: 3%
+
+---
+
+# 2026.01.0版的升级说明
+
+本文介绍Adobe Experience Manager Guides as a Cloud Service 2026.01.0版的升级说明和兼容性矩阵。
+
+有关新功能和增强功能的更多信息，请查看 [2026.01.0 版本中的新增功能](whats-new-2026-01-0.md)。
+
+有关此版本中修复的问题列表，请查看 [2026.01.0 版本中已修复的问题](fixed-issues-2026-01-0.md)。
+
+## 兼容性矩阵
+
+本节介绍Experience Manager Guides as a Cloud Service 2026.01.0版本支持的软件应用程序的兼容性矩阵。
+
+### FrameMaker和FrameMaker Publishing Server
+
+| Experience Manager Guides as a Cloud | FMPS | FrameMaker | 氧气作者 |
+| --- | --- | --- | --- |
+| 2026.01.0 | 不兼容 | 2022或更高版本 | 26.1 |
+
+
+### 氧气连接器
+
+| Experience Manager Guides as a Cloud | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
+| --- | --- | --- | --- | --- |
+| 2026.01.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2.3 | 2.3 |
+
+
+### 知识库模板版本
+
+| 组件包名称 | 组件版本 | 模板版本 |
+|---|---|---|
+| 适用于Cloud Service的Experience Manager Guides组件内容包 | guides-components.all-1.4.0 | aem-site-template-dxml-1.0.17 |
+
+
+### 新的AEM站点模板版本
+
+| 组件版本 | 站点版本 |
+|---|---|
+| guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
+
+## 先决条件
+
+根据标准DITA行为，scope=`external`属性不能应用于内部链接，因为它仅用于引用外部资源。 将此属性应用于内部链接并移动此类资产可能会中断工作流。 对于Experience Manager Guides中管理的内容，请改用默认范围=`local`或基于键的引用。
+
+## 升级到2026.01.0版
+
+Experience Manager Guides在升级到最新版本的Experience Manager as a Cloud Service时自动升级。
+
+>[!NOTE]
+>
+> 此版本包括对文件夹配置文件设置(ui_config.json)的更新。 如果您使用的是自定义设置，请确保在升级之前备份这些设置。 更新后，查看并调整您的设置，以与最新版本中引入的更改保持一致。
+
+如果您之前尚未对现有版本实施Experience Manager Guides as a Cloud Service，请对其执行以下步骤：
+
+### 通过servlet启用脚本触发器的步骤
+
+(仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时)
+
+完成安装后，您可以选择点击触发器以启动翻译作业：
+
+发帖：
+
+```
+http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
+```
+
+响应：
+
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
+"status": "SCHEDULED"
+}
+```
+
+在上一个响应JSON中，键`lockNodePath`保存指向在存储库中创建的指向已提交作业的节点的路径。 作业完成后会自动将其删除，然后您可以引用此节点来了解作业的状态。
+
+请等待此作业完成，然后再继续后续步骤。
+
+>[!NOTE]
+>
+> 您应该检查节点是否仍然存在，以及作业的状态。
+
+```
+GET
+http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json
+```
+
+### 后处理现有内容以使用断开链接报表的步骤
+
+(仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时)
+
+执行以下步骤对现有内容进行后处理，并使用新的断开链接报表：
+
+1. （可选）如果系统中有超过100,000个DITA文件，请将`queryLimitReads`下的`queryLimitInMemory`和`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+
+   - 按照安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置覆盖*&#x200B;部分中提供的说明创建配置文件。
+   - 在配置文件中，提供以下（属性）详细信息以配置`queryLimitReads`和`queryLimitInMemory`选项：
+
+     | PID | 属性键 | 属性值 |
+     |---|---|---|
+     | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitRead | 值：200000默认值：100000 |
+     | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | 值：200000默认值：100000 |
+
+1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server>//bin/guides/reports/upgrade`。
+
+1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+（例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
+
+1. 作业完成后，上一个GET请求会做出成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。
+
+1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
+
+### 为现有内容编制索引以使用“报表”选项卡下的新查找和替换以及主题列表的步骤：
+
+(仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时)
+
+执行以下步骤来索引现有内容，并在报表选项卡下的映射级别和主题列表中使用新的查找和替换文本：
+
+1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server:port>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都会被索引|| 示例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+
+1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
+
+1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`（例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
+
+1. 作业完成后，先前的GET请求会做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
+
+### 处理`'fmdita rewriter'`冲突的步骤
+
+Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-install-guide/conf-output-generation.md#custom-rewriter)&#x200B;模块，用于处理在交叉映射（两个不同映射的主题之间的链接）情况下生成的链接。
+
+如果您的代码库中有另一个自定义sling重写器，请使用大于50的`'order'`值，因为Experience Manager Guides sling重写器使用`'order'` 50。 要覆盖此值，您需要一个大于50的值。 有关详细信息，请查看[输出重写管道](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)。
+
+在此升级过程中，由于`'order'`值从1000更改为50，因此您需要将现有的自定义重写器（如果有）与`fmdita-rewriter`合并。
+
+### 为内容片段执行B树迁移的步骤
+
+如果未显示内容片段的引用，您可以选择点击触发器以启动迁移作业：
+
+发帖：
+
+```
+http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-migration
+```
+
+
+响应：
+
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886",
+"status": "SCHEDULED"
+}
+```
+
+在上一个响应JSON中，键`lockNodePath`保存存储库中创建的节点的路径，该路径指向提交的作业。 作业完成后会自动将其删除。 您可以引用此节点来了解作业的状态。
+
+请等待此作业完成，然后再继续后续步骤。
+
+>[!NOTE]
+>
+>您应该检查节点是否仍然存在，以及作业的状态。
+
+GET：
+
+```
+http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
+```
+
+### 对所有输出预设的DITAVAL文件应用搜索过滤器的步骤
+
+要确保过滤器正常运行，请更新ui_config.json。 更改&#x200B;**browseFilters** > **非DITA文件** > **Ditaval文件**&#x200B;下列出的属性，如下所示：
+
+```
+{
+  "title": "Ditaval Files",
+  "property": "LOWER_NAME",
+  "operation": "like",
+  "value": ".ditaval"
+}
+```

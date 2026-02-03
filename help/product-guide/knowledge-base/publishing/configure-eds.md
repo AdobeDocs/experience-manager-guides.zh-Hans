@@ -4,7 +4,7 @@ description: 了解Edge Delivery Services (Beta)如何扩展Experience Manager G
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 5808d42c530e55e309f192c99a0e71334c888b57
+source-git-commit: 7ca2eeb0356f3c82a8d970f291006fc6d19aca23
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Adobe Experience Manager Guides允许您通过基于GitHub的专用发布配置�
 2. [在Experience Manager Guides中创建并配置EDS (Beta)的发布配置文件](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [使用EDS块自定义输出](#customize-output-using-eds-blocks)
 
-若要快速视频演练，请查看AEM Guides中的[发布](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
+若要快速视频演练，请查看AEM Guides中的[发布](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
 
 
 
@@ -57,7 +57,7 @@ Adobe Experience Manager使用名为&#x200B;**AEM Code Sync**&#x200B;的GitHub�
 1. 导航到[AEM代码同步](https://github.com/apps/aem-code-sync)页面，然后选择&#x200B;**安装**。
 2. *AEM代码同步*&#x200B;监视存储库更改并确保将更新正确推送到GitHub。
 
-   >
+   >[!NOTE]
    >
    > 安装应用程序时，请确保您使用的是拥有存储库的同一GitHub帐户。
 
@@ -128,7 +128,7 @@ EDS (Beta)从&#x200B;*文件中定义为*&#x200B;装入点`fstab.yaml` URL的Git
    - `your-user-name`
    - `your-repo-name`
 
-   >
+   >[!NOTE]
    >
    > 在装入点URL中，`main`表示要发布内容的分支，`docs`表示您正在处理的EDS (Beta)存储库的根文件夹。 如果您希望在GitHub上更改分支名称，则必须在&#x200B;*装入点* URL（在`fstab.yaml`文件中）以及Experience Manager Guides中的相应EDS发布配置文件中更新相同的分支名称。
 
@@ -148,7 +148,7 @@ EDS (Beta)从&#x200B;*文件中定义为*&#x200B;装入点`fstab.yaml` URL的Git
 
 ### 创建EDS (Beta)发布配置文件
 
-1. 转到&#x200B;**[Workspace设置]** **>** **发布配置文件**。
+1. 转到&#x200B;**[Workspace设置](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **发布配置文件**。
 2. 选择&#x200B;**+**&#x200B;图标以创建新的发布配置文件并提供以下详细信息：
    - **服务器类型**：从下拉列表中选择&#x200B;**GitHub Edge Delivery Services (Beta)**。
    - **名称**：输入此配置文件的名称。
@@ -184,7 +184,7 @@ EDS (Beta)从&#x200B;*文件中定义为*&#x200B;装入点`fstab.yaml` URL的Git
 
 6. 选择&#x200B;**保存**，然后选择&#x200B;**生成输出**。
 
->
+>[!NOTE]
 >
 > 生成的输出存储在EDS (Beta)存储库的&#x200B;**文档**&#x200B;文件夹中。
 

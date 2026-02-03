@@ -4,9 +4,9 @@ description: 了解Adobe Experience Manager Guides中地图编辑器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2671'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 **主题引用** - ![](images/topic-reference.svg)
 
-显示主题搜索对话框。 导航到要插入的主题/映射文件，然后选择&#x200B;**选择**&#x200B;以将其添加到映射中。
+显示选择文件对话框。 导航到要插入的主题/映射文件，然后选择&#x200B;**选择**&#x200B;以将其添加到映射中。
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **此项前插入/此项后插入** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-显示&#x200B;**在之前插入元素或**&#x200B;在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
+显示**在之前插入元素或**在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
 
 **元素** - ![](images/Add_icon.svg)
 
@@ -260,15 +260,31 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 您可以在预览模式下执行以下附加任务：
 
+**打开要编辑的主题**
+
 - 右键单击主题，然后选择&#x200B;**编辑**&#x200B;以打开该主题并在新选项卡中进行编辑。
 
   >[!NOTE]
   >
   > 如果您没有编辑权限，则该主题将以只读模式打开。
 
+  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 - 通过选择映射树中的主题标题\（在左侧面板中），跳转到所需主题。
 
 - 地图预览中的当前主题也会在地图树中突出显示。
+
+**刷新主题或映射**
+
+当在预览模式下打开映射，并且从编辑器中的另一个选项卡切换回该映射时，预览不会自动刷新。 要重新加载映射预览，需要手动刷新。
+
+可通过两种方式使用在映射的“预览”模式下提供的“刷新”功能：
+
+- **映射级别刷新**：选择&#x200B;**刷新**按钮将刷新整个映射的预览（包括所有主题），并将您带到清除视图的第一个滚动位置。
+  ![](images/refresh-map.png){width="650" align="left"}
+
+- **主题级刷新**：从上下文菜单选择&#x200B;**刷新主题**将刷新该特定主题，同时保持滚动位置不变。
+  ![](images/refresh-topic.png){width="650" align="left"}
 
 **预览地图文件的其他方式**
 
@@ -280,7 +296,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
   >
   > 如果&#x200B;*预览图*&#x200B;选项在主工具栏中不可见，则它可能已移动到&#x200B;**更多**&#x200B;工具栏菜单下。
 
-- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”**&#x200B;**&#x200B;以查看当前映射的预览。
+- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”****&#x200B;以查看当前映射的预览。
 
   ![](images/map-preview-icon.png){width="650" align="left"}
 

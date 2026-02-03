@@ -4,9 +4,9 @@ description: 解决AEM Guides中的基本故障诊断问题。 了解如何在�
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
+source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,17 @@ ht-degree: 0%
    ![](images/log-file-new.png){align="left"}
 
 1. 应用以下筛选器以高亮显示日志文件中的文本：
-   - 致命：以深红色突出显示日志文件中的致命错误。
-   - 错误：以红色突出显示日志文件中的错误。 例外会被视为错误，并以红色同样突出显示。
-   - 警告：以琥珀色突出显示日志文件中的警告。
-   - 信息：以绿色突出显示日志文件中的信息消息。
+   - **致命**：以深红色突出显示日志文件中的严重错误。
+   - **错误**：以红色突出显示日志文件中的错误。 例外会被视为错误，并以红色同样突出显示。
+   - **警告**：以琥珀色突出显示日志文件中的警告。
+   - **信息**：以绿色突出显示日志文件中的信息消息。
 
-1. 使用向上和向下导航按钮跳转到日志文件中突出显示的文本。
+1. 使用向上和向下导航按钮跳转到日志文件中突出显示的文本。 或者，滚动浏览日志文件并检查消息。
 
-   或者，滚动浏览日志文件并检查消息。
+1. 您可以对日志文件执行以下操作：
 
+   - **下载日志**：如果日志列表很长，请选择&#x200B;**下载日志**&#x200B;以将日志文件下载到您的设备，以便于访问和查看。
+   - **复制日志**：将日志列表复制到剪贴板，以便快速将其粘贴到某个文本编辑器。
 
 ## 在文本编辑器中复制并检查日志文件
 
@@ -82,6 +84,9 @@ ht-degree: 0%
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
+
+
+
 ## 解决JSP编译错误
 
 如果DITA主题太大，则可以在浏览器中查看JSP编译错误\(`org.apache.sling.api.request.TooManyCallsException`\)。 打开主题进行编辑、审阅或发布时，可能会显示此错误。
@@ -99,4 +104,4 @@ ht-degree: 0%
 1. 根据您的要求，增加每个请求&#x200B;*调用数*&#x200B;参数的值。
 
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

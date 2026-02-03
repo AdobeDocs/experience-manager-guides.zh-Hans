@@ -4,10 +4,10 @@ description: 了解编辑器中的右侧面板。 了解Adobe Experience Manager
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 1%
+source-wordcount: '1095'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 - [内容属性](#content-properties)
 - [文件属性](#file-properties)
-- [审查](#review)
+- [审阅](#review)
 - [跟踪更改](#track-changes)
 - [模式管](#schematron)
 
@@ -76,8 +76,20 @@ ht-degree: 1%
 
 - **文件名**：显示所选主题的文件名。 文件名超链接至选定文件的属性页。
 - **ID**：显示所选主题的ID。
+- **字数**：显示相应DITA主题中的字总数。 以空格分隔的单词将被计为单独的单词。 每次保存对主题所做的更改时，都会刷新计数。 对于交叉引用，计数中仅包含显示文本，而排除键。
+
+  >[!NOTE]
+  >
+  > **字数**&#x200B;功能已在Experience Manager Guides as a Cloud Service的2026.01.0版本中引入。 升级到此版本后，您创建的任何新DITA主题都会在右侧面板中自动显示计算出的字数。 现有主题需要[重新处理资源](./asset-processor.md)。
+
 - **标记**：这些是主题的元数据标记。 它们是从属性页面中的标记字段设置的。 您可以键入或从下拉菜单中选择它们。  标记显示在下拉列表下方。 要删除标记，请选择标记旁边的交叉图标。
-- **编辑更多属性**：您可以从文件属性页面编辑更多属性。
+- **编辑更多属性**：您可以从“文件属性”页面编辑更多属性（适用于不在&#x200B;**只读**&#x200B;模式下的文件）。
+
+  >[!NOTE]
+  >
+  > 对元数据属性（无论是默认属性还是自定义属性）的任何添加、删除或修改都将触发文档版本上的[工作副本指示器](./web-editor-edit-topics.md#working-copy-indicator)。
+
+
 - **语言**：显示主题的语言。 在属性页面的语言字段中设置。
 - **创建日期**：显示创建主题的日期和时间。
 - **修改日期**：显示修改主题的日期和时间。
@@ -109,7 +121,7 @@ ht-degree: 1%
 
 除了打开文件之外，您还可以使用“引用”部分中的&#x200B;**选项**&#x200B;菜单执行许多操作。 您可以执行的某些操作包括编辑、预览、复制UUID、复制路径、添加到收藏集、属性。
 
-## 审查
+## 审阅
 
 选择“审阅”图标将打开审阅面板，您可以在其中为当前打开的文档选择审阅任务并查看注释。
 
@@ -141,4 +153,4 @@ ht-degree: 1%
 
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

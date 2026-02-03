@@ -4,18 +4,21 @@ description: 在AEM Guides中使用批量标记内容可改进DITA内容可发�
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
+
 # 批量标记DITA内容 {#id179SG0TN05Z}
+
+![](images/test-version-info-table.svg){width="650" align="left"}
 
 标记允许您对内容存储库以及已发布输出中的内容进行分组或分类。 如果您在内容中应用了标记，则可以轻松地在DITA映射中找到可以帮助您创作内容的相关主题。 利用已发布的输出，最终用户将能够借助适当的标记更快地找到适当的内容。
 
-Adobe Experience Manager Guides允许您在几个步骤中标记DITA内容。 您可以使用批量标记功能将多个标记应用于多个主题、DITA映射或子映射。 或者，您也可以对单个主题应用标记。 标记是Adobe Experience Manager中的本机功能，您可以在Adobe Experience Manager文档的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=zh-Hans)部分中找到有关创建和管理标记的更多详细信息。
+Adobe Experience Manager Guides允许您在几个步骤中标记DITA内容。 您可以使用批量标记功能将多个标记应用于多个主题、DITA映射或子映射。 或者，您也可以对单个主题应用标记。 标记是Adobe Experience Manager中的本机功能，您可以在Adobe Experience Manager文档的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)部分中找到有关创建和管理标记的更多详细信息。
 
 默认情况下，Experience Manager Guides不向存储Adobe Experience Manager存储库中所有标记的文件夹上的任何用户授予读取权限。 要使用Adobe Experience Manager存储库中定义的标记，您必须要求系统管理员授予对存储标记的文件夹的访问权限。
 
@@ -78,7 +81,7 @@ Adobe Experience Manager Guides允许您在几个步骤中标记DITA内容。 �
 1. 选择&#x200B;**保存并关闭**。
 
 
-## 删除标记
+## 移除标记
 
 根据您的业务需求，您可以更改任何DITA主题的标记信息。 您可以轻松一次性删除所有标记，或仅删除主题上无效的标记。
 
@@ -107,4 +110,4 @@ Adobe Experience Manager Guides允许您在几个步骤中标记DITA内容。 �
 
 如果您的主题应用了很长的标记列表，那么您可能会发现导航有点麻烦。 通过选择隐藏标记图标，可以轻松地从DITA映射控制台视图中隐藏中的标记。 同样，当标记不可见时，选择显示标记将显示所有标记。
 
-**父主题：**&#x200B;[&#x200B;管理元数据](manage-metadata.md)
+**父主题：**[&#x200B;管理元数据](manage-metadata.md)

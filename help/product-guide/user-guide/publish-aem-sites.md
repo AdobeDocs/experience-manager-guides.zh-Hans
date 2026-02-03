@@ -4,9 +4,9 @@ description: 将主题或主题中的元素发布到Adobe Experience Manager Sit
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
+source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,11 @@ Experience Manager Sites页面是指在Adobe Experience Manager网站上发布�
 要生成“站点”页面，请执行以下步骤：
 
 
-1. 在编辑器中打开主题，然后从右侧面板中选择“文件属性” 。
-1. 从&#x200B;**输出**&#x200B;部分中选择&#x200B;**新输出**&#x200B;图标![新输出图标](./images/Add_icon.svg)。
+1. 在编辑器中打开主题，然后从右侧面板中选择&#x200B;**文件属性**。
+1. 从&#x200B;**输出**&#x200B;部分中选择![新输出](./images/Add_icon.svg)图标&#x200B;**新输出图标**。
 1. 选择&#x200B;**站点页面**。
-1. 在&#x200B;**生成站点页面**&#x200B;对话框中，填写以下详细信息：
+1. 在&#x200B;**生成站点页面**对话框中，填写以下详细信息：
    ![在生成站点页面中添加路径和模板详细信息](images/aem-sites-page-generate.png){width="500" align="left"}
-
-   *添加路径、标题、名称和模板详细信息，将主题或其元素发布为站点页面。 *
 
    * **路径**：浏览并选择要发布Sites页面的文件夹的路径。
    * **标题**：键入站点页面的标题。 默认情况下，标题中填充了主题的标题。 您可以对其进行编辑。 此标题用于生成站点页面的名称。
@@ -35,7 +33,7 @@ Experience Manager Sites页面是指在Adobe Experience Manager网站上发布�
    * **页面模板**：选择站点页面模板以创建您的站点页面。 您可以在所选路径上的文件夹中查看模板。 您的管理员还可以上传自定义模板。
 
 
-   * 您还可以选择不同的条件来发布内容。  选择以下选项之一：
+   * 您还可以选择不同的条件来发布内容。 选择以下选项之一：
 
 
       * **无**：如果不想对已发布的输出应用任何条件，请选择此选项。
@@ -51,7 +49,7 @@ Experience Manager Sites页面是指在Adobe Experience Manager网站上发布�
 1. 选择&#x200B;**生成**&#x200B;以发布站点页面。
 1. 您可以在&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;部分下查看主题的站点页面。 站点页面会根据其发布的日期和时间显示，最新的页面显示为第一个页面。
 
-   ![查看主题的站点页面](images/aem-sites-output-new.png){width=300 align=&quot;left&quot;}
+   ![查看主题的站点页面](images/aem-sites-output-new.png){width=300 align="left"}
 
    *查看某个主题的站点页面并重新发布它们。*
 

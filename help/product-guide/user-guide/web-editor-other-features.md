@@ -4,9 +4,9 @@ description: 浏览Adobe Experience Manager Guides中编辑器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,132 @@ Generate the output for the selected file. Output can be generated only for file
 >
 > 对于图像、音频或视频文件，文件浏览对话框默认为文件的位置，而不是上次使用的位置。
 
+## 在Experience Manager Guides中浏览文件和文件夹
+
+Experience Manager Guides提供了直观的对话框 — **选择文件**&#x200B;和&#x200B;**选择路径** — 帮助您高效地浏览和选择内容存储库中的文件或文件夹。
+
+>[!NOTE]
+>
+> 文件和文件夹路径浏览器在Experience Manager Guides as a Cloud Service 2601版中经过修订的UI中引入。 默认情况下，将启用新接口。 如果您希望在不进行这些更新的情况下继续使用现有UI，请联系您的客户成功团队以禁用此新增强功能。
+
+### 在Experience Manager Guides中浏览文件
+
+通过文件路径浏览器，您可以快速定位并选择内容存储库中的特定文件。 此功能可用于向映射添加主题、链接图像或交叉引用、创建可重用内容等任务。
+
+![](images/select-file-dialog-new.png){width="350" align="left"}
+
+启动文件浏览器时，**选择文件**&#x200B;对话框打开。 此对话框包含两个选项卡： **存储库**&#x200B;和&#x200B;**收藏集**。 默认情况下，“存储库”选项卡处于选中状态。
+
+![](images/select-file.png){width="650" align="left"}
+
+**存储库选项卡中可用于文件浏览的功能**
+
+**文件和文件夹的表格视图**
+
+“存储库”选项卡提供了内容存储库中文件和文件夹的表格视图，使您能够更轻松地找到正确的文件路径。 您还可以使用顶部的痕迹导航和左侧的文件夹导航面板在文件夹中移动。
+
+![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+
+**单个和多文件选择**
+
+要使用文件，只需选择该文件并选择&#x200B;**选择**。
+
+![](images/select-file-single-file-selection.png){width="650" align="left"}
+
+在某些情况下，您还可以从此路径浏览器对话框中选择多个文件。 例如，在浏览可重用内容的文件时，您可以选择多个文件并将其作为可重用内容的一部分。
+
+![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+
+目前，多个文件选择可用于可重用内容、主题引用、架构、输出预设（使用DITAVAL）和Workfront。
+
+>[!NOTE]
+>
+> 从路径浏览器对话框中选择文件时，某些文件夹可能显示为已禁用。 此行为将限制对特定文件类型的访问，以确保选择有效。 例如，在创建可重用内容时，必须仅使用主题和映射文件。 要防止使用无效的文件类型（如图像），相应的文件将不会显示或在路径浏览器中保持禁用状态以供选择。
+
+**预览所选文件**
+
+您可以使用&#x200B;**预览**&#x200B;按钮预览您选择的文件，如下所示：
+
+![](images/select-file-preview-button.png){width="650" align="left"}
+
+所选文件的预览显示在右侧。
+
+![](images/select-file-dialog-preview.png){width="650" align="left"}
+
+对于多个选择，所有选定文件的预览将显示在“预览”面板中，以便轻松查看。
+
+![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+您还可以使用&#x200B;**删除**&#x200B;图标从预览中删除某些文件。
+
+![](images/resusable-content-remove-preview.png){width="650" align="left"}
+
+**搜索和筛选体验**
+
+在存储库中浏览文件时，您可以按名称、标题或所选路径中的内容搜索文件。 您可以在搜索中使用任意一个、两个或全部三个标准。 如果未选择任何标准，则结果将包括所有三个标准通用的结果。
+
+![](images/select-file-search.png){width="650" align="left"}
+
+选择&#x200B;**筛选器搜索** \（![搜索筛选器图标](images/filter-search-icon.svg)\）图标以打开右侧的“筛选器”面板。
+
+![](images/select-file-filters.png){align="left"}
+
+您可以使用以下选项来筛选文件并缩小搜索范围：
+
+- **在**&#x200B;中搜索：选择要搜索存储库中文件的路径。
+
+- **文件类型**：根据特定文件类型筛选搜索。 可用选项为：**主题**、**映射**、**DITAVAL**、**图像**、**多媒体**、**文档**&#x200B;和&#x200B;**其他**。
+
+  >[!NOTE]
+  >
+  > 在某些情况下，**文件类型**&#x200B;筛选器已基于任务预应用于特定文件类型，无法更改。 例如，在浏览图像时，过滤器设置为仅显示图像文件，在创建可重用内容时，过滤器设置为仅显示主题和映射文件。 您仍然可以调整其他过滤器（如文档状态、标记或上次修改日期）来优化搜索结果。
+
+- **文档状态**：您可以根据文件的当前文档状态筛选搜索。 可用的筛选器值在`repositoryFilters`的`ui_config.json file`字段中定义，并与您当前使用的文件夹配置文件关联。
+
+  这意味着：
+
+   - 如果您使用全局配置文件，则会应用全局配置文件中配置的过滤器值。
+   - 如果您选择特定的文件夹配置文件，则会获取该配置文件中定义的筛选器值。
+
+  可用于文档状态的默认筛选器值为：“草稿”、“编辑”、“审核中”、“已批准”、“已审核”和“完成”。 有关自定义文档状态筛选器值的详细信息，请查看[配置文档状态筛选器](../cs-install-guide/config-doc-state-filters.md)。
+
+- **锁定者**：显示用户列表。 该列表以异步方式分页并加载，一次显示一组有限的用户，并在滚动或导航时获取更多内容。 这提高了加载速度和整体性能，尤其是在处理大量用户时。
+
+- **上次修改时间**：根据修改日期筛选内容。 从日历中选择一个日期范围或选择以下时间范围选项之一：
+   - 在上周
+   - 在上个月
+   - 在去年
+
+- **标记**：根据标记筛选内容。
+
+- **DITA元素**：根据各种DITA元素筛选内容。
+
+应用所有必需的筛选器后，从“筛选器”面板的右下角选择&#x200B;**应用**。
+
+**收藏集选项卡中可用于文件浏览的功能**
+
+**收藏集**&#x200B;选项卡提供收藏集中可用文件的策划视图，以便快速访问和重用。 与显示完整文件夹层次结构的存储库选项卡不同，收藏集允许您选择常用主题、映射和图像，而无需浏览多个文件夹。
+
+![](images/select-file-collections.png)
+
+在“收藏集”选项卡中，您可以：
+
+- 使用顶部的痕迹导航和右侧的文件夹导航面板可轻松导航浏览您的收藏集。
+
+  ![](images/collections-folder-navigation-panel.png)
+- 选择特定收藏集路径中存在的文件，并在右侧面板中预览该文件。
+
+  ![](images/collections-file-preview.png)
+
+
+
+### 存储库中的浏览器文件夹
+
+使用&#x200B;**选择文件夹**&#x200B;对话框浏览文件夹，重点是为任务在存储库中选择正确的文件夹路径，例如创建新主题或为已发布内容指定输出位置。 它提供了清晰、树结构的文件夹视图，使导航直观并确保将内容放在正确的位置。
+
+![](images/select-path-dialog-new.png){width="300" align="left"}
+
+
 ## 支持基于文章的发布
 
 从编辑器中，可以为一个或多个主题或整个DITA映射生成输出。 您需要为DITA映射创建输出预设，然后可以轻松生成一个或多个主题的输出。 如果更新了映射中的几个主题，则也可以仅从编辑器中生成这些主题的输出。 有关详细信息，请查看[基于文章的发布](web-editor-article-publishing.md#id218CK0U019I)。
@@ -172,7 +298,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 ### 在MathML编辑器中验证公式
 
 当您保存包含公式的主题时，Experience Manager Guides会验证MathML公式。
-使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择&#x200B;**插入**，则会显示警告。
+使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择**插入**，则会显示警告。
 
 ![验证mathml公式](images/validate-mathml-equation.png){width="400" align="left"}
 
@@ -235,8 +361,8 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 - 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)图标或&#x200B;**Alt** + **空格**&#x200B;快捷键在文档中插入不间断空格。  在编辑器中编辑主题时，这些不间断的空格会显示为指示符。 在&#x200B;**用户首选项**&#x200B;的&#x200B;**外观**&#x200B;选项卡中，可以使用[在创作模式下显示不间断空格指示符](./intro-home-page.md#user-preferences)选项关闭不间断空格的显示。
 
-- 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**&#x200B;视图中，则不间断空格的内容将转换为空格。
-但是，如果您从&#x200B;**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
+- 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**视图中，则不间断空格的内容将转换为空格。
+但是，如果您从**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
 
 
 ## 自动生成元素ID
@@ -282,4 +408,4 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 - 警报消息仅适用于DITA文件，并且在所有视图(创作、Source和布局)中都可见。
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)
