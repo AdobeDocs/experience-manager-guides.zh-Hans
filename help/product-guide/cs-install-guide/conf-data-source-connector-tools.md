@@ -5,7 +5,7 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: c790d5edd1ab799564aebfa96f4a41288c977a6c
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -134,3 +134,4 @@ Experience Manager Guides附带了&#x200B;**数据源**&#x200B;工具，可帮�
 
 
 配置数据源后，连接器将列在Web编辑器的&#x200B;**数据源面板**&#x200B;下。 然后，您可以连接到数据源并将内容片段插入到您的主题中。 有关详细信息，请查看[插入数据源中的内容片段](../user-guide/web-editor-content-snippet.md)。
+

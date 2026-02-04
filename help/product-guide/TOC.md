@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 34a9fcb414831c3a6437ea39fa3541ef7994dd1c
+source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2497'
 ht-degree: 9%
 
 ---
@@ -174,13 +174,13 @@ ht-degree: 9%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页 {#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -206,7 +206,7 @@ ht-degree: 9%
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
             - [搜索面板](./user-guide/search-panel-explorer.md)
-         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -379,7 +379,7 @@ ht-degree: 9%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
@@ -549,6 +549,7 @@ ht-degree: 9%
       - 使用输出生成设置 {#output-gen-config-cs}
          - [配置输出生成设置](./cs-install-guide/conf-output-generation.md)
          - [下载并安装AEM Sites模板](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+         - [AEM Sites的组件映射](./cs-install-guide/component-mapping.md)
          - [原生PDF发布](./cs-install-guide/native-pdf-publishing.md)
          - [为本机PDF发布配置节点进程](./native-pdf/configure-node-options.md)
          - [创建主题和内容片段之间的映射](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -574,7 +575,7 @@ ht-degree: 9%
    - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
    - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
    - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-   - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+   - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
    - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
