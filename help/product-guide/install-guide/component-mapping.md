@@ -4,14 +4,15 @@ description: 了解如何为AEM Sites进行组件映射
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: c7157e04f758d08b6402a969a35d0c231a1ca476
+exl-id: 376aea7a-7850-44d4-a620-6b1a798a0801
+source-git-commit: beb1ca15fdfb0e7ea30e6e685ac67a2a398cc064
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
-# AEM Sites的组件映射（使用复合组件映射）
+# AEM Sites的组件映射
 
 本文讨论了AEM站点的组件映射（使用复合组件映射）的各个方面。
 
