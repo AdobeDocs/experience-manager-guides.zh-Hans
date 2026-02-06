@@ -5,22 +5,16 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: beb1ca15fdfb0e7ea30e6e685ac67a2a398cc064
+source-git-commit: 6050e2667698150df9f76068dce4ca9f9b56a443
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # 内容重用报告 {#id205BB900OQD}
 
-![](images/test-version-info-table-new.svg)
-
 ![](images/test-version-info-table-original.svg)
-
-| 应用到 | Experience Manger Guides Cloud Service，<br> Experience Manger Guides内部部署 |
-| -------- | ---------------------------- |
-| **版本号** | **4.6** |
 
 可以生成的另一个有用报告是“内容重用报告”。 此报表计算平均内容使用百分比，这对于项目经理和业务所有者查看正在重复使用的内容量非常有用。
 
@@ -71,4 +65,4 @@ ht-degree: 0%
 >
 > 您还可以将“内容重用报表”导出为CSV格式。 为此，请单击屏幕左上角的导出到CSV链接，然后选择要保存CSV文件的位置。 然后，您可以使用任何CSV编辑器打开此CSV文件。
 
-**父主题：**&#x200B;[&#x200B;报告](reports-intro.md)
+**父主题：**[&#x200B;报告](reports-intro.md)
