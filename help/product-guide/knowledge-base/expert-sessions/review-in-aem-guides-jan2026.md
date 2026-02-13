@@ -38,11 +38,11 @@ ht-degree: 1%
 
 ## 相关资源
 
-- [审阅工作流文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
+- [审阅工作流文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [AEM Guides与Workfront的集成](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [AEM Guides与Workfront的集成](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [自定义审阅UI](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [自定义审阅UI](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 ### 社区论坛
 
-- 有关Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
+- 有关Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hans)。
 
 
 ## 联系我们
