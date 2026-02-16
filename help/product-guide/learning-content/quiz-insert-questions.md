@@ -4,9 +4,9 @@ description: 了解如何在产品培训和学习的测验中插入问题，
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 1df47cf35590f10bdfe7fdbc3501d7c47137ed56
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 执行以下步骤将问题插入测验：
 
-1. 从工具栏的&#x200B;**问题**&#x200B;下拉菜单中选择所需的问题类型。 根据要求，您可以使用四种可用格式中的任意格式添加问题：True或False、Single correct、Multiple correct和Match，如下所示。 有关详细信息，请查看[问题类型](#question-types)。
+1. 从工具栏的&#x200B;**问题**&#x200B;下拉菜单中选择所需的问题类型。 根据要求，您可以使用四种可用格式中的任意格式添加问题：真或假、单正确、多正确、匹配以下答案和简短答案，如下所示。 有关详细信息，请查看[问题类型](#question-types)。
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -25,11 +25,28 @@ ht-degree: 0%
 
 1. 问题会以所选格式插入。 然后，您可以根据自己的要求编辑问题。
 
-1. 您可以选择任何问题，并使用&#x200B;**内容属性**&#x200B;面板配置其属性。 例如，您可以指定正确答案，设置奖励标记，并定义不正确响应的任何惩罚。
+1. 您可以选择任何问题，并使用&#x200B;**内容属性**&#x200B;面板配置其属性。
 
    ![](assets/question-properties.png){width="650" align="left"}
 
 1. 保存您在测验中所做的所有更改。
+
+
+## 问题属性
+
+您可以使用&#x200B;**内容属性**&#x200B;面板中的以下问题属性来配置问题：
+
+![](assets/question-properties-new.png){width="350" align="left"}
+
+- **选项**：指定问题的正确答案
+- **问题ID**：指定每个问题的问题ID。 如果问题ID不存在，建议始终添加它。
+- 正确答案获得&#x200B;**分**：指定正确答案的得分。
+- **错误答案的惩罚**：指定错误答案要扣除的点数。
+- **问题标签**：启用以添加问题标签。
+- **反馈**：启用可提供正确或不正确答案的反馈。
+- **将选项固定到位置**：当问题的特定选项被固定时，它仍固定到选项列表中的指定位置，即使在SCORM预设配置中启用了&#x200B;**随机选择每次尝试的答案**&#x200B;也是如此，否则，这会重新整理可用选项。 您可以将鼠标悬停在“内容属性”面板中问题的所需选项上并固定它。
+
+  ![](assets/pin-question.png){width="350" align="left"}
 
 ## 在测验中插入段落
 
@@ -62,7 +79,7 @@ ht-degree: 0%
   ![](assets/true-false.png){width="650" align="left"}
 
 
-- **多个正确**：一个问题，该问题具有多个选项，多个答案可以正确。
+- **多个正确答案**：有多个选项的问题，其中多个答案可以正确。
 
   ![](assets/multi-correct.png){width="650" align="left"}
 
@@ -73,3 +90,8 @@ ht-degree: 0%
   在发布的输出中，每个项目都显示&#x200B;**与以下**&#x200B;匹配的问题，该问题带有下拉菜单，允许您从可用选项中选择正确的匹配项。
 
   ![](assets/question-type-publishing.png){width="650" align="left"}
+
+
+- **简短答案**：允许学习者使用简短文本输入进行回复。 它接受字母数字答案，不区分大小写匹配答案，对于非常长的答案，它提供了一个水平滚动条。
+
+  ![](assets/short-answer.png){width="650" align="left"}
