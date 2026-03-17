@@ -4,9 +4,9 @@ description: 了解Adobe Experience Manager Guides中的产品培训和学习功
 feature: Authoring
 role: User
 exl-id: d00bc88c-e6ec-4aa3-971a-e9fbabe9a965
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: a36c51352e893c3a0fc80dd17b7887d645f8070c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,5 @@ ht-degree: 0%
 - 内容重用
 - 测验创建和管理
 - 业界领先的翻译管理
+- 基于Web的审核工作流
 - 使用现成的SCORM和PDF输出格式的多渠道发布

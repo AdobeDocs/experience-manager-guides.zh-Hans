@@ -4,9 +4,9 @@ description: 了解如何导入和验证DITA主题、使用声明报表语句检
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
+source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 执行以下步骤以导入Schematron文件：
 
-![](images/schematron-panel.png){width="300" align="left"}
-
 1. 导航到&#x200B;*存储库*&#x200B;中的所需文件夹（您要上传文件的位置）。
 1. 选择&#x200B;**选项**&#x200B;图标以打开上下文菜单，然后选择&#x200B;**上传资源**。
 1. 在&#x200B;**上传资源**&#x200B;对话框中，您可以在&#x200B;**选择资源文件夹**&#x200B;字段中更改目标文件夹。
@@ -41,16 +39,16 @@ ht-degree: 0%
 
 在编辑器中打开主题时，右侧会显示“架构验证”面板。 执行以下步骤以添加和验证主题或使用Schematron文件的映射：
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
-1. 选择架构图标()以打开架构面板。
+1. 选择架构图标，以打开架构面板。
 1. 使用&#x200B;**添加Schematron文件**&#x200B;添加Schematron文件。
 
    >[!NOTE]
    >
    > 添加无效的Schematron文件时，“验证”面板中将显示错误消息。
 
-   ![](images/schematron-panel-error.png){width="300" align="left"}
+   ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. 如果Schematron文件没有错误，则会添加该文件并将其列在验证面板中。 将显示包含错误的Schematron文件的错误消息。
 
@@ -58,14 +56,42 @@ ht-degree: 0%
    >
    >可以使用Schematron文件名旁边的交叉图标将其删除。
 
-1. 选择&#x200B;**使用Schematron进行验证**&#x200B;以验证主题。
+1. 选择&#x200B;**验证**&#x200B;以使用添加的Schematron文件验证主题。
 
    * 如果主题未破坏任何规则，则会显示文件的验证成功消息。
    * 如果主题破坏了规则，例如，如果它不包含标题并为上述给定架构进行了验证，则会显示验证错误。
 
+   >[!NOTE]
+   >
+   > 根据Schematron文件中定义的角色属性显示验证结果。 有关详细信息，请查看[了解验证结果和严重性级别](#understanding-validation-results-and-serverity-levels)。
+
 1. 选择错误消息，以在打开的主题/映射中突出显示包含错误的元素。
 
 编辑器中的架构支持可帮助您根据一组规则验证文件并维护主题的一致性和正确性。
+
+## 了解验证结果和严重性级别
+
+根据Schematron文件中定义的角色属性显示验证结果。 问题被分类为`Fatal`、`Error`、`Warn`或`Info`，验证面板中的每个类别都有可见计数。
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+
+为了确定问题的严重性，将评估在相应Schematron文件中定义的角色属性的&#x200B;_case-senstive_&#x200B;值。
+
+以下代码片段显示了架构规则中定义的受支持的角色属性值：
+
+* `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+* `<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+* `<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+* `<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
+
+如果未指定role属性，或者使用了不支持的值，则在“验证”面板中将该问题分类为`Error`。 此行为也适用于未定义角色属性的现有Schematron文件；在这种情况下，所有问题都分组到`Error`下。
+
+**文件保存方案**
+
+保存文件依赖于&#x200B;**在** Workspace设置[中保存文件](../cs-install-guide/workspace-settings.md#validation)设置之前运行验证检查：
+
+* 启用后，在未解决`Fatal`或`Error`级别的问题之前，不允许保存文件。
+* 禁用后，即使存在`Fatal`或`Error`级问题，也不会执行验证检查，并且可以保存文件。
 
 ## 使用声明和报表语句检查规则{#schematron-assert-report}
 

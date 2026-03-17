@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: c034a95570c4e580bd4811684daaefc191e5ca84
+source-git-commit: a4cb2e65813a0ee31d5f5a7a267be73dd0212534
 workflow-type: tm+mt
-source-wordcount: '2509'
+source-wordcount: '2559'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2026版 {#2026-releases}
+            - 2026.03.0发行版 {#2603-release}
+               - [新增功能](./release-info/whats-new-2026-03-0.md)
+               - [修复的问题](./release-info/fixed-issues-2026-03-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2026-03-0.md)
             - 2026.01.0发行版 {#2601-release}
                - [新增功能](./release-info/whats-new-2026-01-0.md)
                - [修复的问题](./release-info/fixed-issues-2026-01-0.md)
@@ -174,13 +178,13 @@ ht-degree: 9%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页 {#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -206,7 +210,7 @@ ht-degree: 9%
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
             - [搜索面板](./user-guide/search-panel-explorer.md)
-         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -284,6 +288,7 @@ ht-degree: 9%
          - 使用基线 {#work-with-baseline}
             - [从“映射”控制台创建和管理基线](./user-guide/web-editor-baseline.md)
             - [从“映射”功能板创建和管理基线](./user-guide/generate-output-use-baseline-for-publishing.md)
+            - [从映射控制台创建和管理新基线](./user-guide/web-editor-baseline-v2.md)
          - [管理全局和文件夹配置文件输出预设](./user-guide/web-editor-manage-output-presets.md)
          - [使用变量设置目标路径、站点名称或文件名选项](./user-guide/generate-output-use-variables.md)
          - [使用DITA-OT将元数据传递到输出](./user-guide/pass-metadata-dita-ot.md)
@@ -306,6 +311,7 @@ ht-degree: 9%
          - [激活输出](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [编辑批量激活映射集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [删除批量激活映射集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
+         - [管理DITA源资产的复制](./user-guide/dita-assets-replication-aem-sites.md)
    - 生成FrameMaker文档输出 {#generate-fm-output}
       - [FrameMaker输出生成基础知识](./user-guide/fm-output-generatation.md)
       - 支持的预设 {#fm-docs-generating-presets}
@@ -380,7 +386,7 @@ ht-degree: 9%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
@@ -479,7 +485,9 @@ ht-degree: 9%
       - 使用B树清理{#btree-cleanup}
          - [配置B树清理](./install-guide/configure-btree-clean-up-job.md)
       - 自定义索引{#custom-indexing}
-         - [部署用于查找和替换的自定义索引(Source视图)](./install-guide/custom-indexing-prem.md)
+         - [部署用于查找和替换的自定义索引（Source视图）](./install-guide/custom-indexing-prem.md)
+      - 使用DITA assets复制{#dita-assets-replication}
+         - [配置DITA Assets复制](./install-guide/configure-dita-asset-replication.md)
       - [附录](./install-guide/appendix.md)
    - 云服务 {#cs-ig}
       - [关于本指南](./cs-install-guide/introduction.md)
@@ -489,6 +497,7 @@ ht-degree: 9%
          - [配置 Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
          - [验证AEM Guides安装](./cs-install-guide/download-install-verify-dxml-installation.md)
          - [升级AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
+         - [升级AEM Guides as Cloud Service的其他配置](./cs-install-guide/additional-config-for-cloud-service.md)
          - [配置覆盖](./cs-install-guide/download-install-additional-config-override.md)
          - [性能优化建议](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - 使用用户组和安全性 {#user-group-sec-cs}
@@ -568,7 +577,9 @@ ht-degree: 9%
       - 使用B树清理{#btree-cleanup-cs}
          - [配置B树清理](./cs-install-guide/configure-btree-cleanup-cs.md)
       - 自定义索引{#custom-indexing-cs}
-         - [部署用于查找和替换的自定义索引(Source视图)](./cs-install-guide/custom-indexing.md)
+         - [部署用于查找和替换的自定义索引（Source视图）](./cs-install-guide/custom-indexing.md)
+      - 使用DITA assets复制{#dita-assets-replication-cs}
+         - [配置DITA Assets复制](./cs-install-guide/configure-dita-assets-replication.md)
       - [附录](./cs-install-guide/appendix.md)
 - API 引用 {#api-reference}
    - [简介](./api-reference/introduction.md)
@@ -577,7 +588,7 @@ ht-degree: 9%
    - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
    - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
    - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-   - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+   - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
    - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)

@@ -3,9 +3,10 @@ title: Experience Manager Guides中的Workspace设置
 description: 了解Experience Manager Guides编辑器界面中可用的各种设置。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
+exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
@@ -33,9 +34,9 @@ ht-degree: 0%
 
 ## 常规
 
-常规设置允许您配置设置以使用编辑器。 此选项卡包含五个部分：**AI助手**、**创作**、**引用**、**条件**&#x200B;和&#x200B;**拼写检查**。
+常规设置允许您配置设置以使用编辑器。 此选项卡包含七个部分：**AI助手**、**创作**、**引用**、**条件**、**HTML编辑器**、**学习内容**&#x200B;和&#x200B;**拼写检查**。
 
-![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
+![](assets/workspace-settings.png){width="350" align="left"}
 
 - **AI助手**
 选择此项可在Experience Manager Guides中启用[AI助手](../user-guide/ai-assistant.md)功能。 取消选择可禁用该功能。
@@ -77,6 +78,26 @@ ht-degree: 0%
 - **拼写检查**
 有两个选项 — **AEM拼写检查**&#x200B;和&#x200B;**浏览器拼写检查**。 默认情况下，编辑器使用浏览器拼写检查功能，其中拼写检查使用浏览器的内置词典执行。 您可以切换到AEM拼写检查以使用Adobe Experience Manager的词典，也可以自定义该词典以添加自定义单词列表。 有关自定义AEM词典的详细信息，请在“安装和配置AEM as a Cloud Service”中查看[自定义Adobe Experience Manager Guides的默认词典](../cs-install-guide/customize-aem-custom-dictionary.md)部分。
 
+- **学习内容**：通过此设置，您可以为Experience Manager Guides实例启用或禁用产品培训和学习内容功能。 使用&#x200B;**启用学习内容**&#x200B;切换开关在文件夹配置文件级别启用或禁用该功能。 默认情况下，所有实例都将禁用此功能。
+
+  了解有关[产品培训和学习内容](../learning-content/intro.md)功能的更多信息。
+
+  以下功能/选项仅在学习内容设置启用时可用：
+
+   - **课程创作**：启用从编辑器和主页创建和管理课程的选项。
+   - **SCORM模板**：启用选项以在编辑器中的&#x200B;*输出模板*&#x200B;下创建SCORM模板。
+   - **内容模板和输出预设**：在“Workspace设置”对话框中启用“内容模板”和“输出预设”配置选项。
+
+学习内容被禁用后，上述所有选项都将无法在Experience Manager Guides界面中使用。
+
+有关详细信息，请查看[配置文件夹配置文件](../lc-config-guide/lc-folder-profile.md)。
+
+- **HTML编辑器**：对于学习内容，此设置允许您为基于HTML的创作配置编辑器。 此设置中存在的关键配置选项如下：
+
+   - **隐藏内联样式**：启用此选项可阻止作者将内联格式应用于课程内容。 启用后，编辑器右侧面板中存在的所有内联样式选项（如“字体”、“边框”、“布局”、“背景”和“列”）对作者保持隐藏状态。 但是，作者仍可以使用&#x200B;**样式**&#x200B;面板中提供的基于类的全局样式选项。 这有助于保持与组织风格指南的一致性。
+   - **隐藏作者的Source视图**：启用此选项可限制对HTML源代码的访问。 当您希望简化编辑体验或避免意外更改基础代码时，这将很有用。
+
+  有关详细信息，请查看[创建和自定义学习内容](../learning-content/lc-overview.md)。
 
 ## 面板
 
@@ -255,11 +276,9 @@ ht-degree: 0%
 
 工作区设置中的![元数据选项卡](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
 您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
-
-
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。
