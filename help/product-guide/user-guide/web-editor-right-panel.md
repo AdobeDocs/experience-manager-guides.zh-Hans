@@ -4,9 +4,9 @@ description: 了解编辑器中的右侧面板。 了解Adobe Experience Manager
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
+source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,23 @@ ht-degree: 0%
 >
 > 所有“在中使用”和“传出”引用均超链接到文档。 您可以轻松打开和编辑链接的文档。
 
-除了打开文件之外，您还可以使用“引用”部分中的&#x200B;**选项**&#x200B;菜单执行许多操作。 您可以执行的某些操作包括编辑、预览、复制UUID、复制路径、添加到收藏集、属性。
+除了打开文件之外，您还可以使用“引用”部分中的&#x200B;**选项**&#x200B;菜单执行许多操作。 您可以执行的某些操作包括编辑、预览、复制UUID、复制路径、添加到收藏集和属性。
+
+**翻译**
+
+此部分按字母顺序列出编辑器中当前打开的资产的所有可用语言副本。 该信息以表格视图显示，显示每个语言代码以及相应的&#x200B;*文件标题*（或者&#x200B;*文件名*，如果&#x200B;*文件标题*&#x200B;不可用）。
+
+>[!INFO]
+>
+> 在发送资产以进行翻译时会创建语言副本。 英语(`en`)用作源语言，翻译副本在其各自的目标语言文件夹中生成（例如，`de`用于德语，`fr`用于法语）。 如果资产仅存在于`en`文件夹中，则在启动并完成目标语言的翻译之前，不会显示其他语言副本。 如果资产不存在于任何语言文件夹中，则显示&#x200B;**无可用翻译**。 有关详细信息，请查看[内容翻译的最佳实践](./translation-first-time.md)。
+
+![](images/translations-right-panel.png){width="300" align="left"}
+
+对于每个语言副本，您可以将鼠标悬停在文件上以找到其在存储库中的路径，也可以简单地选择它以在编辑器中打开。 除了打开文件之外，您还可以使用“翻译”部分中的&#x200B;**选项**&#x200B;菜单执行许多操作。 您可以执行的某些操作包括编辑、预览、复制UUID、复制路径、添加到收藏集和属性。
+
+![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+
+
 
 ## 审阅
 
@@ -153,4 +169,4 @@ ht-degree: 0%
 
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)
