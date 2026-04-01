@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
+source-git-commit: bbdf4763e8202891eec0259a5f08a7efa9afc668
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 8%
+source-wordcount: '985'
+ht-degree: 7%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 8%
 
 翻译内容涉及以下步骤：
 
-1. 将AEM与您的[翻译服务提供商](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)连接并创建[翻译集成框架配置](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
+1. 将AEM与您的[翻译服务提供商](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)连接并创建[翻译集成框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
 
-1. 将语言母版页面与[翻译服务和框架配置](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)关联。
+1. 将语言母版页面与[翻译服务和框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)关联。
 
-1. 标识要翻译的[内容的类型](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-rules.html)。
+1. 标识要翻译的[内容的类型](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html)。
 
-1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-prep.html)。
+1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)。
 
-1. 创建[翻译项目](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻译的内容并准备翻译过程。
+1. 创建[翻译项目](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻译的内容并准备翻译过程。
 
-1. 使用翻译项目[管理内容翻译](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-manage.html)进程。
+1. 使用翻译项目[管理内容翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)进程。
 
 
 如果翻译服务提供商不提供连接器来与AEM集成，则AEM支持以XML格式手动导出和导入已翻译内容。
@@ -88,7 +88,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   > 如果您使用的是翻译连接器，请确保已按照AEM文档中的&#x200B;*[配置翻译集成框架](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主题中所述配置连接器。
+   > 如果您使用的是翻译连接器，请确保已按照AEM文档中的&#x200B;*[配置翻译集成框架](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主题中所述配置连接器。
 
 1. 单击&#x200B;**保存**。
 
@@ -123,6 +123,30 @@ ht-degree: 8%
 
 1. 单击&#x200B;**保存**。
 
+## 配置首次翻译行为
+
+默认情况下，当您首次执行翻译时，将为目标语言创建空XML文件。 这些文件仅在获得批准后才会进行翻译。 若要控制此行为，可以使用以下步骤启用`Initialize destination language copy with source content`设置：
+
+>[!NOTE]
+>
+> 此设置仅在禁用旧版翻译工作流时适用。
+
+1. 打开Adobe Experience Manager Web控制台配置页面。
+
+   用于访问配置页面的默认URL为：
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
+
+1. 选择`Initialize destination language copy with source content`设置。
+
+   - 启用后，将从工作副本创建包含源内容的无版本副本，而不是在首次翻译期间生成空XML文件。
+   - （*默认*）禁用后，将应用默认行为，并在首次翻译期间为目标语言创建空XML文件。
+
+1. 单击&#x200B;**保存**。
 
 
 

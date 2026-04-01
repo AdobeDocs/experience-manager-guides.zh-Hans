@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 479794862cec667baecbdb513e48a2979ef631a7
+source-git-commit: 98413b516865c77ad750bdf6f34874f5e37fb13a
 workflow-type: tm+mt
-source-wordcount: '9160'
+source-wordcount: '9148'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 - 如果您使用的是版本4.3.x、4.2、4.2.1（修补程序4.2.1.3）、4.1或4.1.x，则需要在升级到版本5.0.0之前升级到版本4.4。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
 
 
 >[!NOTE]
@@ -59,11 +59,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅&#x200B;*Experience Manager Guides帮助PDF存档*&#x200B;上提供的产品特定安装指南中的[升级Adobe Experience Manager Guides](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)部分。
+> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅&#x200B;*Experience Manager Guides帮助PDF存档*&#x200B;上提供的产品特定安装指南中的[升级Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)部分。
 
 
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides升级过程之前，请确保您已：
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 如果您使用的是版本4.0、4.1或4.1.x，则可以直接升级到版本4.2。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.2升级过程之前，请确保您具有：
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件存在，请确保已同步自定义项。
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
 
-1. 单击&#x200B;**插入组件** \(作为流程的最后一步负责Experience Manager Guides后处理\)。
+1. 单击&#x200B;**插入组件** \（作为流程的最后一步负责Experience Manager Guides后处理\）。
 1. 使用以下详细信息配置&#x200B;**流程步骤**：
 
    **常用选项卡**
@@ -251,7 +251,7 @@ ht-degree: 0%
 
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 \(可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 \（可选：您可以传递映射的特定路径来进行索引，默认情况下，所有映射都将进行索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\）
 
 - 该API将返回作业ID。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 — 
 
@@ -312,7 +312,7 @@ ht-degree: 0%
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.2.1升级过程之前，请确保您具有：
 
@@ -409,7 +409,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件存在，请确保已同步自定义项。
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
 
-1. 单击&#x200B;**插入组件** \(作为流程的最后一步负责Experience Manager Guides后处理\)。
+1. 单击&#x200B;**插入组件** \（作为流程的最后一步负责Experience Manager Guides后处理\）。
 1. 使用以下详细信息配置&#x200B;**流程步骤**：
 
    **常用选项卡**
@@ -471,7 +471,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 - 确保`damAssetLucene`索引已完成。 这可能需要几个小时，具体取决于服务器上存在的数据量。 您可以通过检查中的重新索引字段是否设置为false来确认重新索引已完成
   `http://<server:port>/oak:index/damAssetLucene`。  此外，如果您已在`damAssetLucene`中添加任何自定义项，则可能需要再次应用它们。
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都将进行索引\|\| 例如：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 - 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
@@ -489,7 +489,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.3.0升级过程之前，请确保您具有：
 
@@ -547,7 +547,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.3.1升级过程之前，请确保您具有：
 
@@ -637,7 +637,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件存在，请确保已同步自定义项。
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
 
-1. 单击&#x200B;**插入组件** \(作为流程的最后一步负责Experience Manager Guides后处理\)。
+1. 单击&#x200B;**插入组件** \（作为流程的最后一步负责Experience Manager Guides后处理\）。
 1. 使用以下详细信息配置&#x200B;**流程步骤**：
 
    **常用选项卡**
@@ -700,7 +700,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都将进行索引\|\| 例如：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
@@ -788,7 +788,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.4.0升级过程之前，请确保您具有：
 
@@ -840,7 +840,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件存在，请确保已同步自定义项。
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
 
-1. 单击&#x200B;**插入组件** \(作为流程的最后一步负责Experience Manager Guides后处理\)。
+1. 单击&#x200B;**插入组件** \（作为流程的最后一步负责Experience Manager Guides后处理\）。
 1. 使用以下详细信息配置&#x200B;**流程步骤**：
 
    **常用选项卡**
@@ -903,7 +903,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都将进行索引\|\| 例如：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
@@ -981,7 +981,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 在此升级过程中，由于`'order'`值从1000更改为50，因此您需要将现有的自定义重写器（如果有）与`'fmdita-rewriter'`合并。
 
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)
 
 
 ## 升级到版本4.6.0
@@ -996,7 +996,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.6.0升级过程之前，请确保您具有：
 
@@ -1046,7 +1046,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件存在，请确保已同步自定义项。
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
 
-1. 单击&#x200B;**插入组件** \(作为流程的最后一步负责Experience Manager Guides后处理\)。
+1. 单击&#x200B;**插入组件** \（作为流程的最后一步负责Experience Manager Guides后处理\）。
 1. 使用以下详细信息配置&#x200B;**流程步骤**：
 
    **常用选项卡**
@@ -1118,7 +1118,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 执行以下步骤来索引现有内容：
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引||示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1145,13 +1145,13 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 >[!TIP]
 >
-> 升级到5.0.0版Service Pack 3取决于当前版本的Experience Manager Guides。 如果您使用的是版本5.0.0 Service Pack 2、5.0.0 Service Pack 1或5.0.0，则可以直接升级到版本5.0.0 Service Pack 3。
+> 升级到5.0.0版Service Pack 4取决于当前版本的Experience Manager Guides。 如果您使用的是版本5.0.x，则可以直接升级到版本5.0.0 Service Pack 4。
 
 >[!NOTE]
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 5.0.0升级过程之前，请确保您具有：
 
@@ -1201,7 +1201,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件存在，请确保已同步自定义项。
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
 
-1. 单击&#x200B;**插入组件** \(作为流程的最后一步负责Experience Manager Guides后处理\)。
+1. 单击&#x200B;**插入组件** \（作为流程的最后一步负责Experience Manager Guides后处理\）。
 1. 使用以下详细信息配置&#x200B;**流程步骤**：
 
    **常用选项卡**
@@ -1273,7 +1273,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 执行以下步骤来索引现有内容：
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引||示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1299,7 +1299,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 ## 重新索引damAssetLucene的步骤
 
-带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.0.0版本后如何重新索引damAssetLucene。
+带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.0.0版本后如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
@@ -1309,7 +1309,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 >[!IMPORTANT]
 >
-> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.1.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.1.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 **先决条件**
 
@@ -1368,7 +1368,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件存在，请确保已同步自定义项。
 1. 如果&#x200B;**DXML后处理启动器**&#x200B;组件不存在，请执行以下步骤以插入该组件：
 
-1. 选择&#x200B;**插入组件** \(负责将Experience Manager Guides后处理作为流程的最后一步\)。
+1. 选择&#x200B;**插入组件** \（负责将Experience Manager Guides后处理作为流程的最后一步\）。
 1. 使用以下详细信息配置&#x200B;**流程步骤**：
 
    **常用选项卡**
@@ -1440,7 +1440,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 执行以下步骤来索引现有内容：
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引||示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1466,7 +1466,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 ## 重新索引damAssetLucene的步骤
 
-带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.1.0版本后如何重新索引damAssetLucene。
+带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.1.0版本后如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
