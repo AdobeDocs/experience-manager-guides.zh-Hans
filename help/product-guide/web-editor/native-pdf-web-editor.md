@@ -82,7 +82,7 @@ ht-degree: 0%
 
 * **提供XMP文件**
 
-  您还可以通过导入[XMP](https://www.adobe.com/products/xmp.html)（可扩展元数据平台）文件直接填充元数据字段。 您可以从此处下载示例XMP文件。
+  您还可以通过导入[XMP](https://www.adobe.com/cn/products/xmp.html)（可扩展元数据平台）文件直接填充元数据字段。 您可以从此处下载示例XMP文件。
 
 [下载](assets/SampleXMP.xmp)
 
