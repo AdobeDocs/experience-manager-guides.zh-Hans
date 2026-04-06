@@ -4,9 +4,9 @@ description: 从Adobe Experience Manager Guides的映射控制台中创建和管
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 >
 > 本文适用于新基线，它目前作为&#x200B;*Beta*&#x200B;功能提供，可提高Experience Manager Guides 2026.03.0版本中提供的性能和稳定性。 要在设置中启用新的基线功能，请联系客户成功团队。
 
-新的基线功能解决了与大型复杂地图相关的关键可靠性和性能问题。 它附带重新设计的基线体系结构，可提供更快、更稳定且更一致的基线体验。
+新的基线功能解决了与大型复杂地图相关的关键可靠性和性能问题。 它附带重新设计的基线体系结构，可提供更快、更稳定且更一致的基线体验。 在我们深入了解详细信息之前，请查看以下简短的演练视频，其中重点介绍新基线功能的功能。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483154/aem-guides)
 
 新的基线模型通过解决以下常见棘手问题而增强了基线处理能力：
 
