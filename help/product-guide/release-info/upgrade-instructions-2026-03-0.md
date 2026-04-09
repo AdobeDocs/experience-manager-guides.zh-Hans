@@ -1,7 +1,9 @@
 ---
 title: 发行说明| 2026.03.0版Adobe Experience Manager Guides中的升级说明和修复问题
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides as a Cloud Service的2026.03.0版本。
-source-git-commit: 91befea8c232cd487762ea71f522004e5ca63ee0
+exl-id: 5700e649-104d-4caf-a195-6e667a71faee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 11%
@@ -55,4 +57,3 @@ Experience Manager Guides在升级到最新版本的Experience Manager as a Clou
 > 此版本包括对文件夹配置文件设置(ui_config.json)的更新。 如果您使用的是自定义设置，请确保在升级之前备份这些设置。 更新后，查看并调整您的设置，以与最新版本中引入的更改保持一致。
 
 查看并验证您的设置配置，以确认它们已正确实施。 如果您已引入任何自定义配置更改，请查看[升级Cloud Service的其他配置](../cs-install-guide/additional-config-for-cloud-service.md)，了解适用于您从中升级版本的任何其他过程。
-

@@ -1,7 +1,9 @@
 ---
 title: 发行说明|修复了Adobe Experience Manager Guides 2026.03.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2026.03.0版本中的错误修复。
-source-git-commit: 764f6cc0b061020b78cd2808e08a5d05bd183c81
+exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 3%
@@ -60,13 +62,3 @@ Adobe发现了2026.03.0版本的以下已知问题：
 - 在Assets UI中，如果选择了超过2个文件或文件夹，则在第一次尝试时不会启用&#x200B;**移动**&#x200B;按钮。 (GUIDES-42721) <br> **解决方法**：选择两个以上的文件或文件夹后，等待几秒钟再选择目标文件夹。
 - 当在编辑器中打开预览模式时从编辑器导航到&#x200B;**用户首选项**&#x200B;并更新根映射时，当您返回到编辑器时，映射预览将加载为空白屏幕。 (GUIDES-42412) <br> **解决方法**：使用在预览模式下可用的&#x200B;**刷新**&#x200B;图标刷新预览可解决此问题。
 - 在手动刷新页面之前，重命名现有模板不会更新&#x200B;**输出模板**&#x200B;面板中的名称。 (GUIDES-42528)<br> **解决方法**：刷新浏览器以在输出模板面板中查看更新的模板名称。
-
-
-
-
-
-
-
-
-
-
