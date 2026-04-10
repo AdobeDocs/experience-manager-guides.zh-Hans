@@ -5,9 +5,10 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1576'
 ht-degree: 1%
 
 ---
@@ -70,7 +71,7 @@ ht-degree: 1%
 1. 在&#x200B;**设置**&#x200B;选项卡中，为新添加的&#x200B;**属性谓词**&#x200B;组件提供以下详细信息：
 
    - **字段标签**： UUID
-   - **属性名称**： jcr：content/fmUuid
+   - **属性名称**： jcr:content/fmUuid
 1. 单击&#x200B;**完成**&#x200B;以保存更改。
 
    当您访问Assets UI中的过滤器选项时，您将获得基于UIS的搜索过滤选项。
@@ -158,7 +159,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
 1. 使用包管理器下载/libs/fmdita/config/serializationconfig.xml文件。
 
-1. 在`apps`节点内创建`config`文件夹的覆盖节点。
+1. 在`config`节点内创建`apps`文件夹的覆盖节点。
 
 1. 导航到`apps`节点中可用的配置文件：
 
@@ -219,7 +220,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
 >[!NOTE]
 >
-> 您可以使用此过程将任何其他文件夹位置添加到排除列表中。 有关使用索引的更多详细信息，请参阅[内容搜索和索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=zh-Hans)。
+> 您可以使用此过程将任何其他文件夹位置添加到排除列表中。 有关使用索引的更多详细信息，请参阅[内容搜索和索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)。
 
 1. 在自定义damAssetLucene索引中添加以下属性：
 
@@ -229,7 +230,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
 1. 导航到位于以下位置的lucene节点：
 
-   /oak：index/lucene
+   /oak:index/lucene
 
 1. 在lucene节点中添加以下属性：
 

@@ -1,13 +1,14 @@
 ---
 title: 配置智能帮助以搜索内容
 description: 了解如何配置智能帮助以搜索内容
-source-git-commit: 48f7b38448e821a7ad5931a685dedc95303aea95
+exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
 
 ---
-
 
 # 配置AI支持的智能帮助以搜索内容
 
@@ -27,13 +28,13 @@ ht-degree: 0%
    ![快速入门链接](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *创建新项目。*
 
-1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕显示了可用于开发应用程序的Adobe产品和技术的所有可用API、事件和服务。
+1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕可显示Adobe产品和技术的所有可用API、事件和服务，您可以使用这些产品和技术开发应用程序。
 
-1. 选择&#x200B;**I/O管理API**&#x200B;以将其添加到您的项目中。
+1. 选择&#x200B;**I/O管理API**以将其添加到您的项目中。
    ![IO管理API](assets/confi-ss-io-management.png)
    *将I/O管理API添加到您的项目中。*
 
-1. 创建新的&#x200B;**OAuth凭据**&#x200B;并保存它。
+1. 创建新的&#x200B;**OAuth凭据**并保存它。
    配置API中的![OAuth凭据磁贴](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
    *为你的API配置OAuth凭据。*
 
@@ -63,7 +64,7 @@ ht-degree: 0%
 
 执行以下步骤以将IMS配置添加到环境：
 
-1. 打开Experience Manager，然后选择程序，其中包含要配置的环境。
+1. 打开Experience Manager，然后选择您的项目，其中包含要配置的环境。
 1. 切换到&#x200B;**环境**&#x200B;选项卡。
 1. 选择要配置的环境名称。 这应该会将您导航到&#x200B;**环境信息**&#x200B;页面。
 1. 切换到&#x200B;**配置**&#x200B;选项卡。
@@ -105,5 +106,5 @@ ht-degree: 0%
 ```
 
 
-配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在Web编辑器的右侧面板中。 选择图标以查看&#x200B;**智能帮助**&#x200B;面板。
-有关更多详细信息，请查看《Experience Manager用户指南》中的[AI支持的Smart Help以搜索内容](../user-guide/ai-based-smart-help.md)部分。
+配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在Web编辑器的右侧面板中。 选择图标以查看&#x200B;**智能帮助**面板。
+有关更多详细信息，请查看《Experience Manager用户指南》中的[AI支持的智能帮助以搜索内容](../user-guide/ai-based-smart-help.md)部分。

@@ -5,7 +5,8 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 1%
@@ -220,5 +221,5 @@ ht-degree: 1%
    > 如果在迁移之前，属性&#x200B;**在**&#x200B;中使用AEM站点页面名称的标题`com.adobe.fmdita.config.ConfigManager`，设置为&#x200B;*False*，则在迁移之后，需要更新此属性。
 
 
-1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hans`）。
+1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。
 

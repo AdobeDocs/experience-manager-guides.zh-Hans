@@ -5,7 +5,8 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 从旧UI迁移到新AEM Guides UI(适用于AEM Guides的2502和5.0版本)时，`ui_config`的更新必须转换为更灵活和模块化的UI配置。 此框架有助于在适用的情况下无缝地采用对editor_toolbar和其他目标构件所做的更改。 有关详细信息，请查看[转换UI配置概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
+> 从旧UI迁移到新AEM Guides UI（适用于AEM Guides的2502和5.0版本）时，`ui_config`的更新必须转换为更灵活和模块化的UI配置。 此框架有助于在适用的情况下无缝地采用对editor_toolbar和其他目标构件所做的更改。 有关详细信息，请查看[转换UI配置概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
 
 可通过两种方式自定义Web编辑器的工具栏：
 
@@ -144,4 +145,4 @@ ht-degree: 0%
 1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载Web编辑器。
 
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

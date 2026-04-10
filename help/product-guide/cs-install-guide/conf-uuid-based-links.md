@@ -5,7 +5,8 @@ exl-id: 2ae6a27f-983b-4aa0-be29-166899aeb4ff
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
@@ -22,4 +23,4 @@ ht-degree: 1%
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | 布尔值\(true/false\)。 如果要显示链接内容的相对路径，则将此属性设置为false。<br> **默认值**： true |
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

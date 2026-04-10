@@ -5,7 +5,8 @@ exl-id: 1b8c3eaa-a654-4563-9541-18a59b7d306c
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -35,6 +36,6 @@ ht-degree: 0%
 
 选中此选项后，默认情况下会选中对话框中的&#x200B;**另存为新版本**&#x200B;复选框。
 
-有关更多详细信息，请参阅《使用Adobe Experience Manager Guidesas a Cloud Service指南》中的&#x200B;*文件关闭和保存方案*&#x200B;部分。
+有关更多详细信息，请参阅“使用Adobe Experience Manager Guides as a Cloud Service”指南中的&#x200B;*文件关闭和保存方案*&#x200B;部分。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

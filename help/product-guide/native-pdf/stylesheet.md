@@ -1,11 +1,12 @@
 ---
-title: 原生PDF发布功能 | 使用常见的内容样式
+title: 本机PDF发布功能|使用常见的内容样式
 description: 了解如何为内容创建使用样式表和样式。
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 0%
@@ -81,7 +82,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**样式**&#x200B;列表中，展开&#x200B;**标题样式**。
 
-1. 从列表中选择&#x200B;**h1**&#x200B;样式。
+1. 从列表中选择&#x200B;**h1**样式。
 h1样式的属性与其“预览”一起显示在“属性”面板中。
 
    >[!NOTE]

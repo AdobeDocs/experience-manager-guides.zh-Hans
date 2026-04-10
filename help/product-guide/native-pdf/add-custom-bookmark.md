@@ -1,11 +1,12 @@
 ---
-title: 原生PDF发布功能 | 在PDF输出中添加自定义书签
+title: 原生PDF发布功能|在PDF输出中添加自定义书签
 description: 了解如何为内容创建使用样式表和样式。
 exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 1c96f25c3b970d04d23e8faf94a8f39095f6bd2c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 `bookmark-level: 3`
 
-在此，`bookmark-level`是一个属性，数字`3`是指示书签层次结构中添加书签的级别的值。 在以下示例中，第一级主题“联系人”有一个表“联系人列表”，我们在该表中添加了一个值为`custom-bookmark`的`outputclass`属性。
+在此，`bookmark-level`是一个属性，数字`3`是指示书签层次结构中添加书签的级别的值。 在以下示例中，第一级主题“联系人”有一个表“联系人列表”，我们在该表中添加了一个值为`outputclass`的`custom-bookmark`属性。
 
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">

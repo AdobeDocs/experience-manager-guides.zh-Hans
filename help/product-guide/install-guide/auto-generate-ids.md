@@ -5,7 +5,8 @@ exl-id: 8d09ab89-4be5-49f1-9831-9f01c92dc472
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -45,4 +46,4 @@ AEM Guides提供了简单的配置设置，您需要在其中定义自动生成I
 1. 单击&#x200B;**保存**。
 
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

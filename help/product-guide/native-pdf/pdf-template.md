@@ -5,7 +5,8 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a6c87e6f9a68962488e70985a0513dcb05eaa9cd
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # PDF模板 {#PDF-template}
 
-使用模板可确保内容布局和结构的一致性。 由于模板是预定义模板，您可以避免重新处理每个新项目或更新出现的格式问题。 使用模板，您可以设计页面布局、设置内容样式并应用各种设置来自定义PDF。
+使用模板可确保内容布局和结构的一致性。 由于模板是预定义模板，您可以避免重新处理每个新项目或更新出现的格式问题。 通过模板，您可以设计页面布局、设置内容样式并应用各种设置来自定义PDF。
 
 ## 工厂和自定义PDF模板
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 ## 创建新的PDF模板 {#create-pdf-template}
 
-您可以使用样式表创建具有特定页面布局的自定义PDF模板，并为页面布局组件（如TOC、索引、术语表）或DITA组件（如标题、段落、列表）定义格式。
+您可以创建具有特定页面布局的自定义PDF模板，并使用样式表定义页面布局组件（如TOC、索引、术语表）或DITA组件（如标题、段落、列表）的格式。
 
 要创建新的PDF模板，请执行以下步骤：
 
@@ -39,7 +40,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >  您还可以在创建和复制模板时预览模板的缩略图。 创建模板后，使用&#x200B;**选项**&#x200B;菜单中的&#x200B;[**属性**](#properties-option)&#x200B;编辑或删除缩略图。
+   >  您还可以在创建和复制模板时预览模板的缩略图。 创建模板后，使用&#x200B;[**选项**](#properties-option)&#x200B;菜单中的&#x200B;**属性**&#x200B;编辑或删除缩略图。
 
 1. 单击&#x200B;**创建**。
 
@@ -59,7 +60,7 @@ ht-degree: 0%
 
    <img src="assets/duplicate-template.png" alt="复制PDF模板" width="350">
 
-   *在&#x200B;**复制PDF模板**&#x200B;对话框中选择要复制的模板、预览缩略图并更新标题。*
+   *在&#x200B;**复制PDF模板**对话框中选择要复制的模板、预览缩略图并更新标题。*
 
 1. 指定模板的标题。
 
@@ -81,7 +82,7 @@ ht-degree: 0%
 ### 删除
 
 选择删除选项可删除所选模板。 然后，在确认提示中选择是。
-预设已从&#x200B;**模板**&#x200B;中删除。
+预设已从**模板**&#x200B;中删除。
 
 ### 属性{#properties-option}
 
@@ -91,9 +92,9 @@ ht-degree: 0%
 
 选择此选项可在Assets UI中查看模板。 在打开模板的根位置时，您可以查看模板的所有资源。
 
-创建自定义模板后，您可以从PDF输出预设的“页面布局”中选择它。
+创建自定义模板后，您可以从PDF输出预设的页面布局中选择它。
 
-了解如何[发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=zh-Hans)。
+了解如何[发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en)。
 
 >[!NOTE]
 >
@@ -101,9 +102,9 @@ ht-degree: 0%
 
 根据您的设置，管理员可以配置模板：
 
-+++ Cloud Service
++++ 云服务
 
-有关设置全局和文件夹级配置文件的详细信息，请查看Cloud Service安装和配置指南中的[配置模板](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4)部分。
+有关设置全局和文件夹级别配置文件的详细信息，请查看Cloud Services的安装和配置指南中的[配置模板](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4)部分。
 
 +++
 
@@ -131,7 +132,7 @@ ht-degree: 0%
 
    默认情况下，这将打开模板编辑器中的&#x200B;**设置**&#x200B;面板。
 
-   <img src="assets/customize-pdf-template.png" alt="自定义PDFTeamplte" width="350">
+   <img src="assets/customize-pdf-template.png" alt="自定义PDF Teamplte" width="350">
 
    >[!NOTE]
    >
@@ -141,19 +142,19 @@ ht-degree: 0%
 
    您可以自定义的各种模板组件在以下部分中分类：
 
-   * 页面布局：典型PDF包含不同的页面，例如封面或标题页面、目录、章节、索引、引文等。 利用“页面布局”部分，可设计构成PDF的各个页面的外观。 有关详细信息，请查看[页面布局](../native-pdf/components-pdf-template.md#page-layouts)。
+   * 页面布局：典型的PDF包含不同的页面，例如封面或标题页面、目录、章节、索引、引文等。 利用“页面布局”部分，可设计构成PDF的各种页面的外观。 有关详细信息，请查看[页面布局](../native-pdf/components-pdf-template.md#page-layouts)。
 
      除了外观之外，您还可以定义页面元素（如页眉、页脚和页面上的内容区域）的排列。 若要了解有关自定义页面布局的更多信息，请参阅[创建和自定义页面布局](components-pdf-template.md#create-customize-page-layout)。
 
    * 样式表：“样式表”部分中的设置允许您自定义页面布局组件（如目录、索引、术语表、引文等）的外观。 此外，您还可以自定义DITA内容的样式，如标题、段落、列表等。 要了解有关使用样式表的更多信息，请参阅[使用样式表自定义PDF](components-pdf-template.md#stylesheet-customization)。
    * 资源：存储自定义或设计PDF模板所需的资源文件。 Assets（如徽标、自定义字体、背景图像等）存储在资源中。
-您还可以使用存储库中任何其他位置的资源。 您无需为每个模板创建重复资源，可以将这些资源保存在共享文件夹中，并在所有本机PDF模板中使用它们。
+您还可以使用存储库中任何其他位置的资源。 您无需为每个模板创建重复资源，可以将这些资源保留在共享文件夹中，并在所有本机PDF模板中使用它们。
 
      要了解有关利用资源的更多信息，请参阅[使用资源](components-pdf-template.md#work-with-resources)。
 
    * 设置：配置用于使用模板生成PDF的输出设置。 通过此部分，您可以为PDF中的各种页面、章节开始页面、打印标记、引文等定义模板映射。
 
-   您还可以按照它们在最终PDF输出中的显示顺序进行排列。
+   您还可以按照它们显示在最终PDF输出中的顺序进行排列。
 有关应用设置的详细信息，请参阅[高级PDF设置](components-pdf-template.md#advanced-pdf-settings)。
 
 
@@ -163,6 +164,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您还可以使用&#x200B;**选项**&#x200B;菜单中的&#x200B;[**属性**](#properties-option)&#x200B;更新模板的缩略图和描述。
+   >您还可以使用&#x200B;[**选项**](#properties-option)&#x200B;菜单中的&#x200B;**属性**&#x200B;更新模板的缩略图和描述。
 
 1. 完成所需的更改后，选择&#x200B;*全部保存*（或`Ctrl+S`）。

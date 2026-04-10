@@ -5,7 +5,8 @@ exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # 关于本指南 {#id175MC0P0S5Z}
 
-Adobe Experience Manager Guides \(以后称为&#x200B;*AEM Guides*\)是一个功能强大的企业级组件内容管理解决方案\(CCMS\)。 它在Adobe Experience Manager中启用了本机DITA支持，使AEM能够处理基于DITA的内容创建和交付。 它使作者能够使用任何离线DITA创作工具(如Adobe FrameMaker或易于使用的内置Web编辑器)创建内容。
+Adobe Experience Manager Guides \（以后称为&#x200B;*AEM Guides*\）是一个功能强大的企业级组件内容管理解决方案\(CCMS\)。 它在Adobe Experience Manager中启用了本机DITA支持，使AEM能够处理基于DITA的内容创建和交付。 它使作者能够使用任何离线DITA创作工具（如Adobe FrameMaker或易于使用的内置Web编辑器）创建内容。
 
 本指南提供了下载、安装和配置AEM Guides的说明。 在本指南中，您将找到根据组织创作和发布需求设置AEM Guides的详细说明。
 
@@ -68,9 +69,9 @@ Adobe Experience Manager Guides \(以后称为&#x200B;*AEM Guides*\)是一个功
 
 ## 其他资源
 
-以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)页面上：
+以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)页面上：
 
 - 用户指南
 - API参考指南
 - 快速入门指南
-- [帮助存档页面](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）
+- [帮助存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）

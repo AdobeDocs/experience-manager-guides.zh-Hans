@@ -1,20 +1,20 @@
 ---
-title: 本机PDF | 为本机PDF发布配置JVM标记
+title: 本机PDF |为本机PDF发布配置JVM标记
 description: 为本机PDF发布配置JVM标记
-exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
 
-# 为本机PDF发布配置JVM标记
+# 为本地本地PDF发布配置JVM标记
 
-本机PDF发布会启动单独的JVM进程来生成PDF。 您可能需要调整此JVM的配置以支持不同的场景。 例如，要运行较大的工作负载，应增加派生的JVM进程可用的最大栈大小。
+本机PDF发布会启动一个单独的JVM进程来生成PDF。 您可能需要调整此JVM的配置以支持不同的场景。 例如，要运行较大的工作负载，应增加派生的JVM进程可用的最大栈大小。
 
 执行以下步骤以配置AEM Guides本机PDF发布JVM标记：
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 1. 搜索并选择&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包。
 
-1. 更新本机pdf **(*native.pdf.java.opts*)的属性** Java命令行选项以传递任何标准JVM标志。
+1. 更新本机pdf **(** native.pdf.java.opts *)的属性* Java命令行选项以传递任何标准JVM标志。
 
 
 

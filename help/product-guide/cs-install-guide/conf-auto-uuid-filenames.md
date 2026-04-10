@@ -5,7 +5,8 @@ exl-id: bdbdf119-b928-4ed2-bab3-d99370da8aa9
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -26,4 +27,4 @@ ht-degree: 1%
 >
 > 启用此选项后，作者在创建新主题或映射文件时，将不会看到指定文件名的选项。 可以从Assets UI和Web编辑器创建新主题或映射文件。
 
-**父主题：**&#x200B;[&#x200B;配置文件名](conf-file-names.md)
+**父主题：**[&#x200B;配置文件名](conf-file-names.md)

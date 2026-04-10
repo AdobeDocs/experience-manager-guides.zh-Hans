@@ -1,0 +1,41 @@
+---
+title: Cloud Service的配置覆盖
+description: 了解如何配置覆盖
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 0%
+
+---
+
+# Cloud Service的配置覆盖 {#id216IFC003XA}
+
+要在Experience Manager Guides as a Cloud Service中进行任何配置更新，应使用以下通用方法：
+
+1. 访问Cloud Manager的Git存储库。
+
+1. 在以下位置创建新的JSON文件：
+
+   `src/main/content/jcr\_root/apps/fmditaCustom/config/`
+
+1. 使用以下格式命名文件：
+
+   `$\{PID\}.cfg.json`
+
+   其中，PID是配置的进程ID。
+
+1. 使用以下格式在JSON文件中添加属性：
+
+   ```
+   {
+      "aem.adminuname": "updatedUserjson",
+      "valid.characters": "[-a-zA-Z0-9_@$]",
+      "dita.serialization": true
+   }
+   ```
+
+1. 提交更改并运行Cloud Manager管道以部署更新的配置。
+

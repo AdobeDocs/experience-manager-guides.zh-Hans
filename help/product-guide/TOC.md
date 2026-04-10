@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
+source-git-commit: 7b9efe58b04b6b4bf5b9c3eb9772aa88a3aa7bfd
 workflow-type: tm+mt
-source-wordcount: '2584'
-ht-degree: 9%
+source-wordcount: '3232'
+ht-degree: 8%
 
 ---
 
@@ -188,13 +188,13 @@ ht-degree: 9%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页 {#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -220,7 +220,7 @@ ht-degree: 9%
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
             - [搜索面板](./user-guide/search-panel-explorer.md)
-         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -396,7 +396,7 @@ ht-degree: 9%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
@@ -584,13 +584,135 @@ ht-degree: 9%
          - [配置AEM Assets UI搜索](./cs-install-guide/conf-dita-search.md)
       - 使用资产处理 {#asset-processing-cloud}
          - [配置资源处理功能](./cs-install-guide/configure-asset-processing-cs.md)
-      - 使用B树清理{#btree-cleanup-cs}
+      - 使用B树清理 {#btree-cleanup-cs}
          - [配置B树清理](./cs-install-guide/configure-btree-cleanup-cs.md)
-      - 自定义索引{#custom-indexing-cs}
+      - 自定义索引 {#custom-indexing-cs}
          - [部署用于查找和替换的自定义索引（Source视图）](./cs-install-guide/custom-indexing.md)
-      - 使用DITA assets复制{#dita-assets-replication-cs}
+      - 使用DITA assets复制 {#dita-assets-replication-cs}
          - [配置DITA Assets复制](./cs-install-guide/configure-dita-assets-replication.md)
       - [附录](./cs-install-guide/appendix.md)
+- 安装和配置 {#install-conf-guide}
+   - [下载、安装和升级](./install-conf-guide/introduction.md)
+   - Cloud Service的安装过程 {#deploy-conf-aemg-cs}
+      - [部署和Dispatcher配置](./install-conf-guide/conf-deployment-dispatcher-cs.md)
+   - On-Premise的安装过程 {#deploy-conf-aemg-on-prem}
+      - [技术要求](./install-conf-guide/aemg-technical-requirements.md)
+      - [安装Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
+      - [首次下载并安装AEM Guides](./install-conf-guide/download-install-aemg-first-time.md)
+      - [配置 Dispatcher](./install-conf-guide/conf-dispatcher.md)
+      - [卸载AEM Guides](./install-conf-guide/unistall-aemg.md)
+   - [验证AEM Guides安装](./install-conf-guide/verify-aemg-installation.md)
+   - 升级AEM Guides {#upgrade-aemg}
+      - 云服务 {#cloud-service}
+         - [升级AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
+         - [升级AEM Guides as Cloud Service的其他配置](./install-conf-guide/additional-config-for-upgrade.md)
+         - [Cloud Service的配置覆盖](./install-conf-guide/download-install-config-override.md)
+      - 内部部署 {#on-prem}
+         - [升级AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
+         - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
+   - 性能优化建议 {#performance-optimization-aemg}
+      - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
+      - 针对内部部署的[性能优化](./install-conf-guide/perf-optimization-on-prem.md)
+   - 内容迁移 {#migrate-content-cs}
+      - [迁移现有内容](./install-conf-guide/migrate-content.md)
+      - [使用Framemaker和WebDav工具上载现有DITA内容（内部部署）](./install-conf-guide/upload-dita-content.md)
+      - [使用Curl命令上传DITA内容](./install-conf-guide/use-curl-command.md)
+      - [配置UUID文件模式](./install-conf-guide/conf-uuid-filename-pattern.md)
+      - [迁移非DITA内容](./install-conf-guide/non-dita-content.md)
+      - [将内容从内部部署迁移到Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
+      - 内部部署的迁移过程 {#migration-process-on-prem}
+         - [非UUID到UUID内容迁移](./install-conf-guide/uuid-non-uuid.md)
+         - [从4.3.1非UUID迁移到4.3.2 UUID内容](./install-conf-guide/non-uuid-4-3.md)
+         - [从4.6.0非UUID迁移到4.6.1 UUID内容](./install-conf-guide/non-uuid-uuid-4-6.md)
+   - 自定义DITA-OT和专业化 {#custom-dita-ot-cs}
+      - [使用自定义DITA-OT和DITA专业化](./install-conf-guide/dita-ot-specialization.md)
+   - 用户组和安全性 {#user-group-sec-cs}
+      - [用户管理](./install-conf-guide/user-admin-sec.md)
+   - 系统设置 {#aemg-system-settings}
+      - 配置基于UUID和非UUID的文件名 {#conf-filename}
+         - [配置文件名](./install-conf-guide/conf-file-names-overview.md)
+         - [根据UUID配置自动文件名](./install-conf-guide/auto-uuid-filenames.md)
+         - [为有效的文件名字符配置Regx](./install-conf-guide/file-names-valid-regx.md)
+      - 资源处理 {#asset-processing}
+         - [配置资源处理功能](./install-conf-guide/conf-asset-processing.md)
+         - [为文件夹配置后处理](./install-conf-guide/conf-folder-post-processing.md)
+      - [版本管理](./install-conf-guide/version-management.md)
+      - [配置B树清理](./install-conf-guide/conf-btree-cleanup.md)
+      - [配置DITA Assets复制](./install-conf-guide/conf-dita-asset-replication.md)
+   - 编辑器配置 {#editor-configs}
+      - [自定义编辑器](./install-conf-guide/customize-overview.md)
+      - [自定义工具栏](./install-conf-guide/customize-toolbar.md)
+      - [在左侧面板中配置自定义面板](./install-conf-guide/conf-custom-panel.md)
+      - [配置标记视图的默认值](./install-conf-guide/conf-default-value-tags-view.md)
+      - [自动生成元素ID](./install-conf-guide/auto-generate-element-ids.md)
+      - [默认包含@navtitle属性](./install-conf-guide/auto-add-navtitle.md)
+      - [配置基于UUID的链接的显示](./install-conf-guide/conf-uuid-based-links.md)
+      - [在同一选项卡中打开DITA主题或映射文件](./install-conf-guide/open-dita-files-same-tab.md)
+      - [将高级映射编辑器设置为默认值](./install-conf-guide/conf-default-map-editor.md)
+      - [在Web编辑器中配置文件自动保存](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [配置关闭时另存为新版本的提示](./install-conf-guide/conf-save-as-new-version-close.md)
+      - [配置关闭时签入文件的提示](./install-conf-guide/conf-checkin-file-close.md)
+      - [配置允许的特殊字符](./install-conf-guide/conf-special-chars.md)
+      - [自定义AEM的默认词典](./install-conf-guide/customize-aem-default-dictionary.md)
+      - [配置文本过滤器](./install-conf-guide/conf-text-filters.md)
+      - [为文件浏览对话框配置筛选器](./install-conf-guide/conf-custom-file-filters.md)
+      - [安装用于基于文章的发布的包](./install-conf-guide/conf-article-based-publishing.md)
+      - Cloud Service的编辑器设置 {#editor-cloud-settings}
+         - [为Cloud Service的创作配置AI支持的智能建议](./install-conf-guide/conf-smart-suggestions.md)
+         - [配置AI支持的智能帮助以搜索Cloud Service的内容](./install-conf-guide/conf-smart-help.md)
+         - [配置在Cloud Service的氧气中编辑的选项](./install-conf-guide/conf-edit-in-oxygen.md)
+         - [为Cloud Service配置粘贴表的显示](./install-conf-guide/conf-pasted-tables.md)
+         - [为Cloud Service配置单主题PDF生成](./install-conf-guide/conf-pdf-generation-dita-ot.md)
+         - [在Cloud Service的Web编辑器中配置翻译功能](./install-conf-guide/conf-translation-editor.md)
+      - On-Premise的编辑器设置 {#editor-on-prem-settings}
+         - [为内部部署配置其他特殊字符](/help/product-guide/web-editor/conf-additional-special-characters.md)
+         - [为内部部署的签入和签出图标配置标题](./install-conf-guide/conf-checkin-checkout-title.md)
+         - [为内部部署查询配置LimitReads的数量](./install-conf-guide/conf-query-limitreads.md)
+      - 数据源连接器 {#data-source}
+         - [从用户界面配置数据源连接器](./install-conf-guide/conf-data-source-connector-tools.md)
+         - [为Cloud Service配置数据源连接器](./install-conf-guide/conf-data-source-connector-cs.md)
+   - 全局和文件夹级别配置文件 {#global-folder-profiles}
+      - [配置全局或文件夹级别的配置文件](./install-conf-guide/conf-profiles.md)
+   - 主题和映射模板 {#topic-map-template}
+      - [配置主题和映射模板](./install-conf-guide/conf-template-tags.md)
+      - [配置自定义DITA主题模板](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
+      - [配置自定义DITA映射模板](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
+   - 文档状态 {#doc-state}
+      - [配置文档状态](./install-conf-guide/customize-doc-state.md)
+      - [配置Cloud Service的文档状态筛选器](./install-conf-guide/conf-doc-state-filters.md)
+   - 配置Workspace设置 {#workspace-configs}
+      - [Workspace设置](./install-conf-guide/workspace-settings.md)
+   - AEM Assets搜索 {#aem-asset-search}
+      - [配置AEM Assets UI的搜索](./install-conf-guide/conf-dita-search.md)
+   - 输出生成设置 {#output-gen-config}
+      - [配置输出生成设置](./install-conf-guide/conf-output-generation.md)
+      - 配置AEM站点输出设置 {#conf-aem-sites-output}
+         - [下载并安装AEM Sites模板](./install-conf-guide/download-install-aem-sites-templates.md)
+         - [自定义现有AEM站点模板的一般说明](./install-conf-guide/customize-existing-site-template.md)
+         - [自定义新的AEM站点输出](./install-conf-guide/customize-aem-site-output.md)
+         - [使用AEM组件为旧版AEM站点输出自定义DITA元素映射](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
+         - [在AEM Sites输出中叠加HTML标记以进行内部部署](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
+         - [为AEM站点输出配置有效文件名](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - 原生PDF发布 {#config-native-pdf-publish}
+         - [本机PDF发布模板和内容样式](./install-conf-guide/template-content-styles.md)
+         - [为Cloud Service的本机PDF发布配置节点进程](./native-pdf/conf-node-options-cs.md)
+         - [为本地本地PDF发布配置JVM标记](./native-pdf/conf-jvm-flags-on-prem.md)
+      - 为Cloud Service配置内容和体验片段 {#conf-content-exp-fragment}
+         - [创建主题和内容片段之间的映射](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
+         - [创建主题和体验片段之间的映射](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+   - 工作流自定义 {#workflow}
+      - [配置和自定义工作流](./install-conf-guide/conf-customize-workflows.md)
+   - 集成 {#aemg-integrations}
+      - [集成基于桌面的XML编辑器](./install-conf-guide/integrate-desktop-editors.md)
+      - [为Cloud Service配置Workfront](./install-conf-guide/conf-workfront.md)
+      - [配置翻译](./install-conf-guide/conf-translation.md)
+   - 扩展功能 {#aemg-customization}
+      - [为Cloud Service的查找和替换功能部署自定义索引](./install-conf-guide/custom-indexing-cs.md)
+      - [为内部部署的查找和替换功能重新编制索引](./install-conf-guide/custom-indexing-on-prem.md)
+      - [AEM Sites的组件映射](./install-conf-guide/component-mapping.md)
+   - 附录 {#appendix}
+      - [附录](./install-conf-guide/aemg-appendix.md)
+
 - API 引用 {#api-reference}
    - [简介](./api-reference/introduction.md)
    - [用于输出管理的REST API](./api-reference/output-management.md)
@@ -598,7 +720,7 @@ ht-degree: 9%
    - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
    - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
    - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-   - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+   - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
    - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)

@@ -5,7 +5,8 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 9%
@@ -18,13 +19,13 @@ ht-degree: 9%
 
 AEM文档中的以下主题将帮助您了解用户管理与安全相关的概念和功能：
 
-- AEM中的[用户和组](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- AEM中的[用户和组](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- AEM中的[权限](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- AEM中的[权限](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [管理用户和组](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [管理用户和组](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [管理权限](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [管理权限](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## AEM Guides创建的用户组 {#id181TF0K0MHT}

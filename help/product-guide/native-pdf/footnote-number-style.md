@@ -1,11 +1,12 @@
 ---
-title: 本机PDFPublish功能 | 在脚注中使用自定义样式
+title: 本机PDF发布功能|在脚注中使用自定义样式
 description: 了解如何在脚注中对数字应用样式。
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -80,7 +81,7 @@ content: "(" counter(footnote, decimal) ")";
 
 ```css
 .fn[id]::footnote-call {
-		display: none;
+        display: none;
                         }
 ```
 
@@ -97,16 +98,16 @@ content: "(" counter(footnote, decimal) ")";
 
 ### CSS样式
 
-可以在PDF文档中应用样式和设置脚注区域的格式。 例如，您可以更改边框长度、样式、颜色和宽度。
+可以在PDF文档中应用样式并设置脚注区域的格式。 例如，您可以更改边框长度、样式、颜色和宽度。
 
 ```css
-	@page {
-	  @footnote {
-   		border-top-style: solid;
-   		border-top-color: #FF0000;
-   		border-top-width: 3px;
- 		        }
-	      }
+   @page {
+     @footnote {
+           border-top-style: solid;
+           border-top-color: #FF0000;
+           border-top-width: 3px;
+                 }
+         }
 ```
 
 ## 重新开始脚注的编号
@@ -137,7 +138,7 @@ counter-reset: footnote
 
 ```css
 .fn{
-  	display: inline;
+      display: inline;
               }
 ```
 
@@ -145,7 +146,7 @@ counter-reset: footnote
 
 您还可以交叉引用脚注并在PDF输出中多次引用同一脚注。 这有助于您在文档中多次引用同一引用或详细注释，而无需再次为其创建脚注。
 
-例如，以下屏幕截图显示了如何将同一脚注交叉引用到PDF输出中的所有城市。
+例如，以下屏幕截图显示了如何在PDF输出中将同一脚注交叉引用到所有城市。
 <img width="550" alt="pdf中的脚注引用" src="./assets/link-footnotes.png" border="2px">
 
 *插入脚注的交叉引用。*
@@ -158,8 +159,8 @@ counter-reset: footnote
 
 ```css
     .xref-fn{
-	background-color: red;
-	}
+    background-color: red;
+    }
 ```
 
 

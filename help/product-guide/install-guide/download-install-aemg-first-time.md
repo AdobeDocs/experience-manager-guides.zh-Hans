@@ -5,7 +5,8 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: dbcc625220c9ad1fa60942b2f43c38d3d6778541
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 >
 > 如果要将Livefyre与AEM Guides结合使用，请确保先安装3.0之前的Livefyre版本，然后再安装AEM Guides。 如果您使用的是Livefyre版本3.0或更高版本，则没有此类限制。
 
-1. 从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载AEM Guides。
+1. 从[AEM Guides软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载Adobe。
 
    >[!NOTE]
    >
@@ -32,7 +33,7 @@ ht-degree: 0%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   包管理器可管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/package-manager.html)。
+   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -53,6 +54,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在安装程序中所有AEM服务器实例上执行安装过程。
+> 在您的安装程序中，对AEM服务器的所有实例执行安装过程。
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)

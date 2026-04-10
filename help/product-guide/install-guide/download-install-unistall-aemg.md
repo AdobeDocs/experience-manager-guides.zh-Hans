@@ -5,7 +5,8 @@ exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -49,4 +50,4 @@ ht-degree: 0%
 1. 单击&#x200B;**使缓存失效**。
 1. 清理浏览器的缓存。
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)

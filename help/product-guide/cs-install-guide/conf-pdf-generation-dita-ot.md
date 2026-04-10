@@ -5,7 +5,8 @@ exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # 配置单主题PDF生成 {#id22ADC70M0XA}
 
-借助AEM Guides，您可以生成单个主题的PDF或整个映射文件。 您可以使用本机PDF或DITA-OT方法以PDF格式发布主题。 使用本机PDF方法，根据W3C CSS3和CSS分页PDF标准生成功能丰富的媒体输出。 可以使用DITA-OT方法从映射操控板为映射生成PDF输出。
+借助AEM Guides，您可以生成单个主题的PDF或整个映射文件。 您可以使用本机PDF或DITA-OT方法以PDF格式发布主题。 使用本机PDF方法，根据W3C CSS3和CSS分页媒体标准生成功能丰富的PDF输出。 可以使用DITA-OT方法从映射仪表板为映射生成PDF输出。
 
 >[!NOTE]
 >
@@ -57,6 +58,6 @@ ht-degree: 0%
 
 1. 保存文件并将其上传。
 
-执行上述给定步骤后，如果从Web编辑器的“用户首选项”中选择相同的文件夹配置文件，则将在主题的预览模式下看到用于生成PDF的选项。
+执行上述步骤后，如果从Web编辑器的“用户首选项”中选择相同的文件夹配置文件，则将在主题的预览模式下看到用于生成PDF的选项。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

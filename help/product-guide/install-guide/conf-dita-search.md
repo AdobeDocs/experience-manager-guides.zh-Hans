@@ -5,9 +5,10 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1692'
 ht-degree: 1%
 
 ---
@@ -72,7 +73,7 @@ ht-degree: 1%
 1. 在&#x200B;**设置**&#x200B;选项卡中，为新添加的&#x200B;**属性谓词**&#x200B;组件提供以下详细信息：
 
    - **字段标签**： UUID
-   - **属性名称**： jcr：content/fmUuid
+   - **属性名称**： jcr:content/fmUuid
 1. 单击&#x200B;**完成**&#x200B;以保存更改。
 
    当您访问Assets UI中的过滤器选项时，您将获得基于UIS的搜索过滤选项。
@@ -166,7 +167,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
    /libs/fmdita/config/serializationconfig.xml
 
-1. 在`apps`节点内创建`config`文件夹的覆盖节点。
+1. 在`config`节点内创建`apps`文件夹的覆盖节点。
 
 1. 导航到`apps`节点中可用的配置文件：
 
@@ -178,7 +179,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
 1. 打开Adobe Experience Manager Web控制台配置页面。 用于访问配置页面的默认URL为：
 
-   http://&lt;服务器名称\>：&lt;端口\>/system/console/configMgr
+   http://<服务器名称\>：<端口\>/system/console/configMgr
 
 1. 搜索并单击&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包。
 
@@ -202,7 +203,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
 1. 打开Adobe Experience Manager Web控制台配置页面。 用于访问配置页面的默认URL为：
 
-   http://&lt;服务器名称\>：&lt;端口\>/system/console/configMgr
+   http://<服务器名称\>：<端口\>/system/console/configMgr
 
 1. 搜索并单击&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包。
 
@@ -258,7 +259,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
 1. 导航到位于以下位置的lucene节点：
 
-   /oak：index/lucene
+   /oak:index/lucene
 
 1. 在lucene节点中添加以下属性：
 

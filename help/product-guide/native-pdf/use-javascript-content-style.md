@@ -1,11 +1,12 @@
 ---
-title: 本机PDFPublish功能 | 使用JavaScript处理内容或样式
+title: 本机PDF发布功能|使用JavaScript处理内容或样式
 description: 了解如何为内容创建使用样式表和样式。
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -14,12 +15,12 @@ ht-degree: 0%
 
 # 使用JavaScript处理内容或样式
 
-本机PDF发布功能允许您运行JavaScript以处理在生成最终PDF之前应用于内容的内容或样式。 此功能可让您完全控制最终输出的生成方式。 例如，您可能希望向PDF输出(位于另一个PDF中)添加法律声明信息。 使用JavaScript，您可以在为基本PDF创建内容后，但在生成最终PDF之前添加法律声明信息。\
+本机PDF发布功能允许您运行JavaScript，以在生成最终PDF之前处理应用于内容的内容或样式。 此功能可让您完全控制最终输出的生成方式。 例如，您可能希望将法律声明信息添加到驻留在另一个PDF中的PDF输出中。 使用JavaScript，您可以在为基本内容创建PDF后，但在生成最终PDF之前，添加法律声明信息。\
 为了支持JavaScript执行，本机PDF发布功能提供了以下回调函数：
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`：此回调函数在生成目录之前执行。
-* `window.pdfLayout.onBeforePagination(callback)`：此回调函数在生成目录之后，但在PDF中添加分页符之前执行。
-* `window.pdfLayout.onAfterPagination(callback)`：此回调函数在PDF中添加了目录和分页符之后执行。
+* `window.pdfLayout.onBeforePagination(callback)`：此回调函数在生成目录之后、但在PDF中添加分页符之前执行。
+* `window.pdfLayout.onAfterPagination(callback)`：此回调函数在目录和分页符添加到PDF之后执行。
 
 >[!NOTE]
 >
@@ -65,7 +66,7 @@ window.addEventListener('DOMContentLoaded', function () {
 >
 >必须先调用`window.addEventListener('DOMContentLoaded', function ()`函数，然后才能使用回调函数。
 
-接下来，必须从用于生成PDF输出的模板文件中调用此脚本。 例如，我们将其添加到目录模板中。 确保`<script>`标记已添加到`<body>`标记内的预定义`<div>`标记中。 如果您将其添加到`<head>`标记中或`<body>`标记之外，则脚本将不会执行。
+接下来，必须从用于生成PDF输出的模板文件中调用此脚本。 例如，我们将其添加到目录模板中。 确保`<script>`标记已添加到`<div>`标记内的预定义`<body>`标记中。 如果您将其添加到`<head>`标记中或`<body>`标记之外，则脚本将不会执行。
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -73,10 +74,10 @@ window.addEventListener('DOMContentLoaded', function () {
 
 <img src="./assets/fig-title-below-image.png" width="500">
 
-## 为草稿文档的PDF输出添加水印 {#watermark-draft-document}
+## 在草稿文档的PDF输出中添加水印 {#watermark-draft-document}
 
 您还可以使用JavaScript添加条件水印。 当满足定义的条件时，这些水印将添加到文档中。\
-例如，您可以创建一个包含以下代码的JavaScript文件，以便为尚未批准的文档的PDF输出创建水印。 如果您为“已批准”文档生成的文档PDF，则不会显示此水印。
+例如，您可以创建一个包含以下代码的JavaScript文件，以便为尚未批准的文档的PDF输出创建水印。 如果您为“已批准”文档中的文档生成PDF，则不会显示此水印。
 
 ```css
 ...

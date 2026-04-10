@@ -1,24 +1,25 @@
 ---
-title: 配置Dispatcher
+title: 配置 Dispatcher
 description: 了解如何配置Dispatcher
 exl-id: 525de1c3-5a79-4d65-89b4-ca05ae660c2c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# 配置Dispatcher {#id213BCM0M05U}
+# 配置 Dispatcher {#id213BCM0M05U}
 
 如果您计划在AEM创作实例上将Dispatcher与AEM Guides结合使用，则需要执行以下其他配置以完成设置：
 
 >[!NOTE]
 >
-> Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关使用Dispatcher的详细信息，请参阅[Dispatcher概述](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=zh-Hans)。
+> Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关使用Dispatcher的详细信息，请参阅[Dispatcher概述](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en)。
 
 ## 在URL中启用AllowEncodedSlases
 
@@ -81,4 +82,4 @@ ht-degree: 5%
                 }
 ```
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)

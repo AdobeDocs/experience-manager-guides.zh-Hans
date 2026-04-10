@@ -4,7 +4,9 @@ description: 配置基本输出位置以发布内部部署服务的输出
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ab6f1f09de2ef758d7f05ba0a49194ac9f387dea
+exl-id: ae1d805a-7b79-4b76-8be2-a19c5552530c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 1%
@@ -28,5 +30,3 @@ ht-degree: 1%
 1. 更新属性&#x200B;**基本输出位置**&#x200B;以指定AEM存储库中发布后保存PDF的默认路径。 此外，如果输入的路径无效，它将自动还原为默认路径： /content/dam/fmdita-outputs。
 
 1. 单击&#x200B;**保存**。
-
-

@@ -5,7 +5,8 @@ exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # 上载现有DITA内容 {#id176FF000JUI}
 
-您很可能有一个包含要与AEM Guides一起使用的现有DITA内容的存储库。 对于此类现有内容，您可以使用[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans)中介绍的任何受支持方法。
+您很可能有一个包含要与AEM Guides一起使用的现有DITA内容的存储库。 对于此类现有内容，您可以使用[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)中介绍的任何受支持方法。
 
 ## 配置UUID文件名模式
 
@@ -44,12 +45,12 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 - `jcr:primaryType=sling:Folder`：将此参数&#x200B;*指定为*&#x200B;以创建文件夹类型资源。
 
-- `<server folder path>`：完整的文件夹路径，包括您要在AEM存储库中创建的新文件夹的名称。 例如，如果您将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，则在DAM的`projects`文件夹中创建文件夹`AEM-Guides`。
+- `<server folder path>`：完整的文件夹路径，包括您要在AEM存储库中创建的新文件夹的名称。 例如，如果您将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，则在DAM的`AEM-Guides`文件夹中创建文件夹`projects`。
 
 
 **上载文件**
 
-运行以下命令在AEM资料档案库中上传文件：
+运行以下命令以在AEM存储库中上传文件：
 
 ```
 curl --user <username>:<password> -T "<local file path>" "<server folder path>"
@@ -61,7 +62,7 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 - ``local file path``：本地系统上要上载的完整文件路径。
 
-- `<server folder path>`：要上载文件的AEM服务器上的完整文件夹路径。
+- `<server folder path>`：您要将文件上传到的AEM服务器上的完整文件夹路径。
 
 
 **添加元数据**
@@ -81,4 +82,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`：完整的文件夹路径，包括文件名及其元数据节点。 例如，如果将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`，则指定的元数据信息在`intro.xml`文件中设置。
 
 
-**父主题：**&#x200B;[&#x200B;迁移现有内容](migrate-content.md)
+**父主题：**[&#x200B;迁移现有内容](migrate-content.md)

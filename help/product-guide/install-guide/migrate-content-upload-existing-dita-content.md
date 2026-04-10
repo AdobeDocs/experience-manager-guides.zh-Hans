@@ -5,7 +5,8 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 0%
@@ -53,7 +54,7 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
-1. 输入以下详细信息以连接到AEM资料档案库：
+1. 输入以下详细信息以连接到AEM存储库：
 
    - **名称**：输入描述性名称以标识与AEM服务器的连接。
    - **服务器**：输入AEM服务器的URL和端口号。
@@ -100,7 +101,7 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
 - 从AEM的Assets UI中使用&#x200B;**创建** \> **文件**&#x200B;工作流。
 - 使用诸如WinSCP之类的工具。
 
-如果您使用诸如WinSCP之类的工具，则可以通过在configMgr中设置&#x200B;**将具有相同UUID的旧文件移动到新文件夹**&#x200B;选项来定义要对重复文件执行的操作。 此选项定义对AEM存储库中某个其他位置可用的文件执行的操作。 此设置在configMgr的&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包中可用。
+如果您使用诸如WinSCP之类的工具，则可以通过在configMgr中设置&#x200B;**将具有相同UUID的旧文件移动到新文件夹**&#x200B;选项来定义要对重复文件执行的操作。 此选项定义对AEM存储库中其他某个位置可用的文件执行的操作。 此设置在configMgr的&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包中可用。
 
 默认情况下，**将具有相同UUID的旧文件移动到新文件夹**&#x200B;选项处于打开状态。 这意味着，如果上传的文件位于存储库中的其他某个文件夹中，则现有文件会被移动到当前位置并被上传的文件覆盖。 如果不选择此选项，则文件将在其现有位置被覆盖。
 
@@ -140,12 +141,12 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 - `jcr:primaryType=sling:Folder`：将此参数&#x200B;*指定为*&#x200B;以创建文件夹类型资源。
 
-- `<server folder path>`：完整的文件夹路径，包括您要在AEM存储库中创建的新文件夹的名称。 例如，如果您将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，则在DAM的`projects`文件夹中创建文件夹`AEM-Guides`。
+- `<server folder path>`：完整的文件夹路径，包括您要在AEM存储库中创建的新文件夹的名称。 例如，如果您将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，则在DAM的`AEM-Guides`文件夹中创建文件夹`projects`。
 
 
 **上载文件**
 
-运行以下命令在AEM资料档案库中上传文件：
+运行以下命令以在AEM存储库中上传文件：
 
 ```curl
 curl --user <username>:<password> -T "<local file path>" "<server folder path>"
@@ -157,7 +158,7 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 - ``local file path``：本地系统上要上载的完整文件路径。
 
-- `<server folder path>`：要上载文件的AEM服务器上的完整文件夹路径。
+- `<server folder path>`：您要将文件上传到的AEM服务器上的完整文件夹路径。
 
 
 **添加元数据**
@@ -177,4 +178,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`：完整的文件夹路径，包括文件名及其元数据节点。 例如，如果将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`，则指定的元数据信息在`intro.xml`文件中设置。
 
 
-**父主题：**&#x200B;[&#x200B;迁移现有内容](migrate-content.md)
+**父主题：**[&#x200B;迁移现有内容](migrate-content.md)

@@ -1,23 +1,24 @@
 ---
-title: Recommendations优化性能
-description: 了解Recommendations以实现性能优化
+title: 性能优化建议
+description: 了解性能优化的建议
 exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
 
-# Recommendations优化性能 {#id213BD0JG0XA}
+# 性能优化建议 {#id213BD0JG0XA}
 
 ## 配置数据存储\（必需\）
 
 **有什么变化？**
-在配置`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`下将`minRecordLength`属性设置为值`100`有关文件日期存储和S3数据存储的更多信息，请参阅[在AEM 6](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/data-store-config.html)中配置节点存储和数据存储。
+在配置`minRecordLength`下将`100`属性设置为值`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`有关文件日期存储和S3数据存储的更多信息，请参阅[在AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html)中配置节点存储和数据存储。
 
 >[!NOTE]
 >
@@ -32,14 +33,14 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 ## 更新Lucene索引\（必需\）
 
 **有什么变化？**
-从oak：index/lucene中排除/var/dxml。
+从oak:index/lucene中排除/var/dxml。
 
 >[!NOTE]
 >
 > AEM Guides从不使用Lucene索引搜索/var/dxml节点中的内容。
 
 **何时配置？**
-如果您在迁移内容之前在新系统上进行了此更改，则只需更新oak：index/lucene。 否则，在内容已迁移的现有系统上，在oak：index/lucene中进行更改后，重新构建Lucene \(*)的索引，可能需要几个小时才能完成*\)。
+如果您在迁移内容之前在新系统上进行了此更改，则只需更新oak:index/lucene。 否则，在内容已迁移的现有系统上，在oak:index/lucene中进行更改后，重新构建Lucene \(*)的索引，可能需要几个小时才能完成*\)。
 
 **此更改的结果**
 此更改会阻止/var/dxml节点建立索引并存储在区段存储中。
@@ -51,7 +52,7 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 
  — 将JVM栈大小设置为最小总可用内存的1/4。 使用参数`-Xmx<size>`设置栈内存大小。 将 — `Xms`的值设置为等于`-Xmx`。
 
- — 启用`-XX:+HeapDumpOnOutOfMemoryError`并设置`-XX:HeapDumpPath=</path/to/folder` `>`的路径。
+ — 启用`-XX:+HeapDumpOnOutOfMemoryError`并设置`-XX:HeapDumpPath=</path/to/folder``>`的路径。
 
  — 启用Java GC日志为：
 
@@ -80,7 +81,7 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 ## 创作实例上的客户端库缩小\（可选\）
 
 **有什么变化？**
-应将客户端库设置为在创作实例中缩小。 这可以确保在用户从不同位置浏览系统时下载的字节数减少。 要进行此更改，请从Felix控制台的&#x200B;**HTML库管理器**&#x200B;中设置配置。
+应将客户端库设置为在创作实例中缩小。 这可以确保在用户从不同位置浏览系统时下载的字节数减少。 要进行此更改，请从Felix控制台的**HTML库管理器**&#x200B;中设置配置。
 
 **何时配置？**
 这可以在运行时通过Felix控制台或通过代码部署完成。
@@ -93,7 +94,7 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 **有什么变化？**
 如果您使用DITA-OT发布输出并且还定义了多个并发发布线程，则需要此更改。
 
-默认情况下，AEM Guides将发布线程数设置为CPU+1数量。 但是，建议将此值设置为CPU总数的一半\(1/2\)或三分之一\(1/3\)。 为此，请根据建议在配置`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`下设置&#x200B;**生成池大小**&#x200B;属性。
+默认情况下，AEM Guides将发布线程数设置为CPU+1数量。 但是，建议将此值设置为CPU总数的一半\(1/2\)或三分之一\(1/3\)。 为此，请根据建议在配置&#x200B;**下设置**&#x200B;生成池大小`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`属性。
 
 **何时配置？**
 这可以在运行时通过Felix控制台或通过代码部署完成。
@@ -101,18 +102,18 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 **此更改的结果**
 此更改可确保在执行中的创作实例上，所有资源不被分配给发布操作。 这还可以使系统资源可供作者使用，从而提供更好的用户体验。
 
-## 为AEM Site输出生成配置节点的批处理大小\（必需，具体取决于用例\）
+## 为AEM站点输出生成配置节点的批量大小\（必需，具体取决于用例\）
 
 **有什么变化？**
 如果要生成AEM Sites输出，则必须进行此更改。
 
-根据您的系统配置，将`com.adobe.fmdita.config.ConfigManager`下的&#x200B;**限制栈**&#x200B;中的AEM站点页数设置为一个数字。 此属性定义在生成网站页面时要提交的节点的批量大小。 例如，在具有较大数量的CPU和栈大小的系统上，您可以将默认值从`500`增加到更大的数量。 您需要使用更改后的值测试运行，以得到此属性的最佳值。
+根据您的系统配置，将&#x200B;**下的**&#x200B;限制栈中`com.adobe.fmdita.config.ConfigManager`的AEM站点页数设置为一个数字。 此属性定义在生成网站页面时要提交的节点的批量大小。 例如，在具有较大数量的CPU和栈大小的系统上，您可以将默认值从`500`增加到更大的数量。 您需要使用更改后的值测试运行，以得到此属性的最佳值。
 
 **何时配置？**
 这可以在运行时通过Felix控制台或通过代码部署完成。
 
 **此更改的结果**
-**Limit AEM Site Pages in Heap**&#x200B;属性的数量增加会优化AEM Site输出生成过程。
+**Limit AEM Site Pages in Heap**&#x200B;属性的数量增加可优化AEM站点输出生成过程。
 
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)

@@ -4,7 +4,8 @@ description: 了解Experience Manager Guides编辑器界面中可用的各种设
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 0%
@@ -276,9 +277,9 @@ ht-degree: 0%
 
 工作区设置中的![元数据选项卡](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
 您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。

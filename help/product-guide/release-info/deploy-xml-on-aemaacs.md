@@ -4,21 +4,22 @@ description: 了解如何将 [!DNL AEM Guides] 添加到您的 [!DNL AEM as a Cl
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+hidefromtoc: true
+source-git-commit: 55edd53d1dda7a68352e53b2e59eafd15b677fdd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides]个as a Cloud Service部署
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service部署
 
 了解如何将[!DNL Experience Manager Guides]添加到您的[!DNL Experience Manager as a Cloud Service]环境。
 
 
 >[!NOTE]
 >
-> 从2024.2.0版本开始，Experience Manager Guides仅作为适用于Experience Manageras a Cloud Service的自动加载项提供。 如果您使用Experience Manager Guides的手动部署，请在为项目启用Experience Manager Guides之前删除cloud manage git代码库中的第`<module>dox.installer</module> from file dox/pom.xml`行。
+> 从2024.2.0版本开始，Experience Manager Guides仅作为Experience Manager as a Cloud Service的自动加载项提供。 如果您使用Experience Manager Guides的手动部署，请在为项目启用Experience Manager Guides之前删除cloud manage git代码库中的第`<module>dox.installer</module> from file dox/pom.xml`行。
 
 1. 登录到[!UICONTROL Cloud Manager]。
 
