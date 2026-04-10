@@ -94,7 +94,7 @@ ht-degree: 0%
 
 创建自定义模板后，您可以从PDF输出预设的页面布局中选择它。
 
-了解如何[发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en)。
+了解如何[发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=zh-Hans)。
 
 >[!NOTE]
 >

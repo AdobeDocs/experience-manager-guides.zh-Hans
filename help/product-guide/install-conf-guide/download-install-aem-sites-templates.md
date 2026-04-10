@@ -178,4 +178,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 对于Cloud Service设置，请确保在部署到生产环境之前在非生产环境中测试所有配置。 <br><br>有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
+> 对于Cloud Service设置，请确保在部署到生产环境之前在非生产环境中测试所有配置。 <br><br>有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。

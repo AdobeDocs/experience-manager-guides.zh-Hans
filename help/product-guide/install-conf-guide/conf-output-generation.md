@@ -346,11 +346,11 @@ AEM Guides提供了用于自定义映射控制台的`apps.fmdita.dashboard-extn`
 
 >[!NOTE]
 >
-> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)。
+> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hans)。
 
 ## 在输出生成期间处理图像演绎版 {#id177BF0G0VY4}
 
-AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)。
+AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=zh-Hans)。
 
 AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 例如，您可以从默认图像演绎版中选择或创建图像演绎版，然后使用相同的图像演绎版发布文档。 用于发布文档的图像演绎版映射存储在`/libs/fmdita/config/ **renditionmap.xml**`文件中。 `renditionmap.xml`文件的片段如下所示：
 
