@@ -24,4 +24,4 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有
 >
 > AEM as a cloud service不支持dispatcher for author实例。
 
-**父主题：**[&#x200B;下载并安装](download-install.md)
+**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)

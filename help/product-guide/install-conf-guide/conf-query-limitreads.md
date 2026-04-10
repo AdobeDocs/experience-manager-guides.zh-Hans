@@ -32,4 +32,4 @@ ht-degree: 1%
 
 当增加此属性值时，它有助于为较大的DITA映射生成报告。
 
-**父主题：**[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)

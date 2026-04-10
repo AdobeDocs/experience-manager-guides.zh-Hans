@@ -56,4 +56,4 @@ ht-degree: 0%
 >
 > 在您的安装程序中，对AEM服务器的所有实例执行安装过程。
 
-**父主题：**[&#x200B;下载并安装](download-install.md)
+**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)

@@ -55,8 +55,8 @@ ht-degree: 0%
 
 有关迁移内容的详细步骤，请参阅以下文章：
 
-- [从**4.3.1非UUID迁移到4.3.2 UUID内容**](../install-conf-guide/non-uuid-4-3.md)
-- [从**4.6.0 Service Pack 4非UUID迁移到4.6.1 UUID内容**](../install-conf-guide/non-uuid-uuid-4-6.md)
+- [从&#x200B;**4.3.1非UUID迁移到4.3.2 UUID内容**](../install-conf-guide/non-uuid-4-3.md)
+- [从&#x200B;**4.6.0 Service Pack 4非UUID迁移到4.6.1 UUID内容**](../install-conf-guide/non-uuid-uuid-4-6.md)
 
 
 

@@ -57,4 +57,4 @@ ht-degree: 1%
 
 - DITA映射控制台中的“报表”选项卡
 
-**父主题：**[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)
