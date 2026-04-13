@@ -4,16 +4,17 @@ description: 了解如何在Web编辑器中配置文件自动保存
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
+source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
 
 # 在Web编辑器中配置文件自动保存 {#id199CC0J0M5Z}
 
-基于浏览器的编辑器中最常见的功能之一是，在特定时间段后能够保存数据。 AEM Guides Web编辑器还支持在指定的时间间隔自动保存主题和映射文件。 触发此功能时，将保存主题或映射的工作副本。 不会创建主题或映射的新版本。 要创建新版本，您必须单击Web编辑器工具栏中的“保存修订版本”图标。
+基于浏览器的编辑器中最常见的功能之一是，能够在特定时间段后保存数据。 AEM Guides Web编辑器还支持在指定的时间间隔自动保存主题和映射文件。 触发此功能时，将保存主题或映射的工作副本。 不会创建主题或映射的新版本。 要创建新版本，您必须单击Web编辑器工具栏中的“保存修订版本”图标。
 
 默认情况下不启用自动保存功能，您需要使用Cloud Service的配置文件和内部部署的`configMgr`中的配置文件启用此功能。
 
