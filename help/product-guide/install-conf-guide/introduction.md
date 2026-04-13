@@ -4,7 +4,8 @@ description: 了解本指南
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 7e44e947348180c3954461a572efec84f34f7bf5
+exl-id: 43167f0e-158e-4599-8451-303750076731
+source-git-commit: 83ccc46ef8b3c2590fa769e43930181578ad96f9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -28,5 +29,4 @@ Adobe Experience Manager Guides \（以后称为&#x200B;*AEM Guides*\）是一�
 
 | 云服务 | 内部部署 |
 |-------------|------------|
-| <ul><li>[部署和调度程序配置](./conf-deployment-dispatcher-cs.md)</li><li>[验证AEM Guides](./verify-aemg-installation.md)</li><li>[升级AEM Guides](./download-install-upgrade-aemg.md)</li><li> [性能优化推荐](./perf-optimization-cs.md)</li></ul> | <ul><li>[技术要求](./aemg-technical-requirements.md)</li><li>[安装AEM](./download-install-aem.md)</li><li>[首次下载并安装AEM Guides](./download-install-aemg-first-time.md)</li><li>[配置Dispatcher](./conf-dispatcher.md)</li><li>[验证AEM Guides](./verify-aemg-installation.md)</li><li>[卸载AEM Guides](./unistall-aemg.md)</li><li>[升级AEM Guides](./download-install-upgrade-aemg.md)</li><li>[性能优化推荐](./perf-optimization-on-prem.md)</li></ul> |
-
+| <ul><li>[部署和调度程序配置](./conf-deployment-dispatcher-cs.md)</li><li>[验证AEM Guides](./verify-aemg-installation.md)</li><li>[升级AEM Guides](./download-install-upgrade-aemg.md)</li><li> [性能优化推荐](./perf-optimization-cs.md)</li></ul> | <ul><li>[技术要求](./aemg-technical-requirements.md)</li><li>[安装AEM](./download-install-aem.md)</li><li>[首次下载并安装AEM Guides](./download-install-aemg-first-time.md)</li><li>[配置Dispatcher](./conf-dispatcher.md)</li><li>[验证AEM Guides](./verify-aemg-installation.md)</li><li>[卸载AEM Guides](./uninstall-aemg.md)</li><li>[升级AEM Guides](./download-install-upgrade-aemg.md)</li><li>[性能优化推荐](./perf-optimization-on-prem.md)</li></ul> |
