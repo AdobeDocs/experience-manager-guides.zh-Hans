@@ -167,4 +167,4 @@ AEM Guides提供了一种“可重复使用的内容”功能，只需单击一�
 <br>
 
 
-在AEM Guides社区[论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)上发布任何查询。
+在AEM Guides社区[论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=zh-Hans)上发布任何查询。

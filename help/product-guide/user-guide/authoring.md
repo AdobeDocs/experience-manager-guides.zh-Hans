@@ -21,7 +21,7 @@ Adobe Experience Manager中内容管理的一些关键概念如下所示：
 
 **资产管理**
 
-Experience Manager Guides使用Adobe Experience Manager的数字资源管理\(DAM\)来管理您的DITA文件。 您上传或签入DAM的文件存储为数字资产。 您可以在Adobe Experience Manager Assets中管理和编辑资源。 有关资产管理的详细信息，请查看[管理资产](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en)。
+Experience Manager Guides使用Adobe Experience Manager的数字资源管理\(DAM\)来管理您的DITA文件。 您上传或签入DAM的文件存储为数字资产。 您可以在Adobe Experience Manager Assets中管理和编辑资源。 有关资产管理的详细信息，请查看[管理资产](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
 
 **链接管理**
 
