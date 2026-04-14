@@ -38,4 +38,4 @@ The Map Editor comes in two modes — the Basic Map Editor and the Advanced Map 
 - 地图编辑器中的&#x200B;**[其他功能](map-editor-other-features.md)**
 
 
-**父主题：**[&#x200B;使用AEM Guides创作内容](authoring-content-xml-doc.md)
+**父主题：**&#x200B;[&#x200B;使用AEM Guides创作内容](authoring-content-xml-doc.md)

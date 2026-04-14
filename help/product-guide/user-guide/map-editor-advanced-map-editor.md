@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **此项前插入/此项后插入** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-显示**在之前插入元素或**在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
+显示&#x200B;**在之前插入元素或**&#x200B;在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
 
 **元素** - ![](images/Add_icon.svg)
 
@@ -280,10 +280,10 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 可通过两种方式使用在映射的“预览”模式下提供的“刷新”功能：
 
-- **映射级别刷新**：选择&#x200B;**刷新**按钮将刷新整个映射的预览（包括所有主题），并将您带到清除视图的第一个滚动位置。
+- **映射级别刷新**：选择&#x200B;**刷新**&#x200B;按钮将刷新整个映射的预览（包括所有主题），并将您带到清除视图的第一个滚动位置。
   ![](images/refresh-map.png){width="650" align="left"}
 
-- **主题级刷新**：从上下文菜单选择&#x200B;**刷新主题**将刷新该特定主题，同时保持滚动位置不变。
+- **主题级刷新**：从上下文菜单选择&#x200B;**刷新主题**&#x200B;将刷新该特定主题，同时保持滚动位置不变。
   ![](images/refresh-topic.png){width="650" align="left"}
 
 **预览地图文件的其他方式**
@@ -296,7 +296,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
   >
   > 如果&#x200B;*预览图*&#x200B;选项在主工具栏中不可见，则它可能已移动到&#x200B;**更多**&#x200B;工具栏菜单下。
 
-- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”****&#x200B;以查看当前映射的预览。
+- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”**&#x200B;**&#x200B;以查看当前映射的预览。
 
   ![](images/map-preview-icon.png){width="650" align="left"}
 
