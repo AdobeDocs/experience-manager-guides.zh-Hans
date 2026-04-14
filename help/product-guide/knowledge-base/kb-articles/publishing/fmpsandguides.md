@@ -5,7 +5,7 @@ exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## FMPS与AEM Guides的兼容性
 
-- 与4.1 AEM Guides的兼容性： [4.1兼容性矩阵](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=zh-Hans/#compatibility-matrix)
+- 与4.1 AEM Guides的兼容性： [4.1兼容性矩阵](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - 与4.0 AEM Guides的兼容性： [4.0兼容性矩阵](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 最新版本： [最新版本信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=zh-Hans)
+- 最新版本： [最新版本信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## 安装
 
@@ -66,37 +66,37 @@ FrameMaker Publishing Server (FMPS)可用于生成DITA内容。 FMPS支持多种
 
 ## 常见问题解答和疑难解答：
 
-- ### FMPS发布失败，出现“超时异常”
+### FMPS发布失败，出现“超时异常”
 
 >检查并增加/system/console/configMgr/com.adobe.fmdita.config.ConfigManager中的“FMPS超时”（秒）值
 
-- ### 无法在下拉列表中获取FMPS预设
+### 无法在下拉列表中获取FMPS预设
 
 >确保在服务器上创建了预定义的FMPS预设，并且您的连接设置正确。
 
-- ### 发布时收到空白PDF
+### 发布时收到空白PDF
 
 >如果您使用的是UUID，请确保已选中FrameMaker编辑首选项中的“使用基于UUID的引用”，并反之选中非UUID AEM指南的“使用UUID的引用”。
 
-- ### 我的设置/对话框未应用于最终发布的输出
+### 我的设置/对话框未应用于最终发布的输出
 
 >确认您未同时选择FMPS预设和设置/Diaval文件。 使用FrameMaker手动检查输出。
 
-- ### 未从FMPS发布基线
+### 未从FMPS发布基线
 
 >FMPS2020.0.2或更高版本与基线发布兼容。
 >确保正确创建了基线；要进行检查，请转到“映射仪表板” — “主题” — “下载”  映射并选择“使用基线”。
 
-- ### 从FMPS发布任务所花费的时间比其他引擎多
+### 从FMPS发布任务所花费的时间比其他引擎多
 
 >从FMPS发布时，理想的固定标头时间约为3 - 4分钟；如果您认为时间更长，请联系您的FMPS管理员或联系Adobe支持部门。
 
 ## 其他资源：
 
-[FMPS学习和支持](https://helpx.adobe.com/cn/support/framemaker-publishing-server.html)
+[FMPS学习和支持](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
 [AEM Guides学习与支持](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker和FMPS社区](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[AEM Guides社区](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=zh-Hans)
+[AEM Guides社区](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

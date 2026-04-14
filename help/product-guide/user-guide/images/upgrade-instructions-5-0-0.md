@@ -1,7 +1,7 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides 5.0.0版本的升级说明
+title: 发行说明| Adobe Experience Manager Guides 5.0.0版的升级说明
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides的5.0.0版本。
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 6%
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 本文介绍5.0.0版本的Adobe Experience Manager Guides的升级说明和兼容性矩阵。
 
-有关新功能和增强功能的更多信息，请查看 [5.0.0 版本中的新增功能](../release-info/whats-new-5-0.md)。
+有关新功能和增强功能的更多信息，请查看 [5.0.0 版本中的新增功能](/help/product-guide/release-info/whats-new-5-0-0.md)。
 
-有关此版本中已修复的问题的列表，请查看[5.0.0版本](../release-info/fixed-issues-5-0-0.md)中已修复的问题。
+有关此版本中已修复的问题的列表，请查看[5.0.0版本](/help/product-guide/release-info/fixed-issues-5-0-0.md)中已修复的问题。
 
 ## 兼容性矩阵
 
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 版本6.5 Service Pack 22、Service Pack 21和Service Pack 20
 
-有关更多详细信息，请查看On-Premise Installation and Configuration Guide中的[技术要求](../install-guide/download-install-technical-requirements.md)部分。
+有关更多详细信息，请查看On-Premise Installation and Configuration Guide中的[技术要求](/help/product-guide/install-guide/download-install-technical-requirements.md)部分。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -62,10 +62,10 @@ ht-degree: 6%
 - 如果您使用的是版本4.2、4.2.1（修补程序4.2.1.3）、4.1或4.1.x，则需要在升级到版本5.0.0之前升级到版本4.4。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
 
 >[!NOTE]
 >
 >在升级AEM版本之前，必须安装Experience Manager Guides Service Pack。
 
-有关详细信息，请查看Experience Manager Guides内部部署版本[的](../install-guide/upgrade-xml-documentation.md)升级说明。
+有关详细信息，请查看Experience Manager Guides内部部署版本[的](/help/product-guide/install-guide/upgrade-xml-documentation.md)升级说明。
