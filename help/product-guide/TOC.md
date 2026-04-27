@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 33f261cafedf505f6d67cdb32d7529d9bfdfe305
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '3233'
-ht-degree: 8%
+source-wordcount: '3316'
+ht-degree: 7%
 
 ---
 
@@ -188,13 +188,13 @@ ht-degree: 8%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页 {#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -220,7 +220,7 @@ ht-degree: 8%
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
             - [搜索面板](./user-guide/search-panel-explorer.md)
-         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -396,7 +396,7 @@ ht-degree: 8%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - [内部部署基础知识](./install-guide/introduction.md)
@@ -612,7 +612,7 @@ ht-degree: 8%
          - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
    - 性能优化建议 {#performance-optimization-aemg}
       - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
-      - [针对内部部署的性能优化](./install-conf-guide/perf-optimization-on-prem.md)
+      - 针对内部部署的[性能优化](./install-conf-guide/perf-optimization-on-prem.md)
    - 内容迁移 {#migrate-content-cs}
       - [迁移现有内容](./install-conf-guide/migrate-content.md)
       - [使用用于内部部署的Framemaker和WebDav工具上载现有DITA内容](./install-conf-guide/upload-dita-content.md)
@@ -633,7 +633,7 @@ ht-degree: 8%
          - [配置文件名](./install-conf-guide/conf-file-names-overview.md)
          - [根据UUID配置自动文件名](./install-conf-guide/auto-uuid-filenames.md)
          - [为有效的文件名字符配置Regx](./install-conf-guide/file-names-valid-regx.md)
-      - 资源处理 {#asset-processing}
+      - 资产处理 {#asset-processing}
          - [配置资源处理功能](./install-conf-guide/conf-asset-processing.md)
          - [为文件夹配置后处理](./install-conf-guide/conf-folder-post-processing.md)
       - [版本管理](./install-conf-guide/version-management.md)
@@ -688,8 +688,8 @@ ht-degree: 8%
       - [配置输出生成设置](./install-conf-guide/conf-output-generation.md)
       - 配置AEM站点输出设置 {#conf-aem-sites-output}
          - [下载并安装AEM Sites模板](./install-conf-guide/download-install-aem-sites-templates.md)
-         - [自定义现有AEM站点模板的一般说明](./install-conf-guide/customize-existing-site-template.md)
-         - [自定义新的AEM站点输出](./install-conf-guide/customize-aem-site-output.md)
+         - [自定义新的AEM站点模板的一般说明](./install-conf-guide/customize-existing-site-template.md)
+         - [自定义现有AEM站点输出](./install-conf-guide/customize-aem-site-output.md)
          - [使用AEM组件为旧版AEM站点输出自定义DITA元素映射](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
          - [在AEM Sites输出中叠加HTML标记以进行内部部署](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [为AEM站点输出配置有效文件名](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
@@ -720,7 +720,7 @@ ht-degree: 8%
    - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
    - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
    - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-   - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+   - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
    - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)

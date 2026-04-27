@@ -4,14 +4,15 @@ description: 了解如何为AEM Guides自定义现有AEM站点模板
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 1%
+source-wordcount: '944'
+ht-degree: 2%
 
 ---
 
-# 自定义现有AEM站点模板
+# 自定义新的AEM站点模板
 
 本指南提供了分步说明，用于自定义现有AEM站点模板以与AEM Guides一起使用以从DITA映射和主题生成AEM Sites。
 
@@ -85,7 +86,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 确保将:resourceType下使用sling`wcm/foundation/components`的组件迁移到相应的`core/wcm/components`。
+> 确保将`wcm/foundation/components`下使用sling:resourceType的组件迁移到相应的`core/wcm/components`。
 
 在同一模板的结构中添加相同的（容器和文本组件）：
 
@@ -139,4 +140,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 在部署到生产环境之前，请确保在非生产环境中测试模板。<br><br>有关更多详细信息，请参阅官方的[AEM Guides](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/get-started/authoring)文档。
+> 在部署到生产环境之前，请确保在非生产环境中测试模板。<br><br>有关更多详细信息，请参阅官方的[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/get-started/authoring)文档。
