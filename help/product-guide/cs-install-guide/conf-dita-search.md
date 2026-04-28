@@ -219,7 +219,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
 >[!NOTE]
 >
-> 您可以使用此过程将任何其他文件夹位置添加到排除列表中。 有关使用索引的更多详细信息，请参阅[内容搜索和索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)。
+> 您可以使用此过程将任何其他文件夹位置添加到排除列表中。 有关使用索引的更多详细信息，请参阅[内容搜索和索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=zh-Hans)。
 
 1. 在自定义damAssetLucene索引中添加以下属性：
 
