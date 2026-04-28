@@ -5,9 +5,9 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ AEM Guides允许您创建以下类型的DITA主题：主题、任务、概念、
 
    如果文件命名选项可用，则也会根据文档的&#x200B;**标题**&#x200B;自动建议该名称。 如果要手动指定文档名称，请确保&#x200B;**名称**&#x200B;不包含任何空格、撇号或大括号，且以.xml或.dita结尾。 默认情况下，AEM Guides会将所有特殊字符替换为连字符。 有关命名DITA文件的最佳实践，请参阅最佳实践指南中的文件名部分。
 
-1. 单击&#x200B;**创建**。此时将显示“创建的主题”消息。
+1. 单击&#x200B;**创建**。 此时将显示“创建的主题”消息。
 
    您可以选择在Web编辑器中打开主题进行编辑，或者将主题文件保存在AEM存储库中。
 
@@ -50,7 +50,7 @@ AEM Guides允许您创建以下类型的DITA主题：主题、任务、概念、
 
    ![](images/topic-version-none_cs.png){width="550" align="left"}
 
-   新创建的主题的版本信息显示为&#x200B;*none*。 保存新版本时，会为其分配一个版本号1.0。有关保存新版本的更多信息，请参阅[另存为新版本](web-editor-features.md#save-as-new-version-id209ME400GXA)。
+   新创建的主题的版本信息显示为&#x200B;*none*。 保存新版本时，会为其分配一个版本号1.0。 有关保存新版本的更多信息，请参阅[另存为新版本](web-editor-features.md#save-as-new-version-id209ME400GXA)。
 
 
 >[!NOTE]

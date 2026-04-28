@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6050e2667698150df9f76068dce4ca9f9b56a443
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,13 @@ ht-degree: 0%
 
       - **UUID**：文件的通用唯一标识符\(UUID\)。
 
-      - **大小**：文件大小（以字节为单位）。
+      - **Size**: Files size in bytes.
 
       - **状态**：文档的当前状态 — 草稿、正在审阅或已审阅。
 
       - **重复使用的次数**：相应主题已重复使用的次数。 此计算公式为“引用者”列中的条目总数减去1。
 
-      - **引用者**：已引用相应主题的主题。 在此，仅考虑直接\（第一级\）引用。 多个主题用逗号分隔。 引用的文件的UUID也在方括号中提及。单击主题标题链接将打开主题预览。
+      - **引用者**：已引用相应主题的主题。 在此，仅考虑直接\（第一级\）引用。 多个主题用逗号分隔。 引用的文件的UUID也在方括号中提及。单击主题的标题链接将打开主题预览。
 
 
 >[!NOTE]

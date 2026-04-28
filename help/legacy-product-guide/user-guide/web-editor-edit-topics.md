@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,6 @@ Experience Manager Guides还允许您跨元素选择内容。 选择内容后，
 
    - 选择元素中的内容。
    - 从顶部的辅助工具栏中选择![添加](images/Add_icon.svg)图标以查看&#x200B;**包含元素**&#x200B;的环绕对话框。 该对话框列出了选定内容的有效元素。
-
      >[!NOTE]
      >
      > 也可以通过选择所选内容的上下文菜单来查看“带元素的环绕”对话框。

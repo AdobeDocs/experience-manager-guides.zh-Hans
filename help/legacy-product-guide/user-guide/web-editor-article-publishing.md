@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ddd6da80-d179-4da3-bff2-915c17bb6e5a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 AEM Guides提供了集成在Web编辑器中的基于文章的发布功能，该功能允许用户同时发布一个或多个主题。
 
-此引擎还附带一个OOTB内容模板，该模板基于AEM核心组件构建，允许用户创建技术内容的基于知识的存储库。 可以自定义此模板以满足客户的需求。此引擎允许用户以累加方式构建DITA映射，并在准备好时发布主题。 您可以轻松地为在“映射视图”面板中打开的映射创建输出预设，并快速为同一映射的一个或多个主题生成输出。
+此引擎还附带一个OOTB内容模板，该模板基于AEM核心组件构建，允许用户创建技术内容的基于知识的存储库。 可根据客户的需求自定义此模板。此引擎允许用户以累加方式构建DITA映射，并在准备就绪时发布主题。 您可以轻松地为在“映射视图”面板中打开的映射创建输出预设，并快速为同一映射的一个或多个主题生成输出。
 
 如果您仅更新了DITA映射中几个主题的内容，则不必始终发布整个映射。 只能从Web编辑器中选择和发布更新的主题。
 

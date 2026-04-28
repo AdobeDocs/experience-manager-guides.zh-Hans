@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3838'
 ht-degree: 0%
 
 ---
@@ -149,43 +149,43 @@ ht-degree: 0%
 
 **将选定项目左/右移动** - ![](images/left-arrow-icon.png) / ![](images/right-arrow-icon.png)
 
-单击左箭头将主题向层次结构中的左侧移动。 这实际上是将相应主题在层次结构中提升一级。 例如，在选定子主题时单击向左箭头，可使其成为其上主题的同级。 同样，如果单击向右箭头，则会将主题推到右侧，使其成为上方主题的子项。
+单击左箭头将主题向层次结构中的左侧移动。 This essentially promotes the respective topic one level up in the hierarchy. For example, clicking the left arrow while a child topic is selected make it the sibling of the topic above it. Similarly, if you click the right arrow, the topic is pushed towards the right side making it the child of the topic above it.
 
-**将选定项目上移/下移![](images/arrowup.svg)** - / ![](images/arrowdown.svg)
+**Move the Selected Item Up/Down![](images/arrowup.svg)** - / ![](images/arrowdown.svg)
 
-单击向上或向下箭头图标，在层次结构中向上或向下移动主题。
+Click the up or down arrow icons&#39; to move the topic up or down in the hierarchy.
 
 >[!NOTE]
 >
-> 您还可以拖放引用以在地图中移动它们。
+> You can also drag-and-drop the references to move them in a map.
 
-**锁定/解锁** - ![](images/LockClosed_icon.svg) / ![](images/LockOpen_icon.svg)
+**Lock/Unlock** - ![](images/LockClosed_icon.svg) / ![](images/LockOpen_icon.svg)
 
-获取对映射文件的锁定并释放该锁定。 如果映射文件中有未保存的更改，则在释放锁定时，系统会提示您保存映射文件。 更改将保存在映射文件的当前版本中。
+Gets a lock on the map file and release the lock. If you have unsaved changes in your map file, then at the time of releasing the lock, you are prompted to save the map file. The changes are saved in the current version of the map file.
 
 **合并** - ![](images/merge-icon.svg)
 
-有关从同一或不同文件的不同版本合并内容的更多详细信息，请参阅Web编辑器中的[合并](web-editor-features.md#id205DF04E0HS)。
+For more details about merging content from a different version of the same or a different file, see [Merge](web-editor-features.md#id205DF04E0HS) in the Web Editor.
 
 **版本历史记录** - ![](images/version-history-web-editor-ico.svg)
 
-检查活动主题上的可用版本和标签，并从编辑器本身还原到任何版本。
+Check the available versions and labels on your active topic, and revert to any version from theeditor itself.
 
-**版本标签** - ![](images/version-label-icon.svg)
+**Version Label** - ![](images/version-label-icon.svg)
 
-显示版本标签管理对话框。 从下拉列表中选择一个版本。 选择要应用于所选版本的标签，然后单击&#x200B;**添加标签**&#x200B;进行添加。
+Displays the version label management dialog. Select a version from the dropdown list. Choose the label you want to apply to the selected version and click **Add Label** to add it.
 
-**查看选项** - ![](images/view-options.svg)
+**View Options** - ![](images/view-options.svg)
 
-显示一个下拉列表，其中提供了“显示行号”、“显示复选框”和“显示文件名”选项。
+Displays a dropdown which gives you the option to Show Line Numbers, Show Check box, and Show FileName.
 
-- **显示行号**
+- **Show Line Numbers**
 
-显示或隐藏每个主题的行号。 行号的显示取决于层次结构中的级别。
+Shows or hides the line number for each topic. The line numbers are shown depending on the level in the hierarchy.
 
-- **显示复选框**
+- **Show Check Box**
 
-显示或隐藏每个主题的复选框。 您可以使用该复选框选择主题，并使用“选项”菜单执行各种任务。 有关详细信息，请参阅[选项](#id228ID8006H8)菜单。
+Shows or hides a checkbox for each topic. 您可以使用该复选框选择主题，并使用“选项”菜单执行各种任务。 有关详细信息，请参阅[选项](#id228ID8006H8)菜单。
 
 - **显示文件名**
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 - **添加**：您可以从映射编辑器中选择添加新主题或空引用：
    - **空引用**：此选项允许您在DITA映射中添加空引用。 您可以稍后双击插入的空引用并添加主题详细信息。 有关更多详细信息，请参阅[在Web编辑器中创建主题](web-editor-features.md#id228ICI0105U)。
    - **新建主题**：当您选择从菜单创建新主题时，您会看到“新建主题”对话框。 在创建新主题对话框中，提供所需的详细信息，然后单击创建。 有关更多详细信息，请参阅[在Web编辑器中创建主题](web-editor-features.md#id228ICI0105U)。
-- **移动**：您可以选择在层次结构中向上/向下/向右/向左移动主题。您还可以将主题或映射从存储库面板拖放到在“映射编辑器”中打开的映射中。
+- **移动**：您可以选择在层次结构中上下左右移动主题。您还可以将主题或地图从存储库面板拖放到在地图编辑器中打开的图中。
 - **撤消**：撤消布局视图中的上一个操作。
 - **重做**：重做布局视图中的上一个操作。
 - **复制**：从映射文件中复制所选引用。
@@ -279,25 +279,25 @@ ht-degree: 0%
 
 **切换标记视图** - ![](images/Label_icon.svg)
 
-显示或隐藏XML标记。 标记用作指示元素边界的可视提示。 在此模式下，如果要插入主题/映射引用，请将所需文件拖放到标记之前或之后。 在“标记视图”模式下不会显示水平条。
+显示或隐藏XML标记。 标记用作指示元素边界的可视提示。 In this mode, if you want to insert a topic/map reference, then drag-and-drop the desired file before or after the tag. The horizontal bar is not shown in the Tags View mode.
 
-**启用/禁用跟踪更改** - ![](images/track-change-icon.svg)
+**Enable/Disable Track Changes** - ![](images/track-change-icon.svg)
 
-通过启用“跟踪更改”模式，您可以跟踪在映射文件中进行的所有更新。 启用跟踪更改后，文档将捕获所有插入和删除。 有关更多详细信息，请参阅[在Web编辑器中启用/禁用跟踪更改](web-editor-features.md#id205DF0203Y4)。
+You can keep a track of all updates made in the map file by enabling the Track Changes mode. 启用跟踪更改后，文档将捕获所有插入和删除。 For more details, see [Enable/Disable Track Changes](web-editor-features.md#id205DF0203Y4) in the Web Editor.
 
-**创建审核任务** - ![](images/create-review-task-icon.svg)
+**Create Review Task** - ![](images/create-review-task-icon.svg)
 
-可直接从Web编辑器创建当前主题的审阅任务或映射文件。 打开要为其创建审阅任务的文件，然后单击“创建审阅任务”以启动审阅创建流程。 按照[查看主题或映射](review.md#)中提供的说明了解更多详细信息。
+You can create a review task of the current topic or map file directly from the Web Editor. Open the file for which you want to create the review task and click Create Review Task to initiate the review creation process. Follow the instructions given in the [Review topics or maps](review.md#) for more details.
 
-## 通过DITA映射编辑主题 {#id17ACJ0F0FHS}
+## Edit topics through DITA map {#id17ACJ0F0FHS}
 
-编辑单个主题不会为作者提供完整的上下文。 作者不会了解有关主题在DITA映射中的放置位置的信息。 如果没有这些上下文信息，作者创建内容会变得有点困难。
+Editing an individual topic doesn&#39;t give the complete context to the author. An author would have no information about where a topic is placed in a DITA map. Without this contextual information, it becomes a bit difficult for authors to create content.
 
-AEM Guides允许作者在Web编辑器中打开DITA映射，并查看主题在映射中的位置。 这有助于作者了解主题在地图中的确切放置位置并创建更相关的内容。 此外，如果有多位作者在一个项目上工作，则他们可以知道地图中所有的主题都可用，并可以根据需要重用内容。
+AEM Guides allows authors to open a DITA map in the Web Editor and see the placement of topics within the map. This helps authors to know where exactly the topic is placed within the map and create more relevant content. Also, if there are multiple authors working on a project, they can know what all topics are available in the map and reuse content, wherever required.
 
-要通过DITA映射编辑主题，请执行以下步骤：
+To edit topics through a DITA map, perform the following steps:
 
-1. 在Assets UI中，导航到包含要编辑的主题的DITA映射。
+1. In the Assets UI, navigate to the DITA map that contains the topics that you want to edit.
 1. 单击DITA映射以在DITA映射控制台中将其打开。
 1. 选择&#x200B;**主题**&#x200B;选项卡以查看DITA映射中可用的主题列表。
 
@@ -305,9 +305,9 @@ AEM Guides允许作者在Web编辑器中打开DITA映射，并查看主题在映
    >
    > “主题”选项卡为您提供了一个选项，用于下载映射文件及其依赖项。 有关详细信息，请参阅[导出DITA映射文件](authoring-download-assets.md#id218UBA00IXA)。
 
-1. 在主工具栏中，单击&#x200B;**编辑主题**。
+1. In the main toolbar, click **Edit Topics**.
 
-   DITA映射将在Web编辑器中打开。
+   The DITA map opens in the Web Editor.
 
    >[!NOTE]
    >

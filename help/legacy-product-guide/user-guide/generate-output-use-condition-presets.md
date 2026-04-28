@@ -5,16 +5,16 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1213'
 ht-degree: 2%
 
 ---
 
 # 使用条件预设 {#id1825FL004PN}
 
-您可以在DITA主题中定义属性，并使用条件预设指定在最终输出中属性会发生什么情况。 例如，您可以在内容中添加版本为1.0和版本为2.0的属性，并使用条件预设来包含版本1.0的版本1.0和排除版本2.0。同样，您可以将OS Windows和OS Linux等属性添加到内容中，然后根据操作系统在最终输出中包括或排除相关内容。
+您可以在DITA主题中定义属性，并使用条件预设指定在最终输出中属性会发生什么情况。 例如，您可以在内容中添加版本为1.0和版本为2.0的属性，并使用条件预设来包含版本1.0的版本1.0和排除版本2.0。 同样，您可以将OS Windows和OS Linux等属性添加到内容中，然后根据操作系统在最终输出中包括或排除相关内容。
 
 您可以通过两种方式创建条件预设：
 
@@ -164,8 +164,8 @@ ht-degree: 2%
 您可以从DITA映射控制台的&#x200B;**条件预设**&#x200B;选项卡中删除一个或多个条件预设。 执行以下步骤可删除条件预设：
 
 1. 在DITA映射控制台中选择&#x200B;**条件预设**&#x200B;选项卡。
-1. 选择要删除的条件预设。
-1. 单击&#x200B;**删除**&#x200B;按钮。
-1. 单击&#x200B;**删除**&#x200B;以确认操作。
+1. Select the condition preset\(s\) that you want to delete.
+1. Click **Remove** button.
+1. Click **Remove** to confirm the action.
 
 **父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

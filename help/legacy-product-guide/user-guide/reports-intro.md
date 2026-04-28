@@ -5,16 +5,16 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 377664ec-b7e5-48b9-ae47-ddae8968736b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
 
 # 报告 {#id1645H9007MZ}
 
-在组织设置中，您需要先验证技术文档的整体完整性，然后再开始处理技术文档或将文档推送到现场。 在多用户和大规模环境中，这种需求变得更加重要。 AEM Guides提供了一些报表，这些报表对存储库中内容的总体运行状况以及文档过程中内容的使用方式提供了有用的洞察。
+在组织设置中，您需要先验证技术文档的整体完整性，然后再开始处理技术文档或将文档推送到现场。 在多用户和大规模环境中，这种需求变得更加重要。 AEM Guides提供了一些报表，这些报表为存储库中内容的总体运行状况以及文档过程中如何使用内容提供了有用的insight。
 
 您可以通过两种方式创建DITA映射报表：
 

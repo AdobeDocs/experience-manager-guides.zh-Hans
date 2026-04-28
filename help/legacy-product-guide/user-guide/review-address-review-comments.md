@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -57,21 +57,21 @@ ht-degree: 0%
 
   ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 
-  也可使用右侧面板中的审阅功能来接受或拒绝注释。 单击任何注释会突出显示文档中的注释。
+  也可使用右侧面板中的审阅功能来接受或拒绝注释。 Clicking on any comment highlights the comment in the document.
 
   ![](images/changes-tab_cs.png){width="800" align="left"}
 
   >[!IMPORTANT]
   >
-  > 导入注释功能仅适用于那些自共享以供审阅后未更改的文档。 如果在发送文档以供审阅后进行了任何更改，您将收到警报，提醒您&#x200B;**强制将**&#x200B;注释导入文档。 但是，这样做会导致丢失您在文档中所做的所有更新。 如果在外部创建文档，然后共享该文档以供审阅，则也会显示&#x200B;**强制导入**&#x200B;警报。 您可以导入注释。
+  > The import comments feature works only on those documents that have not changed since they were shared for review. If you have made any change after sending the document for review, you will get an alert to **Force Import** comments into your document. However, doing so will result in loss of all updates that you have made in your document. The **Force Import** alert is also shown if the document is created outside and then shared for review. You can go ahead and import the comments.
 
-  当您接受或拒绝注释时，会将其从“跟踪的更改”列表中删除。 这还可以作为文件中需要处理多少评论的指标。
+  As and when you accept or reject a comment, it is removed from the Tracked Changes list. This also serves as an indicator of how many comments need to be addressed in the document.
 
-- **F**：从“更多选项”菜单中，下载评论主题中可用的所有附件。
-- **G**：在评论中搜索文本。
-- **H**：接受或拒绝评论。
+- **F**: From the More Options menu, Download all attachments available in the review topic.
+- **G**: Search for a text within comments.
+- **H**: Accept or reject a comment.
 
-- **I**：对评论应用筛选器。 您可以根据审阅类型\（全部、高亮显示、删除、插入或附注\）、审阅状态\（全部、接受、拒绝或无\）、审阅者\(全部或特定审阅者\(s\)\)或主题版本来筛选以查看注释。
+- **I**: Apply a filter on the comments. You can filter to see comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic.
 
 
 **父主题：**&#x200B;[&#x200B;审阅主题或映射](review.md)

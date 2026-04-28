@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -37,7 +37,6 @@ Experience Manager Guides允许您将主题或其元素发布到体验片段。 
 
      如果没有为文件夹定义允许的模板，则默认情况下会从父文件夹或模板文件夹中选取模板。
    * **可排序**：允许您更改文件夹中资产的顺序。
-
      ![在文件夹属性中添加云配置详细信息](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *在文件夹属性中添加云配置以将其与片段模板连接。*
 1. 要生成体验片段，请从主题&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;部分中选择&#x200B;**新输出** ![新输出图标](./images/Add_icon.svg)。
@@ -81,7 +80,7 @@ Experience Manager Guides允许您将主题或其元素发布到体验片段。 
 1. 单击&#x200B;**生成**&#x200B;以发布体验片段。
 1. 您可以在&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;部分下查看主题的体验片段。 体验片段会根据其发布的日期和时间显示，最新的体验片段显示为第一个体验片段。
 
-   ![查看主题的体验片段](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![查看主题的体验片段](images/experience-fragment-outputs.png){width=300 align="left"}
 
    *查看某个主题存在的体验片段并重新发布它们。*
 

@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -48,17 +48,17 @@ ht-degree: 0%
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-1. 您将看到输出生成过程的状态。 **主题**&#x200B;列列出正在为其生成输出的主题，而&#x200B;**状态**&#x200B;列显示每个主题的发布状态。
+1. You will see the status of the output generation process. The **Topics** column lists the topics for which output is being generated while the **Status** column displays the publishing status of each topic.
 
-   要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
+   To view the output, hover the mouse pointer over the topic and click View Output.
 
    ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
-> 也可以从“选项”菜单中编辑、重命名、复制或删除现有的输出预设。
+> You can also Edit, Rename, Duplicate, or Delete an existing output preset from the Options menu.
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**父主题：**&#x200B;[&#x200B;从Web编辑器中基于文章的发布](web-editor-article-publishing.md)
+**Parent topic:**&#x200B;[&#x200B; Article-based publishing from the Web Editor](web-editor-article-publishing.md)

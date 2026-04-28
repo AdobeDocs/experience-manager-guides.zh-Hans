@@ -5,10 +5,10 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: b8d16ae9-5cbd-4fa1-b231-f06307e8ee17
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 4%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 

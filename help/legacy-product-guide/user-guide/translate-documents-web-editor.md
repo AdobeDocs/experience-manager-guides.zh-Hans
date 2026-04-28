@@ -1,13 +1,13 @@
 ---
 title: 从Web编辑器翻译文档
-description: 从Web编辑器将内容翻译成多种语言。 了解如何在AEM Guides中创建翻译项目、添加规则、查看版本和关闭不同步的文件。
+description: Translate your content into multiple languages from the web editor. Learn how to create a translation project, add rules, view versions, and dismiss out-of-sync files in AEM Guides.
 feature: Authoring, Features of Web Editor, Translation
 role: User
 hide: true
 exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2358'
 ht-degree: 0%
 
 ---
@@ -16,40 +16,40 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 如果您已升级到AEM Guides as a Cloud Service 2022年2月版或更高版本，则建议从Web编辑器使用此翻译功能。
+> It is recommended to use this Translation feature from the Web Editor if you have upgraded to AEM Guides as a Cloud Service February 2022 release or later.
 
-AEM Guides在Web编辑器中提供了强大的功能，使您能够把内容翻译成多种语言。 您可以创建新翻译项目，稍后将翻译作业添加到现有翻译项目。 您还可以创建多语言翻译项目，该项目包含所有选定语言的翻译作业。
+AEM Guides comes with a powerful feature in the Web Editor that enables you to translate your content into multiple languages. You can create a new translation project and later add the translation jobs to the existing translation project. You can also create a multi-lingual translation project which includes translation jobs for all the selected languages.
 
 >[!NOTE]
 >
-> 您的管理员可以在Web编辑器中配置管理选项卡\（用于翻译\）。 有关更多详细信息，请参阅安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*在Web编辑器中配置翻译功能*&#x200B;部分。
+> Your administrator can configure the Manage tab \(used for translation\) in the Web Editor. For more details, see *Configure the translation feature in the Web Editor* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 ## 开始之前
 
-在执行此过程中的步骤之前，请确保已创建所需的语言根目录和目标文件夹
+Before performing steps in this procedure, ensure that you have created the required language root and target folders
 
-1. 创建根文件夹以存储源内容。 必须使用语言名称\（例如English\）或语言代码\(en\)创建根文件夹。
-1. 创建要将内容翻译到的目标文件夹。 例如，如果要将内容翻译为德语或法语，则必须创建名为 — de \（表示德语\）或 — fr \（表示法语\）的文件夹。
+1. Create a root folder to store your source content. The root folder must be created with the language name \(such as English\) or language code \(en\).
+1. Create the destination folders to which you want to translate your content. For example, if you want to translate your content into German or French, then you must create folder named as -de \(for German\) or -fr \(for French\).
 
 >[!NOTE]
 >
-> 根文件夹和目标文件夹必须在同一级别创建。
+> The root folder and the destination folders must be created at the same level.
 
 ## 创建翻译项目
 
-1. 在&#x200B;**存储库**&#x200B;面板中，在映射视图中打开DITA映射文件。
-1. 单击&#x200B;**管理**&#x200B;选项卡。 **翻译面板**&#x200B;显示可用的语言组。
+1. In the **Repository** panel, open the DITA map file in map view.
+1. 单击&#x200B;**管理**&#x200B;选项卡。 The **Translation panel** displays the available language groups.
 
-1. 作为用户，您可以查看为文件夹配置文件配置的语言组。 语言组显示语言文件夹及其语言代码。 例如，名为G1的语言组包含意大利语\(it\)、德语\(de\)、法语\(fr\)和英语\(en\)语言文件夹。
+1. 作为用户，您可以查看为文件夹配置文件配置的语言组。 The language groups display the language folders along with their language codes. For example, the language group named G1 contains Italian \(it\), German \(de\), French \(fr\), and English \(en\) language folders.
 
    ![翻译面板](images/translation-languages.png){width="300" align="left"}
 
-   *选择要翻译文档的语言组或语言。*
+   *Select the language groups or languages in which you want to translate your documents.*
 
 
    >[!IMPORTANT]
    >
-   > 您只能选择并翻译为已创建目标文件夹的语言，并且与源语言平行。 在任何其他级别（例如从源语言文件夹往下一个级别）创建的语言文件夹也不显示。 请确保创建的所有目标语言文件夹与源语言文件夹处于同一级别。
+   > You can only select and translate to the languages for which you have created the target folder parallel to the source language. 在任何其他级别（例如从源语言文件夹往下一个级别）创建的语言文件夹也不显示。 请确保创建的所有目标语言文件夹与源语言文件夹处于同一级别。
 
 
 

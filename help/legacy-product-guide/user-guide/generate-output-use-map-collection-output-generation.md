@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 要使用“Map Collection（映射收集）”配置和生成输出，请执行以下步骤：
 
-1. 打开地图收藏集。您可以查看各种输出预设，如AEM网站、PDF(包括本机PDF)、HTML5、EPUB和自定义预设。 您还可以查看管理员创建的全局配置文件预设和文件夹配置文件预设。
+1. 打开地图收藏集。您可以查看各种输出预设，如AEM网站、PDF（包括本机PDF）、HTML5、EPUB和自定义预设。 您还可以查看管理员创建的全局配置文件预设和文件夹配置文件预设。
 
    ![](images/global-preset-icon.svg)图标表示文件夹配置文件级别预设。
 1. \（可选\）根据您的要求执行以下任一操作：
@@ -89,7 +89,6 @@ ht-degree: 1%
    - 启用任何单个预设。
    - 为DITA映射启用&#x200B;**所有预设**&#x200B;以一次性选择所有预设。 默认禁用此选项。
    - 为DITA映射启用&#x200B;**文件夹配置文件预设**&#x200B;以为其选择所有文件夹配置文件预设。 默认禁用此选项。
-
      ![在云服务上编辑地图集合](images/edit-map-collection-cs.png){width="800" align="left"}
 
 

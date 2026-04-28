@@ -1,40 +1,40 @@
 ---
 title: 文档状态
-description: 了解AEM Guides中的文档状态类型。 了解如何在DDLC中更改或查看文档状态和使用文档状态。
+description: Learn the types of document states in AEM Guides. Know how to change or view the document state and use the document state in DDLC.
 feature: Authoring, Features of Web Editor, Document State
 role: User
 hide: true
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
 # 文档状态 {#id1821HC00URO}
 
-为了管理文档的准备工作，AEM Guides提供了文档状态属性来指示文档的当前状态。 文档状态可帮助您快速确定文档是新文档、处于审阅中还是审阅已完成状态。
+To manage the readiness of the documents, AEM Guides provides document state property to indicate the current state of the document. Document states help you quickly find out whether a document is new, in review, or review completed state.
 
-## 文档状态类型
+## Types of document states
 
-文档可以具有在文档状态配置文件中定义的任何文档状态。 例如，文档可以具有以下任一文档状态：
+A document can have any of the document states defined in the Document State profile. For example, a document may have any one of the following Document States:
 
-- 草稿 — 指示使用新更改创建和保存文档。
-- 正在审阅 — 指示已启动文档的审阅工作流。
-- 已审核 — 表明文档已由目标用户审核。
+- Draft - Indicates that the document is created and saved with new changes.
+- In-Review - Indicates that a review workflow has been initiated for the document.
+- Reviewed - Indicates that the document has been reviewed by the intended users.
 
-这些状态是根据“文档状态”配置文件设置手动或自动设置的。 例如，如果文档状态配置文件配置为起始状态为草稿，并且为审阅文档定义审阅中状态。 然后，在创建文档时，文档状态设置为&#x200B;*草稿*。 如果启动审阅任务，则文档的状态将更改为“正在审阅”。
+These states are set manually or automatically according to the Document States profile settings. For example, if the Document State profile is configured with start state as Draft, and In-Review state is defined for documents under review. Then, when you create a document, the document state is set to *Draft*. If you initiate a review task, then the state of the document is changed to In-Review.
 
-您也可以手动更改单个或多个文档的文档状态。 但是，如果选择更改多个文档的文档状态，则允许的状态由所选文档允许的共同状态确定。 例如，假设您已按相同顺序将文档状态定义为“草稿”、“正在审阅”、“已审阅”和“准备发布”。 在文档1.dita上，状态设置为&#x200B;*草稿*；在文档2.dita上，状态设置为“已审核”。 同时选择one.dita和two.dita时，允许的文档状态将为&#x200B;*准备发布*。 由于two.dita处于&#x200B;*已审阅*&#x200B;状态，因此two.dita的下一个可能状态仅为&#x200B;*准备发布*，在选择两个文档时都会显示。
+You can also manually change the document state for a single or multiple documents. However, if you choose to change the document state for multiple documents, then the allowed state is determined by the common states that are allowed for the selected documents. For example, let&#39;s say you have defined the document states as Draft, In-Review, Reviewed, and Ready to Publish, in the same order. On document one.dita the state is set to *Draft* and on document two.dita, the state is set to Reviewed. When you select both—one.dita and two.dita, then the allowed document state will be *Ready to Publish*. As two.dita is in *Reviewed* state, the next possible state for two.dita is only *Ready to Publish*, which is shown when both documents are selected.
 
 >[!NOTE]
 >
-> 文档一次只能处于一种状态。
+> A document can exist in only one state at a time.
 
-## 更改文档状态
+## Change document state
 
-要更改文档状态，请执行以下步骤：
+To change the state of a document, perform the following steps:
 
 1. 在Assets UI中，选择要更改其文档状态的一个或多个文档。
 1. 在主工具栏中，单击&#x200B;**属性**。

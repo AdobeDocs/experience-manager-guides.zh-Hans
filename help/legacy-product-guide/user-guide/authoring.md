@@ -5,10 +5,10 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 9%
+source-wordcount: '741'
+ht-degree: 10%
 
 ---
 
@@ -53,7 +53,7 @@ AEM Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&
 | 创建DITA主题 | 是 |   | 是 |
 | 创建DITA映射 | 是 |   | 是 |
 | 映射收藏集 | 是 |   | 是 |
-| 创建审阅任务 | 是 |   | 是 |
+| 创建审核任务 | 是 |   | 是 |
 | 审核主题[1](#fntarg_1) | 是 | 是 | 是 |
 | 关键分辨率 | 是 |   | 是 |
 | 签出/签入 | 是 |   | 是 |
@@ -75,7 +75,7 @@ AEM Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&
 | **DITA映射控制台中可用的功能\（输出选项卡\）** |  |  |  |
 | 查看生成的输出 | 是 |   | 是 |
 | **DITA映射控制台中可用的功能\（主题选项卡\）** |  |  |  |
-| 创建审阅任务 | 是 |   | 是 |
+| 创建审核任务 | 是 |   | 是 |
 | 编辑 | 是 |   | 是 |
 | **DITA映射控制台中可用的功能\（“基线”选项卡\）** |  |  |  |
 | 创建 |   |   | 是 |

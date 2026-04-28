@@ -1,45 +1,45 @@
 ---
-title: 用于创作内容的AI支持的智能建议
-description: 了解如何在Web编辑器中查看和利用AI支持的智能建议。
+title: AI-powered Smart Suggestions to author content
+description: Learn how to view and utilize AI-powered smart suggestions in the Web Editor.
 hide: true
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # 用于创作内容的AI支持的智能建议
 
-Experience Manager Guides提供了智能建议，可帮助您创建一致且准确的内容。
+Experience Manager Guides provides the smart suggestions that help you create consistent and accurate content.
 
-在创作内容时，AI助手工具中的&#x200B;**建议可重用内容**&#x200B;功能可以使用AI进行搜索并显示语义上与您的内容类似的现有内容。 然后，您可以选择要在当前主题中包含的最佳匹配内容作为引用。
+While you author content, the **Suggest reusable content** feature in the AI Assistant tool can search using AI and show the existing content that is semantically similar to your content. You can then choose the best matching content you want to include in your current topic as a reference.
 
-这可帮助您重用文档存储库中的现有内容并创建一致的内容。 例如，您正在创建的文档包含有关&#x200B;**Adobe Firefly**&#x200B;的信息，其中包括有关&#x200B;**Adobe**&#x200B;的段落。 在这种情况下，您可以快速查看和添加来自其他主题(如&#x200B;**Adobe Photoshop**)的内容引用，该主题包含相同的段落。
+This helps you reuse existing content from your documentation repository and create consistent content. For example, you are making a document containing information about **Adobe Firefly**, including a paragraph about **Adobe**. In that case, you can quickly view and add the content reference from another topic, like **Adobe Photoshop**, which includes the same paragraph.
 >[!NOTE]
 >
-> 在[全局或文件夹级别配置文件](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions)中，管理员需要定义要索引的文件或文件夹以获取智能建议，需要输入的最小字符数以及可在列表中查看的最大建议数。
+> In the [global or folder-level profiles](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), your administrator needs to define the files or folders to index for smart suggestions, the minimum number of characters you need to enter to view the suggestions, and the maximum number of suggestions you can view in the list.
 
-执行以下步骤，查看有关向主题添加相应内容引用的智能建议：
-
-
-1. 选择主题中的内容以查看相关建议。 确保内容的字符长度超过管理员在文件夹配置文件中为显示内容建议而设置的长度。
-1. 从AI助手面板中，选择&#x200B;**建议可重用内容** ![ai建议可重用内容图标](./images/ai-suggest-reusable-content-icon.svg)。
-
-1. 选择标记可查看当前标记的创作建议。  根据当前标记中的内容，显示从索引文件中查看和添加内容引用的建议。 您还可以选择多个标记。
+Perform the following steps to view the smart suggestions for adding appropriate content references to your topic:
 
 
-1. 选择所有标记以查看基于完整文档中存在的内容的建议。  **建议可重用内容** ![ai建议可重用内容图标](./images/ai-suggest-reusable-content-icon.svg)图标显示在找到合适匹配项的内容旁边。
+1. Select the content in your topic to view the related suggestions. Ensure that the content&#39;s character length exceeds what your administrator has set in the folder profile for the content suggestions to appear.
+1. From the AI Assistant panel, select **Suggest reusable content** ![ai suggest reusable content icon &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+
+1. Select a tag to view the authoring suggestions for the current tag .  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag. You can also select multiple tags.
+
+
+1. Select all tags to view the suggestions based on the content present in the complete document.  The **Suggest reusable content** ![ai suggest reusable content icon &#x200B;](./images/ai-suggest-reusable-content-icon.svg) icon is displayed next to the content where a suitable match is found.
 
 
 
    >[!NOTE]
    >
-   > 您只能查看有关当前视区（屏幕上显示的内容）的建议。 要查看文档中任何其他内容的建议，请向上或向下滚动以在视区中显示该内容，然后选择&#x200B;**建议可重用内容** ![ai建议可重用内容图标](./images/ai-suggest-reusable-content-icon.svg)。
+   > You can only view the suggestions for the current viewport (the content visible on the screen). To view suggestions for any other content in the document, scroll up or down to display it in the viewport, and then select **Suggest reusable content** ![ai suggest reusable content icon &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 
-1. 您可以在建议面板中查看智能建议。  Experience Manager Guides提供的建议内容在上下文上类似或具有相同含义。 例如，您可以搜索包含确切版本号的主题，如“发行版本2023.03.12”。 您还可以搜索“Adobe总部在加利福尼亚州的圣何塞”，并找到类似内容，如“圣何塞拥有像Adobe这样的许多软件公司的季度”。
+1. You can view the smart suggestions in the suggestions panel.  Experience Manager Guides provides suggestions content that is contextually similar or has the same meaning. For example, you can search for the topic that contains the exact version number, like &quot;release version 2023.03.12&quot;. You can also search for &quot;Adobe is headquartered in San Jose, California,&quot; and find similar content like &quot;San Jose has the quarters of many software companies like Adobe.&quot;
 1. 选择&#x200B;**内容信息** ![内容信息](images/smart-suggestions-content-info-icon.svg)以查看详细信息。
 
    ![内容信息面板](images/smart-suggestions-content-information.png){width="300" align="left"}

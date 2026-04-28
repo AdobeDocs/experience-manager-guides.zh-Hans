@@ -5,9 +5,9 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,10 @@ ht-degree: 0%
 
    ![](images/download-map.png){width="300" align="left"}
 
-1. 单击&#x200B;**下载**。 在“下载映射”对话框中，您可以选择以下选项：
+1. 单击&#x200B;**“下载”。** 在“下载映射”对话框中，您可以选择以下选项：
 
    - **使用基线**：选择此选项可获取为DITA映射创建的基线列表。 如果要根据特定基线下载映射文件及其内容，请从下拉列表中选择基线。 有关使用基线的更多详细信息，请参阅[使用基线](generate-output-use-baseline-for-publishing.md#)。
    - **平面化文件层次结构**：选择此选项可将所有引用的主题和媒体文件保存在单个文件夹中。
-
    >[!NOTE]
    >
    > 您也可以在不选择任何选项的情况下下载映射文件。 在这种情况下，将下载引用的主题和媒体文件的最新保留版本。

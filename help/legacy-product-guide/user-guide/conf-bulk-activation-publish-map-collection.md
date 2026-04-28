@@ -5,10 +5,10 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 1%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 查看根据您的设置激活收藏集的不同方式。
 
 <details>
-<summary> Cloud Service </summary>
+<summary> 云服务 </summary>
 
 ![在云服务上批量收集 — 发布](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 执行下列操作之一：
 
 * 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**快速发布**。
-* 要激活所有DITA映射及其配置预设的输出，请选中映射（列）旁边的复选框，然后选择&#x200B;**快速发布。**
+* 要激活所有DITA映射及其配置预设的输出，请选中“映射”（列）旁边的复选框，然后选择&#x200B;**快速发布。**
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]

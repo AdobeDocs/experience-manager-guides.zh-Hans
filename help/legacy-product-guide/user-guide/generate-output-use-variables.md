@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 19d9121f-6b72-445c-a7d9-07f00026b654
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 | `${map_title}` | 使用DITA映射标题创建目标路径。 | **DITA映射文件名**：<br>`AEMGuides.ditamap`<br><br>**DITA映射标题**：<br>`AEMGuides`<br><br>**目标路径**&#x200B;配置为：<br>`/content/output/sites/${map_title}`<br><br>**最终输出位置**：<br>`/content/output/sites/AEMGuides/AEMGuides.html` |
 | `${preset_name}` | 使用输出预设名称创建目标路径。 | **输出预设名称**：<br>`AEM Guides PDF Output`<br><br>**DITA映射文件名**：<br>`SampleDita.ditamap`<br><br>**目标路径**&#x200B;配置为：<br>`/content/output/sites/${preset_name}`<br><br>**最终输出位置**：<br>`/content/output/sites/AEM Guides PDF Output/SampleDita.html` |
 | `${language_code}` | 使用映射文件所在的语言代码创建目标路径。 | **DITA映射文件名**：<br>`SampleDita.ditamap`<br><br>**DITA映射文件路径**：<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**目标路径**&#x200B;配置为：<br>`/content/output/sites/${language_code}`<br><br>**最终输出位置**：<br>`/content/output/sites/en/SampleDita.html` |
-| `${map_parentpath}` | 使用映射文件的完整路径创建目标路径。<br><br>**注意**：此变量不能用于指定AEM站点名称或PDF文件名。 | **DITA映射文件名**：<br>`SampleDita.ditamap`<br><br>**DITA映射文件路径**：<br>`/content/dam/projects/AEM-Guides/en/user-guide`/<br><br>**目标路径**&#x200B;配置为：<br>`/content/output/sites/${map_parentpath}`<br><br>**最终输出位置**：<br>`/content/output/sites/content/dam/projects/AEM-Guides/en/user-guide/SampleDita.html` |
-| `${path_after_langfolder}` | 使用语言文件夹后的映射文件的路径创建目标路径。<br><br>**注意**：此变量不能用于指定AEM站点名称或PDF文件名。 | **DITA映射文件名**：<br>`SampleDita.ditamap`<br><br>**DITA映射文件路径**：<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**目标路径**&#x200B;配置为：<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**最终输出位置**：<br>`/content/output/sites/user-guide/SampleDita.html` |
+| `${map_parentpath}` | 使用映射文件的完整路径创建目标路径。<br><br>**注意**:This&#x200B;变量不能用于指定AEM站点名称或PDF文件名。 | **DITA映射文件名**：<br>`SampleDita.ditamap`<br><br>**DITA映射文件路径**：<br>`/content/dam/projects/AEM-Guides/en/user-guide`/<br><br>**目标路径**&#x200B;配置为：<br>`/content/output/sites/${map_parentpath}`<br><br>**最终输出位置**：<br>`/content/output/sites/content/dam/projects/AEM-Guides/en/user-guide/SampleDita.html` |
+| `${path_after_langfolder}` | 使用语言文件夹后的映射文件路径创建目标路径。<br><br>**注意**：此变量不能用于指定AEM站点名称或PDF文件名。 | **DITA映射文件名**：<br>`SampleDita.ditamap`<br><br>**DITA映射文件路径**：<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**目标路径**&#x200B;配置为：<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**最终输出位置**：<br>`/content/output/sites/user-guide/SampleDita.html` |
 | `${system_date}` | 使用当前服务器日期创建目标路径。 | **DITA映射文件名**： <br> `SampleDita.ditamap` <br><br> **DITA映射文件路径：** <br> `/content/dam/projects/AEM-Guides/en/user-guide/` <br><br> **目标路径**&#x200B;配置为： <br> `/content/output/sites/${system_date}` <br> <br> **最终输出位置：** <br> /`content/output/sites/08252023/SampleDita.html` |
 | `${system_time}` | 使用当前服务器时间创建目标路径。 | **DITA映射文件名：** <br>`SampleDita.ditamap` <br> <br> **DITA映射文件路径：** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**目标路径**&#x200B;配置为： <br> `/content/output/sites/${system_time}`<br><br>**最终输出位置：**<br>`/content/output/sites/055612/SampleDita.html` |
 
