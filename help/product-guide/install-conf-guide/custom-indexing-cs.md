@@ -4,10 +4,11 @@ description: 了解如何自定义索引内容
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 612f0be3-9f9d-4e30-ac57-65da227ea08f
+source-git-commit: 9dba92a79858ee8a182d833d09f9907ff895ec38
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 3%
+source-wordcount: '469'
+ht-degree: 7%
 
 ---
 
@@ -210,5 +211,6 @@ guidesAssetLucene-1-custom-1
 
 - [AEM as a Cloud Service索引文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak Indexing指南](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides)
+- [AEM Guides 文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager 文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
+
