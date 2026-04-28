@@ -30,4 +30,4 @@ AEM Guides提供了简单的配置设置，您需要在其中定义自动生成I
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | 此字段的默认值设置为`${elementName}_${id}`。 `${elementName}`值被替换为元素的名称。 `${id}`变量为元素生成连续数字。 例如，如果指定段落元素具有自动生成的ID，则主题或文档中的第一个段落将获得p\_1等ID，下一个段落将获得p\_2等。 但是，在另一个文档中，ID生成过程将重新启动。 这意味着，在另一个文档中，可以将p\_1和p\_2等ID分配给段落元素。 **默认值**： ``${elementName}_${id}`` |
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)

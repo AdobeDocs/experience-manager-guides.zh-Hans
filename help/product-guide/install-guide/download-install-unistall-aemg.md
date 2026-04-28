@@ -49,4 +49,4 @@ ht-degree: 0%
 1. 单击&#x200B;**使缓存失效**。
 1. 清理浏览器的缓存。
 
-**父主题：**[&#x200B;下载并安装](download-install.md)
+**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)

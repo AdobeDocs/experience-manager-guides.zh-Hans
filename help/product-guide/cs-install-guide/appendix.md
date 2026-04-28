@@ -34,7 +34,7 @@ ht-degree: 0%
 1. 运行验证脚本\[`/bin/fmdita/validatebtree?operation=validate`\]以检查是否存在任何新的已损坏引用。
 1. 如果验证脚本报告任何错误，可以使用修补程序脚本对其进行修补程序。
 1. 记录以下提供的详细信息，并在必要时与客户成功团队分享：
-1. 
+1. &#x200B;
    - 验证脚本打印的日志
 - “`/content/fmdita/references`”的包
 - 任何其他所需的详细信息，具体取决于所报告的情景
@@ -50,7 +50,7 @@ ht-degree: 0%
 > 建议您复制并保存日志以供参考。
 
 1. 成功执行修补程序脚本后，可以执行以下检查：
-1. 
+1. &#x200B;
    - 检查`/content/fmdita`下是否创建了新节点“`references_backup_<timestamp>"`”
 - 检查引用是否已修复
 
@@ -344,7 +344,7 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 
 `paragraphStyleRule`元素描述如下：
 
-选**`paraRule`元素**
+选&#x200B;**`paraRule`元素**
 
 `paraRule`元素是必需的。 这会指定所有段落样式的映射规则。 在InDesign文档中，所有文本都包含在段落样式的子结构中，即使没有任何样式的段落也被命名为`\[No paragraph style\]`。 方括号，表示内置InDesign样式名称。
 

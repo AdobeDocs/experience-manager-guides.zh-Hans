@@ -112,7 +112,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `reviewType` | 字符串 | 静态值“AEM”。 |
 | `versionJson` | JSON 对象 | versionJson是审核中的主题列表，其中每个主题对象具有以下结构[ { &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | 布尔值 | false/true |
-| `ditamapHierarchy` | JSON 对象 | 如果发送了映射以供审查，则此处的值应如下所示：[ { &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： “”，“items”： [] } ] ]。 |
+| `ditamapHierarchy` | JSON 对象 | 如果发送了映射以供审查，则此处的值应如下所示：[ &lbrace; &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： “”，“items”： [] } ] ]。 |
 | `ditamap` | 字符串 | 指定审核任务的日期映射的路径 |
 | `allowAllReviewers` | 布尔值 | false/true |
 | `notifyViaEmail` | 布尔值 | false/true |

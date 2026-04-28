@@ -144,4 +144,4 @@ ht-degree: 0%
 1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载Web编辑器。
 
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
