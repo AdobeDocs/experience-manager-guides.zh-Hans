@@ -5,10 +5,9 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -141,7 +140,7 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 - `jcr:primaryType=sling:Folder`：将此参数&#x200B;*指定为*&#x200B;以创建文件夹类型资源。
 
-- `<server folder path>`：完整的文件夹路径，包括您要在AEM存储库中创建的新文件夹的名称。 例如，如果您将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，则在DAM的`AEM-Guides`文件夹中创建文件夹`projects`。
+- `<server folder path>`：完整的文件夹路径，包括您要在AEM存储库中创建的新文件夹的名称。 例如，如果您将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，则在DAM的`projects`文件夹中创建文件夹`AEM-Guides`。
 
 
 **上载文件**

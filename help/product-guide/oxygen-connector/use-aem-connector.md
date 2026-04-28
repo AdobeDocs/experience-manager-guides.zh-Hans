@@ -2,24 +2,23 @@
 title: 适用于Adobe Experience Manager Guides的氧气插件
 description: 了解如何使用Adobe Experience Manager Guides的氧气插件创建和管理您的内容。
 hide: true
-hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '6347'
+source-wordcount: '6522'
 ht-degree: 0%
 
 ---
 
 # 适用于Adobe Experience Manager Guides的氧气插件 {#id1645H6010Q5}
 
-用于Adobe Experience Manager Guides的氧插件\(稍后在指南中称为AEM Guides的氧插件)允许您将氧气XML作者连接到Adobe Experience Manager \(AEM\)存储库以进行内容创作和管理。 您可以使用该插件浏览、搜索和打开文件；签出和签入文件；将文件夹和文件上载到AEM存储库中。 通过桌面应用程序中的“AEM Guides”面板，可将所需的文件夹\(从AEM存储库\)标记为“收藏夹”列表以进行快速访问。 此外，您可以在AEM Web界面中安装包，并直接从AEM Web界面在Oxygon XML Author中打开DITA文件。
+用于Adobe Experience Manager Guides的氧气插件\（稍后在指南中称为AEM Guides的氧气插件），允许您将Oxygon XML Author连接到Adobe Experience Manager \(AEM\)存储库以进行内容创作和管理。 您可以使用该插件浏览、搜索和打开文件；签出和签入文件；将文件夹和文件上传到AEM存储库。 通过桌面应用程序中的AEM Guides面板，可将所需的文件夹\（从AEM存储库\）标记为收藏夹列表以进行快速访问。 此外，您可以在AEM Web界面中安装包，并直接从AEM Web界面在Oxygon XML Author中打开DITA文件。
 
 ## 下载并安装 {#id1826M0L0PUI}
 
-AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“Experience Manager”选项卡中搜索“氧气”，然后从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html)下载插件安装程序。
+AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Experience Manager选项卡中搜索“氧气”，然后从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html)下载插件安装程序。
 
 >[!NOTE]
 >
@@ -38,7 +37,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“E
 - 氧XML创作版本26.1支持的操作系统
 
 - Java开发工具包
-   - oracleSE 8 JRE 1.8
+   - Oracle SE 8 JRE 1.8
 
 ### 在Windows上安装插件
 
@@ -108,7 +107,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“E
 
 ### 安装用于从AEM Web界面启用文档编辑功能的软件包 {#id182CE0Q0TY4}
 
-作为作者，您可以直接从AEM Web界面在Oxygon XML Author中打开和编辑DITA映射或主题。 要在AEM Web界面中启用此功能，AEM管理员需要在AEM创作实例中安装包。
+作为作者，您可以直接从AEM Web界面在Oxygon XML Author中打开和编辑DITA映射或主题。 要在AEM Web界面中启用此功能，AEM管理员需要在AEM创作实例中安装软件包。
 
 作为AEM管理员，执行以下步骤来安装包：
 
@@ -117,14 +116,14 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“E
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   包管理器可管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=zh-Hans)。
+   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=zh-Hans)。
 
    ![包管理器](images/package-manager.png) {width="650" align="left"}
 
 1. 要上载氧气包，请单击&#x200B;**上载包**。
 1. 在上传包对话框中，导航到您在步骤1中下载的氧气包文件，然后单击确定。
 
-   资源包将上传到您的AEM实例。
+   资源包会上传到您的AEM实例。
 
 1. 若要启动安装过程，请单击&#x200B;**安装**。
 
@@ -134,7 +133,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“E
 1. 安装完成后，单击CRX包管理器左上角的“主页”按钮。
 1. 在资源文件夹中选择DITA文件。
 
-   工具栏中提供了&#x200B;**在氧气中编辑**&#x200B;选项。 有关使用此选项的详细信息，请参阅AEM Web界面的Oxygen XML Author中的[打开DITA主题](#id182CE0I905Z)。
+   工具栏中提供了&#x200B;**在氧气中编辑**&#x200B;选项。 有关使用此选项的详细信息，请参阅AEM Web界面的Oxygon XML Author中的[打开DITA主题](#id182CE0I905Z)。
 
    >[!NOTE]
    >
@@ -222,13 +221,13 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
      >[!IMPORTANT]
      >
-     >如果您的AEM服务器部署在端口80或443上，则不需要在URL中指定它。
+     >如果您的AEM服务器部署在端口80或443上，则无需在URL中指定该端口。
 
    - **身份验证：**&#x200B;从&#x200B;**基本\（用户名/密码\）**&#x200B;或&#x200B;**Web身份验证**&#x200B;中选择。 如果选择&#x200B;**基本**&#x200B;身份验证，则需要在“首选项”对话框中输入&#x200B;**用户名**&#x200B;和&#x200B;**密码**。
 
-     如果选择Web验证，则会显示AEM登录屏幕。 输入登录凭据并单击&#x200B;**登录**&#x200B;按钮。 成功登录后，AEM登录屏幕关闭，AEM Guides面板显示AEM服务器中的文件列表。
+     如果选择Web身份验证，则会显示AEM登录屏幕。 输入登录凭据并单击&#x200B;**登录**&#x200B;按钮。 成功登录后，AEM登录屏幕关闭，AEM Guides面板显示AEM服务器中的文件列表。
 
-   - **连接超时**：指定客户端等待来自AEM服务器的响应的时间（以秒为单位）。 如果在指定的时间内未收到来自服务器的响应，则请求被终止。 默认值为20秒。
+   - **连接超时**：指定客户端将等待AEM服务器响应的时间（以秒为单位）。 如果在指定的时间内未收到来自服务器的响应，则请求被终止。 默认值为20秒。
 
    - **本地文件夹**：签出后AEM存储库中文件的存储位置。 如果指定的位置在驱动器上不存在，则插件将创建该位置。
    - **签出时打开文件**：如果选定此选项，则在签出时打开文件。
@@ -254,8 +253,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 1. 在&#x200B;**扩展**&#x200B;选项卡中，进行以下更改：
 
-   - 单击&#x200B;**扩展包**&#x200B;旁边的&#x200B;**选择**&#x200B;并选择   **类**&#x200B;列表中的`LinkResolverExtensionBundle - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
-
+   - 单击&#x200B;**扩展包**&#x200B;旁边的&#x200B;**选择**&#x200B;并在&#x200B;**类**&#x200B;列表中选择`LinkResolverExtensionBundle - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
      ![为DITA主题配置的扩展](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作扩展状态侦听器**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作自定义属性值编辑器**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomValueEditor - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
@@ -268,7 +266,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 ### 配置DITA映射扩展
 
-要允许直接从AEM Web界面在Oxyo XML Author中打开映射文件，需要配置DITA映射扩展。 这些配置类似于在前面的过程中完成的用于分析属性的配置。
+要允许直接从AEM Web界面在Ourney XML Author中打开映射文件，需要配置DITA映射扩展。 这些配置类似于在前面的过程中完成的用于分析属性的配置。
 
 执行以下步骤来配置DITA map扩展：
 
@@ -276,7 +274,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 1. 在&#x200B;**文档类型关联**&#x200B;选项卡中，选择&#x200B;**DITA映射**，然后单击&#x200B;**扩展**。
 1. 在&#x200B;**类路径**&#x200B;选项卡中，从&#x200B;**使用ID为**&#x200B;的插件的父类加载器下拉列表中选择com.adobe.o2.connector。
 1. 在&#x200B;**扩展**&#x200B;选项卡中，进行以下更改：
-   - 单击&#x200B;**扩展包**&#x200B;旁边的&#x200B;**选择**&#x200B;并选择   **类**&#x200B;列表中的`com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle`。 单击&#x200B;**确定**。
+   - 单击&#x200B;**扩展包**&#x200B;旁边的&#x200B;**选择**&#x200B;并在&#x200B;**类**&#x200B;列表中选择`com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle`。 单击&#x200B;**确定**。
 
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作扩展状态侦听器**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
 
@@ -308,7 +306,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 **D**\)包含以下选项的“设置”\（齿轮\）图标：
 
-- **连接**：选择此选项可连接到AEM服务器。 当Oxygon XML Author连接到AEM Server时，将禁用该选项。
+- **连接**：选择此选项可连接到AEM服务器。 将Oxygon XML Author连接到AEM服务器时，将禁用该选项。
 - **刷新**：选择此选项可从AEM存储库中获取文件和文件夹的最新状态。
 
   >[!NOTE]
@@ -320,7 +318,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 ### 上下文菜单函数
 
-右键单击AEM存储库中的文件夹或文件即可使用适用于AEM Guides的氧气插件的功能。 文件夹可用的功能与文件不同。 以下是AEM Guides上下文菜单的氧插件中的完整功能列表：
+右键单击AEM Guides存储库中的文件夹或文件即可使用适用于AEM的氧气插件。 文件夹可用的功能与文件不同。 以下是AEM Guides上下文菜单的氧插件中的完整功能列表：
 
 - **打开**：打开选定的文件或展开选定的文件夹。
 - **在**&#x200B;中打开：您可以选择在AEM Guides的Web编辑器、地图仪表板或地图编辑器中打开选定的文件。 有关这些选项的详细信息，请参阅[在AEM Guides编辑器中打开文件](#id195GH0V30KX)。
@@ -329,7 +327,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 - **签出只读依赖项**：签出选定的文件及其依赖项。 无法在相关文件中进行任何更改。 有关详细信息，请参阅[签出文件](#id195HC020TS4)。
 - **取消签出**：取消签出文件，从编辑器关闭该文件，并还原对服务器上保存的文件的最新版本所做的更改。
 - **刷新**：如果是文件，将从AEM存储库中获取该文件的最新副本。 对于文件夹，它会获取文件夹结构和文件的状态。 这意味着添加了一个文件，然后该文件将显示在AEM Guides视图中。 此外，如果文件在AEM服务器上签出，在“氧气创作”中执行“刷新”操作会将文件显示为已签出。 但是，这不会更新AEM Guides *视图中签出的*&#x200B;文件中的文件列表。
-- **刷新签出的文件**：刷新AEM Guides *视图中签出的*&#x200B;文件中的签出文件列表。 如果在AEM服务器上签出了文件，则执行“刷新”将更新AEM Guides *视图中*&#x200B;签出的文件中的签出文件列表。 但是，如果添加了新文件或者文件的状态已更改，则它不会在AEM Guides树视图中更新它。 要更新AEM上文件的状态，必须执行“刷新”。
+- **刷新签出的文件**：刷新AEM Guides *视图中签出的*&#x200B;文件中的签出文件列表。 如果在AEM服务器上签出了文件，则执行“刷新”将更新AEM Guides *视图中*&#x200B;签出的文件列表中的签出文件。 但是，如果添加了新文件或者文件的状态已更改，则它不会在AEM Guides树视图中更新它。 要更新AEM上文件的状态，必须执行“刷新”。
 - **签入**：签入您已签出的文件。 有关详细信息，请参阅[签入文件](#id182CF0J0FHS)。
 - **与依赖项签入**：如果您签出了包含依赖项的文件，则此选项会签入主文件及其依赖项。 有关详细信息，请参阅[签入文件](#id182CF0J0FHS)。
 - **创建文件夹**：在AEM存储库中创建文件夹。 此选项仅在文件夹级别可用。
@@ -381,7 +379,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 ### 签出文件 {#id195HC020TS4}
 
-签出文件时，该文件将存储在您系统上的本地位置，并锁定在AEM存储库中进行编辑。 执行以下步骤签出文件：
+签出文件时，该文件将存储在您系统中的本地位置，并锁定以在AEM存储库中进行编辑。 执行以下步骤签出文件：
 
 1. 您可以通过以下方式之一签出文件：
    - 右键单击AEM Guides面板中的文件。
@@ -406,7 +404,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 >[!NOTE]
 >
->如果签出文件被删除或移至AEM中的任何其他文件夹，则在签入文件时将会显示错误消息。 确保签出文件未使用AEM Web界面移动或删除。
+>如果签出的文件被删除或移至AEM中的任何其他文件夹，则在签入文件时将会显示一条错误消息。 确保签出文件没有使用AEM Web界面移动或删除。
 
 ### 签入文件 {#id182CF0J0FHS}
 
@@ -431,9 +429,9 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    强烈建议不要移动已签出的文件。 但是，如果将已签出的文件移动到其他位置，则必须取消对该文件的签出。 如果要更新该文件，则再次签出该文件，进行更改，然后再次签入。 如果尝试签入的文件已从其原始位置移出，则会出现错误。
 
-   如果相关文件在AEM中检出，则“带从属项检入”不会在“检入”对话框中显示相关文件。 要获取在AEM中检出的相关文件的列表，必须执行文件夹“刷新”。
+   如果相关文件在AEM中检出，则“带从属项检入”不会在“检入”对话框中显示相关文件。 要获取在AEM中签出的相关文件的列表，必须执行文件夹“刷新”。
 
-   同样，如果您通过AEM签入了相关文件，则在执行文件夹“刷新”和“刷新签出文件”之前，不会在“氧创作”中刷新文件列表。 如果对通过AEM签入的某些文件执行带家属的签入，则会出现错误，列出无法签入的文件。
+   同样，如果您通过AEM签入了相关文件，则在执行文件夹“刷新”和“刷新签出文件”之前，该文件列表不会在“氧气创作”中刷新。 如果对通过AEM签入的某些文件执行带家属的签入，则您会收到一个错误，其中列出了无法签入的文件。
 
 1. \（可选\）在&#x200B;**签入**&#x200B;或&#x200B;**带依赖项签入**&#x200B;对话框中，在&#x200B;**版本注释**&#x200B;文本框中添加注释。
 
@@ -459,11 +457,11 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 >[!NOTE]
 >
->如果签出文件被删除或移至AEM中的任何其他文件夹，则在签入文件时将会显示错误消息。 确保签出文件未使用AEM Web界面移动或删除。
+>如果签出的文件被删除或移至AEM中的任何其他文件夹，则在签入文件时将会显示一条错误消息。 确保签出文件没有使用AEM Web界面移动或删除。
 
 ### 在AEM Guides视图中签出的文件
 
-当在多个文件夹中时，很难在一个视图中检出多少文件。 AEM Guides在AEM Guides视图中提供了“签出的文件”，该视图提供了当前已签出文件的完整快照。 使用此视图，您可以使用AEM Guides轻松查找已在AEM存储库中签出的文件。 执行以下步骤以访问此视图：
+当在多个文件夹中时，很难在一个视图中检出多少文件。 AEM Guides在AEM Guides视图中提供了“签出的文件”，该视图提供了当前已签出文件的完整快照。 使用此视图，您可以使用AEM Guides轻松地在AEM存储库中查找已由您签出的文件。 执行以下步骤以访问此视图：
 
 1. 单击&#x200B;**窗口** \> **显示视图** \> **在AEM Guides中签出的文件**。
 
@@ -557,11 +555,11 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 ## 搜索AEM存储库中的主题 {#id1826J20405Z}
 
-您可以使用AEM Guides面板中的搜索栏在AEM存储库中搜索主题。 您可以在整个DAM文件夹中进行搜索，或选择一个文件夹，然后在该文件夹中搜索主题。 搜索结果将显示文本与搜索查询匹配的主题。
+您可以使用AEM面板中的搜索栏在AEM Guides存储库中搜索主题。 您可以在整个DAM文件夹中进行搜索，或选择一个文件夹，然后在该文件夹中搜索主题。 搜索结果将显示文本与搜索查询匹配的主题。
 
 执行以下步骤以搜索主题：
 
-1. 在AEM存储库中选择要在其中搜索主题的文件夹。
+1. 在AEM存储库中选择要用于搜索主题的文件夹。
 1. 在AEM Guides的氧气插件搜索栏中输入搜索查询\（例如，`introduction`\）。
 1. 单击搜索按钮或按Enter。
 
@@ -570,8 +568,8 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    ![搜索结果](images/search.png){width="550" align="left"}
 
 1. \（可选\）双击搜索结果中的文件以在Oxygen XML Author中将其打开。
-1. 要返回“AEM资料档案库”视图，请执行下列操作之一：
-   - 要查看AEM存储库视图而不清除搜索结果，请单击&#x200B;**浏览**&#x200B;选项卡。
+1. 要返回到AEM存储库视图，请执行以下操作之一：
+   - 要在不清除搜索结果的情况下查看AEM存储库视图，请单击&#x200B;**浏览**&#x200B;选项卡。
    - 要清除搜索结果并查看AEM存储库，请单击删除搜索图标。
 
 ## 从AEM Web界面在氧XML创作中打开DITA主题 {#id182CE0I905Z}
@@ -592,7 +590,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    >
    >如果主题未检出，则会先检出该主题，然后在编辑模式下在Oxygen中将其打开。
 
-1. 在&#x200B;**Launch应用程序**&#x200B;消息框中选择Oxyo XML作者&#x200B;*&lt;version\>*。 您可以选择&#x200B;**记住我选择的AEM链接**&#x200B;选项以保存您的首选项。
+1. 在&#x200B;**Launch Application**&#x200B;消息框中选择“氧气XML作者”*&lt;version\>*。 您可以选择&#x200B;**记住我为AEM链接所做的选择**&#x200B;选项以保存您的首选项。
 
 **编辑DITA主题**
 
@@ -605,7 +603,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    >
    >如果主题未检出，则会先检出该主题，然后在编辑模式下在Oxygen中将其打开。
 
-1. 在&#x200B;**Launch应用程序**&#x200B;消息框中选择Oxyo XML作者&#x200B;*&lt;version\>*。 您可以选择&#x200B;**记住我选择的AEM链接**&#x200B;选项以保存您的首选项。
+1. 在&#x200B;**Launch Application**&#x200B;消息框中选择“氧气XML作者”*&lt;version\>*。 您可以选择&#x200B;**记住我为AEM链接所做的选择**&#x200B;选项以保存您的首选项。
 1. 在Oxygon XML Author中编辑主题。
 1. 查看AEM Guides的氧气插件中的主题。
 
@@ -613,7 +611,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    >[!NOTE]
    >
-   >确保使用AEM Guides的氧气插件签入主题，如果从AEM Web界面签入，则在氧气XML创作中所做的更改不会保存在主题的签入版本中。
+   >确保使用适用于AEM Guides的氧气插件签入主题，如果您从AEM Web界面签入，则您在氧气XML创作中所做的更改不会保存在主题的签入版本中。
 
 **插入对Experience Manager Guides存储库中主题的引用**
 
@@ -627,16 +625,16 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 如果拖放到编辑器并打开主题，请执行以下操作：
 - 为图像添加了包含`<image>`元素的引用。
 - 为视频或音频添加对象元素。
-- 为所有其他引用(如topic、map、DITAVAL、PDF、ZIP和XML)添加了`<xref>`元素。
+- 为所有其他引用（如topic、map、DITAVAL、PDF、ZIP和XML）添加了`<xref>`元素。
 
 如果您使用打开的映射拖放到编辑器或DITA映射管理器：
 - 为映射引用（包括DITA映射、书签映射或主题方案）添加了`<mapref>`元素。
-- 为所有其他引用(如topic、map、DITAVAL、PDF、ZIP和XML)添加了`<topicref>`元素。
+- 为所有其他引用（如topic、map、DITAVAL、PDF、ZIP和XML）添加了`<topicref>`元素。
 
 
 ## 使用属性配置文件 {#id1827JA002YK}
 
-AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。 您可以在全局级别或文件夹级别定义条件属性。 全局定义的条件在所有项目中均可见，文件夹级别的条件仅在指定文件夹内创建的项目中可见。 内容作者可以使用这些条件属性来条件化其DITA主题中的内容或他们创建或使用的映射。 有关如何使用AEM Guides在AEM中创建条件属性的更多信息，请参阅“安装和配置Adobe Experience Manager Guides”中的&#x200B;*为全局或文件夹级别的配置文件配置条件属性*&#x200B;部分。
+AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。 您可以在全局级别或文件夹级别定义条件属性。 全局定义的条件在所有项目中均可见，文件夹级别的条件仅在指定文件夹内创建的项目中可见。 内容作者可以使用这些条件属性来条件化其DITA主题中的内容或他们创建或使用的映射。 要详细了解如何使用AEM Guides在AEM中创建条件属性，请参阅安装和配置Adobe Experience Manager Guides中的&#x200B;*为全局或文件夹级别配置文件配置条件属性*&#x200B;部分。
 
 >[!NOTE]
 >
@@ -661,7 +659,7 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
    属性将添加到内容中。
 
 
-## 常见问题疑难解答 {#id188ABC00RY4}
+## 常见问题排查 {#id188ABC00RY4}
 
 本主题涵盖了使用插件时可能遇到的一些最常见问题及其解决方案。
 
@@ -712,7 +710,7 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 
 ### AEM Guides面板未浏览到打开的文件位置
 
-问题：当您选择从AEM服务器打开文件以在Oxygon XML Author中进行编辑时，将打开该文件以在Oxygon XML Author中进行编辑。 但是，AEM Guides面板不会显示文件在导航树中的位置。
+问题：当您选择从AEM服务器打开文件以使用氧气XML创作进行编辑时，将会打开该文件以使用氧气XML创作进行编辑。 但是，AEM Guides面板不会显示文件在导航树中的位置。
 
 解决方案：在文件路径中包含/content/dam两次的情况下，已发现此问题。 默认情况下，AEM中的所有资源都存储在/content/dam文件夹下。 如果上传或创建的文件夹结构也包含/content/dam，则会出现此问题。 您可以对此类文件执行所有常规操作，但默认情况下，不会显示它们在导航树中的位置。 要在导航树中访问此类文件，必须手动浏览到文件的位置。 请注意，在导航树中，重复的/content/dam路径将被替换为/content/assets 。
 
@@ -754,7 +752,7 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 1. 关闭文件。 这将启用Xygen日志，该日志将在以下路径中可用： `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. 在文本编辑器中打开`oxygenAuthor.bat`文件。
 1. 通过添加参数来设置与JxBrowser相关的日志
-   `-Denable.aem.jx.log=true`。这将启用与JxBrowser相关的日志，您可以在以下路径中查看这些日志： `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`：
+   `-Denable.aem.jx.log=true`. 这将启用与JxBrowser相关的日志，您可以在以下路径中查看这些日志： `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`：
 
 
 

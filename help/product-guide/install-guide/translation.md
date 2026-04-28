@@ -5,19 +5,18 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 7%
+source-wordcount: '1088'
+ht-degree: 6%
 
 ---
 
 # 翻译内容 {#id181GB0400UI}
 
-自动翻译页面内容、资产和用户生成的内容，以创建和维护多语言网站。 要自动化翻译工作流，您可以将翻译服务提供商与 AEM 集成并创建项目以将内容翻译成多种语言。AEM 支持人工翻译工作流和机器翻译工作流。
+自动翻译页面内容、资产和用户生成的内容，以创建和维护多语言网站。 要自动化翻译工作流，您可以将翻译服务提供商与 AEM 集成并创建项目以将内容翻译成多种语言。 AEM 支持人工翻译工作流和机器翻译工作流。
 
-- 人工翻译：内容将发送给您的翻译提供商并由专业翻译人员进行翻译。 完成后，将返回翻译的内容并将其导入 AEM。当您的翻译提供商与AEM集成时，内容会在AEM和翻译提供商之间自动交换
+- 人工翻译：内容将发送给您的翻译提供商并由专业翻译人员进行翻译。 完成后，将返回翻译的内容并将其导入 AEM。 当您的翻译提供商与AEM集成时，内容会在AEM和翻译提供商之间自动交换
 
 - 机器翻译：机器翻译服务将立即翻译您的内容
 

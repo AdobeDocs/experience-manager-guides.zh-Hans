@@ -1,14 +1,13 @@
 ---
-title: 本机PDF发布功能|在脚注中使用自定义样式
+title: 原生PDF发布功能 |在脚注中使用自定义样式
 description: 了解如何在脚注中对数字应用样式。
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---

@@ -5,19 +5,18 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 9%
+source-wordcount: '877'
+ht-degree: 8%
 
 ---
 
 # 翻译内容 {#id181GB0400UI}
 
-自动翻译页面内容、资产和用户生成的内容，以创建和维护多语言网站。 要自动化翻译工作流，您可以将翻译服务提供商与 AEM 集成并创建项目以将内容翻译成多种语言。AEM 支持人工翻译工作流和机器翻译工作流。
+自动翻译页面内容、资产和用户生成的内容，以创建和维护多语言网站。 要自动化翻译工作流，您可以将翻译服务提供商与 AEM 集成并创建项目以将内容翻译成多种语言。 AEM 支持人工翻译工作流和机器翻译工作流。
 
-- 人工翻译：内容将发送给您的翻译提供商并由专业翻译人员进行翻译。 完成后，将返回翻译的内容并将其导入 AEM。当您的翻译提供商与AEM集成时，内容会在AEM和翻译提供商之间自动交换
+- 人工翻译：内容将发送给您的翻译提供商并由专业翻译人员进行翻译。 完成后，将返回翻译的内容并将其导入 AEM。 当您的翻译提供商与AEM集成时，内容会在AEM和翻译提供商之间自动交换
 
 - 机器翻译：机器翻译服务将立即翻译您的内容
 
@@ -67,7 +66,7 @@ ht-degree: 9%
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布尔值： <br> -   如果您使用的是人工翻译，则&#x200B;*禁用* \( `false`\) **基于组件的翻译工作流**&#x200B;选项。 <br> -   如果您正在使用机器翻译，则&#x200B;*启用\( `true`\)* **基于组件的翻译工作流**&#x200B;选项。 |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布尔值： <br> — 如果您正在使用人工翻译，则&#x200B;*禁用* \(`false`\) **基于组件的翻译工作流**&#x200B;选项。<br> — 如果您正在使用机器翻译，则&#x200B;*启用\( `true`\)* **基于组件的翻译工作流**&#x200B;选项。 |
 
 
 
@@ -82,7 +81,7 @@ ht-degree: 9%
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布尔值： <br> — 如果您使用最新的翻译工作流，则&#x200B;*禁用* \(`false`\) **运行旧版翻译工作流**&#x200B;选项。  <br> -   如果使用旧版翻译，则&#x200B;*启用\( `true`\)* **运行旧版翻译工作流**&#x200B;选项。<br> **默认值**： false |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布尔值： <br> — 如果您使用最新的翻译工作流，则&#x200B;*禁用* \(`false`\) **运行旧版翻译工作流**&#x200B;选项。 <br> — 如果您使用旧版翻译，则&#x200B;*启用\( `true`\)* **运行旧版翻译工作流**&#x200B;选项。<br> **默认值**： false |
 
 
 
@@ -103,5 +102,5 @@ ht-degree: 9%
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔值： <br> -   如果不想对临时文件运行后处理操作，则&#x200B;*禁用* \( false\) **后处理语言副本**&#x200B;选项。<br> -   如果要对临时文件运行后处理操作，请&#x200B;*启用* \( true\) **后处理语言副本**&#x200B;选项。<br> **默认值**： false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔值： <br> — 如果不想对临时文件运行后处理操作，则&#x200B;*禁用* \( false\) **后处理语言副本**&#x200B;选项。<br>  — 如果要对临时文件运行后处理操作，请&#x200B;*启用* \( true\) **后处理语言副本**&#x200B;选项。<br> **默认值**： false |
 

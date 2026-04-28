@@ -1,14 +1,13 @@
 ---
-title: 本机PDF |在PDF输出中使用变量
+title: 原生PDF |在PDF输出中使用变量
 description: 在PDF输出和输出模板中使用变量
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ ht-degree: 0%
 *创建变量并为其定义值。*
 
 
-1. 在编辑器中，导航到左侧面板并选择&#x200B;**变量** <img alt= "变量图标" src="./assets/variables-icon.svg" width="25">。更多部分下提供了此选项。
+1. 在编辑器中，导航到左侧面板并选择&#x200B;**变量** <img alt= "变量图标" src="./assets/variables-icon.svg" width="25">. 更多部分下提供了此选项。
 1. 选择&#x200B;**编辑** <img alt= "编辑铅笔图标" src="./assets/edit_pencil_icon.svg" width="25">以打开&#x200B;**变量**&#x200B;编辑器。
 变量按字母顺序列出。
 1. 在&#x200B;**Name**&#x200B;列中输入变量名称，并在&#x200B;**Value**&#x200B;列中输入其值。

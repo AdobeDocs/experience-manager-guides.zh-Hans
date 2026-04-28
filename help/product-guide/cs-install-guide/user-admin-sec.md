@@ -5,11 +5,10 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 9%
+source-wordcount: '728'
+ht-degree: 12%
 
 ---
 
@@ -19,9 +18,9 @@ ht-degree: 9%
 
 AEM文档中的以下主题将帮助您了解用户管理与安全相关的概念和功能：
 
-- [AEM用户、组和权限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hans)
+- [AEM 用户、组和权限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hans)
 
-- [用户管理和安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=zh-Hans)
+- [用户管理与安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=zh-Hans)
 
 
 ## AEM Guides创建的用户组 {#id181TF0K0MHT}
@@ -39,7 +38,7 @@ AEM Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&
 | 创建DITA主题 | 是 |   | 是 |
 | 创建DITA映射 | 是 |   | 是 |
 | 映射收藏集 | 是 |   | 是 |
-| 创建审阅任务 | 是 |   | 是 |
+| 创建审核任务 | 是 |   | 是 |
 | 审核主题[1](#fntarg_1) | 是 | 是 | 是 |
 | 关键分辨率 | 是 |   | 是 |
 | 签出/签入 | 是 |   | 是 |
@@ -61,7 +60,7 @@ AEM Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&
 | **DITA映射控制台中可用的功能\（输出选项卡\）** |  |  |  |
 | 查看生成的输出 | 是 |   | 是 |
 | **DITA映射控制台中可用的功能\（主题选项卡\）** |  |  |  |
-| 创建审阅任务 | 是 |   | 是 |
+| 创建审核任务 | 是 |   | 是 |
 | 编辑 | 是 |   | 是 |
 | **DITA映射控制台中可用的功能\（“基线”选项卡\）** |  |  |  |
 | 创建 |   |   | 是 |
@@ -104,4 +103,4 @@ AEM Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&
 
 - 要授予用户更改文档状态的权限，请确保在文档状态配置文件的状态转换部分中添加用户。
 
-[1](#fnsrc_1)如果邀请了&#x200B;*作者*&#x200B;和&#x200B;*发布者*&#x200B;进行审阅。[2](#fnsrc_2)取决于在文档状态配置文件中授予用户的权限。
+[1](#fnsrc_1)如果邀请了&#x200B;*作者*&#x200B;和&#x200B;*发布者*&#x200B;进行审阅。[2](#fnsrc_2)取决于在文档状态配置文件中授予该用户的权限。

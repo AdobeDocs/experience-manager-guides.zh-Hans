@@ -5,10 +5,9 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -58,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 除了通过OSGi配置配置的忽略和启用的路径外，后处理行为还受到位于`/var/dxml/postprocess/ignoredPaths`的存储库级别节点的影响。 <br>如果文件夹意外地从后处理中排除，并且未在OSGi配置中列出，则建议检查此存储库节点。 如果路径出现在此处且设置为`true`，则将忽略该路径。 要重新启用处理，您可以从节点手动删除相应的属性。
+> 除了通过OSGi配置配置的忽略和启用的路径外，后处理行为还受到位于`/var/dxml/postprocess/ignoredPaths`的存储库级别节点的影响。<br> 如果文件夹意外地从后处理中排除，并且未在OSGi配置中列出，则建议检查此存储库节点。 如果路径出现在此处且设置为`true`，则将忽略该路径。 要重新启用处理，您可以从节点手动删除相应的属性。
 
 ## 启用或禁用后处理的规则
 

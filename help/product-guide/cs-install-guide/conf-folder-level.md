@@ -5,10 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5127'
+source-wordcount: '5239'
 ht-degree: 0%
 
 ---
@@ -218,7 +217,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
    >[!IMPORTANT]
    >
-   > 专用的DTD文件应是自定义代码部署的一部分。 /apps下的DTD是产品部署的一部分，因此将被任何新版本的安装覆盖。 建议在项目文件夹的/var/dxml/dita\_resources下添加专用的DTD，并在DITA配置文件中包含DTD/目录路径。有关详细信息，请参阅[集成DITA专用化](dita-ot-specialization.md#id211MB0E00XA)。
+   > 专用的DTD文件应是自定义代码部署的一部分。 /apps下的DTD是产品部署的一部分，因此将被任何新版本的安装覆盖。 建议在项目文件夹的/var/dxml/dita\_resources下添加专用的DTD，并在DITA配置文件中包含DTD/目录路径。有关详细信息，请参阅[集成DITA专业化](dita-ot-specialization.md#id211MB0E00XA)。
 
 1. 使用包管理器下载/libs/fmdita/config/condAttrList.xml文件：
 

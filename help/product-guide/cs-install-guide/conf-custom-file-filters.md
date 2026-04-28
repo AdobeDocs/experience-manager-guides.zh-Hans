@@ -5,10 +5,9 @@ exl-id: 1ef2cec8-2e77-40c1-9ed2-324048bf65fb
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -52,13 +51,13 @@ ht-degree: 0%
    在上述代码片段中，第一个过滤器用于DITA文件。 过滤器定义采用以下参数：
 
    标题
-：   过滤器的显示名称。 此标题将作为筛选选项显示在文件浏览对话框中。
+：过滤器的显示名称。 此标题将作为筛选选项显示在文件浏览对话框中。
 
    属性
-：   在文件的元数据中匹配的属性。 例如，要仅允许属性中包含`dita_class`元数据的文件，属性筛选器将采用“`jcr:content/metadata/dita_class`”作为其值。
+：与文件元数据匹配的属性。 例如，要仅允许属性中包含`dita_class`元数据的文件，属性筛选器将采用“`jcr:content/metadata/dita_class`”作为其值。
 
    操作
-：   指定“`exists`”以匹配属性参数中指定的值是否存在。
+：指定“`exists`”以匹配属性参数中指定的值是否存在。
 
    第二个滤镜用于图像文件。 除了`value`参数之外，这些参数与第一个筛选器相似。 `value`参数采用图像类型的数组作为其值。 在value参数中指定的所有文件类型都将被搜索并显示在文件浏览对话框中，所有其他文件类型将被忽略。
 

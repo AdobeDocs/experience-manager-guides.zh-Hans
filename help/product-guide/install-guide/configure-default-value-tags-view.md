@@ -5,8 +5,7 @@ exl-id: 52214459-74b8-47ec-982b-6176145348a8
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # 配置标记视图的默认值 {#id223GN0M0NDC}
 
-AEM Guides允许您在Web编辑器中配置“标记视图”的默认状态，这有助于在默认情况下为新用户的会话打开或关闭标记视图。执行以下步骤来配置“标记视图”的默认值：
+AEM Guides允许您在Web编辑器中配置标记视图的默认状态，这有助于在默认情况下启用或禁用新用户会话的标记视图。执行以下步骤可配置“标记视图”的默认值：
 
 1. 以管理员身份登录Adobe Experience Manager以下载用户界面配置文件。
 1. 单击顶部的Adobe Experience Manager链接，然后选择&#x200B;**工具**。

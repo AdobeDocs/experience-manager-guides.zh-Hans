@@ -5,8 +5,7 @@ exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -29,7 +28,7 @@ ht-degree: 0%
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. 导航到`ui_config.json`节点中的`apps`文件并将其打开以进行编辑。
+1. 导航到`apps`节点中的`ui_config.json`文件并将其打开以进行编辑。
 
 1. 在`ui_config.json`文件中，添加要添加筛选器的定义。
 
@@ -56,11 +55,11 @@ ht-degree: 0%
 
    在上述代码片段中，第一个过滤器用于DITA文件。 过滤器定义采用以下参数：
 
-   - **标题：**   过滤器的显示名称。 此标题将作为筛选选项显示在文件浏览对话框中。
+   - **title：**&#x200B;过滤器的显示名称。 此标题将作为筛选选项显示在文件浏览对话框中。
 
-   - **属性：**   在文件的元数据中匹配的属性。 例如，要仅允许属性中包含`dita_class`元数据的文件，属性筛选器将“`jcr:content/metadata/dita_class`”作为其值。
+   - **属性：**&#x200B;要与文件的元数据匹配的属性。 例如，要仅允许属性中包含`dita_class`元数据的文件，属性筛选器将“`jcr:content/metadata/dita_class`”作为其值。
 
-   - **操作：**   指定“`exists`”以匹配属性参数中指定的值是否存在。
+   - **操作：**&#x200B;指定“`exists`”以匹配属性参数中指定的值的存在。
 
    第二个滤镜用于图像文件。 除了`value`参数之外，这些参数与第一个筛选器相似。 `value`参数采用图像类型的数组作为其值。 在value参数中指定的所有文件类型都将被搜索并显示在文件浏览对话框中，所有其他文件类型将被忽略。
 

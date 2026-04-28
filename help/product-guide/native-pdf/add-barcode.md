@@ -1,11 +1,10 @@
 ---
-title: 本机PDF发布功能|添加条形码
+title: 原生PDF发布功能 |添加条形码
 description: 了解如何添加条形码。
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -55,7 +54,7 @@ margin-top: 2mm;
 1. 选择页面布局。 例如，您可以选择“后盖”页面布局，其中包含页眉或页脚。
 1. 将以下范围添加到要插入条形码的位置。
 
-   `<span class="barcode">Sample barcode</span></p>`。
+   `<span class="barcode">Sample barcode</span></p>`.
 
    >[!NOTE]
    >
@@ -71,7 +70,7 @@ margin-top: 2mm;
 
 **示例 2**
 
-修改`Common.plt`Basic **模板中的**&#x200B;文件以在项目标题后添加条形码。
+修改&#x200B;**Basic**&#x200B;模板中的`Common.plt`文件以在项目标题后添加条形码。
 
 要为ISBN编号创建条形码，请添加ISBN编号。 然后使用ISBN编号生成条形码。
 
@@ -90,7 +89,7 @@ margin-top: 2mm;
 
 要使用映射元数据创建条形码，请执行以下操作：
 
-使用DITA映射的`<topicmeta>`元素中存在的任何元数据显示为条形码。 确保使用正确的XPath。 例如，您可以在DITA映射的`<resourceid>`中添加`<topicmeta>`。
+使用DITA映射的`<topicmeta>`元素中存在的任何元数据显示为条形码。 确保使用正确的XPath。 例如，您可以在DITA映射的`<topicmeta>`中添加`<resourceid>`。
 
 在以下示例中，资源ID用作生成条形码的主输入。
 

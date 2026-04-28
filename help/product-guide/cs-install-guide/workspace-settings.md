@@ -4,17 +4,16 @@ description: 了解Experience Manager Guides编辑器界面中可用的各种设
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
 
 # Workspace设置
 
-编辑器&#x200B;**选项卡栏**&#x200B;中存在的[Workspace设置](../user-guide/web-editor-tab-bar.md)选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
+编辑器[选项卡栏](../user-guide/web-editor-tab-bar.md)中存在的&#x200B;**Workspace设置**&#x200B;选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
 
 - [常规](#general)
 - [面板](#panels)
@@ -124,7 +123,7 @@ ht-degree: 0%
 
 ![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
 
-在上述屏幕快照中，`p`元素被赋予了Paragraph标签，`codeblock`被赋予了Code Block标签以及其他一些元素。 如果选择&#x200B;**仅使用以上元素**&#x200B;选项，则&#x200B;**插入元素**&#x200B;对话框中只会显示此列表中的有效元素\（在当前插入点\）。
+在上述屏幕快照中，`p`元素被赋予了Paragraph标签，`codeblock`被赋予了Code Block标签以及其他一些元素。如果选择&#x200B;**仅使用以上元素**&#x200B;选项，则&#x200B;**插入元素**&#x200B;对话框中只会显示此列表中的有效元素\（在当前插入点\）。
 
 在以下屏幕快照中，当前上下文中只显示前一个屏幕快照中4个已配置元素中的3个：
 

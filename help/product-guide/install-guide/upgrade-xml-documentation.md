@@ -5,11 +5,10 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '9148'
-ht-degree: 0%
+source-wordcount: '9267'
+ht-degree: 1%
 
 ---
 
@@ -60,7 +59,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅&#x200B;*Experience Manager Guides帮助PDF存档*&#x200B;上提供的产品特定安装指南中的[升级Adobe Experience Manager Guides](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)部分。
+> 此升级过程仅适用于版本3.8.5到版本4.0。 有关从版本3.4或更高版本升级到3.8.5的过程，请参阅[Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的&#x200B;*升级Adobe Experience Manager Guides*&#x200B;部分。
 
 
 
@@ -89,7 +88,7 @@ ht-degree: 0%
 | 终点 | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | 请求类型 | **GET**&#x200B;您可以使用Web浏览器，在该浏览器中，您以管理员身份登录到AEM实例。 |
-| 预期响应 | -   如果可以移动所有需要的节点，您将获得一个通过检查。 <br>-   如果目标位置中存在节点，您将收到相关错误。 清理存储库\（删除节点/var/dxml\）并重新安装升级包，然后再次触发此端点。 <br>**注意：**&#x200B;这不是常见的错误，因为3.x Experience Manager Guides之前未使用目标位置。 <br> -   如果此脚本不成功，请不要继续，并报告给您的客户成功团队。 |
+| 预期响应 |  — 如果可以移动所有需要的节点，您将获得一个通过检查。 <br> — 如果目标位置中存在节点，您将收到相关错误。 清理存储库\（删除节点/var/dxml\）并重新安装升级包，然后再次触发此端点。 <br>**注意：**&#x200B;这不是常见的错误，因为3.x Experience Manager Guides之前未使用目标位置。<br> — 如果此脚本未成功，请不要继续，并报告给您的客户成功团队。 |
 
 **系统数据迁移API**
 
@@ -101,7 +100,7 @@ ht-degree: 0%
 | 终点 | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | 请求类型 | **POST**&#x200B;此脚本是POST请求，因此应通过Postman等代理执行。 |
-| 预期响应 | -   成功迁移后，您可以安装XML Documentation解决方案版本4.0.<br>-   如果出现错误，请还原到最后一个检查点，并与您的客户成功团队共享错误日志以及API输出。 |
+| 预期响应 |  — 迁移成功后，您可以安装XML Documentation解决方案版本4.0。<br> — 如果出现错误，请还原到最后一个检查点，并与您的客户成功团队共享错误日志以及API输出。 |
 
 **迁移映射**：上述API将源位置下的所有数据迁移到目标位置。
 
@@ -143,7 +142,7 @@ ht-degree: 0%
 
 1. 已升级到Experience Manager Guides版本4.0、4.1或4.1.x。
 1. 已关闭所有翻译任务。
-1. 已将&#x200B;**类的日志级别更改为**&#x200B;信息`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新日志文件中，例如`logs/translation_upgrade.log.`
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**信息**，并将这些日志附加到新日志文件中，例如`logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
@@ -224,14 +223,14 @@ ht-degree: 0%
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器（适用于条件“`jcr:content/jcr:mimeType!=video`”），
+   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器（适用于条件“`jcr:content/jcr:mimeType!=video`”），
    - “通配”值应为：
 
    ```json
@@ -319,7 +318,7 @@ ht-degree: 0%
 
 1. 已升级到Experience Manager Guides版本4.1、4.1.x或4.2。
 1. 已关闭所有翻译任务。
-1. 已将&#x200B;**类的日志级别更改为**&#x200B;信息`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新日志文件中，例如`logs/translation_upgrade.log.`
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**信息**，并将这些日志附加到新日志文件中，例如`logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
@@ -441,14 +440,14 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -470,11 +469,11 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
 - 确保`damAssetLucene`索引已完成。 这可能需要几个小时，具体取决于服务器上存在的数据量。 您可以通过检查中的重新索引字段是否设置为false来确认重新索引已完成
-  `http://<server:port>/oak:index/damAssetLucene`。  此外，如果您已在`damAssetLucene`中添加任何自定义项，则可能需要再次应用它们。
+  `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在`damAssetLucene`中添加任何自定义项，则可能需要再次应用它们。
 
 - 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
 
-- 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
+- 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。 请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
@@ -504,7 +503,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 1. 从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载4.3.0版本包。
 1. 安装版本4.3.0包。
 1. 安装包后清除浏览器缓存。
-1. 从文件夹配置文件的`ui_config.json`XML编辑器配置&#x200B;**选项卡中升级**&#x200B;文件。
+1. 从文件夹配置文件的&#x200B;**XML编辑器配置**&#x200B;选项卡中升级`ui_config.json`文件。
 
 
 ## 安装版本4.3.0之后
@@ -516,7 +515,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 执行以下步骤后处理现有内容并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个dita文件，请将`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个dita文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
    | PID | 属性键 | 属性值 |
    |---|---|---|
@@ -527,13 +526,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **POST**&#x200B;此脚本是POST请求，因此应通过Postman等代理执行。 |
-   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，您可以向同一端点发送一个带有作业ID的GET请求。<br>示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点。<br> 示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **GET** |
    | 参数 | jobId：传递从上一个post请求收到的jobId。 |
-   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。 <br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。<br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
@@ -554,7 +553,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 1. 已升级到Experience Manager Guides版本4.3.0、4.2或4.2.1，并完成了各自的安装步骤。
 1. （可选）已关闭所有翻译任务。
-1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 
 ## 安装版本4.3.1
@@ -669,14 +668,14 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -717,7 +716,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 执行以下步骤后处理现有内容并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个dita文件，请将`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个dita文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
    | PID | 属性键 | 属性值 |
    |---|---|---|
@@ -728,13 +727,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **POST**&#x200B;此脚本是POST请求，因此应通过Postman等代理执行。 |
-   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，您可以向同一端点发送一个带有作业ID的GET请求。<br>示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点。<br> 示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **GET** |
    | 参数 | jobId：传递从上一个post请求收到的jobId。 |
-   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。 <br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。<br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
@@ -749,7 +748,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 ## 安装版本4.3.1.5
 
-1. 从4.3.1.5Adobe软件分发门户[下载](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)版本包。
+1. 从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载4.3.1.5版本包。
 1. 安装版本4.3.1.5包。
 
 1. 等待安装过程成功完成。
@@ -795,7 +794,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 1. 已升级到Experience Manager Guides版本4.3.1、4.3.0或4.2.1（修补程序4.2.1.3），并完成了各自的安装步骤。
 1. （可选）已关闭所有翻译任务。
-1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 
 ## 安装版本4.4.0
@@ -872,14 +871,14 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -918,7 +917,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 执行以下步骤后处理现有内容并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个dita文件，请将`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个dita文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
    | PID | 属性键 | 属性值 |
    |---|---|---|
@@ -929,13 +928,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **POST**&#x200B;此脚本是POST请求，因此应通过Postman等代理执行。 |
-   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，您可以向同一端点发送一个带有作业ID的GET请求。<br>示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点。<br> 示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **GET** |
    | 参数 | jobId：传递从上一个post请求收到的jobId。 |
-   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。 <br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。<br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
 
@@ -1003,7 +1002,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 1. 已升级到Experience Manager Guides版本4.3.1、4.3.0或4.2.1（修补程序4.2.1.3），并完成了各自的安装步骤。
 1. （可选）已关闭所有翻译任务。
-1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 
 ## 安装版本4.6.0
@@ -1078,14 +1077,14 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -1119,7 +1118,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 执行以下步骤来索引现有内容：
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引||示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1158,7 +1157,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 1. 已升级到Experience Manager Guides版本4.6.3、4.6.1、4.6.0或4.4，并完成了各自的安装步骤。
 1. （可选）已关闭所有翻译任务。
-1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 
 ## 安装版本5.0.0
@@ -1233,14 +1232,14 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -1274,7 +1273,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 执行以下步骤来索引现有内容：
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引||示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -1322,7 +1321,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 1. 已升级到Experience Manager Guides版本4.6.3、4.6.4、5.0.0或5.0.0 Service Pack 1，并完成了各自的安装步骤。
 1. （可选）已关闭所有翻译任务。
-1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 >[!NOTE]
 >
@@ -1400,14 +1399,14 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -1441,7 +1440,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 执行以下步骤来索引现有内容：
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引||示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 

@@ -5,10 +5,9 @@ exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | 指定UUID文件名模式的正则表达式的字符串。 <br>如果文件不遵循指定的模式，则会将UUID添加到文件的属性，并且所有对该文件的引用都将使用分配给该文件的UUID进行更新。<br> **默认值**： `"^GUID-(?<id>.*)"` |
+| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | 指定UUID文件名模式的正则表达式的字符串。<br> 如果文件不遵循指定的模式，则会将UUID添加到文件的属性中，并且使用分配给文件的UUID更新对该文件的所有引用。<br> **默认值**： `"^GUID-(?<id>.*)"` |
 
 ## 使用curl命令
 
@@ -45,7 +44,7 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 - `jcr:primaryType=sling:Folder`：将此参数&#x200B;*指定为*&#x200B;以创建文件夹类型资源。
 
-- `<server folder path>`：完整的文件夹路径，包括您要在AEM存储库中创建的新文件夹的名称。 例如，如果您将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，则在DAM的`AEM-Guides`文件夹中创建文件夹`projects`。
+- `<server folder path>`：完整的文件夹路径，包括您要在AEM存储库中创建的新文件夹的名称。 例如，如果您将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides`，则在DAM的`projects`文件夹中创建文件夹`AEM-Guides`。
 
 
 **上载文件**

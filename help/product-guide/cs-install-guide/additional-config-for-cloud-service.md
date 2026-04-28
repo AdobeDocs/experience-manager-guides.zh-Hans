@@ -2,11 +2,10 @@
 title: 用于升级云服务的其他配置
 description: 了解用于升级云服务的其他配置
 exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 0%
+source-wordcount: '863'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +84,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server:port>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都已索引||示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`）
 
-1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
+1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。 请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
 1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`（例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -96,7 +95,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 +++后处理现有内容以使用断开链接报表的步骤 
 执行以下步骤对现有内容进行后处理，并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个DITA文件，请将`queryLimitReads`下的`queryLimitInMemory`和`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个DITA文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`和`queryLimitInMemory`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
    - 按照安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置覆盖*&#x200B;部分中提供的说明创建配置文件。
    - 在配置文件中，提供以下（属性）详细信息以配置`queryLimitReads`和`queryLimitInMemory`选项：
@@ -108,7 +107,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server>//bin/guides/reports/upgrade`。
 
-1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. API返回jobId。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 —  `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
 1. 作业完成后，上一个GET请求会做出成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。

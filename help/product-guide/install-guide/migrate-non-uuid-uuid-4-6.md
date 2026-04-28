@@ -5,10 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f17a2e02-62de-4ed6-8d1f-4c72e7488437
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1752'
 ht-degree: 1%
 
 ---
@@ -115,7 +114,7 @@ ht-degree: 1%
    * `com.adobe.guides.uuid`。
 
 
-1. （如果之前未这样做）如果系统中有超过100,000个DITA文件，请将`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于存在的资产数的值，例如200,000）。
+1. （如果之前未这样做）如果系统中有超过100,000个DITA文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新为更大的值（任何大于存在的资产数的值，例如200,000）。
 
    | PID | 属性键 | 属性值 |
    |---|---|---|
@@ -218,7 +217,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 如果在迁移之前，属性&#x200B;**在**&#x200B;中使用AEM站点页面名称的标题`com.adobe.fmdita.config.ConfigManager`，设置为&#x200B;*False*，则在迁移之后，需要更新此属性。
+   > 如果在迁移之前，属性&#x200B;**在`com.adobe.fmdita.config.ConfigManager`中使用AEM站点页面名称的标题**，设置为&#x200B;*False*，则在迁移之后，需要更新此属性。
 
 
 1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hans`）。
