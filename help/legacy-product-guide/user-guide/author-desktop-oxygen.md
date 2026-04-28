@@ -5,9 +5,9 @@ feature: Authoring, Desktop Tools
 role: User
 hide: true
 exl-id: c6395d35-b8fd-446e-a17a-df7f5a432053
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 *联系您的客户成功团队以在环境中启用此功能。 这并非现成支持的一部分。*
 
-**父主题：**&#x200B;[&#x200B;使用桌面工具创作内容](author-desktop-tools.md)
+**父主题：**[&#x200B;使用桌面工具创作内容](author-desktop-tools.md)

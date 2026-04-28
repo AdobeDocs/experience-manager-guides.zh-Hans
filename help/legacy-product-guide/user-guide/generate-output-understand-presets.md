@@ -5,7 +5,7 @@ feature: Publishing
 hide: true
 role: User
 exl-id: 682ca543-86f3-46b0-9e05-7e011a4cf7b8
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -41,4 +41,4 @@ AEM Guides支持以最受欢迎的格式创建输出，如AEM Site、PDF、Knowl
 
 作为管理员，Experience Manager Guides允许您为全局和文件夹配置文件创建和管理输出预设。 有关详细信息，请查看[管理全局和文件夹配置文件输出预设](./web-editor-manage-output-presets.md)。
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

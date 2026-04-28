@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2408'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 根据您的设置，管理员可以配置数据源连接器：
 
 <details>
-<summary> Cloud Service </summary>
+<summary> 云服务 </summary>
 
 
 - 如果您使用的是2023年10月版或更高版本，请在《云服务安装和配置指南》中了解如何[从用户界面](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)配置数据源连接器。
@@ -100,7 +100,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
    >
    > 如果使用文件连接器，您将查看用于上载或浏览文件以代替数据查询的选项。
 
-1. 从&#x200B;**数据映射模板**&#x200B;下拉列表中选择与数据源映射的模板。
+1. 从&#x200B;**数据映射模板**下拉列表中选择与数据源映射的模板。
 所选数据源的现成模板将显示在下拉列表中。 例如，您可以查看名为“PostgreSQL”数据源的“sql-table”模板。
 
    >[!NOTE]
@@ -125,7 +125,6 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
       - 如果您选择了jira排序列表模板，则可以查看Jira问题的排序列表。
 
    1. 源视图显示DITA源视图中的数据。
-
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *添加内容片段生成器。 在源或预览模式下查看数据。*
 
@@ -285,17 +284,17 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 Experience Manager模板还支持Velocity工具（版本2.0）。 这些工具可帮助您将各种功能应用于从数据源获取的数据。 了解有关[Velocity工具](https://velocity.apache.org/tools/2.0/generic.html)的使用以及可以应用的功能的详细信息。
 
 执行以下步骤以在模板中使用Velocity工具：
-1. 在网页编辑器中编辑Velocity模板。
-1. 以`<tool.function>`格式添加工具及其函数。 例如：
-   - 若要使用数学工具生成随机数，请使用`$mathTool.random`。
-   - 若要使用数学工具生成数字总和，请使用`$mathTool.add(num1, num2)`。
-1. 使用模板创建内容片段或主题。
-1. 将模板应用于数据后，可在预览或DITA源视图中查看数据。
+1. Edit a Velocity template in the Web Editor.
+1. Add a tool and its function in the `<tool.function>` format. 例如：
+   - To generate a random number using the math tool, use `$mathTool.random`.
+   - To generate the sum of numbers using the math tool, use `$mathTool.add(num1, num2)`.
+1. Use the template to create a content snippet or topic.
+1. After you apply the template to the data, you can view the data in the preview or the DITA source view.
 
 
 
 
-您可以在Velocity模板中使用以下工具，将各种功能应用到您从连接器获取的数据：
+You can use the following tools within the Velocity templates to apply various functions to the data you fetch from the connector:
 -`$alternatorTool`
 - `$classTool`
 - `$contextTool`

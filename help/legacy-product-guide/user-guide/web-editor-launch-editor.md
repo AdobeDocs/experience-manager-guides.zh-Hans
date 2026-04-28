@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
   <details>
 
-  <summary> Cloud Service </summary>
+  <summary> 云服务 </summary>
 
   如果您使用的是Cloud Services，请单击&#x200B;**关闭**&#x200B;按钮以返回AEM导航页面。
   </details>
@@ -73,56 +73,56 @@ ht-degree: 0%
    >
    > 确保您对包含要编辑的主题的文件夹具有读写权限。
 
-1. 若要获得该主题的独占锁定，请选择该主题，然后单击&#x200B;**签出**。
+1. To get an exclusive lock on the topic, select the topic and click **Check Out**.
 
    >[!IMPORTANT]
    >
-   > 如果管理员配置了&#x200B;**禁用编辑而不签出**&#x200B;选项，则必须在编辑之前签出文件。 如果不签出文件，您将看不到编辑选项。
+   > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not check out the file, you will not be able to see the edit option.
 
-1. 关闭资源选择模式，然后单击要编辑的主题。
+1. Close the asset selection mode and click the topic that you want to edit.
 
-   此时将显示主题的预览。
+   The topic&#39;s preview is displayed.
 
-   您可以从“列表”视图、“卡片”视图和“预览”模式中打开Web编辑器。
+   You can open the Web Editor from the List view, Card view, and the Preview mode.
 
    >[!IMPORTANT]
    >
-   > 如果要打开多个主题进行编辑，请从资产UI中选择所需的主题，然后单击编辑。 请确保您的浏览器未启用弹出窗口阻止程序，否则将仅打开选定列表中的第一个主题进行编辑。
+   > If you want to open multiple topics for editing, select the desired topics from the Asset UI and click Edit. Ensure that your browser does not have pop-up blocker enabled, else only the first topic in the selected list is opened for editing.
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
-   如果您不想预览某个主题并希望直接在Web编辑器中打开该主题，请从卡片视图单击快速操作菜单中的“编辑”图标：
+   If you do not want to preview a topic and want to open it directly in the Web Editor, then click the Edit icon in the quick action menu from the card view:
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. 单击&#x200B;**编辑**&#x200B;在Web编辑器中打开主题。
+1. Click **Edit** to open the topic in the Web Editor.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
 
 ## DITA映射控制台 {#id2056BG090BF}
 
-要从DITA映射控制台中打开Web编辑器，请执行以下步骤：
+To open the Web Editor from DITA map console, follow these steps:
 
-1. 在Assets UI中，导航到包含要编辑的主题的DITA映射文件并单击该文件。
+1. In the Assets UI, navigate to and click the DITA map file that contains the topic you want to edit.
 
-   将显示DITA映射控制台。
+   The DITA map console is displayed.
 
-1. 单击&#x200B;**主题**。
+1. Click **Topics**.
 
-   将显示映射文件中的主题列表。 主题的UUID显示在主题标题的下方。
+   A list of topics in the map file is displayed. The UUID of topics is displayed below the topic title.
 
-1. 选择要编辑的主题文件。
+1. Select the topic file that you want to edit.
 
-1. 单击&#x200B;**编辑主题**。
+1. Click **Edit Topic**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
-1. 该主题将在Web编辑器中打开。
+1. The topic is opened in the Web Editor.
 
    >[!IMPORTANT]
    >
-   > 如果管理员配置了&#x200B;**禁用编辑而不签出**&#x200B;选项，则必须在编辑之前签出文件。 如果未签出文件，则文档将在编辑器中以只读模式打开。
+   > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not check out the file, then the document opens in the editor in read-only mode.
 
 
-**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**[&#x200B;使用Web编辑器](web-editor.md)

@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2564'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 在打开的文件选项卡的上下文菜单中，可以获取以下函数：
 
-：   ![](images/single-file-context-menu.png){width="300" align="left"}
+:   ![](images/single-file-context-menu.png){width="300" align="left"}
 
 **多个文件**
 
@@ -83,33 +83,33 @@ ht-degree: 0%
 
 **向上、向下、向左或向右**
 
-默认情况下，Web编辑器允许您一次查看一个主题。 在某些情况下，您可能会希望同时查看两个或更多主题。 拆分编辑器的屏幕允许您同时查看多个主题。 例如，如果您在编辑器中打开了两个主题 — A和B。 右键单击主题B并选择&#x200B;**拆分\>向上**&#x200B;将编辑器窗口分为两部分。 主题B显示在上半部分，主题A显示在下半部分。 同样，您还可以通过选择&#x200B;**拆分\>左侧**&#x200B;或&#x200B;**拆分\>右侧**&#x200B;来水平拆分屏幕。 以下Web编辑器屏幕截图显示了水平和垂直拆分的主题。 在每个拆分中，您可以具有不同的视图。 例如，在以下屏幕截图中，屏幕1处于Source查看模式，屏幕2具有在创作模式下打开的两个文档，以及屏幕3处于预览模式。 您可以通过将“文件”选项卡拖放到要放置文档的屏幕上，将文档从一个屏幕移动到另一个屏幕。 同样，您也可以根据自己的喜好通过拖动和移动文件选项卡来重新排序它们。
+默认情况下，Web编辑器允许您一次查看一个主题。 在某些情况下，您可能会希望同时查看两个或更多主题。 拆分编辑器的屏幕允许您同时查看多个主题。 例如，如果您在编辑器中打开了两个主题 — A和B。 右键单击主题B并选择&#x200B;**拆分\>向上**&#x200B;将编辑器窗口分为两部分。 Topic B is displayed in the upper half and Topic A is displayed in the bottom half. Similarly, you can also split the screen horizontally by selecting **Split \> Left** or **Split \> Right**. The following screenshot of the Web Editor displays topics split horizontally and vertically. In each split, you can have a different view. For example in the following screenshot, the screen 1 is in Source view mode, screen 2 has two documents opened in Author mode, and screen 3 is in the Preview mode. You can move your documents from one screen to the other by dragging the file tab and dropping it on to the screen where you want to place it. Similarly, you can also reorder file tabs by dragging and moving them as per your preference.
 
 ![](images/split-editor.png){width="800" align="left"}
 
-***快速生成***
+***Quick Generate***
 
-为所选文件生成输出。 只能为作为输出预设一部分的文件生成输出。 有关更多详细信息，请参阅[从Web编辑器中基于文章的发布](web-editor-article-publishing.md#id218CK0U019I)。
+Generate the output for the selected file. 只能为作为输出预设一部分的文件生成输出。 有关更多详细信息，请参阅[从Web编辑器中基于文章的发布](web-editor-article-publishing.md#id218CK0U019I)。
 
-***关闭***：您可以选择以下选项：
+***Close***: You can choose from the following options:
 
-**关闭**、**关闭其他**&#x200B;或&#x200B;**全部关闭**
+**Close**, **Close Others**, or **Close All**
 
-如果要关闭从中调用上下文菜单的文件，请选择&#x200B;**关闭\>关闭**。 使用&#x200B;**Close \> Close Others**&#x200B;关闭除当前活动文件之外的所有其他打开的文件。 若要关闭所有打开的文件，请从上下文菜单中选择&#x200B;**关闭\>全部关闭**&#x200B;选项，也可以选择关闭Web编辑器。 如果会话中有任何未保存的文件，则会提示您保存这些文件。
+If you want to close the file from which you invoked the context menu, then select **Close \> Close**. Use **Close \> Close Others** to close all other opened file except the currently active file. To close all open files, select the **Close \> Close All** option from the context menu or you can also choose to close the Web Editor. If there are any unsaved files in your session, then you are prompted to save those files.
 
-**文件关闭并保存方案**
+**File close and save scenarios**
 
-当您尝试使用文件选项卡上的&#x200B;**关闭**&#x200B;按钮或“选项”菜单中的&#x200B;**关闭**&#x200B;选项关闭在Web编辑器中打开的文件时，AEM Guides会提示您保存编辑内容并解锁锁定的文件。
+When you try to close a file opened in the Web Editor using the **Close** button on the file&#39;s tab or the **Close** option in the Options menu, AEM Guides prompts you to save your edits and unlock a locked file.
 
-提示基于管理员选择的以下配置：
+The prompts are based on the following configurations selected by your administrator:
 
-- **关闭时要求签入：**&#x200B;关闭编辑器时，您可以选择签入文件\（您已签出\）。
-- **关闭时询问新版本**：关闭编辑器时，您可以选择将文件\（您已编辑过\）另存为新版本。
+- **Ask for check-in on close:** You are given the option to check in the file \(which you have checked out\) when you close the editor.
+- **Ask for new version on close**: You are given the option to save the file \(which you have edited\) as a new version when you close the editor.
 
-您的文件保存体验将取决于以下三种场景，其中您具有：
+Your file saving experience will depend on the following three scenarios, wherein you have:
 
-- 未对内容进行任何更改。
-- 编辑了内容并保存了更改。
+- Not done any changes to the content.
+- Edited the content and saved the changes.
 - 已编辑内容，但未保存更改。
 
 根据文件处于锁定/解锁状态以及已保存或未保存更改，您可能会看到以下选项：
@@ -173,7 +173,7 @@ ht-degree: 0%
 - **在MathML编辑器中验证公式**
 
   当您保存包含公式的主题时，Experience Manager Guides会验证MathML公式。
-使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择&#x200B;**插入**，则会显示警告。
+使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择**插入**，则会显示警告。
 
   ![验证mathml公式](images/validate-mathml-equation.png){width="400" align="left"}
 
@@ -236,8 +236,8 @@ ht-degree: 0%
 
 - 您可以使用&#x200B;**插入特殊字符** ![插入特殊字符图标](images/insert-special-chars-icon.svg)图标或&#x200B;**Alt** + **空格**&#x200B;快捷键在文档中插入不间断空格。  在Web编辑器中编辑主题时，这些不间断的空格会显示为指示符。 在&#x200B;**用户首选项** ![用户首选项图标](images/user_preference_editor_icon.svg)的&#x200B;**外观**&#x200B;选项卡中，可以使用&#x200B;**在创作模式下显示不间断空格指示符**&#x200B;选项关闭不间断空格的显示。
 
-- 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**&#x200B;视图中，则不间断空格的内容将转换为空格。
-但是，如果您从&#x200B;**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
+- 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**视图中，则不间断空格的内容将转换为空格。
+但是，如果您从**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
 
 
 **自动生成元素ID**
@@ -253,4 +253,4 @@ ht-degree: 0%
    或者，您可以右键单击痕迹导航并选择&#x200B;**生成ID**。
 
 
-**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**[&#x200B;使用Web编辑器](web-editor.md)

@@ -5,9 +5,9 @@ feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 DITAVAL文件用于生成条件输出。 在单个主题中，您可以使用元素属性添加条件以条件化内容。 然后，创建一个DITAVAL文件，在该文件中指定应选取以生成内容的条件，以及应从最终输出中排除哪些条件。
 
-AEM Guides允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 DITAVAL编辑器将检索系统中定义的属性\（或标记\），您可以使用它们来创建或编辑DITAVAL文件。 有关在AEM中创建和管理标记的更多详细信息，请参阅AEM文档中的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=zh-Hans)部分。
+AEM Guides允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 DITAVAL编辑器将检索系统中定义的属性\（或标记\），您可以使用它们来创建或编辑DITAVAL文件。 有关在AEM中创建和管理标记的更多详细信息，请参阅AEM文档中的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)部分。
 
 ## 创建DITAVAL文件
 
@@ -34,7 +34,7 @@ AEM Guides允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 D
    >
    > 根据文件的标题自动建议名称。 如果要手动指定文件名，请确保“名称”不包含任何空格、撇号或大括号，且以.ditaval结尾。
 
-1. 单击&#x200B;**创建**。此时将显示“创建的主题”消息。
+1. 单击&#x200B;**创建**。 此时将显示“创建的主题”消息。
 
    您可以选择打开DITAVAL文件以便在DITAVAL编辑器中编辑，或者将主题文件保存到AEM存储库中。
 

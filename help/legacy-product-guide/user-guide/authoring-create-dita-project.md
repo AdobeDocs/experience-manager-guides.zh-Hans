@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -58,23 +58,23 @@ AEM Guides提供了一个DITA项目模板，您可以使用它来创建和管理
 
       >[!NOTE]
       >
-      >您将在此下拉列表中看到其他用户类型，但对于DITA项目，您应仅从“作者”、“审阅者”或“发布者”用户类型中进行选择。 即使添加其他类型的用户，该用户也无法访问AEM Guides中提供的任何DITA特定功能。
+      >You will see other user types in this drop-down list, but for a DITA project you should only choose from Authors, Reviewers, or Publishers user type. Even if you add a user of a different type, that user will not be able to access any DITA-specific features available in AEM Guides.
 
    1. 单击&#x200B;**添加**。
 
       >[!NOTE]
       >
-      >如果您使用的是AEM Guides 3.5或更低版本，则显示一个选项，用于选择DITA映射文件以解决主题编辑、预览和审阅工作流的关键引用。 在3.6及更高版本中，您可以通过Web编辑器设置根映射。 有关详细信息，请参阅Web编辑器中的[用户首选项](web-editor-features.md#id2087G0P40SB)。 设置根映射的另一种方法是在全局或文件夹级别配置文件中对其进行配置。 有关更多详细信息，请参阅《安装和配置指南》中的&#x200B;*配置全局或文件夹级别的配置文件*。
+      >If you are using AEM Guides version 3.5 or earlier, you are shown an option to select a DITA map file to resolve key references for topic editing, preview and review workflows. In 3.6 and later versions, you can set the root map through the Web Editor. For more information, see the [User Preferences](web-editor-features.md#id2087G0P40SB) in the Web Editor. Another way of setting the root map is by configuring it at the global or folder-level profiles. For more details, see *Configure global or folder-level profiles* in the Installation and Configuration Guide.
 
-   **高级**&#x200B;选项卡中的信息：
+   Information in the **Advanced** tab:
 
-   - 输入项目的名称。 此名称用于创建此项目的URL。
+   - Enter a name for the project. This name is used to create the URL for this project.
 
 1. 单击&#x200B;**创建**。
 
-   此时将显示已创建项目对话框。
+   The Project Created dialog appears.
 
-1. 单击&#x200B;**打开**&#x200B;以打开您的项目页面。
+1. Click **Open** to open your project page.
 
 
-**父主题：**&#x200B;[&#x200B;审阅主题或映射](review.md)
+**父主题：**[&#x200B;审阅主题或映射](review.md)

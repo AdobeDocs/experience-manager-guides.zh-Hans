@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -169,4 +169,4 @@ AEM Guides为出版商提供了一种简单而轻松的方式来取消任何正�
    该任务将从“生成的输出”列表中删除。
 
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

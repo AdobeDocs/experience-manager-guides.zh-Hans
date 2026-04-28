@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -196,4 +196,4 @@ AEM Guides的映射编辑器附带一个强大的功能，允许您在DITA映射
 
 如果要删除关系表，请单击关系表之外的任意位置，然后单击“删除”。
 
-**父主题：**&#x200B;[&#x200B;使用映射编辑器](map-editor.md)
+**父主题：**[&#x200B;使用映射编辑器](map-editor.md)

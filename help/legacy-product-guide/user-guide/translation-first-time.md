@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1315'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 有关与第三方翻译服务集成的详细信息，请参阅AEM文档中的[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hans)。
+   > 有关与第三方翻译服务集成的详细信息，请参阅AEM文档中的[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)。
 
 1. 单击&#x200B;**保存并关闭**&#x200B;以保存更新的文件夹属性。
 
@@ -141,4 +141,4 @@ ht-degree: 1%
 >
 > 如果您拒绝翻译作业中一个或多个主题的翻译，则所有已拒绝主题的&#x200B;**正在进行**&#x200B;翻译状态将恢复到其原始状态。 将根据最新翻译状态检查并还原所引用主题的状态。 此外，即使为目标项目创建的翻译被拒绝，也不会删除这些翻译文件。
 
-**父主题：**&#x200B;[&#x200B;翻译内容](translation.md)
+**父主题：**[&#x200B;翻译内容](translation.md)

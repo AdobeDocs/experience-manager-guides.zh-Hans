@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -87,7 +87,7 @@ DITA映射文件将添加到批量激活映射集合中。
 - **已发布**：显示上次发布（或激活）输出的日期和时间。 如果选择该链接，则会显示“激活结果”页面，其中包含日志，其中包含有关激活内容的根路径的信息。
   ![已创建批量激活集合审核历史记录选项卡](images/bulk-collection-audit-history.png){width="800" align="left"}
 
-  *在&#x200B;**审核历史记录**&#x200B;选项卡中查看有关激活的映射输出的信息。*
+  *在&#x200B;**审核历史记录**选项卡中查看有关激活的映射输出的信息。*
 
 
   >[!NOTE]
@@ -106,4 +106,4 @@ DITA映射文件将添加到批量激活映射集合中。
 
 当您从&#x200B;**映射和预设**&#x200B;选项卡切换到&#x200B;**审核历史记录**&#x200B;选项卡时，筛选器会更新，反之亦然。
 
-**父主题： &#x200B;** [批量激活已发布的内容](conf-bulk-activation.md)
+**父主题： **[批量激活已发布的内容](conf-bulk-activation.md)

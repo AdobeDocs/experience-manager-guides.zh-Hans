@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 284fafeb-cc0f-49c0-86a3-3aec7418a632
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 5%
 
 ---
@@ -28,4 +28,4 @@ ht-degree: 5%
 | 目标路径 | AEM存储库中存储HTML5输出的路径。 |
 | 运行后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在AEM中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。 |
 
-**父主题：**&#x200B;[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)
+**父主题：**[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)

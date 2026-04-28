@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -125,4 +125,4 @@ ht-degree: 0%
 - 在所有主题上发表的评论总数。 若有多个正在审查的主题，则每个主题的评论数都以\（在方括号中\）的形式与主题名称相对应。
 - 查看者上次访问任何主题的日期。
 
-**父主题：**&#x200B;[&#x200B;审阅主题或映射](review.md)
+**父主题：**[&#x200B;审阅主题或映射](review.md)

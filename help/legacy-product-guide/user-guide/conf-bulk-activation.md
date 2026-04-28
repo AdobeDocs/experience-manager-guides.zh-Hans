@@ -5,9 +5,9 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: 4b60bf50-f6c2-4e87-8af6-fd1c26d4898f
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 有关如何在AEM中设置创作和发布实例的更多详细信息，请参阅[创作和发布架构概述](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=zh-Hans#prerequisites)。
+> 有关如何在AEM中设置创作和发布实例的更多详细信息，请参阅[创作和发布架构概述](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)。
 
 借助AEM Guides的批量激活功能，您可以快速轻松地激活内容从创作到发布实例。 批量激活功能可让您灵活地：
 
@@ -42,4 +42,4 @@ json输出预设。
 - **[删除批量激活映射集合](conf-bulk-activation-delete-map-collection.md)**
 
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

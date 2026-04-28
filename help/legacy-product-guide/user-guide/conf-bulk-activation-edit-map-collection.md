@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -50,4 +50,4 @@ ht-degree: 2%
 1. 单击&#x200B;**完成**。
 
 
-**父主题：**&#x200B;[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)
+**父主题：**[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)

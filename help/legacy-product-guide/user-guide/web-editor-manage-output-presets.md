@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -54,4 +54,4 @@ ht-degree: 0%
 >
 > 删除全局和文件夹配置文件中的输出预设时，该预设将反映在所有相关映射中，并且不会显示在&#x200B;**输出**&#x200B;选项卡下。
 
-**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**[&#x200B;使用Web编辑器](web-editor.md)
