@@ -1,13 +1,13 @@
 ---
-title: 本机PDF |为本机PDF发布配置JVM标记
+title: 原生PDF |为本机PDF发布配置JVM标记
 description: 为本机PDF发布配置JVM标记
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 1. 搜索并选择&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包。
 
-1. 更新本机pdf **(** native.pdf.java.opts *)的属性* Java命令行选项以传递任何标准JVM标志。
+1. 更新本机pdf **(*native.pdf.java.opts*)的属性** Java命令行选项以传递任何标准JVM标志。
 
 
 

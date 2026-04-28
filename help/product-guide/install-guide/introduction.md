@@ -5,10 +5,9 @@ exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
 feature: Introduction
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -69,9 +68,9 @@ Adobe Experience Manager Guides \（以后称为&#x200B;*AEM Guides*\）是一�
 
 ## 其他资源
 
-以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)页面上：
+以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)页面上：
 
 - 用户指南
 - API参考指南
 - 快速入门指南
-- [帮助存档页面](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）
+- [帮助存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）

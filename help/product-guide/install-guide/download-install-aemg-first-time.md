@@ -5,11 +5,10 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +32,7 @@ ht-degree: 0%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/package-manager.html)。
+   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -56,4 +55,4 @@ ht-degree: 0%
 >
 > 在您的安装程序中，对AEM服务器的所有实例执行安装过程。
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)

@@ -5,36 +5,35 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 7%
+source-wordcount: '1088'
+ht-degree: 6%
 
 ---
 
 # 翻译内容 {#id181GB0400UI}
 
-自动翻译页面内容、资产和用户生成的内容，以创建和维护多语言网站。 要自动化翻译工作流，您可以将翻译服务提供商与 AEM 集成并创建项目以将内容翻译成多种语言。AEM 支持人工翻译工作流和机器翻译工作流。
+自动翻译页面内容、资产和用户生成的内容，以创建和维护多语言网站。 要自动化翻译工作流，您可以将翻译服务提供商与 AEM 集成并创建项目以将内容翻译成多种语言。 AEM 支持人工翻译工作流和机器翻译工作流。
 
-- 人工翻译：内容将发送给您的翻译提供商并由专业翻译人员进行翻译。 完成后，将返回翻译的内容并将其导入 AEM。当您的翻译提供商与AEM集成时，内容会在AEM和翻译提供商之间自动交换
+- 人工翻译：内容将发送给您的翻译提供商并由专业翻译人员进行翻译。 完成后，将返回翻译的内容并将其导入 AEM。 当您的翻译提供商与AEM集成时，内容会在AEM和翻译提供商之间自动交换
 
 - 机器翻译：机器翻译服务将立即翻译您的内容
 
 
 翻译内容涉及以下步骤：
 
-1. 将AEM与您的[翻译服务提供商](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)连接并创建[翻译集成框架配置](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
+1. 将AEM与您的[翻译服务提供商](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)连接并创建[翻译集成框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
 
-1. 将语言母版页面与[翻译服务和框架配置](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)关联。
+1. 将语言母版页面与[翻译服务和框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)关联。
 
-1. 标识要翻译的[内容的类型](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-rules.html)。
+1. 标识要翻译的[内容的类型](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html)。
 
-1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-prep.html)。
+1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)。
 
-1. 创建[翻译项目](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻译的内容并准备翻译过程。
+1. 创建[翻译项目](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻译的内容并准备翻译过程。
 
-1. 使用翻译项目[管理内容翻译](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-manage.html)进程。
+1. 使用翻译项目[管理内容翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)进程。
 
 
 如果翻译服务提供商不提供连接器来与AEM集成，则AEM支持以XML格式手动导出和导入已翻译内容。
@@ -89,7 +88,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   > 如果您使用的是翻译连接器，请确保已按照AEM文档中的&#x200B;*[配置翻译集成框架](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主题中所述配置连接器。
+   > 如果您使用的是翻译连接器，请确保已按照AEM文档中的&#x200B;*[配置翻译集成框架](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主题中所述配置连接器。
 
 1. 单击&#x200B;**保存**。
 

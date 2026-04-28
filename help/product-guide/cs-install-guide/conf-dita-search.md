@@ -5,10 +5,9 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1596'
 ht-degree: 1%
 
 ---
@@ -159,7 +158,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
 1. 使用包管理器下载/libs/fmdita/config/serializationconfig.xml文件。
 
-1. 在`config`节点内创建`apps`文件夹的覆盖节点。
+1. 在`apps`节点内创建`config`文件夹的覆盖节点。
 
 1. 导航到`apps`节点中可用的配置文件：
 
@@ -220,7 +219,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
 >[!NOTE]
 >
-> 您可以使用此过程将任何其他文件夹位置添加到排除列表中。 有关使用索引的更多详细信息，请参阅[内容搜索和索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=zh-Hans)。
+> 您可以使用此过程将任何其他文件夹位置添加到排除列表中。 有关使用索引的更多详细信息，请参阅[内容搜索和索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)。
 
 1. 在自定义damAssetLucene索引中添加以下属性：
 

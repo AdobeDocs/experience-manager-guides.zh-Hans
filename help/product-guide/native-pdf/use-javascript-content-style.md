@@ -1,12 +1,11 @@
 ---
-title: 本机PDF发布功能|使用JavaScript处理内容或样式
+title: 原生PDF发布功能 |使用JavaScript处理内容或样式
 description: 了解如何为内容创建使用样式表和样式。
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -66,7 +65,7 @@ window.addEventListener('DOMContentLoaded', function () {
 >
 >必须先调用`window.addEventListener('DOMContentLoaded', function ()`函数，然后才能使用回调函数。
 
-接下来，必须从用于生成PDF输出的模板文件中调用此脚本。 例如，我们将其添加到目录模板中。 确保`<script>`标记已添加到`<div>`标记内的预定义`<body>`标记中。 如果您将其添加到`<head>`标记中或`<body>`标记之外，则脚本将不会执行。
+接下来，必须从用于生成PDF输出的模板文件中调用此脚本。 例如，我们将其添加到目录模板中。 确保`<script>`标记已添加到`<body>`标记内的预定义`<div>`标记中。 如果您将其添加到`<head>`标记中或`<body>`标记之外，则脚本将不会执行。
 
 <img src="./assets/js-added-resources-template.png" width="500">
 

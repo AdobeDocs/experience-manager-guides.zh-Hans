@@ -5,10 +5,9 @@ exl-id: 5b09ec46-aea4-4a3f-8bab-42414e31e37d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 1%
 
 ---
@@ -27,4 +26,4 @@ ht-degree: 1%
 
 有关更多详细信息，请参阅“使用Adobe Experience Manager Guides as a Cloud Service”指南中的&#x200B;*文件关闭和保存方案*&#x200B;部分。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

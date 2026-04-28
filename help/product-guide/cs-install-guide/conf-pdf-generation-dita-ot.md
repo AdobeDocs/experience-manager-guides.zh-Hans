@@ -5,10 +5,9 @@ exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -60,4 +59,4 @@ ht-degree: 0%
 
 执行上述步骤后，如果从Web编辑器的“用户首选项”中选择相同的文件夹配置文件，则将在主题的预览模式下看到用于生成PDF的选项。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

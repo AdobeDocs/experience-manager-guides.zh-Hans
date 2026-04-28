@@ -1,14 +1,13 @@
 ---
-title: 原生PDF发布功能|设计页面布局
+title: 原生PDF发布功能 |设计页面布局
 description: 了解如何设计页面布局以在PDF输出的不同部分中展示信息。
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5016'
+source-wordcount: '5060'
 ht-degree: 0%
 
 ---
@@ -193,7 +192,7 @@ PDF文档通常包含以下部分：
 
    1. 展开&#x200B;**分页**&#x200B;属性。
 
-   1. 在`Landscape`页面布局&#x200B;**属性中输入**。
+   1. 在&#x200B;**页面布局**&#x200B;属性中输入`Landscape`。
 
       <img src="./assets/new-style-with-landscape-layout.png" width="500">
 
@@ -511,7 +510,7 @@ PDF文档通常包含以下部分：
    >
    >最终发布的PDF将仅显示基于章节内容的目录条目。 如果章节中没有级别5标题，它将不会显示在最终输出中。
 
-可以使用样式表自定义默认目录的外观。 以`chaptoc-level-#`开头的样式（如`chaptoc-level-1`、`chaptoc-level-2`等）用于自定义章节目录的样式。<!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->。
+可以使用样式表自定义默认目录的外观。 以`chaptoc-level-#`开头的样式（如`chaptoc-level-1`、`chaptoc-level-2`等）用于自定义章节目录的样式。 <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
@@ -547,7 +546,7 @@ PDF文档通常包含以下部分：
 
    * **列间隔** ：指定各列之间的间距。
 
-   * **列跨度** ：如果您希望页面布局中的任何元素跨列跨度，则需要使用此属性。 这是通过使用样式表修改所需元素的样式来实现的。<!--for more information see _Section explaining style customization_-->。
+   * **列跨度** ：如果您希望页面布局中的任何元素跨列跨度，则需要使用此属性。 这是通过使用样式表修改所需元素的样式来实现的。 <!--for more information see _Section explaining style customization_-->.
 
    在页面布局中，如果希望特定文本显示在所有章节页面布局的第一页，则可以将其添加到章节页面布局的第一页变体。
 

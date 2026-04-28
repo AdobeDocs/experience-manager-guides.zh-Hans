@@ -5,11 +5,10 @@ exl-id: 92ac1f81-2f51-44b0-82c3-56b39e8f3027
 feature: Performance Optimization
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 对于性能优化，请考虑以下几点：
 
-- 要优化内容和索引体验，请参阅AEM文档中的[优化内容搜索和索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=zh-Hans)。
+- 要优化内容和索引体验，请参阅AEM文档中的[优化内容搜索和索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)。
 
 - 使用自定义DITA-OT进行发布时修补Xerces Jar。 这是一个强制性配置，具体取决于您的用例。 仅当使用自定义DITA-OT发布输出时，才需要此更改。
 
@@ -26,4 +25,4 @@ ht-degree: 0%
   此更改可减少发布时间和内存使用率，同时发布包含大量主题的DITA映射。
 
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)

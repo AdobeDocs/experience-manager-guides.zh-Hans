@@ -5,10 +5,9 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
@@ -167,7 +166,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
    /libs/fmdita/config/serializationconfig.xml
 
-1. 在`config`节点内创建`apps`文件夹的覆盖节点。
+1. 在`apps`节点内创建`config`文件夹的覆盖节点。
 
 1. 导航到`apps`节点中可用的配置文件：
 

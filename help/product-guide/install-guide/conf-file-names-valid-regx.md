@@ -5,10 +5,9 @@ exl-id: 876dfc77-078f-4341-b99d-02a453d2e065
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -48,4 +47,4 @@ ht-degree: 0%
 >
 > 与有效文件名字符列表类似，您还可以为AEM站点输出指定有效文件名字符列表。 有关更多详细信息，请参阅[为AEM站点输出配置有效文件名](conf-file-names-valid-regx-aem-site-output.md#)。
 
-**父主题：**&#x200B;[&#x200B;配置文件名](conf-file-names.md)
+**父主题：**[&#x200B;配置文件名](conf-file-names.md)

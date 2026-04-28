@@ -5,10 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -40,7 +39,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >  您还可以在创建和复制模板时预览模板的缩略图。 创建模板后，使用&#x200B;[**选项**](#properties-option)&#x200B;菜单中的&#x200B;**属性**&#x200B;编辑或删除缩略图。
+   >  您还可以在创建和复制模板时预览模板的缩略图。 创建模板后，使用&#x200B;**选项**&#x200B;菜单中的&#x200B;[**属性**](#properties-option)&#x200B;编辑或删除缩略图。
 
 1. 单击&#x200B;**创建**。
 
@@ -60,7 +59,7 @@ ht-degree: 0%
 
    <img src="assets/duplicate-template.png" alt="复制PDF模板" width="350">
 
-   *在&#x200B;**复制PDF模板**&#x200B;对话框中选择要复制的模板、预览缩略图并更新标题。*
+   *在&#x200B;**复制PDF模板**对话框中选择要复制的模板、预览缩略图并更新标题。*
 
 1. 指定模板的标题。
 
@@ -82,7 +81,7 @@ ht-degree: 0%
 ### 删除
 
 选择删除选项可删除所选模板。 然后，在确认提示中选择是。
-预设已从&#x200B;**模板**&#x200B;中删除。
+预设已从**模板**&#x200B;中删除。
 
 ### 属性{#properties-option}
 
@@ -94,7 +93,7 @@ ht-degree: 0%
 
 创建自定义模板后，您可以从PDF输出预设的页面布局中选择它。
 
-了解如何[发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=zh-Hans)。
+了解如何[发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en)。
 
 >[!NOTE]
 >
@@ -164,6 +163,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您还可以使用&#x200B;[**选项**](#properties-option)&#x200B;菜单中的&#x200B;**属性**&#x200B;更新模板的缩略图和描述。
+   >您还可以使用&#x200B;**选项**&#x200B;菜单中的&#x200B;[**属性**](#properties-option)&#x200B;更新模板的缩略图和描述。
 
 1. 完成所需的更改后，选择&#x200B;*全部保存*（或`Ctrl+S`）。

@@ -1,14 +1,13 @@
 ---
-title: 本机PDF发布功能|对目录条目和主题内容应用自定义样式
+title: 原生PDF发布功能 |对目录条目和主题内容应用自定义样式
 description: 了解如何为内容创建使用样式表和样式。
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 0%
 
 有时，您可能希望对目录条目或特定主题应用自定义样式。 可以通过将`outputclass`属性与DITA映射中的`<topicref>`元素关联来做到这一点。 此外，如果要将自定义格式应用于整个主题，则也可以通过在CSS中扩展属性的样式定义来实现该目的。
 
-让我们以您要发送以供审阅的新主题为例。 为便于识别更新的主题，您需要向DITA映射中的`outputclass`元素添加`<topicref>`属性，然后在CSS中为相同元素定义自定义样式。
+让我们以您要发送以供审阅的新主题为例。 为便于识别更新的主题，您需要向DITA映射中的`<topicref>`元素添加`outputclass`属性，然后在CSS中为相同元素定义自定义样式。
 
-在以下示例中，*航班历史记录*&#x200B;主题已分配了一个值为`outputclass`的`new-topic`属性。
+在以下示例中，*航班历史记录*&#x200B;主题已分配了一个值为`new-topic`的`outputclass`属性。
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
