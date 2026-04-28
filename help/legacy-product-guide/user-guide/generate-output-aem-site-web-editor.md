@@ -42,8 +42,8 @@ Experience Manager Guides提供了用于创建AEM Sites的预定义模板。 这
 >[!NOTE]
 >
 >在为Experience Manager Guides配置AEM Sites预设之前，管理员需要使用模板创建AEM Sites结构。
-- **内部部署软件**：了解有关如何[下载并安装内部部署软件的AEM Sites模板](/help/product-guide/install-guide/download-install-aem-sites-templates.md)的详细信息。
-- **Cloud Service**：了解有关如何[下载并安装适用于Cloud Service的AEM Sites模板](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)的更多信息。
+>- **内部部署软件**：了解有关如何[下载并安装内部部署软件的AEM Sites模板](/help/product-guide/install-guide/download-install-aem-sites-templates.md)的详细信息。
+>- **Cloud Service**：了解有关如何[下载并安装适用于Cloud Service的AEM Sites模板](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)的更多信息。
 
 
 
@@ -208,7 +208,7 @@ Experience Manager Guides允许您使用现成的模板或添加您自己的AEM 
 
    ![交叉映射引用](images/aem-sites-cross-map-references.png)
 
-1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**发布上下文。
+1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**&#x200B;发布上下文。
 在发布包含链接主题的映射之前，您应该发布选定作为父映射的映射。 如果未发布包含链接主题的映射，则在AEM Sites输出中，链接将显示为普通文本而非超链接。
 您应为链接的主题选择相同类型的AEM Sites预设。 例如，如果当前AEM Sites预设使用旧版组件映射，则为链接的主题选择类似的AEM Sites预设。
 1. 在“父映射”下拉列表中，选择要为其输出链接当前映射输出的映射文件。

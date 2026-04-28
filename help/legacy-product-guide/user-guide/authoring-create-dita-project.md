@@ -77,4 +77,4 @@ AEM Guides提供了一个DITA项目模板，您可以使用它来创建和管理
 1. Click **Open** to open your project page.
 
 
-**父主题：**[&#x200B;审阅主题或映射](review.md)
+**父主题：**&#x200B;[&#x200B;审阅主题或映射](review.md)

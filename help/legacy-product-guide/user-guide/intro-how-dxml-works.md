@@ -19,4 +19,4 @@ ht-degree: 0%
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**父主题：**[&#x200B;关于Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)
+**父主题：**&#x200B;[&#x200B;关于Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

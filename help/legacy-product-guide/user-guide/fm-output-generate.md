@@ -31,4 +31,4 @@ ht-degree: 0%
 >
 > 通过单击输出，可以查看输出生成请求的当前状态。 有关详细信息，请参阅[查看输出生成任务的状态](fm-output-view-status.md)。
 
-**父主题：**[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)
+**父主题：**&#x200B;[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)

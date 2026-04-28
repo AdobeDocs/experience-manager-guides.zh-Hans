@@ -125,4 +125,4 @@ To open the Web Editor from DITA map console, follow these steps:
    > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not check out the file, then the document opens in the editor in read-only mode.
 
 
-**父主题：**[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)

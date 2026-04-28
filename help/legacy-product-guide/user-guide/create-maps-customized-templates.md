@@ -190,4 +190,4 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 - 如果在文件夹的同一级别创建另一个映射或主题，则新创建的资源的名称将附加0、1、2等。 您可以选择打开映射进行编辑，或将映射文件保存到存储库中。
 
-**父主题：**[&#x200B;使用映射编辑器](map-editor.md)
+**父主题：**&#x200B;[&#x200B;使用映射编辑器](map-editor.md)

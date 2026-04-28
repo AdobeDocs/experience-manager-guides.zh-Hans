@@ -37,4 +37,4 @@ AEM Guides的映射编辑器允许您创建和编辑映射文件。 使用“映
 - **[地图编辑器中的其他功能](map-editor-other-features.md)**
 
 
-**父主题：**[&#x200B;使用AEM Guides创作内容](authoring-content-xml-doc.md)
+**父主题：**&#x200B;[&#x200B;使用AEM Guides创作内容](authoring-content-xml-doc.md)

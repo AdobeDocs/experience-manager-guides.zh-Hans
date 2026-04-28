@@ -33,4 +33,4 @@ You can delete a bulk activation map collection when it is no longer needed. To 
    The bulk activation map collection is deleted from the system.
 
 
-**父主题：**[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)
+**父主题：**&#x200B;[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)

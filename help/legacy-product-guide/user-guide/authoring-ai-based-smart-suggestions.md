@@ -25,18 +25,18 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
 
 1. Select the content in your topic to view the related suggestions. Ensure that the content&#39;s character length exceeds what your administrator has set in the folder profile for the content suggestions to appear.
-1. From the AI Assistant panel, select **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg).
+1. From the AI Assistant panel, select **Suggest reusable content** ![ai suggest reusable content icon &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Select a tag to view the authoring suggestions for the current tag .  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag. You can also select multiple tags.
 
 
-1. Select all tags to view the suggestions based on the content present in the complete document.  The **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg) icon is displayed next to the content where a suitable match is found.
+1. Select all tags to view the suggestions based on the content present in the complete document.  The **Suggest reusable content** ![ai suggest reusable content icon &#x200B;](./images/ai-suggest-reusable-content-icon.svg) icon is displayed next to the content where a suitable match is found.
 
 
 
    >[!NOTE]
    >
-   > You can only view the suggestions for the current viewport (the content visible on the screen). To view suggestions for any other content in the document, scroll up or down to display it in the viewport, and then select **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg).
+   > You can only view the suggestions for the current viewport (the content visible on the screen). To view suggestions for any other content in the document, scroll up or down to display it in the viewport, and then select **Suggest reusable content** ![ai suggest reusable content icon &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. You can view the smart suggestions in the suggestions panel.  Experience Manager Guides provides suggestions content that is contextually similar or has the same meaning. For example, you can search for the topic that contains the exact version number, like &quot;release version 2023.03.12&quot;. You can also search for &quot;Adobe is headquartered in San Jose, California,&quot; and find similar content like &quot;San Jose has the quarters of many software companies like Adobe.&quot;

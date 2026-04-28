@@ -41,4 +41,4 @@ ht-degree: 3%
 | 目标路径 | AEM存储库中存储PDF输出的路径。 |
 | 运行后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在AEM中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。 |
 
-**父主题：**[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)
+**父主题：**&#x200B;[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)

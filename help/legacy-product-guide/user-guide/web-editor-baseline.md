@@ -154,4 +154,4 @@ You can duplicate a baseline and modify it according to your requirements.
 
 编辑基线后，可以单击顶部的&#x200B;**保存**&#x200B;按钮以保存对基线的更改。 如果不想保存更改并重置基线，可单击&#x200B;**重置**&#x200B;按钮。 单击“**重置**”按钮时，会显示一条警告，指出未保存的更改将丢失。
 
-**父主题：**[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)

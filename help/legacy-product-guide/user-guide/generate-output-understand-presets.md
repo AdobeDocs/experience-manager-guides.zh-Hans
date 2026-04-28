@@ -41,4 +41,4 @@ AEM Guides支持以最受欢迎的格式创建输出，如AEM Site、PDF、Knowl
 
 作为管理员，Experience Manager Guides允许您为全局和文件夹配置文件创建和管理输出预设。 有关详细信息，请查看[管理全局和文件夹配置文件输出预设](./web-editor-manage-output-presets.md)。
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

@@ -21,4 +21,4 @@ AEM Guides提供了一项强大的功能，可从Assets UI创建DITA主题。 �
 - **[预览主题](web-editor-preview-topics.md)**
 
 
-**父主题：**[&#x200B;作者内容](authoring-content.md)
+**父主题：**&#x200B;[&#x200B;作者内容](authoring-content.md)

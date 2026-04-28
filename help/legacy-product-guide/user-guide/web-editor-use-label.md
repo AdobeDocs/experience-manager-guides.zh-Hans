@@ -58,4 +58,4 @@ AEM Guides允许您将标签添加到文件的不同版本。 您可以使用这
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**父主题：**[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)
