@@ -4,9 +4,10 @@ description: 了解如何为文件浏览对话框配置过滤器
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -54,13 +55,13 @@ ht-degree: 0%
    在上述代码片段中，第一个过滤器用于DITA文件。 过滤器定义采用以下参数：
 
    标题
-：   过滤器的显示名称。 此标题将作为筛选选项显示在文件浏览对话框中。
+：过滤器的显示名称。 此标题将作为筛选选项显示在文件浏览对话框中。
 
    属性
-：   在文件的元数据中匹配的属性。 例如，要仅允许属性中包含`dita_class`元数据的文件，属性筛选器将采用“`jcr:content/metadata/dita_class`”作为其值。
+：与文件元数据匹配的属性。 例如，要仅允许属性中包含`dita_class`元数据的文件，属性筛选器将采用“`jcr:content/metadata/dita_class`”作为其值。
 
    操作
-：   指定“`exists`”以匹配属性参数中指定的值是否存在。
+：指定“`exists`”以匹配属性参数中指定的值是否存在。
 
    第二个滤镜用于图像文件。 除了`value`参数之外，这些参数与第一个筛选器相似。 `value`参数采用图像类型的数组作为其值。 在value参数中指定的所有文件类型都将被搜索并显示在文件浏览对话框中，所有其他文件类型将被忽略。
 
@@ -82,7 +83,7 @@ ht-degree: 0%
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. 导航到`ui_config.json`节点中的`apps`文件并将其打开以进行编辑。
+1. 导航到`apps`节点中的`ui_config.json`文件并将其打开以进行编辑。
 
 1. 在`ui_config.json`文件中，添加要添加筛选器的定义。
 
@@ -109,11 +110,11 @@ ht-degree: 0%
 
    在上述代码片段中，第一个过滤器用于DITA文件。 过滤器定义采用以下参数：
 
-   - **标题：**   过滤器的显示名称。 此标题将作为筛选选项显示在文件浏览对话框中。
+   - **title：**&#x200B;过滤器的显示名称。 此标题将作为筛选选项显示在文件浏览对话框中。
 
-   - **属性：**   在文件的元数据中匹配的属性。 例如，要仅允许属性中包含`dita_class`元数据的文件，属性筛选器将“`jcr:content/metadata/dita_class`”作为其值。
+   - **属性：**&#x200B;要与文件的元数据匹配的属性。 例如，要仅允许属性中包含`dita_class`元数据的文件，属性筛选器将“`jcr:content/metadata/dita_class`”作为其值。
 
-   - **操作：**   指定“`exists`”以匹配属性参数中指定的值是否存在。
+   - **操作：**&#x200B;指定“`exists`”以匹配属性参数中指定的值的存在。
 
    第二个滤镜用于图像文件。 除了`value`参数之外，这些参数与第一个筛选器相似。 `value`参数采用图像类型的数组作为其值。 在value参数中指定的所有文件类型都将被搜索并显示在文件浏览对话框中，所有其他文件类型将被忽略。
 
@@ -121,9 +122,9 @@ ht-degree: 0%
 
    启动文件浏览对话框时，将显示在ui\_config.json文件中配置的过滤器选项。
 
-   ![](assets/file-browse-custom-filters.png){width="300" align="left"}
+   ![](assets/file-browse-custom-filters.png){width="300"}
 
 >[!ENDTABS]
 
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**[&#x200B;自定义Web编辑器](customize-overview.md)

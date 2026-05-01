@@ -3,7 +3,7 @@ title: 发行说明 | 2025年12月版产品培训和学习内容的新增功能
 description: 在2025年12月版的产品培训和学习内容中了解新增功能和增强功能
 role: Leader
 exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -24,19 +24,19 @@ ht-degree: 0%
 
   有关详细信息，请在“插入”菜单中查看[其他选项](../learning-content/lc-other-insert-options.md)。
 
-  ![](assets/knowledge-check-topic.png){width="650" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650"}
 
 - **新的交互式小组件**：您可以使用一些新的交互式小组件与学习者互动，这些小组件使内容更引人入胜： **单击以显示**、**翻盖卡片**&#x200B;和&#x200B;**选项卡**。
 
   有关详细信息，请查看[使用交互小组件](../learning-content/lc-widgets.md)。
 
-  ![](assets/new-widgets-options.png){width="350" align="left"}
+  ![](assets/new-widgets-options.png){width="350"}
 
 - **与以下匹配**：有新的问题类型&#x200B;**与以下匹配**&#x200B;可用于测验。 学习者可以匹配两个列表中的项目以关联相关想法，鼓励批判性思考。
 
   有关详细信息，请查看[测验问题类型](../learning-content/quiz-insert-questions.md#question-types)。
 
-  ![](assets/question-types.png){width="650" align="left"}
+  ![](assets/question-types.png){width="650"}
 
 ## 审阅
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
   有关详细信息，请查看[创建审核任务](../learning-content/manage-course.md#create-review-task)。
 
-  ![](assets/create-review-task-lc.png){width="650" align="left"}
+  ![](assets/create-review-task-lc.png){width="650"}
 
 ## 内容管理
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
   有关更多详细信息，请查看[添加基本构建基块](../learning-content/lc-basic-blocks.md)。
 
-  ![](assets/reusable-content.png){width="650" align="left"}
+  ![](assets/reusable-content.png){width="650"}

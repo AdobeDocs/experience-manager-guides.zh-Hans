@@ -1,10 +1,10 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 2024.2.0版本中的新增功能
-description: 了解Adobe Experience Manager Guidesas a Cloud Service2024.2.0版本中的新增功能和增强功能。
+description: 了解Adobe Experience Manager Guides as a Cloud Service 2024.2.0版本中的新增功能和增强功能。
 exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
-source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1063'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 有关此版本中修复的问题列表，请查看 [2024.2.0 版本中已修复的问题](fixed-issues-2024-2-0.md)。
 
 
-了解2024.2.0版本[&#128279;](upgrade-instructions-2024-2-0.md)的升级说明。
+了解2024.2.0版本](upgrade-instructions-2024-2-0.md)的[升级说明。
 
 
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 为了保持您的内容正确一致，搜索和建议受限于您组织拥有的内容，并与您搜索的关键字紧密匹配。
 
-Web编辑器中的![智能建议面板](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+Web编辑器中的![智能建议面板](assets/web-editor-smart-suggestion.png) {width="800"}
 
 
 *查看智能建议，以查找并添加内容存储库中的匹配内容引用。*
@@ -42,7 +42,7 @@ Web编辑器中的![智能建议面板](assets/web-editor-smart-suggestion.png) 
 
 现在，Experience Manager Guides提供了增强的版本历史记录功能，允许您比较一段时间内对文档所做的更改。 在新的并排视图中，您可以轻松地将当前版本的内容和元数据与同一文档的任何先前版本进行比较。 您还可以查看比较版本的标签和注释。 作为管理员，您可以控制主题版本元数据及其值显示在&#x200B;**版本历史记录**&#x200B;对话框中。
 
-![版本历史记录对话框](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![版本历史记录对话框](assets/version-history-dialog-web-editor.png){width="800"}
 *预览不同版本主题中的更改。*
 
 
@@ -52,7 +52,7 @@ Web编辑器中的![智能建议面板](assets/web-editor-smart-suggestion.png) 
 
 **翻译**&#x200B;面板已得到改进。  您可以查看&#x200B;**可用语言**&#x200B;列表并快速选择要翻译项目的区域设置。 通过单个选择，您还可以选择&#x200B;**全选**&#x200B;以将您的项目翻译为所有可用的语言。
 
-![翻译面板](assets/translation-languages-4.4.png){width="300" align="left"}
+![翻译面板](assets/translation-languages-4.4.png){width="300"}
 
 *选择要翻译项目的区域设置。 选择要翻译的文件的默认、基线或最新版本。*
 
@@ -67,7 +67,7 @@ Web编辑器中的![智能建议面板](assets/web-editor-smart-suggestion.png) 
 以“t”开头的所有有效元素。
 
 
-![插入对话框](assets/insert-element.png){width="300" align="left"}
+![插入对话框](assets/insert-element.png){width="300"}
 
 *键入字符以搜索以该字符开头的所有有效元素。*
 
@@ -79,7 +79,7 @@ Web编辑器中的![智能建议面板](assets/web-editor-smart-suggestion.png) 
 
 现在，您可以在Web编辑器中轻松拆分列表。 从列表项的上下文菜单中选择&#x200B;**拆分列表**&#x200B;选项以拆分当前列表。 将从您为拆分选择的列表项开始，在同一级别创建新列表。
 
-![翻译面板](assets/context-menu-split-list.png){width="300" align="left"}
+![翻译面板](assets/context-menu-split-list.png){width="300"}
 
 *选择用于拆分当前列表的选项。*
 
@@ -93,21 +93,21 @@ Web编辑器中的![智能建议面板](assets/web-editor-smart-suggestion.png) 
 
 ## 能够使用动态基线并行发布多个输出预设
 
-“Experience Manager”提供的功能通过根据应用于主题的主题标签自动选择主题来创建基线。 现在，您还可以使用同一DITA映射的自动基线无缝发布多个输出预设。 您不必一次只发布一个预设，但可以轻松地同时发布多个输出预设。
+Experience Manager提供了功能，通过根据应用于主题的主题标签自动选择主题来创建基线。 现在，您还可以使用同一DITA映射的自动基线无缝发布多个输出预设。 您不必一次只发布一个预设，但可以轻松地同时发布多个输出预设。
 
 
-## 本机PDF增强功能
+## 原生PDF增强功能
 
 2024.2.0版本中完成了以下本机PDF增强功能：
 
 ### 将资源元数据传递到PDF输出
 
 Experience Manager现在提供将资源的元数据属性从DITA映射传递到PDF输出的功能。
-从本机PDF输出预设中，您可以选择要传递到PDF发布过程的元数据。 您可以选择自定义属性和默认属性。  所选元数据属性将传递到使用本机PDF生成的PDF文件。
+从本机PDF输出预设中，您可以选择要传递到PDF发布过程的元数据。 您可以选择自定义属性和默认属性。  所选的元数据属性将传递到使用本机PDF生成的PDF文件。
 
 此功能非常方便，因为它有助于保持资源属性（如作者、创建日期或文档标题）的一致性。 这样可以更轻松地组织、搜索和分类您的文档。
 
-有关更多详细信息，请查看[PublishPDF输出](../web-editor/native-pdf-web-editor.md)中的&#x200B;**高级**&#x200B;设置。
+有关更多详细信息，请在[发布PDF输出](../web-editor/native-pdf-web-editor.md)中查看&#x200B;**高级**&#x200B;设置。
 
 
 ### 将添加在`topicmeta`元素中的元数据用于PDF输出
@@ -121,4 +121,4 @@ Experience Manager现在提供将资源的元数据属性从DITA映射传递到P
 
 此功能有助于更好地管理文档，确保一致性，并使您的文档可搜索。
 
-要了解更多信息，请在[PublishPDF输出](../web-editor/native-pdf-web-editor.md)中查看&#x200B;**元数据**&#x200B;选项卡。
+要了解更多信息，请在[发布PDF输出](../web-editor/native-pdf-web-editor.md)中查看&#x200B;**元数据**&#x200B;选项卡。

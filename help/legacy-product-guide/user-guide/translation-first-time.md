@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 下图显示了一个例子，说明了当您全局使用内容和三个语言副本时，AEM中的文件夹结构。
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){width="800"}
 
 ## 配置翻译服务
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 有关与第三方翻译服务集成的详细信息，请参阅AEM文档中的[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hans)。
+   > 有关与第三方翻译服务集成的详细信息，请参阅AEM文档中的[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)。
 
 1. 单击&#x200B;**保存并关闭**&#x200B;以保存更新的文件夹属性。
 
@@ -107,7 +107,7 @@ ht-degree: 1%
 
    将使用所选主题版本创建新翻译项目。 此时，会显示一个弹出消息，确认已创建翻译项目。 一旦翻译项目中的所有目标语言副本均可用，您即会在收件箱中收到通知。 一旦翻译项目中提供了目标语言副本区域，您就可以开始翻译作业。
 
-   ![](images/status-translation-uuid.png){width="800" align="left"}
+   ![](images/status-translation-uuid.png){width="800"}
 
 
 翻译选项卡包含以下部分：
@@ -141,4 +141,4 @@ ht-degree: 1%
 >
 > 如果您拒绝翻译作业中一个或多个主题的翻译，则所有已拒绝主题的&#x200B;**正在进行**&#x200B;翻译状态将恢复到其原始状态。 将根据最新翻译状态检查并还原所引用主题的状态。 此外，即使为目标项目创建的翻译被拒绝，也不会删除这些翻译文件。
 
-**父主题：**&#x200B;[&#x200B;翻译内容](translation.md)
+**父主题：**[&#x200B;翻译内容](translation.md)

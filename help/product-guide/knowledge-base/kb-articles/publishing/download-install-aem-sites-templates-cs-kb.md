@@ -5,10 +5,10 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 0%
 
 ---
 
@@ -41,14 +41,14 @@ ht-degree: 1%
    1. 导航到Cloud Manager左侧面板中的&#x200B;**存储库**。
    2. 选择&#x200B;**访问存储库信息**&#x200B;并复制git clone命令。
 
-      ![选择访问存储库信息](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+      ![选择访问存储库信息](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. 使用提供的用户名和密码将存储库克隆到本地系统（如果需要，生成密码）。
 2. **将包添加到Maven捆绑包：**
    1. 在本地克隆的存储库中，创建一个新的Maven捆绑包或将其添加到现有捆绑包中。
    2. 确保Maven项目中存在结构`/jcr_root/apps/fmdita/`安装。
 
-      Maven项目中的![结构](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+      Maven项目中的![结构](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
 
    3. 将下载的guides-components.all-1.x.x.zip文件放在安装文件夹中。
@@ -59,7 +59,7 @@ ht-degree: 1%
    2. 添加以下筛选器：筛选器根=`/apps/fmdita` mode=`merge`/
 
 
-      ![添加筛选器](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+      ![添加筛选器](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
 4. **配置pom.xml：**&#x200B;根据您的环境要求更新pom.xml文件。
@@ -77,7 +77,7 @@ ht-degree: 1%
 2. **选择模板：**&#x200B;选择&#x200B;**AEMG Docs 1.x.x**，然后选择&#x200B;**下一步**。
 3. **输入站点详细信息：**&#x200B;输入&#x200B;**站点标题**&#x200B;和&#x200B;**站点名称**。
 
-   ![创建站点](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+   ![创建站点](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350"}
 
 4. 选择&#x200B;**创建**。
 
@@ -90,7 +90,7 @@ ht-degree: 1%
    4. 输入预设的名称。
    5. 取消选中&#x200B;**使用旧版组件映射**&#x200B;设置。
 
-      ![创建新的AEM站点预设](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350" align="left"}
+      ![创建新的AEM站点预设](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350"}
 
    6. 选择&#x200B;**添加**&#x200B;以创建预设。
 2. **配置AEM站点预设：**&#x200B;有两个选项可用于配置现成(OOTB)站点：
@@ -102,14 +102,14 @@ ht-degree: 1%
       - 发布路径： `/content/AEMG-Docs-Site/en/docs/product`
       - 主题页模板：“主题”页
 
-      ![使用站点下拉菜单配置AEM站点](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+      ![使用站点下拉菜单配置AEM站点](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
    **选项2：使用站点路径**
 
    1. 手动将&#x200B;**站点路径**&#x200B;设置为`/content/AEMG-Docs-Site/en/docs/product`。
    2. 验证&#x200B;**主题页**&#x200B;模板是否自动设置为主题页。
 
-      ![使用站点路径配置AEM站点](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+      ![使用站点路径配置AEM站点](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
 3. **保存预设：**&#x200B;保存对预设所做的更改。
 
@@ -123,15 +123,15 @@ ht-degree: 1%
    2. 在OOTB站点结构下创建新产品页面。
    3. 导航到&#x200B;**AEMG文档** > **英语** > **文档**。
 
-      ![创建页面](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+      ![创建页面](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650"}
 
    4. 选择&#x200B;**主页**&#x200B;磁贴，然后选择&#x200B;**下一步**。
 
-      ![选择主磁贴](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+      ![选择主磁贴](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
    5. 输入页面的&#x200B;**标题**&#x200B;和&#x200B;**名称**。
    6. 选择&#x200B;**创建**。
 
 >[!NOTE]
 >
-> 在部署到生产环境之前，请确保所有配置都已在非生产环境中进行了测试。 <br><br>有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
+> 在部署到生产环境之前，请确保所有配置都已在非生产环境中进行了测试。<br><br> 有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。

@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1972'
 ht-degree: 0%
@@ -45,8 +45,8 @@ ht-degree: 0%
 执行以下步骤以创建基线：
 
 1. 在“基线”页面上，单击&#x200B;**创建**。
-1. 在&#x200B;**基线名称**&#x200B;中输入基线的名称。
-   ![创建基线](images/create-baseline.png){width="800" align="left"}
+1. 在&#x200B;**基线名称**中输入基线的名称。
+   ![创建基线](images/create-baseline.png){width="800"}
 1. 在&#x200B;**设置基于**&#x200B;的版本中，选择以下选项之一：
 
    - **标签**：选择此选项可根据应用于主题的标签选择主题。 输入标签以根据输入的字符串筛选列表。 从过滤出的列表中，您可以选择标签以选择具有指定标签的主题和其他资源。
@@ -67,80 +67,80 @@ ht-degree: 0%
 
 通过单击“基线”选项卡并从列表中选择所需的基线版本，可以查看现有基线的内容。 “基线”页面分为三个部分 — DITA映射文件、映射的内容或主题以及引用的内容。 如果您的映射包含子映射，则从子映射引用的主题也会显示在内容部分中。 “基线”页上的各列说明如下：
 
-- **Name**: Lists the DITA map or topic&#39;s title or the name of the asset, such as the file name of an image.
+- **名称**：列出DITA映射或主题的标题或资源的名称，如图像的文件名。
 
-- **Kind**: Lists the kind or type of asset in the map like DITA map, DITA topic, or image format.
+- **Kind**：列出映射中的资源类型或类型，如DITA映射、DITA主题或图像格式。
 
-- **Version**: Lists the version of the asset available in the Baseline.
+- **版本**：列出基线中可用的资源版本。
 
-- **Version Date and Time**: Lists the creation date and time of the asset for the selected version.
+- **版本日期和时间**：列出所选版本的资源的创建日期和时间。
 
-- **Latest**: Lists whether the latest version of the asset is used in the Baseline.
+- **Latest**：列出基线中是否使用了最新版本的资源。
 
-- **Parent Map**: If your map file contains sub-maps, then this column contains the name of the map in which a topic is referenced.
+- **父映射**：如果您的映射文件包含子映射，则此列包含引用了主题的映射的名称。
 
-- **Label**: Lists the label\(s\) applied to the version of the topic.
+- **标签**：列出应用于主题版本的标签。
 
-- **Referenced By**: This column is available for the referenced content only. It indicates the parent topic of the referenced asset. In case an asset is referred by multiple topics, then the topics are separated by comas.
+- **由**&#x200B;引用：此列仅适用于引用的内容。 它指示被引用资源的父级主题。 如果资产由多个主题引用，则这些主题用逗号分隔。
 
-## Edit, duplicate, or remove Baselines {#id195FI0I0YJL}
+## 编辑、复制或删除基线 {#id195FI0I0YJL}
 
-**Edit Baselines**
+**编辑基线**
 
-Perform the following steps to edit an existing baseline:
+执行以下步骤来编辑现有基线：
 
-1. Select the Baseline and click **Edit**.
-1. Make the required changes in the baseline. You can change the name and version of the topic or referenced content.
-1. If you want to use a different version for one or more topics, then you can do so by manually selecting those topics. Click **Browse Topic**, select the topic for which you want to use a different version. From the Select a Version drop-down list for the selected topic, select a version of the topic that you want to use in the baseline and click **OK**.
+1. 选择基线并单击&#x200B;**编辑**。
+1. 在基线中进行所需的更改。 您可以更改主题或引用内容的名称和版本。
+1. 如果要对一个或多个主题使用不同的版本，可以通过手动选择这些主题来实现此目的。 单击&#x200B;**浏览主题**，选择要使用其他版本的主题。 从所选主题的“选择版本”下拉列表中，选择要用在基线中的主题版本，然后单击&#x200B;**确定**。
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){width="800"}
 
-   The information about the topic and it&#39;s selected version is stored in the backend. You can repeat this step to change the selected version for multiple topics.
+   有关主题及其选定版本的信息存储在后端。 您可以重复此步骤以更改多个主题的所选版本。
 
-1. To load all topics and media files referred from the DITA  map, click the **Browse All Topics** link. The UUID of topics and media files is also shown below the topic title or the \(media\) file name.
-
-   >[!NOTE]
-   >
-   > If you have a very large set of files in your DITA map, with nested maps and topics, then clicking Browse All Topics could take some time to load all files.
-
-   The contents of your map are presented in the three sections: the map file, Content \(topic references\), and Referred Content \(nested topics, maps, and other assets\). Once you have all the referenced content available, you can individually select the version of the topic that you want to use in your baseline.
-
-   The **Version** drop-down list shows the available versions of the topics or the referenced content. For the referenced content, you have the option to choose a version automatically.
-
-   If you choose **Pick Automatically** for the referenced content, the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced. For example, let&#39;s say a topic A has a reference to an image B. When version 1.5 of topic A was created, the version of image B was 1.2 in the repository. Now, when a baseline is created with version 1.5 of the topic A with image B set to **Pick Automatically**, the system will automatically pick version 1.2 of image B.
-
-   If you create a baseline using the labels, **Pick Automatically** is applied to the version of all referenced content.
-
-   If the referenced content or assets \(topic, sub-maps, images, or videos\) are not versioned \(such as, newly uploaded content\), then creating a baseline will create a version for such files. However, if your files are versioned, then no incremental version is created for those files. This behavior is controlled by the auto-create version setting, which is enabled by default. This is also required for translating content wherein the translation process expects all files to have a version.
+1. 要加载从DITA映射引用的所有主题和媒体文件，请单击&#x200B;**浏览所有主题**&#x200B;链接。 主题和媒体文件的UUID也显示在主题标题或\(media\)文件名的下方。
 
    >[!NOTE]
    >
-   > If you want to specify a different version for any particular resource, you can do so by choosing the desired version from the **Version** drop-down list.
+   > 如果DITA映射中存在非常大的文件集（包含嵌套映射和主题），则单击浏览所有主题可能需要一些时间才能加载所有文件。
+
+   映射的内容分为三个部分：映射文件、内容\（主题引用\）和引用的内容\（嵌套主题、映射和其他资源\）。 一旦所有引用的内容都可用，您就可以单独选择要用于基线的主题版本。
+
+   **版本**&#x200B;下拉列表显示主题或引用内容的可用版本。 对于引用的内容，您可以选择自动选择版本。
+
+   如果您为引用的内容选择&#x200B;**自动选取**，则系统将自动选取与引用内容版本对应的引用内容版本。 例如，假设主题A具有对图像B的引用。创建主题A的版本1.5时，存储库中的图像B的版本为1.2。 现在，当创建基线，且主题A的版本1.5设置为图像B **自动选取**&#x200B;时，系统将自动选取图像B的版本1.2。
+
+   如果使用标签创建基线，则&#x200B;**自动挑选**&#x200B;将应用于所有引用内容的版本。
+
+   如果引用的内容或资产\（主题、子映射、图像或视频\）未进行版本控制\（例如，新上传的内容\），则创建基线将会创建此类文件的版本。 但是，如果您的文件进行了版本控制，则不会为这些文件创建增量版本。 此行为由默认启用的自动创建版本设置控制。 在翻译过程中需要所有文件都有一个版本的内容时，也需要用到此项。
+
+   >[!NOTE]
+   >
+   > 如果要为任何特定资源指定不同的版本，可以通过从&#x200B;**版本**&#x200B;下拉列表中选择所需的版本来执行此操作。
 1. 单击&#x200B;**保存**。
 
-**Duplicate Baselines**
+**重复的基线**
 
-Select the Baseline and click **Duplicate** to create a copy of an existing Baseline. Specify a different name for the baseline and choose the version number for the topics and referenced content and click **Save**.
+选择基线并单击&#x200B;**复制**&#x200B;以创建现有基线的副本。 请为基线指定其他名称，并选择主题和引用内容的版本号，然后单击&#x200B;**保存**。
 
-**Remove Baselines**
+**删除基线**
 
-Select the Baselines version and click **Remove** to remove a Baseline.
+选择基线版本，然后单击&#x200B;**删除**&#x200B;以删除基线。
 
-## Add labels to a Baseline {#id184KD0T305Z}
+## 向基线添加标签 {#id184KD0T305Z}
 
-Adding labels to every single topic can be time consuming. AEM Guides provides a single-click mechanism of adding labels to multiple topics and referenced content in a DITA map.
+为每个主题添加标签可能很耗时。 AEM Guides提供了一种单击机制，用于将标签添加到DITA映射中的多个主题和引用内容。
 
-Perform the following steps to add a label to multiple topics and referenced content in a DITA map:
+执行以下步骤以将标签添加到DITA映射中的多个主题和引用的内容：
 
-1. On the Baselines page, select a baseline containing the topics and referenced content on which you want to add a label.
+1. 在“基线”页上，选择包含主题和引用内容的基线，以添加标签。
 
    >[!NOTE]
    >
-   > Ensure that your baseline does not have the latest version of any topic or asset. A label can only be added to a versioned topic or asset.
+   > 确保您的基线不包含任何主题或资源的最新版本。 标签只能添加到版本化主题或资源中。
 
-1. Click **Add Labels**.
+1. 单击&#x200B;**添加标签**。
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){width="800"}
 
 1. 在&#x200B;**添加标签**&#x200B;对话框中，指定要与此基线关联的唯一标签。
 
@@ -151,7 +151,7 @@ Perform the following steps to add a label to multiple topics and referenced con
    - 单击&#x200B;**添加**。
 指定的标签将添加到DITA映射以及引用的主题和内容。
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## 导出已翻译基线 {#id196SE600GHS}
@@ -170,7 +170,7 @@ Perform the following steps to add a label to multiple topics and referenced con
 
 1. 在&#x200B;**翻译**&#x200B;选项卡中，展开左边栏中可用的&#x200B;**基线**&#x200B;选项。
 
-   ![](images/export-baseline.png){width="800" align="left"}
+   ![](images/export-baseline.png){width="800"}
 
 1. 选择&#x200B;**使用基线**&#x200B;选项，然后选择要导出的基线。
 
@@ -183,4 +183,4 @@ Perform the following steps to add a label to multiple topics and referenced con
 1. \（可选\）要导出已导出的基线，请选择&#x200B;**覆盖现有基线**，然后单击&#x200B;**导出基线**。
 
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中重新翻译修改的主题。
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    如果选择箭头查看更多详细信息，则可以查看不同步的特定语言副本。
 
-   ![](images/out-of-sync-uuid-new.png){align="left"}
+   ![](images/out-of-sync-uuid-new.png)
 
 1. 选中该复选框可选择要发送以供重新翻译的主题。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 在项目控制台中导航到翻译项目。 将在文件夹中创建新翻译作业信息卡。 选择省略号可查看文件夹的资源。
 
-   ![](images/incremental-job-new.png){width="300" align="left"}
+   ![](images/incremental-job-new.png){width="300"}
 
 1. 要开始翻译，请选择翻译作业信息卡上的箭头，然后从列表中选择&#x200B;**开始**。 此时将显示一条消息，通知作业已启动。
 
@@ -78,4 +78,4 @@ ht-degree: 0%
 1. 在Assets UI中导航回源语言文件夹中的DITA映射文件。 重新翻译的主题现在处于“同步”状态。
 
 
-**父主题：**&#x200B;[&#x200B;内容翻译概述](translation.md)
+**父主题：**[&#x200B;内容翻译概述](translation.md)

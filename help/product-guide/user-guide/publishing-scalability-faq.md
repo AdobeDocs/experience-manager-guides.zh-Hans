@@ -1,9 +1,10 @@
 ---
 title: 关于在Adobe Experience Manager Guides中发布性能和可扩展性的常见问题解答
 description: 了解有关在Adobe Experience Manager Guides中发布性能和可扩展性的常见问题解答。
-source-git-commit: d128860bdff78c100ba348b54a237b237171635f
+exl-id: d4cd7673-ba66-4e90-9908-b537217d7eb6
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -12,12 +13,12 @@ ht-degree: 0%
 
 以下是常见问题解答列表，其中详细介绍了Adobe Experience Manager Guides如何管理发布工作流、扩展行为和基础架构性能。 它面向使用Experience Manager Guides进行大规模发布的企业用户、管理员和文档团队。 此图说明了Experience Manager Guides发布架构的整体工作流程。
 
-![](images/IO_runtime.drawio.png){align="left"}
+![](images/IO_runtime.drawio.png)
 
 
 ## Experience Manager Guides每天可以运行多少个发布请求？
 
-Experience Manager Guides每天可以处理的发布请求数取决于内容的大小和类型。 根据配置，系统允许每个处理器内核有一个发布作业。 在当前的设置中，可并行运行20个发布作业(每个×10个内核，2个pod)。
+Experience Manager Guides每天可以处理的发布请求数取决于内容的大小和类型。 根据配置，系统允许每个处理器内核有一个发布作业。 在当前的设置中，可并行运行20个发布作业（每个×10个内核，2个pod）。
 
 当生产环境自动扩展时，当pod扩展到4时，此数量可以增加到40个并发发布作业。
 
@@ -123,7 +124,3 @@ Experience Manager Guides发布基础架构支持基于负载的自动缩放。 
 - 保持DITA映射层次结构可管理且组织良好
 - 安排在非高峰时间的大量发布
 - 有效使用条件筛选器以减少处理负载
-
-
-
-

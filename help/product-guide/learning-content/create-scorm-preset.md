@@ -4,7 +4,7 @@ description: 在产品培训和学习中了解如何创建SCORM预设
 feature: Authoring
 role: User
 exl-id: 4a433b9d-594d-42b5-8c59-f246eda7e631
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 1%
@@ -17,12 +17,12 @@ ht-degree: 1%
 
 1. 在&#x200B;**映射控制台**&#x200B;中打开课程。
 
-   ![](assets/open-in-map-console.png){width="350" align="left"}
+   ![](assets/open-in-map-console.png){width="350"}
 
 1. 在&#x200B;**输出预设**&#x200B;面板中，选择+图标以创建输出预设。
 1. 从&#x200B;**新建输出预设**&#x200B;对话框的&#x200B;**类型**&#x200B;下拉列表中选择&#x200B;**SCORM**。
 
-   ![](assets/scorm-preset.png){width="350" align="left"}
+   ![](assets/scorm-preset.png){width="350"}
 
 1. 在&#x200B;**名称**&#x200B;字段中，提供此预设的名称。
 1. 选择&#x200B;**添加到当前文件夹配置文件**&#x200B;选项可在当前文件夹配置文件中创建输出预设。
@@ -30,4 +30,4 @@ ht-degree: 1%
 
 将创建SCORM预设。 此时将打开一个SCORM预设页面，您可以在其中进行必要的配置。
 
-![](assets/scorm-output-preset.png){width="800" align="left"}
+![](assets/scorm-output-preset.png){width="800"}

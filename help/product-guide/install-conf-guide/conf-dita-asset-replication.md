@@ -4,9 +4,10 @@ description: 了解如何配置Dita Assets复制
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 8c551c37-2bfd-471b-bb72-514fabbc0bf2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '111'
 ht-degree: 3%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 3%
 1. 根据需要配置设置`Replicate DITA assets`。 默认情况下，该设置处于启用状态。
 
 
-   ![](assets/dita-assets-replication.png){width="350" align="left"}
+   ![](assets/dita-assets-replication.png){width="350"}
 
 
 1. 选择&#x200B;**保存**。

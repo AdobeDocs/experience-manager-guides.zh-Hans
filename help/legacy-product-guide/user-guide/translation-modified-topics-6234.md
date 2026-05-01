@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    如果单击箭头查看更多详细信息。 您可以看到已过期的特定语言副本。
 
-   ![](images/out-of-sync-uuid.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid.png){width="800"}
 
 1. 单击复选框以选择要发送以供重新翻译的主题。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 在项目控制台中导航到翻译项目。 将在文件夹中创建新翻译作业信息卡。 单击省略号可查看文件夹中的资产。
 
-   ![](images/incremental-job.PNG){width="300" align="left"}
+   ![](images/incremental-job.PNG){width="300"}
 
 1. 要开始翻译，请单击翻译作业信息卡上的箭头，然后从列表中选择&#x200B;**开始**。 此时将显示一条消息，通知作业已启动。
 
@@ -79,4 +79,4 @@ ht-degree: 0%
 1. 在Assets UI中导航回源语言文件夹中的DITA映射文件。 重新翻译的主题现在已同步。
 
 
-**父主题：**&#x200B;[&#x200B;翻译内容](translation.md)
+**父主题：**[&#x200B;翻译内容](translation.md)

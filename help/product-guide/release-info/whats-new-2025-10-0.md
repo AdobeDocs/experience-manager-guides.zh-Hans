@@ -2,9 +2,10 @@
 title: 发行说明 | Adobe Experience Manager Guides 2025.10.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 2025.10.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
+exl-id: 5bc6f1f6-225b-46c0-a05a-099583e402d8
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 有关此版本中修复的问题列表，请查看 [2025.10.0 版本中已修复的问题](fixed-issues-2025-10-0.md)。
 
-了解2025.10.0版[的](../release-info/upgrade-instructions-2025-10-0.md)升级说明。
+了解2025.10.0版](../release-info/upgrade-instructions-2025-10-0.md)的[升级说明。
 
 
 ## 编辑器设置现已重命名为Workspace设置，可从主页访问
@@ -23,7 +24,7 @@ ht-degree: 3%
 为了提高导航和可用性，已引入以下增强功能：
 
 - Experience Manager Guides中的&#x200B;**编辑器设置**&#x200B;已重命名为&#x200B;**Workspace设置**。
-- 现在，可以从&#x200B;**主页**&#x200B;访问[更多操作](../user-guide/intro-home-page.md)菜单（三点菜单），该菜单以前只能在“编辑器”和“映射”控制台界面中使用。
+- 现在，可以从[主页](../user-guide/intro-home-page.md)访问&#x200B;**更多操作**&#x200B;菜单（三点菜单），该菜单以前只能在“编辑器”和“映射”控制台界面中使用。
 
   ![](assets/workspace-settings.png)
 
@@ -33,7 +34,7 @@ Experience Manager Guides现在在编辑器中包含&#x200B;**重复ID**&#x200B;
 
 有关更多详细信息，请在编辑器中查看[其他功能](../user-guide/web-editor-other-features.md)。
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+![](assets/duplicate-element-IDs.png){width="350"}
 
 ## 增强存储库和报告过滤器
 
@@ -45,7 +46,7 @@ Experience Manager Guides现在在编辑器中包含&#x200B;**重复ID**&#x200B;
 
 有关更多详细信息，请查看[请求重新审阅或关闭审阅任务作为作者](../user-guide/review-close-review-task.md)。
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+![](assets/check-review-status-icon.png){width="350"}
 
 
 
@@ -59,4 +60,3 @@ Experience Manager Guides现在在编辑器中包含&#x200B;**重复ID**&#x200B;
 
 - [用于跟踪单个资源和文件夹后处理状态的API](../api-reference/track-post-processing-status.md)
 - [fmdita配置管理器中的后处理事件处理程序设置](../api-reference/post-process-event.md)
-

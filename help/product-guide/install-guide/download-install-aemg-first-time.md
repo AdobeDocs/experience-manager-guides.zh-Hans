@@ -5,7 +5,7 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%
@@ -32,9 +32,9 @@ ht-degree: 3%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/package-manager.html)。
+   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. 要上传AEM Guides包，请单击&#x200B;**上传包**。
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 1. 若要安装包，请单击&#x200B;**安装**。
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. 在“安装包”对话框中，单击&#x200B;**安装**。
 
@@ -55,4 +55,4 @@ ht-degree: 3%
 >
 > 在您的安装程序中，对AEM服务器的所有实例执行安装过程。
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)

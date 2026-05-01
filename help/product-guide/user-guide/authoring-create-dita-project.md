@@ -4,9 +4,9 @@ description: 使用AEM Guides中的模板创建DITA项目。 了解如何使用D
 exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Experience Manager Guides提供了一个DITA项目模板，您可以使用
 
 1. 选择&#x200B;**创建** \> **项目**&#x200B;以启动创建项目向导。
 
-   ![](images/project-console-63.png){width="650" align="left"}
+   ![](images/project-console-63.png){width="650"}
 
 1. 在“创建项目”页面上，选择&#x200B;**DITA项目**&#x200B;模板，然后选择&#x200B;**下一步**。
 
@@ -43,7 +43,7 @@ Adobe Experience Manager Guides提供了一个DITA项目模板，您可以使用
 
    **基本**&#x200B;选项卡中的信息：
 
-   ![](images/create-project.png){width="650" align="left"}
+   ![](images/create-project.png){width="650"}
 
    - 输入项目的&#x200B;**标题**、**描述**&#x200B;和&#x200B;**截止日期**。
 
@@ -76,4 +76,4 @@ Adobe Experience Manager Guides提供了一个DITA项目模板，您可以使用
 1. 选择&#x200B;**打开**&#x200B;以打开您的项目页面。
 
 
-**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)
+**父主题：**[&#x200B;要审阅的简介](review.md)

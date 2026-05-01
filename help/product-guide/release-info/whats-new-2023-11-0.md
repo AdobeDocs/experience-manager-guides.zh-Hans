@@ -1,34 +1,34 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides的新增功能（2023年11月版）
-description: 在2023年11月版的Adobe Experience Manager Guidesas a Cloud Service中了解新增功能和增强功能。
+description: 了解Adobe Experience Manager Guides as a Cloud Service 2023年11月版的新增功能和增强功能。
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
 
-# 2023年11月版的Adobe Experience Manager Guidesas a Cloud Service的新增功能
+# 2023年11月版Adobe Experience Manager Guides as a Cloud Service的新增功能
 
-本文介绍2023年11月版本的Adobe Experience Manager Guides(以后称为&#x200B;*Experience Manager Guidesas a Cloud Service*)中的新增功能和增强功能。
+本文介绍2023年11月版本的Adobe Experience Manager Guides（以后称为&#x200B;*Experience Manager Guides as a Cloud Service*）中的新增功能和增强功能。
 
 有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请查看[发行说明](release-notes-2023-11-0.md)。
 
-## 本机PDF增强功能
+## 原生PDF增强功能
 
 2023年11月版本中完成了以下本机PDF增强功能：
 
 ### 使用和复制现成的PDF模板
 
-Experience Manager Guides提供开箱即用或出厂预装PDF模板。 复制工厂PDF模板以创建自定义PDF模板。
+Experience Manager Guides提供开箱即用或出厂设置的PDF模板。 复制工厂PDF模板以创建自定义PDF模板。
 
 现在，您还可以在创建和复制模板时预览模板的缩略图图像。 您还可以编辑或删除此图像。 此功能对于标记或区分具有相似名称的模板很有用。
 了解有关[PDF模板](../native-pdf/pdf-template.md)的更多信息。
 
-![复制PDF模板对话框](assets/duplicate-template.png){width="550" align="left"}
+![重复PDF模板对话框](assets/duplicate-template.png){width="550"}
 
 *复制现有PDF模板。*
 
@@ -45,7 +45,7 @@ Experience Manager Guides提供开箱即用或出厂预装PDF模板。 复制工
 
 ### 改进了本机PDF模板的资源管理
 
-Experience Manager Guides现在改进了本机PDF模板的资源管理。 您现在可以在多个本机PDF模板之间共享和重用资源，如图像、CSS文件和字体文件。 通过这种改进，管理大量模板的资源变得更加简单。 您无需为每个模板创建重复资源，可以将这些资源保存在共享文件夹中，并在所有本机PDF模板中使用它们。
+Experience Manager Guides现在改进了本机PDF模板的资源管理。 您现在可以在多个本机PDF模板之间共享和重用资源，如图像、CSS文件和字体文件。 通过这种改进，管理大量模板的资源变得更加简单。 您无需为每个模板创建重复资源，可以将这些资源保留在共享文件夹中，并在所有本机PDF模板中使用它们。
 有关详细信息，请查看[PDF模板](../native-pdf/pdf-template.md)。
 
 ## Web编辑器增强功能
@@ -57,16 +57,16 @@ Experience Manager Guides现在改进了本机PDF模板的资源管理。 您现
 
 现在，您可以选择在Web编辑器中查看文件的默认方式。 您可以在“创作”视图中按各个面板的标题或文件名查看文件列表。
 
-![用户首选项对话框](assets/user-preferences-2311.png){width="550" align="left"}
+![用户首选项对话框](assets/user-preferences-2311.png){width="550"}
 
-*从&#x200B;**用户首选项**&#x200B;对话框更改查看文件的默认方式。*
+*从&#x200B;**用户首选项**对话框更改查看文件的默认方式。*
 
 
 ### 管理条件预设
 
 您可以在DITA主题中定义条件属性。 然后，使用条件预设中的条件属性发布DITA映射中的内容。 Experience Manager Guides现在还允许您从Web编辑器创建和管理条件预设。 您还可以轻松地编辑、复制或删除它们。
 
-Web编辑器![&#128279;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}的“管理”选项卡中的条件预设
+Web编辑器](assets/web-editor-manage-condition-presets.png){width="550"}的“管理”选项卡中的![条件预设
 
 有关详细信息，请查看[使用条件预设](../user-guide/generate-output-use-condition-presets.md)。
 

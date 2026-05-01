@@ -4,9 +4,9 @@ description: 了解如何在产品培训和学习中创建问题库
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 1. 在&#x200B;**课程经理**&#x200B;中打开课程，然后从&#x200B;**选项菜单**&#x200B;中选择&#x200B;**添加新课程**。
 1. 选择&#x200B;**题库**。
-将打开&#x200B;**新问题库**&#x200B;对话框。 您可以从下拉菜单中选择模板，为问题库指定合适的标题，并指定希望此问题库存储在存储库中的路径。
+将打开**新问题库**&#x200B;对话框。 您可以从下拉菜单中选择模板，为问题库指定合适的标题，并指定希望此问题库存储在存储库中的路径。
 
-   ![](assets/question-bank-create.png){width="350" align="left"}
+   ![](assets/question-bank-create.png){width="350"}
 
 1. 选择&#x200B;**创建**。
 在课程中添加了一个问题库，该问题库显示在“课程管理员”面板中。

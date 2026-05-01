@@ -4,22 +4,22 @@ description: 了解Adobe Experience Manager Guides中地图编辑器的功能。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2671'
+source-wordcount: '2703'
 ht-degree: 0%
 
 ---
 
 # 映射编辑器功能 {#id1942D0S0IHS}
 
-映射编辑器中的工具栏与主题编辑器类似。 切换左侧面板、保存映射、创建新版本的映射、撤消/重做上一个操作以及删除所选元素等基本操作在两个编辑器中都是通用的。 有关这些操作如何工作的详细信息，请查看编辑器[部分中的](web-editor-toolbar.md#)工具栏。
+映射编辑器中的工具栏与主题编辑器类似。 切换左侧面板、保存映射、创建新版本的映射、撤消/重做上一个操作以及删除所选元素等基本操作在两个编辑器中都是通用的。 有关这些操作如何工作的详细信息，请查看编辑器](web-editor-toolbar.md#)部分中的[工具栏。
 
 您在编辑器工具栏中查看的选项基于映射编辑器视图。 地图编辑器中提供了四个视图：
 
 - [布局](#layout-view)
 - [创作](#author-view)
-- [来源](#source-view)
+- [源](#source-view)
 - [预览](#preview)
 
 以下部分介绍了地图编辑器的不同视图中可用的工具栏选项：
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 显示选择文件对话框。 导航到要插入的主题/映射文件，然后选择&#x200B;**选择**&#x200B;以将其添加到映射中。
 
-![](images/insert-topic-reference-dialog.png){align="left"}
+![](images/insert-topic-reference-dialog.png)
 
 
 **主题组** - ![](images/topic-group.svg)
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 显示“插入Keydef”对话框。 使用此对话框可定义要在映射中使用的任何键定义。
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **此项前插入/此项后插入** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 除了在映射文件中组织主题外，您还可以使用选项菜单执行以下操作，该菜单出现在将鼠标悬停在文件上或在布局视图的编辑器中右键单击时：
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 - **添加**：您可以从映射编辑器中选择添加新主题或空引用：
    - **空引用**：此选项允许您在DITA映射中添加空引用。 您可以稍后双击插入的空引用并添加主题详细信息。
@@ -140,13 +140,13 @@ ht-degree: 0%
 
 **作者**&#x200B;视图允许您在编辑器中编辑DITA映射。 这会显示映射编辑器的WYSIWYG视图，并且在“创作”视图中显示的某些图标与在“布局”视图中显示的图标相同。
 
-![](images/map-editor-author-view.png){align="left"}
+![](images/map-editor-author-view.png)
 
 此外，您还可以从“作者”视图中查看以下图标并执行相关任务：
 
 **此项前插入/此项后插入** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-显示&#x200B;**在之前插入元素或**&#x200B;在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
+显示**在之前插入元素或**在之后插入元素对话框。 选择要插入到映射中的元素。 根据操作，新元素会插入到映射中当前元素之前或之后。
 
 **元素** - ![](images/Add_icon.svg)
 
@@ -179,7 +179,7 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 1.  Select **Reltable** from the toolbar.
 
-    ![](images/reltable.png){width="650" align="left"}
+    ![](images/reltable.png){width="650"}
 
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
@@ -187,13 +187,13 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
     >
     > You can add topics from any folder in the References rail.
 
-    ![](images/create-reltable.png){width="550" align="left"}
+    ![](images/create-reltable.png){width="550"}
 
 1.  To add a header to your relationship table, click **Add Relheader**.
 
 1.  To add a column to your relationship table, click **Add a Column**.
 
-    ![](images/complete-reltable.png){width="550" align="left"}
+    ![](images/complete-reltable.png){width="550"}
 
 1.  Click **Save**.
 
@@ -241,7 +241,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 通过此视图，可编辑原始格式的内容，从而完全控制结构和格式。
 
-![](images/map-editor-source-view.png){align="left"}
+![](images/map-editor-source-view.png)
 
 
 在此视图中，工具栏提供了&#x200B;**菜单**&#x200B;下拉菜单下可用的基本内容编辑和插入选项，包括“剪切”、“复制”、“撤消”、“重做”、“删除”、“查找和替换”、“版本标签”、“合并”、“另存为新版本”、“锁定”和“解锁”。
@@ -252,7 +252,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 除了能够查看地图中每个主题文件的位置之外，还希望在一个连续流中查看地图内容。 预览映射功能允许您通过单击查看映射文件的整个内容。 您不必生成映射文件的输出即可查看整个映射在发布后的外观。 您只需访问映射的预览即可，所有主题和子映射将以书籍的形式呈现。
 
-![](images/map-editor-preview.png){align="left"}
+![](images/map-editor-preview.png)
 
 >[!NOTE]
 >
@@ -268,7 +268,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
   >
   > 如果您没有编辑权限，则该主题将以只读模式打开。
 
-  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+  ![](images/edit-topic-preview-mode.png){width="650"}
 
 - 通过选择映射树中的主题标题\（在左侧面板中），跳转到所需主题。
 
@@ -280,11 +280,11 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 可通过两种方式使用在映射的“预览”模式下提供的“刷新”功能：
 
-- **映射级别刷新**：选择&#x200B;**刷新**&#x200B;按钮将刷新整个映射的预览（包括所有主题），并将您带到清除视图的第一个滚动位置。
-  ![](images/refresh-map.png){width="650" align="left"}
+- **映射级别刷新**：选择&#x200B;**刷新**按钮将刷新整个映射的预览（包括所有主题），并将您带到清除视图的第一个滚动位置。
+  ![](images/refresh-map.png){width="650"}
 
-- **主题级刷新**：从上下文菜单选择&#x200B;**刷新主题**&#x200B;将刷新该特定主题，同时保持滚动位置不变。
-  ![](images/refresh-topic.png){width="650" align="left"}
+- **主题级刷新**：从上下文菜单选择&#x200B;**刷新主题**将刷新该特定主题，同时保持滚动位置不变。
+  ![](images/refresh-topic.png){width="650"}
 
 **预览地图文件的其他方式**
 
@@ -296,13 +296,13 @@ If you want to delete the relationship table, click anywhere outside the relatio
   >
   > 如果&#x200B;*预览图*&#x200B;选项在主工具栏中不可见，则它可能已移动到&#x200B;**更多**&#x200B;工具栏菜单下。
 
-- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”**&#x200B;**&#x200B;以查看当前映射的预览。
+- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”****&#x200B;以查看当前映射的预览。
 
-  ![](images/map-preview-icon.png){width="650" align="left"}
+  ![](images/map-preview-icon.png){width="650"}
 
   地图的预览显示在弹出框中。
 
-  ![](images/map-editor-preview-pop-up.png){width="500" align="left"}
+  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **映射属性**
 
@@ -329,7 +329,7 @@ Experience Manager Guides允许作者在编辑器中打开DITA映射并查看主
 
    可在编辑器中打开多个主题，每个主题都将在编辑器的新选项卡中打开。 即使DITA映射包含子映射，子映射中的主题也将在新选项卡中打开以进行编辑。 如果要查看子映射下的主题，可以选择并展开子映射。
 
-   ![](images/web-editor-multiple-topics.png){align="left"}
+   ![](images/web-editor-multiple-topics.png)
 
    如果选择映射文件，则该映射将在编辑器的新选项卡中打开。
 
@@ -337,7 +337,7 @@ Experience Manager Guides允许作者在编辑器中打开DITA映射并查看主
 
    - 您可以单独保存它们。 如果关闭而不保存主题，您将看到一个对话框，提示您保存未保存的主题：
 
-     ![](images/save-multiple-topics-new.png){width="300" align="left"}
+     ![](images/save-multiple-topics-new.png){width="300"}
 
      您可以选择保存所有选定的主题，也可以取消选择不想保存的主题。
 
@@ -349,7 +349,7 @@ Experience Manager Guides允许作者在编辑器中打开DITA映射并查看主
 
    - 如果管理员启用了关闭时解锁文件的选项，则每当关闭锁定的文件时，系统都会提示您保存文件。 启用此选项后，在关闭包含已更改文件的编辑器时，将显示需要保存的已锁定文件列表。 锁定的文件会显示一个锁定图标：
 
-     ![](images/save-on-close-new.png){width="350" align="left"}
+     ![](images/save-on-close-new.png){width="350"}
 
 ## 地图编辑器中的右侧面板
 
@@ -361,7 +361,7 @@ Experience Manager Guides允许作者在编辑器中打开DITA映射并查看主
 
 - **其他属性**&#x200B;如果管理员为属性创建了配置文件，则您将获得这些属性及其配置值。 使用“内容属性”面板，您可以选择这些属性，并将它们分配给主题中的相关内容。 您还可以在&#x200B;**显示属性**&#x200B;下分配管理员配置的属性。 为元素定义的属性将显示在“布局”和“大纲”视图中。 这有助于快速查看映射中为其定义了特定属性的所有主题。 例如，所有具有`audience`属性的主题都定义为`US`。
 
-  ![布局视图](images/layout-inline-attributes.png){width="650" align="left"}
+  ![布局视图](images/layout-inline-attributes.png){width="650"}
 
 
   有关详细信息，请查看[显示属性](../cs-install-guide/workspace-settings.md#display-attributes)。

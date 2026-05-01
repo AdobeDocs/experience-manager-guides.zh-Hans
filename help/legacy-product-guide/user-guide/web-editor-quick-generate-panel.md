@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -20,7 +20,7 @@ AEM Guides提供了一个集成在Web编辑器中的&#x200B;**快速生成**&#x2
 >
 > 对于在“映射视图”面板中打开的DITA映射，将显示&#x200B;**快速生成**&#x200B;面板。
 
-![](images/quick-generate-map-view.png){width="800" align="left"}
+![](images/quick-generate-map-view.png){width="800"}
 
 执行以下步骤以从&#x200B;**快速生成**&#x200B;面板生成输出：
 
@@ -30,4 +30,4 @@ AEM Guides提供了一个集成在Web编辑器中的&#x200B;**快速生成**&#x2
 1. 单击&#x200B;**生成**&#x200B;以生成所选预设的输出。 成功消息显示在输出的生成中。 如果生成失败，将显示错误消息。 您还可以查看错误日志，以了解生成过程中所发生错误的详细信息。
 1. 单击特定预设的&#x200B;**查看输出** \( ![](images/view-output-icon.svg)\)图标以查看为预设生成的输出。
 
-**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**[&#x200B;使用Web编辑器](web-editor.md)

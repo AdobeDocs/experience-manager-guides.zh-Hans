@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**生成报告**&#x200B;以获取内容重用报告。
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){width="800"}
 
    报告页面分为两个部分：
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
       - **UUID**：文件的通用唯一标识符\(UUID\)。
 
-      - **Size**: Files size in bytes.
+      - **大小**：文件大小（以字节为单位）。
 
       - **状态**：文档的当前状态 — 草稿、正在审阅或已审阅。
 
@@ -65,4 +65,4 @@ ht-degree: 0%
 >
 > 您还可以将“内容重用报表”导出为CSV格式。 为此，请单击屏幕左上角的导出到CSV链接，然后选择要保存CSV文件的位置。 然后，您可以使用任何CSV编辑器打开此CSV文件。
 
-**父主题：**&#x200B;[&#x200B;报告](reports-intro.md)
+**父主题：**[&#x200B;报告](reports-intro.md)

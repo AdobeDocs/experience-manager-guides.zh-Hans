@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -24,15 +24,15 @@ Markdown是一种轻量级的标记语言，可帮助您将格式元素添加到
 1. 通过以下方式之一创建&#x200B;**Markdown主题**：
    1. 单击存储库面板右上角的&#x200B;**创建DITA文件**&#x200B;图标，然后从下拉列表中选择&#x200B;**Markdown主题**。
 
-   ![](images/create-markdown-dita-topic.png){width="550" align="left"}
+   ![](images/create-markdown-dita-topic.png){width="550"}
 
    1. 从所选文件夹的“选项”菜单中选择“**创建**”，然后从下拉菜单中选择“**标记主题**”。
 
-   ![](images/create-markdown-options-menu.png){width="550" align="left"}
+   ![](images/create-markdown-options-menu.png){width="550"}
 
 1. 在&#x200B;**新建Markdown主题**&#x200B;对话框中，输入Markdown主题的名称和路径。
 
-![](images/create-markdown-dialog.png){width="350" align="left"}
+![](images/create-markdown-dialog.png){width="350"}
 
 1. 单击&#x200B;**创建**。
 
@@ -62,4 +62,4 @@ Markdown主题将在选定的路径中创建，并会打开以进行编辑。
 >
 > 如果尚未保存更改，则会显示一个弹出窗口，并提示您先保存主题，然后再关闭主题。
 
-**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**[&#x200B;使用Web编辑器](web-editor.md)

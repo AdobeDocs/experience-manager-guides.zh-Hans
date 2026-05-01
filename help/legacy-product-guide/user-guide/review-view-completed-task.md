@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 但是，您可以搜索或过滤任何注释。 您还可以选择显示或隐藏条件，并相应地显示条件化内容。 您可以下载任何附件，但不能上载或删除注释的任何附件。
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer.png){width="800"}
 
 
 ## 作为作者
@@ -31,6 +31,6 @@ ht-degree: 0%
 
 但是，您可以搜索或过滤任何注释。 您可以下载任何附件，但不能上载或删除注释的任何附件。
 
-![](images/completed-task-author.png){width="800" align="left"}
+![](images/completed-task-author.png){width="800"}
 
 因此，无论是作为审阅人还是作者，您都可以查看审阅的内容以及注释，但不能在已完成的审阅任务中进行任何更改。

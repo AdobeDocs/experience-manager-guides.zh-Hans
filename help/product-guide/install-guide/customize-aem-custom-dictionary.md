@@ -5,7 +5,7 @@ exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 2%
@@ -30,11 +30,11 @@ ht-degree: 2%
 
    以下屏幕截图显示了添加到user\_dictionary.txt文件中的自定义单词列表：
 
-   ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
+   ![](assets/custom-words-list-dictionary.png){width="650"}
 
 1. 保存并关闭该文件。
 
 
 作者需要重新启动Web编辑器会话才能在AEM词典中更新自定义词列表。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

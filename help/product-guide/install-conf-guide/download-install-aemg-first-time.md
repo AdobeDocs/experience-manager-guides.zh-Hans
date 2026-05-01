@@ -4,10 +4,11 @@ description: 了解如何首次下载和安装AEM Guides
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 1c4a93c2-e477-4466-8390-3fda21ead9ff
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 3%
 
 ---
 
@@ -31,9 +32,9 @@ ht-degree: 0%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/package-manager.html)。
+   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. 要上传AEM Guides包，请单击&#x200B;**上传包**。
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
 1. 若要安装包，请单击&#x200B;**安装**。
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. 在“安装包”对话框中，单击&#x200B;**安装**。
 

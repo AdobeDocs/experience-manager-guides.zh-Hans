@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -30,17 +30,17 @@ ht-degree: 0%
 
 1. 在&#x200B;**作者**&#x200B;选项卡中，选择要发布的DITA映射中的主题。
 
-1. 从所选主题的“选项”菜单中选择“快速生成”**&#x200B;**。
-   ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
+1. 从所选主题的“选项”菜单中选择“快速生成”****。
+   ![](images/select-topic-options-menu_cs.png){width="650"}
 
 1. 要发布单个DITA映射中使用的主题，请选择要发布的映射的输出预设，然后单击&#x200B;**生成**。
-   ![](images/select-preset_cs.png){width="350" align="left"}
+   ![](images/select-preset_cs.png){width="350"}
 
 1. 您将看到输出生成过程的状态。 要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
 
 1. 如果您有一个在多个主题中使用的公共主题，请选择各种DITA映射以及要用于发布的输出预设，然后单击&#x200B;**生成。**
 
-   ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
+   ![](images/select-preset-multiple-maps_cs.png){width="350"}
 
 1. 您将看到输出生成过程的状态。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
    - **映射**：列出包含选定主题的DITA映射。
    - **状态**：显示每个主题的发布状态。
 要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){width="800"}
 
 
 ## 从Web编辑器生成DITA映射的输出
@@ -58,9 +58,9 @@ ht-degree: 0%
 
 1. 在&#x200B;**作者**&#x200B;选项卡中，选择要发布的DITA映射。
 
-1. 从DITA映射的“选项”菜单中选择“快速生成”**&#x200B;**。
+1. 从DITA映射的“选项”菜单中选择“快速生成”****。
 
-   ![](images/select-map-options-menu_cs.png){width="650" align="left"}
+   ![](images/select-map-options-menu_cs.png){width="650"}
 
 1. 选择要用于发布的DITA映射的输出预设，然后单击&#x200B;**生成。**
 
@@ -81,9 +81,9 @@ ht-degree: 0%
    >
    > 您将只看到包含所有选定主题的当前DITA映射的输出预设。
 
-   ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
+   ![](images/generate-output-multiple-topics_cs.png){width="650"}
 
 1. 您将看到输出生成过程的状态。要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
 
 
-**父主题：**&#x200B;[&#x200B;从Web编辑器中基于文章的发布](web-editor-article-publishing.md)
+**父主题：**[&#x200B;从Web编辑器中基于文章的发布](web-editor-article-publishing.md)

@@ -5,7 +5,7 @@ hide: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '6522'
 ht-degree: 0%
@@ -43,7 +43,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
 >[!IMPORTANT]
 >
->如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 有关卸载说明，请参阅[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html)文章中的&#x200B;**卸载包**&#x200B;部分。
+>如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 有关卸载说明，请参阅[如何使用包](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)文章中的&#x200B;**卸载包**&#x200B;部分。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -66,7 +66,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
    AEM Guides面板显示在Oxygon XML Author中。
 
-   ![AEM连接器](images/oxygen-aem-connector.png){width="800" align="left"}
+   ![AEM连接器](images/oxygen-aem-connector.png){width="800"}
 
    >[!NOTE]
    >
@@ -77,7 +77,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
 >[!IMPORTANT]
 >
->如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html)文章卸载说明中的&#x200B;**卸载包**&#x200B;部分。
+>如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅[如何使用包](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)文章卸载说明中的&#x200B;**卸载包**&#x200B;部分。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -98,7 +98,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
    AEM Guides面板显示在Oxygon XML Author中。
 
-   ![AEM连接器Mac](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
+   ![AEM连接器Mac](images/oxygen-aem-connector-mac.png) {width="800"}
 
    >[!NOTE]
    >
@@ -116,9 +116,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=zh-Hans)。
+   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en)。
 
-   ![包管理器](images/package-manager.png) {width="650" align="left"}
+   ![包管理器](images/package-manager.png) {width="650"}
 
 1. 要上载氧气包，请单击&#x200B;**上载包**。
 1. 在上传包对话框中，导航到您在步骤1中下载的氧气包文件，然后单击确定。
@@ -127,7 +127,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
 1. 若要启动安装过程，请单击&#x200B;**安装**。
 
-   ![氧气包](images/oxygen-package.png){width="650" align="left"}
+   ![氧气包](images/oxygen-package.png){width="650"}
 
 1. 在“安装包”对话框中，单击&#x200B;**安装**。
 1. 安装完成后，单击CRX包管理器左上角的“主页”按钮。
@@ -208,7 +208,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 1. 在AEM Guides面板中，单击设置图标，然后选择&#x200B;**设置**。
 
-   ![连接设置](images/settings.png){width="800" align="left"}
+   ![连接设置](images/settings.png){width="800"}
 
 1. 指定以下详细信息：
    - **服务器URL**： AEM服务器的URL，例如：
@@ -245,22 +245,22 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 1. 在氧气XML作者中，单击&#x200B;**选项** \> **首选项**。
 1. 在&#x200B;**文档类型关联**&#x200B;选项卡中，选择&#x200B;**DITA**，然后单击&#x200B;**扩展**。
 
-   ![文档类型关联](images/document_type_association.png){width="650" align="left"}
+   ![文档类型关联](images/document_type_association.png){width="650"}
 
 1. 在&#x200B;**类路径**&#x200B;选项卡中，从&#x200B;**从ID为**&#x200B;的插件中使用父类加载器`com.adobe.o2.connector`下拉列表中选择。
 
-   ![类路径选项卡](images/dita-extension.png){width="650" align="left"}
+   ![类路径选项卡](images/dita-extension.png){width="650"}
 
 1. 在&#x200B;**扩展**&#x200B;选项卡中，进行以下更改：
 
    - 单击&#x200B;**扩展包**&#x200B;旁边的&#x200B;**选择**&#x200B;并在&#x200B;**类**&#x200B;列表中选择`LinkResolverExtensionBundle - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
-     ![为DITA主题配置的扩展](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+     ![为DITA主题配置的扩展](images/dita-map-extenstion-link-resolve.png) {width="650"}
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作扩展状态侦听器**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作自定义属性值编辑器**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomValueEditor - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作外部对象插入处理程序**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomURLInsertionHandler - com.adobe.o2.ui `。 单击&#x200B;**确定**。
 
 
-   以下屏幕截图显示了为DITA主题配置的&#x200B;**扩展**&#x200B;选项卡：
+   以下屏幕截图显示了为DITA主题配置的&#x200B;**扩展**选项卡：
    <img src="images/dita-topic-extension-tab.png" alt="为DITA主题配置的扩展" width="650" border="2px">
 1. 在所有对话框中单击&#x200B;**确定**&#x200B;以保存更改。
 
@@ -285,7 +285,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**引用解析程序**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomDITAMapReferenceResolver - com.adobe.o2`。 单击&#x200B;**确定**。
    - *\（可选\）*&#x200B;如果在打开映射文件时不想解析引用，则需要执行以下附加配置：
 
-   以下屏幕截图显示了配置的&#x200B;**扩展**&#x200B;选项卡：
+   以下屏幕截图显示了配置的&#x200B;**扩展**选项卡：
    <img src="images/dita-map-extension-tab.png" alt="为DITA映射配置的扩展" width="650" border="2px">
 
 1. 在所有对话框中单击&#x200B;**确定**&#x200B;以保存更改。
@@ -296,7 +296,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 以下屏幕显示了AEM Guides面板。
 
-![连接器面板](images/connector-panel.png){width="550" align="left"}
+![连接器面板](images/connector-panel.png){width="550"}
 
 **A**\)显示搜索栏。
 
@@ -349,7 +349,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    该文件将在氧XML作者的编辑器中打开。
 
-   文件选项卡中的![GUID](images/guid-in-file-tab.png) {width="800" align="left"}
+   文件选项卡中的![GUID](images/guid-in-file-tab.png) {width="800"}
 
    将鼠标指针悬停在文件的选项卡上时，将显示服务器路径及其UUID。 在上面的屏幕快照中，文档的UUID高亮显示。
 
@@ -398,7 +398,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 签出文件时，文件的图标会更改为显示其锁定状态。
 
-![签出文件](images/check-out-file.png){width="650" align="left"}
+![签出文件](images/check-out-file.png){width="650"}
 
 在上面的屏幕快照中，其他用户签出的文件显示有一个黑色的锁定图标\(A\)。 当前用户签出的文件以绿色锁定显示\(B\)。
 
@@ -425,7 +425,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    如果尚未签出从属文件，然后您选择此选项，则只有已签出的从属文件才会被签入。 您将看到无法签入的文件列表：
 
-   ![签入错误](images/check-in-error.png){width="800" align="left"}
+   ![签入错误](images/check-in-error.png){width="800"}
 
    强烈建议不要移动已签出的文件。 但是，如果将已签出的文件移动到其他位置，则必须取消对该文件的签出。 如果要更新该文件，则再次签出该文件，进行更改，然后再次签入。 如果尝试签入的文件已从其原始位置移出，则会出现错误。
 
@@ -443,7 +443,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    如果您的管理员预定义了一个标签列表并将它们上载到`label.json`文件中，则这些标签将显示为下拉列表。 您可以从下拉菜单中选择一个或多个标签。
 
-   ![签入对话框](images/checkin-dropdown-labels.png){width="550" align="left"}
+   ![签入对话框](images/checkin-dropdown-labels.png){width="550"}
 
    您可以向主题的同一版本添加多个标签（用逗号分隔）。  例如，*Adobe*、*AEM*、*指南*。
 但是，不能向主题的不同版本添加相同的标签。 如果添加已经添加到早期版本的标签，则会将其添加到最新版本并从早期版本中删除。
@@ -467,7 +467,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    此时将显示“AEM Guides中签出的文件”视图。
 
-   ![签出文件](images/files-checkedout-view.png){width="550" align="left"}
+   ![签出文件](images/files-checkedout-view.png){width="550"}
 
 1. 右键单击此视图中的文件以获取以下选项：
 
@@ -537,7 +537,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    文件的版本历史记录将显示在“版本”对话框中。
 
-   ![版本历史记录](images/version-history.png){width="550" align="left"}
+   ![版本历史记录](images/version-history.png){width="550"}
 
 
 ### 查看文件的元数据 {#id195GHN0H05C}
@@ -550,7 +550,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    文件的元数据（如DITA类、文档状态、修改日期、大小、标题和UUID）显示在“元数据”对话框中。
 
-   ![查看元数据](images/metadata.png){width="550" align="left"}
+   ![查看元数据](images/metadata.png){width="550"}
 
 
 ## 搜索AEM存储库中的主题 {#id1826J20405Z}
@@ -565,7 +565,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    结果在“搜索结果”选项卡中显示为带有文件路径的列表。 如果没有与您的搜索查询匹配的结果，则显示&lt;所选文件夹的path\>消息中找不到结果。
 
-   ![搜索结果](images/search.png){width="550" align="left"}
+   ![搜索结果](images/search.png){width="550"}
 
 1. \（可选\）双击搜索结果中的文件以在Oxygen XML Author中将其打开。
 1. 要返回到AEM存储库视图，请执行以下操作之一：
@@ -646,13 +646,13 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 1. 选择要应用条件属性的内容部分。
 1. 双击Oxygon XML Author的“属性”面板中的条件属性。
 
-   ![属性面板](images/attribute-panel.png){width="300" align="left"}
+   ![属性面板](images/attribute-panel.png){width="300"}
 
 1. 在“编辑属性”对话框的&#x200B;**可用**&#x200B;列中，选择属性\(s\)并单击&#x200B;**添加**。
 
    以下屏幕显示`audience`属性。
 
-   ![编辑属性对话框](images/edit-attributes.png){width="550" align="left"}
+   ![编辑属性对话框](images/edit-attributes.png){width="550"}
 
 1. 单击&#x200B;**确定**。
 
@@ -695,7 +695,7 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 
 **问题** — 对插件处理的文件运行任何DITA-OT转换时，转换会失败，并出现以下错误：
 
-![DITA-OT转换失败错误](images/proxy-server-path-error-new.png){width="800" align="left"}
+![DITA-OT转换失败错误](images/proxy-server-path-error-new.png){width="800"}
 
 **解决方案** — 通过在DITA-OT和插件之间添加代理服务器，已修复此问题。 此代理服务器处理并共享DITA-OT为转换请求的所有文件。 已配置此服务器的默认端口为： `5972`。 如果将此端口用于其他服务器，则可以为代理服务器指定其他端口。
 

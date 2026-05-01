@@ -1,11 +1,11 @@
 ---
 title: 从Web编辑器创建和管理基线
-description: Create and manage baselines from the web editor in AEM Guides. Learn how to create baselines on the basis of labels and apply filters to the baselines.
+description: 在AEM Guides中通过Web编辑器创建和管理基线。 了解如何基于标签创建基线并将过滤器应用于基线。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 0%
@@ -16,32 +16,32 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> It is recommended to use this Baseline feature from the Web Editor if you have upgraded to AEM Guides as a Cloud Service March release or later.
+> 如果您已升级到AEM Guides as a Cloud Service 3月版或更高版本，则建议从Web编辑器使用此基线功能。
 
-AEM Guides provides the Baseline feature integrated inside the Web Editor that allows the users to create baselines and use them to publish or translate topics of different versions. They can also publish multiple output presets of the same DITA map in parallel.
+AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建基线，并使用它们发布或翻译不同版本的主题。 它们还可以并行发布同一DITA映射的多个输出预设。
 
 ## 创建基线
 
-You can create a baseline from the Web Editor by performing the following steps:
+可以通过执行以下步骤从Web编辑器创建基线：
 
 1. 在“存储库”面板中，在“映射视图”中打开DITA映射文件。
-1. Click the **Manage** tab. The **Baseline** panel displays the baselines of the DITA map.
+1. 单击&#x200B;**管理**&#x200B;选项卡。 **基线**&#x200B;面板显示DITA映射的基线。
 
-   ![Basleine panel](images/baseline-manage.png){width="800" align="left"}
+   ![基线面板](images/baseline-manage.png){width="800"}
 
-1. On the **Baseline** panel, select the + icon at the top-right to start creating a baseline.
-1. Enter a name for the baseline in **Name**.
-1. In **Configuration**, you can either choose **Manual update** option or **Automatic update** option:
+1. 在&#x200B;**基线**&#x200B;面板上，选择右上角的+图标以开始创建基线。
+1. 在&#x200B;**名称**&#x200B;中输入基线的名称。
+1. 在&#x200B;**配置**&#x200B;中，您可以选择&#x200B;**手动更新**&#x200B;选项或&#x200B;**自动更新**&#x200B;选项：
 
-   **Manual update**: You can manually create a static baseline with a specific version of the topics and referenced content available on a specific date and time, or with a label defined for a version of topics:
+   **手动更新**：您可以手动创建静态基线，该基线具有特定版本的主题和引用内容，在特定日期和时间可用，或者具有为某个版本的主题定义的标签：
 
-   - In **Select the version based on,** select one of the following options:
+   - 在&#x200B;**选择基于的版本中，**&#x200B;选择以下选项之一：
 
 
-      1. **Date** &lt;time stamp\>: Picks the topics&#39; version as on the specified date and time.
-      1. **标签**：选择此选项可根据应用于主题的标签选择主题。 If the topics have labels specified for them, the labels are listed in the dropdown. You can choose a label from the list. You can also add a label in the text box.
+      1. **日期** &lt;时间戳\>：在指定的日期和时间选取主题版本。
+      1. **标签**：选择此选项可根据应用于主题的标签选择主题。 如果主题具有为其指定的标签，则标签将在下拉列表中列出。 您可以从列表中选择标签。 您还可以在文本框中添加标签。
 
-         For the direct references in static baselines, the labels are pulled from the latest saved version of the map. For example, if you have created labels `Label Release 1.0` and `Label Release 1.1` for versions 1.0 and 1.1 of Topic A, and then add Topic A to the map saved as version 1.0. 在这种情况下，您可以在下拉列表中查看静态基线标签的标签`Label Release 1.0`和`Label Release 1.1`。
+         对于静态基线中的直接引用，将从地图的最新保存版本中提取标签。 例如，如果您为主题A 1.0和1.1版本创建了标签`Label Release 1.0`和`Label Release 1.1`，然后将主题A添加到另存为版本1.0的映射中。 在这种情况下，您可以在下拉列表中查看静态基线标签的标签`Label Release 1.0`和`Label Release 1.1`。
 
 
          当您选择&#x200B;**标签，**&#x200B;时，您可以选择直接引用和间接引用。
@@ -59,7 +59,7 @@ You can create a baseline from the Web Editor by performing the following steps:
 
    使用自动更新配置创建的基线会动态更新。 如果您生成基线、下载基线或使用基线创建翻译项目，则系统会根据更新的标签动态选取文件。 例如，如果您使用了主题的1.2版和标签版本1.0作为基线，而更新的版本1.5和标签版本1.0，则将动态更新基线，并使用版本1.5。
 
-   ![创建基线](images/dynamic-baseline.png){width="300" align="left"}
+   ![创建基线](images/dynamic-baseline.png){width="300"}
 
    - **标签**：如果主题指定了标签，则使用&#x200B;**标签**&#x200B;下拉菜单从[列出的标签](#labels-list)中进行选择。
 首先选定的标签优先于后续的标签。
@@ -68,7 +68,7 @@ You can create a baseline from the Web Editor by performing the following steps:
      >
      >在提取标签时，会出现加载器，并且下拉列表被禁用。
 
-     对于动态基线，将从地图的最新保存版本和当前工作副本中提取标签。 例如，如果您已创建标签   主题A版本1.0和1.1的`Label Release A.1.0 `和`Label Release A.1.1`以及主题B版本1.0和1.1的标签`Label Release B.1.0`和`Label Release B.1.1`。 然后，可以添加主题A来映射1.0版中的A，添加主题B来映射1.0*版中的A（工作副本）。 在这种情况下，您可以在动态基线标签下拉列表中查看`Label Release A.1.0 `、`Label Release A.1.1`、`Label Release B.1.0`和`Label Release B.1.1`。
+     对于动态基线，将从地图的最新保存版本和当前工作副本中提取标签。 例如，如果您为主题A的版本1.0和1.1创建了标签`Label Release A.1.0 `和`Label Release A.1.1`，为主题B的版本1.0和1.1创建了标签`Label Release B.1.0`和`Label Release B.1.1`。 然后，可以添加主题A来映射1.0版中的A，添加主题B来映射1.0*版中的A（工作副本）。 在这种情况下，您可以在动态基线标签下拉列表中查看`Label Release A.1.0 `、`Label Release A.1.1`、`Label Release B.1.0`和`Label Release B.1.1`。
 
 1. **间接引用**：对于DITA映射中的间接引用，提供了以下选项：
 
@@ -78,40 +78,40 @@ You can create a baseline from the Web Editor by performing the following steps:
    - **使用最新版本或工作副本**：使用未应用指定标签的主题的最新版本，或者如果尚未创建任何版本，则使用主题的工作副本创建基线。
 1. 单击&#x200B;**应用**。
 
-此时将创建基线。 The baseline creation happens asynchronously, so you can continue working on other files in the Web Editor. Once the baseline is created, a pop-up message is displayed confirming that the baseline has been created, and you also receive an Inbox notification for the same.
+此时将创建基线。 基线创建是异步进行的，因此您可以在Web编辑器中继续处理其他文件。 创建基线后，将显示一条弹出消息，确认已创建该基线，并且您还会收到该基线的收件箱通知。
 
-## Manage baselines
+## 管理基线
 
-You can manage your existing baselines using the various features on the Baseline dashboard.
+您可以使用“基线”操控板上的各种功能来管理现有基线。
 
-- You can search for an existing baseline using the text box in the Baseline panel. Use the **Apply Filter** icon to show all baselines or list the baselines with the creation status as Successful, In-Progress, or Failed.
-- Use the **Refresh** icon in the Baseline panel to recheck for all baselines and display a fresh list of baselines for the DITA map that&#39;s opened in the Map View.
-- You can view or edit the contents of an existing static baseline by double-clicking the baseline from the list in the **Baseline** panel. The baseline editing window in the center displays the DITA map file, map&#39;s contents or topics, and the referenced content.
+- 可以使用“基线”面板中的文本框搜索现有基线。 使用&#x200B;**应用筛选器**&#x200B;图标显示所有基线，或列出创建状态为“成功”、“进行中”或“失败”的基线。
+- 使用“基线”面板中的&#x200B;**刷新**&#x200B;图标可重新检查所有基线，并显示在“映射视图”中打开的DITA映射的最新基线列表。
+- 通过双击&#x200B;**基线**&#x200B;面板中的列表中的基线，可以查看或编辑现有静态基线的内容。 位于中心的基线编辑窗口将显示DITA映射文件、映射的内容或主题以及引用的内容。
 
   >[!NOTE]
   >
-  >Edit operation for static baselines is only recommended for small number of reference changes. Edit operation is not recommended to change the version of the main DITA map as it must recalculate all the references. This may cause a baseline update failure for large DITA maps. For the larger DITA maps, you can create a new baseline or edit the properties of the baseline.
+  >仅建议对少量的引用更改执行静态基线的编辑操作。 不建议执行编辑操作来更改主DITA映射的版本，因为它必须重新计算所有引用。 这可能会导致大型DITA映射的基线更新失败。 对于较大的DITA映射，可以创建新基线或编辑基线的属性。
   >
-  >Edit operation in case of dynamic baseline allows you to edit the properties of the baseline as the references for dynamic baselines are generated at runtime using the labels.
+  >在动态基线的情况下进行编辑操作允许您编辑基线的属性，因为动态基线的引用是在运行时使用标签生成的。
 
-  ![options of a baseline](images/baseline-options.png){width="800" align="left"}
+  基线](images/baseline-options.png){width="800"}的![选项
 
 
 
-  You can also perform the following operations on the baseline from the Options menu:
+  也可以从“选项”菜单对基线执行以下操作：
 
-### Duplicate a baseline
+### 复制基线
 
-You can duplicate a baseline and modify it according to your requirements.
-![duplicate a baseline](images/baseline-duplicate.png){width="300" align="left"}
-*Duplicate a baseline based on a label or create an exact copy.*
+您可以复制基线，然后根据您的要求对其进行修改。
+![复制基线](images/baseline-duplicate.png){width="300"}
+*根据标签复制基线或创建精确副本。*
 
-1. Select **Duplicate** from the Options menu of a baseline. The **Duplicate baseline** dialog box opens.
+1. 从基线的“选项”菜单中选择&#x200B;**复制**。 将打开&#x200B;**复制基线**对话框。
 >[!NOTE]
 >
->The default name of the baseline is `<selected baseline name>`_suffix (like sample-baseline_1). You can change the name according to your requirements.
+>基线的默认名称为`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根据自己的要求更改名称。
 
-   In **Select the version based on**, you can either choose the **Exact copy** option or the **Label** option:
+   在&#x200B;**选择基于**&#x200B;的版本中，您可以选择&#x200B;**完全复制**&#x200B;选项或&#x200B;**标签**&#x200B;选项：
 
    - **精确副本**： Experience Manager Guides选择所有主题的相同版本，并创建重复基线的精确副本。
    - **标签**：您可以使用下拉菜单选择[列出的标签](#labels-list)之一。 Experience Manager Guides会选取为其定义了选定标签的主题的这些版本，对于其余主题，它会从复制的基线中选取版本。 例如，从下拉列表中选择标签`Release 1.0`，然后它会选取您已为其定义此标签的主题的这些版本。 对于所有其他主题，它会从复制的基线中选取版本。
@@ -140,7 +140,7 @@ You can duplicate a baseline and modify it according to your requirements.
 
 使用&#x200B;**基线筛选器**&#x200B;面板中的筛选器图标，可以对在基线编辑窗口中打开的基线应用筛选器：
 
-![基线筛选器](images/baseline-filter.png){width="300" align="left"}
+![基线筛选器](images/baseline-filter.png){width="300"}
 
 - 根据文件名或文件位置筛选文件。
 - 根据不同列（如“文件类型”、“引用类型”等）的值筛选文件。
@@ -154,4 +154,4 @@ You can duplicate a baseline and modify it according to your requirements.
 
 编辑基线后，可以单击顶部的&#x200B;**保存**&#x200B;按钮以保存对基线的更改。 如果不想保存更改并重置基线，可单击&#x200B;**重置**&#x200B;按钮。 单击“**重置**”按钮时，会显示一条警告，指出未保存的更改将丢失。
 
-**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**[&#x200B;使用Web编辑器](web-editor.md)

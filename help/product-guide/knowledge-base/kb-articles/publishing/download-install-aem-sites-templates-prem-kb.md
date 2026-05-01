@@ -5,9 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 ## 使用CRX包管理器安装包
 
 1. **安装组件包：**
-   1. 导航到&#x200B;[**CRX包管理器**](http://&lt;your-aem-instance>/crx/packmgr)。
+   1. 导航到&#x200B;[**CRX包管理器**](http://<your-aem-instance>/crx/packmgr)。
    2. 上传并安装on-prem-guides-components.all-1.x.0.zip包。
 
 2. **安装站点包：**&#x200B;使用CRX包管理器上载并安装aemg-docs.all-1.x.0.zip包。
@@ -52,7 +52,7 @@ ht-degree: 0%
    5. 取消选中&#x200B;**使用旧版组件映射**&#x200B;设置。
    6. 选择&#x200B;**添加**&#x200B;以创建预设。
 
-      ![新的输出预设对话框](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![新的输出预设对话框](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **配置AEM站点预设：**&#x200B;有两个选项可用于配置现成(OOTB)站点：
@@ -64,14 +64,14 @@ ht-degree: 0%
       - 发布路径： `aemg-docs/en/docs/product1`
       - 主题页模板：主题页。
 
-      ![使用网站下拉列表](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+      ![使用网站下拉列表](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
    **选项2：使用站点路径**
 
    1. 手动将&#x200B;**站点路径**&#x200B;设置为`/content/aemg-docs/en/docs/product1`。
    2. 验证&#x200B;**主题页模板**&#x200B;是否自动设置为主题页。
 
-      ![使用站点路径](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![使用站点路径](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **保存预设：**&#x200B;保存对预设所做的更改。
 
@@ -86,11 +86,11 @@ ht-degree: 0%
    2. 在OOTB站点结构下创建新产品页面。
    3. 导航到&#x200B;**AEMG文档** > **英语** > **文档**。
 
-      ![在AEM站点结构](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}中创建页面
+      ![在AEM站点结构](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}中创建页面
 
    4. 选择&#x200B;**主页**&#x200B;磁贴，然后选择&#x200B;**下一步**。
 
-      ![选择主页拼贴](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+      ![选择主页拼贴](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
    5. 输入页面的&#x200B;**标题**&#x200B;和&#x200B;**名称**。
    6. 选择&#x200B;**创建**。

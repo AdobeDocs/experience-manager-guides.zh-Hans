@@ -4,9 +4,9 @@ description: 了解AEM Sites的增量输出生成如何在AEM Guides中工作。
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 执行以下步骤以重新生成特定主题或一组主题的输出：
 
-## 从映射控制台生成增量输出(适用于使用复合组件映射的AEM站点)
+## 从映射控制台生成增量输出（适用于使用复合组件映射的AEM站点）
 
 执行以下步骤，使用映射控制台为AEM Sites生成增量输出：
 
@@ -34,11 +34,11 @@ ht-degree: 0%
 
    - 无基线
 
-     ![aem sites主题列表](images/aem-presets-topic-list.png) {align="left"}
+     ![aem sites主题列表](images/aem-presets-topic-list.png)
 
    - 带有基线
 
-     ![具有基线的aem sites主题列表](images/aem-presets-topic-list-new.png) {align="left"}
+     ![具有基线的aem sites主题列表](images/aem-presets-topic-list-new.png)
 
    >[!NOTE]
    >
@@ -49,7 +49,7 @@ ht-degree: 0%
 1. 选择&#x200B;**生成输出**&#x200B;以生成输出。
 
 
-## 从映射仪表板生成增量输出(适用于使用旧版组件映射的AEM站点)
+## 从映射仪表板生成增量输出（适用于使用旧版组件映射的AEM站点）
 
 执行以下步骤，使用映射仪表板为AEM Sites生成增量输出：
 
@@ -67,7 +67,7 @@ ht-degree: 0%
    >
    > 如果您向DITA映射中添加了新主题，您将无法从此处生成这些新主题。 必须首先使用DITA映射发布函数发布新添加的主题。
 
-   ![](images/regenerate-topics.png){align="left"}
+   ![](images/regenerate-topics.png)
 
 1. 选择&#x200B;**重新生成**。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 选择要用于再生所选主题的输出预设。
 
-   对于使用旧版组件映射的AEM Sites输出预设，如果选择了基线，则所选基线中包含的主题版本将用于生成输出。 此外，仅当映射结构未发生更改时，才应使用主题列表中的增量发布。 如果地图结构/目录发生变化，则整个地图应发布一次以更新目录。 有关使用AEM网站预设的详细信息，请在地图仪表板[上查看](./generate-output-aem-site-map-dashboard.md)AEM Sites预设。
+   对于使用旧版组件映射的AEM Sites输出预设，如果选择了基线，则所选基线中包含的主题版本将用于生成输出。 此外，仅当映射结构未发生更改时，才应使用主题列表中的增量发布。 如果地图结构/目录发生变化，则整个地图应发布一次以更新目录。 有关使用AEM网站预设的详细信息，请在地图仪表板](./generate-output-aem-site-map-dashboard.md)上查看[AEM Sites预设。
 
 
 1. 选择&#x200B;**重新生成**&#x200B;以启动输出生成过程。

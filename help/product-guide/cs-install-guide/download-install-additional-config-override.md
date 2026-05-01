@@ -5,7 +5,7 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -59,10 +59,10 @@ ht-degree: 0%
 5. 选择&#x200B;**添加/更新**。
 6. 添加UI配置详细信息。 确保您使用以下屏幕快照中给出的相同名称和配置。
 
-   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+   ![](assets/enable-penultimate-ui.png){width="800"}
 
    将该值设置为&#x200B;**true**&#x200B;将保留旧的UI，而&#x200B;**false**&#x200B;将激活新的UI。
 
 
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)

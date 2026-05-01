@@ -5,7 +5,7 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
 
 1. 打开&#x200B;**连接管理器**&#x200B;对话框。
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. 输入以下详细信息以连接到AEM存储库：
 
@@ -64,7 +64,7 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
 
    成功建立连接后，AEM存储库中的Assets将显示在存储库管理器窗口中。
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    右键单击任何文件或文件夹可让您执行相关操作。 例如，如果右键单击文件夹，可以获得以下选项：上传文件、上传具有依赖关系的文件、上传整个文件夹等。
 
@@ -177,4 +177,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`：完整的文件夹路径，包括文件名及其元数据节点。 例如，如果将路径指定为`http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`，则指定的元数据信息在`intro.xml`文件中设置。
 
 
-**父主题：**&#x200B;[&#x200B;迁移现有内容](migrate-content.md)
+**父主题：**[&#x200B;迁移现有内容](migrate-content.md)

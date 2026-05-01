@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 预览模式下可用的功能
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){width="800"}
 
 您可以在预览模式下从工具栏执行以下操作：
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 **在**&#x200B;中使用的引用部分中的\(+\)图标允许您进一步向上导航以查找正在使用或引用该主题的位置。
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){width="800"}
 
 单击文档旁边的![](images/right-arrow-used-in-dialog.svg)图标会显示该文档被进一步引用的映射或主题文件。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 >
 > 在Web编辑器中，使用浅色背景颜色突出显示条件内容。
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **编辑**
 
@@ -81,7 +81,7 @@ ht-degree: 0%
   >
   > 要获取DITA映射文件的源代码视图，请在Assets UI中选择该文件，然后单击Source。
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800"}
 
 **共享UUID链接**
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 新选项&#x200B;**共享UUID链接**&#x200B;将显示在上述区域的工具栏中。 以下屏幕截图显示了主题预览模式中的&#x200B;**共享UUID链接**&#x200B;选项：
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){width="800"}
 
 在资产UI中，当您选择文件时，此选项可见。 在“预览”模式下，此选项默认位于主工具栏中。 在DITA映射控制台中，此选项在输出预设部分中可见。
 
@@ -113,15 +113,15 @@ ht-degree: 0%
 
 在卡片视图中签出的文件：
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 在列表视图中签出的文件：
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 如果“已签出”列不可见，请在&#x200B;**列表视图**&#x200B;下选择&#x200B;**视图设置**，然后在&#x200B;**配置列**&#x200B;对话框中选择&#x200B;**已签出**&#x200B;状态。
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){width="800"}
 
 >[!TIP]
 >
@@ -139,17 +139,17 @@ ht-degree: 0%
 
    1. 在左边栏中，单击&#x200B;**版本历史记录**&#x200B;并选择版本。
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){width="800"}
 
    1. 从列出的版本中，选择要用作基本版本的版本，然后单击&#x200B;**预览版本**。 所选版本的预览将显示在“版本预览”窗口中。
 
    1. 从&#x200B;**显示差异**&#x200B;列表中，选择要与基本版本进行比较的版本。
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){width="800"}
 
       更改的内容在主题预览中突出显示。 以绿色高亮显示的内容表示新添加的内容，而以红色显示的内容表示已删除的内容。
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){width="800"}
 
 
 ### 分支、还原和后续版本控制 {#id193PG0Y051X}
@@ -168,55 +168,55 @@ ht-degree: 0%
 
   与分支类似，您还可以将工作版本或当前版本还原为存储库中存在的任何版本。 要还原到某个版本，只需选择所需的主题版本，然后在&#x200B;**版本历史记录**&#x200B;面板中单击&#x200B;**还原到此版本**。
 
-  Perform the following steps to create a branch, revert to a version, and maintain subsequent versions of a topic:
+  执行以下步骤可创建分支、还原到版本并维护主题的后续版本：
 
   >[!IMPORTANT]
   >
-  > The method described in the following procedure is only applicable for DITA files. For non-DITA files, use the Timeline view to create versions or restore an existing version of a file.
+  > 以下过程中描述的方法仅适用于DITA文件。 对于非DITA文件，使用“时间轴”视图创建版本或恢复文件的现有版本。
 
-   1. Access the topic in Assets UI.
-
-      >[!NOTE]
-      >
-      > You can also open the topic in Preview mode and proceed with Step 3.
-
-   1. Select the topic for which you want to create a branch.
-
-   1. In the left rail, click **Version History**.
+   1. 访问Assets UI中的主题。
 
       >[!NOTE]
       >
-      > A list of versions available for the selected topic is displayed. Each version contains the timestamp, user name, version comment, and [label](web-editor-use-label.md#) information.
+      > 您也可以在“预览”模式下打开主题，然后继续执行步骤3。
 
-   1. Select a version from where you want to create a branch. In the following screenshot, version 1.2 is selected for creating a branch.
+   1. 选择要为其创建分支的主题。
 
-      ![](images/branching.png){width="300" align="left"}
+   1. 在左边栏中，单击&#x200B;**版本历史记录**。
 
       >[!NOTE]
       >
-      > The current version of a topic contains *\(Current\)* mentioned next to the version number.
+      > 此时将显示所选主题可用的版本列表。 每个版本都包含时间戳、用户名、版本注释和[标签](web-editor-use-label.md#)信息。
 
-   1. Click **Revert to This Version**.
+   1. 选择要从中创建分支的版本。 在以下屏幕截图中，选择了版本1.2来创建分支。
 
-      A message appears asking you to confirm the creation of a new branch.
+      ![](images/branching.png){width="300"}
 
-   1. *\(Optional\)* In the message prompt, you get an option to select the **Save The Current Working Copy As A New Version**. The following two actions are possible based on the selection of this option:
+      >[!NOTE]
+      >
+      > 当前版本的主题包含版本号旁边提到的&#x200B;*\（当前\）*。
 
-      - If you select this option, then a branch is created from version 1.1. And, a new version of the topic is also created from the current working copy of the topic and saved as the next version – 1.4.
+   1. 单击&#x200B;**还原到此版本**。
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+      此时将显示一条消息，要求您确认创建新分支。
 
-        Version 1.2 becomes your current working copy of the topic. Any version saved after this is created under the new branch of 1.1. For example, the subsequent version of a new topic in this branch will be saved as 1.2.0.
+   1. *\（可选\）*&#x200B;在邮件提示中，您将获得一个选项，用于选择&#x200B;**将当前工作副本另存为新版本**。 根据此选项的选择，可以执行以下两个操作：
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+      - 如果选择此选项，则从版本1.1创建分支。 此外，还从主题的当前工作副本中创建新版本的主题，并将其另存为下一个版本 — 1.4。
 
-      - If you do not select this option, then no new version from the current working copy of the topic is created. A new branch is created from version 1.2 of the topic. Any subsequent version of the topic is saved under the 1.2 branch as 1.2.0, 1.2.1, and so on.
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        版本1.2会成为您当前的主题工作副本。 在此之后保存的任何版本都在1.1的新分支下创建。 例如，此分支中的新主题的后续版本将保存为1.2.0。
+
+        ![](images/new_version_in_branch.png){width="300"}
+
+      - 如果不选择此选项，则不会创建主题当前工作副本中的新版本。 新分支是从主题的1.2版本创建的。 该主题的任何后续版本都会保存在1.2分支下，如1.2.0、1.2.1等。
+
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. 单击&#x200B;**确定**。
 
 
-  A new branch is created from the selected version of the topic. 上述过程也适用于恢复到主题的特定版本。 从技术上讲，恢复到特定版本意味着从选定版本创建新分支，并将该版本作为主题的当前工作副本。 您还可以在“版本还原历史记录”报告中查看已还原文件的历史记录。 有关此报告的更多详细信息，请参阅[还原文件版本历史记录报告](reports-reverted-file-version-history.md#)。
+  将从主题的所选版本创建新分支。 上述过程也适用于恢复到主题的特定版本。 从技术上讲，恢复到特定版本意味着从选定版本创建新分支，并将该版本作为主题的当前工作副本。 您还可以在“版本还原历史记录”报告中查看已还原文件的历史记录。 有关此报告的更多详细信息，请参阅[还原文件版本历史记录报告](reports-reverted-file-version-history.md#)。
 
-**父主题：**&#x200B;[&#x200B;创建和预览主题](create-preview-topics.md)
+**父主题：**[&#x200B;创建和预览主题](create-preview-topics.md)

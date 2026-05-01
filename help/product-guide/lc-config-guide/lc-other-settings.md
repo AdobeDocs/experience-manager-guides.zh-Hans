@@ -5,7 +5,7 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -20,12 +20,12 @@ ht-degree: 0%
 
   您可以从编辑器的左侧面板访问代码片段。
 
-  ![](assets/create-snippets.png){width="350" align="left"}
+  ![](assets/create-snippets.png){width="350"}
 - **条件**：作为管理员，您可以在全局或文件夹级别配置标准DITA支持的条件属性。 然后，作者只需将所需条件拖放到其内容中，即可使用已配置的条件。
 
   您可以从编辑器的左侧面板访问条件。
 
-  ![](assets/create-conditions.png){width="350" align="left"}
+  ![](assets/create-conditions.png){width="350"}
 - **变量**：您可以定义变量，以使内容更可移植、一致且更易于更新。 在输出生成期间，变量将被所选变量集中的值替换，从而允许您高效地生成自定义输出。
 
   有关详细信息，请查看[创建新变量](../native-pdf/native-pdf-variables.md#create-a-new-variable)

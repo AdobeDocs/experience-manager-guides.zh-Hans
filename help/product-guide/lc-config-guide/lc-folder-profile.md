@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ ht-degree: 0%
 
    您可以从“存储库”面板创建新文件夹。
 
-   ![](assets/create-new-folder.png){width="350" align="left"}
+   ![](assets/create-new-folder.png){width="350"}
 2. **创建语言文件夹以管理翻译**：如果将内容翻译成不同的语言，则必须创建与每种语言对应的文件夹。 其中每个语言文件夹都将包含与该语言对应的内容。
 
 3. **创建文件夹以管理Assets**：与文件夹类似，您也可以创建其他Assets文件夹以满足不同部门的需求。 通过这种方式，您还可以确保作者和发布者有权访问其模板、图像和其他资产中配置的正确CSS。
 
-   ![](assets/configure-assets-folder.png){width="350" align="left"}
+   ![](assets/configure-assets-folder.png){width="350"}
 4. [创建文件夹配置文件](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)以映射不同的文件夹。
 5. **选择要配置的文件夹配置文件**：创建文件夹配置文件后，您需要在[用户首选项](../user-guide/intro-home-page.md#user-preferences)页面上选择文件夹配置文件，以确保作者和发布者可以访问正确的模板。
 
-   ![](assets/folder-profile.png){width="650" align="left"}
+   ![](assets/folder-profile.png){width="650"}
 
 6. **配置文件夹配置文件设置**：对于学习和培训内容，可以在文件夹级别配置以下设置：
    - [常规](#general)
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 在常规选项卡中，您可以配置以下特定于产品培训和学习内容功能的设置：
 
-![](assets/lc-config-settings-general.png){width="350" align="left"}
+![](assets/lc-config-settings-general.png){width="350"}
 
 - **学习内容**：使用&#x200B;**启用学习内容**&#x200B;切换开关在文件夹配置文件级别启用或禁用该功能。
 - **HTML编辑器**：此设置允许您为基于HTML的创作配置编辑器。 此设置中存在的关键配置选项如下：
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 对于学习和培训内容，请确保仅为“编辑器和映射”控制台启用以下功能。
 
-![](assets/panels-settings.png){width="350" align="left"}
+![](assets/panels-settings.png){width="350"}
 
 
 ### 编辑器
@@ -118,13 +118,13 @@ ht-degree: 0%
 >
 > 仅当在&#x200B;**Workspace设置** > **常规**&#x200B;中启用学习内容功能时，此设置才可用。
 
-此设置允许您管理编辑器[中](../user-guide/web-editor-left-panel.md)左侧面板中存在的创作和发布模板。 您可以添加、删除或重新排序创作和输出模板，作者和发布者随后可以访问这些模板。
+此设置允许您管理编辑器](../user-guide/web-editor-left-panel.md)中[左侧面板中存在的创作和发布模板。 您可以添加、删除或重新排序创作和输出模板，作者和发布者随后可以访问这些模板。
 
-![](assets/templates-settings.png){width="350" align="left"}
+![](assets/templates-settings.png){width="350"}
 
 创作模板分为四个类别 — 学习课程、学习内容、测验和问题库。 如果在实例中配置了任何预定义模板，则默认情况下将显示这些模板。
 
-![](assets/templates-list.png){width="350" align="left"}
+![](assets/templates-list.png){width="350"}
 
 ### 添加模板
 
@@ -134,13 +134,13 @@ ht-degree: 0%
 2. 在选择路径对话框中，选择所需的模板。
 3. 选择&#x200B;**选择**。
 
-   ![](assets/add-templates.png){width="350" align="left"}
+   ![](assets/add-templates.png){width="350"}
 
 模板即添加到设置面板的相应类别中。
 
 同样，您可以添加其他创作和输出模板。 添加后，作者和发布者可在各自的课程对话框中访问这些模板。 例如，管理员添加的学习课程模板可供作者创建新课程时使用。
 
-![](assets/templates-added-course.png){width="350" align="left"}
+![](assets/templates-added-course.png){width="350"}
 
 ### 使用新的创作和输出模板
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 有关详细信息，请查看[从编辑器创建自定义模板](../user-guide/create-maps-customized-templates.md)。
 
-![](assets/authoring-templates-editor.png){width="350" align="left"}
+![](assets/authoring-templates-editor.png){width="350"}
 
 **创建新输出模板**
 
@@ -162,17 +162,17 @@ ht-degree: 0%
 
    此时将显示“输出模板”面板。
 
-   ![](assets/output-templates-editor.png){width="350" height="" align="left"}
+   ![](assets/output-templates-editor.png){width="350" height=""}
 2. 在“输出模板”面板中，选择(+)以创建新的输出模板。
 
-   ![](assets/create-new-output-template.png){width="350" align="left"}
+   ![](assets/create-new-output-template.png){width="350"}
 3. 从下拉菜单中选择一个输出模板。
 
 
-   ![](assets/output-template-types.png){width="650" align="left"}
+   ![](assets/output-template-types.png){width="650"}
 4. 根据所选的输出模板类型，会显示一个对话框，您可以在其中基于可用模板创建新模板。
 
-   ![](assets/new-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/new-scorm-template-dialog.png){width="350"}
 
 5. 选择&#x200B;**创建**。
 
@@ -180,16 +180,16 @@ ht-degree: 0%
 
 6. 要访问和添加发布者的输出模板，请导航到&#x200B;**设置** > **模板** > **输出模板**，然后选择&#x200B;**添加**。
 
-   ![](assets/add-output-template-settings-panel.png){width="350" align="left"}
+   ![](assets/add-output-template-settings-panel.png){width="350"}
 
    输出模板显示在“选择路径”对话框中。
 7. 选择模板并选择&#x200B;**确认**。
 
-   ![](assets/select-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/select-scorm-template-dialog.png){width="350"}
 
    现在，选定的输出模板即添加到“设置”面板中。
 
-   ![](assets/scorm-template-added.png){width="350" align="left"}
+   ![](assets/scorm-template-added.png){width="350"}
 
 ### 删除或重新排序模板
 
@@ -197,11 +197,11 @@ ht-degree: 0%
 
 要删除模板，请选择模板旁边的&#x200B;**删除**&#x200B;图标。
 
-![](assets/remove-teamplates.png){width="350" align="left"}
+![](assets/remove-teamplates.png){width="350"}
 
 您还可以定义类别中存在的模板的显示顺序。 要更改模板的显示顺序，请选择虚线并将模板拖到所需位置。
 
-![](assets/reorder-templates.png){width="350" align="left"}
+![](assets/reorder-templates.png){width="350"}
 
 
 ## 配置输出预设
@@ -212,15 +212,15 @@ ht-degree: 0%
 
 “输出预设”选项卡允许您定义哪些输出格式可用于发布课程。 它包含两个部分：**允许的输出预设类型**&#x200B;和&#x200B;**公共输出预设**。
 
-![](assets/configure-course-output-presets.png){width="350" align="left"}
+![](assets/configure-course-output-presets.png){width="350"}
 
 - **允许的输出预设类型**：此部分列出了Experience Manager Guides实例中支持的所有输出预设。 对于课程发布，仅&#x200B;**SCORM**&#x200B;和&#x200B;**PDF**&#x200B;格式适用。 您可以选择其中一个或两个选项。 生成课程输出时，发布者可以使用选定的预设。
 
-  ![](assets/allowed-output-presets.png){width="350" align="left"}
+  ![](assets/allowed-output-presets.png){width="350"}
 
 - **常见输出预设**：此部分显示发布者通常创建并添加到特定文件夹配置文件的输出预设。 您还可以删除任何不再需要的预设。
 
-  ![](assets/common-output-presets.png){width="350" align="left"}
+  ![](assets/common-output-presets.png){width="350"}
 
 ## 管理发布配置文件
 
@@ -230,4 +230,4 @@ ht-degree: 0%
 
 提供服务器详细信息以及关联的SCORM云应用程序的客户端ID和客户端密码，以配置SCORM云的发布配置文件。
 
-![](assets/configure-publish-profiles.png){width="350" align="left"}
+![](assets/configure-publish-profiles.png){width="350"}

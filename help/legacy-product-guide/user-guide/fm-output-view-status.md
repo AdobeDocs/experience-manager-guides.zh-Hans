@@ -5,7 +5,7 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 单击输出。
 
-   ![](images/output-queued-fm.png){width="800" align="left"}
+   ![](images/output-queued-fm.png){width="800"}
 
 1. “输出”页面分为两个部分：
 
@@ -37,4 +37,4 @@ ht-degree: 0%
      在此列表中，您可能有已成功执行的任务或失败的任务。 对于已成功完成的任务，发布过程会创建一个日志文件\(logs.txt\)，可通过单击“生成位置”列中的链接访问该文件。
 
 
-**父主题：**&#x200B;[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)
+**父主题：**[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)

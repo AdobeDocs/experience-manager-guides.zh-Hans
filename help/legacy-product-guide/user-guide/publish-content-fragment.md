@@ -1,11 +1,11 @@
 ---
-title: Publish a topic to a Content Fragment
-description: Publish a topic or the elements within a topic to a Content Fragment in AEM Guides.  Learn how to view the Content Fragments present for a topic and republish them.
+title: 将主题发布到内容片段
+description: 将主题或主题中的元素发布到AEM Guides中的内容片段。  了解如何查看呈现给某个主题的内容片段并重新发布它们。
 feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 1%
@@ -14,33 +14,33 @@ ht-degree: 1%
 
 # 发布内容片段
 
-Content Fragments are discrete pieces of content in Adobe Experience Manager. They are structured content based on a content model. Content Fragments are pure content without design or layout information. They can be authored and managed independently of the channels that Adobe Experience Manager supports. Content Fragments are modular, where content is broken down into smaller components.
+内容片段是Adobe Experience Manager中的离散内容片段。 它们是基于内容模型的结构化内容。 内容片段是纯内容，没有设计或布局信息。 它们可以独立于Adobe Experience Manager支持的渠道进行创作和管理。 内容片段是模块化的，其中的内容被划分为较小的组件。
 
-Experience Manager Guides allows you to publish a topic or its elements to a content fragment.
+Experience Manager Guides允许您将主题或其元素发布到内容片段。
 
 >[!NOTE]
 >
->You can choose only those elements in a topic that have an id attribute  defined.
+>您只能在主题中选择定义了ID属性的那些元素。
 
 
-To create a Content Fragment, perform the following steps:
+要创建内容片段，请执行以下步骤：
 
-1. Create a [Content Fragment model](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=zh-Hans) in Adobe Experience Manager Assets.
-1. Create a folder where you want to save the Content Fragments that you create based on the Content Fragment model. For example, &quot;stock-content-fragments&quot;.
-1. Edit the folder&#39;s properties (for example, &quot;stock-content-fragments&quot;) and add the path of the folder, which contains the Content Fragment model in the cloud configuration.
-For example, add `/conf/we-retail` in the cloud configuration. This configuration connects all the Content Fragment models with the folder.\
-   ![在文件夹属性中添加云配置详细信息](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
-   *Add the cloud configuration in the folder properties to connect it with the fragment models.*
+1. 在Adobe Experience Manager Assets中创建[内容片段模型](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=zh-Hans)。
+1. 创建一个文件夹，以保存您根据内容片段模型创建的内容片段。 例如，“stock-content-fragments”。
+1. 编辑文件夹的属性（例如，“stock-content-fragments”）并添加文件夹的路径，其中包含云配置中的内容片段模型。
+例如，在云配置中添加`/conf/we-retail`。 此配置将所有内容片段模型连接到文件夹。\
+   ![在文件夹属性中添加云配置详细信息](images/fragment-folder-cloud-configuration.png){width="650"}
+   *在文件夹属性中添加云配置以将其与片段模型连接。*
 
-1. To generate a Content Fragment, select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
-1. Select **Content Fragment**.\
-   ![文件属性选项选项卡](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+1. 要生成内容片段，请从主题&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;节中选择&#x200B;**新输出** ![新输出图标](./images/Add_icon.svg)。
+1. 选择&#x200B;**内容片段**。\
+   ![文件属性选项选项卡](./images/file-properties-outputs-tab.png) {width="300"}
 
-   *Add a new Content Fragment from the File Properties of a topic*.
+   *从主题*&#x200B;的文件属性中添加新的内容片段。
 
-1. In the **Generate Content Fragment** dialog box, fill in the following details under the **General** and **Mapping** tabs.
+1. 在&#x200B;**生成内容片段**&#x200B;对话框中，在&#x200B;**常规**&#x200B;和&#x200B;**映射**&#x200B;选项卡下填写以下详细信息。
 
-   **常规**&#x200B;选项卡
+   **常规**选项卡
    ![在“发布为内容片段”对话框中添加片段模型和映射详细信息](images/generate-content-fragment.png)
    *添加路径、名称、标题和条件筛选以将主题或其元素发布为内容片段。*
 
@@ -71,7 +71,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
    * **模型**：选择要用于创建内容片段的内容片段模型。 将从已在Experience Manager Guides服务器上配置的文件夹中选取模型。
    * **映射**：您可以查看应用了ID属性的主题元素。 将主题元素拖动到内容片段模型中存在的字段。
-如果存在内容片段，右侧会填充已发布的内容片段内容。 如有必要，可以用主题内容覆盖这些内容。 您还可以选择&#x200B;**撤消**&#x200B;以还原映射更改。
+如果存在内容片段，右侧会填充已发布的内容片段内容。 如有必要，可以用主题内容覆盖这些内容。 您还可以选择**撤消**&#x200B;以还原映射更改。
 
 
      >[!NOTE]
@@ -82,7 +82,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
 1. 您可以在&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;部分下查看主题的内容片段。
 
-   ![查看主题的内容片段](images/outputs-options-menu.png){width="300" align="left"}
+   ![查看主题的内容片段](images/outputs-options-menu.png){width="300"}
 
    *查看某个主题存在的内容片段并重新发布它们。*
 
@@ -100,16 +100,16 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
 * **重复**：重复内容片段。 您可以更改路径、名称、标题、模型和映射。 在复制内容片段以创建内容片段变体时，您还可以选择不同的条件。
 
-* **移除**：从输出列表中移除内容片段。 出现确认提示。 Once you confirm, the Content Fragment is removed from the **Outputs** list.
+* **移除**：从输出列表中移除内容片段。 出现确认提示。 确认后，内容片段将从&#x200B;**输出**&#x200B;列表中删除。
 
   >[!NOTE]
   >
-  > No content is deleted from the Content Fragment by this action.
+  > 此操作不会从内容片段中删除任何内容。
 
-* **View**: View the Content Fragment editor. 您还可以进行更改并保存它们。
+* **视图**：查看内容片段编辑器。 您还可以进行更改并保存它们。
 
-## Improved Non-UUID to UUID content migration
+## 改进了从Non-UUID迁移到UUID的内容
 
-The new UUID content migration script has been significantly optimized, making the content migration from Non-UUID to UUID 30 times faster than the earlier script. It includes features such as resuming from checkpoints, live insights, estimated completion time, and detailed reporting, ensuring a harmonious migration process. Notably, the migration process preserves asset metadata without any changes. The script has been tested and verified on a large dataset of 3 million assets, confirming its efficiency and reliability for large-scale migrations.
+新的UUID内容迁移脚本已得到显着优化，使得内容从非UUID迁移到UUID比以前的脚本快30倍。 它包括从检查点恢复、实时洞察、估计完成时间和详细报告等功能，确保和谐的迁移过程。 特别要注意的是，迁移过程会保留资产元数据，而不进行任何更改。 该脚本已在300万资产的大型数据集上经过测试和验证，证实其对于大规模迁移的效率和可靠性。
 
-Learn more about [Non-UUID to UUID content migration](/help/product-guide/install-guide/migrate-non-uuid-4-3.md).
+了解有关[从Non-UUID迁移到UUID内容](/help/product-guide/install-guide/migrate-non-uuid-4-3.md)的详细信息。

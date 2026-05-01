@@ -4,9 +4,9 @@ description: 从Adobe Experience Manager Guides的映射控制台创建和管理
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 导航到&#x200B;**基线**&#x200B;选项卡，然后选择右上角的+图标以开始创建基线。
 1. 在&#x200B;**新建基线**&#x200B;对话框中，提供以下详细信息：
 
-   ![基线面板](images/baseline-manage.png){width="500" align="left"}
+   ![基线面板](images/baseline-manage.png){width="500"}
 
    - 在&#x200B;**名称**&#x200B;字段中输入基线的名称。
    - 在&#x200B;**配置**&#x200B;中，选择[手动更新](#configuring-baseline-for-manual-update)或[自动更新](#configuring-baseline-for-automatic-update)。
@@ -63,7 +63,7 @@ ht-degree: 0%
   >
   > 选择标签时，标签加载程序将保持可见，直到成功获取并完全加载所有标签为止。 加载后，标签将按不区分大小写的字母顺序显示。 它们按20个批次进行检索，在下拉菜单中启用了无限滚动，以便在滚动时加载其他批次。
 
-  对于静态基线中的直接引用，将从地图的最新保存版本中提取标签。 例如，如果您为主题A 1.0和1.1版本创建了标签`Label Release 1.0`和`Label Release 1.1`，然后将主题A添加到另存为版本1.0的映射中。在这种情况下，您可以在下拉列表中查看静态基线标签的标签`Label Release 1.0`和`Label Release 1.1`。
+  对于静态基线中的直接引用，将从地图的最新保存版本中提取标签。 例如，如果您为主题A 1.0和1.1版本创建了标签`Label Release 1.0`和`Label Release 1.1`，然后将主题A添加到另存为版本1.0的映射中。 在这种情况下，您可以在下拉列表中查看静态基线标签的标签`Label Release 1.0`和`Label Release 1.1`。
 
   当您选择&#x200B;**标签，**&#x200B;时，您可以选择直接引用和间接引用。
    - 对于DITA映射中的直接引用，可以选择使用未应用指定标签的最新版本主题。
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 使用自动更新配置创建的基线会动态更新。 如果您生成基线、下载基线或使用基线创建翻译项目，则系统会根据更新的标签动态选取文件。 例如，如果您使用了主题的1.2版和标签版本1.0作为基线，而更新的版本1.5和标签版本1.0，则将动态更新基线，并使用版本1.5。
 
-![创建基线](images/dynamic-baseline.png){width="300" align="left"}
+![创建基线](images/dynamic-baseline.png){width="300"}
 
 - **标签**：如果主题指定了标签，则使用&#x200B;**标签**&#x200B;下拉菜单从[列出的标签](#labels-list)中进行选择。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
   >
   >在提取标签时，会出现加载器，并且下拉列表被禁用。
 
-  对于动态基线，将从地图的最新保存版本和当前工作副本中提取标签。 例如，如果您已创建标签   主题A版本1.0和1.1的`Label Release A.1.0 `和`Label Release A.1.1`以及主题B版本1.0和1.1的标签`Label Release B.1.0`和`Label Release B.1.1`。 然后，可以添加主题A来映射1.0版中的A，添加主题B来映射1.0*版中的A（工作副本）。 在这种情况下，您可以在动态基线标签下拉列表中查看`Label Release A.1.0 `、`Label Release A.1.1`、`Label Release B.1.0`和`Label Release B.1.1`。
+  对于动态基线，将从地图的最新保存版本和当前工作副本中提取标签。 例如，如果您为主题A的版本1.0和1.1创建了标签`Label Release A.1.0 `和`Label Release A.1.1`，为主题B的版本1.0和1.1创建了标签`Label Release B.1.0`和`Label Release B.1.1`。 然后，可以添加主题A来映射1.0版中的A，添加主题B来映射1.0*版中的A（工作副本）。 在这种情况下，您可以在动态基线标签下拉列表中查看`Label Release A.1.0 `、`Label Release A.1.1`、`Label Release B.1.0`和`Label Release B.1.1`。
 - **间接引用**：对于DITA映射中的间接引用，提供了以下选项：
 
    - **自动挑选**：您可以选择自动挑选&#x200B;**引用的内容**，系统会自动挑选与引用内容版本对应的引用内容版本。
@@ -113,7 +113,7 @@ ht-degree: 0%
   >
   >在动态基线的情况下进行编辑操作允许您编辑基线的属性，因为动态基线的引用是在运行时使用标签生成的。
 
-  基线![的](images/baseline-options.png){align="left"}选项
+  基线的![选项](images/baseline-options.png){}
 
 ### 可用于现有基线的操作
 
@@ -123,10 +123,10 @@ ht-degree: 0%
 
 您可以复制基线，然后根据您的要求对其进行修改。
 
-![复制基线](images/baseline-duplicate.png){width="300" align="left"}
+![复制基线](images/baseline-duplicate.png){width="300"}
 *根据标签复制基线或创建精确副本。*
 
-1. 从基线的“选项”菜单中选择&#x200B;**复制**。 将打开&#x200B;**复制基线**&#x200B;对话框。
+1. 从基线的“选项”菜单中选择&#x200B;**复制**。 将打开&#x200B;**复制基线**对话框。
 >[!NOTE]
 >
 >基线的默认名称为`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根据自己的要求更改名称。
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 使用&#x200B;**基线筛选器**&#x200B;面板中的筛选器图标，可以对在基线编辑窗口中打开的基线应用筛选器：
 
-![基线筛选器](images/baseline-filter.png){width="300" align="left"}
+![基线筛选器](images/baseline-filter.png){width="300"}
 
 - 根据文件名或文件位置筛选文件。
 - 根据不同列（如“文件类型”、“引用类型”等）的值筛选文件。
@@ -172,5 +172,5 @@ ht-degree: 0%
 
 编辑基线后，选择&#x200B;**保存**&#x200B;以将更改保存到基线。 如果不想保存更改并重置基线，则可以选择&#x200B;**重置**。 选择&#x200B;**重置**&#x200B;时，会显示一条警告，指出未保存的更改将丢失。
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)
 

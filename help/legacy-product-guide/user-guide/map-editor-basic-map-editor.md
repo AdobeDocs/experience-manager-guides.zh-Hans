@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    将在映射编辑器中打开映射文件进行编辑。 使用映射编辑器，您可以使用引用边栏中显示的当前可用主题来构建映射。
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){width="800"}
 
 1. 使用&#x200B;**引用**&#x200B;边栏，导航到包含要添加的主题或子映射的文件夹。
 
@@ -74,13 +74,13 @@ ht-degree: 0%
 
 基本映射编辑器中的主工具栏允许您执行以下任务：
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){width="800"}
 
 **A：搜索**
 
 您可以搜索并包含DAM中的所需主题。 单击此图标将显示“搜索”对话框：
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){width="800"}
 
 输入要搜索的关键字，这些关键字在主题的文件名、内容甚至属性值中匹配。 搜索结果可用后，选择所需的主题\(s\)，然后单击“检查”按钮以在映射结构末尾添加选定的文件。 您可以通过指定修改日期参数来筛选搜索结果。
 
@@ -108,19 +108,19 @@ ht-degree: 0%
 **注意：**&#x200B;在默认模式下，您可以使用键盘快捷键撤消\(`Ctrl+z`\)或重做\(`Ctrl+y`\)上一个操作。
 
 
-![](images/dita-map-invalid-source.png){width="650" align="left"}
+![](images/dita-map-invalid-source.png){width="650"}
 
 **G：映射属性**
 
 显示“映射属性”对话框，在其中可以设置映射的属性和元数据信息。 要添加属性，请单击对话框左下角的&#x200B;**添加**&#x200B;按钮以获取&#x200B;**属性**&#x200B;下拉列表。 从列表中选择要添加的属性。 如果所选属性具有在DTD中指定的预定义值，则这些值将显示在新下拉列表中。 您可以从下拉列表中选择所需的值。 如果没有预定义值，则会显示一个文本框，用于输入选定属性的值。
 
-![](images/map-properties.png){width="300" align="left"}
+![](images/map-properties.png){width="300"}
 
 ## 基本映射编辑器的主题级别可用的功能
 
 将鼠标指针悬停在“基本映射编辑器”中的主题或子映射文件上时，可以执行以下任务：
 
-![](images/ditamap-actions.png){width="650" align="left"}
+![](images/ditamap-actions.png){width="650"}
 
 **A：左移或右移**
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 单击“属性”图标以打开“Topicref属性”对话框。 使用此对话框，可以设置主题属性和元数据信息。 有关标准主题属性和元数据的更多信息，请参阅OASIS DITA语言规范中的[topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html)文档。
 
 
-![](images/map-properties-metadata.png){width="350" align="left"}
+![](images/map-properties-metadata.png){width="350"}
 
 **C：添加新引用**
 
@@ -163,7 +163,7 @@ AEM Guides的映射编辑器附带一个强大的功能，允许您在DITA映射
 
 1. 从工具栏中选择&#x200B;**Reltable**。
 
-   ![](images/reltable.png){width="650" align="left"}
+   ![](images/reltable.png){width="650"}
 
 1. 将主题从主题列表拖放到Reltable编辑器。
 
@@ -171,13 +171,13 @@ AEM Guides的映射编辑器附带一个强大的功能，允许您在DITA映射
    >
    > 您可以从“引用”边栏中的任意文件夹添加主题。
 
-   ![](images/create-reltable.png){width="550" align="left"}
+   ![](images/create-reltable.png){width="550"}
 
 1. 若要向关系表添加标头，请单击&#x200B;**添加Relheader**。
 
 1. 若要向关系表添加列，请单击&#x200B;**添加列**。
 
-   ![](images/complete-reltable.png){width="550" align="left"}
+   ![](images/complete-reltable.png){width="550"}
 
 1. 单击&#x200B;**保存**。
 
@@ -196,4 +196,4 @@ AEM Guides的映射编辑器附带一个强大的功能，允许您在DITA映射
 
 如果要删除关系表，请单击关系表之外的任意位置，然后单击“删除”。
 
-**父主题：**&#x200B;[&#x200B;使用映射编辑器](map-editor.md)
+**父主题：**[&#x200B;使用映射编辑器](map-editor.md)

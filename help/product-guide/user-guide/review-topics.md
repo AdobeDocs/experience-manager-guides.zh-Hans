@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中查看主题并将这些功能用作查
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2670'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    使用DITA映射启动审阅工作流时，将显示以下屏幕：
 
-   ![](images/multiple-topics-review.png){align="left"}
+   ![](images/multiple-topics-review.png)
 
    此屏幕上提供以下选项：
 
@@ -66,13 +66,13 @@ ht-degree: 0%
 
    映射中的所有主题都显示为单个复合文档。 允许查看者查看的主题正常显示。 不允许审阅的主题不显示。
 
-   ![](images/review-read-only.png){align="left"}
+   ![](images/review-read-only.png)
 
    在上面的屏幕截图中，将共享“常规”描述主题以供当前审阅者审阅，该主题正常显示。 但是，下一个主题“外部测试版的历史记录”内容不会共享以供审阅，并且会以只读模式显示。 目录中也突出显示了当前关注的专题。
 
    选择并共享一个或多个主题以进行审阅时，将显示以下屏幕：
 
-   ![](images/review-composite-view.png){align="left"}
+   ![](images/review-composite-view.png)
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ ht-degree: 0%
 1. 选择工具栏右上角的&#x200B;**注释**&#x200B;图标，打开“注释”面板。
 
    通过从工具栏中选择适当的评论类型来提供评论并按Enter键提交您的评论。
-评论框支持多行条目，并允许用户根据需要展开以提供详细反馈。 您可以在编写评论时使用&#x200B;**Shift** + **Enter**&#x200B;转到下一行。
+评论框支持多行条目，并允许用户根据需要展开以提供详细反馈。 您可以在编写评论时使用**Shift** + **Enter**&#x200B;转到下一行。
 
    >[!NOTE]
    >
@@ -101,15 +101,15 @@ ht-degree: 0%
 
 
 
-![](images/switch-document-view.png){align="left"}
+![](images/switch-document-view.png)
 
 **使用不同类型的注释工具** — 您可以通过突出显示文本、突出显示文本、插入文本或添加注释注释来添加内联注释。 “注释”工具栏中提供的不同类型的注释工具如下所述：
 
-![](images/comments-toolbar.png){width="350" align="left"}
+![](images/comments-toolbar.png){width="350"}
 
 - **高亮显示** \(![](images/review-highlight-icon.svg)\)：若要添加高亮显示评论，请选择文本并选择“高亮显示”图标。 或者，您可以先选择“高亮”图标，然后选择所需的文本。
 
-  ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650"}
 
   “注释”面板中会显示一个弹出窗口，您可以在此处为突出显示的内容添加注释。
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 1. 选择要加亮或删除的文本。 此时会出现上下文工具栏。
 
-   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
+   ![](images/review-quick-launch-toolbar.png){width="550"}
 
 1. 选择&#x200B;**突出显示**&#x200B;或&#x200B;**删除线**&#x200B;图标。
 1. 可以在注释面板中为高亮或删除线操作添加注释。
@@ -144,7 +144,7 @@ ht-degree: 0%
 - 您可以在“注释”面板中选择注释文本，然后从“选项”菜单中选择&#x200B;**编辑**，以编辑自己的注释。
 - 您可以在“注释”面板中选择注释，然后从“选项”菜单中选择“**删除**”选项来删除自己的注释。
 
-  ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300"}
 
   >[!NOTE]
   >
@@ -158,11 +158,11 @@ ht-degree: 0%
 
 - 以下屏幕截图显示了&#x200B;*审阅*&#x200B;模式下的内容：
 
-![](images/review-author-mode.png){width="550" align="left"}
+![](images/review-author-mode.png){width="550"}
 
 以下屏幕截图显示了&#x200B;*预览*&#x200B;模式下的内容：
 
-![](images/review-preview-mode.png){width="550" align="left"}
+![](images/review-preview-mode.png){width="550"}
 
 
 **在评论中标记任务用户**
@@ -171,19 +171,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 要查看分配给审阅任务的用户列表并在评论中标记这些用户，您必须对&#x200B;*节点具有*&#x200B;读取`/home/users and /home/groups`访问权限。 有关详细信息，请查看[用户管理和安全性](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)。 <br>如果在确认访问后标记仍然不可用，则您的管理员可能需要分配`user-admin`许可证才能启用此功能。
+> 要查看分配给审阅任务的用户列表并在评论中标记这些用户，您必须对`/home/users and /home/groups`节点具有&#x200B;*读取*&#x200B;访问权限。 有关详细信息，请查看[用户管理和安全性](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)。<br> 如果在确认访问后标记仍然不可用，则您的管理员可能需要分配`user-admin`许可证才能启用此功能。
 
-![](images/tag-users-review-ui.png){width="350" align="left"}
+![](images/tag-users-review-ui.png){width="350"}
 
 标记的用户会收到电子邮件和AEM通知，确保他们及时获得通知。 有关如何触发审阅通知的更多详细信息，请查看[了解审阅通知](./review-understanding-review-notifications.md)。
 
-![](images/mentioned-in-tags-author.png){width="350" align="left"}
+![](images/mentioned-in-tags-author.png){width="350"}
 
-**向评论添加附件** -   如果想通过提供其他文件中提供的附加信息来补充您的评论，您可以将其与您的评论一起附加。 作为审阅者，您可以轻松地将本地系统中的一个或多个文件添加到您的注释中。 可以将文件添加到所有受支持的注释形式 — 高亮、删除线、插入文本或注释。
+**向评论添加附件** — 如果要通过提供其他文件中提供的附加信息来补充您的评论，可以将其与评论一起附加。 作为审阅者，您可以轻松地将本地系统中的一个或多个文件添加到您的注释中。 可以将文件添加到所有受支持的注释形式 — 高亮、删除线、插入文本或注释。
 
 插入任何注释时，将出现注释弹出窗口。 在弹出窗口中提供其他注释或信息后，可通过按Enter键提交注释。 添加注释后，您可以选择将附件添加到该注释。
 
-![](images/comment-pop-up-panel.png){align="left"}
+![](images/comment-pop-up-panel.png)
 
 在上述屏幕快照中，文档包含高亮注释的弹出窗口，并且注释也添加到“注释”面板中。 文件附件图标![](images/file-attach-review.svg)与注释一起在两个位置都可用。
 
@@ -208,30 +208,30 @@ ht-degree: 0%
 
 - 默认情况下，仅显示两个附加了注释的文件。 如果有更多文件，则右侧的&#x200B;**查看附件**&#x200B;按钮将显示与评论关联的所有附件\（两个以上\）的数量。 您可以选择编号以查看所有附件。 例如，如果您有四个带有注释的附件，则会在按钮上查看+2。
 
-![](images/review-view-attachment.png){width="550" align="left"}
+![](images/review-view-attachment.png){width="550"}
 
 - 将鼠标指针悬停在附件上时，可以下载或删除附件。 仅当当前查看者已添加该注释时，才可移除附件，如下面的屏幕快照所示：
 
-![](images/current-user-comment-options.png){width="550" align="left"}
+![](images/current-user-comment-options.png){width="550"}
 
 其他审阅人或作者将仅获得下载附件选项。
 
-![](images/other-reviewer-download.png){width="550" align="left"}
+![](images/other-reviewer-download.png){width="550"}
 
 - 您可以从&#x200B;**查看附件**&#x200B;对话框下载与评论关联的所有附件。 选择附件并在评论级别选择&#x200B;**下载**&#x200B;图标。
 
 - 您还可以从&#x200B;**查看附件**&#x200B;对话框删除与评论关联的附件。 选择附件并选择&#x200B;**删除**&#x200B;图标。
 
-![](images/attach-files-comments-panel.png){width="550" align="left"}
+![](images/attach-files-comments-panel.png){width="550"}
 
 
-**条件面板** -   如果您的主题包含条件内容，则会在右侧查看&#x200B;**条件** \(![](images/conditions-icon.svg)\)图标。 选择&#x200B;**条件**&#x200B;图标会打开“条件”面板，该面板允许您根据主题中的可用条件突出显示内容。
+**条件面板** — 如果您的主题包含条件内容，那么您将看到右侧的&#x200B;**条件** \(![](images/conditions-icon.svg)\)图标。 选择&#x200B;**条件**&#x200B;图标会打开“条件”面板，该面板允许您根据主题中的可用条件突出显示内容。
 
-：   默认情况下，**高亮显示所有条件**&#x200B;选项已启用，所有条件都已选中，显示整个内容，并且条件化内容在审核和预览模式下均以高亮显示显示。
+：默认情况下，**高亮显示所有条件**&#x200B;选项已启用，所有条件都已选中，显示整个内容，并且条件化内容在审核和预览模式下均高亮显示。
 
-：   您可以禁用&#x200B;**高亮显示所有条件**&#x200B;选项，并将主题中存在的所有内容作为不带任何高亮显示的普通文本查看。
+：您可以禁用&#x200B;**高亮显示所有条件**&#x200B;选项，并以普通文本形式查看主题中存在的所有内容，而不加亮显示任何内容。
 
-![](images/review-conditions-panel.png){width="350" align="left"}
+![](images/review-conditions-panel.png){width="350"}
 
 您可以选择隐藏或显示特定条件。
 
@@ -239,11 +239,11 @@ ht-degree: 0%
 - 如果显示条件条件化内容，则审阅模式会高亮显示条件。 例如，在以下屏幕截图中，仅内容使用两个条件 — `win`和`mac`突出显示。
 
 
-![](images/review-condition-normal-mode.png){width="650" align="left"}
+![](images/review-condition-normal-mode.png){width="650"}
 
 在预览模式下，会显示非条件化内容和使用两个显示条件（`win`和`mac`）的条件化内容。 不会显示隐藏条件的其余条件化内容。
 
-**实时审核** -   “评论”面板会通过评论以及作者对评论采取的反馈或操作实时更新。
+**实时评论** — “评论”面板实时更新，其中包含评论以及作者对评论提出的反馈或采取的操作。
 
 - 多个审阅人将能够在同一文档上同时留下注释或回复注释。 通过将鼠标悬停在屏幕右上角的用户图标上，可以找到当前正在查看文档的用户。
 
@@ -251,7 +251,7 @@ ht-degree: 0%
 
 - 选择过时的注释图标\(![](images/outdated-comment-icon.svg)\)将显示文档最新版本与注释版本之间的差异。 版本号\（正在比较的版本\）显示在文档顶部。
 
-  ![](images/comments-page-review-mode.png){align="left"}
+  ![](images/comments-page-review-mode.png)
 
   >[!NOTE]
   >
@@ -259,7 +259,7 @@ ht-degree: 0%
 
 - 选择过时的注释会在左侧面板中打开该注释的版本。 左侧面板中显示的是以前的版本，右侧面板中显示的是当前的版本。 过期版本上的所有注释都会在左侧导入。 您可以将以前的版本与当前版本进行比较。
 
-**筛选注释** -   您可以筛选文档中的注释以根据需要查看特定注释。 要筛选注释，请选择“注释”面板中“搜索注释”文本框右侧的菜单中显示的&#x200B;**筛选器**&#x200B;图标\(![](images/filter-search-icon.svg)\)。
+**筛选注释** — 您可以筛选文档中的注释以根据需要查看特定注释。 要筛选注释，请选择“注释”面板中“搜索注释”文本框右侧的菜单中显示的&#x200B;**筛选器**&#x200B;图标\(![](images/filter-search-icon.svg)\)。
 
 从&#x200B;**筛选器类型**&#x200B;对话框中选择以下一个或多个筛选选项，然后选择&#x200B;**应用**。
 
@@ -274,4 +274,4 @@ ht-degree: 0%
 
 若要移除筛选器并查看所有注释，请从&#x200B;**筛选器类型**&#x200B;对话框中取消选择所有筛选器，然后选择&#x200B;**应用**。
 
-**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)
+**父主题：**[&#x200B;要审阅的简介](review.md)

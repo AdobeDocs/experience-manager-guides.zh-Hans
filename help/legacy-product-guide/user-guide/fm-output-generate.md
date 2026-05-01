@@ -5,7 +5,7 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    此时将显示DITA映射控制台，其中显示了可用于生成输出的输出预设列表。
 
-   ![](images/publish-fm-doc.png){width="800" align="left"}
+   ![](images/publish-fm-doc.png){width="800"}
 
 1. 选择一个或多个要用于生成输出的输出预设。
 
@@ -31,4 +31,4 @@ ht-degree: 0%
 >
 > 通过单击输出，可以查看输出生成请求的当前状态。 有关详细信息，请参阅[查看输出生成任务的状态](fm-output-view-status.md)。
 
-**父主题：**&#x200B;[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)
+**父主题：**[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)

@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: ff6f968c-3440-4757-882a-676711ad05c3
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 1. 配置B树清理计划程序，如下所示。
 
-   ![](assets/btree-cleanup-config.png){align="left"}
+   ![](assets/btree-cleanup-config.png)
 
 1. 选择&#x200B;**保存**。
 
@@ -54,6 +54,6 @@ ht-degree: 2%
 1. 搜索并选择&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包。
 1. 启用设置`Guides btree deletion enabled`。
 
-   ![](assets/btree-cleanup-setting.png){align="left"}
+   ![](assets/btree-cleanup-setting.png)
 
 1. 选择&#x200B;**保存**。

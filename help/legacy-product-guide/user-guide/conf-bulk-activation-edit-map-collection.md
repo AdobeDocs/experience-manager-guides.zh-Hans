@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -43,11 +43,11 @@ ht-degree: 2%
 
 1. 单击&#x200B;**删除**。
 
-   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600"}
 
    所选映射将从批量激活映射集合中删除。
 
 1. 单击&#x200B;**完成**。
 
 
-**父主题：**&#x200B;[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)
+**父主题：**[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)

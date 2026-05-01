@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 单击快速操作中的选择图标，然后选择要发送以供审阅的主题。
 
-   ![](images/select-asset-62.png){width="300" align="left"}
+   ![](images/select-asset-62.png){width="300"}
 
 1. 在工具栏中，单击&#x200B;**创建审核任务**。 此时将显示审阅任务创建页面。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
    >
    > 只能为具有修订版本的主题创建审阅任务。 如果所选主题没有修订版本，则会显示一个提示。
 
-   ![](images/create-review-task-023.png){width="650" align="left"}
+   ![](images/create-review-task-023.png){width="650"}
 
 1. 输入任务的&#x200B;**标题**，然后从下拉列表中选择DITA **项目**。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    此时将显示“内容”页面。
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){width="800"}
 
 1. 在“内容”页面上，选择要共享以进行审阅的主题版本。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    将显示“审阅者”页面，您可以在其中添加或删除审阅者。 默认情况下，在“分配给”字段中添加的审阅人会自动添加到为审阅选择的每个主题中。
 
-   ![](images/add-reviewers-topics.png){width="650" align="left"}
+   ![](images/add-reviewers-topics.png){width="650"}
 
 1. 在“审阅人”页面上，可以添加或删除审阅人。 以下操作在“审阅者”页面上可用：
 
@@ -211,7 +211,7 @@ AEM Guides允许您同时在DITA映射中发送一个或多个主题以供审阅
 
    此时将显示内容页面，其中包含映射文件中引用的所有主题。 如果DITA映射包含嵌套映射，则嵌套映射中的主题也会在此处列出。
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){width="800"}
 
 1. 在“内容”页面上，选择要共享以进行审阅的主题版本。
 
@@ -266,4 +266,4 @@ AEM Guides允许您同时在DITA映射中发送一个或多个主题以供审阅
 
 将向所有审阅人发送电子邮件，通知他们已被分派审阅主题。 电子邮件包含一个直接链接，用户可以在浏览器窗口中单击并访问主题。 主题以及DITA映射将在审阅模式下打开。
 
-**父主题：**&#x200B;[&#x200B;审阅主题或映射](review.md)
+**父主题：**[&#x200B;审阅主题或映射](review.md)

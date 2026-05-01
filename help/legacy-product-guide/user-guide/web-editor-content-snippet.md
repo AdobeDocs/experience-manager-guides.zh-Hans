@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -56,13 +56,13 @@ ht-degree: 0%
 
 ### 列表视图![](images/data-sources-list-view-icon.svg)
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+![](images/data-sources-list-view.png){width="300"}
 
 *已连接的数据源列表。*
 
-### 平铺视图   ![](images/data-sources-tile-view-icon.svg)
+### 平铺视图![](images/data-sources-tile-view-icon.svg)
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *以磁贴方式查看连接的数据源。*
 
@@ -78,11 +78,11 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
 执行以下步骤，使用内容片段生成器创建内容片段并将其插入到主题中：
 
-1. 选择&#x200B;**数据源** ![](images/data-source-icon.svg)   ，以查看连接的数据源。
+1. 在左侧面板中选择&#x200B;**数据源** ![](images/data-source-icon.svg)以查看连接的数据源。
 
 1. 选择数据源以查看可用于所选数据源的内容片段生成器。
 
-   ![](images/code-snippet-generator.png){width="300" align="left"}
+   ![](images/code-snippet-generator.png){width="300"}
 
    *“数据源”面板列出了可用的内容片段生成器。*
 
@@ -100,7 +100,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
    >
    > 如果使用文件连接器，您将查看用于上载或浏览文件以代替数据查询的选项。
 
-1. 从&#x200B;**数据映射模板**&#x200B;下拉列表中选择与数据源映射的模板。
+1. 从&#x200B;**数据映射模板**下拉列表中选择与数据源映射的模板。
 所选数据源的现成模板将显示在下拉列表中。 例如，您可以查看名为“PostgreSQL”数据源的“sql-table”模板。
 
    >[!NOTE]
@@ -125,7 +125,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
       - 如果您选择了jira排序列表模板，则可以查看Jira问题的排序列表。
 
    1. 源视图显示DITA源视图中的数据。
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      ![](images/add-content-snippet-generator.png){width="800"}
       *添加内容片段生成器。 在源或预览模式下查看数据。*
 
 1. 若要保存查询的结果，请输入生成器的名称，然后单击&#x200B;**添加**。   新的内容片段生成器将添加到列表中。
@@ -151,9 +151,9 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
 ### 插入查询代码片段
 
-您还可以使用&#x200B;**插入查询代码片段** ![](images/data-source-icon.svg)   将数据片段插入主题。  您可以从下拉菜单中选择生成器，编辑查询，或更改模板并在主题中插入数据。
+您还可以使用主工具栏中的&#x200B;**插入查询代码片段** ![](images/data-source-icon.svg)将数据代码片段插入主题。  您可以从下拉菜单中选择生成器，编辑查询，或更改模板并在主题中插入数据。
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/insert-content-snippet.png){width="800"}
 
 *编辑并插入数据片段。*
 
@@ -173,7 +173,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
 1. 选择数据源以查看可用于所选数据源的内容片段生成器和主题生成器。
 
-   ![](images/data-sources.png){width="300" align="left"}
+   ![](images/data-sources.png){width="300"}
 
    *为连接的数据源添加主题生成器。*
 
@@ -185,7 +185,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
    **获取配置**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-fetch-configuration.png){width="300"}
 
    *添加主题生成器的数据查询、数据映射模板和根节点详细信息，并在“获取配置”面板中为其指定唯一名称。*
 
@@ -218,7 +218,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
    **输出配置**
 
-   ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-output-configuration.png){width="300"}
 
    *在“输出配置”面板中输入输出路径和主题命名惯例详细信息。 生成DITA映射并将其命名为。*
 
@@ -237,7 +237,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
    例如，在以下屏幕截图中，`dc:description`、`dc:language`、`dc:title`和`docstate`是您可以为其定义值的默认属性。 您可以创建自定义属性（如author）并定义其值。
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
 
    *在元数据面板中添加元数据属性以传递到主题。*
 
@@ -247,7 +247,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/edit-topic-generator.png){width="650"}
 
    *从现有主题生成器生成新主题。*
 
@@ -284,17 +284,17 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 Experience Manager模板还支持Velocity工具（版本2.0）。 这些工具可帮助您将各种功能应用于从数据源获取的数据。 了解有关[Velocity工具](https://velocity.apache.org/tools/2.0/generic.html)的使用以及可以应用的功能的详细信息。
 
 执行以下步骤以在模板中使用Velocity工具：
-1. Edit a Velocity template in the Web Editor.
-1. Add a tool and its function in the `<tool.function>` format. 例如：
-   - To generate a random number using the math tool, use `$mathTool.random`.
-   - To generate the sum of numbers using the math tool, use `$mathTool.add(num1, num2)`.
-1. Use the template to create a content snippet or topic.
-1. After you apply the template to the data, you can view the data in the preview or the DITA source view.
+1. 在网页编辑器中编辑Velocity模板。
+1. 以`<tool.function>`格式添加工具及其函数。 例如：
+   - 若要使用数学工具生成随机数，请使用`$mathTool.random`。
+   - 若要使用数学工具生成数字总和，请使用`$mathTool.add(num1, num2)`。
+1. 使用模板创建内容片段或主题。
+1. 将模板应用于数据后，可在预览或DITA源视图中查看数据。
 
 
 
 
-You can use the following tools within the Velocity templates to apply various functions to the data you fetch from the connector:
+您可以在Velocity模板中使用以下工具，将各种功能应用到您从连接器获取的数据：
 -`$alternatorTool`
 - `$classTool`
 - `$contextTool`

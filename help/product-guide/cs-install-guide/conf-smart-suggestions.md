@@ -2,7 +2,7 @@
 title: 配置AI助手以进行智能帮助和创作
 description: 了解如何在Experience Manager Guides中配置AI助手
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
@@ -34,12 +34,12 @@ ht-degree: 0%
 1. 启动[Adobe Developer Console](https://developer.adobe.com/console)。
 1. 成功登录到Developer Console后，您将看到&#x200B;**主页**&#x200B;屏幕。 在&#x200B;**主页**&#x200B;屏幕上，您可以轻松地查找信息和快速链接，包括指向项目和下载的顶部导航链接。
 1. 要创建新的空项目，请从&#x200B;**快速入门**&#x200B;链接中选择&#x200B;**新建项目**。
-   ![快速入门链接](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![快速入门链接](assets/conf-ss-quick-start.png) {width="550"}
    *创建新项目。*
 
 1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕可显示Adobe产品和技术的所有可用API、事件和服务，您可以使用这些产品和技术开发应用程序。
 
-1. 选择&#x200B;**I/O管理API**&#x200B;以将其添加到您的项目中。
+1. 选择&#x200B;**I/O管理API**以将其添加到您的项目中。
    ![IO管理API](assets/confi-ss-io-management.png)
    *将I/O管理API添加到您的项目中。*
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 选择&#x200B;**OAuth服务器到服务器**&#x200B;链接以查看项目的凭据详细信息。
 
-   ![已连接的凭据](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![已连接的凭据](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *连接到项目以查看凭据详细信息。*
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 1. 切换到&#x200B;**配置**&#x200B;选项卡。
 1. 将JSON服务详细信息（在上一部分中下载）粘贴到与`SERVICE_ACCOUNT_DETAILS`对应的&#x200B;**值**&#x200B;字段中。 请确保您使用以下屏幕快照中给出的相同名称和配置。
 
-   ![ims服务帐户配置](assets/ims-service-account-config.png){width="800" align="left"}
+   ![ims服务帐户配置](assets/ims-service-account-config.png){width="800"}
 
 ## 在环境中启用AI标记
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 确保您使用的名称和配置与以下屏幕快照中给出的名称和配置相同。
 
-![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
+![](assets/conf-folder-ai-assistant-enable.png){width="800"}
 
 将该标志设置为&#x200B;**true**&#x200B;可启用该功能，将其设置为&#x200B;**false**&#x200B;可禁用该功能。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 确保您使用的名称和配置与以下屏幕快照中给出的名称和配置相同。
 
-![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+![](assets/conf-folder-guides-site-id.png){width="800"}
 
 ## 将更改应用到环境
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 有关详细信息，请查看[了解编辑器功能](../user-guide/web-editor-features.md)。
 
-![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300"}
 
 ## 在文件夹配置文件中配置智能建议
 
