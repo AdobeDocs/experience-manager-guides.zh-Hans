@@ -4,9 +4,9 @@ description: 了解如何使用Adobe Experience Manager Guides中的自定义模
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题
 
 1. 在“存储库”面板中，选择&#x200B;**新建文件**&#x200B;图标，然后从下拉菜单中选择&#x200B;**主题**。
 
-   ![](images/create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500"}
 
    您还可以从[Experience Manager Guides主页](./intro-home-page.md)以及存储库视图中文件夹的选项菜单访问此选项。
 
@@ -45,11 +45,11 @@ Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题
 
 4. 选择&#x200B;**创建**。
 
-   ![](images/create-topic-dialog-new.png){width="300" align="left"}
+   ![](images/create-topic-dialog-new.png){width="300"}
 
 该主题在指定的路径中创建。 此外，该主题将在编辑器中打开以进行编辑。
 
-![](images/new-topic-editor.png){align="left"}
+![](images/new-topic-editor.png)
 
 ## 从Assets UI创建主题
 
@@ -61,7 +61,7 @@ Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题
 
 1. 在Blueprint页面上，选择要创建的DITA文档类型，然后选择&#x200B;**下一步**。
 
-   ![](images/create_dita_topic.png){align="left"}
+   ![](images/create_dita_topic.png)
 
    默认情况下，Experience Manager Guides提供最常用的DITA主题模板。 您可以根据组织要求配置更多主题模板，在“安装”中查看&#x200B;*配置创作模板*，并为您的设置配置Adobe Experience Manager Guides。
 
@@ -77,7 +77,7 @@ Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题
 
    如果文件命名选项可用，则也会根据文档的&#x200B;**标题**&#x200B;自动建议该名称。 如果要手动指定文档名称，请确保&#x200B;**名称**&#x200B;不包含任何空格、撇号或大括号，且以.xml或.dita结尾。 默认情况下，Experience Manager Guides会将所有特殊字符替换为连字符。 查看最佳实践指南中的文件名部分，了解有关命名DITA文件的最佳实践。
 
-1. 选择&#x200B;**创建**。此时将显示“创建的主题”消息。
+1. 选择&#x200B;**创建**。 此时将显示“创建的主题”消息。
 
    您可以选择在编辑器中打开主题进行编辑，或将主题文件保存在Adobe Experience Manager存储库中。
 
@@ -85,7 +85,7 @@ Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题
 
 1. 从Assets UI **创建** \> **DITA主题**&#x200B;或编辑器创建的每个新主题都分配了一个唯一的主题ID。 此ID的值是文件名本身。 此外，新文档将保存为DAM中主题的最新工作副本。 在保存新创建主题的修订版本之前，您不会在“版本历史记录”中查看任何版本号。 如果打开主题进行编辑，则工具栏右上角将显示版本信息：
 
-   ![](images/topic-version-none_cs.png){width="550" align="left"}
+   ![](images/topic-version-none_cs.png){width="550"}
 
 2. 新创建的主题的版本信息显示为&#x200B;*none*。 保存新版本时，会为其分配一个版本号1.0。
 

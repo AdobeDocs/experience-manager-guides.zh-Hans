@@ -4,9 +4,9 @@ description: 在产品培训和学习中了解各种SCORM预设配置
 feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948
-source-git-commit: 3fdedee6e07908632bcf1b804805fcac7925c4e0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 - **常规：**&#x200B;用于指定基本输出设置，例如支持的版本、输出路径、ZIP文件名、输出模板以及与学习者体验相关的其他选项。
 
-  ![](assets/scorm-general-tab-v3.png){width="650" align="left"}
+  ![](assets/scorm-general-tab-v3.png){width="650"}
 
   **学习者的体验**
 
@@ -30,10 +30,10 @@ ht-degree: 0%
 
 - **内容：**&#x200B;用于指定可用的条件筛选（使用DITAVAL或使用某些条件预设）和变量集。
 
-  ![](assets/scorm-content-tab.png){width="650" align="left"}
+  ![](assets/scorm-content-tab.png){width="650"}
 
 - **发布：**&#x200B;仅当要将输出发布到SCORM云以便直接访问时，才使用此设置。
 
-  ![](assets/scorm-publish-tab.png){width="650" align="left"}
+  ![](assets/scorm-publish-tab.png){width="650"}
 
 配置所有更改后，使用SCORM预设页面工具栏右角的&#x200B;**保存**&#x200B;保存对SCORM预设所做的更改。

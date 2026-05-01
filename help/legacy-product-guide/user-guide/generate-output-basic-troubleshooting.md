@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    **生成的输出**&#x200B;的&#x200B;**常规**&#x200B;列显示一些图标，以直观提示输出生成的成功或失败。
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings.png){width="300"}
 
    在上面的屏幕快照中，第一个和第三个图标显示生成的输出失败。 第二个图标显示成功的输出生成，但显示消息。 最后一种是没有任何消息的成功输出生成。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    日志文件将在新选项卡中打开。
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){width="800"}
 
 1. 应用以下筛选器以高亮显示日志文件中的文本：
    - 致命：以粉红色突出显示日志文件中的致命错误。
@@ -66,13 +66,13 @@ ht-degree: 0%
 
    在以下示例日志文件片段中，您可以看到`BUILD FAILED`消息以及错误原因。
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *与AEM Guides相关的错误*：您可以在日志文件中识别的其他错误类型与AEM Guides进程本身相关。 在这种情况下，已成功解析DITA映射文件，但输出生成过程会由于AEM Guides中的一些内部错误而失败。 对于此类错误，您必须寻求技术支持团队的帮助。
 
    在以下示例日志文件片段中，您可以看到`BUILD SUCCESSFUL`消息，随后是其他技术错误。
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 ## 解决JSP编译错误

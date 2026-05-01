@@ -4,9 +4,9 @@ description: 了解如何在产品培训和学习的测验中插入问题，
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 1df47cf35590f10bdfe7fdbc3501d7c47137ed56
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. 从工具栏的&#x200B;**问题**&#x200B;下拉菜单中选择所需的问题类型。 根据要求，您可以使用四种可用格式中的任意格式添加问题：真或假、单正确、多正确、匹配以下答案和简短答案，如下所示。 有关详细信息，请查看[问题类型](#question-types)。
 
-   ![](assets/question-types.png){width="650" align="left"}
+   ![](assets/question-types.png){width="650"}
 
    插入问题时，如果光标位于问题块上，则新问题默认会紧跟在问题块之后。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 您可以选择任何问题，并使用&#x200B;**内容属性**&#x200B;面板配置其属性。
 
-   ![](assets/question-properties.png){width="650" align="left"}
+   ![](assets/question-properties.png){width="650"}
 
 1. 保存您在测验中所做的所有更改。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 您可以使用&#x200B;**内容属性**&#x200B;面板中的以下问题属性来配置问题：
 
-![](assets/question-properties-new.png){width="350" align="left"}
+![](assets/question-properties-new.png){width="350"}
 
 - **选项**：指定问题的正确答案
 - **问题ID**：指定每个问题的问题ID。 如果问题ID不存在，建议始终添加它。
@@ -46,13 +46,13 @@ ht-degree: 0%
 - **反馈**：启用可提供正确或不正确答案的反馈。
 - **将选项固定到位置**：当问题的特定选项被固定时，它仍固定到选项列表中的指定位置，即使在SCORM预设配置中启用了&#x200B;**随机选择每次尝试的答案**&#x200B;也是如此，否则，这会重新整理可用选项。 您可以将鼠标悬停在“内容属性”面板中问题的所需选项上并固定它。
 
-  ![](assets/pin-question.png){width="350" align="left"}
+  ![](assets/pin-question.png){width="350"}
 
 ## 在测验中插入段落
 
 将光标放在特定问题或两个问题之间的空格上时，屏幕最右角会显示一条蓝色水平线，蓝色箭头表示该水平线。 选择蓝色箭头，可在测验创作界面中插入段落。
 
-![](assets/insert-paragraph-here-arrow.png){width="650" align="left"}
+![](assets/insert-paragraph-here-arrow.png){width="650"}
 
 - 在问题中使用时，它允许您在问题中添加更多元素，如图像、表格、文本元素等。
 - 在问题之间使用时，它允许您插入另一个问题或添加上述其他创作元素。
@@ -64,7 +64,7 @@ ht-degree: 0%
 1. 右键单击要删除的问题或选项。
 1. 在上下文菜单中，选择&#x200B;**删除问题**（以删除整个问题）或&#x200B;**删除选项**（仅删除选定的选项）。
 
-![](assets/delete-options-lc.png){width="650" align="left"}
+![](assets/delete-options-lc.png){width="650"}
 
 ## 问题类型
 
@@ -72,26 +72,26 @@ ht-degree: 0%
 
 - **单个正确**：一个问题，该问题具有多个选项，其中只有一个答案是正确的。
 
-  ![](assets/single-correct.png){width="650" align="left"}
+  ![](assets/single-correct.png){width="650"}
 
 - **True/False**：一个基于语句的问题，学习者可从中选择True还是False。
 
-  ![](assets/true-false.png){width="650" align="left"}
+  ![](assets/true-false.png){width="650"}
 
 
 - **多个正确答案**：有多个选项的问题，其中多个答案可以正确。
 
-  ![](assets/multi-correct.png){width="650" align="left"}
+  ![](assets/multi-correct.png){width="650"}
 
 - **匹配以下项**：允许学习者匹配两个列表中的项以形成正确的对。 您可以从&#x200B;**内容属性**&#x200B;面板添加新选项集。 为了提高复杂性，您可以从第一个列表中删除一个选项，并在“匹配”列中包含一个额外的匹配。 这就要求学习者仔细思考哪个选项没有直接的搭配，从而造成了一定难度。
 
-  ![](assets/match-the-following.png){width="650" align="left"}
+  ![](assets/match-the-following.png){width="650"}
 
   在发布的输出中，每个项目都显示&#x200B;**与以下**&#x200B;匹配的问题，该问题带有下拉菜单，允许您从可用选项中选择正确的匹配项。
 
-  ![](assets/question-type-publishing.png){width="650" align="left"}
+  ![](assets/question-type-publishing.png){width="650"}
 
 
 - **简短答案**：允许学习者使用简短文本输入进行回复。 它接受字母数字答案，不区分大小写匹配答案，对于非常长的答案，它提供了一个水平滚动条。
 
-  ![](assets/short-answer.png){width="650" align="left"}
+  ![](assets/short-answer.png){width="650"}

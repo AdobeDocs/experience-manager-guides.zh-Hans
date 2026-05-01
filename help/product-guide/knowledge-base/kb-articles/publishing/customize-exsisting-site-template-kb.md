@@ -5,10 +5,10 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 1%
+source-wordcount: '947'
+ht-degree: 2%
 
 ---
 
@@ -53,11 +53,11 @@ ht-degree: 1%
 - 它用作一组特定文档（例如，产品手册或指南）的入口点或主页。
 - 将id=&quot;category-page&quot;属性添加到模板初始节点的jcr:content。 这可确保AEM Guides会自动将从此模板创建的所有页面视为文档容器。
 
-  ![正在添加id=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+  ![正在添加id=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650"}
 
 - 添加具有必需属性的文本组件： text=&quot;$category.html$&quot;。
 
-  ![正在添加文本组件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![正在添加文本组件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - 通常包括导航元素，例如指向文档中的部分或主题的链接。
 - 它可以进行自定义以包含品牌、页眉、页脚和其他设计元素。
@@ -71,7 +71,7 @@ ht-degree: 1%
 - DITA映射中的每个主题都使用此模板呈现为单独的页面。
 - 包含具有强制属性&#x200B;**文本组件**： text=&quot;$topic.content$&quot;。
 
-  ![正在添加具有强制属性的文本组件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![正在添加具有强制属性的文本组件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - 在站点生成期间，此占位符将替换为DITA主题的实际内容。
    - 文本组件通常置于&#x200B;**Container组件**&#x200B;中，以确保布局和样式正确。
@@ -82,15 +82,15 @@ ht-degree: 1%
 
 **容器组件：**
 
-![正在添加容器组件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![正在添加容器组件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
-> 确保将:resourceType下使用sling`wcm/foundation/components`的组件迁移到相应的`core/wcm/components`。
+> 确保将`wcm/foundation/components`下使用sling:resourceType的组件迁移到相应的`core/wcm/components`。
 
 在同一模板的结构中添加相同的（容器和文本组件）：
 
-![正在添加容器和文本组件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![正在添加容器和文本组件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## 呈现自定义模板中的指南组件
 
@@ -122,9 +122,9 @@ ht-degree: 1%
 1. **编辑模板：**
 
    1. 在&#x200B;**编辑器模式**&#x200B;中打开&#x200B;**产品页**。
-   2. 选择&#x200B;**编辑模板** (这将打开类似conf/settings/wcm/templates/structure.html的URL)。
+   2. 选择&#x200B;**编辑模板** （这将打开类似conf/settings/wcm/templates/structure.html的URL）。
 
-      ![编辑模板](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+      ![编辑模板](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
 
 2. **更新页面策略：**
 
@@ -135,7 +135,7 @@ ht-degree: 1%
 
 3. **保存更改：**&#x200B;添加所需的客户端库后保存模板。
 
-   ![添加客户端库](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![添加客户端库](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]

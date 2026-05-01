@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 
    如果“映射收藏集”链接不可用，请在左边栏中选择&#x200B;**导航**&#x200B;选项，然后单击&#x200B;**映射收藏集**。
 
-   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
+   ![](images/access-map-collection-left-rail.png){width="350"}
 
 1. 输入地图集合的标题。
 1. 单击&#x200B;**创建**。
@@ -50,7 +50,7 @@ ht-degree: 1%
 
    DITA映射文件将添加到您的映射集合中。
 
-   ![映射收藏集仪表板](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![映射收藏集仪表板](./images/map-collection-dashboard.png){width="800"}
 
 收集页面上会显示以下筛选选项和映射详细信息：
 
@@ -89,7 +89,7 @@ ht-degree: 1%
    - 启用任何单个预设。
    - 为DITA映射启用&#x200B;**所有预设**&#x200B;以一次性选择所有预设。 默认禁用此选项。
    - 为DITA映射启用&#x200B;**文件夹配置文件预设**&#x200B;以为其选择所有文件夹配置文件预设。 默认禁用此选项。
-     ![在云服务上编辑地图集合](images/edit-map-collection-cs.png){width="800" align="left"}
+     ![在云服务上编辑地图集合](images/edit-map-collection-cs.png){width="800"}
 
 
 
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 在映射集合中，可以为DITA映射批量配置元数据属性。 选择&#x200B;**配置元数据**&#x200B;以打开&#x200B;**资源元数据**&#x200B;页面。 在&#x200B;**资产元数据**&#x200B;页面上，收藏集中存在的所有映射都列在左侧。
 
-![配置元数据](images/map-collection-asset-metadata.png){width="800" align="left"}
+![配置元数据](images/map-collection-asset-metadata.png){width="800"}
 
 执行以下步骤可配置元数据属性：
 
@@ -141,6 +141,6 @@ ht-degree: 1%
 
 与从[DITA映射控制台](generate-output-for-a-dita-map.md#id2061H100T5Z)或[发布仪表板](generate-output-publish-dashboard.md#)取消输出生成任务的方法类似，您可以从映射集合中取消输出生成任务。 访问映射集合的“输出”选项卡，转到要取消的发布任务，然后单击&#x200B;**取消此作业**&#x200B;图标以取消发布任务。
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){width="800"}
 
 **父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

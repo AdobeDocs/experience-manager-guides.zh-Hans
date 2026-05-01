@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 1. 选择要发布的收藏集，然后单击&#x200B;**打开**。
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){width="800"}
 
 1. \（*可选*\）应用左边栏中的必需筛选器，以根据其修改的\(status\)、输出预设或语言对映射进行筛选。
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 <details>
 <summary> 云服务 </summary>
 
-![在云服务上批量收集 — 发布](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![在云服务上批量收集 — 发布](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 您可以激活输出到&#x200B;**预览**&#x200B;或&#x200B;**发布**&#x200B;实例。
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 * 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**快速发布**。
 * 要激活所有DITA映射及其配置预设的输出，请选中“映射”（列）旁边的复选框，然后选择&#x200B;**快速发布。**
-  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 

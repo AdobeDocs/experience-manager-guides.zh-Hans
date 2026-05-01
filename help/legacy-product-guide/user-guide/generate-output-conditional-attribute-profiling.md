@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%
@@ -46,7 +46,7 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 
    以下屏幕截图显示了值为`unix`且标签为`Red Hat Linux`的`platform`属性的定义。
 
-   ![](images/add-profile.png){width="800" align="left"}
+   ![](images/add-profile.png){width="800"}
 
 1. 如果要为同一属性添加更多值，请单击&#x200B;**+**&#x200B;图标，然后输入其他值和标签。
 
@@ -57,6 +57,6 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 
 `platform`属性存储在系统中。 每当作者决定使用文件夹中DITA主题中的`platform`属性时，他们都会在Web编辑器的“属性”选项卡中看到值。
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
 **父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

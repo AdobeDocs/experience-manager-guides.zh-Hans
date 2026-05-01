@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -36,7 +36,7 @@ AEM Guides允许您将标签添加到文件的不同版本。 您可以使用这
 
    标签将显示在所选主题的“版本历史记录”中。 以下屏幕截图显示了已添加到高亮显示的主题版本中的标签&#x200B;*x.x版本*&#x200B;和&#x200B;*用户指南*。
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -51,11 +51,11 @@ AEM Guides允许您将标签添加到文件的不同版本。 您可以使用这
 
    在版本历史记录中，您将看到主题的所有版本以及附加到这些版本的标签。 下图显示了不同版本主题的一个示例，其中有一个版本添加了标签。
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 1. 单击“删除”按钮\(**X**\)可删除标签。
 
-   ![](images/delete-labels.png){width="300" align="left"}
+   ![](images/delete-labels.png){width="300"}
 
 
 **父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)

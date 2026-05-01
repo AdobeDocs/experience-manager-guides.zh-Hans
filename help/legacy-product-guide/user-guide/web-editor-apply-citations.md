@@ -1,49 +1,49 @@
 ---
-title: Add and manage citations in your content
-description: Add and manage citations in AEM Guides. Learn how to apply, import, filter, search, change citation style, edit, preview, insert, delete, and generate content output with citations.
+title: 在内容中添加和管理引文
+description: 在AEM Guides中添加和管理引文。 了解如何应用、导入、筛选、搜索、更改引文样式、编辑、预览、插入、删除和生成包含引文的内容输出。
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1896'
 ht-degree: 1%
 
 ---
 
-# Add and manage citations in your content
+# 在内容中添加和管理引文
 
-Citations are references to the source of information added to your content. Using citations, you can credit the authors of the source information and help readers to follow up on the source information. Adding citations makes your content more reliable and prevents plagiarism. They also allow you to display well-researched content.
+引用是指对添加到内容的信息源的引用。 通过使用引文，您可以对源信息的作者进行评分，并帮助读者跟进源信息。 添加引文可让您的内容更可靠并防止抄袭。 它们还允许您显示经过仔细研究的内容。
 
-In AEM Guides, you can add and import citations and apply them to your content. You can add these citations from any source of books, websites, and journals.
+在AEM Guides中，您可以添加和导入引用，并将它们应用于您的内容。 您可以从任何书籍、网站和日记帐来源添加这些引文。
 
 
-AEM Guides helps you to edit, preview, and sort your citations. After adding your citations into the content, you can generate the output using Native PDF. You can also add the bibliography or references page in the Native PDF output.
+AEM Guides可帮助您编辑、预览和排序您的引用。 将引用添加到内容中后，您可以使用本机PDF生成输出。 您还可以在本机PDF输出中添加目录或引用页面。
 
-AEM Guides supports multiple styles of citations, such as Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), and American Heart Association (AHA). The recommendation is to use them clearly and consistently.
+AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国心理协会(APA)、芝加哥、电气和电子工程师协会(IEEE)和美国心脏协会(AHA)。 建议明确和一致地使用这些指标。
 
 
 >[!NOTE]
 >
->Currently AEM Guides only supports Native PDF for citations.
+>目前，AEM Guides仅支持在本机PDF中进行引用。
 
 
-## Add citations
+## 添加引文
 
-To add citations, follow these steps:
+要添加引文，请执行以下步骤：
 
-1. Select the **Citations** ![citations icon](images/citations-icon.svg) icon in the left panel.
-The **Citations** panel opens.
+1. 选择左侧面板中的&#x200B;**引用** ![引用图标](images/citations-icon.svg)图标。
+将打开&#x200B;**引用**&#x200B;面板。
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   ![](images/citation-panel.png){width="300"}
 
-1. In the **Citations** panel, select ![Add icon](images/Add_icon.svg). From the dropdown you can choose to add a new citation or to import  a citation.
+1. 在&#x200B;**引用**&#x200B;面板中，选择![添加图标](images/Add_icon.svg)。 从下拉菜单中，您可以选择添加新引文或导入引文。
 
-1. Select **New Citation** to add a new citation.
-The **Add Citation** dialog box opens.
+1. 选择&#x200B;**新建引用**&#x200B;以添加新引用。
+将打开&#x200B;**添加引文**&#x200B;对话框。
 
-   ![citation panel in the web editor](images/citation-add.png) {width="300" align="left"}
+   Web编辑器中的![引用面板](images/citation-add.png) {width="300"}
 
 
 1. 填写&#x200B;**添加引文**&#x200B;对话框中的字段。
@@ -160,7 +160,7 @@ The **Add Citation** dialog box opens.
 
 要预览引用，请执行以下步骤：
 
-将鼠标悬停在列表中引文的名称上。 选择     ![](images/options.svg) **选项**&#x200B;图标。
+将鼠标悬停在列表中引文的名称上。 选择![](images/options.svg) **选项**&#x200B;图标。
 
 1. 选择&#x200B;**预览**。
 您可以在预览窗格中预览引文的内容和格式。
@@ -171,7 +171,7 @@ The **Add Citation** dialog box opens.
 
 1. 单击屏幕上的任意位置以关闭预览框。
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ The **Add Citation** dialog box opens.
 
 1. 在主工具栏中选择&#x200B;**引用** ![引用图标](images/citations-icon.svg)图标。
 1. 在&#x200B;**引文**&#x200B;对话框中，选择引文。 您还可以选择多个引文。
-   ![引文对话框](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![引文对话框](images/citation-dialog-main-toolbar.png){width="300"}
 1. 您可以在&#x200B;**引文**&#x200B;对话框的搜索面板中键入前几个字母来筛选引文。
 
 1. 单击&#x200B;**完成**。
@@ -228,7 +228,7 @@ The **Add Citation** dialog box opens.
 
 1. 将鼠标悬停在列表中引文的名称上。
 1. 选择![](images/options.svg) **选项**&#x200B;图标。
-1. 选择   **删除** ![](images/Delete_icon.svg)。
+1. 选择&#x200B;**删除** ![](images/Delete_icon.svg)。
 确认对话框打开。
 1. 选择&#x200B;**是**。
 所选引文将从引文面板中删除。
@@ -237,41 +237,41 @@ The **Add Citation** dialog box opens.
 
 ### 从主题中删除引用
 
-To delete a citation that is already used in the topic, follow these steps:
+要删除主题中已使用的引用，请执行以下步骤：
 
-In the topic, place your cursor at the end of the citation.
+在主题中，将光标放在引文的末尾。
 
-1. Right-click a citation in the topic and select **Modify Citation** from the shortcut menu. The Citation dialog opens.
-   ![shortcut menu of a citation](./images/modify-citation.png)
+1. 右键单击主题中的引用，然后从快捷菜单中选择&#x200B;**修改引用**。 将打开“引文”对话框。
+   引用的![快捷菜单](./images/modify-citation.png)
 
-1. You can choose the citations you want to insert into the document.
+1. 您可以选择要插入到文档中的引文。
 
    >[!NOTE]
    >
-   >The citations that are already used in the topic are replaced with the ciations that you select from the dialog.
+   >主题中已使用的引文将替换为您从对话框中选择的引文。
 
 
 1. 选择&#x200B;**完成**。
 
-## Generate output of content with citations
+## 生成包含引文的内容输出
 
-Once you have inserted citations in the topic, you can publish content with citations using Native PDF.
+在主题中插入引文后，您可以使用本机PDF发布包含引文的内容。
 
-In the Native PDF output, the citations appear within the content where you have inserted them. You can also create a Bibliography page. When you click any citation, you are redirected to the bibliography page.
+在本机PDF输出中，引用显示在您插入它们的内容中。 您还可以创建“书目”页面。 当您单击任何引文时，您将被重定向到文献目录页面。
 
-Create a **Citations** page layout in the PDF templates, and include it in your document. All the citations used in the book get listed on one page that appears in the PDF output. To learn more about creating a page layout, view [Create a page layout](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
-
-
-To change the view and feel of the citation page, view [Customize PDF templates](/help/product-guide/native-pdf/pdf-template.md).
+在PDF模板中创建&#x200B;**引用**&#x200B;页面布局，并将其包含在您的文档中。 本书中使用的所有引文都会列在PDF输出中显示的一个页面上。 要了解有关创建页面布局的更多信息，请查看[创建页面布局](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout)。
 
 
+若要更改引文页面的视图和风格，请查看[自定义PDF模板](/help/product-guide/native-pdf/pdf-template.md)。
 
-### Apply content style to a citation
 
-Apply formatting to the citation when added to the topic.
 
-1. Select **Stylesheets** in the **Templates** panel of a Native PDF output preset.   It opens the **STYLES** panel that contains all the styling options.
+### 将内容样式应用于引用
 
-1. In the Search panel, search for `<cite>`.
+将格式添加到主题后，应用于引文。
 
-To learn more about styles, view [Work with the common content styles](/help/product-guide/native-pdf/stylesheet.md).
+1. 在Native PDF输出预设的&#x200B;**模板**&#x200B;面板中选择&#x200B;**样式表**。   它打开包含所有样式选项的&#x200B;**样式**&#x200B;面板。
+
+1. 在“搜索”面板中，搜索`<cite>`。
+
+若要了解有关样式的详细信息，请查看[使用常见的内容样式](/help/product-guide/native-pdf/stylesheet.md)。

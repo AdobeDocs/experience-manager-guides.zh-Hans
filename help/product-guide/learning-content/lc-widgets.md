@@ -4,9 +4,9 @@ description: 了解可在学习内容中使用的交互式小组件。
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 781c6b6632c857f2130ef27751f66bfe1527f334
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 - **可折叠项：**&#x200B;向内容添加可折叠项。 您可以在折叠标题及其正文中插入合适的文本。 可以使用&#x200B;**内容属性**&#x200B;面板管理其属性，包括允许同时打开单个或多个折叠以及添加或删除元素的选项。 要删除小部件的元素或项，您还可以使用&#x200B;**右键单击>删除项**。
 
-  ![](assets/accordion-learning-content.png){width="650" align="left"}
+  ![](assets/accordion-learning-content.png){width="650"}
 
 - **轮播：**&#x200B;向内容添加了轮播。 您可以在卡片标题及其正文中插入合适的文本。 可以使用&#x200B;**Content properties**&#x200B;面板（包括用于添加或删除元素的选项）管理其属性。 要删除小部件的元素或项，您还可以使用&#x200B;**右键单击>删除项**。
 
-  ![](assets/carousal-learning-content.png){width="650" align="left"}
+  ![](assets/carousal-learning-content.png){width="650"}
 
 - **热点：**&#x200B;将热点添加到选定图像。 首先选择图像，然后导航到&#x200B;**插入>热点**。 这将打开“热点”对话框，您可以在其中配置各种选项，例如设置不同的热点大小、添加相应的链接以及通过向前或向后显示区域来调整分层。 要删除小部件的元素或项，您还可以使用&#x200B;**右键单击>删除项**。
 
-  ![](assets/hotspot-learning-content.png){width="650" align="left"}
+  ![](assets/hotspot-learning-content.png){width="650"}
 
 - **选项卡：**&#x200B;用于将内容整理到交互式节中。  每个选项卡可以代表不同的主题或类别；学习者可以单击或点按选项卡以显示相应的内容。 将光标放在您希望选项卡构件在内容中显示的位置，然后导航到&#x200B;**插入>构件>选项卡**。 这会将选项卡容器添加到您的内容。 现在，开始向选项卡添加内容，包括选项卡标题及其相应内容。  要删除小部件的元素或项，您还可以使用&#x200B;**右键单击>删除项**。
 

@@ -4,7 +4,7 @@ description: 了解如何创建和删除映射收藏集以及添加或删除DITA
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
    **映射收藏集**&#x200B;页面将在新选项卡中打开。
 
-   ![](images/map-collections-page.png){width="350" align="left"}
+   ![](images/map-collections-page.png){width="350"}
 
    >[!NOTE]
    >
@@ -54,7 +54,7 @@ ht-degree: 1%
 
    DITA映射文件将添加到您的映射集合中。
 
-   ![映射收藏集仪表板](./images/map-collection-dashboard.png){align="left"}
+   ![映射收藏集仪表板](./images/map-collection-dashboard.png)
 
 **筛选选项**
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 要使用“Map Collection（映射收集）”配置和生成输出，请执行以下步骤：
 
-1. 打开地图收藏集。 您可以查看各种输出预设，如AEM Sites、PDF(包括本机PDF)、HTML5、EPUB和自定义预设。 您还可以查看管理员创建的全局配置文件预设和文件夹配置文件预设。
+1. 打开地图收藏集。 您可以查看各种输出预设，如AEM Sites、PDF（包括本机PDF）、HTML5、EPUB和自定义预设。 您还可以查看管理员创建的全局配置文件预设和文件夹配置文件预设。
 
    ![](images/global-preset-icon.svg)图标表示文件夹配置文件级别预设。
 1. \（可选\）根据您的要求执行以下任一操作：
@@ -95,7 +95,7 @@ ht-degree: 1%
    - 为DITA映射启用&#x200B;**所有预设**&#x200B;以一次性选择所有预设。 默认禁用此选项。
    - 为DITA映射启用&#x200B;**文件夹配置文件预设**&#x200B;以为其选择所有文件夹配置文件预设。 默认禁用此选项。
 
-![在云服务上编辑地图集合](images/edit-map-collection-cs.png){align="left"}
+![在云服务上编辑地图集合](images/edit-map-collection-cs.png)
 
 
 
@@ -112,7 +112,7 @@ ht-degree: 1%
 
 在映射集合中，可以为DITA映射批量配置元数据属性。 选择&#x200B;**配置元数据**&#x200B;以打开&#x200B;**资源元数据**&#x200B;页面。 在&#x200B;**资产元数据**&#x200B;页面上，收藏集中存在的所有映射都列在左侧。
 
-![配置元数据](images/map-collection-asset-metadata.png){align="left"}
+![配置元数据](images/map-collection-asset-metadata.png)
 
 执行以下步骤可配置元数据属性：
 
@@ -147,6 +147,6 @@ ht-degree: 1%
 
 与从[DITA映射控制台](generate-output-for-a-dita-map.md#id2061H100T5Z)或[发布仪表板](generate-output-publish-dashboard.md#)取消输出生成任务的方法类似，您可以从映射集合中取消输出生成任务。 访问映射集合的“输出”选项卡，转到要取消的发布任务，并选择&#x200B;**取消此作业**&#x200B;图标以取消发布任务。
 
-![](images/cancel-publish-task-map-collection.png){align="left"}
+![](images/cancel-publish-task-map-collection.png)
 
 **父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

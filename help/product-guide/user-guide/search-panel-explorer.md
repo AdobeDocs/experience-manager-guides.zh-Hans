@@ -3,9 +3,10 @@ title: 编辑器界面中的“搜索”面板
 description: 了解如何在编辑器界面中使用搜索面板。
 feature: Authoring
 role: User
-source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
+exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -16,13 +17,13 @@ ht-degree: 0%
 
 可通过以下方式访问“搜索”面板：
 
-- **编辑器界面**：从&#x200B;**资源管理器面板**&#x200B;中选择&#x200B;**搜索图标**，或使用&#x200B;**内容编辑区域**&#x200B;左下角的&#x200B;**搜索图标**。 有关详细信息，请在“资源管理器”面板[中查看](#search-from-the-explorer-panel)搜索。
+- **编辑器界面**：从&#x200B;**资源管理器面板**&#x200B;中选择&#x200B;**搜索图标**，或使用&#x200B;**内容编辑区域**&#x200B;左下角的&#x200B;**搜索图标**。 有关详细信息，请在“资源管理器”面板[&#128279;](#search-from-the-explorer-panel)中查看搜索。
 
-  ![](images/search-icon-editor.png){align="left"}
+  ![](images/search-icon-editor.png)
 
 - **主页**：从主页上的存储库界面导航时，使用&#x200B;**在搜索面板中显示**&#x200B;选项。 有关详细信息视图，[从存储库](#search-from-the-repository-interface-on-the-home-page)中搜索。
 
-  ![](images/search-panel-repo.png){align="left"}
+  ![](images/search-panel-repo.png)
 
 ## 主要优势
 
@@ -40,21 +41,21 @@ ht-degree: 0%
    >
    >如果当前会话中已存在某些搜索结果，则在资源管理器中选择&#x200B;**搜索图标**&#x200B;或内容编辑区域左下角的图标将打开显示这些先前结果的面板。 要更新或优化搜索，请选择&#x200B;**修改搜索**。
 
-   ![](images/search-repo-dialog.png){align="left"}
+   ![](images/search-repo-dialog.png)
 
 2. 执行搜索并根据需要应用过滤器。 有关搜索和筛选选项的详细说明，请查看[搜索和筛选体验](./home-page-repository-view.md#search-and-filter-experience)。
 
 3. 搜索完成后，选择&#x200B;**在搜索面板中显示**。 您最近的搜索随后将显示在编辑器底部的“搜索”面板中。
 
-   ![](images/show-search-explorer.png){align="left"}
+   ![](images/show-search-explorer.png)
 
 4. 要更新搜索结果，请在“搜索”面板中选择&#x200B;**修改搜索**&#x200B;选项并更新条件以获取新结果。
 
-   ![](images/modify-search.png){align="left"}
+   ![](images/modify-search.png)
 
 搜索结果显示在“搜索”面板中后，您可以通过直接从该面板打开并编辑一个或多个文件，或者将选定的文件拖放到现有主题或映射中来添加引用来对其进行处理。
 
-![](images/edit-search-panel.png){align="left"}
+![](images/edit-search-panel.png)
 
 ## 从主页的“存储库”界面中搜索
 
@@ -62,13 +63,4 @@ ht-degree: 0%
 
 从“搜索”面板中，您可以&#x200B;**将**&#x200B;文件拖放到当前主题中以无缝附加引用，或同时编辑多个文件。 此外，您还可以使用“搜索”面板中提供的&#x200B;**修改搜索**&#x200B;选项来优化搜索结果。
 
-![](images/search-panel-from-home.png){align="left"}
-
-
-
-
-
-
-
-
-
+![](images/search-panel-from-home.png)

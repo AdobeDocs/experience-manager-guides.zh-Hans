@@ -4,9 +4,9 @@ description: 从Adobe Experience Manager Guides的映射控制台中创建和管
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 1. 在&#x200B;**工具**&#x200B;面板中选择&#x200B;**指南**。
 1. 选择&#x200B;**批量处理器**&#x200B;磁贴。
 
-   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png)
 
    显示&#x200B;**指南批量处理器**&#x200B;页。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
    1. **选择文件夹和文件**：导航并选择一个或多个要处理的文件夹和文件。
    1. **选择要忽略的文件夹**： （可选）选择要从迁移中排除的所选父文件夹中的子文件夹。
 
-   ![new-process-baseline](images/new-process-baseline.png){align="left"}
+   ![new-process-baseline](images/new-process-baseline.png)
 
 1. 选择&#x200B;**创建**。
 
@@ -95,11 +95,11 @@ ht-degree: 0%
 
 您还可以选择&#x200B;**查看日志**&#x200B;以检查和下载迁移任务的日志。
 
-![查看日志 — 基线](images/view-logs-baseline.png){align="left"}
+![查看日志 — 基线](images/view-logs-baseline.png)
 
 日志报表提供了迁移的详细信息，包括迁移的映射数量、成功迁移的基线和相关详细信息。
 
-![logs-detail-baseline](images/logs-detail-baseline.png){align="left"}
+![logs-detail-baseline](images/logs-detail-baseline.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ ht-degree: 0%
    - **编辑属性**：允许您编辑现有基线的属性。
    - **重新生成**：允许您在更改时重新生成动态基线。
 
-     ![rebuild-baseline](images/rebuild-baseline.png){align="left"}
+     ![rebuild-baseline](images/rebuild-baseline.png)
 
 - **下载**&#x200B;操作支持分页下载。 与应用的过滤器匹配的所有基线内容将包含在下载中，而不仅仅是当前页面上显示的内容。
 - 除了文件名或文件位置之外，还按GUID过滤文件。 **筛选无标签**&#x200B;文件的附加选项也可用。
@@ -150,13 +150,13 @@ ht-degree: 0%
    - 导航到要编辑的文件并将光标悬停在该文件上。
    - 选择&#x200B;**编辑**&#x200B;图标。
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png){align="left"}
+     ![edit-baseline-icon](images/edit-baseline-icon.png)
 
      将显示&#x200B;**编辑版本**&#x200B;对话框。
    - 从&#x200B;**版本**&#x200B;下拉列表中选择所需的版本（例如，从版本1.0更改为1.1）。
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
+     ![edit-version-baseline](images/edit-version-baseline.png)
 
      将计算添加和移除的从属关系并显示为预览。 在应用更改之前查看这些更改。
 

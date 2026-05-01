@@ -4,7 +4,7 @@ description: 了解如何在Adobe Experience Manager Guides的映射控制台界
 feature: Publishing
 role: User
 exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
-source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. 从主页打开&#x200B;**映射控制台**。
 
-   ![新](images/map-console-home-page.png){width="800"align="left"}
+   ![新](images/map-console-home-page.png){width="800"}
 
 2. 由于未选择映射文件，因此系统会提示您选择映射文件以使用映射管理和发布功能。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    映射文件将在“映射”控制台中打开。 默认情况下，**输出预设**&#x200B;选项卡处于选中状态。
 
-   ![新建](images/map-console-screen.png){width="800"align="left"}
+   ![新建](images/map-console-screen.png){width="800"}
 
    >[!NOTE]
    >
@@ -45,4 +45,4 @@ ht-degree: 0%
 
    映射文件将在“映射”控制台中打开。
 
-   ![新](images/map-console.png){align="left"}
+   ![新](images/map-console.png)

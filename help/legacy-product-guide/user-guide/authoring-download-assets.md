@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    出现“Download Map（下载映射）”对话框。
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. 单击&#x200B;**“下载”。** 在“下载映射”对话框中，您可以选择以下选项：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**下载**&#x200B;按钮后，映射下载请求将排入队列。 一旦地图可供下载，您将收到以下通知。
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - 单击&#x200B;**下载**&#x200B;以.zip格式下载映射文件。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
    >
    > 默认情况下，下载的地图会在AEM通知收件箱中保留五天。
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 下载地图后，您可以选择该地图并使用顶部的打开图标打开选定的报表。
 

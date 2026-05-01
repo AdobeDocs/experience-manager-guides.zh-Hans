@@ -5,9 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 在&#x200B;**工具**&#x200B;面板中选择&#x200B;**指南**。
 1. 选择&#x200B;**批量处理器**&#x200B;磁贴。
 
-   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png)
 
 1. 将打开“Guides Bulk Processor（指南批量处理器）”窗口，详细信息如下所示。 此外，此窗口中仅显示与最近五次迁移有关的信息。
 
@@ -49,20 +49,20 @@ ht-degree: 0%
 
    - **状态**：将处理状态显示为“进行中”、“已完成”或“已取消”。
 
-   ![Guides-asset-processor](images/guides-asset-processor-new.png){align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor-new.png)
 
 1. 选择窗口右上角的&#x200B;**新建进程**&#x200B;选项卡以启动新的处理任务。
 
    **新进程**&#x200B;对话框打开。
 
-   ![New-process-asset-processor](images/new-asset-processor.png){width="350" align="left"}
+   ![New-process-asset-processor](images/new-asset-processor.png){width="350"}
 
 1. 在对话框中提供以下详细信息：
 
    1. **功能类型**：从下拉列表中选择&#x200B;**正在处理资源**。
    1. **选择文件夹和文件**：导航并选择一个或多个要处理的文件夹和文件。
    1. **选择要忽略的文件夹**： （可选）选择要从处理中排除的所选父文件夹中的子文件夹。
-   1. **资源类型**：从下拉列表中，选择要处理的特定资源类型(例如，DITA主题、DITA映射、Markdown、HTML/CSS、DITAVAL或其他文件)。 仅从您之前指定的文件夹中处理选定的资源类型。
+   1. **资源类型**：从下拉列表中，选择要处理的特定资源类型（例如，DITA主题、DITA映射、Markdown、HTML/CSS、DITAVAL或其他文件）。 仅从您之前指定的文件夹中处理选定的资源类型。
 示例：选择DITA主题仅处理选定文件夹中的DITA主题，从而启用目标筛选。
    1. **创建于**&#x200B;之后/之前：应用日期筛选器以处理在指定时间范围内创建的资源。
 
@@ -70,9 +70,9 @@ ht-degree: 0%
    >
    > 如果某个文件夹已在运行一个进程，则在当前任务完成之前，不能启动该文件夹的新进程。
 
-1. 选择&#x200B;**创建**。出现一个显示&#x200B;**成功且进程已成功触发的弹出窗口**。 您可以在窗口中查看处理任务的状态。
+1. 选择&#x200B;**创建**。 出现一个显示&#x200B;**成功且进程已成功触发的弹出窗口**。 您可以在窗口中查看处理任务的状态。
 
-   ![消息资产处理器](images/message-asset-processor.png){width="350" align="left"}
+   ![消息资产处理器](images/message-asset-processor.png){width="350"}
 
 
 ## 用于资产处理任务的其他选项
@@ -81,16 +81,16 @@ ht-degree: 0%
 
 - **重新启动** ：重新启动之前成功的资源处理任务。
 
-  ![重新启动asset-processor](images/restart-asset-processor.png){width="650" align="left"}
+  ![重新启动asset-processor](images/restart-asset-processor.png){width="650"}
 
 - **继续** ：继续先前取消或失败的资产处理任务。
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="650" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){width="650"}
 
 - **取消** ：取消当前正在处理的资源处理任务。
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650"}
 
 - **查看日志**：显示资源处理任务的日志。 对于正在进行的任务，日志会显示详细的处理信息，包括预计剩余时间和资源状态。 此日志列表最多可显示500个最新条目。 可以下载完整日志。
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="650" align="left"}
+  ![logs-asset-processor](images/logs-asset-processor.png){width="650"}

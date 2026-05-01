@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 从映射文件的&#x200B;**选项**&#x200B;菜单中选择&#x200B;**编辑主题**&#x200B;选项。 将打开映射文件以便在Web编辑器中编辑。
 1. 在&#x200B;**输出**&#x200B;选项卡中，选择+图标以创建DITA映射的输出预设。
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. 在&#x200B;**添加预设**&#x200B;对话框中输入以下详细信息：
    - 类型

@@ -4,9 +4,9 @@ description: 介绍如何在产品培训和学习中创建主题。
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '130'
 ht-degree: 1%
 
 ---
@@ -23,17 +23,17 @@ ht-degree: 1%
 
 1. 在&#x200B;**课程经理**&#x200B;中打开课程，然后从&#x200B;**选项**&#x200B;菜单中选择&#x200B;**添加新课程**。
 
-   ![](assets/workflow-learning-content.png){width="650" align="left"}
+   ![](assets/workflow-learning-content.png){width="650"}
 
 1. 选择&#x200B;**主题**。
 
    显示&#x200B;**新学习主题**&#x200B;对话框。
 
-   ![](assets/new-learning-topic-dialog.png){width="350" align="left"}
+   ![](assets/new-learning-topic-dialog.png){width="350"}
 
 1. 从下拉菜单中选择所需的模板。
 
-   ![](assets/template-types-lc.png){width="350" align="left"}
+   ![](assets/template-types-lc.png){width="350"}
 
 1. 为主题提供合适的标题。
 1. 选择&#x200B;**创建**。

@@ -3,9 +3,10 @@ title: 主页上的存储库
 description: 在主页中了解存储库。 在主页上了解Adobe Experience Manager Guides中的存储库界面和功能。
 feature: Authoring
 role: User
-source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
+exl-id: 1466c263-d24b-4653-8361-098831002f4e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 此统一界面简化了多项功能，包括创建新文件或文件夹、编辑文件、上传资产和搜索具有强大筛选选项的文件，从而确保效率和易用性。
 
-![](images/repository-view-home.png){align="left"}
+![](images/repository-view-home.png)
 
 存储库界面分为以下部分：
 
@@ -27,16 +28,16 @@ ht-degree: 0%
 
 存储库导航栏位于存储库界面的顶部，使您可以快速访问列出的基本操作。
 
-![](images/tab-bar-repository-view.png){align="left"}
+![](images/tab-bar-repository-view.png)
 
 
 - **文件夹导航面板**：显示存储库中文件夹的分层树视图，实现无缝导航。 此面板仅显示文件夹级别的信息。 从此处选择文件夹时，其内容、文件和子文件夹将显示在“存储库”视图中。 您可以使用下面高亮显示的图标显示或隐藏此面板。
 
-  ![](images/folder-navigation-panel.png){align="left"}
+  ![](images/folder-navigation-panel.png)
 
 - **痕迹导航**：指示存储库中的当前路径，显示指向当前文件夹的文件夹层次结构。 您可以选择它以返回到层次结构中的特定文件夹。
 
-  ![](images/breadcrumbs.png){width="650" align="left"}
+  ![](images/breadcrumbs.png){width="650"}
 
 - **刷新**：更新存储库以反映最新更改。
 - **上传Assets**：允许将资源直接上传到当前文件夹，痕迹导航中突出显示了这一点。
@@ -55,7 +56,7 @@ ht-degree: 0%
 
 - **自定义**：您可以使用位于存储库视图右上角的&#x200B;**自定义**&#x200B;选项修改显示的列。 此选项允许您显示或隐藏任何列，并根据需要重新排列列。 **Name**&#x200B;或&#x200B;**Title**&#x200B;列是必需的，不能同时禁用这两列。 可以根据需要启用或禁用其他字段，如&#x200B;**文件类型**、**UUID**、**文档状态**、**锁定者**、**创建日期**&#x200B;和&#x200B;**修改日期**。 您可以通过简单的拖放操作来重新排列它们。
 
-  ![](images/customize-repo-view.png){width="350" align="left"}
+  ![](images/customize-repo-view.png){width="350"}
 
 - **调整列大小**：可以通过从列下拉菜单中选择选项来调整列大小。
 
@@ -67,11 +68,11 @@ ht-degree: 0%
    - 使用该复选框选择所需文件后，**编辑**&#x200B;选项将在“存储库”视图的右上角变得可用。
    - 选择&#x200B;**编辑**&#x200B;将在编辑器界面中打开选定的文件，您可以在此处开始编辑文件。
 
-     ![](images/edit-repo-view.png){align="left"}
+     ![](images/edit-repo-view.png)
 
 - **文件夹的“选项”菜单**：您可以使用文件夹可用的&#x200B;**选项**&#x200B;菜单执行以下操作：
 
-  ![](images/options-folder-repo.png){width="350" align="left"}
+  ![](images/options-folder-repo.png){width="350"}
 
    - **新建**：创建新的DITA主题、DITA映射或文件夹。
    - **上传Assets**：将文件从本地系统上传到存储库中的选定文件夹。
@@ -80,7 +81,7 @@ ht-degree: 0%
 
 - **文件的“选项”菜单**：您可以使用文件的&#x200B;**选项**&#x200B;菜单执行以下操作：
 
-  ![](images/options-file-repo-new.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350"}
 
    - **编辑**：打开文件进行编辑。
    - **在氧气中编辑**：选择此选项可在氧气连接器插件中编辑所选文件。
@@ -107,11 +108,11 @@ ht-degree: 0%
 
 **搜索**&#x200B;选项有助于主要根据&#x200B;**文件标题**、**文件名**&#x200B;和&#x200B;**内容**&#x200B;从存储库搜索所需文件。 您可以在搜索中使用任意一个、两个或全部三个标准。 如果未选择任何标准，则结果将包括所有三个标准通用的结果。
 
-![](images/search-in-repository.png){align="left"}
+![](images/search-in-repository.png)
 
 选择&#x200B;**筛选器搜索** \（![搜索筛选器图标](images/filter-search-icon.svg)\）图标以打开右侧的“筛选器”面板。
 
-![](images/Search-filters-repo.png){align="left"}
+![](images/Search-filters-repo.png)
 
 您可以使用以下选项来筛选文件并缩小搜索范围：
 
@@ -119,7 +120,7 @@ ht-degree: 0%
 
 - **文件类型**：根据特定文件类型筛选搜索。 可用选项为：**主题**、**映射**、**DITAVAL**、**图像**、**多媒体**、**文档**&#x200B;和&#x200B;**其他**。
 
-- **文档状态**：您可以根据文件的当前文档状态筛选搜索。 可用的筛选器值在`repositoryFilters`的`ui_config.json file`字段中定义，并与您当前使用的文件夹配置文件关联。
+- **文档状态**：您可以根据文件的当前文档状态筛选搜索。 可用的筛选器值在`ui_config.json file`的`repositoryFilters`字段中定义，并与您当前使用的文件夹配置文件关联。
 
   这意味着：
 
@@ -143,15 +144,14 @@ ht-degree: 0%
 
 根据所选筛选器自定义的搜索结果仅以&#x200B;**表格文件列表的形式显示** （不显示文件夹）。 您可以同时单独删除任何过滤器或多个过滤器，结果会刷新以反映更新的选择。
 
-![](images/search-results-with-filters.png){align="left"}
+![](images/search-results-with-filters.png)
 
 搜索结果显示后，您可以多选文件并使用&#x200B;**编辑**&#x200B;图标在编辑器中打开它们，也可以通过&#x200B;**在搜索面板中显示**&#x200B;选项将搜索结果发送给编辑器来处理所有结果。
 
-![](images/post-search-operation.png){align="left"}
+![](images/post-search-operation.png)
 
 **显示在搜索面板中**
 
 在存储库中执行搜索后，**在搜索面板中显示**&#x200B;选项将变为可用。 此功能允许您在编辑器的&#x200B;**搜索面板**&#x200B;中显示所有搜索结果。 有关详细信息，请查看[搜索面板](./search-panel-explorer.md)。
 
-![](images/search-panel-repo.png){align="left"}
-
+![](images/search-panel-repo.png)

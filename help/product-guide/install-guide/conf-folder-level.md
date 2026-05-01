@@ -5,7 +5,7 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '3974'
 ht-degree: 0%
@@ -22,7 +22,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
 使用“参考线”设置中的“文件夹配置文件”图块，您可以在以下选项卡下配置设置：
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **常规**：“常规”选项卡仅在配置文件夹级别\（或项目/产品\）设置时可用。 您可以配置设置，例如将应用这些设置的文件夹路径以及具有创建或更新配置的管理权限的用户。
 
@@ -96,7 +96,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
    首次只显示“文件夹配置文件”页面和“全局配置文件”拼贴。
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. 单击&#x200B;**全局配置文件**&#x200B;拼贴。
 
@@ -125,7 +125,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
 1. 单击&#x200B;**创建**。
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. 在&#x200B;**创建文件夹配置文件**&#x200B;对话框中输入以下详细信息：
    - 文件夹配置文件的名称。
@@ -198,7 +198,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
    以下屏幕快照显示了`platform`属性的定义以及可能的值和标签。
 
-   ![](assets/add_profile.png){width="650" align="left"}
+   ![](assets/add_profile.png){width="650"}
 
 1. 如果要为同一属性添加更多值，请单击&#x200B;**+**&#x200B;图标并输入其他值和标签。
 
@@ -271,7 +271,7 @@ AEM Guides附带7个现成的创作模板和2个DITA映射模板。 您可以选
    >
    > 默认情况下，所有创作模板都存储在/content/dam/dita-templates文件夹中。 `dita-templates`文件夹包含用于存储主题和映射模板的`topics`和`maps`子文件夹。 您可以将自定义模板\(.dita、.xml或.ditamapfiles\)添加到默认模板文件夹中。 将模板添加到默认文件夹后，便可以将它们添加到全局或文件夹配置文件中。 有关使用Web编辑器创建自定义模板的详细信息，请参阅[创建自定义创作模板](#id1917D0EG0HJ)。
 
-   ![](assets/search-author-temp.png){width="550" align="left"}
+   ![](assets/search-author-temp.png){width="550"}
 
 1. 添加所需主题并将模板映射到您的配置文件。
 
@@ -279,7 +279,7 @@ AEM Guides附带7个现成的创作模板和2个DITA映射模板。 您可以选
 
    - 选择&#x200B;**搜索或类型**，然后输入或从下拉列表中选择模板的名称。 下拉列表包含所有默认模板以及您创建的任何新模板。
 
-     ![](assets/default-template-list.png){width="350" align="left"}
+     ![](assets/default-template-list.png){width="350"}
 
    - 单击&#x200B;**浏览**&#x200B;并从DAM中选择模板。
 
@@ -287,7 +287,7 @@ AEM Guides附带7个现成的创作模板和2个DITA映射模板。 您可以选
 
    选定的模板即添加到模板列表中。
 
-   ![](assets/author-templ-added-list.png){width="550" align="left"}
+   ![](assets/author-templ-added-list.png){width="550"}
 
    >[!NOTE]
    >

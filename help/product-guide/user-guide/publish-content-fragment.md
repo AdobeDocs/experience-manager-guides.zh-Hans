@@ -4,10 +4,10 @@ description: 将主题或主题中的元素发布到AEM Guides中的内容片段
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 0%
+source-wordcount: '955'
+ht-degree: 1%
 
 ---
 
@@ -28,19 +28,19 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 1. 创建一个文件夹，以保存您根据内容片段模型创建的内容片段。 例如，“stock-content-fragments”。
 1. 编辑文件夹的属性（例如，“stock-content-fragments”）并添加文件夹的路径，其中包含云配置中的内容片段模型。
 例如，在云配置中添加`/conf/we-retail`。 此配置将所有内容片段模型连接到文件夹。\
-   ![在文件夹属性中添加云配置详细信息](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![在文件夹属性中添加云配置详细信息](images/fragment-folder-cloud-configuration.png){width="650"}
    *在文件夹属性中添加云配置以将其与片段模型连接。*
 
 1. 要生成内容片段，请从主题&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;节中选择&#x200B;**新输出** ![新输出图标](./images/Add_icon.svg)。
 1. 选择&#x200B;**内容片段**。\
-   ![文件属性选项选项卡](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
+   ![文件属性选项选项卡](./images/file-properties-outputs-tab-new.png) {width="300"}
 
    *从主题*&#x200B;的文件属性中添加新的内容片段。
 
 1. 在&#x200B;**生成内容片段**&#x200B;对话框中，在&#x200B;**常规**&#x200B;和&#x200B;**映射**&#x200B;选项卡下填写以下详细信息。
 
    **常规**&#x200B;选项卡
-   ![在“作为内容片段发布”对话框中添加片段模型和映射详细信息](images/generate-content-fragment.png)
+   ![在“发布为内容片段”对话框中添加片段模型和映射详细信息](images/generate-content-fragment.png)
    *添加路径、名称、标题和条件筛选以将主题或其元素发布为内容片段。*
 
 
@@ -49,7 +49,6 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
    * **名称**：键入内容片段的名称。 默认情况下，该名称将填充主题标题，空格将替换为“_”。 例如，*sample_content_fragment*。 您可以对其进行编辑。  此名称用于生成内容片段的URL。
 
    * 您可以选择不同的条件来创建内容片段变体。 选择以下选项之一：
-
      >[!NOTE]
      > 
      > 仅当在主题中定义了条件属性时，才会启用条件。
@@ -82,7 +81,7 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 
 1. 您可以在&#x200B;**文件属性**&#x200B;的&#x200B;**输出**&#x200B;部分下查看主题的内容片段。
 
-   ![查看主题的内容片段](images/outputs-options-menu-new.png){width="300" align="left"}
+   ![查看主题的内容片段](images/outputs-options-menu-new.png){width="300"}
 
    *查看某个主题存在的内容片段并重新发布它们。*
 

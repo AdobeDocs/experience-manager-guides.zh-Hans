@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**输出**&#x200B;选项卡中，选择+图标以创建DITA映射的输出预设。
 
-   ![](images/output-tab-preset_cs.png){width="350" align="left"}
+   ![](images/output-tab-preset_cs.png){width="350"}
 
 1. 在“添加预设”对话框中输入预设的名称，然后单击&#x200B;**添加**。
 
@@ -46,19 +46,19 @@ ht-degree: 0%
    1. 从&#x200B;**文章**&#x200B;选项卡中，选择要为其生成输出的主题。
 1. 选择顶部的&#x200B;**生成预设**&#x200B;图标以生成输出。
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){width="800"}
 
-1. You will see the status of the output generation process. The **Topics** column lists the topics for which output is being generated while the **Status** column displays the publishing status of each topic.
+1. 您将看到输出生成过程的状态。 **主题**&#x200B;列列出正在为其生成输出的主题，而&#x200B;**状态**&#x200B;列显示每个主题的发布状态。
 
-   To view the output, hover the mouse pointer over the topic and click View Output.
+   要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){width="800"}
 
 
 >[!NOTE]
 >
-> You can also Edit, Rename, Duplicate, or Delete an existing output preset from the Options menu.
+> 也可以从“选项”菜单中编辑、重命名、复制或删除现有的输出预设。
 
-![](images/edit-preset_cs.png){width="550" align="left"}
+![](images/edit-preset_cs.png){width="550"}
 
-**Parent topic:**&#x200B;[&#x200B; Article-based publishing from the Web Editor](web-editor-article-publishing.md)
+**父主题：**&#x200B;[&#x200B;从Web编辑器中基于文章的发布](web-editor-article-publishing.md)

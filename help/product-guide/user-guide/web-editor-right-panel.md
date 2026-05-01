@@ -4,9 +4,9 @@ description: 了解编辑器中的右侧面板。 了解Adobe Experience Manager
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 1. 选择&#x200B;**添加**。
 
-   内容属性中的![属性](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   内容属性中的![属性](images/properties-tab-attributes_cs.png){width="300"}
 
 1. 在&#x200B;**属性**&#x200B;下拉面板中，从下拉列表中选择属性并指定属性的值。  然后选择&#x200B;**添加**。
 
-   具有多个属性的![属性面板](images/attributes-multiple-properties.png){width="300" align="left"}
+   具有多个属性的![属性面板](images/attributes-multiple-properties.png){width="300"}
 
 1. 要编辑属性，请将鼠标悬停在它上并选择&#x200B;**编辑** ![编辑图标](images/edit_pencil_icon.svg)。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 通过“一般信息”部分可以访问以下功能：
 
-![file-properties](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300"}
 
 - **文件名**：显示所选主题的文件名。 文件名超链接至选定文件的属性页。
 - **ID**：显示所选主题的ID。
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 利用“参照”部分，可访问以下功能：
 
-![](images/file-properties-references.png){width="300" align="left"}
+![](images/file-properties-references.png){width="300"}
 
 - **用于**： Used in references列出引用或使用当前文件的文档。
 - **传出链接：**&#x200B;传出链接列出当前文档中引用的文档。
@@ -129,11 +129,11 @@ ht-degree: 0%
 >
 > 在发送资产以进行翻译时会创建语言副本。 英语(`en`)用作源语言，翻译副本在其各自的目标语言文件夹中生成（例如，`de`用于德语，`fr`用于法语）。 如果资产仅存在于`en`文件夹中，则在启动并完成目标语言的翻译之前，不会显示其他语言副本。 如果资产不存在于任何语言文件夹中，则显示&#x200B;**无可用翻译**。 有关详细信息，请查看[内容翻译的最佳实践](./translation-first-time.md)。
 
-![](images/translations-right-panel.png){width="300" align="left"}
+![](images/translations-right-panel.png){width="300"}
 
 对于每个语言副本，您可以将鼠标悬停在文件上以找到其在存储库中的路径，也可以简单地选择它以在编辑器中打开。 除了打开文件之外，您还可以使用“翻译”部分中的&#x200B;**选项**&#x200B;菜单执行许多操作。 您可以执行的某些操作包括编辑、预览、复制UUID、复制路径、添加到收藏集和属性。
 
-![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+![](images/translations-right-panel-options-menu.png){width="300"}
 
 
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 选择“审阅”图标将打开审阅面板，您可以在其中为当前打开的文档选择审阅任务并查看注释。
 
-![](images/review-panel-before-opening.png){width="300" align="left"}
+![](images/review-panel-before-opening.png){width="300"}
 
 如果创建了多个“审阅”项目，则可以从下拉列表中选择一个项目并访问审阅注释。
 

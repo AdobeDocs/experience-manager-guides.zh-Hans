@@ -5,7 +5,7 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -26,12 +26,12 @@ AEM Guides具有添加智能标记的功能。 您可以使用XML关键字提取
 1. 在预览模式下打开主题，然后从主工具栏中选择&#x200B;**重新处理Assets**&#x200B;图标。
 1. 选择“XML关键字提取”以提取相关关键字。
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. 选择“运行后处理”选项。 成功启动工具时将显示一条消息。
 1. 标记将自动提取，并可在所选主题的“属性”页面上看到。
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){width="800"}
 
    >[!NOTE]
    >

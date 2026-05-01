@@ -1,19 +1,19 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides的新增功能（2023年9月版）
-description: 在2023年9月版的Adobe Experience Manager Guidesas a Cloud Service中了解新增功能和增强功能
+description: 了解Adobe Experience Manager Guides as a Cloud Service 2023年9月版的新增功能和增强功能
 exl-id: d185d27f-0cbb-4ec6-ac65-cb69f7572c3f
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager Guides as a Cloud Service 2023年9月版的新增功能
 
-本文介绍Adobe Experience Manager Guides版本2023年9月中的新增功能和增强功能(以后称为&#x200B;*AEM Guidesas a Cloud Service*)。
+本文介绍Adobe Experience Manager Guides版本2023年9月中的新增功能和增强功能（以后称为&#x200B;*AEM Guides as a Cloud Service*）。
 
 有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅[发行说明](release-notes-2023-9-0.md)。
 
@@ -41,14 +41,14 @@ AEM Guides提供开箱即用的连接器，帮助您连接数据源，使AEM Gui
 
 将引文插入主题后，您可以在Web编辑器中预览它们。 您还可以使用本机PDF发布包含引文的内容。
 
-![引用在面板中列出](assets/citation-panel.png){width="300" align="left"}
+![引用在面板中列出](assets/citation-panel.png){width="300"}
 
 *在“引文”面板中查看引文列表。*
 
 有关更多详细信息，请查看[添加和管理内容中的引文](../user-guide/web-editor-apply-citations.md)。
 
 
-## Publish到内容片段
+## 发布到内容片段
 
 内容片段是AEM中的离散内容片段。 它们是基于内容模型的结构化内容。 内容片段是纯内容，没有设计或布局信息。 它们可以独立于AEM支持的渠道进行创作和管理。 内容片段的模块化和重用性带来了更大的灵活性、一致性、效率和更简单的管理。
 
@@ -56,11 +56,11 @@ AEM Guides提供开箱即用的连接器，帮助您连接数据源，使AEM Gui
 
 利用AEM Guides和内容片段的强大功能，并在任何AEM站点中使用内容片段。 您还可以通过内容片段支持的API提取详细信息。
 
-用于发布内容片段的![选项](assets/content-fragment-publish.png){width="550" align="left"}
+用于发布内容片段的![选项](assets/content-fragment-publish.png){width="550"}
 
-*将主题Publish到内容片段。*
+*将主题发布到内容片段。*
 
-有关更多详细信息，请查看[Publish中的内容片段](../user-guide//publish-content-fragment.md)。
+有关详细信息，请查看[发布到内容片段](../user-guide//publish-content-fragment.md)。
 
 ## 审核增强功能
 
@@ -71,7 +71,7 @@ AEM Guides现在提供了改进的审核功能，具有以下功能：
 开展审查是AEM Guides的一项重要功能。 它有助于查看者查看分配给他们的文档。
 现在，通过在审阅面板的主题视图的搜索栏中输入标题或文件路径的文本的一部分来搜索主题。 您还可以选择查看所有主题或查看包含注释的主题。 默认情况下，可以查看审阅任务中存在的所有主题。 有关更多详细信息，请查看[查看主题](../user-guide/review-topics.md)。
 
-![在评论主题面板中搜索](assets/review-search-topic.png){width="800" align="left"}
+![在评论主题面板中搜索](assets/review-search-topic.png){width="800"}
 
 *在评论面板中搜索评论主题。*
 
@@ -83,15 +83,15 @@ AEM Guides现在提供了改进的审核功能，具有以下功能：
 
 
 
-## 本机PDF增强功能
+## 原生PDF增强功能
 
-2023年9月版本中完成了以下本机PDF增强，从而使AEM Guides成为一个更强大的产品：
+2023年9月版本中完成了以下本机PDF增强功能，从而使AEM Guides成为一个更强大的产品：
 
 
 
-### 对PDF输出中的页进行排序
+### 在PDF输出中排序页面
 
-您可以在PDF中显示或隐藏以下部分，还可以排列它们在最终PDF输出中的显示顺序：
+您可以在PDF中显示或隐藏以下部分，并且还可以排列它们在最终PDF输出中的显示顺序：
 
 * 目录
 * 章节和主题
@@ -102,13 +102,13 @@ AEM Guides现在提供了改进的审核功能，具有以下功能：
 * 引用
 * 页面布局
 
-如果不想在PDF输出中显示特定截面，可以通过关闭切换开关来隐藏该截面。
+如果不想在PDF输出中显示特定部分，则可以通过关闭切换开关来隐藏该部分。
 
 有关详细信息，请查看[页面顺序](../native-pdf/components-pdf-template.md#page-order)。
 
 ### 合并页面
 
-默认情况下，在本机PDF输出中，所有部分都从新页面开始。 现在，您可以将部分合并到其上一页或下一页。 此操作将发布与PDF输出中选择的页面一致的部分，并且中间没有分页符。
+默认情况下，在本机PDF输出中，所有部分都从新页面开始。 现在，您可以将部分合并到其上一页或下一页。 这会在PDF输出中发布选定页面的连续部分，并且中间没有分页符。
 
 有关更多详细信息，请在[页面顺序](../native-pdf/components-pdf-template.md#page-order)部分中查看&#x200B;**合并页面**&#x200B;功能说明。
 
@@ -148,7 +148,7 @@ AEM Guides现在提供了改进的审核功能，具有以下功能：
 
 您现在可以使用自定义选择器添加复杂样式。 新的Selector字段可帮助您添加除Class 、 Tag和Pseudo Class组合之外的自定义选择器。 例如，您可以为表内的所有超链接创建`table a.link`样式。
 
-![在本机pdf模板中添加样式](assets/add-styles-native-pdf.png){width="300" align="left"}
+![在本机pdf模板中添加样式](assets/add-styles-native-pdf.png){width="300"}
 
 *添加新样式的详细信息。*
 
@@ -172,22 +172,22 @@ AEM Guides现在提供了改进的审核功能，具有以下功能：
 ## 选择地图收藏集中的所有预设
 
 您不仅可以启用单个预设和所有文件夹配置文件预设，还可以一次性启用DITA映射的所有预设。
-![编辑地图集合](assets/edit-map-collection-cs.png){width="800" align="left"}\
+![编辑地图集合](assets/edit-map-collection-cs.png){width="800"}\
 *选择映射集合中的所有预设。*
 
 有关更多详细信息，请查看[使用映射集合生成输出](../user-guide/generate-output-use-map-collection-output-generation.md)。
 
 
-## 批量Publish Dashboard中的本机PDF支持
+## 批量发布功能板中的本机PDF支持
 
 
-借助AEM Guides的批量激活功能，您可以快速轻松地激活内容从创作到发布实例。 在“批量激活”映射中，您可以包含本机PDF输出预设、AEM站点、PDF、HTML5、自定义和JSON输出。
+借助AEM Guides的批量激活功能，您可以快速轻松地激活内容从创作到发布实例。 在“批量激活”映射中，您可以包含本机PDF输出预设、AEM Site、PDF、HTML5、自定义和JSON输出。
 有关详细信息，请查看[已发布内容的批量激活](../user-guide/conf-bulk-activation.md)。
 
 ## 改进的批量移动工具
 
 现在，作为管理员，您可以使用改进的批量移动工具将具有多个文件的文件夹从一个位置移动到另一个位置。
-可以使用“浏览文件”对话框选择要移动的源文件夹。 您还可以浏览以选择要移动源文件夹的目标位置。 选择某个字段附近的![信息图标](assets/info-icon.svg) {width="25" align="left"}以查看有关该字段的更多信息。
+可以使用“浏览文件”对话框选择要移动的源文件夹。 您还可以浏览以选择要移动源文件夹的目标位置。 选择某个字段附近的![信息图标](assets/info-icon.svg) {width="25"}以查看有关该字段的更多信息。
 
 有关详细信息，请查看[批量移动文件](../user-guide/authoring-file-management.md#move-files-bulk)。
 
@@ -196,7 +196,7 @@ AEM Guides现在提供了改进的审核功能，具有以下功能：
 
 使用上下文菜单快速预览文件（.dita、.xml、audio、video或image），而无需将其打开。 您现在可以调整预览窗格的大小，如果内容包含任何引用链接，则可以选择它，以在新选项卡中打开它。
 
-![预览窗格](assets/quick-preview_cs.png){width="800" align="left"}
+![预览窗格](assets/quick-preview_cs.png){width="800"}
 
 *在窗格中预览文件。*
 

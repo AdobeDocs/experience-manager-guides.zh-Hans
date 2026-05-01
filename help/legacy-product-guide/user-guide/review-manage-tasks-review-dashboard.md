@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -26,13 +26,13 @@ ht-degree: 0%
 
    此时将显示一个带有任务拼贴的“项目”面板。
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){width="800"}
 
 1. 单击&#x200B;**审核**&#x200B;图块中的三个圆点。
 
    此时将显示“审阅仪表板”。 仪表板列出了您已创建的所有审阅任务。
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){width="800"}
 
    “审阅仪表板”显示有关审阅任务的详细信息，如任务名称、开始审阅的人员、开始审阅的日期、截止日期、状态、尚未被作者接受或拒绝的新注释的数量以及审阅者的姓名。 这些任务按新建任务到旧任务的顺序列出。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## “任务”选项卡
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){width="800"}
 
 您可以在&#x200B;**任务**&#x200B;选项卡下执行以下操作：
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## “内容”选项卡
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){width="800"}
 
 您可以在&#x200B;**Content**&#x200B;选项卡下执行以下操作：
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ## “审阅者”选项卡 {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){width="800"}
 
 您可以在&#x200B;**审阅者**&#x200B;选项卡下执行以下操作：
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 在主“审阅仪表板”页面中，如果您选择审阅任务并单击&#x200B;**状态**，将显示审阅任务的状态报告：
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){width="800"}
 
 审阅任务的状态报告包含以下详细信息：
 

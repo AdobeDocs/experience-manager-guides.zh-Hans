@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 执行以下步骤以导入Schematron文件：
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/scematron-panel-add.png){width="300"}
 
 1. 在&#x200B;*存储库视图*&#x200B;中导航到所需的文件夹（您要上传文件的位置）。
 1. 单击&#x200B;**选项**&#x200B;图标以打开上下文菜单，然后选择&#x200B;**上传Assets**。
@@ -41,7 +41,7 @@ ht-degree: 0%
 * 地图中应至少有一个topicref。
 
 在Web编辑器中打开主题时，右侧会显示“架构验证”面板。 执行以下步骤以添加和验证主题或使用Schematron文件的映射：
-![](images/schematron-validate.png){width="300" align="left"}
+![](images/schematron-validate.png){width="300"}
 
 1. 单击架构图标()以打开架构面板。
 1. 使用添加Schematron文件添加Schematron文件。

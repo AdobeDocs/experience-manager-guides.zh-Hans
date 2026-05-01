@@ -4,9 +4,9 @@ description: 了解如何在产品培训和学习中编辑测试
 feature: Authoring
 role: User
 exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 双击测验以从“课程管理器”面板中将其打开。
 1. 您必须使用切换开关&#x200B;**锁定**&#x200B;测试。 这允许您编辑测验，任何人都不能对此测验进行任何更改。
 
-   ![](assets/quiz-lock.png){width="650" align="left"}
+   ![](assets/quiz-lock.png){width="650"}
 
 1. 您可以[向测验](./quiz-insert-questions.md)添加问题，也可以[插入题库](./insert-questions.md)中的问题。
 1. 若要保存您所做的工作，请使用&#x200B;**另存为新版本**&#x200B;创建新版本，或按`Ctrl+S`覆盖现有文件。

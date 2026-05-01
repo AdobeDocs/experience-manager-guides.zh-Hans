@@ -4,9 +4,9 @@ description: 了解在Experience Manager Guides中作为作者关闭审阅任务
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    **任务备注**&#x200B;对话框显示在右侧。
 
-   ![](images/task-comments-dialog-editor.png){width="350" align="left"}。
+   ![](images/task-comments-dialog-editor.png){width="350"}。
 4. 选择&#x200B;**更新任务**&#x200B;以对所选审阅任务执行进一步的操作。
 5. 在&#x200B;**更新任务**&#x200B;对话框中，选择以下操作之一：
 
@@ -52,22 +52,22 @@ ht-degree: 0%
 
    有关审阅通知如何触发的详细信息，请查看[了解审阅通知](./review-understanding-review-notifications.md)。
 
-   ![](images/update-task-dialog.png){width="350" align="left"}
+   ![](images/update-task-dialog.png){width="350"}
 
-   您也可以[使用“更新任务”对话框中提供的](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task)检查审阅状态&#x200B;**选项来检查审阅任务的状态**。 选择此选项将转到“审阅”仪表板，其中显示审阅任务的状态报告。
+   您也可以[使用“更新任务”对话框中提供的&#x200B;**检查审阅状态**&#x200B;选项来检查审阅任务的状态](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task)。 选择此选项将转到“审阅”仪表板，其中显示审阅任务的状态报告。
 
-   ![](images/check-review-status-icon.png){width="650" align="left"}
+   ![](images/check-review-status-icon.png){width="650"}
 
 6. 选择&#x200B;**确认**。
 
 
 作为审阅任务的作者或发起人，当您关闭任务时，“审阅”面板底部的&#x200B;**更新任务**&#x200B;按钮将更改为&#x200B;**已关闭**，这表示任务不再处于活动状态。
 
-![](images/review-task-status-closed-review-panel.png){width="350" align="left"}
+![](images/review-task-status-closed-review-panel.png){width="350"}
 
 此外，对于审阅任务的其他用户，审阅面板中存在的&#x200B;**更新任务**&#x200B;按钮保持禁用状态。 例如，作为审阅任务的审阅人之一，如果您在编辑器中打开该任务，则将禁用“更新任务”按钮，并显示消息&#x200B;**您无权处理该任务**。 只有审阅任务的发起者才有权从编辑器中更新任务。
 
-![](images/update-task-button-disabled.png){width="350" align="left"}
+![](images/update-task-button-disabled.png){width="350"}
 
 
 

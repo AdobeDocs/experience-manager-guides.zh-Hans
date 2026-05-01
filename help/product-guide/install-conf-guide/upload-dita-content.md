@@ -4,9 +4,10 @@ description: 了解如何使用WebDAV工具和FrameMaker在Experience Manager Gu
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53eb863a-094f-4445-ab4b-d5fca2249c30
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -81,7 +82,7 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
 
 1. 打开&#x200B;**连接管理器**&#x200B;对话框。
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. 输入以下详细信息以连接到AEM存储库：
 
@@ -94,7 +95,7 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
 
    成功建立连接后，AEM存储库中的Assets将显示在存储库管理器窗口中。
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    右键单击任何文件或文件夹可让您执行相关操作。 例如，如果右键单击文件夹，可以获得以下选项：上传文件、上传具有依赖关系的文件、上传整个文件夹等。
 

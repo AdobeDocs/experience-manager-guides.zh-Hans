@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中将任务标记为已完成审阅者。
 feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 打开分配给您的审阅任务。
 2. 从顶部选择&#x200B;**标记为完成**，如下所示：
 
-   ![](images/review-task-mark-as-done.png){width="350" align="left"}
+   ![](images/review-task-mark-as-done.png){width="350"}
 
    显示&#x200B;**完成任务**&#x200B;对话框。
 3. 在&#x200B;**完成任务**&#x200B;对话框中，为作者添加最终注释并选择&#x200B;**完成**。
@@ -35,20 +35,20 @@ ht-degree: 0%
 
    例如，作为查看者，您可以添加注释作为作者的跟进操作：
 
-   ![](images/complete-task-dialog-followup.png){width="350" align="left"}
+   ![](images/complete-task-dialog-followup.png){width="350"}
 
    或者，添加注释以指示任务已完成，如下所示：
 
-   ![](images/complete-task-dialog.png){width="350" align="left"}
+   ![](images/complete-task-dialog.png){width="350"}
 
 
 您已成功将任务标记为“已完成”，其状态现在设置为&#x200B;**已完成**。 将任务标记为完成后，不允许执行进一步的操作。 通知将发送给审阅任务的作者或发起人，以立即引起他们的注意。 有关如何触发审阅通知的更多详细信息，请查看[了解审阅通知](./review-understanding-review-notifications.md)。
 
-![](images/task-completed-status.png){width="350" align="left"}
+![](images/task-completed-status.png){width="350"}
 
 根据反馈，如果任务的作者或发起者决定[关闭审核任务](./review-close-review-task.md)，则审核UI上的任务状态将更改为&#x200B;**已关闭**。
 
-![](images/review-status-closed-review-ui.png){width="350" align="left"}
+![](images/review-status-closed-review-ui.png){width="350"}
 
 ## 查看任务级注释
 
@@ -56,11 +56,11 @@ ht-degree: 0%
 
 要从“审阅”UI访问任务级评论，请导航到左侧面板并选择&#x200B;**任务评论**&#x200B;图标。
 
-![](images/task-comments-icon.png){width="350" align="left"}
+![](images/task-comments-icon.png){width="350"}
 
 **任务备注**&#x200B;对话框显示在右侧。
 
-![](images/task-comments-reviewer.png){width="350" align="left"}
+![](images/task-comments-reviewer.png){width="350"}
 
 对话框中的注释按时间顺序显示，最近的注释显示在最前，最旧的注释显示在最后。 此顺序可帮助您跟踪一段时间内正在进行的对话。
 

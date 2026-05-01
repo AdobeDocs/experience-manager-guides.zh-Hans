@@ -4,9 +4,9 @@ description: 浏览Adobe Experience Manager Guides中编辑器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3653'
+source-wordcount: '3690'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,20 @@ ht-degree: 0%
 
 在打开的媒体文件选项卡的上下文菜单中，可以获取以下功能：
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 
 **单个DITA文件**
 
 在打开的文件选项卡的上下文菜单中，可以获取以下函数：
 
-![](images/single-file-context-menu.png){width="400" align="left"}
+![](images/single-file-context-menu.png){width="400"}
 
 **多个文件**
 
 打开多个文件时，上下文菜单中会提供更多选项：
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 上下文菜单中的各种选项说明如下：
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 
 ***添加到***：您可以从以下选项中进行选择：
 
-- **收藏集**：要将所选文件添加到收藏集，请选择&#x200B;**添加到\>收藏集**。 有关更多详细信息，请在&#x200B;**左侧面板**&#x200B;部分中查看[收藏集](web-editor-left-panel.md)功能描述。
+- **收藏集**：要将所选文件添加到收藏集，请选择&#x200B;**添加到\>收藏集**。 有关更多详细信息，请在[左侧面板](web-editor-left-panel.md)部分中查看&#x200B;**收藏集**&#x200B;功能描述。
 
-- **可重用内容**：要将所选文件复制到可重用内容列表，请选择&#x200B;**添加到\>可重用内容**。 有关更多详细信息，请在&#x200B;**左侧面板**&#x200B;部分中查看[可重用内容](web-editor-left-panel.md)功能说明。
+- **可重用内容**：要将所选文件复制到可重用内容列表，请选择&#x200B;**添加到\>可重用内容**。 有关更多详细信息，请在[左侧面板](web-editor-left-panel.md)部分中查看&#x200B;**可重用内容**&#x200B;功能说明。
 
 ***属性***
 
@@ -127,7 +127,7 @@ Generate the output for the selected file. Output can be generated only for file
 
   例如，以下屏幕快照中显示了以下提示之一：
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
 **损坏引用的视觉提示**
 
@@ -157,11 +157,11 @@ Experience Manager Guides提供了直观的对话框 — **选择文件**&#x200B
 
 通过文件路径浏览器，您可以快速定位并选择内容存储库中的特定文件。 此功能可用于向映射添加主题、链接图像或交叉引用、创建可重用内容等任务。
 
-![](images/select-file-dialog-new.png){width="350" align="left"}
+![](images/select-file-dialog-new.png){width="350"}
 
 启动文件浏览器时，**选择文件**&#x200B;对话框打开。 此对话框包含两个选项卡： **存储库**&#x200B;和&#x200B;**收藏集**。 默认情况下，“存储库”选项卡处于选中状态。
 
-![](images/select-file.png){width="650" align="left"}
+![](images/select-file.png){width="650"}
 
 **存储库选项卡中可用于文件浏览的功能**
 
@@ -169,17 +169,17 @@ Experience Manager Guides提供了直观的对话框 — **选择文件**&#x200B
 
 “存储库”选项卡提供了内容存储库中文件和文件夹的表格视图，使您能够更轻松地找到正确的文件路径。 您还可以使用顶部的痕迹导航和左侧的文件夹导航面板在文件夹中移动。
 
-![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+![](images/select-file-dialog-navigate-files.png){width="650"}
 
 **单个和多文件选择**
 
 要使用文件，只需选择该文件并选择&#x200B;**选择**。
 
-![](images/select-file-single-file-selection.png){width="650" align="left"}
+![](images/select-file-single-file-selection.png){width="650"}
 
 在某些情况下，您还可以从此路径浏览器对话框中选择多个文件。 例如，在浏览可重用内容的文件时，您可以选择多个文件并将其作为可重用内容的一部分。
 
-![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+![](images/select-file-multiple-file-selection.png){width="650"}
 
 目前，多个文件选择可用于可重用内容、主题引用、架构、输出预设（使用DITAVAL）和Workfront。
 
@@ -191,29 +191,29 @@ Experience Manager Guides提供了直观的对话框 — **选择文件**&#x200B
 
 您可以使用&#x200B;**预览**&#x200B;按钮预览您选择的文件，如下所示：
 
-![](images/select-file-preview-button.png){width="650" align="left"}
+![](images/select-file-preview-button.png){width="650"}
 
 所选文件的预览显示在右侧。
 
-![](images/select-file-dialog-preview.png){width="650" align="left"}
+![](images/select-file-dialog-preview.png){width="650"}
 
 对于多个选择，所有选定文件的预览将显示在“预览”面板中，以便轻松查看。
 
-![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+![](images/reusable-content-selection-left-panel.png){width="650"}
 
 您还可以使用&#x200B;**删除**&#x200B;图标从预览中删除某些文件。
 
-![](images/resusable-content-remove-preview.png){width="650" align="left"}
+![](images/resusable-content-remove-preview.png){width="650"}
 
 **搜索和筛选体验**
 
 在存储库中浏览文件时，您可以按名称、标题或所选路径中的内容搜索文件。 您可以在搜索中使用任意一个、两个或全部三个标准。 如果未选择任何标准，则结果将包括所有三个标准通用的结果。
 
-![](images/select-file-search.png){width="650" align="left"}
+![](images/select-file-search.png){width="650"}
 
 选择&#x200B;**筛选器搜索** \（![搜索筛选器图标](images/filter-search-icon.svg)\）图标以打开右侧的“筛选器”面板。
 
-![](images/select-file-filters.png){align="left"}
+![](images/select-file-filters.png)
 
 您可以使用以下选项来筛选文件并缩小搜索范围：
 
@@ -225,7 +225,7 @@ Experience Manager Guides提供了直观的对话框 — **选择文件**&#x200B
   >
   > 在某些情况下，**文件类型**&#x200B;筛选器已基于任务预应用于特定文件类型，无法更改。 例如，在浏览图像时，过滤器设置为仅显示图像文件，在创建可重用内容时，过滤器设置为仅显示主题和映射文件。 您仍然可以调整其他过滤器（如文档状态、标记或上次修改日期）来优化搜索结果。
 
-- **文档状态**：您可以根据文件的当前文档状态筛选搜索。 可用的筛选器值在`repositoryFilters`的`ui_config.json file`字段中定义，并与您当前使用的文件夹配置文件关联。
+- **文档状态**：您可以根据文件的当前文档状态筛选搜索。 可用的筛选器值在`ui_config.json file`的`repositoryFilters`字段中定义，并与您当前使用的文件夹配置文件关联。
 
   这意味着：
 
@@ -268,7 +268,7 @@ Experience Manager Guides提供了直观的对话框 — **选择文件**&#x200B
 
 使用&#x200B;**选择文件夹**&#x200B;对话框浏览文件夹，重点是为任务在存储库中选择正确的文件夹路径，例如创建新主题或为已发布内容指定输出位置。 它提供了清晰、树结构的文件夹视图，使导航直观并确保将内容放在正确的位置。
 
-![](images/select-path-dialog-new.png){width="300" align="left"}
+![](images/select-path-dialog-new.png){width="300"}
 
 
 ## 支持基于文章的发布
@@ -277,7 +277,7 @@ Experience Manager Guides提供了直观的对话框 — **选择文件**&#x200B
 
 ## 支持Markdown文档
 
-该编辑器允许您将Markdown文档\(.md\)与DITA文档一起使用。 您可以在编辑器中轻松创作和预览Markdown文档，还可以通过DITA映射编辑器将其添加到映射文件中。 有关更多详细信息，请通过编辑器[查看](web-editor-markdown-topic.md#)创作Markdown文档。
+该编辑器允许您将Markdown文档\(.md\)与DITA文档一起使用。 您可以在编辑器中轻松创作和预览Markdown文档，还可以通过DITA映射编辑器将其添加到映射文件中。 有关更多详细信息，请通过编辑器[&#128279;](web-editor-markdown-topic.md#)查看创作Markdown文档。
 
 ## 支持DITA术语主题
 
@@ -289,7 +289,7 @@ Experience Manager Guides提供了直观的对话框 — **选择文件**&#x200B
 
 Experience Manager Guides为您提供开箱即用的支持，以便通过与[MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)应用程序集成来插入MathML公式。 要插入MathML公式，请选择&#x200B;**元素**&#x200B;图标并键入mathml。 从列表中选择mathml元素时，将显示&#x200B;**插入MathML**&#x200B;对话框：
 
-![在mathml编辑器中插入mathml公式](images/insert-mathml-equation.png){width="550" align="left"}
+![在mathml编辑器中插入mathml公式](images/insert-mathml-equation.png){width="550"}
 
 使用MathML方程式工具，创建方程式并选择&#x200B;**插入**&#x200B;以将其添加到文档。 该公式使用浅灰色背景插入。
 
@@ -300,7 +300,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 当您保存包含公式的主题时，Experience Manager Guides会验证MathML公式。
 使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择&#x200B;**插入**，则会显示警告。
 
-![验证mathml公式](images/validate-mathml-equation.png){width="400" align="left"}
+![验证mathml公式](images/validate-mathml-equation.png){width="400"}
 
 如果插入包含语法错误的MathML公式，则在尝试保存主题时会发生验证错误。
 
@@ -314,7 +314,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 编辑器在主题的左下角显示元素的痕迹导航。 如果要使用其他元素交换或替换元素，则可以从痕迹导航的上下文菜单执行此操作。 例如，您可以将`p`元素与上下文中的`note`或任何其他有效元素交换。
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 在痕迹导航上，右键单击要替换的元素名称，然后从上下文菜单中选择重命名元素。 “重命名元素”对话框显示当前位置允许的所有有效元素。 在重命名元素对话框中，选择要使用的元素。 原始元素被替换为新元素。
 
@@ -338,7 +338,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 ### 取消包裹元素
 
-通过展开元素，可以从所选文本中删除元素标记并将其与其父元素合并。 例如，如果在`p`元素中有一个`note`元素，则可以取消换行`p`元素以直接在`note`元素中合并文本。 在主题痕迹导航的上下文菜单中，**取消环绕元素**&#x200B;选项可用。 若要取消环绕某个元素，请右键单击该元素以打开上下文菜单，最后选择&#x200B;**取消环绕元素**&#x200B;以删除该元素并将该元素的文本与其父元素合并。
+通过展开元素，可以从所选文本中删除元素标记并将其与其父元素合并。 例如，如果在`note`元素中有一个`p`元素，则可以取消换行`p`元素以直接在`note`元素中合并文本。 在主题痕迹导航的上下文菜单中，**取消环绕元素**&#x200B;选项可用。 若要取消环绕某个元素，请右键单击该元素以打开上下文菜单，最后选择&#x200B;**取消环绕元素**&#x200B;以删除该元素并将该元素的文本与其父元素合并。
 
 ## DITA元素的空格处理
 
@@ -353,13 +353,13 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 根据在“创作”、“Source”或“预览”模式中的定义以及最终发布的输出中的定义，支持并呈现包含换行符和空格的DITA元素。 以下屏幕截图显示了`msgblock`元素中的内容，其中换行符和空格\(indentation\)已被保留：
 
-![](images/new-line-support_cs.png){align="left"}
+![](images/new-line-support_cs.png)
 
 
 
 ## 在编辑器中处理不间断空格
 
-- 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)图标或&#x200B;**Alt** + **空格**&#x200B;快捷键在文档中插入不间断空格。  在编辑器中编辑主题时，这些不间断的空格会显示为指示符。 在&#x200B;**用户首选项**&#x200B;的&#x200B;**外观**&#x200B;选项卡中，可以使用[在创作模式下显示不间断空格指示符](./intro-home-page.md#user-preferences)选项关闭不间断空格的显示。
+- 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)图标或&#x200B;**Alt** + **空格**&#x200B;快捷键在文档中插入不间断空格。  在编辑器中编辑主题时，这些不间断的空格会显示为指示符。 在[用户首选项](./intro-home-page.md#user-preferences)的&#x200B;**外观**&#x200B;选项卡中，可以使用&#x200B;**在创作模式下显示不间断空格指示符**&#x200B;选项关闭不间断空格的显示。
 
 - 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**&#x200B;视图中，则不间断空格的内容将转换为空格。
 但是，如果您从&#x200B;**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
@@ -381,7 +381,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 如果给定主题或映射包含具有重复ID的元素，则&#x200B;**重复ID**&#x200B;按钮将显示在编辑器视图旁边的内容编辑区域的右下角。
 
-![](images/duplicate-element-IDs.png){width="350" align="left"}
+![](images/duplicate-element-IDs.png){width="350"}
 
 选择&#x200B;**重复ID**&#x200B;将打开一个弹出窗口，其中列出了所有重复ID。 您可以从弹出框中选择显示的ID，以导航到相应的元素，并使用唯一ID对其进行更新。
 
@@ -398,12 +398,12 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 - 对于大型文件，顶部会显示一条警告消息，如下面的代码片段所示。 此警报会根据uiconfig.json文件的&#x200B;**largeFileTagCount**&#x200B;参数中指定的值突出显示元素的数量。 默认情况下，**largeFileTagCount**&#x200B;设置为2500。
 
-![](images/add-toast-notification.png){width="600" align="left"}
+![](images/add-toast-notification.png){width="600"}
 
 
 - 此外，标签计数会显示在界面的底部栏中。 当您将鼠标悬停在此标记计数值上时，将会显示工具提示。 选择&#x200B;**了解更多**&#x200B;选项卡提供了有关处理大型文件的详细信息。
 
-![](images/add-toast-tag-count.png){width="600" align="left"}
+![](images/add-toast-tag-count.png){width="600"}
 
 
 - 警报消息仅适用于DITA文件，并且在所有视图（创作、Source和布局）中都可见。

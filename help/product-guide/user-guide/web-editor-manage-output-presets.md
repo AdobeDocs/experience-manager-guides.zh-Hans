@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中作为管理用户创建、编辑、重
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 选择&#x200B;**在映射控制台中打开**&#x200B;图标以在映射控制台中打开映射文件。
 1. 在“映射”控制台中，导航到&#x200B;**输出预设**&#x200B;选项卡，然后选择+图标以创建DITA映射的输出预设。
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. 在&#x200B;**添加预设**&#x200B;对话框中输入以下详细信息：
    - 类型

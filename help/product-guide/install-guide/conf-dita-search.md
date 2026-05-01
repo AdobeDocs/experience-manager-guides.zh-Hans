@@ -5,7 +5,7 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 1%
@@ -45,13 +45,13 @@ ht-degree: 1%
 
 1. 将&#x200B;**DITA元素谓词**&#x200B;拖放到搜索表单中的所需位置。
 
-   ![](assets/drag-search-predicate.png){width="650" align="left"}
+   ![](assets/drag-search-predicate.png){width="650"}
 
 1. 单击&#x200B;**完成**&#x200B;以保存更改。
 
    当您访问Assets UI中的过滤器选项时，您将获得DITA元素搜索过滤选项。
 
-   ![](assets/search-filter-asset-console.png){width="350" align="left"}
+   ![](assets/search-filter-asset-console.png){width="350"}
 
 
 ## 在Assets UI中添加基于UUID的搜索组件 {#id2034F04K05Z}
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 1. 搜索要向其授予访问权限的用户组或个人用户。 例如，要授予作者组中所有用户的访问权限，请在&#x200B;**筛选查询**&#x200B;字段中输入作者，然后按&#x200B;**Enter**。
 
-   ![](assets/authors-group-permission.png){width="350" align="left"}
+   ![](assets/authors-group-permission.png){width="350"}
 
 1. 选择&#x200B;**作者**&#x200B;组。
 
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 1. 授予对搜索文件夹的&#x200B;**读取**&#x200B;权限。
 
-   ![](assets/read-permission-authors.png){width="650" align="left"}
+   ![](assets/read-permission-authors.png){width="650"}
 
 1. 单击&#x200B;**保存**。
 

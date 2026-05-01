@@ -4,9 +4,9 @@ description: 探索在Adobe Experience Manager Guides中参加产品培训和学
 feature: Authoring
 role: User
 exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    有关详细信息，请查看[Adobe Experience Manager Guides主页体验](../user-guide/intro-home-page.md)。
 
-   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350"}
 
 ## 先决条件
 

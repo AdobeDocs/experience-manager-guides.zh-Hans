@@ -4,9 +4,9 @@ description: 了解如何导入和验证DITA主题、使用声明报表语句检
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 在编辑器中打开主题时，右侧会显示“架构验证”面板。 执行以下步骤以添加和验证主题或使用Schematron文件的映射：
 
-![](images/schematron-panel.png){width="350" align="left"}
+![](images/schematron-panel.png){width="350"}
 
 1. 选择架构图标，以打开架构面板。
 1. 使用&#x200B;**添加Schematron文件**&#x200B;添加Schematron文件。
@@ -48,7 +48,7 @@ ht-degree: 0%
    >
    > 添加无效的Schematron文件时，“验证”面板中将显示错误消息。
 
-   ![](images/schematron-panel-error.png){width="350" align="left"}
+   ![](images/schematron-panel-error.png){width="350"}
 
 1. 如果Schematron文件没有错误，则会添加该文件并将其列在验证面板中。 将显示包含错误的Schematron文件的错误消息。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 根据Schematron文件中定义的角色属性显示验证结果。 问题被分类为`Fatal`、`Error`、`Warn`或`Info`，验证面板中的每个类别都有可见计数。
 
-![](images/schematron-validation-errors.png){width="350" align="left"}
+![](images/schematron-validation-errors.png){width="350"}
 
 为了确定问题的严重性，将评估在相应Schematron文件中定义的角色属性的&#x200B;_case-senstive_&#x200B;值。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 **文件保存方案**
 
-保存文件依赖于&#x200B;**在** Workspace设置[中保存文件](../cs-install-guide/workspace-settings.md#validation)设置之前运行验证检查：
+保存文件依赖于&#x200B;**在[Workspace设置](../cs-install-guide/workspace-settings.md#validation)中保存文件**&#x200B;设置之前运行验证检查：
 
 * 启用后，在未解决`Fatal`或`Error`级别的问题之前，不允许保存文件。
 * 禁用后，即使存在`Fatal`或`Error`级问题，也不会执行验证检查，并且可以保存文件。

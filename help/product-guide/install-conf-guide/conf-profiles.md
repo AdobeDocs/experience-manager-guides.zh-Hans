@@ -4,9 +4,10 @@ description: 了解如何配置全局或文件夹级别的配置文件
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '5943'
+source-wordcount: '6078'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
 使用“参考线”设置中的“文件夹配置文件”图块，您可以在以下选项卡下配置设置：
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **常规**：“常规”选项卡仅在配置文件夹级别\（或项目/产品\）设置时可用。 您可以配置设置，例如将应用这些设置的文件夹路径以及具有创建或更新配置的管理权限的用户。
 
@@ -97,7 +98,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
    首次只显示“文件夹配置文件”页面和“全局配置文件”拼贴。
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. 单击&#x200B;**全局配置文件**&#x200B;拼贴。
 
@@ -126,7 +127,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
 1. 单击&#x200B;**创建**。
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. 在&#x200B;**创建文件夹配置文件**&#x200B;对话框中输入以下详细信息：
    - 文件夹配置文件的名称。
@@ -221,7 +222,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
    >[!IMPORTANT]
    >
-   > 专用的DTD文件应是自定义代码部署的一部分。 /apps下的DTD是产品部署的一部分，因此将被任何新版本的安装覆盖。 建议在项目文件夹的/var/dxml/dita\_resources下添加专用的DTD，并在DITA配置文件中包含DTD/目录路径。有关详细信息，请参阅[集成DITA专用化](dita-ot-specialization.md#id211MB0E00XA)。
+   > 专用的DTD文件应是自定义代码部署的一部分。 /apps下的DTD是产品部署的一部分，因此将被任何新版本的安装覆盖。 建议在项目文件夹的/var/dxml/dita\_resources下添加专用的DTD，并在DITA配置文件中包含DTD/目录路径。有关详细信息，请参阅[集成DITA专业化](dita-ot-specialization.md#id211MB0E00XA)。
 
 1. 使用包管理器下载/libs/fmdita/config/condAttrList.xml文件：
 
@@ -241,7 +242,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
    >[!IMPORTANT]
    >
-   > 专用的DTD文件应是自定义代码部署的一部分。 /etc下的DTD是产品部署的一部分，因此任何新版本的安装都会覆盖它。 建议在项目文件夹的/apps下添加专用的DTD，并在DITA配置文件中包含DTD/目录路径。有关详细信息，请参阅[集成DITA专用化](dita-ot-specialization.md#id211MB0E00XA)。
+   > 专用的DTD文件应是自定义代码部署的一部分。 /etc下的DTD是产品部署的一部分，因此任何新版本的安装都会覆盖它。 建议在项目文件夹的/apps下添加专用的DTD，并在DITA配置文件中包含DTD/catalog路径。有关详细信息，请参阅[集成DITA专业化](dita-ot-specialization.md#id211MB0E00XA)。
 
 1. 打开Adobe Experience Manager Web控制台配置页面。
 
@@ -255,7 +256,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
    /libs/fmdita/config/condAttrList.xml
 
-1. 在`config`节点内创建`apps`文件夹的覆盖节点。
+1. 在`apps`节点内创建`config`文件夹的覆盖节点。
 
 1. 导航到`apps`节点中的condAttrList.xml文件并将自定义属性添加到该文件中：
 
@@ -303,7 +304,7 @@ AEM Guides提供了7个现成的主题模板、2个DITA映射模板和3个PDF模
    >
    > 默认情况下，所有模板都存储在/content/dam/dita-templates文件夹中。 `dita-templates`文件夹包含用于存储主题、映射和PDF模板的`topics`、`maps`和`PDF`子文件夹。 您可以将自定义模板\(.dita、.xml或.ditamapfiles\)添加到默认模板文件夹中。 将模板添加到默认文件夹后，便可以将它们添加到全局或文件夹配置文件中。 有关使用Web编辑器创建自定义模板的详细信息，请参阅[创建自定义创作模板](#id1917D0EG0HJ)。
 
-   ![](assets/search-author-temp.png){width="800" align="left"}
+   ![](assets/search-author-temp.png){width="800"}
 
 1. 将所需主题、映射和PDF模板添加到您的配置文件。
 
@@ -311,7 +312,7 @@ AEM Guides提供了7个现成的主题模板、2个DITA映射模板和3个PDF模
 
    - 选择&#x200B;**搜索或类型**，然后输入或从下拉列表中选择模板的名称。 下拉列表包含所有默认模板以及您创建的任何新模板。
 
-     ![](assets/default-template-list.png){width="800" align="left"}
+     ![](assets/default-template-list.png){width="800"}
 
    - 单击&#x200B;**浏览**&#x200B;并从DAM中选择模板。
 
@@ -319,7 +320,7 @@ AEM Guides提供了7个现成的主题模板、2个DITA映射模板和3个PDF模
 
    选定的模板即添加到模板列表中。
 
-   ![](assets/author-templ-added-list.png){width="800" align="left"}
+   ![](assets/author-templ-added-list.png){width="800"}
 
    >[!NOTE]
    >
@@ -365,7 +366,7 @@ AEM Guides附带7个现成的创作模板和2个DITA映射模板。 您可以选
    >
    > 默认情况下，所有创作模板都存储在/content/dam/dita-templates文件夹中。 `dita-templates`文件夹包含用于存储主题和映射模板的`topics`和`maps`子文件夹。 您可以将自定义模板\(.dita、.xml或.ditamapfiles\)添加到默认模板文件夹中。 将模板添加到默认文件夹后，便可以将它们添加到全局或文件夹配置文件中。 有关使用Web编辑器创建自定义模板的详细信息，请参阅[创建自定义创作模板](#id1917D0EG0HJ)。
 
-   ![](assets/search-author-temp.png){width="550" align="left"}
+   ![](assets/search-author-temp.png){width="550"}
 
 1. 添加所需主题并将模板映射到您的配置文件。
 
@@ -373,7 +374,7 @@ AEM Guides附带7个现成的创作模板和2个DITA映射模板。 您可以选
 
    - 选择&#x200B;**搜索或类型**，然后输入或从下拉列表中选择模板的名称。 下拉列表包含所有默认模板以及您创建的任何新模板。
 
-     ![](assets/default-template-list.png){width="350" align="left"}
+     ![](assets/default-template-list.png){width="350"}
 
    - 单击&#x200B;**浏览**&#x200B;并从DAM中选择模板。
 
@@ -381,7 +382,7 @@ AEM Guides附带7个现成的创作模板和2个DITA映射模板。 您可以选
 
    选定的模板即添加到模板列表中。
 
-   ![](assets/author-templ-added-list.png){width="550" align="left"}
+   ![](assets/author-templ-added-list.png){width="550"}
 
    >[!NOTE]
    >
@@ -536,7 +537,7 @@ Adobe Experience Manager Guides中的AI助手是一款功能强大的、由AI驱
 
 1. 在配置文件页面上，选择&#x200B;**AI配置**&#x200B;选项卡。
 
-   全局配置文件中的![AI配置选项卡](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   全局配置文件中的![AI配置选项卡](assets/global-profile-AI-configuration-cs.png) {width="800"}
 
 1. 选择&#x200B;**编辑**。
 1. 作为管理员，您可以配置以下设置：
@@ -679,7 +680,7 @@ Adobe Experience Manager Guides中的AI助手是一款功能强大的、由AI驱
 
 >[!TAB 内部部署]
 
-此设置控制Web编辑器的工具栏和其他用户界面元素。 单击&#x200B;**下载**&#x200B;图标可在本地系统上下载最新的ui\_config.json文件。 然后，您可以对文件做出更改并上传相同的文件。 单击&#x200B;**下载默认值**&#x200B;图标可在本地系统上下载默认的ui\_config.json文件。 您始终可以下载默认文件、对其进行更改和上传。根据上传文件的位置（全局或文件夹级别的配置文件），将相应地应用更改。 有关如何使用ui\_config.json文件自定义XML编辑器的更多详细信息，请参阅[自定义工具栏](customize-toolbar.md#)。
+此设置控制Web编辑器的工具栏和其他用户界面元素。 单击&#x200B;**下载**&#x200B;图标可在本地系统上下载最新的ui\_config.json文件。 然后，您可以对文件做出更改并上传相同的文件。 单击&#x200B;**下载默认值**&#x200B;图标可在本地系统上下载默认的ui\_config.json文件。 您始终可以下载默认文件、对其进行更改和上传。根据您上传文件的位置（全局或文件夹级别的配置文件），将相应地应用更改。 有关如何使用ui\_config.json文件自定义XML编辑器的更多详细信息，请参阅[自定义工具栏](customize-toolbar.md#)。
 
 >[!ENDTABS]
 
@@ -747,8 +748,3 @@ Adobe Experience Manager Guides中的AI助手是一款功能强大的、由AI驱
 **根图**
 
 如果您的作者使用特定的根映射，则可以在此处浏览并选择该根映射。 请注意，您只能为文件夹级别的配置文件定义根映射。
-
-
-
-
-

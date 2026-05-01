@@ -1,9 +1,10 @@
 ---
 title: AEM Guides中外部数据源集成的架构
 description: 了解AEM Guides中外部数据源集成的架构。
-source-git-commit: b0cf652023770eda24ea27ff105ed6dc2cdd1f08
+exl-id: ce99033a-0ce1-4696-9d4c-89187273b0bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ ht-degree: 0%
 - 产品信息管理(PIM) /产品生命周期管理(PLM)
    - Pimcore、Salsify、Akeneo和Informatica
 - 产品管理系统
-   - JIRA和Microsoft Azure DevOps讨论区(ADO)
+   - JIRA和Microsoft Azure DevOps Boards (ADO)
 - 联机分析处理(OLAP)和分析系统
 
 ### Experience Manager Guides中的集成
@@ -53,7 +54,6 @@ ht-degree: 0%
 1. **设置数据源连接器**
    - 数据源连接器用作与外部数据源建立连接的接口。 必须配置连接器以建立连接并包括身份验证方法，如`Basic Auth`或`API key Auth`。 所有配置详细信息（包括加密信息）都安全地存储在Adobe Experience Manager中。
    - 连接器层旨在实现可扩展性，允许您创建用于连接到Experience Manager Guides未提供现成可用的各种系统的实施。
-
      ![连接器层](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -99,11 +99,9 @@ ht-degree: 0%
         ```
 
       - 模板
-
-        ![模板引擎](assets/data-source-TemplatingEngine.png){width="800" align="left"}
+        ![模板引擎](assets/data-source-TemplatingEngine.png){width="800"}
       - 从相同数据源但不同模板生成的数据
-
-        ![已生成数据](assets/data-source-templates-topics.png){width="800" align="left"}
+        ![已生成数据](assets/data-source-templates-topics.png){width="800"}
 
 1. **使用模板生成内容**
    - 您可以从已创建的模板生成内容。
@@ -113,8 +111,8 @@ ht-degree: 0%
       - DITA主题+映射：您还可以生成包含该主题的完整映射，然后使用该数据直接发布，或将其用作其他数据中的&#x200B;*可重用组件*。
 
 
-1. **Publish集成的内容**
-   - 发布是Experience Manager Guides的OOTB功能，您可以直接发布从外部系统生成的所有数据作为PDF或AEM站点输出。
+1. **发布集成的内容**
+   - 发布是Experience Manager Guides的OOTB功能，您可以从PDF或AEM站点输出直接发布从外部系统生成的所有数据。
 
 >[!MORELIKETHIS]
 >

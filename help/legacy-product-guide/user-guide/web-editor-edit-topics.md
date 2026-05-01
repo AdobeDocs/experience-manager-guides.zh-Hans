@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Experience Manager Guides还允许您跨元素选择内容。 选择内容后，
      > 也可以通过选择所选内容的上下文菜单来查看“带元素的环绕”对话框。
 
    - 从对话框中选择元素。 选定的内容将封装在该元素下。 例如，如果您在段落中选择内容，然后从&#x200B;**用元素**&#x200B;环绕对话框`<note>`中选择元素，则所选内容将显示在注释下。\
-     ![环绕元素对话框](./images/surround-element.png) {width="300" align="left"}
+     ![环绕元素对话框](./images/surround-element.png) {width="300"}
 
 ## 编辑文件时刷新浏览器
 
@@ -70,11 +70,11 @@ Experience Manager Guides还允许您跨元素选择内容。 选择内容后，
 
 AEM Guides提供工作副本指示器，用于显示文件的当前\（工作副本\）是否与保存的版本同步。 如果您对当前副本进行了任何更改并且尚未保存文件，则会在主题的文件选项卡上显示一个\*标记以及标题。 此指示器用于提醒您保存所做的更改，并在保存文件时消失。
 
-![工作副本指示器](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![工作副本指示器](images/working-copy-text-update-indicator.png){width="550"}
 
 AEM Guides还指示文件的最后保存的\(working\)副本是否与保存的版本同步。 如果在工作副本和上次保存的版本之间有一些未保存的更改，则会在主题文件选项卡右上角显示一个\*标记以及版本信息。 此指示器用于提醒您保存并从文件的当前\(working\)副本创建版本。
 
-![版本更新指示器](images/version-update-indicator.png){width="550" align="left"}
+![版本更新指示器](images/version-update-indicator.png){width="550"}
 
 
 ## 在创作和Source模式下打开锁定的文件
