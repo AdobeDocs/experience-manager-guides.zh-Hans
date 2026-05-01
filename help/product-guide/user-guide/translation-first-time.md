@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 查看Adobe Experience Manager文档中的[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)，了解有关与第三方翻译服务集成的详细信息。
+   > 查看Adobe Experience Manager文档中的[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hans)，了解有关与第三方翻译服务集成的详细信息。
 
 1. 选择&#x200B;**保存并关闭**&#x200B;以保存更新的文件夹属性。
 

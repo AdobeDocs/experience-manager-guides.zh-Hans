@@ -16,7 +16,7 @@ ht-degree: 0%
 
 标记允许您对内容存储库以及已发布输出中的内容进行分组或分类。 如果您在内容中应用了标记，则可以轻松地在DITA映射中找到可以帮助您创作内容的相关主题。 利用已发布的输出，最终用户将能够借助适当的标记更快地找到适当的内容。
 
-AEM Guides允许您通过单击几下来标记DITA内容。 您可以使用批量标记功能将多个标记应用于多个主题、DITA映射或子映射。 或者，您也可以对单个主题应用标记。 标记是AEM中的本机功能，您可以在AEM文档的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)部分中找到有关创建和管理标记的更多详细信息。
+AEM Guides允许您通过单击几下来标记DITA内容。 您可以使用批量标记功能将多个标记应用于多个主题、DITA映射或子映射。 或者，您也可以对单个主题应用标记。 标记是AEM中的本机功能，您可以在AEM文档的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=zh-Hans)部分中找到有关创建和管理标记的更多详细信息。
 
 默认情况下，AEM Guides不向存储AEM存储库中所有标记的文件夹上的任何用户授予读取权限。 要使用AEM存储库中定义的标记，您必须要求系统管理员授予对存储标记的文件夹的访问权限。
 
