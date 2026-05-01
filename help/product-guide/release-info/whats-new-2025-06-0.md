@@ -16,7 +16,7 @@ ht-degree: 3%
 
 有关此版本中修复的问题列表，请查看 [2025.06.0 版本中已修复的问题](fixed-issues-2025-06-0.md)。
 
-了解2025.06.0版本](../release-info/upgrade-instructions-2025-06-0.md)的[升级说明。
+了解2025.06.0版本[&#128279;](../release-info/upgrade-instructions-2025-06-0.md)的升级说明。
 
 ## 会话超时提示以防止意外内容丢失
 

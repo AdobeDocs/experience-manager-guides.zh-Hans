@@ -16,7 +16,7 @@ ht-degree: 1%
 有关此版本中修复的问题列表，请查看 [2024.2.0 版本中已修复的问题](fixed-issues-2024-2-0.md)。
 
 
-了解2024.2.0版本](upgrade-instructions-2024-2-0.md)的[升级说明。
+了解2024.2.0版本[&#128279;](upgrade-instructions-2024-2-0.md)的升级说明。
 
 
 

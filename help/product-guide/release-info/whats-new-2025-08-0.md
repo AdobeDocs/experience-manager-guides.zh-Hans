@@ -16,7 +16,7 @@ ht-degree: 1%
 
 有关此版本中修复的问题列表，请查看 [2025.08.0 版本中已修复的问题](fixed-issues-2025-08-0.md)。
 
-了解2025.08.0版本](../release-info/upgrade-instructions-2025-08-0.md)的[升级说明。
+了解2025.08.0版本[&#128279;](../release-info/upgrade-instructions-2025-08-0.md)的升级说明。
 
 
 ## 增强的审核工作流程
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 启用&#x200B;**AI助手**&#x200B;切换后，管理员可以选择在&#x200B;**创作**&#x200B;选项卡下显示哪些快速操作，从而帮助简化作者交互。 这些可见性设置特定于每个文件夹配置文件。
 
-在Experience Manager Guides的编辑器设置](../cs-install-guide/workspace-settings.md#general)中了解有关[AI助手的详细信息。
+在Experience Manager Guides的编辑器设置[&#128279;](../cs-install-guide/workspace-settings.md#general)中了解有关AI助手的详细信息。
 
 ![](assets/authoring-quick-actions.png){width="350"}
 
@@ -93,4 +93,4 @@ Experience Manager Guides的最新发布增强功能现在将新的`system_confi
 
 此外，在编辑器工具栏中，一些用于启用或禁用跟踪更改、标记和不中断空格的快速访问切换现已分组到菜单下拉列表中的&#x200B;**显示**&#x200B;选项下，以提高可用性。
 
-有关详细信息，请在编辑器](../user-guide/web-editor-toolbar.md#menu-dropdown)中查看[工具栏。
+有关详细信息，请在编辑器[&#128279;](../user-guide/web-editor-toolbar.md#menu-dropdown)中查看工具栏。

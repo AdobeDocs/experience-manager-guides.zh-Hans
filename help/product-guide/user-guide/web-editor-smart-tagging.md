@@ -39,4 +39,4 @@ Adobe Experience Manager Guides具有添加智能标记的功能。 您可以使
 
 *联系您的客户成功团队以在环境中启用此功能。 这并非现成支持的一部分。*
 
-**父主题：**[&#x200B;管理元数据](manage-metadata.md)
+**父主题：**&#x200B;[&#x200B;管理元数据](manage-metadata.md)

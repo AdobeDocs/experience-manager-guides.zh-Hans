@@ -76,4 +76,4 @@ Adobe Experience Manager Guides提供了一个DITA项目模板，您可以使用
 1. 选择&#x200B;**打开**&#x200B;以打开您的项目页面。
 
 
-**父主题：**[&#x200B;要审阅的简介](review.md)
+**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)

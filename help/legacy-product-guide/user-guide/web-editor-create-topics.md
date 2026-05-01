@@ -61,4 +61,4 @@ AEM Guides允许您创建以下类型的DITA主题：主题、任务、概念、
 >
 > 创建DITA主题后，继续保存对工作副本所做的更改，并在完成主题更新后创建新版本。
 
-**父主题：**[&#x200B;创建和预览主题](create-preview-topics.md)
+**父主题：**&#x200B;[&#x200B;创建和预览主题](create-preview-topics.md)

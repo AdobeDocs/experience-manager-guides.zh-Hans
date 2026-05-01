@@ -118,7 +118,7 @@ ht-degree: 0%
 >
 > 仅当在&#x200B;**Workspace设置** > **常规**&#x200B;中启用学习内容功能时，此设置才可用。
 
-此设置允许您管理编辑器](../user-guide/web-editor-left-panel.md)中[左侧面板中存在的创作和发布模板。 您可以添加、删除或重新排序创作和输出模板，作者和发布者随后可以访问这些模板。
+此设置允许您管理编辑器[&#128279;](../user-guide/web-editor-left-panel.md)中左侧面板中存在的创作和发布模板。 您可以添加、删除或重新排序创作和输出模板，作者和发布者随后可以访问这些模板。
 
 ![](assets/templates-settings.png){width="350"}
 

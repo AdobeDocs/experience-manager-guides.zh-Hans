@@ -97,4 +97,4 @@ Adobe Experience Manager Guides为管理员提供了报告功能，可在文档�
 
 报告在收件箱中下载后，您还可以选择报告，并使用顶部的打开图标打开所选报告。
 
-**父主题：**[&#x200B;报告简介](reports-intro.md)
+**父主题：**&#x200B;[&#x200B;报告简介](reports-intro.md)
