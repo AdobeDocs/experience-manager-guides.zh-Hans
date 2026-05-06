@@ -14,7 +14,7 @@ ht-degree: 20%
 
 此基准评估了新发布API在各种输出预设以及在AEM Guides as a Cloud Service中增加地图大小时的性能。 目标是了解可扩展性行为并发现性能瓶颈。
 
-发布服务使用具有自动缩放功能的基于[微服务的体系结构](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance)，允许通过额外的pod处理更大的工作负载。
+发布服务使用具有自动缩放功能的基于[微服务的体系结构](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance)，允许通过额外的pod处理更大的工作负载。
 
 ## 执行环境
 
