@@ -1,0 +1,47 @@
+---
+title: 配置元数据属性的忽略列表
+description: 了解如何在AEM Guides中为元数据属性配置忽略列表。
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: f74c71d6a4a293bfbae55e9e57c62b7478d0a88a
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 1%
+
+---
+
+# 配置元数据属性的忽略列表
+
+编辑文件时，对&#x200B;**文件属性**&#x200B;下可用或后端应用的元数据字段所做的任何更改都会触发文档版本的星号(*)。 要防止系统生成的元数据更新影响此指示器，管理员可以为元数据属性配置忽略列表。
+
+使用[配置覆盖](download-install-config-override.md#)中提供的说明创建配置文件。 在配置文件中，提供以下（属性）详细信息以配置脏版本&#x200B;**的**&#x200B;忽略元数据属性：
+
+
+| PID | 属性键 | 属性值 |
+|---|------------|--------------|
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.dirtychecker.ignoremetadata` | `<comma-separated list / array of metadata properties>` |
+
+## 忽略列表中的默认元数据属性
+
+AEM Guides在忽略列表中包含一组默认的元数据属性。 您可以根据需要修改此列表以添加或删除元数据属性。
+
+* “jcr:mixinTypes”，
+* “jcr:primaryType”，
+* “jcr:frozenMixinTypes”，
+* “jcr:frozenPrimaryType”，
+* “jcr:frozenUuid”，
+* “jcr:uuid”，
+* “dam:extracted”，
+* “jcr:lastModified”，
+* “jcr:lastModifiedBy”，
+* &quot;dc:modified&quot;，
+* “dam:sha1”，
+* “dam:size”，
+* &quot;指南:wordCount&quot;，
+* “dam:scene7UploadTimeStamp”，
+* &quot;dam:scene7LastModified&quot;
+
+只有未包括在忽略列表中的元数据属性才考虑将文档的版本标记为已修改。
+
+**父主题：**[&#x200B;自定义Web编辑器](customize-overview.md)

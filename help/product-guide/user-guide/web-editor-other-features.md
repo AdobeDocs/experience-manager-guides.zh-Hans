@@ -4,9 +4,9 @@ description: 浏览Adobe Experience Manager Guides中编辑器的其他功能。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '3690'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,34 @@ ht-degree: 0%
 
 在打开的文件选项卡的上下文菜单中，可以获取以下函数：
 
+>[!BEGINTABS]
+
+>[!TAB 新编辑器]
+
+![](images/single-file-context-menu-editor-2-0.png){width="400"}
+
+>[!TAB 旧编辑器]
+
 ![](images/single-file-context-menu.png){width="400"}
+
+>[!ENDTABS]
 
 **多个文件**
 
 打开多个文件时，上下文菜单中会提供更多选项：
 
+>[!BEGINTABS]
+
+>[!TAB 新编辑器]
+
+
+![](images/multiple-files-context-menu-editor-2-0.png){width="550"}
+
+>[!TAB 旧编辑器]
+
 ![](images/multiple-files-context-menu.png){width="550"}
+
+>[!ENDTABS]
 
 上下文菜单中的各种选项说明如下：
 
@@ -144,6 +165,90 @@ Generate the output for the selected file. Output can be generated only for file
 >[!NOTE]
 >
 > 对于图像、音频或视频文件，文件浏览对话框默认为文件的位置，而不是上次使用的位置。
+
+## 在新编辑器中处理表
+
+新编辑器允许您使用各种上下文操作直接在内容中创建、设置和组织表格。
+
+本节将介绍新编辑器中可用的各种表格创作功能。
+
+**使用上下文菜单修改表**
+
+在表格单元格内右键单击时，将显示上下文菜单。 根据您正在使用的表类型，以下选项可用。
+
+![](images/table-context-menu.png){width="550"}
+
+- 插入行、列或单元格
+
+- 水平或垂直拆分单元格（对简单表不可用）
+
+- 向右或向下合并单元格（对简单表不可用）
+
+- 删除行或列
+
+**使用上下文工具栏设置文本格式和对齐方式**
+
+选择表格中的内容或单元格时，将显示上下文工具栏。 工具栏提供了与您的选择相关的选项。
+
+- 选择单元格内容以访问以下格式设置选项：
+
+  ![](images/text-formatting-options-table.png){width="550"}
+
+  使用“粗体”、“斜体”或“下划线”选项设置文本格式。
+- 要访问单个单元格的上下文工具栏，请使用`Ctrl+click` for Windows和`Command+click` for macOS。
+
+  ![](images/cell-selection-contextual-toolbar.png){width="550"}
+
+- 同样，您还可以选择多个单元格并使用上下文工具栏同时应用文本格式和对齐方式。
+
+  用于单行或多行选择的可用选项：
+
+  ![](images/set-alignment-rows.png){width="550"}
+
+   - 水平文本对齐方式（对简单表不可用）
+   - 垂直文本对齐方式（对简单表不可用）
+   - 在上方插入行
+   - 在下方插入行
+   - 删除行
+   - 合并单元格（对简单表不可用）
+
+  用于单列或多列选择的可用选项：
+
+  ![](images/set-alignment-columns.png){width="550"}
+
+   - 水平文本对齐方式（对简单表不可用）
+   - 垂直文本对齐方式（对简单表不可用）
+   - 在上方插入行
+   - 在下方插入行
+   - 删除行
+   - 在上方插入列
+   - 在下方插入列
+   - 删除列
+   - 合并单元格（对简单表不可用）
+
+- 选择表格以将文本格式和对齐应用于整个表格。
+
+  ![](images/text-alignment-table.png){width="550"}
+
+- 使用交互加号按钮添加行或列
+
+  要在表的末尾添加新行，请将鼠标悬停在最后一行上并选择&#x200B;**+**&#x200B;按钮。 新行将添加到表的底部。
+
+  ![](images/add-row.png){width="550"}
+
+  同样，将鼠标悬停在最后一列上并选择&#x200B;**+**&#x200B;按钮以在表的最右侧添加新列。
+
+  ![](images/add-column.png){width="550"}
+
+- 使用插入选项向表中添加多个行或列（对简单表不可用）
+
+  要将多个行或列添加到表中，请先选择要添加的行或列数，然后选择插入行（上方或下方）或插入列（左侧或右侧）选项。 根据您的选择，向表中添加的行数或列数相同。
+
+- 拖放行和列（对简单表不可用）
+
+  使用拖放功能轻松移动表中的行和列。 拖动行或列时，该行或列显示为一个半透明的背景，表示正在移动它。 一条蓝线突出显示释放时将放置行或列的目标位置。
+
+  ![](images/drag-and-drop-table-rows.png){width="550"}
 
 ## 在Experience Manager Guides中浏览文件和文件夹
 
@@ -277,7 +382,7 @@ Experience Manager Guides提供了直观的对话框 — **选择文件**&#x200B
 
 ## 支持Markdown文档
 
-该编辑器允许您将Markdown文档\(.md\)与DITA文档一起使用。 您可以在编辑器中轻松创作和预览Markdown文档，还可以通过DITA映射编辑器将其添加到映射文件中。 有关更多详细信息，请通过编辑器[&#128279;](web-editor-markdown-topic.md#)查看创作Markdown文档。
+该编辑器允许您将Markdown文档\(.md\)与DITA文档一起使用。 您可以在编辑器中轻松创作和预览Markdown文档，还可以通过DITA映射编辑器将其添加到映射文件中。 有关更多详细信息，请通过编辑器](web-editor-markdown-topic.md#)查看[创作Markdown文档。
 
 ## 支持DITA术语主题
 
@@ -298,7 +403,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 ### 在MathML编辑器中验证公式
 
 当您保存包含公式的主题时，Experience Manager Guides会验证MathML公式。
-使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择&#x200B;**插入**，则会显示警告。
+使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择**插入**，则会显示警告。
 
 ![验证mathml公式](images/validate-mathml-equation.png){width="400"}
 
@@ -314,7 +419,19 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 编辑器在主题的左下角显示元素的痕迹导航。 如果要使用其他元素交换或替换元素，则可以从痕迹导航的上下文菜单执行此操作。 例如，您可以将`p`元素与上下文中的`note`或任何其他有效元素交换。
 
+>[!BEGINTABS]
+
+>[!TAB 新编辑器]
+
+![](images/rename-element-editor-2-0.png){width="400"}
+
+>[!TAB 旧编辑器]
+
+
 ![](images/rename-element.png){width="400"}
+
+
+>[!ENDTABS]
 
 在痕迹导航上，右键单击要替换的元素名称，然后从上下文菜单中选择重命名元素。 “重命名元素”对话框显示当前位置允许的所有有效元素。 在重命名元素对话框中，选择要使用的元素。 原始元素被替换为新元素。
 
@@ -361,8 +478,8 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 - 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)图标或&#x200B;**Alt** + **空格**&#x200B;快捷键在文档中插入不间断空格。  在编辑器中编辑主题时，这些不间断的空格会显示为指示符。 在[用户首选项](./intro-home-page.md#user-preferences)的&#x200B;**外观**&#x200B;选项卡中，可以使用&#x200B;**在创作模式下显示不间断空格指示符**&#x200B;选项关闭不间断空格的显示。
 
-- 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**&#x200B;视图中，则不间断空格的内容将转换为空格。
-但是，如果您从&#x200B;**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
+- 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**视图中，则不间断空格的内容将转换为空格。
+但是，如果您从**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
 
 
 ## 自动生成元素ID
@@ -392,11 +509,19 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 ## 在编辑器中处理大文件
 
+>[!NOTE]
+>
+> 本节仅适用于旧编辑器。 使用新编辑器，通过更快的加载和更多响应式交互，以及对撤消/重做支持和脏标记的支持，改进了大型复杂主题的编辑体验。
+
 提出了改善大文件处理能力的关键功能：
 
 - 为了提高性能，某些功能（如撤消、重做、大纲面板和脏标记）将被禁用。 建议将主题分成较小的主题以获得最佳体验。
 
 - 对于大型文件，顶部会显示一条警告消息，如下面的代码片段所示。 此警报会根据uiconfig.json文件的&#x200B;**largeFileTagCount**&#x200B;参数中指定的值突出显示元素的数量。 默认情况下，**largeFileTagCount**&#x200B;设置为2500。
+
+  >[!NOTE]
+  >
+  > 此警报消息仅适用于旧编辑器，在该编辑器中根据配置的`largeFileTagCount`参数显示。 在新编辑器中，大文件可以无缝加载，而不会触发任何警报。 此外，在旧编辑器中不工作的相关功能在新编辑器中正常工作。
 
 ![](images/add-toast-notification.png){width="600"}
 
@@ -408,4 +533,5 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 - 警报消息仅适用于DITA文件，并且在所有视图（创作、Source和布局）中都可见。
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

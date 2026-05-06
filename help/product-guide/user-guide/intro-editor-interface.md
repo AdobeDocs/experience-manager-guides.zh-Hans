@@ -3,9 +3,10 @@ title: Experience Manager Guides编辑器界面概述
 description: 了解Experience Manager Guides编辑器界面
 feature: Authoring
 role: User
-source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
+exl-id: 6c95a527-776e-47d1-b414-2f023af12fca
+source-git-commit: 6197375aa51a6b8206f59bc84ab852ce8ab10eb8
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '98'
 ht-degree: 1%
 
 ---
@@ -14,7 +15,21 @@ ht-degree: 1%
 
 本文概述编辑器界面以及Experience Manager Guides编辑器中可用的各种功能。
 
+>[!BEGINTABS]
+
+>[!TAB 新编辑器]
+
+此视图显示内容在新编辑器中的呈现方式
+
+![](images/editor-overview-2-0.png)
+
+>[!TAB 旧编辑器]
+
+此视图显示内容在旧编辑器中呈现的方式
+
 ![](images/editor-overview.png)
+
+>[!ENDTABS]
 
 编辑器界面分为以下部分或区域：
 

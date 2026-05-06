@@ -4,9 +4,9 @@ description: 了解Experience Manager Guides编辑器界面中可用的各种设
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。 在Cloud Service设置中，此选项已重命名为&#x200B;**Workspace设置**。 在&#x200B;**编辑器设置**&#x200B;下可用的所有现有配置选项保持不变。
+> 在内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。 在Cloud Service设置中，此选项已重命名为&#x200B;**Workspace设置**。 在&#x200B;**编辑器设置**下可用的所有现有配置选项保持不变。
 > ![内部部署](assets/editor-settings-on-prem.png){width="650"}的编辑器设置
 
 
@@ -82,7 +82,17 @@ ht-degree: 0%
    - **在条件面板中显示主题方案**：选择此项可在条件面板中查看主题方案。 如果取消选择此选项，则定义的条件将显示在条件面板中。
 
 - **拼写检查**
-有两个选项 — **AEM拼写检查**&#x200B;和&#x200B;**浏览器拼写检查**。 默认情况下，编辑器使用浏览器拼写检查功能，其中拼写检查使用浏览器的内置词典执行。 您可以切换到AEM拼写检查以使用Adobe Experience Manager的词典，也可以自定义该词典以添加自定义单词列表。 有关自定义AEM词典的详细信息，请在“安装和配置AEM as a Cloud Service”中查看[自定义Adobe Experience Manager Guides的默认词典](../install-conf-guide/customize-aem-default-dictionary.md)部分。
+
+  有两个选项：AEM拼写检查和浏览器拼写检查。
+
+   - **浏览器拼写检查**：默认情况下，编辑器使用浏览器拼写检查功能，其中使用浏览器的内置词典执行拼写检查。
+
+   - **AEM拼写检查**：您可以切换到AEM拼写检查以使用Adobe Experience Manager的词典，也可以自定义该词典以添加您的自定义单词列表。 有关自定义AEM词典的详细信息，请查看[自定义AEM的默认词典](../install-conf-guide/customize-aem-default-dictionary.md)。
+
+     >[!NOTE]
+     >
+     > AEM拼写检查使用在文件的语言属性中选择的语言，如果未为文件指定语言，则拼写检查将回退到AEM服务器语言。
+     >为确保拼写检查结果准确，所选语言的词典必须在AEM中可用。 如果所配置语言的所需字典不可用，则拼写检查默认为`en_us`。
 
 
 ## 面板
@@ -262,9 +272,9 @@ ht-degree: 0%
 
 工作区设置中的![元数据选项卡](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
 您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。

@@ -4,18 +4,32 @@ description: 了解编辑器中的选项卡栏。 了解Adobe Experience Manager
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 4d7daf0dc3c6c915701e60d6811822df9f6a64aa
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
 
 # 编辑器中的选项卡栏
 
-选项卡栏位于编辑器界面的顶部，通过该栏可访问以下功能：
+>[!INFO]
+>
+> 本主题适用于新编辑器和旧编辑器。 虽然核心功能保持一致，但内容中使用适用的选项卡和标注，指出用户界面、术语和交互中的差异。
+
+选项卡栏位于编辑器界面的顶部，通过该栏可访问各种文件级功能。
+
+>[!BEGINTABS]
+
+>[!TAB 新编辑器]
+
+![](./images/web-editor-tab-bar-editor-2-0.png)
+
+>[!TAB 旧编辑器]
 
 ![](./images/web-editor-tab-bar.png)
+
+>[!ENDTABS]
 
 **选项卡**
 
@@ -23,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 作为管理员，您还可以选择在选项卡中按文件名查看文件列表。 在&#x200B;**用户首选项**&#x200B;中选择&#x200B;**编辑器文件显示配置**&#x200B;节的[文件名](./intro-home-page.md#user-preferences)选项。
+> 作为管理员，您还可以选择在选项卡中按文件名查看文件列表。 在[用户首选项](./intro-home-page.md#user-preferences)下的&#x200B;**编辑器文件显示配置**&#x200B;节中选择&#x200B;**文件名**&#x200B;选项。
 
 选择“文件”选项卡将打开一个上下文菜单，其中具有“另存为新版本”、“复制”、“查找位置”、“添加到”、“属性”、“拆分”、“下载为PDF”和“关闭”选项。
 
@@ -57,4 +71,6 @@ ht-degree: 0%
 >
 > 如果在内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下继续显示为&#x200B;**设置**。
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+- **编辑器设置**：转到“编辑器设置”对话框，您可以在其中自定义单个作者级别的编辑器行为。 利用该功能，可在创作过程中控制标记、注释及其他编辑器级别设置的可见性和行为。 有关详细信息，请查看[编辑器设置](./config-editor-settings.md)。
+
+**父主题：**[&#x200B;编辑器简介](web-editor.md)
