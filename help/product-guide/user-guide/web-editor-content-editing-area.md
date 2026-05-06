@@ -39,4 +39,4 @@ ht-degree: 0%
 >
 > 如果正在处理映射文件，则内容编辑区域将显示不同的选项或视图。 有关详细信息，请查看[映射编辑器功能](./map-editor-advanced-map-editor.md)。
 
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
