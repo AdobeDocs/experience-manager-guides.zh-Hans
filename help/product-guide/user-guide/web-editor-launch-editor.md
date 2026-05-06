@@ -4,14 +4,18 @@ description: 了解如何从Adobe Experience Manager Guides的AEM导航页面、
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 # 启动编辑器 {#id2056B0140HS}
+
+>[!INFO]
+>
+> 本主题适用于新编辑器和旧编辑器。 虽然核心功能保持一致，但内容中使用适用的选项卡和标注，指出用户界面、术语和交互中的差异。
 
 您可以从以下位置启动编辑器：
 
@@ -85,9 +89,23 @@ ht-degree: 0%
 
    ![](images/edit-topic-from-quick-action_cs.png)
 
-   将在编辑器中打开主题。
+将在编辑器中打开主题。
 
-   ![](images/edit-mode.png)
+>[!BEGINTABS]
+
+>[!TAB 新编辑器]
+
+此视图显示内容在新编辑器中的呈现方式
+
+![](images/edit-mode-editor-2-0.png)
+
+>[!TAB 旧编辑器]
+
+此视图显示内容在旧编辑器中呈现的方式
+
+![](images/edit-mode.png)
+
+>[!ENDTABS]
 
 您还可以在Assets UI中打开映射文件，并启动编辑器以编辑映射文件中的主题。
 
@@ -124,13 +142,25 @@ ht-degree: 0%
 
    ![](images/map-console-open-in-editor.png)
 
-   将在编辑器中打开包含主题的映射文件进行编辑。
-
-   ![](images/map-console-edit-topics.png)
+将在编辑器中打开包含主题的映射文件进行编辑。
 
 
+>[!BEGINTABS]
+
+>[!TAB 新编辑器]
+
+在新编辑器中映射编辑模式：
+
+![](images/map-console-edit-topics-editor-2-0.png)
+
+>[!TAB 旧编辑器]
+
+在旧编辑器中映射编辑模式：
+
+![](images/map-console-edit-topics.png)
 
 
+>[!ENDTABS]
 
 
 **父主题**： [编辑器简介](web-editor.md)

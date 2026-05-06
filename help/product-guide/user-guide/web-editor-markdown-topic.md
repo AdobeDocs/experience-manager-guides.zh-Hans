@@ -4,10 +4,10 @@ description: 从编辑器中创作Markdown文档。 了解如何在AEM Guides中
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -32,6 +32,7 @@ Markdown是一种轻量级的标记语言，可帮助您将格式元素添加到
    >[!NOTE]
    >
    > 如果升级，您需要将Markdown模板添加到当前使用的文件夹配置文件中。 您可以[从编辑器](./web-editor-features.md#templates)中创建新的Markdown模板，或者使用现有的Markdown模板进行创作。 有关如何在Experience Manager Guides中添加创作模板的详细信息，请查看[配置全局或文件夹级别的配置文件](../cs-install-guide/conf-folder-level.md)。
+
 1. 选择&#x200B;**创建**。
 
    Markdown主题将在选定的路径中创建，并会打开以进行编辑。

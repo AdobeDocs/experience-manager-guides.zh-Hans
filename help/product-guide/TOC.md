@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
-source-wordcount: '3316'
+source-wordcount: '3342'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 7%
       - 云服务 {#cloud-release-notes}
          - {hide-from-toc}[部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2026版 {#2026-releases}
+            - 2026.05.0发行版 {#2605-release}
+               - [新增功能](./release-info/whats-new-2026-05-0.md)
+               - [修复的问题](./release-info/fixed-issues-2026-05-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2026-05-0.md)
             - 2026.04.0发行版 {#2604-release}
                - [新增功能](./release-info/whats-new-2026-04-0.md)
                - [修复的问题](./release-info/fixed-issues-2026-04-0.md)
@@ -229,6 +233,7 @@ ht-degree: 7%
          - [使用数据源中的数据](./user-guide/web-editor-content-snippet.md)
          - [文档状态](./user-guide/web-editor-document-states.md)
          - [使用标签](./user-guide/web-editor-use-label.md)
+         - [编辑器设置](./user-guide/config-editor-settings.md)
       - 映射编辑器 {#map-editor}
          - [映射编辑器简介](./user-guide/map-editor.md)
          - [创建映射](./user-guide/map-editor-create-map.md)
@@ -392,7 +397,7 @@ ht-degree: 7%
          - [关键概念、角色和权限以及先决条件](./user-guide/authoring.md)
          - [上载文件](./user-guide/authoring-upload-existing-files.md)
          - [管理文件和文件夹](./user-guide/authoring-file-management.md)
-         - [处理资产](./user-guide/asset-processor.md)
+         - [处理资源](./user-guide/asset-processor.md)
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
@@ -664,6 +669,7 @@ ht-degree: 7%
          - [为Cloud Service配置粘贴表的显示](./install-conf-guide/conf-pasted-tables.md)
          - [为Cloud Service配置单主题PDF生成](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [在Cloud Service的Web编辑器中配置翻译功能](./install-conf-guide/conf-translation-editor.md)
+         - [为Cloud Service配置元数据属性的忽略列表](./install-conf-guide/conf-metadata-prop.md)
       - On-Premise的编辑器设置 {#editor-on-prem-settings}
          - [为内部部署配置其他特殊字符](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [为内部部署的签入和签出图标配置标题](./install-conf-guide/conf-checkin-checkout-title.md)
@@ -778,6 +784,7 @@ ht-degree: 7%
             - 小组件 {#framework-widgets}
                - [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+            - [编辑器2.0的扩展框架更改](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - 快速入门 {#getting-started}
             - [简介](./guides-ui-extensions/getting-started/introduction.md)
             - [安装指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -813,7 +820,7 @@ ht-degree: 7%
          - [使用JWT身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
          - [使用OAuth身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [配置Edge Delivery Services (Beta)](./knowledge-base/publishing/configure-eds.md)
-         - [在AEM Cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
+         - [在AEM Cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
       - 工作流 {#workflows}
          - [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 翻译 {#translation}

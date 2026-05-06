@@ -4,14 +4,18 @@ description: 了解如何使用Adobe Experience Manager Guides中的自定义模
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
 
 # 创建主题 {#id2056AL00O5Z}
+
+>[!INFO]
+>
+>本主题适用于新编辑器和旧编辑器。 虽然核心功能保持一致，但内容中使用适用的选项卡和标注，指出用户界面、术语和交互中的差异。
 
 Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题、任务、概念、引用、术语表、DITAVAL、Markdown等。 除了基于现成模板创建主题之外，您还可以定义自定义模板。 必须将这些模板添加到文件夹配置文件中，才能在模板选择Blueprint和编辑器中显示。
 
@@ -45,11 +49,25 @@ Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题
 
 4. 选择&#x200B;**创建**。
 
-   ![](images/create-topic-dialog-new.png){width="300"}
+   ![](images/create-topic-dialog-new.png){width="350"}
 
 该主题在指定的路径中创建。 此外，该主题将在编辑器中打开以进行编辑。
 
+>[!BEGINTABS]
+
+>[!TAB 新编辑器]
+
+此视图显示内容在新编辑器中的呈现方式。
+
+![](images/new-topic-editor-new-editor-2-0.png)
+
+>[!TAB 旧编辑器]
+
+此视图显示内容在旧编辑器中呈现的方式。
+
 ![](images/new-topic-editor.png)
+
+>[!ENDTABS]
 
 ## 从Assets UI创建主题
 
@@ -83,9 +101,13 @@ Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题
 
 **其他信息**
 
-1. 从Assets UI **创建** \> **DITA主题**&#x200B;或编辑器创建的每个新主题都分配了一个唯一的主题ID。 此ID的值是文件名本身。 此外，新文档将保存为DAM中主题的最新工作副本。 在保存新创建主题的修订版本之前，您不会在“版本历史记录”中查看任何版本号。 如果打开主题进行编辑，则工具栏右上角将显示版本信息：
+>[!INFO]
+>
+> UI可能会因您使用的编辑器而异。
 
-   ![](images/topic-version-none_cs.png){width="550"}
+1. 从Assets UI **创建** \> **DITA主题**&#x200B;或编辑器创建的每个新主题都分配了一个唯一的主题ID。 此ID的值是文件名本身。 此外，新文档将保存为DAM中主题的最新工作副本。 在保存新创建主题的修订版本之前，您不会在“版本历史记录”中查看任何版本号。 如果打开主题进行编辑，则工具栏右上角将显示版本信息：
+_
+   ![](images/version-none.png){width="550"}
 
 2. 新创建的主题的版本信息显示为&#x200B;*none*。 保存新版本时，会为其分配一个版本号1.0。
 
