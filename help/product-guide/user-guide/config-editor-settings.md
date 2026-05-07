@@ -3,7 +3,7 @@ title: 编辑器设置
 description: 了解如何在AEM Guides中配置编辑器设置。
 feature: Web Editor
 role: User
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 编辑器设置
 
->[!INFO]
+>[!NOTE]
 >
-> 本文适用于新编辑器。 联系AEM Guides客户成功团队以在您的环境中启用新编辑器。
+> 本文仅适用于新编辑器。 要在您的环境中启用此功能，请联系AEM Guides客户成功团队。
 
 编辑器设置提供了一个集中的配置面板，允许您在单个作者级别自定义编辑器行为。 它在创作过程中提供了更大的灵活性、一致性和控制能力。
 
