@@ -3,7 +3,7 @@ title: Adobe Experience Manager Guides 2024年版路线图
 description: 获取有关Adobe Experience Manager Guides内部部署和Adobe Experience Manager Guides as a Cloud Service的实时版本和即将发行的版本的信息
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: e55a9484cd9a4d03355d98708d4f0f7727c1d1cc
+source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 32%
@@ -33,7 +33,7 @@ Experience Manager Guides as a Cloud Service的发行计划如下：
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 修复的问题 | 状态 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.05.0 <br> [（AEM版本 — 25821）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026 年 5 月 11-13 日 | [此处](whats-new-2026-05-0.md) | [此处](upgrade-instructions-2026-05-0.md) | [此处](fixed-issues-2026-05-0.md) | 已更新 |
+| Adobe Experience Manager Guides 2026.05.0 <br> [（AEM版本 — 25892）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026 年 5 月 11-13 日 | [此处](whats-new-2026-05-0.md) | [此处](upgrade-instructions-2026-05-0.md) | [此处](fixed-issues-2026-05-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.04.0 <br> [（AEM版本 — 25194）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026年4月06日至08日 | [此处](whats-new-2026-04-0.md) | [此处](upgrade-instructions-2026-04-0.md) | [此处](fixed-issues-2026-04-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.01.0 <br> [（AEM版本 — 24288）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026 年 2 月 9-11 日 | [此处](whats-new-2026-01-0.md) | [此处](upgrade-instructions-2026-01-0.md) | [此处](fixed-issues-2026-01-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2025.11.0 <br> [（AEM版本 — 23385）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2025 年 17 月 11 - 19 日 | [此处](whats-new-2025-11-0.md) | [此处](upgrade-instructions-2025-11-0.md) | [此处](fixed-issues-2025-11-0.md) | 已更新 |
