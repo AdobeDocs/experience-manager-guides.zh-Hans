@@ -6,11 +6,21 @@ role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
 TQID: https://experienceleague.adobe.com/o2K7oBKJLUkB43dMNcQ1iS1rpNKjFu6dvgO-HY37Vvg
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ed9d83c9-e55d-4a67-9667-8e31871715a7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ed9d83c9-e55d-4a67-9667-8e31871715a7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1052
@@ -46,7 +56,7 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 
 1. 在&#x200B;**生成内容片段**&#x200B;对话框中，在&#x200B;**常规**&#x200B;和&#x200B;**映射**&#x200B;选项卡下填写以下详细信息。
 
-   **常规**选项卡
+   **常规**&#x200B;选项卡
    ![在“发布为内容片段”对话框中添加片段模型和映射详细信息](images/generate-content-fragment.png)
    *添加路径、名称、标题和条件筛选以将主题或其元素发布为内容片段。*
 
@@ -77,7 +87,7 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 
    * **模型**：选择要用于创建内容片段的内容片段模型。 将从已在Experience Manager Guides服务器上配置的文件夹中选取模型。
    * **映射**：您可以查看应用了ID属性的主题元素。 将主题元素拖动到内容片段模型中存在的字段。
-如果存在内容片段，右侧会填充已发布的内容片段内容。 如有必要，可以用主题内容覆盖这些内容。 您还可以选择**撤消**&#x200B;以还原映射更改。
+如果存在内容片段，右侧会填充已发布的内容片段内容。 如有必要，可以用主题内容覆盖这些内容。 您还可以选择&#x200B;**撤消**&#x200B;以还原映射更改。
 
 
      >[!NOTE]

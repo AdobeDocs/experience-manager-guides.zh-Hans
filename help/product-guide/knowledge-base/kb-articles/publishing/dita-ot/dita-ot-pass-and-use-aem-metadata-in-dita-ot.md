@@ -3,11 +3,19 @@ title: 将AEM Assets元数据传播到DITA-OT插件生成的输出
 description: 在AEM中配置DITA-OT插件和内容以将元数据推送到生成的输出
 exl-id: ba9db5a1-f499-48d9-976c-528fe56fd619
 TQID: https://experienceleague.adobe.com/tK5b6Z1zdJVa7ghEx4CEYELjpSO2D1ZJVdWKd3NNxvg
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 971
@@ -28,7 +36,7 @@ ht-degree: 0%
 ## 背景
 
 借助AEM Guides，您可以使用DITA-OT插件通过配置的插件发布到您选择的输出格式，并且
-您还可以将在AEM DAM中管理的资源的元数据传递给DITA-OT进程，以便在生成的输出中使用它 — 请参阅有关如何设置ditamap/主题以通过输出预设传递元数据的文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)[
+您还可以将在AEM DAM中管理的资源的元数据传递给DITA-OT进程，以便在生成的输出中使用它 — 请参阅有关如何设置ditamap/主题以通过输出预设传递元数据的文档[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## 假设
@@ -71,8 +79,8 @@ ht-degree: 0%
 ##### 了解metadata.xml
 
 - 此文件包含已发布的所有资源的列表，每个资源具有：
-   - 路径元素]的DITA目录[id属性中的文件路径
-   - _元数据_&#x200B;元素]下的元数据属性值对[的列表
+   - 路径元素&rbrack;的DITA目录&lbrack;id属性中的文件路径
+   - _元数据_&#x200B;元素&rbrack;下的元数据属性值对&lbrack;的列表
 
 ```
         <Path id="topics\about-this-document.dita">

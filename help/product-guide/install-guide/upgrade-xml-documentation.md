@@ -6,11 +6,22 @@ feature: Installation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: cdab8659-8d50-4417-b6fd-762f347c13ee
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 9267
@@ -69,7 +80,7 @@ ht-degree: 1%
 
 
 
-****先决条件****
+**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides升级过程之前，请确保您已：
 
@@ -142,7 +153,7 @@ ht-degree: 1%
 
 如果您使用的是版本4.0、4.1或4.1.x，则可以直接升级到版本4.2。
 
-****先决条件****
+**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.2升级过程之前，请确保您具有：
 
@@ -318,7 +329,7 @@ ht-degree: 1%
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****先决条件****
+**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.2.1升级过程之前，请确保您具有：
 
@@ -495,7 +506,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****先决条件****
+**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.3.0升级过程之前，请确保您具有：
 
@@ -553,7 +564,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****先决条件****
+**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.3.1升级过程之前，请确保您具有：
 
@@ -794,7 +805,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****先决条件****
+**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.4.0升级过程之前，请确保您具有：
 
@@ -987,7 +998,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 在此升级过程中，由于`'order'`值从1000更改为50，因此您需要将现有的自定义重写器（如果有）与`'fmdita-rewriter'`合并。
 
 
-**父主题：**[&#x200B;下载并安装](download-install.md)
+**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
 
 
 ## 升级到版本4.6.0
@@ -1002,7 +1013,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****先决条件****
+**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 4.6.0升级过程之前，请确保您具有：
 
@@ -1157,7 +1168,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-****先决条件****
+**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
 
 在开始Experience Manager Guides 5.0.0升级过程之前，请确保您具有：
 

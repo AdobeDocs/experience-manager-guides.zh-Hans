@@ -6,11 +6,25 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/IkHZuSR5DLwAFy2ll9n0MN2syoqjScq7oUh7pRiQyjA
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: baa3aa24-d162-4a57-b73a-d27341145083id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: df6fa66f-4542-4a6d-90ca-9f146eb5d494id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: baa3aa24-d162-4a57-b73a-d27341145083
+  - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 5886
@@ -338,7 +352,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 ### 在AEM站点输出中为已删除的页面配置版本控制
 
-生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;****选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
+生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;**&#x200B;**&#x200B;选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
 
 执行以下步骤可停止为要删除的页面创建版本：
 

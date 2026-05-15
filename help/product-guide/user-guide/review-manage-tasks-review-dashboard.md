@@ -5,8 +5,11 @@ exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1440
@@ -143,4 +146,4 @@ ht-degree: 0%
 - 在所有主题上发表的评论总数。 若有多个正在审查的主题，则每个主题的评论数都以\（在方括号中\）的形式与主题名称相对应。
 - 查看者上次访问任何主题的日期。
 
-**父主题：**[&#x200B;要审阅的简介](review.md)
+**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)

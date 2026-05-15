@@ -3,10 +3,18 @@ title: 发行说明 |Adobe Experience Manager Guides 5.0.0版的升级说明
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides的5.0.0版本。
 exl-id: 763db247-133e-40c0-807a-2f965b1ddb2f
 TQID: https://experienceleague.adobe.com/0CNevtZOBMBZ3Nvtk60KTkKKoraZ-PfeAVau1tyWmSY
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 412
@@ -74,4 +82,4 @@ ht-degree: 5%
 >
 >在升级AEM版本之前，必须安装Experience Manager Guides Service Pack。
 
-有关详细信息，请查看Experience Manager Guides内部部署版本](../install-guide/upgrade-xml-documentation.md)的[升级说明。
+有关详细信息，请查看Experience Manager Guides内部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升级说明。
