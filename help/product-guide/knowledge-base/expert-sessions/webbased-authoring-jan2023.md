@@ -4,9 +4,27 @@ description: 了解如何使用Web编辑器创作结构化内容。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 feature: Web Editor, Troubleshooting
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+TQID: https://experienceleague.adobe.com/Y0T419aijRZIgrdc2wUo2ooCCLV01ZCLFI6Nh8nPNx0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: 241
 ht-degree: 1%
 
 ---
@@ -50,7 +68,7 @@ AEM Guides附带用于创作结构化内容的内置Web编辑器。 您可以使
 >
 > 此会话中显示的功能在以下版本的AEM Guides上可用：
 > - 内部部署4.1.3或更高版本
-> - Cloud Service2211及更高版本
+> - Cloud Services 2211及更高版本
 
 ## 联系我们
 

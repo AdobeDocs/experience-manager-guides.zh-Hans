@@ -1,19 +1,30 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年2月版
-description: Adobe Experience Manager Guidesas a Cloud Service的2月版
+title: 发行说明 | Adobe Experience Manager Guides as a Cloud Service，2023年2月版
+description: Adobe Experience Manager Guides as a Cloud Service 2月版
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/8alpUFz4njJtpUZrGcZ5wdrbmqSGOjSVqaHX1T4YeJ4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: 1445
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager Guides as a Cloud Service 2023年2月版的新增功能
 
-本文介绍Adobe Experience Manager Guides版本2023年2月中的新增功能和增强功能(后称为&#x200B;*AEM Guidesas a Cloud Service*)。
+本文介绍Adobe Experience Manager Guides版本2023年2月中的新增功能和增强功能（后称为&#x200B;*AEM Guides as a Cloud Service*）。
 
 有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅[发行说明](release-notes-2023-2-0.md)文章。
 
@@ -120,29 +131,29 @@ AEM Guides允许您在映射中搜索包含特定文本的文件。 搜索到的
 
 现在，AEM Guides允许您在“设置”中选择&#x200B;**在编辑器中使用标题和映射管理器**&#x200B;选项。 如果选择此选项，则在编辑器或DITA映射管理器中打开文件时，文件的标题将显示在文件的选项卡上。 如果不选择此选项，则文件的UUID将显示在文件的选项卡上。
 
-## AEM Guides基于微服务的发布as a Cloud Service
+## AEM Guides as a Cloud Service基于微服务的发布
 
 新的发布微服务使您能够同时在AEM Guides as a Cloud Service上运行大型发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。
 
-对于每个发布请求，AEM Guides as a Cloud Service会运行一个单独的容器，该容器会根据用户请求水平缩放。 这使您能够运行多个发布请求并获得改进的性能。
+对于每个发布请求，AEM Guides as a Cloud Service会运行一个单独的容器，该容器会根据用户请求水平扩展。 这使您能够运行多个发布请求并获得改进的性能。
 
-有关更多详细信息，请参阅[为AEM Guidesas a Cloud Service配置新的基于微服务的发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md)。
+有关详细信息，请参阅[为AEM Guides as a Cloud Service配置新的基于微服务的发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md)。
 
-## 本机PDF | 在PDF输出中添加自定义书签
+## 原生PDF |在PDF输出中添加自定义书签
 
-现在，您可以在最终PDF输出中为特定内容添加自定义书签以便轻松导航。 这将添加到从DITA映射中的主题或节标题创建的目录。
+现在，您可以在最终PDF输出中为特定内容添加自定义书签以方便导航。 这将添加到从DITA映射中的主题或节标题创建的目录。
 
-## 本机PDF | 对目录条目和主题内容应用自定义样式
+## 原生PDF |对目录条目和主题内容应用自定义样式
 
 AEM Guides提供了对目录条目或PDF输出中的特定主题应用自定义样式的功能。 例如，您可以更改目录中的文本颜色和主题标题。 您还可以在主题的整个内容中应用样式。
 
 
-## 本机PDF | 设置脚注组件中页面标记的样式
+## 原生PDF |在脚注组件中设置页面标记的样式
 
 现在，您可以在脚注中设置页面标记的样式。 例如，您可以添加括号或更改其颜色。 这些样式可帮助用户轻松识别文档中的页面标记。
 
-## 本机PDF | 更改栏以指示目录中已更改的主题
+## 原生PDF |更改栏以指示目录中已更改的主题
 
-AEM Guides现在允许您快速识别PDF输出目录中的已更改主题。  它会在目录中已更改的主题左侧显示更改栏。 您可以单击目录中的主题并查看详细更改。
+AEM Guides现在允许您快速识别PDF输出目录中的更改主题。  它会在目录中已更改的主题左侧显示更改栏。 您可以单击目录中的主题并查看详细更改。
 
 <img src="assets/change-marker-toc.png" alt="目录中的更改标记 " width="500">

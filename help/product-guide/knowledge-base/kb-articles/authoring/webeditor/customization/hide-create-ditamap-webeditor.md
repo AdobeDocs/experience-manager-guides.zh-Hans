@@ -2,9 +2,23 @@
 title: 对特定用户或组隐藏“文件夹”上下文菜单选项中的创建DitaMap选项。
 description: 了解如何通过隐藏特定用户/组的文件夹上下文菜单中的“DitaMap”选项来自定义编辑器
 exl-id: 796bfe3a-3950-4ade-9215-c33534791055
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/fAMBEOKlPA4KHsE81zfI-6EJ6zwaQOgRfx0w-cx-mmw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 571
 ht-degree: 0%
 
 ---
@@ -130,7 +144,7 @@ controller: {
 
 - Experience League[&#128279;](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)上的&#x200B;**文档** - 
 
-- **已记录Experience League[&#128279;](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)上的常见用例** - 
+- **在Experience League上记录常见用例** - [&#128279;](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - 在GIT[&#128279;](https://github.com/adobe/guides-extension/tree/sc-expert-session)上有&#x200B;**公共存储库（带有示例）** - 。 参阅分支sc-expert-session
 

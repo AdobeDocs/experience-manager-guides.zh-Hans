@@ -5,9 +5,21 @@ exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/XDVopMV3mqDipQ1P3FgfJPquykDrl1trrZYd2S-KLpw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: 1096
 ht-degree: 2%
 
 ---
@@ -68,10 +80,10 @@ public static void zipMapWithDependents(Session session,
 | 名称 | 类型 | 描述 |
 |----|----|-----------|
 | `session` | javax.jcr.Session | 有效的JCR会话。 |
-| `sourcePath` | 字符串 | 需要下载的DITA映射文件的路径\(在AEM存储库中\)。 |
-| `outputStream` | java.io.OutputStream | 要将ZIP写入的流。 |
+| `sourcePath` | 字符串 | 需要下载的DITA映射文件的路径\（在AEM存储库中\）。 |
+| `outputStream` | java.io.OutotStream | 要将ZIP写入的流。 |
 | `baseline` | 字符串 | 用于检索版本化内容的基线的标题。<br> **注意：**&#x200B;该值区分大小写。 |
-| flatFS | 布尔值 | \(Optional\)如果设置为true，则在ZIP文件中返回文件的平面结构。 例如，如果DITA映射引用多个文件夹中的内容，则所有引用的文件都将提取到单个文件夹中。 如果存在同名文件，则通过添加数字后缀来重命名这些文件。 所有引用\（在DITA映射和主题中\）都会自动处理，因为它们会根据平面文件夹结构中文件的新位置进行更新。 如果设置为false，则文件夹结构将保持不变。 如果DITA映射从多个位置引用文件，则所有这些位置也会在ZIP文件中创建。 恢复ZIP文件时，会在目标位置创建精确的文件夹结构。 <br>此参数的默认值为false。 |
+| flatFS | 布尔值 | \(Optional\)如果设置为true，则在ZIP文件中返回文件的平面结构。 例如，如果DITA映射引用多个文件夹中的内容，则所有引用的文件都将提取到单个文件夹中。 如果存在同名文件，则通过添加数字后缀来重命名这些文件。 所有引用\（在DITA映射和主题中\）都会自动处理，因为它们会根据平面文件夹结构中文件的新位置进行更新。 如果设置为false，则文件夹结构将保持不变。 如果DITA映射从多个位置引用文件，则所有这些位置也会在ZIP文件中创建。 恢复ZIP文件时，会在目标位置创建精确的文件夹结构。<br> 此参数的默认值为false。 |
 
 **返回**：
 ZIP的内容将写入`outputStream`。
@@ -105,9 +117,9 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 | 名称 | 类型 | 描述 |
 |----|----|-----------|
 | `session` | javax.jcr.Session | 有效的JCR会话。 |
-| `sourcePath` | 字符串 | 需要下载的DITA映射文件的路径\(在AEM存储库中\)。 |
+| `sourcePath` | 字符串 | 需要下载的DITA映射文件的路径\（在AEM存储库中\）。 |
 | `baseline` | 字符串 | 用于检索版本化内容的基线的标题。<br> **注意：**&#x200B;该值区分大小写。 |
-| flatFS | 布尔值 | \(Optional\)如果设置为true，则在ZIP文件中返回文件的平面结构。 例如，如果DITA映射引用多个文件夹中的内容，则所有引用的文件都将提取到单个文件夹中。 如果存在同名文件，则通过添加数字后缀来重命名这些文件。 所有引用\（在DITA映射和主题中\）都会自动处理，因为它们会根据平面文件夹结构中文件的新位置进行更新。 如果设置为false，则文件夹结构将保持不变。 如果DITA映射从多个位置引用文件，则所有这些位置也会在ZIP文件中创建。 恢复ZIP文件时，会在目标位置创建精确的文件夹结构。<br>此参数的默认值为false。 |
+| flatFS | 布尔值 | \(Optional\)如果设置为true，则在ZIP文件中返回文件的平面结构。 例如，如果DITA映射引用多个文件夹中的内容，则所有引用的文件都将提取到单个文件夹中。 如果存在同名文件，则通过添加数字后缀来重命名这些文件。 所有引用\（在DITA映射和主题中\）都会自动处理，因为它们会根据平面文件夹结构中文件的新位置进行更新。 如果设置为false，则文件夹结构将保持不变。 如果DITA映射从多个位置引用文件，则所有这些位置也会在ZIP文件中创建。 还原ZIP文件时，会在目标位置创建精确的文件夹结构。<br> 此参数的默认值为false。 |
 
 **返回**：
 zip文件的节点封装在`CompletableFuture`类中。 用户可以继续异步处理它，并且可以在需要节点时使用未来的`.get()`方法阻止线程。 返回的值也可能以错误结束，并且可以使用`.exceptionally()`方法处理。
@@ -130,13 +142,13 @@ public static List<HashMap<String,String>> getBaselineList(
 | 名称 | 类型 | 描述 |
 |----|----|-----------|
 | `session` | javax.jcr.Session | 有效的JCR会话。 |
-| `sourcePath` | 字符串 | 要检索其基线信息的DITA映射文件的路径\(在AEM存储库中\)。 |
+| `sourcePath` | 字符串 | 要检索其基线信息的DITA映射文件的路径\（在AEM存储库中\）。 |
 
 **返回**：
 `HashMap`对象的列表。 每个`HashMap`对象表示一个基线，并包含基线的名称和标题。
 
 **异常**：
-抛出``javax.jcr.RepositoryException``。
+引发``javax.jcr.RepositoryException``。
 
 ## 获取条件预设列表
 
@@ -156,13 +168,13 @@ public static List<HashMap<String,String>> getConditionalPresetList (
 | 名称 | 类型 | 描述 |
 |----|----|-----------|
 | `session` | javax.jcr.Session | 有效的JCR会话。 |
-| `sourcePath` | 字符串 | 要检索其条件预设信息的DITA映射文件的路径\(在AEM存储库中\)。 |
+| `sourcePath` | 字符串 | 要检索其条件预设信息的DITA映射文件的路径\（在AEM存储库中\）。 |
 
 **返回**：
 `HashMap`对象的列表。 每个`HashMap`对象都表示一个条件预设，并包含条件预设的名称和标题。
 
 **异常**：
-抛出``javax.jcr.RepositoryException``。
+引发``javax.jcr.RepositoryException``。
 
 ## 获取条件预设的DITAVAL文件信息
 
@@ -182,7 +194,7 @@ public static String getDitavalFromConditionalPreset
 | 名称 | 类型 | 描述 |
 |----|----|-----------|
 | `session` | javax.jcr.Session | 有效的JCR会话。 |
-| `sourcePath` | 字符串 | 要检索DITAVAL文件的DITA映射文件的路径\(在AEM存储库中)。 |
+| `sourcePath` | 字符串 | 要检索DITAVAL文件的DITA映射文件的路径\（在AEM存储库中\）。 |
 | `cpName` | 字符串 | DITA映射中要检索DITAVAL文件的条件预设的名称。 |
 
 **返回**：

@@ -1,10 +1,21 @@
 ---
 title: 为自定义Dita类型配置图标
-description: 了解如何为自定义Dita类型定义图标，以便在AEM中的不同UI中显示其图标
+description: 了解如何为自定义Dita类型定义图标，以便在AEM中的其他UI中显示其图标
 exl-id: 5a259ea0-3b5f-4c6e-b488-1586767aa991
-source-git-commit: 7355f48ba8ad0ac15c54be183d9aa91bb88724e8
+TQID: https://experienceleague.adobe.com/OFZePwGXAKS5XhsNcrCqOya-bgEHmtO4yl1IciNUxdQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: 496
 ht-degree: 0%
 
 ---
@@ -29,15 +40,15 @@ ht-degree: 0%
 
 ## 在Web编辑器视图中显示自定义主题/映射的图标
 
-_步骤1：_&#x200B;确定自定义dita主题/ap的dita类型
+步骤1 :_确定自定义dita主题/ap的dita类型(_S)
 - 在Web编辑器中打开存储库视图>在浏览器中打开开发人员控制台
-- Inspect列出的主题/地图旁边的图标空间
+- 检查列出的主题/地图旁边的图标空间
 - 检查分配给自定义主题的类
 - 查看下面的屏幕快照以了解更多详细信息![查看屏幕快照](../assets/authoring/custom-ditatype-icon-knowditatype.png)
 - 我们将使用此类为此分配图标和写入css
 
-_步骤2：_&#x200B;创建css并将图标分配给此dita类型
-- 在/apps下创建客户端库，例如您在所需路径下创建cq：ClientLibraryFolder
+步骤2 :_创建css并将图标分配给此DITA类型(_S)
+- 在/apps下创建客户端库，比如在所需路径下创建cq:ClientLibraryFolder
    - 将类别“apps.fmdita.xml_editor.page”添加到其中
 - 在此目录下创建文件夹“资产”，并添加要用于自定义dita类型的所有图标
 - 在client library文件夹下添加css文件，如“tree-icons.css”
@@ -66,11 +77,11 @@ _步骤2：_&#x200B;创建css并将图标分配给此dita类型
 
 ## 显示Assets UI中自定义主题/映射的图标
 
-_步骤1：_&#x200B;确定自定义dita主题/映射的dita类型
+步骤1 :_确定自定义dita主题/映射的dita类型(_S)
 - 这在前面的方法的步骤1中进行了说明
 
-_步骤2：_&#x200B;创建Javacscript以定义要为自定义主题/映射类型的自定义dita类型加载哪些图标
-- 在/apps下创建客户端库，例如您在所需路径下创建cq：ClientLibraryFolder
+步骤2 :_创建Javacscript以定义要为自定义主题/映射类型的自定义dita类型加载哪些图标(_S)
+- 在/apps下创建客户端库，比如在所需路径下创建cq:ClientLibraryFolder
    - 向其添加以下属性：
       - &quot;categories&quot;（多值字符串）值，如&quot;dam.gui.admin.coral&quot;
       - &quot;dependencies&quot;(multivalue string)值，如&quot;libs.fmdita.versioncontrol&quot;

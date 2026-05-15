@@ -1,19 +1,35 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides 4.2.1版本中的升级说明和修复的问题
+title: 发行说明 |Adobe Experience Manager Guides 4.2.1版本中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guides的4.2.1版本
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/nuIWAZRdaGgE-lpjfhk2ptAOeglH8cVhxKZMVPcncYY
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: 874
+ht-degree: 5%
 
 ---
 
 # 4.2.1版本的Adobe Experience Manager Guides（2023年5月）
 
-此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.2.1中修复的问题(更高版本称为&#x200B;*AEM Guides*)。
+此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.2.1中修复的问题（更高版本称为&#x200B;*AEM Guides*）。
 
 有关新增功能和增强功能的详细信息，请参阅[Adobe Experience Manager Guides 4.2.1版的新增功能](whats-new-4-2-1-release.md)。
 
@@ -81,11 +97,11 @@ ht-degree: 1%
 * 无法拖放列表项，文本将移动以代替列表项。 (11566)
 * 在创作以绿色显示的元素（跟踪更改）时，即使禁用跟踪更改，新内容也会显示为跟踪更改。 (7021)
 * 使用自定义架构加载内容时，浏览器（Web编辑器）冻结。 (11211)
-* 原生PDF | 使用“添加到文件夹配置文件”选项创建输出预设时，PDF生成失败，出现空指针异常。 (10950)
-* 原生PDF | 图像标记向所有图像添加display-inline属性。 (10653)
+* 原生PDF |使用“添加到文件夹配置文件”选项创建输出预设时，PDF生成失败，出现空指针异常。 (10950)
+* 原生PDF |图像标记向所有图像添加display-inline属性。 (10653)
 * 在&#x200B;**插入多媒体**&#x200B;图标下，以YouTube格式插入音频和视频多媒体文件失败。 (11320)
 * 使用具有专门化标题元素的模板创建映射时，会发生验证错误。 (11212)
-* Web编辑器 | 编辑主题时，会在XML编辑器中添加不间断的空间。 (11786)
+* Web编辑器 |编辑主题时，在XML编辑器中添加了不间断空格。 (11786)
 
 ### 管理
 
@@ -96,16 +112,16 @@ ht-degree: 1%
 
 ### 发布
 
-* 原生PDF | 如果发布的内容具有带brackets()的输出类，则会导致发布冻结。 (11936)
-* JSON输出 | 将属性值映射为`"value in spaces and double quotes"`的元数据会导致发布错误。 (11933)
+* 原生PDF |发布包含带有brackets()的输出类的内容会导致发布冻结。 (11936)
+* JSON输出 |将属性值映射为`"value in spaces and double quotes"`的元数据会导致发布错误。 (11933)
 * AEM站点搜索中出现问题（在2-3级节点之外不起作用）。 (11352)
-* Web编辑器 | 无法在AEM预设中选择输出路径和模板。 (11530)
+* Web编辑器 |无法在AEM预设中选择输出路径和模板。 (11530)
 * 从4.1.x版本升级到4.2版本时，本机PDF引擎不起作用，并且会引发NullPointerException，即使对于支持的操作系统也是如此。(11526)
 * 下载PDF过程在Web编辑器中无法正常工作。 (11496)
-* 原生PDF | 缺省情况下，在生成的输出中隐藏草稿注释。 (10560)
-* 原生PDF | navtitle不用于表示主题标题。 (10509)
-* 原生PDF | 将`xref`添加到图像不会渲染所生成PDF上的图像。 (11346)
-* 原生PDF | 表标题中的脚注导致PDF输出的相应页脚中出现粗体和居中对齐文本。 (10610)
+* 原生PDF |缺省情况下，在生成的输出中隐藏草稿注释。 (10560)
+* 原生PDF |不对topichead授予navtitle。 (10509)
+* 原生PDF |将`xref`添加到图像不会渲染所生成PDF上的图像。 (11346)
+* 原生PDF |表标题中的脚注指向PDF输出中相应页脚中的粗体和居中对齐文本。 (10610)
 
 ### 翻译
 

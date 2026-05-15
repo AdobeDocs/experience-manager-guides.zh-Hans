@@ -4,22 +4,37 @@ description: 了解错误修复以及如何升级到Adobe Experience Manager Gui
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/NYtiFRSNt197F9PWTh8q-CyhpZz4F8pSFIQgph0twKk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 1%
+source-wordcount: 1409
+ht-degree: 5%
 
 ---
 
 # 4.2版本的Adobe Experience Manager Guides（2023年2月）
 
-此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.2中修复的问题(更高版本称为&#x200B;*AEM Guides*)。
+此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.2中修复的问题（更高版本称为&#x200B;*AEM Guides*）。
 
 有关新增功能和增强功能的详细信息，请参阅[Adobe Experience Manager Guides 4.2版的新增功能](whats-new-4-2-release.md)。
 
 ## 升级到AEM Guides的4.2版
 
-您可以轻松地将当前版本的AEM Guides升级到版本4.2。在继续升级到版本4.2的AEM Guides之前，必须考虑以下几点：
+您可以轻松地将当前版本的AEM Guides升级到版本4.2。 在继续升级到版本4.2的AEM Guides之前，必须考虑以下几点：
 * 如果您使用的是版本4.0、4.1或4.1.x，则可以直接升级到版本4.2。
 * 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
 * 如果您使用的版本低于3.8.5，请参阅特定于产品的安装指南中的&#x200B;*升级AEM Guides*&#x200B;部分。
@@ -78,7 +93,7 @@ ht-degree: 1%
 * 在列表项末尾点击空格会删除整个列表。 (10540)
 * 在从UI拖放任何元素时（例如，从“条件”面板），屏幕在Chrome v106中显示为空白。 (10524)
 * **Source**&#x200B;视图的工具栏中缺少自动缩进按钮。 (10448)
-* 在编辑器中创作列表时，有时列表项的第一个字符会丢失。( 10447)
+* 在编辑器中创作列表时，有时列表项的第一个字符会丢失。(10447)
 * **撤消**&#x200B;或&#x200B;**重做**&#x200B;在某些文件上无法正常工作。 (10373)
 * 在复制和粘贴操作中，自定义元数据未保留。 (10367)
 * 执行内容的复制(ctrl+c)和粘贴(ctrl+v)时出现错误。 (10304)
@@ -105,11 +120,11 @@ ht-degree: 1%
 
 * 复制DITA映射资产（从资产UI ）会导致复制的资产中出现错误的基线。 (11218)
 * 对于大于AEM中允许的限制（默认为2 GB）的文件，上传时不会显示警告消息。 (10817)
-* Web编辑器 — 基线 | 在Web编辑器中的新基线仪表板中，“最新”列的行为不同。 (10808)
-* 翻译 | 由于/libs/fmdita/i18n/ja.json无效，翻译作业未开始。 (10543)
-* 翻译 | 从翻译仪表板（人工翻译）创建的范围设定翻译项目出错。 (10526)
-* 翻译 | 对于资产位于活动翻译项目中的整个语言文件夹，后处理将被阻止。 (10332)
-* 翻译| 元数据和标记不会传播到翻译的副本。 (4696)
+* Web编辑器 — 基线 | Latest列的行为在Web编辑器的新基线仪表板中是不同的。 (10808)
+* 翻译 |由于/libs/fmdita/i18n/ja.json无效，翻译作业未开始。 (10543)
+* 翻译 |从翻译仪表板（人工翻译）创建的范围翻译项目发生错误。 (10526)
+* 翻译 |对于资产位于活动翻译项目中的整个语言文件夹，后处理将被阻止。 (10332)
+* 翻译|元数据和标记不会传播到已翻译的副本。 (4696)
 * 如果在基线编辑器中更改并保存了版本，则会为任何资产显示多个弹出窗口。 (10399)
 * 会话泄漏发生在com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)。 (10279)
 * 如果父文件夹名称中包含空格，则基线中缺少视频文件。 (10031)
@@ -121,20 +136,20 @@ ht-degree: 1%
 * 如果预设的PDF生成失败，则“查看日志”按钮不起作用。 (10576)
 * Publishlistener不在信息日志中显示请求的数据，并且还包含一些垃圾日志。( 10567)
 * 原生PDF | PDF生成失败，出现空指针异常。 (10950)
-* 原生PDF | 在生成的输出中未解析conkeyref。 (10564)
-* 原生PDF | 映射的元数据出现问题，需要在PDF输出中引用。( 10556)
-* 原生PDF | 旋转表标题时出现问题。 (10555)
-* 原生PDF | 删除具有处理role=&#39;resource-only&#39;的主题时出现问题。 (10554)
-* 原生PDF | PDF输出中显示空的键参照。 (10553)
-* 原生PDF | 嵌套的`<indexterm>`未嵌套在本机PDF导出中。 (10521)
-* 原生PDF | 本机PDF使用内联样式，而不是生成的标记的类名称。 (10498)
-* 原生PDF | 附录中嵌套的topicref在临时HTML中全部转换为h1。( 10454)
-* 原生PDF | 无法从目录隐藏主题标题。 (10355)
-* 原生PDF | 表框架属性未传播到临时HTML(as class)。 (10353)
-* 原生PDF | 临时HTML文件将colsep和rowsep类添加到 <td> 和 <th> 即使它们的值在源DITA中为0。 (10352)
-* 原生PDF | 在章节布局中重新启动页码会从上一章的结尾开始随机编号。 (10154)
-* 原生PDF | 未解析包含图像或外部链接的keydef的关键引用。 (10063)
-* 原生PDF | 附录将作为章节显示在生成的PDF中。 (9829)
+* 原生PDF 在生成的输出中未解析| conkeyref。 (10564)
+* 原生PDF |需要在PDF输出中引用的映射元数据出现问题。(10556)
+* 原生PDF |旋转表标题时出现问题。 (10555)
+* 原生PDF |删除具有处理role=&#39;resource-only&#39;的主题时出现问题。 (10554)
+* 原生PDF |空的键引用显示在PDF输出中。 (10553)
+* 原生PDF |嵌套的`<indexterm>`未嵌套在本地PDF导出中。 (10521)
+* 原生PDF |本机PDF使用内联样式，而不是生成的标记的类名称。 (10498)
+* 原生PDF |附录中嵌套的topicref全部转换为临时HTML中的h1。(10454)
+* 原生PDF |无法从目录隐藏主题主题。 (10355)
+* 原生PDF |表框架属性未传播到临时HTML(as class)。 (10353)
+* 原生PDF |临时HTML文件将colsep和rowsep类添加到 <td> 和 <th> 即使它们的值在源DITA中为0。 (10352)
+* 原生PDF |重新启动章节布局中的页码会从上一章的结尾开始随机编号。 (10154)
+* 原生PDF |未解析包含图像或外部链接的keydef的关键引用。 (10063)
+* 原生PDF |附录在生成的PDF中显示为章节。 (9829)
 * XML编辑器中的“模板”选项卡未向文件夹配置文件管理员显示。 (10266)
 * 对于使用FrameMaker Publishing Server 2020生成的PDF，基线发布失败。 (10551)
 * 在“快速生成”弹出菜单中选择通过输出预设的所有预设复选框后，单击编辑按钮时出现应用程序错误。 (10388)

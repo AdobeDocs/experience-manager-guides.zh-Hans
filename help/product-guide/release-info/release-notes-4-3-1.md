@@ -1,26 +1,43 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides 4.3.1版本中的升级说明和修复的问题
+title: 发行说明 |Adobe Experience Manager Guides 4.3.1版本中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guides的4.3.1版本
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/4JTSMRLeqxbaz3rBMzz43V76o1HtTfTMtjpdT6wW1LM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: 1302
+ht-degree: 4%
 
 ---
 
 # 4.3.1版本的Adobe Experience Manager Guides（2023年10月）
 
-此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.3.1中修复的问题(更高版本称为&#x200B;*Experience Manager Guides*)。
+此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.3.1中修复的问题（更高版本称为&#x200B;*Experience Manager Guides*）。
 
 有关新增功能和增强功能的详细信息，请参阅[Adobe Experience Manager Guides 4.3.1版的新增功能](./whats-new-4-3-1-release.md)。
 
 ## 升级到Experience Manager Guides的4.3.1版本
 
 
-您可以轻松地将当前版本的Experience Manager Guides升级到版本4.3.1。在继续升级到版本4.3.1的Experience Manager Guides之前，必须考虑以下几点：
+您可以轻松地将当前版本的Experience Manager Guides升级到版本4.3.1。 在继续升级到版本4.3.1的Experience Manager Guides之前，必须考虑以下几点：
 您可以将当前版本的Experience Manager Guides升级到版本4.3.1
 
 
@@ -100,29 +117,29 @@ ht-degree: 1%
 
 - 如果主题的标题包含斜杠“/”，则编辑器中的选项卡仅显示在该斜杠之后出现的字母。 (13455)
 - 在编辑器中显示预览后，图像预览未消失。 (13454)
-- 升级到4.x后，某些现有版本或其标签未显示在版本历史记录中。(13247)
+- 升级到4.x后，某些现有版本或其标签未显示在版本历史记录中。 (13247)
 - Assets UI中的“版本历史记录”面板显示&#x200B;**当前**&#x200B;字段的时间戳不正确。 (12624)
-- 在存储库视图或映射视图中，带有控制台标题的主题未解析。(13304)
+- 在存储库视图或映射视图中未解析具有控制台标题的主题。(13304)
 
 
 ### 发布
 
-- 原生PDF | 生成PDF输出时，主题的顺序未固定。 (13157)
-- 原生PDF| `<p>`元素没有可用的默认样式标记。 (12559)
-- 原生PDF | 应用于内容区域的内联样式不会应用于前件和后件主题。 (13510)
+- 原生PDF |在生成PDF输出时，主题的顺序未固定。 (13157)
+- 本机PDF|没有可用于`<p>`元素的默认样式标记。 (12559)
+- 原生PDF |应用于内容区域的内联样式不会应用于前件和后件主题。 (13510)
 - 生成AEM站点输出时未传播`DeliveryTarget`特性。  (13132)
 - 为包含某些错误的内容生成AEM站点输出时，**发布**&#x200B;工作流卡住。 (12000)
 
-- 原生PDF | 包含多个Xref可将文本扩展至超出列宽的位置。 (13004)
-- 原生PDF | 当主题和标题具有相同的ID时，会导致生成的PDF输出格式不正确。 (12644)
-- 原生PDF | 向DITA映射中的父`<topicref>`元素添加outputclass并将自定义样式应用于outputclass时，该样式将应用于主题正文中的元素，包括节标题。 (12166)
+- 原生PDF |包含多个Xref可将文本扩展到列宽之外。 (13004)
+- 原生PDF |当主题和标题具有相同的ID时，会导致生成的PDF输出格式不正确。 (12644)
+- 原生PDF |向DITA映射中的父`<topicref>`元素添加outputclass并将自定义样式应用于outputclass时，该样式将应用于主题正文中的元素，包括节标题。 (12166)
 - 如果DITA映射具有多个ditavalref，则增量发布不起作用。 (12117)
-- AEM站点 | 在创建映射时，使用keydef指向作为变量的主题并添加processing-role=resource-only会创建一些意外页面。 (12099)
+- AEM站点 |在创建映射时，使用keydef指向作为变量的主题并添加processing-role=resource-only会创建一些意外页面。 (12099)
 - 如果在AEM DAM中的任意资源用于AEM站点以外的任何输出，则元数据“jcr:createdBy”不会反映发布者的名称或上次修改DITA映射或主题的用户的名称。 (12090)
-- AEM Sites | DITA映射的navtitle中带有主题头（包含不受支持的字符）会导致页面URL损坏。 (11978)
-- 原生PDF | 在Frontmatter和Backmatter中支持topichead / topicmeta / navtitle时出现问题。 (11969)
-- 原生PDF | 为大型文档生成PDF非常耗时。 (11955)
-- 原生PDF | 在生成PDF输出时，重命名预设会引发NullPointerException。 (11889)
+- AEM Sites | DITA映射的navtitle中带有主题头（包含不受支持的字符）会导致页面URL无效。 (11978)
+- 原生PDF |在Frontmatter和Backmatter中支持topichead / topicmeta / navtitle时出现问题。 (11969)
+- 原生PDF |为大型文档生成PDF非常耗时。 (11955)
+- 原生PDF |在生成PDF输出时，重命名预设会引发NullPointerException。 (11889)
 - `<conref>`内容未显示在PDF输出中。 (11131)
 - 在页面布局编辑器中的“创作”视图和“Source”视图之间切换时，`<div>`元素内会添加一个额外的空间。 (10750)
 - 在AEM Cloud Manager上复制的内容在发布实例上不可见。 (9564)

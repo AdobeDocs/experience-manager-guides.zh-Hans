@@ -1,13 +1,25 @@
 ---
-title: 为AEM Guides配置新的基于微服务的发布as a Cloud Service
+title: 为AEM Guides as a Cloud Service配置新的基于微服务的发布
 description: 了解如何为AEM Guides配置新的基于微服务的发布。
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
+TQID: https://experienceleague.adobe.com/1M-gDrJclVMkYHOo69FPmKqkJvzYaDHK0ljK5dIh-tA
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 0%
+source-wordcount: 740
+ht-degree: 1%
 
 ---
 
@@ -21,11 +33,11 @@ ht-degree: 0%
 
 
 
-在Adobe Experience Manager Guidesas a Cloud Service版中基于微服务的发布支持PDF（本机或基于DITA-OT）、HTML5、JSON和CUSTOM类型的输出预设。
+Adobe Experience Manager Guides as a Cloud Service中基于微服务的发布支持PDF（本机或基于DITA-OT）、HTML5、JSON和CUSTOM类型的输出预设。
 
 由于服务帐户(JWT)凭据已被弃用，因此建议使用基于Adobe IMS OAuth的身份验证。 了解如何[使用OAuth身份验证](configure-microservices-imt-config.md)配置基于微服务的发布。
 
-对于由基于Adobe IMS JWT的身份验证保护的云发布服务，客户应遵循以下给定步骤，将其环境与Adobe的安全基于令牌的身份验证工作流集成，并开始使用新的基于云的可伸缩发布解决方案。
+对于由基于Adobe IMS JWT的身份验证保护的云发布服务，客户应按照以下给定步骤将其环境与Adobe的安全基于令牌的身份验证工作流集成，并开始使用新的基于云的可伸缩发布解决方案。
 
 
 ## 在Adobe Developer Console中创建IMS配置
@@ -100,7 +112,7 @@ ht-degree: 0%
 
 1. 单个密钥能否用于多个云环境？
    * 可以，您可以生成一个私钥并将其用于所有环境，但您必须为所有环境配置环境变量并使用同一密钥。
-1. 如果启用了使用微服务的OSGi配置，则发布过程能否在本地AEM服务器上使用相同的代码库？
+1. 如果启用了使用微服务的OSGi配置，那么发布过程能否在本地AEM服务器上使用相同的代码库？
    * 否，如果标志`dxml.use.publish.microservice`设置为`true`，则它始终查找微服务配置。 将`dxml.use.publish.microservice`设置为`false`以便在本地进行发布。
 1. 使用基于微服务的发布时，为DITA进程分配了多少内存？ 这是通过DITA配置文件ant参数驱动的吗？
    * 对于基于微服务的发布，内存分配不通过DITA配置文件ant参数驱动。 服务容器上可用的总内存为8 GB，其中6 GB分配给DITA-OT进程。

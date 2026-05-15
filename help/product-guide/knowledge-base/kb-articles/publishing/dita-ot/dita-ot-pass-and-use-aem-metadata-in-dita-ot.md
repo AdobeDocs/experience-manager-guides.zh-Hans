@@ -1,13 +1,27 @@
 ---
 title: 将AEM Assets元数据传播到DITA-OT插件生成的输出
 description: 在AEM中配置DITA-OT插件和内容以将元数据推送到生成的输出
-source-git-commit: b48f5a342989d3be48bbc1e8af51a2ce477d0ac7
+exl-id: ba9db5a1-f499-48d9-976c-528fe56fd619
+TQID: https://experienceleague.adobe.com/tK5b6Z1zdJVa7ghEx4CEYELjpSO2D1ZJVdWKd3NNxvg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: 971
 ht-degree: 0%
 
 ---
-
 
 # 将AEM Assets元数据传播到DITA-OT插件生成的输出
 
@@ -45,9 +59,9 @@ ht-degree: 0%
 在映射上配置您选择的输出预设以导出元数据并传递到DITA-OT
 假设我们正在使用DITA-OT插件（如_adobe.html_）生成HTML5输出。
 请参阅下面的屏幕快照，了解如何为映射配置输出预设以将元数据传递到DITA-OT插件。
-1. 打开映射并浏览到此映射的&#x200B;_输出_&#x200B;选项卡，然后打开HTML5预设，然后单击&#x200B;_高级_&#x200B;选项卡，在此上将转换名称设置为&#x200B;_adobe.html_（我们将配置并用于示例的插件，您也可以定义自定义插件）
+1. 打开映射，浏览到此映射的&#x200B;_输出_&#x200B;选项卡，打开HTML5预设，然后单击&#x200B;_高级_&#x200B;选项卡，在此上将转换名称设置为&#x200B;_adobe.html_（我们将配置此插件并将其用于示例，您也可定义自定义插件）
 2. 设置&#x200B;_保留临时文件_，以便能够下载临时文件并检查metadata.xml的形成方式，您可以将其用于开发
-3. 选择要通过metadata.xml传递到DITA-OT的元数据属性。 在此示例中，假设我们要传递&#x200B;_dc：title_&#x200B;和&#x200B;_customprop_
+3. 选择要通过metadata.xml传递到DITA-OT的元数据属性。 在此示例中，假设我们要传递&#x200B;_dc:title_&#x200B;和&#x200B;_customprop_
 4. 保存预设并生成输出
 5. 使用预设上显示的按钮下载临时文件
 
@@ -139,7 +153,7 @@ ht-degree: 0%
 
 ### 测试插件实施
 
-您可以通过运行以下命令来测试插件，并使用从AEM下载的临时文件（包含映射内容及其metadata.xml）来测试插件
+您可以通过运行以下命令来测试此插件，并使用从AEM下载的临时文件（包含映射内容及其metadata.xml）对其进行测试
 
 ```
 ./dita --input=docsrc/samples/HTML5/aem_forms_documentation.ditamap --format=adobe.html

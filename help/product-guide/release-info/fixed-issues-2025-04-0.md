@@ -1,11 +1,25 @@
 ---
-title: 发行说明 | 修复了Adobe Experience Manager Guides 2025.04.0版本中的问题
+title: 发行说明 |修复了Adobe Experience Manager Guides 2025.04.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2025.04.0版本中的错误修复。
 exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
-source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
+TQID: https://experienceleague.adobe.com/v7tg4-eP4JVt9bR0S4Ld4lWb0YbdlT-uJc7PrXPT4Wg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 3%
+source-wordcount: 764
+ht-degree: 6%
 
 ---
 
@@ -42,7 +56,7 @@ ht-degree: 3%
 - 主题工作副本中的文档状态会针对该主题的所有版本显示在翻译和基线UI中。 (20674)
 
 
-## 审查
+## 审阅
 
 - 更新审阅仪表板中审阅任务的详细信息不会确认更新是成功还是失败。 (8051)
 
@@ -58,13 +72,13 @@ Adobe发现了2025.04.0版本的以下已知问题：
 - 在编辑器中打开多个选项卡时，在文件的&#x200B;**Source**&#x200B;视图中执行&#x200B;**撤消**&#x200B;操作会还原上次编辑，但也会切换到之前打开的选项卡。 (27891)
 - **AEM拼写检查**&#x200B;选项将出现在&#x200B;**菜单**&#x200B;下拉列表中，即使编辑器设置中启用了&#x200B;**浏览器拼写检查**&#x200B;选项也是如此。 (27993)
 - 当您在Assets UI中编辑图像并保存该图像时，将在&#x200B;**版本历史记录**&#x200B;面板中创建并显示其他版本。 (28001)
-- 将新内容粘贴到`codeblock`元素中的新行时，会自动插入空行。(27842)
+- 将新内容粘贴到`codeblock`元素中的新行时会自动插入空行。(27842)
 - 在使用相同基线的预设之间切换时，将停用当前预设的&#x200B;**保存**&#x200B;按钮。 (28025)
 - DITA映射中的主题在其子映射中同时用作`keydef`和`topicref`时，无法在AEM Sites输出中发布。 (22269)
 - 编辑映射的多个主题，然后使用&#x200B;**全部关闭**&#x200B;选项关闭并启用&#x200B;**关闭时询问保存版本**&#x200B;设置时，出现应用程序错误。(27931)
 
 Adobe已识别以下已知问题并提供了解决方法：
 
-+++在AEM Sites输出中，如果在发布时未应用基线，则图像将中断。 (28043)
++++在AEM Sites输出中，如果在发布时未应用基线，则图像中断。 (28043)
 ***解决方法：***&#x200B;您可以从&#x200B;**Assets UI**&#x200B;发布此类资源，链接将在发布后正常运行。
 +++

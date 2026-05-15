@@ -4,10 +4,23 @@ description: Adobe Experience Manager Guides as a Cloud Service 8月版
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/ozowf4-i02AJDe40hzWHjuqYZ0Q-eIG3nnPpI9mvBqI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 0%
+source-wordcount: 1176
+ht-degree: 1%
 
 ---
 
@@ -15,9 +28,9 @@ ht-degree: 0%
 
 ## 升级到8月版
 
-请通过以下步骤升级当前的Adobe Experience Manager Guides as a Cloud Service(以后称为&#x200B;*AEM Guides as a Cloud Service*)安装程序：
+请通过以下步骤升级当前的Adobe Experience Manager Guides as a Cloud Service（以后称为&#x200B;*AEM Guides as a Cloud Service*）安装程序：
 1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
-1. 将云服务Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2022.8.167。
+1. 将云服务Git代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2022.8.167。
 1. 提交更改并运行云服务管道，以升级到AEM Guides as a Cloud Service的8月版本。
 
 ## 兼容性矩阵
@@ -97,10 +110,10 @@ AEM Guides现在允许管理员从&#x200B;**编辑器设置**&#x200B;配置&#x20
 * 更新后的Node.js不用于发布。 (9835)
 * 在&#x200B;**属性**&#x200B;页面上完成的更改不会自动更新DITA主题。 (8745)
 * 添加到DITA书签时，Frontmatter元素无法正常工作。 (9507)
-* 原生PDF | 在选择了空元素时，为多个文件使用&#x200B;**快速生成**&#x200B;时生成空白PDF。 (9822)
-* 原生PDF | 附录作为一章在PDF输出中发布。 (9829)
-* 原生PDF | 编辑SVG图像时，不会在页面布局中显示更新后的图像。 (9069)
-* 当使用`Nonbreaking Hyphen`插入特殊字符&#x200B;**对话框插入**&#x200B;字符时，将插入常规连字符符。 (8919)
+* 原生PDF |在选择了空元素时，为多个文件使用&#x200B;**快速生成**&#x200B;时生成空白PDF。 (9822)
+* 原生PDF |附录作为一章在PDF输出中发布。 (9829)
+* 原生PDF |编辑SVG图像时，不会在页面布局中显示更新后的图像。 (9069)
+* 当使用&#x200B;**插入特殊字符**&#x200B;对话框插入`Nonbreaking Hyphen`字符时，将插入常规连字符符。 (8919)
 * 如果更新图像已编辑，则XML编辑器不会在主题中显示更新图像。 (9500)
 * 通过编辑器发布输出时，无法从&#x200B;**输出**&#x200B;选项卡中删除预设。 (9100)
 * 未使用省略号菜单中的&#x200B;**全选**&#x200B;选项签出DITA映射的子映射。 (9814)

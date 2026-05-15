@@ -2,9 +2,15 @@
 title: 示例
 description: 自定义示例列表
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
-source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
+TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -17,10 +23,10 @@ ht-degree: 0%
 在此示例中，我们已自定义`file_options`上下文菜单，以删除`Delete`和`Edit`选项，并将`Duplicate`选项替换为`Download`选项。
 
 2. [左侧面板](./examples/left_panel_container.ts)
-在此示例中，我们已自定义`left tab panel`以使其他`tab`具有标题为“TEST EXTENSION”，以及具有标签`tab panel`的相应`Test Tab Panel`
+在此示例中，我们已自定义`left tab panel`以使其他`tab`名为“TEST EXTENSION”，并且相应的`tab panel`具有标签：`Test Tab Panel`
 
 3. [右侧面板](./examples/right_panel_container.ts)
-在此示例中，我们已自定义`right tab panel`，以使其具有名为“TEST EXTENSION”的其他`tab`，以及具有标签`tab panel`的相应`New Tab Panel`
+在此示例中，我们已自定义`right tab panel`以使其他`tab`名为“TEST EXTENSION”，并且相应的`tab panel`具有标签：`New Tab Panel`
 
 4. [存储库面板](./examples/repository_panel.ts)
 
@@ -35,7 +41,7 @@ ht-degree: 0%
 1. [注释工具箱](./examples/review_app_examples/annotation_extension.ts)
 在此示例中，我们在注释工具箱中添加了另一个按钮，用于在AEM中打开当前审阅主题。
 
-2. [审阅评论](./examples/review_app_examples/review_comment.ts)
+2. [评论内容](./examples/review_app_examples/review_comment.ts)
 在此示例中，我们添加了将用户名替换为用户信息（包含评论者的全名和标题）、添加了唯一评论ID和mailTo图标，并添加了用于提及评论严重性和理由的输入字段。
 我们还在用于打开对话框的XMLEditor端的评论中添加了`accept with modification`按钮。
 
@@ -54,7 +60,7 @@ ht-degree: 0%
 
 5. [主题审阅面板](./examples/review_app_examples/topic_reviews.ts)：此文件扩展了[内联审阅面板](./examples/review_app_examples/inline_review_panel.ts)，以便添加的自定义项也可在审阅应用程序端工作。
 
-6. [接受修改对话框](./examples/review_app_examples/accept_with_modification_dialog.ts)
+6. [接受并修改对话框](./examples/review_app_examples/accept_with_modification_dialog.ts)
 这是向应用程序添加新构件的示例。 在此处，我们创建了一个新对话框，该对话框有两个输入文本字段：`Revised Text`和`Adjudicator Comment Rationale`
 
 7. [保存修订](./examples/save_revision.ts)
@@ -65,4 +71,4 @@ ht-degree: 0%
 以下是自定义之前和自定义之后的审核面板：
 
 ![审阅面板；](./imgs/review_panel.png)
-![接受并修改对话框](./imgs/customised_review_panel.png)
+![通过修改接受对话框](./imgs/customised_review_panel.png)

@@ -1,32 +1,46 @@
 ---
-title: Output generation
-description: Generate output in AEM site, PDF, HTML5, EPUB, custom, and JSON through DITA-OT plug-ins, Native PDF publishing, and FMPS in AEM Guides.
+title: 输出生成
+description: 在AEM站点、PDF、HTML5、EPUB、自定义和JSON中通过AEM Guides中的DITA-OT插件、原生PDF发布和FMPS生成输出。
 feature: Publishing
 role: User
 hide: true
 exl-id: 4fdea1c5-5f36-440a-8bab-6bc984498a61
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/lplGN8wsAoWLS3h-2JiO-IZpwH6lb5DoqnBLfIYeXAw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 325
 ht-degree: 0%
 
 ---
 
-# Output generation {#id1645H8040HD}
+# 输出生成 {#id1645H8040HD}
 
-AEM Guides has built-in publishing capabilities to generate outputs in a variety of industry standard formats. The current version of AEM Guides allows you to generate output in the most widely used formats—AEM Site, PDF, HTML5, EPUB, JSON, and custom output through DITA-OT, Native PDF publishing, and FMPS.
+AEM Guides具有内置发布功能，可生成各种行业标准格式的输出。 当前版本的AEM Guides允许您以最常用的格式生成输出：AEM Site、PDF、HTML5、EPUB、JSON，以及通过DITA-OT、原生PDF发布和FMPS的自定义输出。
 
-As a publisher, you can generate multiple outputs with just click a few clicks. You can generate output for an entire DITA map or you can selectively publish only a few topics that you have updated. You can also use the Baseline publishing feature to selectively publish a specific version of your DITA map or topic.
+作为发布者，您只需单击几下即可生成多个输出。 可以为整个DITA映射生成输出，也可以只选择性地发布已更新的几个主题。 也可以使用基线发布功能有选择地发布DITA映射或主题的特定版本。
 
 >[!NOTE]
 >
-> AEM Guides also supports generating output for LwDITA map and topic files.
+> AEM Guides还支持为LwDITA映射和主题文件生成输出。
 
-As a production specialist, AEM Guides also makes it easy for you to automate your publishing process by creating your Publish Dashboard and running post-publishing workflows. The Publishing Dashboard also gives you one unified view of all publishing tasks queued and running in your system. You can choose to terminate or cancel any publishing task from the Publish Dashboard. You can create and associate your custom design templates to generate outputs in a specific layout. Also, AEM Guides allows you to use custom DITA-OT plug-ins to reuse your existing PDF generation process.
+作为生产专家，AEM Guides还通过创建发布功能板并运行发布后工作流程，让您轻松实现发布流程的自动化。 Publishing Dashboard还为您提供了一个统一视图，其中列出了系统中排队和运行的所有发布任务。 您可以选择从发布仪表板终止或取消任何发布任务。 您可以创建和关联自定义设计模板，以生成特定布局的输出。 此外，AEM Guides允许您使用自定义DITA-OT插件重复使用现有的PDF生成过程。
 
-You can also create various presets and generate output from the Web Editor.
+您还可以创建各种预设并从Web编辑器生成输出。
 
-Information in the following sections is for publishers who will use the output generation workflows and perform some basic troubleshooting:
+以下部分中的信息适用于将使用输出生成工作流并执行一些基本故障排除的发布者：
 
 - [了解输出预设](generate-output-understand-presets.md#)
 
@@ -45,4 +59,4 @@ Information in the following sections is for publishers who will use the output 
 
 >[!IMPORTANT]
 >
-> Features described in this topic are available to users with Publishers or administrator privileges only.
+> 本主题中介绍的功能仅对具有Publishers或管理员权限的用户可用。

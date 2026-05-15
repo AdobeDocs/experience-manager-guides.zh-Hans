@@ -1,13 +1,20 @@
 ---
-title: 在AEM guides中提高DITA文件的翻译性能
+title: 在AEM指南中提高DITA文件的翻译性能
 description: 在AEM Guides中提高DITA翻译项目性能的最佳实践、提示和技巧
 feature: Translation
 role: User, Admin
 author: Pulkit Nagpal (punagpal)
 exl-id: d7e4f3ae-2143-4767-b7ab-c89f5e5eef59
-source-git-commit: 18fe3cbb1439d489d243d98a546ef1095104a863
+TQID: https://experienceleague.adobe.com/n6-b3-ZsOIueVYWgcm1NkDLKRAOwQhWxctbgj7Q6P1U
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 324
 ht-degree: 0%
 
 ---
@@ -16,20 +23,18 @@ ht-degree: 0%
 
 随着时间的推移，系统上的翻译活动增加，翻译项目的性能可能会降低。
 
-每个翻译项目会生成多个用户组以供访问，从而增加系统内的用户组数量。 随着用户组数量的扩展，它会逐渐降低与用户权限相关的CRUD操作的速度，从而可能会影响整体AEM性能。 此外，如果翻译项目在完成后保持活动状态，可能会对AEM和翻译供应商之间的翻译同步性能产生负面影响。
+每个翻译项目会生成多个用户组以供访问，从而增加系统内的用户组数量。 随着用户组数量的扩展，它会逐渐降低与用户权限相关的CRUD操作的速度，从而可能会影响AEM的整体性能。 此外，如果翻译项目在完成后保持活动状态，可能会对AEM和翻译供应商之间的翻译同步性能产生负面影响。
 
 **遵循下面概述的最佳实践将有助于保持高效的环境。**
 
 ## 如果您使用的版本低于4.6（内部部署）或2404（云）：
 
-- 一旦翻译完成并批准，将所有项目标记为“非活动”。项目仍可供审查，并且只是标记为非活动。
+- 一旦翻译完成并批准，将所有项目标记为“非活动”。项目仍可供审查，并且只是标记为不活动。
    - 遵循这些步骤将有助于保持整体翻译性能的良好状态。
-
      ![不活动的翻译项目](../assets/translation/translation-project-image1.png)
 
 - 对于标记为不活动的旧项目文件夹，应删除已批准和已审阅的文件夹
    - 执行以下步骤将有助于通过清除与此项目文件夹关联的临时翻译文件和用户组，保持整体翻译性能良好。
-
      ![删除翻译项目和文件夹](../assets/translation/translation-project-image2.png)
 
 

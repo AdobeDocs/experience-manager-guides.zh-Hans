@@ -3,9 +3,18 @@ title: 简单的自定义
 description: 简单自定义示例
 role: User, Admin
 exl-id: 7f19f0b0-2a1b-4a8b-b28c-3918a1bc9096
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/IFKRQlzewz3NcnX-xruXzInQMiEzwEmhe-4knxXPrJM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: 296
 ht-degree: 0%
 
 ---
@@ -23,7 +32,7 @@ ht-degree: 0%
 我们有3个视图状态： `APPEND`、`PREPEND`、`REPLACE`。
 3. 新创建组件的JSON和相应方法。
 
-假设我们要向审阅中使用的注释工具箱添加一个按钮，该按钮将在AEM中打开文件。
+假设我们要向审阅中使用的注释工具箱添加一个按钮，用于在AEM中打开文件。
 
 ```typescript
 export default {

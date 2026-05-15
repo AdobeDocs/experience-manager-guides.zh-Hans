@@ -1,10 +1,30 @@
 ---
-title: 发行说明 | 修复了Adobe Experience Manager Guides 5.0.0版本中的问题
+title: 发行说明 |修复了Adobe Experience Manager Guides 5.0.0版本中的问题
 description: 了解Adobe Experience Manager Guides 5.0.0版本中的错误修复。
-source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
+exl-id: dcc97f9b-f1c0-45bc-84eb-8c0c1a857b6a
+TQID: https://experienceleague.adobe.com/L91ThAocmv3mZYa905W4PM5dtK2katbFjGiY0Mi73qg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 1%
+source-wordcount: 1246
+ht-degree: 5%
 
 ---
 
@@ -72,7 +92,7 @@ ht-degree: 1%
 - 当您使用非旧版翻译同时发送未翻译主题的两个版本并在第一个版本之前审批第二个版本时，具有第一个版本的翻译项目会损坏。 (22200)
 
 
-## 审查
+## 审阅
 
 - 在图中选择多个要查看的主题时，查看者收到的电子邮件通知指示图中的所有主题都可以查看，而不仅仅是选定的主题。 (23214)
 - 主题标题和图标在审阅创建界面中未对齐。 (11670)
@@ -99,5 +119,3 @@ Adobe已发现5.0.0版本的以下已知问题：
 - 发布包含具有内部图像引用的Markdown文件的映射在Windows服务器上失败。
 - 项目符号列表无法转换为Markdown中的编号列表。
 - 在映射中引用Markdown文件时，发布到原生AEM站点会失败。
-
-

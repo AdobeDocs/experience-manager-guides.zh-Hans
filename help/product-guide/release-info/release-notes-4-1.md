@@ -1,23 +1,45 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides 4.1版本
+title: 发行说明 | Adobe Experience Manager Guides 4.1版
 description: 最新版本的Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7j-OqZiXh2jVJwQRVsnKkJJSzf614jjiaOJ8fUl8oQQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '3644'
-ht-degree: 1%
+source-wordcount: 3665
+ht-degree: 3%
 
 ---
 
 # Adobe Experience Manager Guides的4.1.x版本
 
-此发行说明介绍了Adobe Experience Manager Guides版本4.1.x(以后称为&#x200B;*AEM Guides*)中的升级说明、新增功能和增强功能。
+此发行说明介绍了Adobe Experience Manager Guides版本4.1.x（以后称为&#x200B;*AEM Guides*）中的升级说明、新增功能和增强功能。
 
 ## 升级到最新版本
 
-您可以轻松地将当前版本的AEM Guides升级到版本4.1.3。在继续升级到版本4.1.3的AEM Guides之前，必须考虑以下几点：
+您可以轻松地将当前版本的AEM Guides升级到版本4.1.3。 在继续升级到版本4.1.3的AEM Guides之前，必须考虑以下几点：
 
 * 如果您使用的是版本4.1或4.1.x，则可以直接升级到版本4.1.3。
 * 如果您使用的是版本4.0.x，则需要先升级到版本4.1或4.1.x，然后再升级到4.1.3。
@@ -26,7 +48,7 @@ ht-degree: 1%
 
 有关详细信息，请参阅[升级说明](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf)。
 
-## 4.1.3 | 发行说明
+## 4.1.3 |发行说明
 
 ## 兼容性矩阵
 
@@ -69,7 +91,7 @@ ht-degree: 1%
 * Web编辑器间歇性地加载空白页。 (10678)
 
 
-## 4.1.2 | 发行说明
+## 4.1.2 |发行说明
 
 ## 兼容性矩阵
 
@@ -122,9 +144,9 @@ ht-degree: 1%
 
   **解决方法**：使用DITA映射仪表板的基线选项卡。
 
-## 4.1 | 发行说明
+## 4.1 |发行说明
 
-此发行说明介绍了Adobe Experience Manager Guides版本4.1.x(以后称为&#x200B;*AEM Guides*)中的升级说明、新增功能和增强功能。
+此发行说明介绍了Adobe Experience Manager Guides版本4.1.x（以后称为&#x200B;*AEM Guides*）中的升级说明、新增功能和增强功能。
 
 ## 兼容性矩阵
 
@@ -360,7 +382,7 @@ AEM Guides不再支持为FrameMaker文档生成DITA输出格式。 此DITA选项
 * 在复制并粘贴资产时，AEM Guides不会复制资产的非唯一属性。 (8241)
 * DITA映射文件名在创建时未转换为小写。 (8383)
 * 分配新的审阅任务时，审阅任务描述未出现在正在发送的电子邮件通知中。 (8507)
-* 下载地图API | 如果下载过程出错，不会清理临时文件夹。 (8523)
+* 下载地图API |如果下载过程出错，不会清理临时文件夹。 (8523)
 * `columnpreview.jsp`依赖于SP。  (8543)
 * 在发布功能板中，不会清理状态为“等待”或“正在执行”的输出作业。  (8569)
 * 在使用“生成”按钮生成报告时选择的默认图标，即使定义了图标属性也是如此。 (8573)
@@ -398,7 +420,7 @@ AEM Guides不再支持为FrameMaker文档生成DITA输出格式。 此DITA选项
 * 搜索特殊字符`[`或`*`时重用内容面板崩溃。(8279)
 * 在创作Glossentry时，Web编辑器将内容显示为注释。 (8384)
 * XML编辑器删除代码块中的新行。 (8522)
-* 在源模式和创作模式之间切换会将主题标记为已修改，并需要再次保存内容。(8524)
+* 在源模式和创作模式之间切换将主题标记为已修改，并需要再次保存内容。(8524)
 * 无法关闭已解锁的主题。 (8545)
 * 在基于文章的发布预设中，不存在用于选择知识库路径的选项。 (8636)
 * 使用从收藏夹视图拖放将章节添加到书签映射时缺少属性。 (8746)

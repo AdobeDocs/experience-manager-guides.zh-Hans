@@ -3,9 +3,20 @@ title: Jui框架
 description: 了解Jui框架
 role: User, Admin
 exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/AQFEy2bHTDHXq6QH8KTBOEzUvtA3Hf2ojhxvD0dsI7o
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: 268
 ht-degree: 1%
 
 ---
@@ -17,10 +28,10 @@ ht-degree: 1%
 
 ## 简介
 
-JUI是在React和AdobeReact Spectrum组件之上的MVC框架。 JUI是JSON用户界面。 它包含多个Git存储库。
+JUI是一个基于React和Adobe React Spectrum组件的MVC框架。 JUI是JSON用户界面。 它包含多个Git存储库。
 
 JUI-Core是核心库，具有将JSON配置转换为工作react组件并将其链接到相关控制器类实例的所有逻辑。
-JUI-React-Spectrum  库具有AdobeReact Spectrum组件的包装构件
+JUI-React-Spectrum库具有Adobe React Spectrum组件的包装构件
 
 ## JUI核心设计
 

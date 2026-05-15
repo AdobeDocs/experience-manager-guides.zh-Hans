@@ -3,9 +3,16 @@ title: 组件
 description: 查看应用程序组件
 role: User, Admin
 exl-id: 78d626f9-9f96-4748-a268-39fa57aef495
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/wyDhZj81cM5IPso-L08mb2ecyc6PcmaG-F802GMwX-k
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: 127
 ht-degree: 0%
 
 ---
@@ -35,15 +42,12 @@ ht-degree: 0%
 
 - 审阅评论回复：`id: comment_reply`
    - 每个审核评论回复的构件。
-
      ![查看评论回复屏幕截图](./imgs/reply.png)
 
 - 新的评论回复：`id: comment_new_reply`
    - 用于新审核评论回复的小部件。
-
      ![新评论回复屏幕截图](./imgs/new_reply.png)
 
 - 注释工具箱： `id: annotation_toolbox`
    - 审阅应用程序右上角的工具栏。
-
      ![注释工具箱屏幕快照](./imgs/annotation_toolbox.png)

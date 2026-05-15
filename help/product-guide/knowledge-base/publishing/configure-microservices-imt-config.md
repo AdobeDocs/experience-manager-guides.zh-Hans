@@ -1,12 +1,24 @@
 ---
-title: 使用AEM Guides的OAuth身份验证配置基于微服务的发布as a Cloud Service
+title: 使用AEM Guides as a Cloud Service的OAuth身份验证配置基于微服务的发布
 description: 了解如何使用AEM Guides的OAuth身份验证配置基于微服务的发布。
 feature: Microservice in AEM Guides
 role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
+TQID: https://experienceleague.adobe.com/iAlQIB0z2bxI-BaOXp62M6YJjzS-RzGfJaJbl8BWNUc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -15,7 +27,7 @@ ht-degree: 0%
 
 发布微服务允许您在Experience Manager Guides as a Cloud Service上同时运行大型发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。
 
-对于每个发布请求，Experience Manager Guides as a Cloud Service会运行一个单独的容器，该容器可根据用户请求水平缩放。 与大型内部部署Adobe Experience Manager服务器相比，这提供了运行多个发布请求并获得更高性能的功能。
+对于每个发布请求，Experience Manager Guides as a Cloud Service都运行一个单独的容器，该容器可根据用户请求水平缩放。 与大型内部部署Adobe Experience Manager服务器相比，这提供了运行多个发布请求并获得更高性能的功能。
 
 >[!NOTE]
 >
@@ -86,7 +98,7 @@ ht-degree: 0%
 >
 >如果您已经为智能建议创建了OAuth项目，则可以在微服务中重用同一项目，并跳过以下步骤以将IMS配置添加到环境中。
 
-### 更新现有配置(JWT)   到OAuth Shift )
+### 更新现有配置（JWT到OAuth Shift ）
 
 如果您已在使用微服务来使用JWT进行发布（已弃用），请执行以下步骤，以更新配置：
 
@@ -143,7 +155,7 @@ ht-degree: 0%
 ## 常见问题解答
 
 
-1. 如果启用了使用微服务的OSGi配置，则发布过程能否在本地Experience Manager服务器上使用相同的代码库？
+1. 如果启用了使用微服务的OSGi配置，发布过程能否在本地Experience Manager服务器上使用相同的代码库？
    * 否，如果标志`dxml.use.publish.microservice`设置为`true`，它始终会查找微服务配置。 将`dxml.use.publish.microservice`设置为`false`以便在本地服务器上进行发布。
 1. 使用基于微服务的发布时，为DITA进程分配了多少内存？ 这是否通过DITA配置文件和参数驱动？
    * 对于基于微服务的发布，内存分配不会通过DITA配置文件和参数驱动。 服务容器上可用的总内存为8 GB，其中6 GB分配给DITA-OT进程。

@@ -1,11 +1,26 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides 2025.04.0版本中的升级说明和修复的问题
+title: 发行说明 | 2025.04.0版Adobe Experience Manager Guides中的升级说明和修复的问题
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides as a Cloud Service的2025.04.0版本。
 exl-id: 6e509216-63c9-4ede-988f-26b0df4313e2
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/9VfkUWLV2UUahUNfnbJkpippU4VGS5lkEb7oMnYkE1Q
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 3%
+source-wordcount: 1041
+ht-degree: 4%
 
 ---
 
@@ -63,7 +78,7 @@ Experience Manager Guides会在升级当前（最新）版本的Experience Manag
 
 ### 通过servlet启用脚本触发器的步骤
 
-(仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时)
+（仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时）
 
 完成安装后，您可以选择点击触发器以启动翻译作业：
 
@@ -98,11 +113,11 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 后处理现有内容以使用断开链接报表的步骤
 
-(仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时)
+（仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时）
 
 执行以下步骤对现有内容进行后处理，并使用新的断开链接报表：
 
-1. （可选）如果系统中有超过100,000个DITA文件，请将`queryLimitReads`下的`queryLimitInMemory`和`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
+1. （可选）如果系统中有超过100,000个DITA文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`和`queryLimitInMemory`更新为更大的值（任何大于现有资产数的值，例如200,000），然后重新部署。
 
    - 按照安装和配置Adobe Experience Manager Guides as a Cloud Service中的&#x200B;*配置覆盖*&#x200B;部分中提供的说明创建配置文件。
    - 在配置文件中，提供以下（属性）详细信息以配置`queryLimitReads`和`queryLimitInMemory`选项：
@@ -114,7 +129,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server>//bin/guides/reports/upgrade`。
 
-1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. API返回jobId。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 —  `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
 1. 作业完成后，上一个GET请求会做出成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。
@@ -123,13 +138,13 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 为现有内容编制索引以使用“报表”选项卡下的新查找和替换以及主题列表的步骤：
 
-(仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时)
+（仅当使用的版本早于2023年6月发布的Experience Manager Guides as a Cloud Service时）
 
 执行以下步骤来索引现有内容，并在报表选项卡下的映射级别和主题列表中使用新的查找和替换文本：
 
-1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server:port>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都会被索引|| 示例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server:port>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都已索引||示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`）
 
-1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
+1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。 请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
 1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`（例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 

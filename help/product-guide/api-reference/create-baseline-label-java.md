@@ -5,9 +5,19 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 944
 ht-degree: 2%
 
 ---
@@ -67,8 +77,8 @@ throws GuidesApiException
 | `sourcePath` | 字符串 | AEM存储库中DITA映射文件的绝对路径。 |
 | `baselineTitle` | 字符串 | 基线的唯一标题。 |
 | `label` | 字符串 | 选择应用了给定标签的主题的版本。 |
-| `directContext` | LinkedHashMap&lt;字符串，对象\> | 对于选择直接引用主题\(content\)的配置，将按照映射中提到的顺序解析版本。 <br>如果在映射的所有键上迭代后未找到版本，则基线创建过程将失败。 <br>如果HashMap为空\（发送空映射，默认映射不为null\），则默认情况下会填充为： <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br>如果您希望基线创建仅选择给定标签的版本，并且如果不存在此类版本，则失败，请放置`label`键和您要创建基线的标签。 |
-| `indirectContext` | LinkedHashMap&lt;字符串，对象\> | 对于选择间接引用主题\（引用内容\）的配置，将按照映射中提到的顺序解析版本。 <br>如果在映射的所有键上迭代后未找到版本，则基线创建过程将失败。 <br>如果哈希映射为空\（发送空映射，默认为null映射\），则默认填充为： <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br>如果您希望它成为最新版本而不是自动选取版本，请替换： <br>`indirectContext.put("pickAutomatically", null);` <br> _具有：_ <br>`indirectContext.put("latest", true)` |
+| `directContext` | LinkedHashMap&lt;字符串，对象\> | 对于选择直接引用主题\(content\)的配置，将按照映射中提到的顺序解析版本。<br> 如果在迭代映射的所有键后未找到版本，则基线创建过程将失败。<br> 如果HashMap为空\（发送空映射，默认值不为null\），则默认情况下会填充为： <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br>如果您希望基线创建仅选择给定标签的版本，并且如果不存在此类版本，则失败，请放置`label`键和您要创建基线的标签。 |
+| `indirectContext` | LinkedHashMap&lt;字符串，对象\> | 对于选择间接引用主题\（引用内容\）的配置，将按照映射中提到的顺序解析版本。<br> 如果在迭代映射的所有键后未找到版本，则基线创建过程将失败。<br> 如果HashMap为空\（发送空且默认情况下不为null映射\），则默认情况下填充为： <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br>如果您希望它成为最新版本而不是自动选取版本，请替换： <br>`indirectContext.put("pickAutomatically", null);` <br> _with :_<br>`indirectContext.put("latest", true)` |
 
 **返回**：
 基线的名称，即JCR存储库中基线的节点名称。 新创建的基线的标题将显示在DITA映射的“基线”页上，供用户使用。
@@ -122,10 +132,10 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | 有效的JCR会话。 |
 | `sourcePath` | 字符串 | AEM存储库中DITA映射文件的绝对路径。 |
 | ``baselineName`` | 字符串 | 必须应用标签的基线节点的名称。 要获取基线节点的名称，您可以使用[\#id185NFF0085Z](#id185NFF0085Z)方法或在CRXDE中检查DITA映射的基线节点。<br> **注意：**&#x200B;标签应用于从基线中的映射文件直接引用的文件版本。 |
-| `label` | 字符串 | 应用于基线中文件的标签。 确保标签中不包含下列字符： &amp;amp；sol； &amp;amp；逗号； &amp;amp；冒号； &amp;amp；逗号； &amp;amp；lbrack； &amp;amp；逗号； &amp;amp；vert； &amp;amp；逗号； &amp;amp； &amp;amp；ast； <br>如果要设置多个标签，请用逗号分隔标签；例如Label1， Label2。 |
+| `label` | 字符串 | 应用于基线中文件的标签。 确保标签不包含下列字符： &amp;sol； &amp;comma； &amp;colon； &amp;comma； &amp;lbrack； &amp;comma； &amp;rbrack； &amp;comma； &amp;vert； &amp;comma； <br>如果要设置多个标签，请用逗号分隔标签；例如Label1， Label2。 |
 
 **异常**：
-抛出`RepositoryException`。
+引发`RepositoryException`。
 
 ## 删除标签
 
@@ -148,10 +158,10 @@ String label) throws GuidesApiException
 | `session` | javax.jcr.Session | 有效的JCR会话。 |
 | `sourcePath` | 字符串 | AEM存储库中DITA映射文件的绝对路径。 |
 | `baselineName` | 字符串 | 必须从中删除标签的基线名称。<br> **注意：**&#x200B;标签已从直接从基线中的映射文件引用的文件版本中删除。 |
-| `label` | 字符串 | 要从基线中的文件删除的标签。 <br>如果要删除多个标签，请用逗号分隔标签；例如Label1、Label2。 |
+| `label` | 字符串 | 要从基线中的文件删除的标签。<br> 如果要删除多个标签，请使用逗号分隔标签；例如Label1、Label2。 |
 
 **返回**：
-对于基线中的所有文件，映射具有*key：value*&#x200B;对`path:deletedlabels`。
+该映射包含基线中所有文件的*键:value*&#x200B;对`path:deletedlabels`。
 
 **异常**：
-抛出``RepositoryException`, `VersionException`, `Exception``。
+引发``RepositoryException`, `VersionException`, `Exception``。

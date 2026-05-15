@@ -1,17 +1,29 @@
 ---
-title: 向DITAPDF的第一页添加企业品牌
+title: 将企业品牌添加到DITA PDF的第一页
 description: 通过整合封面页和章节页来实现公司品牌化，确保在内容顶部明确显示企业身份。
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: a9f8622dc5a2647bcff32c8895700d5c5933be4a
+exl-id: ab452529-3c7f-4057-a0f6-212b9f52a99d
+TQID: https://experienceleague.adobe.com/6CGRK2QWFZ6nIXmIAQZy3lX7t4KYP2-HeyqlVW2-7eE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: 422
 ht-degree: 0%
 
 ---
 
-# 向DITAPDF的第一页添加企业品牌
+# 将企业品牌添加到DITA PDF的第一页
 
 ## 本文将涵盖：
 
@@ -22,7 +34,7 @@ ht-degree: 0%
 
 **之前：**
 
-![在修复品牌之前：屏幕快照显示预品牌PDF布局](../assets/publishing/branding-image1.png)
+![在修复品牌之前：显示预品牌PDF布局的屏幕快照](../assets/publishing/branding-image1.png)
 <br>
 <br>
 
@@ -72,7 +84,7 @@ ht-degree: 0%
 </map>
 ```
 
-如果Bookmap包含`<frontmatter>`，将自动生成PDF的FrontCover。
+如果Bookmap包含`<frontmatter>`，则会自动生成PDF的FrontCover。
 
 
 ## 在PDF模板中进行必要的更改
@@ -88,14 +100,14 @@ ht-degree: 0%
 - 现在，根据您的内容执行以下步骤。
 
 
-#### 如果您使用Ditamap来生成PDF：
+#### 如果您使用Ditamap来生成PDF ：
 
-发布DITAMAP时，本机PDF提供自动生成FrontCover页面的功能。 可以在本机PDF模板中配置启用或禁用FrontCover页生成的选项。
+发布DITAMAP时，本机PDF提供自动生成FrontCover页面的功能。 可以在本机PDF模板中配置启用或禁用FrontCover页面生成的选项。
 
 要合并，请执行以下操作：
-- 转到本机PDF模板设置 — >页面布局顺序
+- 转到原生PDF模板设置 — >页面布局顺序
 - 现在，将FrontCover与下一页（即章节和主题）合并。
-  ![将FrontCover与章节合并：屏幕快照显示本机PDF模板设置](../assets/publishing/branding-image3.png)
+  ![将FrontCover与章节合并：屏幕快照显示原生PDF模板设置](../assets/publishing/branding-image3.png)
 - 保存模板，为预设选择此模板并发布！
 
 
@@ -127,21 +139,20 @@ window.addEventListener('DOMContentLoaded', function () {
 ```
 
 - 在章节模板中包含此JavaScript 。
-  ![在章节模板中包含JavaScript：在页面布局PDF模板中显示条目的屏幕快照](../assets/publishing/branding-image4.png)
+  ![在章节模板中包含JavaScript：屏幕快照显示页面布局PDF模板中的条目](../assets/publishing/branding-image4.png)
 
 - 从预设选项启用JavaScript
   ![启用JavaScript预设设置：屏幕快照显示用于启用JavaScript的预设设置](../assets/publishing/branding-image5.png)
 
-- Publish！
+- 发布！
 
 ## 附件：
 
 - [下载示例PDF模板包以查看应用的更改。](../assets/publishing/NativePDF_DemoTemplate.zip)
-- [下载示例PDF预设包以查看应用的更改。](../assets/publishing/Preset_Package.zip)
+- [下载示例的PDF预设包以查看应用的更改。](../assets/publishing/Preset_Package.zip)
 
 
 ## 其他资源：
 
-- [如何在PDF中包含DITA Bookmap的目录](./how-to-include-bookmap-toc-in-pdf-publishing.md)
-- [本地PDF专家讲座视频](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-
+- [如何在PDF中包含DITA书签映射的目录](./how-to-include-bookmap-toc-in-pdf-publishing.md)
+- [原生PDF专家讲座视频](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)

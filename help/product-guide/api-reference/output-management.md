@@ -5,9 +5,20 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7vLVD99129fILw0haQUZFlUn5y7pqMcTxakT6OeW3Uo
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2:
+  - id: ac94cb1b-ba77-439b-aa1f-2d8a6bec3dc3
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: 1204
 ht-degree: 6%
 
 ---
@@ -36,17 +47,17 @@ http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/publishlistener
 | 元素 | 描述 |
 |-------|-----------|
 | `outputName` | 输出预设的名称。 输出名称在其定义的DITA映射的范围内是唯一的。 |
-| `outputType` | 使用此预设生成的输出类型，例如AEM Site、PDF、EPUB或其他。 可用选项为：<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   ePub <br>-   自定义 |
+| `outputType` | 使用此预设生成的输出类型，例如AEM Site、PDF、EPUB或其他。 可用选项为：<br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br> — 自定义 |
 | `outputTitle` | 输出预设设置的描述性名称。 此值用于定义输出预设的“设置名称”属性的值。 |
 | `ditaValPathList` | 用于生成所需输出的DITAVAL文件路径数组。 |
 | `targetPath` | 发布或存储输出的路径。 |
-| `siteName` | AEM站点的&#x200B;*\(对于AEM站点输出\)*&#x200B;名称。 |
-| `templatePath` | *\(对于AEM站点输出\)*&#x200B;用于生成所需输出的模板节点的路径。 |
+| `siteName` | AEM站点的&#x200B;*\（对于AEM站点输出\）*&#x200B;名称。 |
+| `templatePath` | *\（对于AEM站点输出\）*&#x200B;用于生成所需输出的模板节点的路径。 |
 | `searchScope` | 指定搜索操作的范围。 此参数的值必须设置为`local`。 |
-| `generateTOC` | *\(对于AEM站点输出\)*&#x200B;指定是否生成目录\(true\)\(false\)。 |
-| `generateBreadcrumbs` | *\(对于AEM站点输出\)*&#x200B;指定是否生成痕迹导航\(true\)\(false\)。 |
-| `overwriteStrategy` | *\(用于AEM站点输出\)*&#x200B;指定是否覆盖目标上的文件\(true\)\(false\)。 |
-| `pdfGenerator` | 指定要使用的PDF生成引擎。 可能的值为： <br>-   DITAOT <br>-   FMPS |
+| `generateTOC` | *\（对于AEM站点输出\）*&#x200B;指定是否生成目录\(true\)\(false\)。 |
+| `generateBreadcrumbs` | *\（对于AEM站点输出\）*&#x200B;指定是否生成痕迹导航\(true\)\(false\)。 |
+| `overwriteStrategy` | *\（用于AEM站点输出\）*&#x200B;指定是否覆盖目标上的文件\(true\)\(false\)。 |
+| `pdfGenerator` | 指定要使用的PDF生成引擎。 可能的值为： <br>- DITAOT <br>- FMPS |
 
 >[!NOTE]
 >
@@ -66,7 +77,7 @@ http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/publishlistener
 | `:operation` | 字符串 | 是 | 要调用的操作的名称。 此参数的值为``createoutput``.<br> **注意：**&#x200B;该值不区分大小写。 |
 | `sourcePath` | 字符串 | 是 | dita映射文件的绝对路径。 |
 | `outputTitle` | 字符串 | 是 | 输出预设设置的描述性名称。 用于定义输出预设的Setting Name属性的值。<br> **注意：**&#x200B;创建新的输出预设时，后端系统从给定的标题中为输出预设驱动一个唯一的名称。 |
-| `outputType` | 字符串 | 是 | 使用此预设生成的输出类型，例如AEM Site、PDF、EPUB或其他。 可用选项为：<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   ePub <br>-   自定义 |
+| `outputType` | 字符串 | 是 | 使用此预设生成的输出类型，例如AEM Site、PDF、EPUB或其他。 可用选项为：<br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br> — 自定义 |
 
 **响应值**：
 
@@ -87,7 +98,7 @@ http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/publishlistener
 |----|----|--------|-----------|
 | `:operation` | 字符串 | 是 | 要调用的操作的名称。 此参数的值为``saveoutput``.<br> **注意：**&#x200B;该值不区分大小写。 |
 | `sourcePath` | 字符串 | 是 | dita映射文件的绝对路径。 |
-| `outputObj` | 字符串 | 是 | 包含正在更新的输出预设属性的JSON对象。 `outputObj.outputName`属性包含要更新的输出预设的名称。 有关JSON对象的格式，请参阅&#x200B;**获取DITA映射的所有输出预设**&#x200B;中的[响应值](#get-output-presets-dita-map)表。 |
+| `outputObj` | 字符串 | 是 | 包含正在更新的输出预设属性的JSON对象。 `outputObj.outputName`属性包含要更新的输出预设的名称。 有关JSON对象的格式，请参阅[获取DITA映射的所有输出预设](#get-output-presets-dita-map)中的&#x200B;**响应值**&#x200B;表。 |
 
 **响应值**：
 返回HTTP 200 \(Successful\)响应。
@@ -112,18 +123,18 @@ http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/publishlistener
 | 元素 | 描述 |
 |-------|-----------|
 | `outputName` | 输出预设的名称。 输出名称在其定义的DITA映射的范围内是唯一的。 |
-| `outputType` | 使用此预设生成的输出类型，例如AEM Site、PDF、EPUB或其他。 可用选项为：<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   ePub <br>-   自定义<br> |
+| `outputType` | 使用此预设生成的输出类型，例如AEM Site、PDF、EPUB或其他。 可用选项为：<br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br> — 自定义<br> |
 | `outputTitle` | 输出预设设置的描述性名称。 此值用于定义输出预设的“设置名称”属性的值。 |
 | `ditaValPathList` | 用于生成所需输出的DITAVAL文件路径数组。 |
 | `targetPath` | 发布或存储输出的路径。 |
-| `siteName` | \(对于AEM站点输出\)AEM站点的名称。 |
-| `siteTitle` | \(对于AEM站点输出\)AEM站点的标题。 |
-| `templatePath` | \(对于AEM站点输出\)用于生成所需输出的模板节点的路径。 |
+| `siteName` | \（对于AEM站点输出\）AEM站点的名称。 |
+| `siteTitle` | \（对于AEM站点输出\）AEM站点的标题。 |
+| `templatePath` | \（对于AEM站点输出\）用于生成所需输出的模板节点的路径。 |
 | `searchScope` | 指定搜索操作的范围。 此参数的值必须设置为`local`。 |
-| `generateTOC` | \(对于AEM站点输出\)指定是否生成目录\(true\) \(false\)。 |
-| `generateBreadcrumbs` | \(对于AEM站点输出\)指定是否生成痕迹导航\(true\)\(false\)。 |
-| `overwriteFiles` | \(对于AEM站点输出\)指定是否覆盖目标位置的文件\(true\)\(false\)。 |
-| `pdfGenerator` | 指定要使用的PDF生成引擎。 可能的值为： <br>-   DITAOT <br>-   FMPS |
+| `generateTOC` | \（对于AEM站点输出\）指定是否生成目录\(true\) \(false\)。 |
+| `generateBreadcrumbs` | \（对于AEM站点输出\）指定是否生成痕迹导航\(true\)\(false\)。 |
+| `overwriteFiles` | \（对于AEM站点输出\）指定是否覆盖目标位置的文件\(true\)\(false\)。 |
+| `pdfGenerator` | 指定要使用的PDF生成引擎。 可能的值为： <br>- DITAOT <br>- FMPS |
 
 >[!NOTE]
 >
