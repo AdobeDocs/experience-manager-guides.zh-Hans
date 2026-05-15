@@ -5,9 +5,15 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '9267'
+source-wordcount: 9267
 ht-degree: 1%
 
 ---
@@ -26,7 +32,7 @@ ht-degree: 1%
 - 如果您使用的是版本4.3.x、4.2、4.2.1（修补程序4.2.1.3）、4.1或4.1.x，则需要在升级到版本5.0.0之前升级到版本4.4。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
 
 
 >[!NOTE]
@@ -59,11 +65,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 此升级过程仅适用于版本3.8.5到版本4.0。 有关从版本3.4或更高版本升级到3.8.5的过程，请参阅[Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的&#x200B;*升级Adobe Experience Manager Guides*&#x200B;部分。
+> 此升级过程仅适用于版本3.8.5到版本4.0。 有关从版本3.4或更高版本升级到3.8.5的过程，请参阅[Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的&#x200B;*升级Adobe Experience Manager Guides*&#x200B;部分。
 
 
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides升级过程之前，请确保您已：
 
@@ -136,7 +142,7 @@ ht-degree: 1%
 
 如果您使用的是版本4.0、4.1或4.1.x，则可以直接升级到版本4.2。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.2升级过程之前，请确保您具有：
 
@@ -312,7 +318,7 @@ ht-degree: 1%
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.2.1升级过程之前，请确保您具有：
 
@@ -489,7 +495,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.3.0升级过程之前，请确保您具有：
 
@@ -547,7 +553,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.3.1升级过程之前，请确保您具有：
 
@@ -788,7 +794,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 >
 >后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.4.0升级过程之前，请确保您具有：
 
@@ -981,7 +987,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 在此升级过程中，由于`'order'`值从1000更改为50，因此您需要将现有的自定义重写器（如果有）与`'fmdita-rewriter'`合并。
 
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)
 
 
 ## 升级到版本4.6.0
@@ -996,7 +1002,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 4.6.0升级过程之前，请确保您具有：
 
@@ -1151,7 +1157,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 >
 > 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
-**&#x200B;**&#x200B;先决条件&#x200B;**&#x200B;**
+****先决条件****
 
 在开始Experience Manager Guides 5.0.0升级过程之前，请确保您具有：
 
@@ -1299,7 +1305,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 ## 重新索引damAssetLucene的步骤
 
-带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.0.0版本后如何重新索引damAssetLucene。
+带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.0.0版本后如何重新索引damAssetLucene。
 
 >[!NOTE]
 >
@@ -1309,7 +1315,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 >[!IMPORTANT]
 >
-> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.1.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.1.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 **先决条件**
 
@@ -1466,7 +1472,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 ## 重新索引damAssetLucene的步骤
 
-带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.1.0版本后如何重新索引damAssetLucene。
+带有指南的damAssetLucene的索引定义已更新。 请参阅[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)，了解在升级到5.1.0版本后如何重新索引damAssetLucene。
 
 >[!NOTE]
 >

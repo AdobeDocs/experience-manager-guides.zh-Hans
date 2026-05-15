@@ -3,9 +3,13 @@ title: 自定义应用程序
 description: 自定义应用程序
 role: User, Admin
 exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
-source-git-commit: 3615928117ce1be527dc3c6d2ec8ddd115b78b0a
+TQID: https://experienceleague.adobe.com/7DiEcUTAvp4rT3Fy9pIv4-zaHKwswjokjlaBgx8Pbyo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 485
 ht-degree: 0%
 
 ---
@@ -66,7 +70,7 @@ this.setValue('key', value)
 const value = this.getValue("key")
 ```
 
-## 查看
+## 视图
 
 该视图定义应用程序的UI。 我们使用JSON文件来定义文件的视图。 在本例中，我们定义组件和css（如组件外的示例中所提供），并渲染存储在模型中的值。
 在我们的应用程序中，每个视图都使用JSON进行定义。 JSON是使用其称为`id`的唯一ID引用的。
@@ -130,7 +134,7 @@ this.next('methodName', args)
   }
 ```
 
-以下GIF显示了正在运行的上述代码
+GIF下方显示了上述代码的实际操作情况
 ![basic_customization](imgs/basic_customisation.gif "基本自定义按钮")
 
 

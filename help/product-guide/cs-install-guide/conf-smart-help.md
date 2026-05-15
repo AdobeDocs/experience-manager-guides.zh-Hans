@@ -2,9 +2,14 @@
 title: 配置智能帮助以搜索内容
 description: 了解如何配置智能帮助以搜索内容
 exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/CVY-v5lrpyLwIjmcxA6-p-4E0OuKZM14cvJomBqADz4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 619
 ht-degree: 0%
 
 ---
@@ -29,11 +34,11 @@ ht-degree: 0%
 
 1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕可显示Adobe产品和技术的所有可用API、事件和服务，您可以使用这些产品和技术开发应用程序。
 
-1. 选择&#x200B;**I/O管理API**&#x200B;以将其添加到您的项目中。
+1. 选择&#x200B;**I/O管理API**以将其添加到您的项目中。
    ![IO管理API](assets/confi-ss-io-management.png)
    *将I/O管理API添加到您的项目中。*
 
-1. 创建新的&#x200B;**OAuth凭据**&#x200B;并保存它。
+1. 创建新的&#x200B;**OAuth凭据**并保存它。
    配置API中的![OAuth凭据磁贴](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *为你的API配置OAuth凭据。*
 
@@ -105,5 +110,5 @@ ht-degree: 0%
 ```
 
 
-配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在Web编辑器的右侧面板中。 选择图标以查看&#x200B;**智能帮助**&#x200B;面板。
+配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在Web编辑器的右侧面板中。 选择图标以查看&#x200B;**智能帮助**面板。
 有关更多详细信息，请查看《Experience Manager用户指南》中的[AI支持的智能帮助以搜索内容](../user-guide/ai-based-smart-help.md)部分。

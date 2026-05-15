@@ -1,11 +1,17 @@
 ---
-title: 发行说明 | 修复了Adobe Experience Manager Guides 2025.02.0版本中的问题
+title: 发行说明 |修复了Adobe Experience Manager Guides 2025.02.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2025.02.0版本中的错误修复。
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
+TQID: https://experienceleague.adobe.com/MD7NijfBau5f6OzG4xZPdK6qFTLQfcFN8OdF06Cq-mY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 1%
+source-wordcount: 1327
+ht-degree: 5%
 
 ---
 
@@ -15,7 +21,7 @@ ht-degree: 1%
 
 有关新功能和增强功能的更多信息，请查看 [2025.02.0 版本中的新增功能](whats-new-2025-02-0.md)。
 
-了解2025.02.0版本[&#128279;](upgrade-instructions-2025-02-0.md)的升级说明。
+了解2025.02.0版本](upgrade-instructions-2025-02-0.md)的[升级说明。
 
 
 ## 创作
@@ -75,7 +81,7 @@ ht-degree: 1%
 - 当您使用非旧版翻译同时发送未翻译主题的两个版本并在第一个版本之前审批第二个版本时，具有第一个版本的翻译项目会损坏。 (22200)
 
 
-## 审查
+## 审阅
 
 - 在图中选择多个要查看的主题时，查看者收到的电子邮件通知指示图中的所有主题都可以查看，而不仅仅是选定的主题。 (23214)
 - 主题标题和图标在审阅创建界面中未对齐。 (11670)

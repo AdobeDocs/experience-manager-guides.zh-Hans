@@ -5,9 +5,14 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: 1181
 ht-degree: 0%
 
 ---
@@ -59,7 +64,7 @@ ht-degree: 0%
 
    <img src="assets/duplicate-template.png" alt="复制PDF模板" width="350">
 
-   *在&#x200B;**复制PDF模板**&#x200B;对话框中选择要复制的模板、预览缩略图并更新标题。*
+   *在&#x200B;**复制PDF模板**对话框中选择要复制的模板、预览缩略图并更新标题。*
 
 1. 指定模板的标题。
 
@@ -81,7 +86,7 @@ ht-degree: 0%
 ### 删除
 
 选择删除选项可删除所选模板。 然后，在确认提示中选择是。
-预设已从&#x200B;**模板**&#x200B;中删除。
+预设已从**模板**&#x200B;中删除。
 
 ### 属性{#properties-option}
 
@@ -93,7 +98,7 @@ ht-degree: 0%
 
 创建自定义模板后，您可以从PDF输出预设的页面布局中选择它。
 
-了解如何[发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=zh-Hans)。
+了解如何[发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en)。
 
 >[!NOTE]
 >

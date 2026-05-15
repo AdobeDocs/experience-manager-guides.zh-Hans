@@ -5,9 +5,14 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/1lxtEhrxLZXdLiN0aq5IFfNLXiG9XlaiGLLRFwQTgp4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: 1111
 ht-degree: 1%
 
 ---
@@ -190,4 +195,4 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 - 如果在文件夹的同一级别创建另一个映射或主题，则新创建的资源的名称将附加0、1、2等。 您可以选择打开映射进行编辑，或将映射文件保存到存储库中。
 
-**父主题：**&#x200B;[&#x200B;使用映射编辑器](map-editor.md)
+**父主题：**[&#x200B;使用映射编辑器](map-editor.md)

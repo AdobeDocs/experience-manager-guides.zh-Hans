@@ -1,23 +1,29 @@
 ---
 title: 原生PDF发布“动手实验室 — BYOS” — 交互式学习
-description: 这个“实验操作 — BYOS”课程深入探究了本机PDF的发布方式。 探索各种用例，利用关键功能，并直接与Adobe专家接洽，以解决您的特定问题陈述和要求。
+description: 这个“实验操作 — BYOS”课程对原生PDF发布进行了深入探讨。 探索各种用例，利用关键功能，并直接与Adobe专家联系，解决您的特定问题声明和要求。
 exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/nPgfochzBl2Zv5ANSYE1q-I6PiYiAONbuOV-qfkVtA8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 407
 ht-degree: 0%
 
 ---
 
 # 原生PDF发布“动手实验室 — BYOS” — 交互式学习
 
-这个“实验操作 — BYOS”课程深入探究了本机PDF的发布方式。 探索各种用例，利用关键功能，并直接与Adobe专家接洽，以解决您的特定问题陈述和要求。
+这个“实验操作 — BYOS”课程对原生PDF发布进行了深入探讨。 探索各种用例，利用关键功能，并直接与Adobe专家联系，解决您的特定问题声明和要求。
 
 ## 会话概述
 
-在本次研讨会中，您将获得有关本机PDF发布的宝贵见解，其中涵盖了从在PDF输出中使用元数据到高级故障排除技术的各种主题。 与Adobe专家一起了解本机PDF的最新发展，讨论用例或特定要求，以增强您的发布功能。
+在本次研讨会中，您将获得有关本机PDF发布的宝贵见解，其中涵盖从在PDF输出中使用元数据到高级故障排除技术的各种主题。 与Adobe专家讨论本机PDF中的最新动态、用例或特定要求，以增强您的发布功能。
 
 ## 会话录制
 
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 ## 要点
 
-在本课程中，您已了解关于本机PDF发布的以下信息：
+在本课程中，您已了解本机PDF发布的以下内容：
 
 - 在输出中使用资源或DITA元数据。
 - 使用注释、表格、图像、脚注元素。
@@ -48,19 +54,19 @@ ht-degree: 0%
 
 ## 相关资源
 
-- **本机PDF设置步骤** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=zh-Hans)
+- **本机PDF设置步骤** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Experience League上本机PDF发布的功能概述** - [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=zh-Hans)
+- **Experience League上的本机PDF发布功能概述** - [](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **已记录Experience League[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=zh-Hans)上的常见用例** - 
+- **在Experience League上记录常见用例** - [](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **社区论坛** — 对于Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hans)。
+- **社区论坛** — 对于Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 >[!NOTE]
 >
 > 此会话中显示的功能在以下版本的AEM Guides上可用：
 > - 内部部署4.2或更高版本
-> - Cloud Service2309及更高版本
+> - Cloud Services 2309及更高版本
 
 ## 下一次专家会议
 

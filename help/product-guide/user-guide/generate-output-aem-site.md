@@ -4,13 +4,17 @@ description: 了解AEM Sites的增量输出生成如何在AEM Guides中工作。
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/x4I-4QCw0hQPhE5f2oVsN3Z7K8ochSbkkq-57p1HbxI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: 665
 ht-degree: 0%
 
 ---
-
 
 # 增量输出生成
 
@@ -75,7 +79,7 @@ ht-degree: 0%
 
 1. 选择要用于再生所选主题的输出预设。
 
-   对于使用旧版组件映射的AEM Sites输出预设，如果选择了基线，则所选基线中包含的主题版本将用于生成输出。 此外，仅当映射结构未发生更改时，才应使用主题列表中的增量发布。 如果地图结构/目录发生变化，则整个地图应发布一次以更新目录。 有关使用AEM网站预设的详细信息，请在地图仪表板[&#128279;](./generate-output-aem-site-map-dashboard.md)上查看AEM Sites预设。
+   对于使用旧版组件映射的AEM Sites输出预设，如果选择了基线，则所选基线中包含的主题版本将用于生成输出。 此外，仅当映射结构未发生更改时，才应使用主题列表中的增量发布。 如果地图结构/目录发生变化，则整个地图应发布一次以更新目录。 有关使用AEM网站预设的详细信息，请在地图仪表板](./generate-output-aem-site-map-dashboard.md)上查看[AEM Sites预设。
 
 
 1. 选择&#x200B;**重新生成**&#x200B;以启动输出生成过程。

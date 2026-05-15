@@ -1,20 +1,25 @@
 ---
 title: 删除批量激活映射集合
-description: Learn how to delete bulk activation map collection in AEM Guides.
+description: 了解如何在AEM Guides中删除批量激活映射收藏集。
 feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: 374f8265-9aa0-4a08-8afa-ae9ce0cb33e6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/cGlo-Xus1kF47NfdhE9ampCa0KLHmSGMWd2Zfa7UsxA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: 118
 ht-degree: 0%
 
 ---
 
 # 删除批量激活映射集合 {#id214GI40B0XA}
 
-You can delete a bulk activation map collection when it is no longer needed. To delete a bulk activation map collection, perform the following steps:
+您可以删除不再需要的批量激活映射收藏集。 要删除批量激活映射集合，请执行以下步骤：
 
 1. 从工具列表中选择&#x200B;**指南**。
 
@@ -24,13 +29,13 @@ You can delete a bulk activation map collection when it is no longer needed. To 
 
    此时将显示批量激活映射集合列表。
 
-1. Select the collection that you want to edit and click **Delete**.
+1. 选择要编辑的收藏集，然后单击&#x200B;**删除**。
 
-   A delete confirmation message appears.
+   出现删除确认消息。
 
-1. Click **Yes**.
+1. 单击&#x200B;**是**。
 
-   The bulk activation map collection is deleted from the system.
+   将从系统中删除批量激活映射集合。
 
 
-**父主题：**&#x200B;[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)
+**父主题：**[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)

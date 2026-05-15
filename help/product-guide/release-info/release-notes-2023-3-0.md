@@ -4,16 +4,22 @@ description: Adobe Experience Manager Guides as a Cloud Service 3月版
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/eIPiGBWr-vxglYwzI0zYT64a4orZXm42hWthchmcceU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 0%
+source-wordcount: 565
+ht-degree: 2%
 
 ---
 
 # 2023年3月版Adobe Experience Manager Guides as a Cloud Service
 
-此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本2023年3月中修复的问题(后称为&#x200B;*AEM Guides as a Cloud Service*)。
+此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本2023年3月中修复的问题（后称为&#x200B;*AEM Guides as a Cloud Service*）。
 
 有关新增功能和增强功能的更多信息，请参阅[AEM Guides as a Cloud Service 2023年3月版的新增功能](whats-new-2023-3-0.md)。
 
@@ -22,18 +28,18 @@ ht-degree: 0%
 请通过以下步骤升级您当前的AEM Guides as a Cloud Service设置：
 
 1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
-1. 将云服务Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2023.3.242。
+1. 将云服务Git代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2023.3.242。
 1. 提交更改并运行云服务管道，以升级到AEM Guides as a Cloud Service的2023年3月版。
 
-## 为现有内容编制索引的步骤(仅当使用的版本早于9月份的AEM Guides as a Cloud Service时)
+## 为现有内容编制索引的步骤（仅当使用的版本早于9月份的AEM Guides as a Cloud Service时）
 
 执行以下步骤来索引现有内容并在映射级别使用新的查找和替换文本：
 
 * 对服务器运行POST请求（使用正确的身份验证） — `http://<server:port>/bin/guides/map-find/indexing`。
-(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(例如：http://&lt;_localhost:8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+* 该API将返回作业ID。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+（例如：http://&lt;_localhost:8080_/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678）
 
 * 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
@@ -61,10 +67,10 @@ ht-degree: 0%
 修复了多个区域中的错误如下：
 
 * 下载PDF过程在Web编辑器中无法正常工作。 (11496)
-* JSON输出 | 将属性值映射为`"value in spaces and double quotes"`的元数据会导致发布错误。 (11438)
+* JSON输出 |将属性值映射为`"value in spaces and double quotes"`的元数据会导致发布错误。 (11438)
 * 在&#x200B;**插入多媒体**&#x200B;图标下，以YouTube格式插入音频和视频多媒体文件失败。 (11320)
 * 使用具有专门化标题元素的模板创建映射时，会发生验证错误。 (11212)
-* 原生PDF | 表标题中的脚注导致PDF输出的相应页脚中出现粗体和居中对齐文本。 (10610)
+* 原生PDF |表标题中的脚注指向PDF输出中相应页脚中的粗体和居中对齐文本。 (10610)
 >[!NOTE]
 >
 >要反映本机PDF的更改，请删除位于/content/dam/dita-templates的PDF文件夹，然后升级到最新内部版本。 (10610)

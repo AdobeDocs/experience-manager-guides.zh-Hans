@@ -5,9 +5,12 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/q07HdBMHuEyjdQ12idI4-PuBol-NpCWXTsOuZgcAhps
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: 2362
 ht-degree: 0%
 
 ---
@@ -250,4 +253,4 @@ ht-degree: 0%
 
 要删除筛选器并查看所有注释，请从&#x200B;**筛选器类型**&#x200B;对话框取消选择所有筛选器，然后单击&#x200B;**应用**。
 
-**父主题：**&#x200B;[&#x200B;审阅主题或映射](review.md)
+**父主题：**[&#x200B;审阅主题或映射](review.md)

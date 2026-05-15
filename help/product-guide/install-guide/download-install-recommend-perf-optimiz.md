@@ -5,9 +5,15 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/6q077Ib1EIQ4AA51ktmZ966RZrSt08xJQh5t4llzgbQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: baa3aa24-d162-4a57-b73a-d27341145083id: c8841798-1a28-4264-a46a-984860f8e6f6id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: 917
 ht-degree: 0%
 
 ---
@@ -17,7 +23,7 @@ ht-degree: 0%
 ## 配置数据存储\（必需\）
 
 **有什么变化？**
-在配置`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`下将`minRecordLength`属性设置为值`100`有关文件日期存储和S3数据存储区的详细信息，请参阅[在AEM 6](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/data-store-config.html)中配置节点存储区和数据存储区。
+在配置`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`下将`minRecordLength`属性设置为值`100`有关文件日期存储和S3数据存储区的详细信息，请参阅[在AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html)中配置节点存储区和数据存储区。
 
 >[!NOTE]
 >
@@ -51,7 +57,7 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 
  — 将JVM栈大小设置为最小总可用内存的1/4。 使用参数`-Xmx<size>`设置栈内存大小。 将 — `Xms`的值设置为等于`-Xmx`。
 
- — 启用`-XX:+HeapDumpOnOutOfMemoryError`并设置`-XX:HeapDumpPath=</path/to/folder` `>`的路径。
+ — 启用`-XX:+HeapDumpOnOutOfMemoryError`并设置`-XX:HeapDumpPath=</path/to/folder``>`的路径。
 
  — 启用Java GC日志为：
 
@@ -80,7 +86,7 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 ## 创作实例上的客户端库缩小\（可选\）
 
 **有什么变化？**
-应将客户端库设置为在创作实例中缩小。 这可以确保在用户从不同位置浏览系统时下载的字节数减少。 要进行此更改，请从Felix控制台的&#x200B;**HTML库管理器**&#x200B;中设置配置。
+应将客户端库设置为在创作实例中缩小。 这可以确保在用户从不同位置浏览系统时下载的字节数减少。 要进行此更改，请从Felix控制台的**HTML库管理器**&#x200B;中设置配置。
 
 **何时配置？**
 这可以在运行时通过Felix控制台或通过代码部署完成。
@@ -115,4 +121,4 @@ DITA文件保存在数据存储中，而不是区段存储中。 这会将区段
 **Limit AEM Site Pages in Heap**&#x200B;属性的数量增加可优化AEM站点输出生成过程。
 
 
-**父主题：**&#x200B;[&#x200B;下载并安装](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)

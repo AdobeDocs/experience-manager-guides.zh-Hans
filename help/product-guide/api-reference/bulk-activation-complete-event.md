@@ -5,18 +5,21 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
+TQID: https://experienceleague.adobe.com/M8Q8A8auCkKjmoilHsUfU2ztNSCxOWstwPC1bMLmvD0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 185
 ht-degree: 6%
 
 ---
 
 # 批量激活完成事件处理程序
 
-Experience Manager Guides公开`com/adobe/fmdita/replication/complete`事件，用于在批量激活过程完成后执行任何操作。 每当批量激活过程完成时，就会触发此事件。 例如，如果您运行批量激活地图的AEM站点预设，则会在激活过程结束后调用此事件。
+Experience Manager Guides公开`com/adobe/fmdita/replication/complete`事件，用于在批量激活过程完成后执行任何操作。 每当批量激活过程完成时，就会触发此事件。 例如，如果您批量激活地图的AEM站点预设，则会在激活过程结束后调用此事件。
 
-您需要创建一个AEM事件处理程序来读取此事件中可用的属性并进行进一步处理。
+您需要创建一个AEM事件处理程序，以读取此事件中可用的属性并进行进一步处理。
 
 活动详情说明如下：
 
@@ -30,12 +33,12 @@ com/adobe/fmdita/replication/complete
 
 | 名称 | 类型 | 描述 |
 |----|----|-----------|
-| `path` | 字符串 | 触发此事件的文件的路径。 <br>例如，`/content/output/sites/ditamap1-ditamap`。 <br>它是序列化为JSON数组的路径的列表。 |
+| `path` | 字符串 | 触发此事件的文件的路径。<br> 例如，`/content/output/sites/ditamap1-ditamap`。<br> 它是序列化为JSON数组的路径的列表。 |
 | `messageType` | 字符串 | 消息的类型。 <br>可能的选项：`REPLICATION` |
 | `action` | 字符串 | 这是执行的操作。 <br>可能的选项：`BulkReplicate` |
 | `user` | 字符串 | 启动操作的用户。 |
 | `result` | 字符串 | 批量激活的结果。 它是一个序列化JSON对象： <br>`{"success":boolean,"code":integer,"message":"" }` |
-| `agentId` | 字符串 | 复制中使用的agentId。 例如：`"publish"`。 |
+| `agentId` | 字符串 | 复制中使用的agentId。 例如 `"publish"`。 |
 | `importMode` | 字符串 | 在激活中使用的导入模式。 可能的选项包括： <br>`REPLACE, MERGE, UPDATE`。 |
 
 

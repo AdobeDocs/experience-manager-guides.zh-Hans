@@ -4,16 +4,22 @@ description: Adobe Experience Manager Guides as a Cloud Service 2月版
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/KtMCjANUmaT-PaKIJltf0G72WaHR0JV94HyutN9DyFY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 0%
+source-wordcount: 877
+ht-degree: 4%
 
 ---
 
 # 2023年2月版Adobe Experience Manager Guides as a Cloud Service
 
-此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本2023年2月(以后称为&#x200B;*AEM Guides as a Cloud Service*)中修复的问题。
+此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本2023年2月（以后称为&#x200B;*AEM Guides as a Cloud Service*）中修复的问题。
 
 有关新增功能和增强功能的更多信息，请参阅[AEM Guides as a Cloud Service 2023年2月版的新增功能](whats-new-2023-2-0.md)。
 
@@ -21,18 +27,18 @@ ht-degree: 0%
 
 请通过以下步骤升级您当前的AEM Guides as a Cloud Service设置：
 1. 检查云服务的Git代码，并切换到在云服务管道中配置的与您要升级的环境对应的分支。
-2. 将云服务Git代码的`<dox.version>`文件中的`/dox/dox.installer/pom.xml`属性更新为2023.2.235。
+2. 将云服务Git代码的`/dox/dox.installer/pom.xml`文件中的`<dox.version>`属性更新为2023.2.235。
 3. 提交更改并运行云服务管道，以升级到AEM Guides as a Cloud Service的2023年2月版。
 
-## 为现有内容编制索引的步骤(仅当使用的版本早于9月份的AEM Guides as a Cloud Service时)
+## 为现有内容编制索引的步骤（仅当使用的版本早于9月份的AEM Guides as a Cloud Service时）
 
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
 * 对服务器运行POST请求（使用正确的身份验证） — `http://<server:port>/bin/guides/map-find/indexing`。
-(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(例如：http://&lt;_localhost:8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+* 该API将返回作业ID。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+（例如：http://&lt;_localhost:8080_/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678）
 
 * 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
@@ -80,10 +86,10 @@ ht-degree: 0%
 
 * 复制DITA映射资产（从资产UI ）会导致复制的资产中出现错误的基线。 (11218)
 * 对于大于AEM中允许的限制（默认为2 GB）的文件，上传时不会显示警告消息。 (10817)
-* Web编辑器 — 基线 | 在Web编辑器中的新基线仪表板中，“最新”列的行为不同。 (10808)
-* 翻译 | 由于/libs/fmdita/i18n/ja.json无效，翻译作业未开始。 (10543)
-* 翻译 | 从翻译仪表板（人工翻译）创建的范围设定翻译项目出错。 (10526)
-* 翻译 | 对于资产位于活动翻译项目中的整个语言文件夹，后处理将被阻止。 (10332)
+* Web编辑器 — 基线 | Latest列的行为在Web编辑器的新基线仪表板中是不同的。 (10808)
+* 翻译 |由于/libs/fmdita/i18n/ja.json无效，翻译作业未开始。 (10543)
+* 翻译 |从翻译仪表板（人工翻译）创建的范围翻译项目发生错误。 (10526)
+* 翻译 |对于资产位于活动翻译项目中的整个语言文件夹，后处理将被阻止。 (10332)
 * 如果在基线编辑器中更改并保存了版本，则会为任何资产显示多个弹出窗口。 (10399)
 * 会话泄露发生在`com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`。 (10279)
 
@@ -91,12 +97,12 @@ ht-degree: 0%
 
 * 主题重新生成不适用于某些场景。 (10635)
 * Publishlistener不在信息日志中显示请求的数据，并且还包含一些垃圾日志。( 10567)
-* 原生PDF | 使用“添加到文件夹配置文件”选项创建输出预设时，PDF生成失败，出现空指针异常。 (10950)
-* 原生PDF | 旋转表标题时出现问题。 (10555)
-* 原生PDF | 嵌套的`<indexterm>`未嵌套在本机PDF导出中。 (10521)
-* 原生PDF | 附录中嵌套的topicref在临时HTML中全部转换为h1。 (10454)
+* 原生PDF |使用“添加到文件夹配置文件”选项创建输出预设时，PDF生成失败，出现空指针异常。 (10950)
+* 原生PDF |旋转表标题时出现问题。 (10555)
+* 原生PDF |嵌套的`<indexterm>`未嵌套在本地PDF导出中。 (10521)
+* 原生PDF |附录中的嵌套topicref全部转换为临时HTML中的h1。 (10454)
 * 对于使用FrameMaker Publishing Server 2020生成的PDF，基线发布失败。 (10551)
-* 原生PDF | 将`xref`添加到图像不会渲染所生成PDF上的图像。 (11346)
-* 原生PDF | 图像标记向所有图像添加display-inline属性。 (10653)
-* 原生PDF | 缺省情况下，在生成的输出中隐藏草稿注释。 (10560)
-* 原生PDF | navtitle不用于表示主题标题。 (10509)
+* 原生PDF |将`xref`添加到图像不会渲染所生成PDF上的图像。 (11346)
+* 原生PDF |图像标记向所有图像添加display-inline属性。 (10653)
+* 原生PDF |缺省情况下，在生成的输出中隐藏草稿注释。 (10560)
+* 原生PDF |不对topichead授予navtitle。 (10509)

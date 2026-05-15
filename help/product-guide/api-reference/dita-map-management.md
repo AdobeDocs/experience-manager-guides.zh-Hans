@@ -5,9 +5,14 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 1843cae11aac38053abc3c50fa2d00c050520470
+TQID: https://experienceleague.adobe.com/GT4JRw1nFV7M18tJX-0t0Gx-g0I9tA8XfXLGnnhvif0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2: id: b7cb7f25-3b6d-4e58-beab-fe9279275fe4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: 626
 ht-degree: 4%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 4%
 
 ## 下载具有依赖项的DITA映射
 
-一种GET方法，用于下载DITA映射及其所有依赖项，如映射和主题中使用的引用主题、子映射、图像和DTD。
+一种GET方法，可下载DITA映射及其所有依赖项，如映射和主题中使用的引用主题、子映射、图像和DTD。
 
 **请求URL**：
 http://*&lt;aem-guides-server\>*： *&lt;端口号\>*/bin/fmdita/exportditamap
@@ -46,7 +51,7 @@ http：*//&lt;aem-guides-server\>： &lt;port-number\>/bin/dxml/async-export*
 |----|----|--------|-----------|
 | `ditamap` | 字符串 | 是 | AEM存储库中DITA映射文件的绝对路径。 |
 | `baseline` | 字符串 | 否 | 用于检索版本化内容的基线的标题。<br> **注意：**&#x200B;该值区分大小写。 |
-| `flatFS` | 布尔值 | 否 | \(Optional\)如果设置为true，则在ZIP文件中返回文件的平面结构。 例如，如果DITA映射引用多个文件夹中的内容，则所有引用的文件都将提取到单个文件夹中。 如果存在同名文件，则通过添加数字后缀来重命名这些文件。 所有引用\（在DITA映射和主题中\）都会自动处理，因为它们会根据平面文件夹结构中文件的新位置进行更新。 如果设置为false，则文件夹结构将保持不变。 如果DITA映射从多个位置引用文件，则所有这些位置也会在ZIP文件中创建。 恢复ZIP文件时，会在目标位置创建精确的文件夹结构。 <br>此参数的默认值为false。 |
+| `flatFS` | 布尔值 | 否 | \(Optional\)如果设置为true，则在ZIP文件中返回文件的平面结构。 例如，如果DITA映射引用多个文件夹中的内容，则所有引用的文件都将提取到单个文件夹中。 如果存在同名文件，则通过添加数字后缀来重命名这些文件。 所有引用\（在DITA映射和主题中\）都会自动处理，因为它们会根据平面文件夹结构中文件的新位置进行更新。 如果设置为false，则文件夹结构将保持不变。 如果DITA映射从多个位置引用文件，则所有这些位置也会在ZIP文件中创建。 恢复ZIP文件时，会在目标位置创建精确的文件夹结构。<br> 此参数的默认值为false。 |
 
 **响应值**：
 

@@ -5,9 +5,15 @@ hide: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/3ZkAlpDfF7-v0biHN9N5aiospS63Kr9veXsBqKHevtY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: a44282cf-0adb-456f-8700-3ec7a3f89fd4id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: 6522
 ht-degree: 0%
 
 ---
@@ -43,7 +49,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
 >[!IMPORTANT]
 >
->如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 有关卸载说明，请参阅[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html)文章中的&#x200B;**卸载包**&#x200B;部分。
+>如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 有关卸载说明，请参阅[如何使用包](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)文章中的&#x200B;**卸载包**&#x200B;部分。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -77,7 +83,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
 >[!IMPORTANT]
 >
->如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html)文章卸载说明中的&#x200B;**卸载包**&#x200B;部分。
+>如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅[如何使用包](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)文章卸载说明中的&#x200B;**卸载包**&#x200B;部分。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -116,7 +122,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=zh-Hans)。
+   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en)。
 
    ![包管理器](images/package-manager.png) {width="650"}
 
@@ -260,7 +266,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作外部对象插入处理程序**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomURLInsertionHandler - com.adobe.o2.ui `。 单击&#x200B;**确定**。
 
 
-   以下屏幕截图显示了为DITA主题配置的&#x200B;**扩展**&#x200B;选项卡：
+   以下屏幕截图显示了为DITA主题配置的&#x200B;**扩展**选项卡：
    <img src="images/dita-topic-extension-tab.png" alt="为DITA主题配置的扩展" width="650" border="2px">
 1. 在所有对话框中单击&#x200B;**确定**&#x200B;以保存更改。
 
@@ -285,7 +291,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**引用解析程序**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomDITAMapReferenceResolver - com.adobe.o2`。 单击&#x200B;**确定**。
    - *\（可选\）*&#x200B;如果在打开映射文件时不想解析引用，则需要执行以下附加配置：
 
-   以下屏幕截图显示了配置的&#x200B;**扩展**&#x200B;选项卡：
+   以下屏幕截图显示了配置的&#x200B;**扩展**选项卡：
    <img src="images/dita-map-extension-tab.png" alt="为DITA映射配置的扩展" width="650" border="2px">
 
 1. 在所有对话框中单击&#x200B;**确定**&#x200B;以保存更改。
@@ -590,7 +596,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    >
    >如果主题未检出，则会先检出该主题，然后在编辑模式下在Oxygen中将其打开。
 
-1. 在&#x200B;**Launch Application**&#x200B;消息框中选择“氧气XML作者”*&lt;version\>*。 您可以选择&#x200B;**记住我为AEM链接所做的选择**&#x200B;选项以保存您的首选项。
+1. 在&#x200B;**Launch应用程序**&#x200B;消息框中选择Oxyo XML作者&#x200B;*&lt;version\>*。 您可以选择&#x200B;**记住我为AEM链接所做的选择**&#x200B;选项以保存您的首选项。
 
 **编辑DITA主题**
 
@@ -603,7 +609,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    >
    >如果主题未检出，则会先检出该主题，然后在编辑模式下在Oxygen中将其打开。
 
-1. 在&#x200B;**Launch Application**&#x200B;消息框中选择“氧气XML作者”*&lt;version\>*。 您可以选择&#x200B;**记住我为AEM链接所做的选择**&#x200B;选项以保存您的首选项。
+1. 在&#x200B;**Launch应用程序**&#x200B;消息框中选择Oxyo XML作者&#x200B;*&lt;version\>*。 您可以选择&#x200B;**记住我为AEM链接所做的选择**&#x200B;选项以保存您的首选项。
 1. 在Oxygon XML Author中编辑主题。
 1. 查看AEM Guides的氧气插件中的主题。
 

@@ -4,9 +4,13 @@ description: 在从AEM Guides生成的AEM Sites页面中使用上下文内容变
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
-source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
+TQID: https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: 497
 ht-degree: 2%
 
 ---
@@ -23,7 +27,7 @@ CCVAR允许作者将动态变量插入其内容，这些变量在运行时根据
 
 ## 如何在从AEM Guides生成的AEM Sites页面中启用CCVAR？
 
-考虑到AEM Guides被用作所有内容(包括AEM Sites、PDF或HTML5)的源，要在从AEM Guides生成的页面上启用CCVAR，您需要使用关键字来定义CCVAR名称。 要在指南中执行此操作，请使用`<keydef>`元素在DITA映射中定义&#x200B;**关键字**。 这些关键字可以对应于动态值（或CCVAR名称），从而允许您在DITA主题中引用它们。
+考虑到AEM Guides被用作所有内容（包括AEM Sites、PDF或HTML5）的源，要在从AEM Guides生成的页面上启用CCVAR，您需要使用关键字来定义CCVAR名称。 要在指南中执行此操作，请使用`<keydef>`元素在DITA映射中定义&#x200B;**关键字**。 这些关键字可以对应于动态值（或CCVAR名称），从而允许您在DITA主题中引用它们。
 
 
 ## 先决条件
@@ -36,14 +40,14 @@ CCVAR允许作者将动态变量插入其内容，这些变量在运行时根据
 2. **上下文内容变量配置**：
    - 使用[官方文档](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)在AEM中完成&#x200B;**上下文内容变量**&#x200B;的设置。 这包括：
       - 正在启用&#x200B;**属性聚合**。
-      - 正在配置&#x200B;**HTML重写**(如果使用HTML输出)。
+      - 正在配置&#x200B;**HTML重写**（如果使用HTML输出）。
       - 正在配置&#x200B;**JSON重写**（如果使用JSON输出）。
 
 
 
 ## 在AEM Guides中启用CCVAR的步骤
 
-### 1.在DITA映射中定义关键字
+### &#x200B;1. 在DITA映射中定义关键字
 
 - 在AEM Guides中，使用DITA映射中的`<keydef>`元素定义关键字，以使其与CCVAR相对应。
 - 例如：
@@ -61,7 +65,7 @@ CCVAR允许作者将动态变量插入其内容，这些变量在运行时根据
 - `keys`属性（在此示例中为`product`）将用于在DITA主题中引用此变量。
 
 
-## 2.在DITA主题中使用关键字
+## &#x200B;2. 在DITA主题中使用关键字
 
 - 在主题中，无论在何处使用CCVar，都使用关键字。
 - 例如：
@@ -74,7 +78,7 @@ CCVAR允许作者将动态变量插入其内容，这些变量在运行时根据
 - 在输出生成期间，关键字将被相应的CCVar值替换。
 
 
-## 3.生成输出
+## &#x200B;3. 生成输出
 
 - 生成AEM Sites的输出时，关键词引用将被解析为相应的动态值。
 - 例如：

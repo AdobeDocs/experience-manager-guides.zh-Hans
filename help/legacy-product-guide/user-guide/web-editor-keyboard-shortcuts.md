@@ -5,9 +5,14 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 418412ab-cce6-4398-9f84-6f63285ffc6d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/rN2rXTmX5z4eL0Qwr1USwm6xcGktAQ-V3t-KN-ZE9iM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 363
 ht-degree: 1%
 
 ---
@@ -29,15 +34,15 @@ ht-degree: 1%
 | 对所选文本应用下划线格式 | ***Ctrl***+***U*** | ***命令***+***U*** |
 | 聚焦左侧面板 | **Ctrl***+**Shift**+***1*** | ***命令***+**Shift**+***1*** |
 | 将焦点放在右侧面板 | **Ctrl***+**Shift**+***2*** | ***命令***+**Shift**+***2*** |
-| 专注于当前编辑器 | **Ctrl***+**Shift**+***0*** | ***Command***+**Shift**+***0*** |
-| Save document in Author or Source view | ***Ctrl***+**Shift**+***S*** | ***Command***+**Shift**+***S*** |
-| Save all opened documents in Author or Source view | ***Ctrl***+***S*** | ***Command***+***S*** |
-| Show Insert Element dialog | ***Alt***+***Enter*** | ***Option***+***Enter*** |
-| Show Insert Element dialog to insert element before the selected element | ***Alt***+***Shift***+***Enter*** | ***Option***+***Shift***+***Enter*** |
-| Move the cursor one word to the left. | ***Ctrl***+***Left Arrow*** | ***Option***+***Left Arrow*** |
-| Move the cursor one word to the right. | ***Ctrl***+***Right Arrow*** | ***Option***+***Right Arrow*** |
-| Move the cursor to the beginning of the current line. | ***Home*** | ***Command***+***Left Arrow*** |
-| Move the cursor to the end of the current line. | **End** | ***Command***+***Right Arrow*** |
+| 专注于当前编辑器 | **Ctrl***+**Shift**+***0*** | ***命令***+**Shift**+***0*** |
+| 在创作或Source视图中保存文档 | ***Ctrl***+**Shift**+***S*** | ***命令***+**Shift**+***S*** |
+| 在“创作”或“Source”视图中保存所有打开的文档 | ***Ctrl***+***S*** | ***命令***+***S*** |
+| 显示插入元素对话框 | ***Alt***+***进入*** | ***选项***+***进入*** |
+| 显示“插入元素”对话框，在选定元素之前插入元素 | ***Alt***+***Shift***+***Enter*** | ***Option***+***Shift***+***Enter*** |
+| 将光标向左移动一个单词。 | ***Ctrl***+***向左箭头*** | ***选项***+***向左箭头*** |
+| 将光标向右移动一个单词。 | ***Ctrl***+***向右箭头*** | ***选项***+***向右箭头*** |
+| 将光标移动到当前行的开头。 | ***主页*** | ***命令***+***向左箭头*** |
+| 将光标移动到当前行的末尾。 | **结束** | ***命令***+***向右箭头*** |
 | 将光标移动到下一个元素的开头。 | ***选项卡*** | ***选项卡*** |
 | 将列表项缩进到下一级别。 | ***选项卡*** | ***选项卡*** |
 | 将光标移到上一个元素的末尾。 | ***Shift***+***Tab*** | ***Shift***+***Tab*** |

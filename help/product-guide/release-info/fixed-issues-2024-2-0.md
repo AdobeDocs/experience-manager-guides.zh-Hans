@@ -1,21 +1,27 @@
 ---
-title: 发行说明 | 修复了Adobe Experience Manager Guides 2024.2.0版本中的问题
-description: 了解Adobe Experience Manager Guidesas a Cloud Service2024.2.0版本中的错误修复。
+title: 发行说明 |修复了Adobe Experience Manager Guides 2024.2.0版本中的问题
+description: 了解Adobe Experience Manager Guides as a Cloud Service 2024.2.0版本中的错误修复。
 exl-id: fae1ff07-6232-4e9a-a89e-5e760e807b9d
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/z-L0sZ2HH720nI3LyDjiIqujxSBP-QLdPqvEInNNRnE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 4%
+source-wordcount: 504
+ht-degree: 8%
 
 ---
 
 # 修复了2024.2.0版本中的问题
 
-本文介绍2024.2.0版本的Adobe Experience Manager Guidesas a Cloud Service中修复的各个方面的错误。
+本文介绍Adobe Experience Manager Guides as a Cloud Service 2024.2.0版本中各个方面修复的错误。
 
 有关新功能和增强功能的更多信息，请查看 [2024.2.0 版本中的新增功能](whats-new-2024-2-0.md)。
 
-了解2024.2.0版本[&#128279;](upgrade-instructions-2024-2-0.md)的升级说明。
+了解2024.2.0版本](upgrade-instructions-2024-2-0.md)的[升级说明。
 
 
 
@@ -25,7 +31,7 @@ ht-degree: 4%
 - 全局导航按钮不起作用，无法加载仪表板。 (14968)
 - 在Web编辑器中，下载映射功能在可以下载时无法触发弹出通知。 (14626)
 - 在Web编辑器中，下载映射功能无法下载带有基线的映射。 (14622)
-- 2023年10月版的Experience Manager Guidesas a Cloud Service中出现无效DTD错误。 (14482)
+- Experience Manager Guides as a Cloud Service 2023年10月版中的DTD错误无效。 (14482)
 - 将词汇表主题从存储库拖到词汇表映射中会创建`topicref`。 (10767)
 - 片段的预览屏幕已冻结。 (14840)
 - `labels.json`文件中的标签在Web编辑器中以随机顺序显示。 (10508)
@@ -36,9 +42,9 @@ ht-degree: 4%
 - 在本机PDF发布中，无法解析2023年12月版本的Adobe Experience Manager Guides的关键引用。 (15085)
 - AEM Sites发布失败，并导致对以“HTTP”开头的DITA文件执行`xref`文件的范围错误。 (15154)
 - 无法从编辑器中的&#x200B;**输出**&#x200B;选项卡添加自定义模板。 (14846)
-- 由于模板路径为空，**AEM Site**&#x200B;预设无法正常工作。 (14804)
-- 对于主题包含MathML方程式的DITA映射，AEM站点重新生成失败。 (14790)
-- 在本机PDF发布中，生成PDF会在`Node.js`发布的获取依赖项时抛出错误。 (14445)
+- 由于模板路径为空，**AEM站点**&#x200B;预设无法正常工作。 (14804)
+- 对于主题包含AEM方程式的DITA映射，MathML站点重新生成失败。 (14790)
+- 在本机PDF发布中，PDF生成过程在获取`Node.js`发布的依赖项时抛出错误。 (14445)
 - AEM预设不允许在Web编辑器中选择`/content`层次结构以外的模板。 (14260)
 - 在AEM Sites输出中，具有子元素的`<lines>`元素的样式或换行符丢失。 (12542)
 - 自定义元数据在最终输出中不可用。 (12116)
@@ -49,10 +55,10 @@ ht-degree: 4%
 ## 管理
 
 - **基线筛选器**&#x200B;文件未在Web编辑器中使用文件名。 (13486)
-- 禁用父DITA map的索引以获取更好的性能可能会影响某些功能的功能。(12213)
+- 禁用父DITA映射的索引以获取更好的性能可能会影响某些功能的功能。(12213)
 
 
-## 审查
+## 审阅
 
 - 右键单击上下文菜单无法用于&#x200B;**接受**&#x200B;或&#x200B;**拒绝**&#x200B;跟踪更改。 (14607)
 - 在2023年12月版的Adobe Experience Manager Guides中，在审核屏幕中切换以关闭DITA主题不起作用。 (14537)

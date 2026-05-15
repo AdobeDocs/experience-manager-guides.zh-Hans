@@ -4,10 +4,16 @@ description: 了解在AEM Guides中设置内容和模板时应考虑哪些事项
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
 feature: Template Configuration
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/uc9WOENTZ4E7ZvfwPllw81zMpvEUMkLG-gc9kF7v7IM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 1%
+source-wordcount: 319
+ht-degree: 0%
 
 ---
 
@@ -51,17 +57,17 @@ ht-degree: 1%
 
 ## 相关资源
 
-- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html?lang=zh-Hans)
+- **功能视频** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
 - **用户指南** - [作者内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **社区论坛** — 对于Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hans)。
+- **社区论坛** — 对于Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 >[!NOTE]
 >
 > 此会话中显示的功能在以下版本的AEM Guides上可用：
 > - 内部部署：4.2或更高版本
-> - Cloud Service：2303或更高版本
+> - Cloud Services： 2303或更高版本
 
 
 ## 下一次专家会议

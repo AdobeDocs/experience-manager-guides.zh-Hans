@@ -5,9 +5,13 @@ feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/-criVtAp0Z8q4-Pw0fdJvqXxYgWBOXUSuH3ySkaMeNc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: 995
 ht-degree: 0%
 
 ---
@@ -31,7 +35,7 @@ Experience Manager Guides允许您将主题或其元素发布到体验片段。 
 
    * **标题**：查看或编辑文件夹的标题。
 
-   * **允许的模板**：包含可作为Experiencefragment的子页面添加的模板列表。 要添加允许的模板，请在&#x200B;**允许的模板**&#x200B;字段中指定用于检索所需模板的正则表达式。
+   * **允许的模板**：包含可作为Experiencefragment的子页面添加的模板列表。 要添加允许的模板，请在&#x200B;**允许的模板**字段中指定用于检索所需模板的正则表达式。
 例如：
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
@@ -49,7 +53,7 @@ Experience Manager Guides允许您将主题或其元素发布到体验片段。 
    >
    > 您还可以从&#x200B;**存储库视图**&#x200B;发布体验片段。 选择要作为体验片段发布的主题。 然后，从&#x200B;**选项**&#x200B;菜单中选择&#x200B;**发布为** > **体验片段**。
 
-1. 在&#x200B;**生成体验片段**&#x200B;对话框中，填写以下详细信息：
+1. 在&#x200B;**生成体验片段**对话框中，填写以下详细信息：
    ![在“作为体验片段发布”对话框中添加片段模型和映射详细信息](images/experience-fragment-generate.png){width="500"}
 
    *添加路径、模板和映射详细信息，将主题或其元素发布为体验片段。 您可以覆盖现有的体验片段。*

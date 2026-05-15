@@ -5,9 +5,13 @@ feature: Content Management
 role: User
 hide: true
 exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/Kcxzs3D9Vcp7hhgttmCx7jdetS8NWR8YTP85UY0DlJU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: 451
 ht-degree: 0%
 
 ---
@@ -18,19 +22,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 有关AEM中支持的内容上传方法的详细信息，请参阅[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans)。
+> 有关AEM中支持的内容上传方法的详细信息，请参阅[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)。
 
 ## Assets Console用户界面
 
-您可以在桌面上选择内容，然后在AEM用户界面\（Web浏览器\）上拖动到目标文件夹。 有关详细信息，请参阅AEM文档中的[上传资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#upload-assets)。
+您可以在桌面上选择内容，然后在AEM用户界面\（Web浏览器\）上拖动到目标文件夹。 有关详细信息，请参阅AEM文档中的[上传资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets)。
 
 ## AEM 桌面应用程序
 
-如果您是创意专业人士并想要在本地桌面上管理资源，请使用AEM桌面应用程序。 您可以使用桌面应用程序打开和编辑这些资源。 您还可以维护版本并与其他用户共享您的文件。 有关更多详细信息，请参阅[AEM桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=zh-Hans)。
+如果您是创意专业人士并想要在本地桌面上管理资源，请使用AEM桌面应用程序。 您可以使用桌面应用程序打开和编辑这些资源。 您还可以维护版本并与其他用户共享您的文件。 有关更多详细信息，请参阅[AEM桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)。
 
 ## 资源批量提取器
 
-如果您进行了大规模迁移并偶尔进行了批量摄取，请使用资产批量摄取器上传您的内容。 使用此工具，您可以从受支持的数据存储（如Azure或S3）上传批量内容。 有关更多详细信息，请参阅[资产批量引入器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#asset-bulk-ingestor)。
+如果您进行了大规模迁移并偶尔进行了批量摄取，请使用资产批量摄取器上传您的内容。 使用此工具，您可以从受支持的数据存储（如Azure或S3）上传批量内容。 有关更多详细信息，请参阅[资产批量引入器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)。
 
 ## 使用FrameMaker进行批量上传
 
@@ -48,4 +52,4 @@ Adobe FrameMaker附带强大的AEM连接器，可让您轻松地将现有DITA和
 
 如果您使用AEM桌面应用程序或资产批量引入器等工具，则对重复文件执行的操作将由AEM服务器中的设置控制。 请与系统管理员联系以了解此配置。
 
-**父主题：**&#x200B;[&#x200B;管理内容](authoring.md)
+**父主题：**[&#x200B;管理内容](authoring.md)

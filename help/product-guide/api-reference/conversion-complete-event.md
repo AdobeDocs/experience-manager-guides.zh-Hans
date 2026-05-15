@@ -5,18 +5,21 @@ exl-id: 8033935d-2113-4e39-ab74-b7431b89f948
 feature: Conversion Process Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+TQID: https://experienceleague.adobe.com/VhlUaVSMTZpfyh5MiJI0WHFpc46s41xjLbuLMUnKH58
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: 191
 ht-degree: 3%
 
 ---
 
 # 转换过程事件处理程序 {#id175UB30E05Z}
 
-AEM Guides会公开com/adobe/fmdita/conversion/complete事件，用于在文档转换过程完成后执行任何后处理操作。 只要将非DITA文档迁移到DITA文件格式，就会触发此事件。 例如，如果您运行Word到DITA转换或InDesign到DITA转换过程，则在转换过程结束后调用此事件。
+AEM Guides会公开com/adobe/fmdita/conversion/complete事件，用于在文档转换过程完成后执行任何后处理操作。 只要将非DITA文档迁移到DITA文件格式，就会触发此事件。 例如，如果您运行Word到DITA的转换过程或InDesign到DITA的转换过程，则会在转换过程结束后调用此事件。
 
-您需要创建一个AEM事件处理程序来读取此事件中可用的属性并进行进一步处理。
+您需要创建一个AEM事件处理程序，以读取此事件中可用的属性并进行进一步处理。
 
 活动详情说明如下：
 
@@ -30,7 +33,7 @@ com/adobe/fmdita/conversion/complete
 
 | 名称 | 类型 | 描述 |
 |----|----|-----------|
-| `status` | 字符串 | 所执行操作的返回状态。 可能的选项包括： -   成功：转换过程已成功完成。 <br> -   已完成，但出现错误：转换过程已完成，但有一些错误。 <br>-   失败：转换过程由于某个致命错误而失败。 |
+| `status` | 字符串 | 所执行操作的返回状态。 可能的选项有： — 成功：转换过程已成功完成。<br> — 已完成，但出现错误：转换过程已完成，但有一些错误。 <br> — 失败：转换过程由于某个致命错误而失败。 |
 | `filePath` | 字符串 | AEM存储库中源文件\（待转换\）的绝对路径。 |
 | `outputPath` | 字符串 | 将保存转换的DITA文件的目标位置的绝对路径。 |
 | `logPath` | 字符串 | 将保存转换日志的节点的绝对路径。 |

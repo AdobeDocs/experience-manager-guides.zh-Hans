@@ -3,9 +3,13 @@ title: 自定义
 description: 自定义审核应用程序
 role: User, Admin
 exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
-source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
+TQID: https://experienceleague.adobe.com/s98wa8vFTKBHZ--qCeFjmynYwr3BRVOekxOlGJFIqds
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 403
 ht-degree: 0%
 
 ---
@@ -110,7 +114,7 @@ ht-degree: 0%
     },
 ```
 
-在上述方法中，我们将扩展事件以发送extraProp，包括用户的名字、电子邮件、标题等。 通过此方式扩展事件可确保使用正确的commentId发送extraProp，并确保它们附加到正确的注释中。
+在上述方法中，我们将扩展事件以发送extraProp，包括用户的名字、电子邮件、标题等。通过此方式扩展事件可确保使用正确的commentId发送extraProp，并确保它们附加到正确的注释中。
 
 挂接`updateExtraProps`本身会调用挂接`sendExtraProps`，因此何时使用什么？
 

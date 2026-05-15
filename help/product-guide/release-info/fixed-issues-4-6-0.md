@@ -1,14 +1,20 @@
 ---
-title: 发行说明 | 修复了Adobe Experience Manager Guides 4.6.0版本中的问题
+title: 发行说明 |修复了Adobe Experience Manager Guides 4.6.0版本中的问题
 description: 了解Adobe Experience Manager Guides 4.6.0版本中的错误修复
 role: Leader
-source-git-commit: d51cc5ed621d5f533815c677e23bd4c1f4a52de3
+exl-id: fd12d627-5163-4edd-b28e-bef13267fcc9
+TQID: https://experienceleague.adobe.com/zaQd6UfebgClEP7JxSWRwsGqIziDkIN3QLLP-iGufhM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388bid: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 0%
+source-wordcount: 2019
+ht-degree: 5%
 
 ---
-
 
 # 修复了4.6.0版本（2024年9月）中的问题
 
@@ -16,9 +22,9 @@ ht-degree: 0%
 本文介绍4.6.0版本的Adobe Experience Manager Guides中修复的各个方面的错误。
 
 
-有关新增功能和增强功能的详细信息，请查看[&#x200B; 4.6.0版本中的新增功能](whats-new-4-6.md)。
+有关新增功能和增强功能的详细信息，请查看[ 4.6.0版本中的新增功能](whats-new-4-6.md)。
 
-了解4.6.0版本[&#128279;](../release-info/upgrade-instructions-4-6-0.md)的升级说明。
+了解4.6.0版本](../release-info/upgrade-instructions-4-6-0.md)的[升级说明。
 
 ## 创作
 
@@ -37,7 +43,7 @@ ht-degree: 0%
 - 在通过代码安装模板但未处理模板时，由于重复的GUID会发生内容删除。 (15858)
 - 在&#x200B;**预览**&#x200B;模式下，Experience Manager Guides无法遵循&#x200B;**处理角色**&#x200B;属性。 (15787)
 - 编辑器会间歇性地删除选定区域之外的额外文本。 (15708)
-- 无法从Word文档或HTML复制大型表格并将其粘贴到Web编辑器中。 (15369)
+- 无法将Word文档或HTML中的大表格复制并粘贴到Web编辑器中。 (15369)
 - 缺少API或事件来捕获向元素添加属性或插入新元素。 (15351)
 - 无法在Web编辑器的`<ol>`标记中添加`<data>`标记。 (15161)
 - **Element**&#x200B;占位符组件导致UI冻结。 (14957)
@@ -50,7 +56,7 @@ ht-degree: 0%
 - 在源视图中，`</conbody>`偶尔会插入不正确的位置。 (11305)
 - 组件路径`/libs/fmdita/components/versions`已硬编码，用户无法叠加它。 (8779)
 - DITA映射中引用的主题的`<conref>`未反映在编辑器的预览中。 (17794)
-- 使用自动缩进功能后，Experience ManagerDITA参考线无法触发“保存”功能。 (16482)
+- 使用自动缩进功能后，Experience Manager DITA Guide无法触发“保存”功能。 (16482)
 - 工具提示功能无法更新XML编辑器中的Source字段。 (15847)
 - **共享UUID链接**&#x200B;功能不适用于Adobe Experience Manager中的图像。 (15598)
 - 在&#x200B;**创作**&#x200B;视图中，当使用不间断空格导致文本溢出时，会发生复制并粘贴问题。 (15541)
@@ -62,7 +68,7 @@ ht-degree: 0%
 - 进行更改时无法从&#x200B;**属性**&#x200B;面板中更新`<conref>`。 (15209)
 - 在表单元格中选择图像时，会选择整个单元格。 (15188)
 - **属性**&#x200B;面板未显示在Web编辑器的Source视图中。 (14387)
-- 使用`<keyref>`添加的`<Topicref>`未以本机PDF显示。 (11974)
+- 使用`<keyref>`添加的`<Topicref>`未显示在本机PDF中。 (11974)
 - 在Web编辑器的标记末尾编辑时，会添加不需要的不间断空格。 (11786)
 - 在更正DITA文件中的拼写错误时，内容将被删除。 (11610)
 - 在新选项卡中打开DITA主题或映射进行编辑会冻结Assets UI中的选择导航。 (4992)
@@ -84,7 +90,7 @@ ht-degree: 0%
 - Salesforce连接验证因闪电URL而失败。 (17797)
 - 当选择在topicmeta **中添加的**&#x200B;使用元数据选项时，元数据属性不会传播到本机PDF输出的文档属性中。(17283)
 - 与DITA-OT相比，本机PDF输出中的条件过滤无法按预期工作。 (17095)
-- TOC在本机PDF输出中不遵循`<sub>`或`<sup>`标签。 (17028)
+- 目录不接受本机PDF输出中的`<sub>`或`<sup>`标记。 (17028)
 - 交叉映射链接无法在具有`scope="peer"`的链接的发布上下文设置中显示所有父映射。 (16700)
 - AEM站点生成和增量发布API无法按预期工作。 (16666)
 - 启用&#x200B;**删除孤立站点**&#x200B;选项后，AEM站点输出生成失败。 (15896)
@@ -94,20 +100,20 @@ ht-degree: 0%
 - 重命名预设时，本机PDF发布失败。 (15662)
 - 发布的AEM站点输出中的&#x200B;**sourcePath**&#x200B;属性不正确。 (15502)
 - 在本地PDF输出预设中，语言变量的选择和自定义无法正常工作。 (15399)
-- 使用大型样式表或布局PDF时，本机模板生成失败。 (15344)
+- 使用大型样式表或布局模板时，本机PDF生成失败。 (15344)
 - 如果`<conref>`与绝对路径一起使用，则已发布输出中的内容无法正确呈现。 (15222)
 - 由于`fmdita rewriter`和`ResourceResolver`之间的冲突，AEM Sites URL缩短无法正常工作。 (14793)
 - 本机PDF生成失败，并出现与获取Node.js的依赖项相关的错误。 (14445)
 - **processing-role=&quot;resource-only&quot;**、**search=&quot;no&quot;**&#x200B;和&#x200B;**chunk=&quot;to-content&quot;**&#x200B;属性在AEM Sites输出中分别不显示。 (14442)
 - 在Web编辑器和本机PDF输出的`Preview`模式下未解析`<Conref>`。 (17827)
-- 在本机PDF中，嵌套的DITA主题在目录(TOC)中无法正确显示。 (16742)
+- 在本机PDF中，嵌套DITA主题在目录(TOC)中显示不正确。 (16742)
 - 从&#x200B;**Dynamic Media**&#x200B;为视频文件生成的缩略图无法保留在已发布的输出中。 (15656)
-- 在批量激活已发布PDF期间，没有从&#x200B;**批量Publish功能板**&#x200B;激活引用的内容。 (17793)
+- 在批量激活已发布内容的过程中，没有从&#x200B;**批量发布功能板**&#x200B;激活引用的PDF。 (17793)
 - 如果在任何文件夹配置文件的文件夹路径中设置了包含2k个映射的文件夹，则应用于输出预设的更改将失败。 (14852)
 - 由于OOTB重新生成主题或增量发布API失败，主题重新生成失败。 (18452)
 - 条件预设在升级Experience Manager Guides后未获取更新的属性。 (18174)
-- 如果包含键定义的文件与DITA映射不在同一文件夹中，则无法正确解析本机PDF输出的内容引用。 (15062)
-- 对于仍在翻译过程中的映射，批量Publish功能板显示为空白。 (19352)
+- 如果包含键定义的文件与DITA映射不在同一文件夹中，则无法为本机PDF输出正确解析内容引用。 (15062)
+- 对于仍在翻译过程中的映射，批量发布功能板显示为空白。 (19352)
 - 批量激活已发布内容不适用于本地化映射。 (17638)
 
 
@@ -115,7 +121,7 @@ ht-degree: 0%
 ## 管理
 
 
-- InDesign到DITA转换具有硬编码配置路径，因此不会选取自定义配置文件。 (16891)
+- InDesign到DITA转换具有一个硬编码配置路径，因此不会选取自定义配置文件。 (16891)
 - Experience Manager Guides 4.3.1版本发布后，未关闭的&#x200B;**资源解析器**&#x200B;导致会话计数增加和`PathNotFoundException`错误。 (15604)
 - 在大型存储库中安装Guides包时出错。 (15160)
 - 使用Java API创建基线不适用于Experience Manager Guides。 (14787)
@@ -129,7 +135,7 @@ ht-degree: 0%
 - 覆盖功能的路径对韩文文件进行了硬编码，并且未正确选择。 (17089)
 - 在Web编辑器中，基线创建的默认时间显示为00:00，而不是当前时间。 (15215)
 
-## 审查
+## 审阅
 
 - 如果用户数超过25，则在创建审核任务时获取用户列表会失败。 (17329)
 - 评论主题的显示顺序不正确。 (16319)
@@ -141,7 +147,7 @@ ht-degree: 0%
 
 - 不会更新已翻译资产的引用。 (18086)
 - 无法通过人工翻译创建XLIFF项目。 (16964)
-- 带有`<conref>`或`<conkeyref>`的标题无法在Web编辑器的基线和翻译功能板中解析。 (16961， 16879)
+- 带有`<conref>`或`<conkeyref>`的标题无法在Web编辑器的基线和翻译功能板中解析。 (16961, 16879)
 - 翻译项目无法向Experience Manager Guides 4.3.1版本的Adobe Experience Manager 6.5 SP18添加新语言作业。 (15398)
 - **接受翻译**&#x200B;无法完成临时文件的翻译。 (14665)
 - 在活动翻译项目中添加更新主题会导致主题重复，并且流程失败。 (7688)
@@ -158,13 +164,9 @@ Adobe已发现4.6.0版本的以下已知问题：
 - 打开&#x200B;**AEM Sites**&#x200B;预设（非旧版）会将主题标记为已修改。
 - 从&#x200B;**输出**&#x200B;选项卡刷新浏览器时，所选面板未保留。
 - 无法在&#x200B;**作者**&#x200B;视图中的两个`topicrefs`之间拖放主题。
-- 未通过&#x200B;**下载为PDF**&#x200B;应用预设中应用的条件筛选。
+- 未通过&#x200B;**以PDF**&#x200B;形式下载，应用预设中应用的条件筛选。
 - 从地图面板生成单个主题会生成在&#x200B;**AEM Sites**&#x200B;预设中选择的所有主题（非旧版）。
 - 从DITA映射的顶部工具栏插入主题引用时，该主题引用在用户界面中显示为断开。
-- 如果DITA映射缺少引用，则其本机PDF生成失败。
+- 如果DITA映射缺少引用，则其本机PDF生成将失败。
 - 一旦某个主题的文档状态更新为&#x200B;**完成**，**开始一个新版本**&#x200B;图标将仅在该主题的&#x200B;**预览**&#x200B;模式下可用。
-- 在资源UI中选择DITA文件时，将显示&#x200B;**在FrameMaker**&#x200B;中打开选项，即使它在配置设置中处于禁用状态。
-
-
-
-
+- 在资源UI中选择DITA文件时，将显示&#x200B;**在FrameMaker中打开**&#x200B;选项，即使配置设置中禁用了该选项。

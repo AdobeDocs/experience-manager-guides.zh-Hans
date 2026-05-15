@@ -2,9 +2,15 @@
 title: 从软件中针对特定用户的文件上下文菜单中移除“删除”选项
 description: 了解如何通过从特定用户/组的文件上下文菜单中移除“删除”选项来自定义编辑器
 exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/dzbMsXUoEibR5QxKB-Z-h4qGnQaX2NmIYLTtxVJHE-A
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 241
 ht-degree: 0%
 
 ---
@@ -25,7 +31,7 @@ ht-degree: 0%
 - 从搜索框中选择组或用户。
 - 单击右上角的“添加ACE”。
 - 选择文件夹路径。
-- 包含权限“jcr：removeChildNodes”和“jcr：removeNode”。
+- 包括特权“jcr:removeChildNodes”和“jcr:removeNode”。
 - 选择“权限类型”作为“拒绝”，然后单击“添加”，如下所示。
 
 ![用户权限拒绝ACE](../../../assets/authoring/permission-ACE-Delete.png)

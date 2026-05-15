@@ -5,9 +5,15 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/JTfQ4wbTh1b3qZYT6I3L--AW2ZGkWIBKW2YOORW9zHE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: 2408
 ht-degree: 0%
 
 ---
@@ -100,7 +106,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
    >
    > 如果使用文件连接器，您将查看用于上载或浏览文件以代替数据查询的选项。
 
-1. 从&#x200B;**数据映射模板**&#x200B;下拉列表中选择与数据源映射的模板。
+1. 从&#x200B;**数据映射模板**下拉列表中选择与数据源映射的模板。
 所选数据源的现成模板将显示在下拉列表中。 例如，您可以查看名为“PostgreSQL”数据源的“sql-table”模板。
 
    >[!NOTE]

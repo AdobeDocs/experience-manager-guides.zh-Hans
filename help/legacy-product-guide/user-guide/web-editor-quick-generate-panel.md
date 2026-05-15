@@ -5,9 +5,14 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/WqJ5FQRk8XivgGjDbC-k0mRAMM3EqBYgrX0yXFLKpH4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: 260
 ht-degree: 0%
 
 ---
@@ -30,4 +35,4 @@ AEM Guides提供了一个集成在Web编辑器中的&#x200B;**快速生成**&#x2
 1. 单击&#x200B;**生成**&#x200B;以生成所选预设的输出。 成功消息显示在输出的生成中。 如果生成失败，将显示错误消息。 您还可以查看错误日志，以了解生成过程中所发生错误的详细信息。
 1. 单击特定预设的&#x200B;**查看输出** \( ![](images/view-output-icon.svg)\)图标以查看为预设生成的输出。
 
-**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**[&#x200B;使用Web编辑器](web-editor.md)

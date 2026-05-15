@@ -5,16 +5,21 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/dNO8nZusaPCor506Q-2drrcJGf68mx-Hxo4uaT-cDtM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 1%
+source-wordcount: 656
+ht-degree: 0%
 
 ---
 
 # 简介 {#id1761C0007W7}
 
-Adobe Experience Manager Guides \(以后称为&#x200B;*AEM Guides*\)是一种端到端的企业解决方案，它使Adobe Experience Manager \(AEM\)能够具有用于基于DITA的内容创建和交付的组件内容管理解决方案\(CCMS\)功能。 客户可以使用AEM Guides API以编程方式访问AEM Guides工作流，以将其与其他企业应用程序集成。 Adobe合作伙伴还可以使用这些API来增强AEM Guides的价值主张，方法是扩展其功能或将其与其他应用程序或服务集成。
+Adobe Experience Manager Guides \（以后称为&#x200B;*AEM Guides*\）是一种端到端的企业解决方案，它使Adobe Experience Manager \(AEM\)能够具有用于基于DITA的内容创建和交付的组件内容管理解决方案\(CCMS\)功能。 客户可以使用AEM Guides API以编程方式访问AEM Guides工作流，以将其与其他企业应用程序集成。 Adobe合作伙伴还可以使用这些API来增强AEM Guides的价值主张，方法是扩展其功能或将其与其他应用程序或服务集成。
 
 ## AEM GUIDES API
 
@@ -120,9 +125,9 @@ Experience Manager Guides提供了一组全面的基于REST的API，允许开发
 
 ## 其他资源
 
-以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)页面上：
+以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)页面上：
 
 - 用户指南
 - 安装和配置指南
 - 快速入门指南
-- [帮助存档页面](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）
+- [帮助存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）

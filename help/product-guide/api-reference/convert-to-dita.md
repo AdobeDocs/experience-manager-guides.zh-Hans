@@ -5,9 +5,13 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: 45ae1471fe0f0586764ede9dd96530b7f75f69ee
+TQID: https://experienceleague.adobe.com/EG-ugDPVpviaEI1SXHOaFLPfChkzqQ8tSkPV-LZ-X3o
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: 402
 ht-degree: 9%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 9%
 一种将Word文档转换为DITA格式的GET方法。
 
 **请求URL**：
-http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/conversion
+http://*&lt;aem-guides-server\>*： *&lt;端口号\>*/bin/fmdita/conversion
 
 | 名称 | 类型 | 必需 | 描述 |
 |----|----|--------|-----------|
@@ -40,7 +44,7 @@ http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/conversion
 
 **请求URL**：
 
-http://*&lt;aem-guides-server\>*： *&lt;端口号\>*/bin/fmdita/conversion
+http://*<aem-guides-server\>*： *<端口号\>*/bin/fmdita/conversion
 
 **参数**：
 
@@ -60,7 +64,7 @@ http://*&lt;aem-guides-server\>*： *&lt;端口号\>*/bin/fmdita/conversion
 一种将InDesign文档转换为DITA格式的GET方法。
 
 **请求URL**：
-http://*&lt;aem-guides-server\>*： *&lt;port-number\>*/bin/fmdita/conversion
+http://*&lt;aem-guides-server\>*： *&lt;端口号\>*/bin/fmdita/conversion
 
 **参数**：
 
