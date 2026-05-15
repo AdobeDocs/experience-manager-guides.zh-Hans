@@ -55,14 +55,14 @@ ht-degree: 1%
 
 ### 文档
 
-- [将内容从非UUID迁移到UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [将内容从非UUID迁移到UUID](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides：将UUID内容从内部部署/AMS移动到云](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [迁移到AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [迁移到AEM Cloud](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides：将非UUID内容迁移到Cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### 社区论坛
 
-- 有关Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
+- 有关Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hans)。
 
 
 >[!NOTE]
