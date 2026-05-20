@@ -3,9 +3,9 @@ title: 编辑器设置
 description: 了解如何在AEM Guides中配置编辑器设置。
 feature: Web Editor
 role: User
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
 
   您可以搜索元素并将其添加到收藏夹，删除任何以前添加的元素，并使用简单的拖放操作重新排列它们。 收藏夹包含您最常用的元素，从编辑器访问时，您在此处设置的顺序会反映在“快速插入”菜单中。
 
+  以下是一段关于如何使用新编辑器中的快速插入菜单的简短视频。
 
+  >[!VIDEO](https://video.tv.adobe.com/v/3491343)
 
 

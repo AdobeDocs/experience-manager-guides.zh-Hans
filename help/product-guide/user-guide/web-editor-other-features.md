@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: 4271
+source-wordcount: 4286
 ht-degree: 0%
 
 ---
@@ -181,9 +181,11 @@ Generate the output for the selected file. Output can be generated only for file
 
 ## 在新编辑器中处理表
 
-新编辑器允许您使用各种上下文操作直接在内容中创建、设置和组织表格。
+新编辑器允许您使用各种上下文操作直接在内容中创建、设置和组织表格。 以下是一段关于如何使用新编辑器中提供的各种表格编辑功能的简短视频。
 
-本节将介绍新编辑器中可用的各种表格创作功能。
+>[!VIDEO](https://video.tv.adobe.com/v/3491344)
+
+下表编辑功能在新编辑器中可用：
 
 **使用上下文菜单修改表**
 
