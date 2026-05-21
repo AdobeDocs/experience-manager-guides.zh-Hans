@@ -200,7 +200,7 @@ ht-degree: 7%
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页 {#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -226,7 +226,7 @@ ht-degree: 7%
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
             - [搜索面板](./user-guide/search-panel-explorer.md)
-         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
+         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -474,13 +474,13 @@ ht-degree: 7%
       - 使用输出生成设置 {#output-gen-config}
          - {hide-from-toc}[配置输出生成设置](./install-guide/conf-output-generation.md)
          - {hide-from-toc}[下载并安装AEM Sites模板](./install-guide/download-install-aem-sites-templates.md)
-         - AEM Sites的{hide-from-toc}[组件映射](./install-guide/component-mapping.md)
+         - {hide-from-toc}[AEM Sites的组件映射](./install-guide/component-mapping.md)
          - {hide-from-toc}[在AEM Sites输出中叠加HTML标记](./install-guide/overlay-html-tags-aem-sites.md)
          - 原生PDF发布 {#config-native-pdf-publish}
             - {hide-from-toc}[PDF模板](./native-pdf/pdf-template.md)
-            - PDF模板的{hide-from-toc}[组件](./native-pdf/components-pdf-template.md)
+            - {hide-from-toc}[PDF模板的组件](./native-pdf/components-pdf-template.md)
             - {hide-from-toc}[设计页面布局](./native-pdf/design-page-layout.md)
-            - PDF输出中的{hide-from-toc}[变量](./native-pdf/native-pdf-variables.md)
+            - {hide-from-toc}[PDF输出中的变量](./native-pdf/native-pdf-variables.md)
             - {hide-from-toc}[支持语言变量](./native-pdf/native-pdf-language-variables.md)
             - {hide-from-toc}[向PDF输出添加条形码](./native-pdf/add-barcode.md)
             - 常见内容样式 {#content-styles}
@@ -577,7 +577,7 @@ ht-degree: 7%
       - 使用输出生成设置 {#output-gen-config-cs}
          - {hide-from-toc}[配置输出生成设置](./cs-install-guide/conf-output-generation.md)
          - {hide-from-toc}[下载并安装AEM Sites模板](./cs-install-guide/download-install-aem-sites-templates-cs.md)
-         - AEM Sites的{hide-from-toc}[组件映射](./cs-install-guide/component-mapping.md)
+         - {hide-from-toc}[AEM Sites的组件映射](./cs-install-guide/component-mapping.md)
          - {hide-from-toc}[本机PDF发布](./cs-install-guide/native-pdf-publishing.md)
          - {hide-from-toc}[为本机PDF发布配置节点进程](./native-pdf/configure-node-options.md)
          - {hide-from-toc}[创建主题与内容片段之间的映射](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -619,7 +619,7 @@ ht-degree: 7%
          - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
    - 性能优化建议 {#performance-optimization-aemg}
       - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
-      - 针对内部部署的[性能优化](./install-conf-guide/perf-optimization-on-prem.md)
+      - [针对内部部署的性能优化](./install-conf-guide/perf-optimization-on-prem.md)
    - 内容迁移 {#migrate-content-cs}
       - [迁移现有内容](./install-conf-guide/migrate-content.md)
       - [使用用于内部部署的Framemaker和WebDav工具上载现有DITA内容](./install-conf-guide/upload-dita-content.md)
@@ -728,7 +728,7 @@ ht-degree: 7%
    - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
    - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
    - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-   - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
+   - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
    - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
@@ -786,7 +786,7 @@ ht-degree: 7%
             - 小组件 {#framework-widgets}
                - [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-            - 编辑器2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)的[扩展框架更改
+            - [编辑器2.0的扩展框架更改](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - 快速入门 {#getting-started}
             - [简介](./guides-ui-extensions/getting-started/introduction.md)
             - [安装指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
