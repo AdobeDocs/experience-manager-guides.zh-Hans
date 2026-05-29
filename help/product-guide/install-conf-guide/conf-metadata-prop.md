@@ -70,4 +70,4 @@ AEM Guides在忽略列表中包含一组默认的元数据属性。 您可以根
 
 只有未包括在忽略列表中的元数据属性才考虑将文档的版本标记为已修改。
 
-**父主题：**[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)

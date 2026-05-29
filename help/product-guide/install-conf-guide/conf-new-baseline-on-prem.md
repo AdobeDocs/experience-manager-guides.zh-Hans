@@ -35,5 +35,5 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->启用此功能后，必须将现有基线迁移到新基线。 有关分步说明和演练视频，请在Experience Manager Guides](../user-guide/web-editor-baseline-v2.md)中查看[新基线(Beta)。
+>启用此功能后，必须将现有基线迁移到新基线。 有关分步说明和演练视频，请在Experience Manager Guides[&#128279;](../user-guide/web-editor-baseline-v2.md)中查看新基线(Beta)。
 
