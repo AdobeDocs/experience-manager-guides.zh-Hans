@@ -11,14 +11,18 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 591
-ht-degree: 9%
+source-wordcount: 639
+ht-degree: 8%
 
 ---
 
 # 用于开始批量处理资产的API
+
+>[!NOTE]
+>
+> 有关最新的REST API端点定义和相关详细信息，请在`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`处查看Swagger文档（将`<aem-author-url>`替换为您的AEM服务器URL）。 由于本文计划于2026年10月存档，因此我们建议您今后使用Swagger文档来了解API的最新信息。
 
 为指定路径启动批量资产处理的POST方法。 此API支持基于JCR和基于数据库的资产处理。 它会启动一个异步作业，用于处理给定路径及其子路径下的所有资产。 启动后，API会返回唯一的processingID，该ID可用于跟踪作业状态。
 
@@ -79,7 +83,7 @@ processingId轮询以获取异步作业的状态。
 
 ## 检查作业状态
 
-一种GET方法，用于检索先前启动的资源处理作业的当前状态。
+一种GET方法，用于检索先前启动的资产处理作业的当前状态。
 
 **请求URL**
 
@@ -245,7 +249,7 @@ processingId轮询以获取异步作业的状态。
 
 ## 查看作业历史记录
 
-一个GET API，可返回资产后处理的最后“N”次执行。
+一个GET API，可返回资产后处理的最后“N”个执行。
 
 **请求URL**
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: e1c94e180a89b8d68ea6e0812a2c576b272ffdf5
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3391'
 ht-degree: 7%
 
 ---
@@ -129,6 +129,10 @@ ht-degree: 7%
             - [1月发行说明](./release-info/release-notes-2022-1-0.md)
       - 内部部署/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
+         - 5.2.0发行版 {#520-release}
+            - [新增功能](./release-info/whats-new-5-2-0.md)
+            - [修复的问题](./release-info/fixed-issues-5-2-0.md)
+            - [升级说明](./release-info/upgrade-instructions-5-2-0.md)
          - 5.1.0 SP4版本 {#510-sp4-release}
             - [修复的问题](./release-info/fixed-issues-5-1-0-sp4.md)
             - [升级说明](./release-info/upgrade-instructions-5-1-0-sp4.md)
@@ -617,6 +621,7 @@ ht-degree: 7%
       - 内部部署 {#on-prem}
          - [升级AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
          - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [Experience Manager Guides版本的配置更新](./install-conf-guide/configuration-on-prem.md)
    - 性能优化建议 {#performance-optimization-aemg}
       - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
       - [针对内部部署的性能优化](./install-conf-guide/perf-optimization-on-prem.md)
@@ -664,15 +669,16 @@ ht-degree: 7%
       - [配置文本过滤器](./install-conf-guide/conf-text-filters.md)
       - [为文件浏览对话框配置筛选器](./install-conf-guide/conf-custom-file-filters.md)
       - [安装用于基于文章的发布的包](./install-conf-guide/conf-article-based-publishing.md)
+      - [配置元数据属性的忽略列表](./install-conf-guide/conf-metadata-prop.md)
       - Cloud Service的编辑器设置 {#editor-cloud-settings}
          - [为Cloud Service的创作配置AI支持的智能建议](./install-conf-guide/conf-smart-suggestions.md)
          - [配置AI支持的智能帮助以搜索Cloud Service的内容](./install-conf-guide/conf-smart-help.md)
          - [配置在Cloud Service的氧气中编辑的选项](./install-conf-guide/conf-edit-in-oxygen.md)
          - [为Cloud Service配置粘贴表的显示](./install-conf-guide/conf-pasted-tables.md)
          - [为Cloud Service配置单主题PDF生成](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [在Cloud Service的Web编辑器中配置翻译功能](./install-conf-guide/conf-translation-editor.md)
-         - [为Cloud Service配置元数据属性的忽略列表](./install-conf-guide/conf-metadata-prop.md)
+         - [在Web编辑器中为Cloud Service配置翻译功能](./install-conf-guide/conf-translation-editor.md)
       - On-Premise的编辑器设置 {#editor-on-prem-settings}
+         - [配置新编辑器](./install-conf-guide/conf-new-editor-on-prem.md)
          - [为内部部署配置其他特殊字符](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [为内部部署的签入和签出图标配置标题](./install-conf-guide/conf-checkin-checkout-title.md)
          - [为内部部署查询配置LimitReads的数量](./install-conf-guide/conf-query-limitreads.md)
@@ -714,9 +720,13 @@ ht-degree: 7%
       - [集成基于桌面的XML编辑器](./install-conf-guide/integrate-desktop-editors.md)
       - [为Cloud Service配置Workfront](./install-conf-guide/conf-workfront.md)
       - [配置翻译](./install-conf-guide/conf-translation.md)
+      - [为内部部署配置目标副本初始化](./install-conf-guide/conf-translation-copies-on-prem.md)
+      - [为内部部署配置新基线](./install-conf-guide/conf-new-baseline-on-prem.md)
+      - [配置内部部署的对等链接跳过](./install-conf-guide/conf-skip-peer-links-on-prem.md)
    - 扩展功能 {#aemg-customization}
       - [为Cloud Service的查找和替换功能部署自定义索引](./install-conf-guide/custom-indexing-cs.md)
       - [为内部部署的查找和替换功能重新编制索引](./install-conf-guide/custom-indexing-on-prem.md)
+      - [为内部部署配置查找和替换功能](./install-conf-guide/conf-find-replace-on-prem.md)
       - [AEM Sites的组件映射](./install-conf-guide/component-mapping.md)
    - 附录 {#appendix}
       - [附录](./install-conf-guide/aemg-appendix.md)

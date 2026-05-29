@@ -8,12 +8,13 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18a1e586774da61e19055f8e4eb68a507192205c
+source-git-commit: 82d95464acaa3d4d2c43a35197e40a606cd2cc49
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 533
 ht-degree: 0%
 
 ---
+
 
 # 示例
 
@@ -493,7 +494,7 @@ export default {
 ```
 
 1. **查看评论**：在此示例中，我们添加了将用户名替换为用户信息（包含评论者的全名和标题）、添加了唯一的评论ID和mailTo图标，以及添加了用于提及评论严重性和理由的输入字段。
-我们还在用于打开对话框的XMLEditor端的评论中添加了`accept with modification`按钮。 下载[审阅评论](./examples/review_app_examples/review_comment.ts)的代码示例。
+我们还在用于打开对话框的XMLEditor端的评论中添加了`accept with modification`按钮。下载[审阅评论](./examples/review_app_examples/review_comment.ts)的代码示例。
 
 ```typescript
 export enum VIEW_STATE {

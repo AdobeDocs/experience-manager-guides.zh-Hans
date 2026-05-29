@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1606
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->从2025.11.0版本开始，**存储库**&#x200B;重命名为&#x200B;**资源管理器**。 对于内部部署设置，在Experience Manager Guides 5.1版发布之前，它将继续作为存储库提供。
+>从2025.11.0版的Cloud Servicea和从5.2版的On-Premise，**存储库**&#x200B;重命名为&#x200B;**资源管理器**。 对于5.2版本之前的内部部署设置，它将继续作为存储库提供。
 
 Adobe Experience Manager Guides提供两个现成的映射模板 — DITA映射和Bookmap。 您还可以创建自己的映射模板并与作者共享这些模板以创建映射文件。
 

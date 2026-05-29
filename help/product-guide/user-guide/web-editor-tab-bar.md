@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -77,12 +77,12 @@ ht-degree: 0%
    - **Cloud Services**：如果您使用的是Cloud Services，则选择&#x200B;**Assets**&#x200B;选项会转到AEM导航页面。
 
    - **内部部署软件**：如果您使用的是Adobe Experience Manager Guides（4.2.1及更高版本），则选择&#x200B;**Assets**&#x200B;选项会将您转到Assets UI中的当前文件路径。
-- **Workspace设置**：转到Workspace设置对话框。 有关详细信息，请查看[配置Workspace设置](../cs-install-guide/workspace-settings.md)。
+- **Workspace设置**：转到Workspace设置对话框。 有关详细信息，请查看[配置Workspace设置](../install-conf-guide/workspace-settings.md)。
 
 >[!NOTE]
 >
-> 如果在内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下继续显示为&#x200B;**设置**。
+>如果在版本5.2之前的内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下仍显示为&#x200B;**设置**。
 
-- **编辑器设置**：转到“编辑器设置”对话框，您可以在其中自定义单个作者级别的编辑器行为。 利用该功能，可在创作过程中控制标记、注释及其他编辑器级别设置的可见性和行为。 有关详细信息，请查看[编辑器设置](./config-editor-settings.md)。
+- **编辑器设置**：转到“编辑器设置”对话框，您可以在其中自定义单个作者级别的编辑器行为。 利用该功能，可在创作过程中控制标记、注释及其他编辑器级别设置的可见性和行为。 有关详细信息，请查看[编辑器设置](../install-conf-guide/workspace-settings.md)。
 
 **父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)

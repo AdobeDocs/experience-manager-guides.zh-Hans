@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 4286
+source-wordcount: 4232
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >从2025.11.0版本开始，**存储库**&#x200B;重命名为&#x200B;**资源管理器**。 对于内部部署设置，在Experience Manager Guides 5.1版发布之前，它将继续作为存储库提供。
+  >从2025.11.0版的Cloud Service和从5.2版的On-Premise中，**存储库**&#x200B;重命名为&#x200B;**资源管理器**。 对于5.2版本之前的内部部署设置，它将继续作为存储库提供。
 
 ***添加到***：您可以从以下选项中进行选择：
 
@@ -418,7 +418,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 ### 在MathML编辑器中验证公式
 
 当您保存包含公式的主题时，Experience Manager Guides会验证MathML公式。
-使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择&#x200B;**插入**，则会显示警告。
+使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。您可以在插入之前更正它。如果您未进行任何更改，但选择&#x200B;**插入**，则会显示警告。
 
 ![验证mathml公式](images/validate-mathml-equation.png){width="400"}
 
@@ -494,7 +494,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 - 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)图标或&#x200B;**Alt** + **空格**&#x200B;快捷键在文档中插入不间断空格。  在编辑器中编辑主题时，这些不间断的空格会显示为指示符。 在[用户首选项](./intro-home-page.md#user-preferences)的&#x200B;**外观**&#x200B;选项卡中，可以使用&#x200B;**在创作模式下显示不间断空格指示符**&#x200B;选项关闭不间断空格的显示。
 
 - 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**&#x200B;视图中，则不间断空格的内容将转换为空格。
-但是，如果您从&#x200B;**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
+但是，如果您从&#x200B;**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则内容将保留。
 
 
 ## 自动生成元素ID

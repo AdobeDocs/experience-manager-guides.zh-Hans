@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe Experience Manager Guides提供了一个专用控制台（称为&#x200B;**
 
   >[!NOTE]
   >
-  > 如果在内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下继续显示为&#x200B;**设置**。
+  > 如果在版本5.2之前的内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下仍显示为&#x200B;**设置**。
 
    - **展开视图**：允许您使用&#x200B;**展开**&#x200B;图标展开页面视图。 在此视图中，标题栏是隐藏的，从而最大化内容空间。 要返回到标准视图，请使用&#x200B;**退出扩展视图**&#x200B;图标。
 

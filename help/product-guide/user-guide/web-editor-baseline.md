@@ -19,7 +19,7 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
 source-wordcount: 1929
 ht-degree: 0%
@@ -128,7 +128,7 @@ ht-degree: 0%
   >
   >在动态基线的情况下进行编辑操作允许您编辑基线的属性，因为动态基线的引用是在运行时使用标签生成的。
 
-  基线的![选项](images/baseline-options.png){}
+  基线![&#128279;](images/baseline-options.png)的选项
 
 ### 可用于现有基线的操作
 

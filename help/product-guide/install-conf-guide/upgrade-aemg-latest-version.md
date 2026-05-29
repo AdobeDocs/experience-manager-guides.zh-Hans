@@ -4,10 +4,11 @@ description: 了解如何升级Adobe Experience Manager Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
+source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 0%
+source-wordcount: '1884'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +20,9 @@ ht-degree: 0%
 >
 > 按照特定于您的产品的许可版本的升级说明进行操作。
 
-您可以将当前版本的Experience Manager Guides升级到版本5.1.0 Service Pack 3：
+您可以将当前版本的Experience Manager Guides升级到版本5.2.0：
 
-- 如果您使用的是版本5.1.0或5.1.x ，则可以直接升级到版本5.1.0 Service Pack 3。
+- 如果您使用的是版本5.0.0、5.0.3、5.1.0或5.1.3，则可以直接升级到版本5.2.0。
 - 如果您使用的是版本4.6.0、4.6.x、5.0.0或5.0.x，则需要升级到版本5.1.0。
 - 如果您使用的版本低于4.6.0，有关详细的升级说明，请参阅[升级Adobe Experience Manager Guides的版本4.4.0和更早版本](./upgrade-aemg-prev-versions.md)。
 
@@ -31,6 +32,7 @@ ht-degree: 0%
 
 有关更多详细信息，请参阅以下过程：
 
+- [升级到版本5.2.0](#upgrade-to-version-510)
 - [升级到版本5.1.0](#upgrade-to-version-510)
 - [升级到版本5.0.0](#upgrade-to-version-500)
 - [升级到版本4.6.0](#upgrade-to-version-460)
@@ -38,6 +40,33 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 > 在开始升级之前，请进行完整的系统备份以避免任何数据丢失。
+
+
+## 升级到版本5.2.0
+
+>[!IMPORTANT]
+>
+> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.2.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+
+**先决条件**
+
+>[!NOTE]
+>
+>如果您要升级到5.2.0，则需要使用Experience Manager Guides的5.0.0、5.0.3、5.1.0或5.1.3版本。 5.2.0版本的升级过程与5.1.0版本的升级过程相同。
+
+在开始Experience Manager Guides 5.2.0升级过程之前，请确保您具有：
+
+1. 已升级到Experience Manager Guides版本5.0.0、5.0.3、5.1.0或5.1.3。
+1. （可选）已关闭所有翻译任务。
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+
+>[!NOTE]
+>
+> 后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
+
+**安装版本5.2.0**
+
+从[Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载5.2.0版本包，并按照[安装和安装后升级工作流](#installation-and-post-installation-upgrade-workflow)中提供的说明完成升级过程。
 
 
 ## 升级到版本5.1.0
@@ -57,7 +86,7 @@ ht-degree: 0%
 
 1. 已升级到Experience Manager Guides版本4.6.3、4.6.4、5.0.0或5.0.0 Service Pack 1。
 1. （可选）已关闭所有翻译任务。
-1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 >[!NOTE]
 >
@@ -84,7 +113,7 @@ ht-degree: 0%
 
 1. 已升级到Experience Manager Guides版本4.6.3、4.6.1、4.6.0或4.4。
 1. （可选）已关闭所有翻译任务。
-1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 
 **安装版本5.0.0**
@@ -109,7 +138,7 @@ ht-degree: 0%
 
 1. 已升级到Experience Manager Guides版本4.3.1、4.3.0或4.2.1（修补程序4.2.1.3）。
 1. （可选）已关闭所有翻译任务。
-1. 已将&#x200B;**类的日志级别更改为** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
+1. 已将`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript`类的日志级别更改为&#x200B;**INFO**，并将这些日志附加到新的日志文件中，例如`logs/translation_upgrade.log`。
 
 **安装版本4.6.0**
 
@@ -188,14 +217,14 @@ ht-degree: 0%
 
    查找并更改对应于&#x200B;**DAM更新资产工作流**&#x200B;的以下两个启动器\（如果必要\）：
 
-1. 已为&#x200B;*DAM更新资产工作流*&#x200B;创建“**节点**”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
+1. 已为&#x200B;**DAM更新资产工作流**&#x200B;创建“*节点*”的启动器 — 对于条件`"jcr:content/jcr:mimeType!=video"`，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有`"event-user-data:changedByWorkflowProcess"`。
-   - 针对&#x200B;*DAM更新资产工作流 —*&#x200B;的“**节点已修改**”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
+   - 针对&#x200B;**DAM更新资产工作流 —**&#x200B;的“*节点已修改*”的启动器，对于条件“`jcr:content/jcr:mimeType!=video`”，“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -227,7 +256,7 @@ ht-degree: 0%
 
 执行以下步骤来索引现有内容：
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引||示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 示例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - 该API将返回`jobId`。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
@@ -253,5 +282,4 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../insta
 
 >[!NOTE]
 >
-> 在跟踪文档时，请确保通过“保存”操作同时更新了属性（`reindex=true`的`reindex-async=true`和`/oak:index/damAssetLucene`）。
-
+> 在跟踪文档时，请确保通过“保存”操作同时更新了属性（`/oak:index/damAssetLucene`的`reindex=true`和`reindex-async=true`）。
