@@ -5,21 +5,14 @@ exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/hd0LxXHbISW1ppu4pE8Z1RzAhO8s6NGUV-0aYPfK5zQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1606
 ht-degree: 0%
 
 ---
@@ -28,7 +21,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->从2025.11.0版本开始，**存储库**&#x200B;重命名为&#x200B;**资源管理器**。 对于内部部署设置，在Experience Manager Guides 5.1版发布之前，它将继续作为存储库提供。
+>从2025.11.0版的Cloud Servicea和从5.2版的On-Premise，**存储库**&#x200B;重命名为&#x200B;**资源管理器**。 对于5.2版本之前的内部部署设置，它将继续作为存储库提供。
 
 Adobe Experience Manager Guides提供两个现成的映射模板 — DITA映射和Bookmap。 您还可以创建自己的映射模板并与作者共享这些模板以创建映射文件。
 

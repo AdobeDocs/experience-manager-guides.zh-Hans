@@ -6,22 +6,13 @@ feature: API Introduction
 role: Developer
 level: Experienced
 TQID: https://experienceleague.adobe.com/dNO8nZusaPCor506Q-2drrcJGf68mx-Hxo4uaT-cDtM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0047d3917ffcc8b83a319be5b7c12780c0f2ef55
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: 686
 ht-degree: 0%
 
 ---
@@ -132,11 +123,16 @@ Experience Manager Guides提供了一组全面的基于REST的API，允许开发
 
 有关API使用情况、参数和示例请求的详细信息，请在Experience Manager Guides文档的&#x200B;**API引用**&#x200B;部分中查看相关主题。
 
+>[!NOTE]
+>
+> 您还可以参阅&#x200B;**Swagger文档**，以了解位于`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`的公开可用REST API。 目前，Swagger文档中仅提供了与Assets、基线和报表相关的API。
+
+
 ## 其他资源
 
-以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)页面上：
+以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)页面上：
 
 - 用户指南
 - 安装和配置指南
 - 快速入门指南
-- [帮助存档页面](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）
+- [帮助存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）

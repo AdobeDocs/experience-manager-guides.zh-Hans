@@ -4,9 +4,9 @@ description: 了解Experience Manager Guides编辑器界面中可用的各种设
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。 在Cloud Service设置中，此选项已重命名为&#x200B;**Workspace设置**。 在&#x200B;**编辑器设置**&#x200B;下可用的所有现有配置选项保持不变。
-> ![内部部署](assets/editor-settings-on-prem.png){width="650"}的编辑器设置
+> 在版本5.2之前的内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。对于版本5.2及更高版本中的Cloud Service和内部部署配置，此选项已重命名为&#x200B;**Workspace设置**。在&#x200B;**编辑器设置**下可用的所有现有配置选项保持不变。
+内部部署的> ![编辑器设置](assets/editor-settings-on-prem.png){width="650"}
 
 
 编辑器[选项卡栏](../user-guide/web-editor-tab-bar.md)中存在的&#x200B;**Workspace设置**&#x200B;选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
@@ -272,9 +272,9 @@ ht-degree: 0%
 
 工作区设置中的![元数据选项卡](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
-您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
+您还可以定义这些元数据标记的显示顺序。要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。

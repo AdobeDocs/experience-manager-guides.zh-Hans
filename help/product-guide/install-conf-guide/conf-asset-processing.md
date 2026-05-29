@@ -4,9 +4,10 @@ description: 了解如何为Cloud Service配置资产处理
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0b66a515-d8f1-4ea6-913f-e152ae114698
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
@@ -39,7 +40,7 @@ ht-degree: 3%
 
 1. 搜索并选择&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包。
 
-1. 根据需要配置设置`Enable Guides asset processing scheduled job`。 默认情况下，该设置处于启用状态。
+1. 根据需要配置设置&#x200B;**启用Guides资产处理计划作业** (`enable.asset.processing.scheduler`)。 默认情况下，该设置处于启用状态。
 
 1. 选择&#x200B;**保存**。
 

@@ -5,22 +5,13 @@ feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
 TQID: https://experienceleague.adobe.com/7WV8Ey5ufs-tSPVc9sI-DMTLY9t31QASpv3pwDO8UcA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1333
+source-wordcount: 1343
 ht-degree: 1%
 
 ---
@@ -100,7 +91,7 @@ ht-degree: 1%
 
 | ServiceNow选项 | 描述 |
 | --- | --- |
-| 发布个人资料 | 使用下拉菜单从管理员配置的ServiceNow连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的更多信息，请在[左侧面板](./web-editor-features.md#id2051EA0M0HS)部分中查看&#x200B;**Workspace设置**（显示为&#x200B;**内部部署**&#x200B;的&#x200B;**设置**）功能说明。 |
+| 发布个人资料 | 使用下拉菜单从管理员配置的ServiceNow连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的更多信息，请在[左侧面板](./web-editor-features.md#id2051EA0M0HS)部分中查看&#x200B;**Workspace设置**(显示为&#x200B;**内部部署（版本5.2**&#x200B;之前）设置的&#x200B;**设置**)功能说明。 |
 | 知识库 | 使用此字段选择所需的ServiceNow知识库。 您可以在ServiceNow站点中配置知识库，以根据权限存储内容。 可以将此DITA映射中的文章发布到这些知识库。 |
 | 类别和子类别 | 类别类似于用于查找和分类ServiceNow Knowledge Base文章的分层树。 添加类别和子类别，将目录的主题和子主题发布到ServiceNow站点上的该类别和子类别中。 |
 
@@ -110,7 +101,7 @@ ht-degree: 1%
 
 | Salesforce选项 | 描述 |
 | --- | --- |
-| 发布个人资料 | 使用下拉菜单从管理员配置的Salesforce连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的详细信息，请在[选项卡栏](./web-editor-tab-bar.md)中查看&#x200B;**Workspace设置**（显示为&#x200B;**内部部署**&#x200B;的&#x200B;**设置**）功能说明。 |
+| 发布个人资料 | 使用下拉菜单从管理员配置的Salesforce连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的详细信息，请在[选项卡栏](./web-editor-tab-bar.md)中查看&#x200B;**Workspace设置**(显示为&#x200B;**内部部署（版本5.2**&#x200B;之前）设置的&#x200B;**设置**)功能说明。 |
 | 记录类型 | 根据基于用户配置文件的可见性设置，使用下拉菜单从Salesforce中设置的记录类型中进行选择。 Salesforce记录类型是一种对该对象进行多种类型记录分组的方法。 它们定义出版物的组织方式。 例如，您可以选择常见问题解答记录类型，并根据常见问题解答页面布局和字段进行发布。 |
 | 文章内容字段 | 每个记录类型模板可以有不同的字段和唯一的布局。 使用这些字段可根据文章类型输入特定信息。 例如，您可以查看常见问题解答文章的标题、答案和方程式。 |
 | 类别 | 从下拉列表中选择一个类别，以在Salesforce站点上发布该类别中目录的主题。 |
