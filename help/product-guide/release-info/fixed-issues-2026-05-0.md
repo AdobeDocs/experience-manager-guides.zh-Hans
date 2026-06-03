@@ -1,9 +1,9 @@
 ---
 title: 发行说明 |修复了Adobe Experience Manager Guides 2026.05.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2026.05.0版本中的错误修复。
-source-git-commit: a6b8ed1df3e10db69586686bac53cf8169cc5e02
+source-git-commit: 4a22e6f8e2505a5e2a990ec38571913c838d0ea1
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,5 @@ Adobe发现了2026.05.0版本的以下已知问题：
 - 当映射包含指向非DITA资源（如`.html`或`.htm`）的外部`topicref`时，其预览未显示在Assets UI中。 （指南 — 45409）
 - 在Assets UI中，无法为DITA主题显示使用`conref`引用的内容，即使它在编辑器预览中正确呈现也是如此。 (GUIDES-45505)<br>**解决方法**：对于此类内容，您可以使用编辑器的预览。
 - 启用`xmleditor.uniquefilenames`属性时，使用模板创建的新主题不包括主题标题。 （指南 — 44737）
+- `getAsset`、`startAssetProcessing`和`getAssetProcessingStatus` API不可通过Java SDK使用。
 
