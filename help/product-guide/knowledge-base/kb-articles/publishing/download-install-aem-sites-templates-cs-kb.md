@@ -6,18 +6,13 @@ role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
 TQID: https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
 workflow-type: tm+mt
-source-wordcount: 705
-ht-degree: 0%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -53,9 +48,9 @@ ht-degree: 0%
       ![选择访问存储库信息](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. 使用提供的用户名和密码将存储库克隆到本地系统（如果需要，生成密码）。
-2. **将包添加到Maven捆绑包：**
-   1. 在本地克隆的存储库中，创建一个新的Maven捆绑包或将其添加到现有捆绑包中。
-   2. 确保Maven项目中存在结构`/jcr_root/apps/fmdita/`安装。
+2. **将包添加到项目模块：**
+   1. 在本地克隆的存储库中，创建一个新的Project模块或将其添加到现有模块。
+   2. 确保结构`/jcr_root/apps/fmdita/`安装存在。
 
       Maven项目中的![结构](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
@@ -65,8 +60,7 @@ ht-degree: 0%
 3. **更新筛选器.xml：**
 
    1. 打开位于父内容目录的META-INF文件夹中的filters.xml文件。
-   2. 添加以下筛选器：筛选器根=`/apps/fmdita` mode=`merge`/
-
+   2. 添加以下筛选器： `<filter root=/apps/fmdita  mode=merge/>`。
 
       ![添加筛选器](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
@@ -143,4 +137,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在部署到生产环境之前，请确保所有配置都已在非生产环境中进行了测试。<br><br> 有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
+> 在部署到生产环境之前，请确保所有配置都已在非生产环境中进行了测试。<br><br> 有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。

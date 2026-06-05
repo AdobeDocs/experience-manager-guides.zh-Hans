@@ -6,22 +6,14 @@ role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
 TQID: https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 2%
 
 ---
@@ -102,7 +94,7 @@ ht-degree: 2%
 >
 > 确保将`wcm/foundation/components`下使用sling:resourceType的组件迁移到相应的`core/wcm/components`。
 
-在同一模板的结构中添加相同的（容器和文本组件）：
+在同一模板的结构中添加相同的容器组件：
 
 ![正在添加容器和文本组件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -114,7 +106,7 @@ ht-degree: 2%
 
 | 功能 | 组件名称 | 描述 | 推荐的模板 |
 |---|---|---|---|
-| 目录 | guidessidenavigation | 从DITA映射中呈现完整目录 | 文档容器 |
+| 目录 | guidessidenavigation | 从DITA映射中呈现完整目录 | 主题页面 |
 | 页面重定向 | childredirect | 重定向到地图中的第一个主题页面 | 文档容器 |
 | 迷你目录 | minitoc | 显示当前主题的目录 | 主题页面 |
 | 上次更新时间 | pageproperty | 显示上次修改日期 | 主题页面 |
@@ -135,7 +127,7 @@ ht-degree: 2%
 
 1. **编辑模板：**
 
-   1. 在&#x200B;**编辑器模式**&#x200B;中打开&#x200B;**产品页**。
+   1. 在编辑器模式下打开&#x200B;**容器页面模板**&#x200B;和&#x200B;**主题页面模板**。
    2. 选择&#x200B;**编辑模板** （这将打开类似conf/settings/wcm/templates/structure.html的URL）。
 
       ![编辑模板](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
@@ -154,4 +146,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 在部署到生产环境之前，请确保在非生产环境中测试模板。<br><br>有关更多详细信息，请参阅官方的[AEM Guides](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/get-started/authoring)文档。
+> 在部署到生产环境之前，请确保在非生产环境中测试模板。<br><br>有关更多详细信息，请参阅官方的[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/get-started/authoring)文档。
