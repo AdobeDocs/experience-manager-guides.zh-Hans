@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
 workflow-type: tm+mt
-source-wordcount: '3391'
+source-wordcount: '3406'
 ht-degree: 7%
 
 ---
@@ -198,13 +198,13 @@ ht-degree: 7%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页 {#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -230,13 +230,14 @@ ht-degree: 7%
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
             - [搜索面板](./user-guide/search-panel-explorer.md)
-         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
          - [从编辑器中创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
          - [将引用添加到您的内容](./user-guide/web-editor-apply-citations.md)
          - [使用数据源中的数据](./user-guide/web-editor-content-snippet.md)
+         - {hide-from-toc}[使用Git Connector (Beta)导入内容](./user-guide/web-editor-git-connector.md)
          - [文档状态](./user-guide/web-editor-document-states.md)
          - [使用标签](./user-guide/web-editor-use-label.md)
          - [编辑器设置](./user-guide/config-editor-settings.md)
@@ -407,7 +408,7 @@ ht-degree: 7%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-guide}
    - 内部部署 {#on-prem-ig}
       - {hide-from-toc}[内部部署基础知识](./install-guide/introduction.md)
@@ -478,13 +479,13 @@ ht-degree: 7%
       - 使用输出生成设置 {#output-gen-config}
          - {hide-from-toc}[配置输出生成设置](./install-guide/conf-output-generation.md)
          - {hide-from-toc}[下载并安装AEM Sites模板](./install-guide/download-install-aem-sites-templates.md)
-         - {hide-from-toc}[AEM Sites的组件映射](./install-guide/component-mapping.md)
+         - AEM Sites的{hide-from-toc}[组件映射](./install-guide/component-mapping.md)
          - {hide-from-toc}[在AEM Sites输出中叠加HTML标记](./install-guide/overlay-html-tags-aem-sites.md)
          - 原生PDF发布 {#config-native-pdf-publish}
             - {hide-from-toc}[PDF模板](./native-pdf/pdf-template.md)
-            - {hide-from-toc}[PDF模板的组件](./native-pdf/components-pdf-template.md)
+            - PDF模板的{hide-from-toc}[组件](./native-pdf/components-pdf-template.md)
             - {hide-from-toc}[设计页面布局](./native-pdf/design-page-layout.md)
-            - {hide-from-toc}[PDF输出中的变量](./native-pdf/native-pdf-variables.md)
+            - PDF输出中的{hide-from-toc}[变量](./native-pdf/native-pdf-variables.md)
             - {hide-from-toc}[支持语言变量](./native-pdf/native-pdf-language-variables.md)
             - {hide-from-toc}[向PDF输出添加条形码](./native-pdf/add-barcode.md)
             - 常见内容样式 {#content-styles}
@@ -581,7 +582,7 @@ ht-degree: 7%
       - 使用输出生成设置 {#output-gen-config-cs}
          - {hide-from-toc}[配置输出生成设置](./cs-install-guide/conf-output-generation.md)
          - {hide-from-toc}[下载并安装AEM Sites模板](./cs-install-guide/download-install-aem-sites-templates-cs.md)
-         - {hide-from-toc}[AEM Sites的组件映射](./cs-install-guide/component-mapping.md)
+         - AEM Sites的{hide-from-toc}[组件映射](./cs-install-guide/component-mapping.md)
          - {hide-from-toc}[本机PDF发布](./cs-install-guide/native-pdf-publishing.md)
          - {hide-from-toc}[为本机PDF发布配置节点进程](./native-pdf/configure-node-options.md)
          - {hide-from-toc}[创建主题与内容片段之间的映射](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -621,10 +622,10 @@ ht-degree: 7%
       - 内部部署 {#on-prem}
          - [升级AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
          - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
-         - [Experience Manager Guides版本的配置更新](./install-conf-guide/configuration-on-prem.md)
+         - Experience Manager Guides版本的[配置更新](./install-conf-guide/configuration-on-prem.md)
    - 性能优化建议 {#performance-optimization-aemg}
       - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
-      - [针对内部部署的性能优化](./install-conf-guide/perf-optimization-on-prem.md)
+      - 针对内部部署的[性能优化](./install-conf-guide/perf-optimization-on-prem.md)
    - 内容迁移 {#migrate-content-cs}
       - [迁移现有内容](./install-conf-guide/migrate-content.md)
       - [使用用于内部部署的Framemaker和WebDav工具上载现有DITA内容](./install-conf-guide/upload-dita-content.md)
@@ -685,6 +686,7 @@ ht-degree: 7%
       - 数据源连接器 {#data-source}
          - [从用户界面配置数据源连接器](./install-conf-guide/conf-data-source-connector-tools.md)
          - [为Cloud Service配置数据源连接器](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[从用户界面创建和配置Git连接器](./install-conf-guide/conf-git-connector.md)
    - 全局和文件夹级别配置文件 {#global-folder-profiles}
       - [配置全局或文件夹级别的配置文件](./install-conf-guide/conf-profiles.md)
    - 主题和映射模板 {#topic-map-template}
@@ -738,7 +740,7 @@ ht-degree: 7%
    - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
    - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
    - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-   - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+   - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
    - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
@@ -796,7 +798,7 @@ ht-degree: 7%
             - 小组件 {#framework-widgets}
                - [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-            - [编辑器2.0的扩展框架更改](./guides-ui-extensions/getting-started/editor-extension-guide.md)
+            - 编辑器2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)的[扩展框架更改
          - 快速入门 {#getting-started}
             - [简介](./guides-ui-extensions/getting-started/introduction.md)
             - [安装指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
