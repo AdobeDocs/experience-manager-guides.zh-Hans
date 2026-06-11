@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
 workflow-type: tm+mt
-source-wordcount: '3391'
+source-wordcount: '3406'
 ht-degree: 7%
 
 ---
@@ -237,6 +237,7 @@ ht-degree: 7%
          - [从编辑器中创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
          - [将引用添加到您的内容](./user-guide/web-editor-apply-citations.md)
          - [使用数据源中的数据](./user-guide/web-editor-content-snippet.md)
+         - {hide-from-toc}[使用Git Connector (Beta)导入内容](./user-guide/web-editor-git-connector.md)
          - [文档状态](./user-guide/web-editor-document-states.md)
          - [使用标签](./user-guide/web-editor-use-label.md)
          - [编辑器设置](./user-guide/config-editor-settings.md)
@@ -685,6 +686,7 @@ ht-degree: 7%
       - 数据源连接器 {#data-source}
          - [从用户界面配置数据源连接器](./install-conf-guide/conf-data-source-connector-tools.md)
          - [为Cloud Service配置数据源连接器](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[从用户界面创建和配置Git连接器](./install-conf-guide/conf-git-connector.md)
    - 全局和文件夹级别配置文件 {#global-folder-profiles}
       - [配置全局或文件夹级别的配置文件](./install-conf-guide/conf-profiles.md)
    - 主题和映射模板 {#topic-map-template}
