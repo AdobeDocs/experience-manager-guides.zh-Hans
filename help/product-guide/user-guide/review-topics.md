@@ -22,7 +22,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2787
+source-wordcount: 2753
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 0%
 1. 选择工具栏右上角的&#x200B;**注释**&#x200B;图标，打开“注释”面板。
 
    通过从工具栏中选择适当的评论类型来提供评论并按Enter键提交您的评论。
-评论框支持多行条目，并允许用户根据需要展开以提供详细反馈。 您可以在编写评论时使用&#x200B;**Shift** + **Enter**&#x200B;转到下一行。
+评论框支持多行条目，并允许用户根据需要展开以提供详细反馈。您可以在编写评论时使用&#x200B;**Shift** + **Enter**&#x200B;转到下一行。
 
    >[!NOTE]
    >

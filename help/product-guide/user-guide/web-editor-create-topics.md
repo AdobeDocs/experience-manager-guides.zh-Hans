@@ -20,7 +20,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Adobe Experience Manager Guides允许您创建以下类型的DITA主题：主题
 >
 > UI可能会因您使用的编辑器而异。
 
-1. 从Assets UI **创建** \> **DITA主题**&#x200B;或编辑器创建的每个新主题都分配了一个唯一的主题ID。 此ID的值是文件名本身。 此外，新文档将保存为DAM中主题的最新工作副本。 在保存新创建主题的修订版本之前，您不会在“版本历史记录”中查看任何版本号。 如果打开主题进行编辑，则工具栏右上角将显示版本信息：
+1. 从Assets UI **创建** \> **DITA主题**&#x200B;或编辑器创建的每个新主题都分配了一个唯一的主题ID。此ID的值是文件名本身。此外，新文档将保存为DAM中主题的最新工作副本。在保存新创建主题的修订版本之前，您不会在“版本历史记录”中查看任何版本号。如果打开主题进行编辑，则工具栏右上角将显示版本信息：
 _
    ![](images/version-none.png){width="550"}
 

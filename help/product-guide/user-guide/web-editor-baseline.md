@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
-source-wordcount: 1929
+source-wordcount: 1903
 ht-degree: 0%
 
 ---
@@ -141,10 +141,10 @@ ht-degree: 0%
 ![复制基线](images/baseline-duplicate.png){width="300"}
 *根据标签复制基线或创建精确副本。*
 
-1. 从基线的“选项”菜单中选择&#x200B;**复制**。 将打开&#x200B;**复制基线**&#x200B;对话框。
+1. 从基线的“选项”菜单中选择&#x200B;**复制**。将打开&#x200B;**复制基线**&#x200B;对话框。
 >[!NOTE]
 >
->基线的默认名称为`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根据自己的要求更改名称。
+>基线的默认名称为`<selected baseline name>`_suffix （如sample-baseline_1）。您可以根据自己的要求更改名称。
 
    在&#x200B;**选择基于**&#x200B;的版本中，您可以选择&#x200B;**完全复制**&#x200B;选项或&#x200B;**标签**&#x200B;选项：
 

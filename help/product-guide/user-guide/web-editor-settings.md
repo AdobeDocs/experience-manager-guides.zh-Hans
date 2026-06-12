@@ -29,7 +29,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2138
+source-wordcount: 2099
 ht-degree: 0%
 
 ---
@@ -279,7 +279,7 @@ ht-degree: 0%
 
 
 
-您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
+您还可以定义这些元数据标记的显示顺序。要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
 元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
 
 **父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
