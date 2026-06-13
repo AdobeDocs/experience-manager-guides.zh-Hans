@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 995
+source-wordcount: 974
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Experience Manager Guides允许您将主题或其元素发布到体验片段。 
 
    * **标题**：查看或编辑文件夹的标题。
 
-   * **允许的模板**：包含可作为Experiencefragment的子页面添加的模板列表。 要添加允许的模板，请在&#x200B;**允许的模板**&#x200B;字段中指定用于检索所需模板的正则表达式。
+   * **允许的模板**：包含可作为Experiencefragment的子页面添加的模板列表。要添加允许的模板，请在&#x200B;**允许的模板**&#x200B;字段中指定用于检索所需模板的正则表达式。
 例如：
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 

@@ -22,7 +22,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 3838
+source-wordcount: 3818
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 **插入主题引用** - ![](images/insert-topic-reference.png)
 
-显示主题搜索对话框。 导航到要插入的主题/映射文件，然后单击选择以将其添加到映射中。
+显示主题搜索对话框。导航到要插入的主题/映射文件，然后单击选择以将其添加到映射中。
 ![](images/insert-topic-reference-dialog.png){width="800"}
 
 
