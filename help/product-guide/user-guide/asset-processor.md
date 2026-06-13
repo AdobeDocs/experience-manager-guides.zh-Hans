@@ -6,19 +6,13 @@ role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
 TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: 648
 ht-degree: 0%
 
 ---
@@ -73,7 +67,7 @@ ht-degree: 0%
    1. **功能类型**：从下拉列表中选择&#x200B;**正在处理资源**。
    1. **选择文件夹和文件**：导航并选择一个或多个要处理的文件夹和文件。
    1. **选择要忽略的文件夹**： （可选）选择要从处理中排除的所选父文件夹中的子文件夹。
-   1. **资源类型**：从下拉列表中，选择要处理的特定资源类型（例如，DITA主题、DITA映射、Markdown、HTML/CSS、DITAVAL或其他文件）。 仅从您之前指定的文件夹中处理选定的资源类型。
+   1. **资源类型**：从下拉列表中，选择要处理的特定资源类型（例如，DITA主题、DITA映射、Markdown、HTML/CSS、DITAVAL或其他文件）。仅从您之前指定的文件夹中处理选定的资源类型。
 示例：选择DITA主题仅处理选定文件夹中的DITA主题，从而启用目标筛选。
    1. **创建于**&#x200B;之后/之前：应用日期筛选器以处理在指定时间范围内创建的资源。
 
