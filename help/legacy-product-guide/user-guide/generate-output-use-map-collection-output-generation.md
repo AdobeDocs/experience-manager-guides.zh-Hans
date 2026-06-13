@@ -20,7 +20,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1211
+source-wordcount: 1188
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 1%
 
    - 启用任何单个预设。
    - 为DITA映射启用&#x200B;**所有预设**&#x200B;以一次性选择所有预设。 默认禁用此选项。
-   - 为DITA映射启用&#x200B;**文件夹配置文件预设**&#x200B;以为其选择所有文件夹配置文件预设。 默认禁用此选项。
+   - 为DITA映射启用&#x200B;**文件夹配置文件预设**&#x200B;以为其选择所有文件夹配置文件预设。此选项默认处于禁用状态。
      ![在云服务上编辑地图集合](images/edit-map-collection-cs.png){width="800"}
 
 

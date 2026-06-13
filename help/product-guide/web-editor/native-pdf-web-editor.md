@@ -27,7 +27,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 3366
+source-wordcount: 3311
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
    1. 输入元数据的值并选择“+”图标。
 元数据将添加到PDF的元数据列表中。
 
-您还可以使用变量来定义元数据值。  可以将为DITA映射或书图文件定义的元数据用作变量。 可以在DITA映射或书签映射文件的`/jcr:content/metadata`节点下找到元数据。
+您还可以使用变量来定义元数据值。 可以将为DITA映射或书图文件定义的元数据用作变量。可以在DITA映射或书签映射文件的`/jcr:content/metadata`节点下找到元数据。
 使用变量时，将从元数据属性中选取变量的值。
 
 要使用变量，您需要以`${<variable>}`格式定义它。

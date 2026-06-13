@@ -65,7 +65,7 @@ margin-top: 2mm;
 1. 选择页面布局。 例如，您可以选择“后盖”页面布局，其中包含页眉或页脚。
 1. 将以下范围添加到要插入条形码的位置。
 
-   `<span class="barcode">Sample barcode</span></p>`.
+   `<span class="barcode">Sample barcode</span></p>`。
 
    >[!NOTE]
    >

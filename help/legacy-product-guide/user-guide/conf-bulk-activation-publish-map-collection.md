@@ -84,7 +84,7 @@ ht-degree: 2%
 执行下列操作之一：
 
 * 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**快速发布**。
-* 要激活所有DITA映射及其配置预设的输出，请选中“映射”（列）旁边的复选框，然后选择&#x200B;**快速发布。**
+* 要激活所有DITA映射及其配置预设的输出，请选中映射（列）旁边的复选框，然后选择&#x200B;**快速发布。**
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
