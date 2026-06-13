@@ -6,19 +6,13 @@ role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
 TQID: https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: 1119
 ht-degree: 2%
 
 ---
@@ -36,7 +30,7 @@ ht-degree: 2%
 ## 来自Web编辑器的条件预设
 
 通过Experience Manager Guides，您可以从Web编辑器管理条件预设，并在输出预设中使用它们来生成最终输出。
-您可以从Web编辑器中的&#x200B;**条件预设**&#x200B;视图创建和查看条件预设、查看属性以及管理当前映射的操作。
+您可以从Web编辑器中的**条件预设**&#x200B;视图创建和查看条件预设、查看属性以及管理当前映射的操作。
 
 <img src="images//manage-condtions-presets.png" alt= "Web编辑器中的条件预设" width="800" border="1px">
 
@@ -44,7 +38,7 @@ ht-degree: 2%
 
 ### 创建条件预设
 
-**条件预设**&#x200B;视图提供有关条件预设的详细信息，如其属性、值和操作。
+**条件预设**视图提供有关条件预设的详细信息，如其属性、值和操作。
 可通过执行以下步骤来创建主题的条件预设：
 
 1. 在&#x200B;**存储库**&#x200B;面板中，在映射视图中打开DITA映射文件。
@@ -60,18 +54,18 @@ ht-degree: 2%
 1. 选择&#x200B;**创建**。
 新条件预设即添加到列表中。
 1. 双击条件预设可查看属性和操作。
-**属性**&#x200B;面板显示添加到映射中存在的任何引用的所有属性。 右侧面板仅显示您添加到条件预设的条件。
+**属性**&#x200B;面板显示添加到映射中存在的任何引用的所有属性。右侧面板仅显示您添加到条件预设的条件。
 1. 执行以下任一操作以添加属性：
    * 选择一个或多个属性，以将它们下的所有值添加到条件预设。 例如，您可以选择`platform`属性以添加其所有值。
    * 选择一个或多个属性值以将其添加到条件预设。 例如，您可以选择平台属性的`Unix`和`Win`值
    * 选择任意属性和值对并将其拖动到中央面板。 例如，您可以选择Platform属性的`Unix`值并拖动它。
-   * **全选**&#x200B;以将所有属性及其值添加到条件预设。
+   * **全选**以将所有属性及其值添加到条件预设。
 默认情况下，属性的操作为`Include`。
 
 1. 选择&#x200B;**添加**。 您可以重复此步骤以添加更多属性。 您添加的属性从中央移至右侧面板。
 1. 从顶部的操作栏中选择“移除”可移除右侧面板中的选定属性。
 1. （可选）如果需要，您可以覆盖应用于属性的操作。
-执行下列操作之一：
+执行以下操作之一：
    * 对于任何属性，请从“操作”下拉列表中选择以下操作之一。
       * 包含
       * 不包括
@@ -179,4 +173,4 @@ ht-degree: 2%
 1. 单击&#x200B;**删除**&#x200B;按钮。
 1. 单击&#x200B;**删除**&#x200B;以确认操作。
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)
