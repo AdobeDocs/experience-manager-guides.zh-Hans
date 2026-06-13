@@ -5,20 +5,11 @@ exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/EPnCDG2eSljhIm-DrPk9uMBrTyK9-mT1J8N8bAQVrQ8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2918
@@ -32,7 +23,7 @@ ht-degree: 0%
 >
 > 本主题适用于新编辑器和旧编辑器。 虽然核心功能保持一致，但内容中使用适用的选项卡和标注，指出用户界面、术语和交互中的差异。
 
-映射编辑器中的工具栏与主题编辑器类似。 切换左侧面板、保存映射、创建新版本的映射、撤消/重做上一个操作以及删除所选元素等基本操作在两个编辑器中都是通用的。 有关这些操作如何工作的详细信息，请查看编辑器[&#128279;](web-editor-toolbar.md#)部分中的工具栏。
+映射编辑器中的工具栏与主题编辑器类似。 切换左侧面板、保存映射、创建新版本的映射、撤消/重做上一个操作以及删除所选元素等基本操作在两个编辑器中都是通用的。 有关这些操作如何工作的详细信息，请查看编辑器](web-editor-toolbar.md#)部分中的[工具栏。
 
 您在编辑器工具栏中查看的选项基于映射编辑器视图。 地图编辑器中提供了五个视图：
 
@@ -328,10 +319,10 @@ If you want to delete the relationship table, click anywhere outside the relatio
 
 可通过两种方式使用在映射的“预览”模式下提供的“刷新”功能：
 
-- **映射级别刷新**：选择&#x200B;**刷新**&#x200B;按钮将刷新整个映射的预览（包括所有主题），并将您带到清除视图的第一个滚动位置。
+- **映射级别刷新**：选择&#x200B;**刷新**按钮将刷新整个映射的预览（包括所有主题），并将您带到清除视图的第一个滚动位置。
   ![](images/refresh-map.png){width="650"}
 
-- **主题级刷新**：从上下文菜单选择&#x200B;**刷新主题**&#x200B;将刷新该特定主题，同时保持滚动位置不变。
+- **主题级刷新**：从上下文菜单选择&#x200B;**刷新主题**将刷新该特定主题，同时保持滚动位置不变。
   ![](images/refresh-topic.png){width="650"}
 
 **预览地图文件的其他方式**
@@ -344,7 +335,7 @@ If you want to delete the relationship table, click anywhere outside the relatio
   >
   > 如果&#x200B;*预览图*&#x200B;选项在主工具栏中不可见，则它可能已移动到&#x200B;**更多**&#x200B;工具栏菜单下。
 
-- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”**&#x200B;**&#x200B;以查看当前映射的预览。
+- **映射编辑器**：在映射编辑器中，从“选项”菜单中选择“预览”****&#x200B;以查看当前映射的预览。
 
   ![](images/map-preview-icon.png){width="650"}
 

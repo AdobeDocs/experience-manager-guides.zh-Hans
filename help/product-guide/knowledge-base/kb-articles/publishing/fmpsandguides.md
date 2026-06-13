@@ -6,22 +6,14 @@ feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 TQID: https://experienceleague.adobe.com/-qkx3TRKOd-kPx1tFrguuWvBY4hIIyqLdCfKDQzR5jg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 779
+source-wordcount: 757
 ht-degree: 0%
 
 ---
@@ -33,9 +25,9 @@ ht-degree: 0%
 
 ## FMPS与AEM Guides的兼容性
 
-- 与4.1 AEM Guides的兼容性： [4.1兼容性矩阵](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=zh-Hans/#compatibility-matrix)
+- 与4.1 AEM Guides的兼容性： [4.1兼容性矩阵](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - 与4.0 AEM Guides的兼容性： [4.0兼容性矩阵](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 最新版本： [最新版本信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=zh-Hans)
+- 最新版本： [最新版本信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## 安装
 
@@ -47,7 +39,7 @@ ht-degree: 0%
 
 ### FMPS
 
-对于FMPS安装，您可以参考给定的[YouTube链接](https://www.youtube.com/watch?v=2deelyM5VA8&t)或[FMPS安装和配置](https://help.adobe.com/zh_CN/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
+对于FMPS安装，您可以参考给定的[YouTube链接](https://www.youtube.com/watch?v=2deelyM5VA8&t)或[FMPS安装和配置](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
 
 ## 所需的配置
 
@@ -99,7 +91,7 @@ FrameMaker Publishing Server (FMPS)可用于生成DITA内容。 FMPS支持多种
 ### 未从FMPS发布基线
 
 >FMPS2020.0.2或更高版本与基线发布兼容。
->确保正确创建了基线；要进行检查，请转到“映射仪表板 — 主题 — 下载映射”并选择“使用基线”。
+>确保您的基线已正确创建；要进行检查，请转到“映射仪表板 — 主题 — 下载映射”，然后选择“使用基线”。
 
 ### 从FMPS发布任务所花费的时间比其他引擎多
 
@@ -107,10 +99,10 @@ FrameMaker Publishing Server (FMPS)可用于生成DITA内容。 FMPS支持多种
 
 ## 其他资源：
 
-[FMPS学习和支持](https://helpx.adobe.com/cn/support/framemaker-publishing-server.html)
+[FMPS学习和支持](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
 [AEM Guides学习与支持](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker和FMPS社区](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[AEM Guides社区](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=zh-Hans)
+[AEM Guides社区](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

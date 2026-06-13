@@ -6,21 +6,13 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: 1102
 ht-degree: 0%
 
 ---
@@ -72,7 +64,7 @@ ht-degree: 0%
 
    <img src="assets/duplicate-template.png" alt="复制PDF模板" width="350">
 
-   *在&#x200B;**复制PDF模板**&#x200B;对话框中选择要复制的模板、预览缩略图并更新标题。*
+   *在&#x200B;**复制PDF模板**对话框中选择要复制的模板、预览缩略图并更新标题。*
 
 1. 指定模板的标题。
 
@@ -93,8 +85,8 @@ ht-degree: 0%
 
 ### 删除
 
-选择删除选项可删除所选模板。 然后，在确认提示中选择是。
-预设已从&#x200B;**模板**&#x200B;中删除。
+选择删除选项可删除所选模板。然后，在确认提示中选择是。
+预设已从**模板**&#x200B;中删除。
 
 ### 属性{#properties-option}
 
@@ -106,7 +98,7 @@ ht-degree: 0%
 
 创建自定义模板后，您可以从PDF输出预设的页面布局中选择它。
 
-了解如何[发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=zh-Hans)。
+了解如何[发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en)。
 
 >[!NOTE]
 >
@@ -159,8 +151,8 @@ ht-degree: 0%
      除了外观之外，您还可以定义页面元素（如页眉、页脚和页面上的内容区域）的排列。 若要了解有关自定义页面布局的更多信息，请参阅[创建和自定义页面布局](components-pdf-template.md#create-customize-page-layout)。
 
    * 样式表：“样式表”部分中的设置允许您自定义页面布局组件（如目录、索引、术语表、引文等）的外观。 此外，您还可以自定义DITA内容的样式，如标题、段落、列表等。 要了解有关使用样式表的更多信息，请参阅[使用样式表自定义PDF](components-pdf-template.md#stylesheet-customization)。
-   * 资源：存储自定义或设计PDF模板所需的资源文件。 Assets（如徽标、自定义字体、背景图像等）存储在资源中。
-您还可以使用存储库中任何其他位置的资源。 您无需为每个模板创建重复资源，可以将这些资源保留在共享文件夹中，并在所有本机PDF模板中使用它们。
+   * 资源：存储自定义或设计PDF模板所需的资源文件。Assets（如徽标、自定义字体、背景图像等）存储在资源中。
+您还可以使用存储库中任何其他位置的资源。您无需为每个模板创建重复资源，可以将这些资源保留在共享文件夹中，并在所有本机PDF模板中使用它们。
 
      要了解有关利用资源的更多信息，请参阅[使用资源](components-pdf-template.md#work-with-resources)。
 

@@ -6,21 +6,14 @@ role: User
 hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
 TQID: https://experienceleague.adobe.com/4AM9-p0UgJidTdaXBtbzjW8iWabHttjhmzhLcsgHWsw
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1508
+source-wordcount: 1464
 ht-degree: 0%
 
 ---
@@ -29,8 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 以前在Experience Manager Guides中提供的Basic Map Editor已从版本4.3和2307开始弃用。 您不能访问“基本映射编辑器”来创建和管理DITA映射。
->建议您使用高级映射编辑器。 高级映射编辑器提供了增强功能和更好的自定义选项。 详细了解如何使用[高级映射编辑器](../user-guide/map-editor-advanced-map-editor.md)。
+> 以前在Experience Manager Guides中提供的Basic Map Editor已从版本4.3和2307开始弃用。您不能访问“基本映射编辑器”来创建和管理DITA映射。
+>建议您使用高级映射编辑器。高级映射编辑器提供了增强功能和更好的自定义选项。详细了解如何使用[高级映射编辑器](../user-guide/map-editor-advanced-map-editor.md)。
 
 基本映射编辑器提供简单的拖放功能，可从AEM存储库添加主题以创建DITA映射或书图。 您可以添加嵌套主题、关系表\(reltable\)、属性和元数据信息，还可以验证映射是否正确。
 
@@ -209,4 +202,4 @@ AEM Guides的映射编辑器附带一个强大的功能，允许您在DITA映射
 
 如果要删除关系表，请单击关系表之外的任意位置，然后单击“删除”。
 
-**父主题：**&#x200B;[&#x200B;使用映射编辑器](map-editor.md)
+**父主题：**[&#x200B;使用映射编辑器](map-editor.md)
