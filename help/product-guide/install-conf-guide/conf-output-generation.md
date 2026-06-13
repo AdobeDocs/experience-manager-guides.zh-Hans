@@ -87,7 +87,7 @@ AEM Guides提供了许多配置选项，供您自定义输出生成过程。 本
 
 1. 添加以下属性：
 
-   | 属性名称 | 类型 | 值 |
+   | 属性名称 | 类型 | 价值 |
    |-------------|----|-----|
    | `topicContentNode` | 字符串 | 指定要发布DITA内容的节点名称。 例如，AEM Guides发布DITA内容的默认节点为： <br> `jcr:content/contentnode` |
    | `topicHeadNode` | 字符串 | 指定要存储DITA内容的元数据信息的节点名称。 例如，AEM Guides存储元数据信息的默认节点为： <br> `jcr:content/headnode` |
@@ -109,7 +109,7 @@ AEM Guides提供了许多配置选项，供您自定义输出生成过程。 本
 
 1. 添加以下属性：
 
-   | 属性名称 | 类型 | 值 |
+   | 属性名称 | 类型 | 价值 |
    |-------------|----|-----|
    | `topicContentNode` | 字符串 | 指定要发布DITA内容的节点名称。 例如，AEM Guides发布DITA内容的默认节点为： <br>`jcr:content/contentnode` |
    | `topicHeadNode` | 字符串 | 指定要存储DITA内容的元数据信息的节点名称。 例如，AEM Guides存储元数据信息的默认节点为： <br>`jcr:content/headnode` |

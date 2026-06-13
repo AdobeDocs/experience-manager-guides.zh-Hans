@@ -4,9 +4,10 @@ description: 了解如何安装Adobe Experience Manager
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d72b007c-9f0a-41be-bca2-2d6b54c30de1
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,9 @@ ht-degree: 0%
 
 AEM Guides是一个安装在Adobe Experience Manager之上的插件。 安装AEM需要了解一些基本的AEM概念和建议的部署方案。 以下链接资源将帮助您开始安装AEM：
 
-- [基本AEM概念](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [AEM的基本概念](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [推荐的AEM部署](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [建议的AEM部署](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 >[!IMPORTANT]
 >

@@ -4,7 +4,7 @@ description: 了解如何配置智能帮助以搜索内容
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
 source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -105,5 +105,5 @@ ht-degree: 0%
 ```
 
 
-配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在Web编辑器的右侧面板中。 选择图标以查看&#x200B;**智能帮助**&#x200B;面板。
+配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在Web编辑器的右侧面板中。选择图标以查看&#x200B;**智能帮助**&#x200B;面板。
 有关更多详细信息，请查看《Experience Manager用户指南》中的[AI支持的智能帮助以搜索内容](../user-guide/ai-based-smart-help.md)部分。
