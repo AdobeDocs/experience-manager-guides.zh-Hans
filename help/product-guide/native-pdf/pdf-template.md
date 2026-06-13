@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: 1102
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ### 删除
 
-选择删除选项可删除所选模板。 然后，在确认提示中选择是。
+选择删除选项可删除所选模板。然后，在确认提示中选择是。
 预设已从&#x200B;**模板**&#x200B;中删除。
 
 ### 属性{#properties-option}
@@ -159,8 +159,8 @@ ht-degree: 0%
      除了外观之外，您还可以定义页面元素（如页眉、页脚和页面上的内容区域）的排列。 若要了解有关自定义页面布局的更多信息，请参阅[创建和自定义页面布局](components-pdf-template.md#create-customize-page-layout)。
 
    * 样式表：“样式表”部分中的设置允许您自定义页面布局组件（如目录、索引、术语表、引文等）的外观。 此外，您还可以自定义DITA内容的样式，如标题、段落、列表等。 要了解有关使用样式表的更多信息，请参阅[使用样式表自定义PDF](components-pdf-template.md#stylesheet-customization)。
-   * 资源：存储自定义或设计PDF模板所需的资源文件。 Assets（如徽标、自定义字体、背景图像等）存储在资源中。
-您还可以使用存储库中任何其他位置的资源。 您无需为每个模板创建重复资源，可以将这些资源保留在共享文件夹中，并在所有本机PDF模板中使用它们。
+   * 资源：存储自定义或设计PDF模板所需的资源文件。Assets（如徽标、自定义字体、背景图像等）存储在资源中。
+您还可以使用存储库中任何其他位置的资源。您无需为每个模板创建重复资源，可以将这些资源保留在共享文件夹中，并在所有本机PDF模板中使用它们。
 
      要了解有关利用资源的更多信息，请参阅[使用资源](components-pdf-template.md#work-with-resources)。
 

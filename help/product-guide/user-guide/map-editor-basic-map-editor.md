@@ -19,7 +19,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1508
+source-wordcount: 1464
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 以前在Experience Manager Guides中提供的Basic Map Editor已从版本4.3和2307开始弃用。 您不能访问“基本映射编辑器”来创建和管理DITA映射。
->建议您使用高级映射编辑器。 高级映射编辑器提供了增强功能和更好的自定义选项。 详细了解如何使用[高级映射编辑器](../user-guide/map-editor-advanced-map-editor.md)。
+> 以前在Experience Manager Guides中提供的Basic Map Editor已从版本4.3和2307开始弃用。您不能访问“基本映射编辑器”来创建和管理DITA映射。
+>建议您使用高级映射编辑器。高级映射编辑器提供了增强功能和更好的自定义选项。详细了解如何使用[高级映射编辑器](../user-guide/map-editor-advanced-map-editor.md)。
 
 基本映射编辑器提供简单的拖放功能，可从AEM存储库添加主题以创建DITA映射或书图。 您可以添加嵌套主题、关系表\(reltable\)、属性和元数据信息，还可以验证映射是否正确。
 

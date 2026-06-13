@@ -21,7 +21,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 779
+source-wordcount: 757
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ FrameMaker Publishing Server (FMPS)可用于生成DITA内容。 FMPS支持多种
 ### 未从FMPS发布基线
 
 >FMPS2020.0.2或更高版本与基线发布兼容。
->确保正确创建了基线；要进行检查，请转到“映射仪表板 — 主题 — 下载映射”并选择“使用基线”。
+>确保您的基线已正确创建；要进行检查，请转到“映射仪表板 — 主题 — 下载映射”，然后选择“使用基线”。
 
 ### 从FMPS发布任务所花费的时间比其他引擎多
 
