@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: 591
 ht-degree: 0%
 
 ---
@@ -119,5 +119,5 @@ ht-degree: 0%
 ```
 
 
-配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在Web编辑器的右侧面板中。 选择图标以查看&#x200B;**智能帮助**&#x200B;面板。
+配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在Web编辑器的右侧面板中。选择图标以查看&#x200B;**智能帮助**&#x200B;面板。
 有关更多详细信息，请查看《Experience Manager用户指南》中的[AI支持的智能帮助以搜索内容](../user-guide/ai-based-smart-help.md)部分。
