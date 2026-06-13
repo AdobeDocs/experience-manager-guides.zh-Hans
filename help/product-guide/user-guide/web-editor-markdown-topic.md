@@ -5,19 +5,11 @@ exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/9NrYbEPcHa0QEwAnN5VTK7UVT9sBDJHOYZZuSsID8Kc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1211
@@ -102,7 +94,7 @@ Features available in the tab bar are explained as follows:
 |----------------|----------------|
 | 编辑操作 | 提供对各种文档编辑功能的访问权限，这些功能包括&#x200B;**剪切** ![](images/S_Cut_18_N.svg)、**撤消** ![](images/S_Undo_18_N.svg)、**重做** ![](images/S_Redo_18_N.svg)、**复制** ![](images/S_Copy_18_N.svg)、**删除** ![](images/S_Delete_18_N.svg)和&#x200B;**查找和替换** ![](images/S_FindAndReplace_18_N.svg)。 您可以从&#x200B;**菜单**&#x200B;下拉菜单中访问可用选项。 |
 | 文本格式设置选项 | 提供对各种文本格式选项的访问权限，这些选项包括&#x200B;**标题** ![](images/S_DisplayHeading_18_N.svg)、**粗体** ![](images/S_TextBold_18_N.svg)、**斜体** ![](images/S_TextItalic_18_N.svg)、**删除线** ![](images/S_TextStrikethrough_18_N.svg)、**代码** ![](images/S_Code_18_N.svg)和&#x200B;**块引用** ![](images/S_BlockQuoteMultipleLines_18_N.svg)。 |
-| 内容插入选项 | 提供用于将编号列表&#x200B;**&#x200B;** ![](images/S_TextNumbered_18_N.svg)、**排序列表** ![](images/S_TextBulleted_18_N.svg)、**表** ![](images/tableAdd.svg)、**图像** ![](images/S_ImageAdd_18_N.svg)、**交叉引用** ![](images/S_LinkGlobe_18_N.svg)和&#x200B;**符号** ![](images/S_SpecialCharacter_18_N.svg)插入到文档的选项。<br><br> **注意**：您还可以将图像和其他文件拖放到Markdown编辑器中。 文件将作为交叉引用链接添加，而图像则显示为标准图像元素。 |
+| 内容插入选项 | 提供用于将编号列表&#x200B;**** ![](images/S_TextNumbered_18_N.svg)、**排序列表** ![](images/S_TextBulleted_18_N.svg)、**表** ![](images/tableAdd.svg)、**图像** ![](images/S_ImageAdd_18_N.svg)、**交叉引用** ![](images/S_LinkGlobe_18_N.svg)和&#x200B;**符号** ![](images/S_SpecialCharacter_18_N.svg)插入到文档的选项。<br><br> **注意**：您还可以将图像和其他文件拖放到Markdown编辑器中。 文件将作为交叉引用链接添加，而图像则显示为标准图像元素。 |
 | 版本历史记录 | 允许您创建Markdown文件的版本并查看更改历史记录。 您可以比较不同的版本，并在需要时还原为以前的版本。 版本历史记录选项存在于&#x200B;**菜单**&#x200B;下拉列表中。 |
 | 另存为新版本 | 保存对主题所做的更改，并创建该主题的新版本。 如果您处理的是新创建的主题，则版本信息显示为none。 |
 | 锁定/解锁 | 锁定或解锁当前文件。 锁定文件可为您提供对文件的独占写入权限。 这会限制其他用户编辑文件。 如果您希望其他人具有编辑权限，请解锁文件。 作为管理员，您还可以访问&#x200B;**强制解锁**&#x200B;功能，该功能允许您解锁被其他人锁定的文件。 |
@@ -190,4 +182,4 @@ Features available in the tab bar are explained as follows:
 
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

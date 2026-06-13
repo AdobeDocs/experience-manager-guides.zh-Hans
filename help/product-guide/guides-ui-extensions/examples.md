@@ -3,11 +3,8 @@ title: 示例
 description: 自定义示例列表
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
 TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 39a8d3aa544092cf89017824ede81da66ff6cf58
 workflow-type: tm+mt
 source-wordcount: 533
@@ -379,7 +376,7 @@ ht-degree: 0%
    export default topbarExtend
    ```
 
-1. 元数据面板上的&#x200B;**管理按钮**：在此示例中，我们已自定义&#x200B;**管理**&#x200B;按钮（位于“报表”页面上的“元数据”面板中），以便在所选文件处于只读模式时禁用该按钮。 这有助于防止意外编辑不打算编辑的文件上的元数据。 下载“元数据”面板[&#128279;](./examples/metadata_report_manage_button.ts)上的管理按钮的代码示例。
+1. 元数据面板上的&#x200B;**管理按钮**：在此示例中，我们已自定义&#x200B;**管理**&#x200B;按钮（位于“报表”页面上的“元数据”面板中），以便在所选文件处于只读模式时禁用该按钮。 这有助于防止意外编辑不打算编辑的文件上的元数据。 下载“元数据”面板](./examples/metadata_report_manage_button.ts)上的[管理按钮的代码示例。
 
    ```typescript
    const mapConsoleActionBar = {
