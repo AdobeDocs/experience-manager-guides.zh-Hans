@@ -6,11 +6,22 @@ role: User
 hide: true
 exl-id: fae55104-fef6-4994-911a-139598332b96
 TQID: https://experienceleague.adobe.com/eWIVpbYP4IGSVor6VMH81-lk4xescm2bsGT3Lx3tiDw
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: e2fdbf15-a7e4-4d2a-84cc-bd581e74b56did: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: e2fdbf15-a7e4-4d2a-84cc-bd581e74b56d
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1060
@@ -51,7 +62,7 @@ ht-degree: 1%
 
 有关详细信息，请参阅[PDF配置](#id231KIM004X1)。
 
-从地图仪表板&#x200B;****
+从地图仪表板&#x200B;**&#x200B;**
 
 要打开PDF的输出预设，请从Assets UI中单击DITA映射文件，单击输出预设，然后单击PDF选项。 在地图仪表板中，单击顶部的&#x200B;**编辑**&#x200B;以更新各种配置，然后单击&#x200B;**保存**。
 
@@ -74,4 +85,4 @@ ht-degree: 1%
 | 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br>有关更多详细信息，请参阅[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)。 |
 | 文件属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性显示在&#x200B;**文件属性**&#x200B;字段下。 选择资产旁边的交叉图标以将其删除。 <br><br>注意：您还可以使用DITA-OT发布将元数据传递到输出。 有关更多详细信息，请参阅[使用DITA-OT将元数据传递到输出](pass-metadata-dita-ot.md#id21BJ00QD0XA)。 |
 
-**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)
