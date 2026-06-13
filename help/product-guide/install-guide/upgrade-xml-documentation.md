@@ -24,7 +24,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 9267
+source-wordcount: 9214
 ht-degree: 1%
 
 ---
@@ -270,7 +270,7 @@ ht-degree: 1%
 
 - 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 \（可选：您可以传递映射的特定路径来进行索引，默认情况下，所有映射都将进行索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\）
 
-- 该API将返回作业ID。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 — 
+- 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — 
 
 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）
 
@@ -485,7 +485,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
-- 确保`damAssetLucene`索引已完成。 这可能需要几个小时，具体取决于服务器上存在的数据量。 您可以通过检查中的重新索引字段是否设置为false来确认重新索引已完成
+- 确保`damAssetLucene`索引已完成。这可能需要几个小时，具体取决于服务器上存在的数据量。您可以通过检查中的重新索引字段是否设置为false来确认重新索引已完成
   `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在`damAssetLucene`中添加任何自定义项，则可能需要再次应用它们。
 
 - 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
@@ -543,13 +543,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **POST**&#x200B;此脚本是POST请求，因此应通过Postman等代理执行。 |
-   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点。<br> 示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点。<br> 示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **GET** |
    | 参数 | jobId：传递从上一个post请求收到的jobId。 |
-   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。<br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | 预期响应 |  — 作业完成后，GET请求会做出成功响应。<br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
@@ -744,7 +744,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **POST**&#x200B;此脚本是POST请求，因此应通过Postman等代理执行。 |
-   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点。<br> 示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点。<br> 示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
@@ -945,7 +945,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|
    | 请求类型 | **POST**&#x200B;此脚本是POST请求，因此应通过Postman等代理执行。 |
-   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点。<br> 示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
+   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点。<br> 示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
    | 终点 | /bin/guides/reports/upgrade |
    |---|---|

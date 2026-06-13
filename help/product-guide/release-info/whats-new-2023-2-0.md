@@ -17,7 +17,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: 1382
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Web编辑器中的&#x200B;**报告**&#x200B;选项卡。
 
 **生成多媒体报告**
 
-您可以生成多媒体报告，该报告包含有关当前映射中引用使用的多媒体的详细信息。 您可以灵活地筛选和排序报表中列出的多媒体文件。
+您可以生成多媒体报告，该报告包含有关当前映射中引用使用的多媒体的详细信息。您可以灵活地筛选和排序报表中列出的多媒体文件。
 您还可以生成CSV来下载DITA映射中使用的多媒体的当前快照。
 
 <img src="assets/web-editor-reports-multimedia.png" alt="多媒体报告" width="600">

@@ -17,7 +17,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 3818
+source-wordcount: 3758
 ht-degree: 1%
 
 ---
@@ -388,7 +388,7 @@ h1样式的属性与其“预览”一起显示在“属性”面板中。
 ## 为单页布局定义唯一样式
 
 发布本机PDF输出时，所有样式都会合并到最终PDF中，为CSS中的每个模板分配唯一样式至关重要。
-使用不同的CSS样式名称将特定字体和样式应用于PDF的不同部分。 例如，您可以使用以下CSS定义封面页的所需字体。
+使用不同的CSS样式名称将特定字体和样式应用于PDF的不同部分。例如，您可以使用以下CSS定义封面页的所需字体。
 
 ```css
 ...

@@ -93,7 +93,7 @@ as a Cloud Service，以创建配置文件。
 
 1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server:port>//bin/guides/reports/upgrade`。
 
-1. 该API将返回作业ID。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
 1. 作业完成后，上一个GET请求将做出成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。
@@ -171,7 +171,7 @@ as a Cloud Service，以创建配置文件。
 - 原生PDF | Xref正在打印href主题标题的内容而不是Xref标签。 (11322)
 - 原生PDF |无法保存PDF模板设置。 (10751)
 - 原生PDF |文本在包含多个xref时超出列宽。 (10876)
-- 原生PDF | `<note>` `</note>`元素未生成其类型的额外范围标题。 (10549)
+- 原生PDF | `<note>`&#x200B;`</note>`元素未生成其类型的额外范围标题。 (10549)
 - 原生PDF |在生成的PDF中无法设置语言元数据以符合WCAG 2.0。 (12296)
 
 

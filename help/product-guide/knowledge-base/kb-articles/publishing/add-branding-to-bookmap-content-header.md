@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **之前：**
 
-![在修复品牌之前：显示预品牌PDF布局的屏幕快照](../assets/publishing/branding-image1.png)
+![在修复品牌之前：屏幕快照显示预品牌PDF布局](../assets/publishing/branding-image1.png)
 <br>
 <br>
 
