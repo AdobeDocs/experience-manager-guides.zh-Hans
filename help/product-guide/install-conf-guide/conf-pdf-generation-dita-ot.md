@@ -4,9 +4,10 @@ description: 了解如何配置单主题PDF生成
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: a456027a-56a4-48c0-a79b-2f423692abc2
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -58,4 +59,4 @@ ht-degree: 0%
 
 执行上述步骤后，如果从Web编辑器的“用户首选项”中选择相同的文件夹配置文件，则将在主题的预览模式下看到用于生成PDF的选项。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**[&#x200B;自定义Web编辑器](customize-overview.md)

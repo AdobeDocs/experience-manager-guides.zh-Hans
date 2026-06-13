@@ -4,9 +4,10 @@ description: 了解如何安装Adobe Experience Manager
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d72b007c-9f0a-41be-bca2-2d6b54c30de1
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -15,15 +16,15 @@ ht-degree: 0%
 
 AEM Guides是一个安装在Adobe Experience Manager之上的插件。 安装AEM需要了解一些基本的AEM概念和建议的部署方案。 以下链接资源将帮助您开始安装AEM：
 
-- [基本AEM概念](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [AEM的基本概念](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [推荐的AEM部署](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [建议的AEM部署](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 >[!IMPORTANT]
 >
 > 如果您将Java 11与AEM 6.5.x一起使用，则可能会遇到问题 — *JDK 11导致`NoClassDefFoundError`*。 参考[JDK 11会导致NoClassDefFoundError \| AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html)文章解决此问题。
 
-确定最适合贵组织的部署策略后，请按照AEM文档的&#x200B;*[快速入门](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)*&#x200B;部分中的说明执行安装过程。
+确定最适合贵组织的部署策略后，请按照AEM文档的&#x200B;*[快速入门](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)*&#x200B;部分中的说明执行安装过程。
 
 如果您计划升级AEM实例，则必须按照给定的顺序操作：
 
