@@ -6,23 +6,16 @@ role: Developer
 level: Experienced
 exl-id: f902fac1-2717-4696-a835-c4b0bb8add3d
 TQID: https://experienceleague.adobe.com/Lyv-S5o-Z40bMqqIHhbxKrsmn9CCqHRnqnpiq91EjGU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 1d80ca88a3a6637a118657367b86b499675f6d0e
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 8%
+source-wordcount: 150
+ht-degree: 10%
 
 ---
 
 # 用于跟踪文件夹或资产的后处理状态的API
-
->[!NOTE]
->
-> 有关最新的REST API端点定义和相关详细信息，请在`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`处查看Swagger文档（将`<aem-author-url>`替换为您的AEM服务器URL）。 由于本文计划于2026年10月存档，因此我们建议您今后使用Swagger文档来了解API的最新信息。
 
 以下是一种POST方法，用于启动异步作业以获取资产的状态。
 
