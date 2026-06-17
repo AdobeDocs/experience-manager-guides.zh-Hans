@@ -76,7 +76,7 @@ ht-degree: 0%
    >
    > 您还可以看到主题的UUID。
 
-   .
+   。
 
    ![](images/assets_ui_with_uuid_cs.png){width="800"}
 

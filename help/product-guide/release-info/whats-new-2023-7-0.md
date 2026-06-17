@@ -18,7 +18,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 696
+source-wordcount: 638
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## 基于微服务的发布可生成HTML5和自定义输出
 
-新的发布微服务使您能够同时在AEM Guides as a Cloud Service上运行大型发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。 现在使用微服务，您还可以生成HTML5和自定义输出。
+新的发布微服务使您能够同时在AEM Guides as a Cloud Service上运行大型发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。现在使用微服务，您还可以生成HTML5和自定义输出。
 您可以运行多个发布请求并获得改进的性能来生成这些输出格式。
 有关详细信息，请查看[为AEM Guides as a Cloud Service配置基于微服务的发布](../knowledge-base/publishing/configure-microservices.md)。
 
