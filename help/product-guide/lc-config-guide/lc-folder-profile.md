@@ -6,11 +6,25 @@ role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
 TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: b89a36a9-95de-429b-adde-f901256d8f24id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: b89a36a9-95de-429b-adde-f901256d8f24
+  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
 workflow-type: tm+mt
 source-wordcount: 1960
@@ -124,7 +138,7 @@ ht-degree: 0%
 >
 > 仅当在&#x200B;**Workspace设置** > **常规**&#x200B;中启用学习内容功能时，此设置才可用。
 
-此设置允许您管理编辑器](../user-guide/web-editor-left-panel.md)中[左侧面板中存在的创作和发布模板。 您可以添加、删除或重新排序创作和输出模板，作者和发布者随后可以访问这些模板。
+此设置允许您管理编辑器[&#128279;](../user-guide/web-editor-left-panel.md)中左侧面板中存在的创作和发布模板。 您可以添加、删除或重新排序创作和输出模板，作者和发布者随后可以访问这些模板。
 
 ![](assets/templates-settings.png){width="350"}
 
@@ -203,7 +217,7 @@ SCORM输出模板允许您为课程中的不同主题类型分配不同的页面
 
 例如，课程页面可以使用包括页眉、内容区域和页脚的布局，而测验页面可以使用不带页脚的简化布局。 您还可以为概览页面或任何其他主题类型创建专用布局，并相应地映射它们。
 
-布局分配在&#x200B;**输出模板**级别配置。任何使用配置的输出模板的SCORM预设将在生成课程时应用选定的布局映射。
+布局分配在&#x200B;**输出模板**&#x200B;级别配置。任何使用配置的输出模板的SCORM预设将在生成课程时应用选定的布局映射。
 请按照以下步骤配置模板的页面布局：
 
 1. 导航到&#x200B;**输出模板**&#x200B;并打开所需的&#x200B;**SCORM输出模板**。

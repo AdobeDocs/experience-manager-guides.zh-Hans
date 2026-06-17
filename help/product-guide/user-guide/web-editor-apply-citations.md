@@ -5,10 +5,16 @@ exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
 source-wordcount: 1890
@@ -100,7 +106,7 @@ Experience Manager Guides支持多种类型的引文，例如现代语言协会(
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides仅导入不重复且尚不存在的引用。
-    &gt; <li> Experience Manager Guides可以从书籍、日记或网站导入引文。 目前不支持来自其他来源的引用。
+   > &gt; <li> Experience Manager Guides可以从书籍、日记或网站导入引文。 目前不支持来自其他来源的引用。
 
 ## 管理引文
 
@@ -123,13 +129,13 @@ Experience Manager Guides支持多种类型的引文，例如现代语言协会(
 在引文中搜索您的内容。
 
 1. 在左侧面板中，选择“引文”。
-将打开**引用**&#x200B;面板。
+将打开&#x200B;**引用**&#x200B;面板。
 
 1. 使用搜索栏从长列表中搜索相应的引用。
 
 ### 更改引用样式 {#change-citation-style}
 
-您的系统管理员可以从&#x200B;**设置**&#x200B;的&#x200B;**常规**&#x200B;选项卡中的&#x200B;**引用**下拉菜单中更改引用的样式。
+您的系统管理员可以从&#x200B;**设置**&#x200B;的&#x200B;**常规**&#x200B;选项卡中的&#x200B;**引用**&#x200B;下拉菜单中更改引用的样式。
 这些样式决定引文在预览窗格或本机PDF输出中的显示方式。
 
 下拉菜单中提供了以下选项：
@@ -191,7 +197,7 @@ Experience Manager Guides支持多种类型的引文，例如现代语言协会(
 ### 从主工具栏
 
 1. 在主工具栏中选择&#x200B;**引用** ![引用图标](images/citations-icon.svg)图标。
-1. 在&#x200B;**引文**对话框中，选择引文。您还可以选择多个引文。
+1. 在&#x200B;**引文**&#x200B;对话框中，选择引文。您还可以选择多个引文。
    ![引文对话框](images/citation-dialog-main-toolbar.png){width="300"}
 1. 您可以在&#x200B;**引文**&#x200B;对话框的搜索面板中键入前几个字母来筛选引文。
 

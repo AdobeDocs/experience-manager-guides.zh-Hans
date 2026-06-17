@@ -4,11 +4,18 @@ description: 了解如何创建和删除新的映射收藏集以及添加或删�
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
 workflow-type: tm+mt
 source-wordcount: 1447
@@ -185,4 +192,4 @@ Adobe Experience Manager Guides中的映射收藏集使发布专家能够将多�
 元数据属性与文件属性同步。 更新后，可以从编辑器的&#x200B;**文件属性**&#x200B;面板中查看这些文件。
 
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

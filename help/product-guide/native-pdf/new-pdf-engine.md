@@ -4,11 +4,26 @@ description: 了解如何使用新的发布引擎进行本机PDF发布
 feature: Publishing, Native PDF Output
 role: User
 TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 010a11e20d518064549ce7d66648586f49f572ec
 workflow-type: tm+mt
 source-wordcount: 913
@@ -34,37 +49,44 @@ ht-degree: 0%
 |-------------|------------------------------------------------|
 | 缩放的图像可能会因图像渲染行为的更改而显示不同。 | 要恢复图像渲染行为，请添加：<br><br><pre><code>”的css
 图像渲染：像素化；
+
 ```</code></pre> |
 | 目录引线(TOC)对齐方式可能会因引线渲染行为的更改而略有不同。 | 要恢复目录引线对齐，请调整自定义样式表中目录引线元素的样式。 所需的CSS更改可能会因您的目录布局和格式而异。 |
 | 由于字体渲染和字形布局处理中的更改，文本间距和换行可能会有所不同。 | 如果您的样式表使用`sans-serif`字体系列或显示间距差异的字体，请添加：<br><br><pre><code>”的css
 主体{ -ro-glyph-layout-mode： quality； }
 ```</code></pre> |
+
 | 由于默认脚注样式发生了更改，脚注引用可能不再显示为上标标记。 | 要恢复上标样式的脚注标记，请添加：<br><br><pre><code>”的css
-.fn：：脚注标记{
+.fn：：脚注标记&lbrace;
   内容：计数器（脚注）“ ”；
   vertical-align： super；
   字体大小：65%；
-}
+&rbrace;
+
 ```</code></pre> |
 | 由于下划线位置的更改，文本与下划线之间的间距可能会增加，因此下划线文本可能会出现。 | 要恢复下划线位置，请使用`text-underline-offset`属性并根据需要调整偏移值。 例如：<br><br><pre><code>”的css
 文本修饰：加下划线；
 text-underline-offset： -0.1em；
 ```</code></pre> |
+
 | 列表标记和列表项文本之间的间距可能会因列表渲染行为的更改而有所不同。 | 要恢复间距，请增加列表项的左边距。 例如：<br><br><pre><code>”的css
-.step {
+.step &lbrace;
   顶端边距：0.3雷姆；
   下边距：0.5雷姆；
   左内边距：calc(1.5rem + 1ch)；
-}
+&rbrace;
+
 ```</code></pre> |
 | 由于边距折叠行为的变化，标题前的间距可能会有所不同。 | 要恢复间距，请检查相邻元素的边距，并根据需要减少或移除重叠的顶边距和底边距。 例如：<br><br><pre><code>”的css
 h1.chapter { margin-top： 0； }
 .chaptoc-body { margin-bottom： 0； }
 ```</code></pre> |
+
 | 通过CSS生成的复选标记可能以不同的大小或样式显示，因为它们使用不同的回退字体渲染。 | 要以一致的方式呈现标记，请使用包含两个字形的字体系列。 例如：<br><br><pre><code>”的css
-：：marker {
+：：marker &lbrace;
   font-family： -ro-symbols ！important；
-}
+&rbrace;
+
 ```</code></pre> |
 | 由于标记的位置行为发生更改，CSS生成的圆形列表标记可能会出现部分剪切或截断。 | 要恢复圆形列表标记的外观，请避免使用标记的绝对定位。 如果需要绝对定位，请明确指定适当的`top`值以正确定位标记。 |
 | 当列表项使用`position: relative`等定位样式时，PDF/UA输出中列表项的读取顺序可能会有所不同。 | 若要使阅读顺序更遵循源文档结构，请将以下CSS属性应用于列表项：<br><br><pre><code>”的css
