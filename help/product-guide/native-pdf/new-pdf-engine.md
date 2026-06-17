@@ -24,7 +24,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2b6a0f1a6ac03984286e9d3df40c197f28d52f8d
+source-git-commit: 39af88b1d4bd424a8e56f3a217bcd8ee79f4be15
 workflow-type: tm+mt
 source-wordcount: 844
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 建议新发布引擎使用的CSS更新
 
-如果您要在使用本机PDF引擎v2时保留本机PDF引擎v1生成的PDF输出的外观，您可能需要更新自定义CSS。 下面介绍的建议CSS更改有助于在启用新设置后维护输出一致性。
+如果要在使用本机PDF引擎v2时恢复本机PDF引擎v1生成的PDF输出的外观，您可能需要更新自定义CSS。 下面介绍的建议CSS更改有助于在启用新设置后维护输出一致性。
 
 | 描述 | 建议的CSS更新 |
 |-------------|------------------------------------------------|
