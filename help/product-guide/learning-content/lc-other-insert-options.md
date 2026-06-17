@@ -14,9 +14,9 @@ subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -72,11 +72,13 @@ ht-degree: 0%
 
   您可以通过&#x200B;**内容属性**&#x200B;面板配置正确答案和其他必填字段。 有关详细信息，请查看[问题类型](./quiz-insert-questions.md)。 您可以使用如下所示的知识检查选项添加各种问题类型。
 
+  此外，您可以启用&#x200B;**需要知识检查以继续**&#x200B;选项，以确保学习者在进入后续课程内容之前尝试进行指定的知识检查。 此功能有助于通过防止学习者跳过关键评估检查点来强化关键学习目标。 在配置SCORM预设输出时，如果启用&#x200B;**学习者必须按照顺序完成内容**&#x200B;设置，从而确保课程进度遵循预期学习路径，则支持该功能。
+
   ![](assets/knowledge-check-content-properties.png){width="650"}
 
-- **输入字段：**&#x200B;向内容添加文本输入字段和按钮。 您可以使用此组合来捕获用户输入并触发特定操作。 播放按钮将添加到内容中，如下所示。
+- **输入字段：**&#x200B;向内容添加文本输入字段和按钮。 您可以使用此组合来捕获用户输入并触发特定操作。 现在，您还可以添加多行文本区域以获得更长的响应，例如解释或开放式反馈。 多行文本区域支持换行符和文本换行。
 
-  ![](assets/button-learning-content.png){width="650"}
+  ![](assets/input-field-lc.png){width="650"}
 
 - **更多选项：**&#x200B;您有其他选项可增强您的学习内容，包括插入水平线、换行符、文本框、定位文本框和嵌入的HTML。
 

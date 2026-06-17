@@ -5,9 +5,9 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cb82a816ac9513fcdf7a3ad32ed46f1e44c5a7f3
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6098'
 ht-degree: 0%
 
 ---
@@ -224,11 +224,11 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
    >
    > 专用的DTD文件应是自定义代码部署的一部分。 /apps下的DTD是产品部署的一部分，因此将被任何新版本的安装覆盖。 建议在项目文件夹的/var/dxml/dita\_resources下添加专用的DTD，并在DITA配置文件中包含DTD/目录路径。有关详细信息，请参阅[集成DITA专业化](dita-ot-specialization.md#id211MB0E00XA)。
 
-1. 使用包管理器下载/libs/fmdita/config/condAttrList.xml文件：
+1. 使用包管理器下载`/libs/fmdita/config/condAttrList.csv`文件。 根据使用的版本，`libs/fmdita/config/condAttrList.xml`文件也可能可供下载。
 
-1. 在Cloud Manager Git存储库中的以下位置创建condAttrList.xml文件的副本：
+1. 在Cloud Manager Git存储库中的以下位置创建`condAttrList.csv`文件副本：
 
-   `/apps/fmdfmdita/config/condAttrList.xml`
+   `/apps/fmdfmdita/config/condAttrList.csv`
 
 1. 保存文件。
 
@@ -252,15 +252,17 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
    这将清除系统缓存。
 
-1. 导航到位于以下位置的condAttrList.xml文件：
+1. 导航到在以下位置可用的`condAttrList.csv`文件：
 
-   /libs/fmdita/config/condAttrList.xml
+   `/libs/fmdita/config/condAttrList.csv`
+
+   根据使用的版本，`libs/fmdita/config/condAttrList.xml`文件可能也可在同一位置使用。
 
 1. 在`apps`节点内创建`config`文件夹的覆盖节点。
 
 1. 导航到`apps`节点中的condAttrList.xml文件并将自定义属性添加到该文件中：
 
-   `/apps/fmdita/config/condAttrList.xml`
+   `/apps/fmdita/config/condAttrList.csv`
 
 1. 保存文件。
 

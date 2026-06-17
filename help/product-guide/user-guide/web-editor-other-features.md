@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
 workflow-type: tm+mt
-source-wordcount: 4232
+source-wordcount: 4258
 ht-degree: 0%
 
 ---
@@ -414,6 +414,10 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 使用MathML方程式工具，创建方程式并选择&#x200B;**插入**&#x200B;以将其添加到文档。 该公式使用浅灰色背景插入。
 
 您可以随时更新公式，方法是右键单击现有公式并从上下文菜单中选择&#x200B;**编辑MathML**。
+
+>[!NOTE]
+>
+> MathML生成会传播与MathML公式关联的`output-class`，以便在生成的输出中反映配置的样式，如字体、颜色、背景和其他格式。
 
 ### 在MathML编辑器中验证公式
 
