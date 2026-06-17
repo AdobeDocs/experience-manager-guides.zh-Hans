@@ -6,28 +6,14 @@ role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
 TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: b89a36a9-95de-429b-adde-f901256d8f24
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: b89a36a9-95de-429b-adde-f901256d8f24id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
 workflow-type: tm+mt
-source-wordcount: 1666
+source-wordcount: 1960
 ht-degree: 0%
 
 ---
@@ -138,7 +124,7 @@ ht-degree: 0%
 >
 > 仅当在&#x200B;**Workspace设置** > **常规**&#x200B;中启用学习内容功能时，此设置才可用。
 
-此设置允许您管理编辑器[&#128279;](../user-guide/web-editor-left-panel.md)中左侧面板中存在的创作和发布模板。 您可以添加、删除或重新排序创作和输出模板，作者和发布者随后可以访问这些模板。
+此设置允许您管理编辑器](../user-guide/web-editor-left-panel.md)中[左侧面板中存在的创作和发布模板。 您可以添加、删除或重新排序创作和输出模板，作者和发布者随后可以访问这些模板。
 
 ![](assets/templates-settings.png){width="350"}
 
@@ -211,6 +197,41 @@ ht-degree: 0%
 
    ![](assets/scorm-template-added.png){width="350"}
 
+### 为SCORM输出模板配置页面布局
+
+SCORM输出模板允许您为课程中的不同主题类型分配不同的页面布局。 这使您可以在生成的SCORM包中自定义课程、测验、概览页面和其他内容类型的演示。
+
+例如，课程页面可以使用包括页眉、内容区域和页脚的布局，而测验页面可以使用不带页脚的简化布局。 您还可以为概览页面或任何其他主题类型创建专用布局，并相应地映射它们。
+
+布局分配在&#x200B;**输出模板**级别配置。任何使用配置的输出模板的SCORM预设将在生成课程时应用选定的布局映射。
+请按照以下步骤配置模板的页面布局：
+
+1. 导航到&#x200B;**输出模板**&#x200B;并打开所需的&#x200B;**SCORM输出模板**。
+
+2. 选择&#x200B;**设置**&#x200B;选项卡。
+
+3. 在&#x200B;**页面布局**&#x200B;窗口中，找到可用的主题类型。
+
+   ![](assets/page-layout-scorm.png){width="650"}
+
+4. 对于每个主题类型，选择要在课程生成过程中使用的页面布局。
+
+   **示例：**
+   - **默认页面布局**：课程
+   - **测试**：测试
+   - **概述**：课程
+
+5. 若要使用新布局，请使用&#x200B;**输出模板**&#x200B;面板的上下文菜单中的&#x200B;**新页面布局**&#x200B;选项在输出模板中创建所需的页面布局。
+
+   ![](assets/new-page-layout-scorm.png){width="650"}
+
+6. 返回&#x200B;**设置**&#x200B;选项卡，并将新创建的布局分配给相应的主题类型。
+
+7. 使用选项卡栏右角的“保存”图标保存输出模板的页面布局。
+
+
+使用使用配置的输出模板的SCORM预设生成课程时，每个主题都使用分配给其主题类型的布局进行渲染。 这允许同一课程中不同的内容类型具有自定义的页面结构和可视化演示。
+
 ### 删除或重新排序模板
 
 添加模板后，您可以从“设置”面板中删除或重新排序模板。
@@ -244,10 +265,10 @@ ht-degree: 0%
 
 ## 管理发布配置文件
 
-在此部分中，您可以查看、创建和管理用于将课程发布到SCORM Cloud的发布配置文件。 每个配置文件定义将学习课程发布到特定SCORM云环境所需的连接设置和配置详细信息。
+在此部分中，您可以查看、创建和管理用于将课程发布到SCORM Cloud或Adobe Learning Manager (ALM)的发布配置文件。 每个配置文件定义将学习课程发布到选定发布服务器所需的连接设置和配置详细信息。
 
-如果需要发布到不同的SCORM Cloud帐户，您可以创建多个配置文件，从而确保发布过程的灵活性和控制力。
+您可以创建多个配置文件以将内容发布到不同的SCORM Cloud帐户或ALM实例，从而提供对发布工作流的灵活性和控制。
 
-提供服务器详细信息以及关联的SCORM云应用程序的客户端ID和客户端密码，以配置SCORM云的发布配置文件。
+要配置发布配置文件，请选择所需的发布服务器（SCORM Cloud或Adobe Learning Manager），并提供所需的连接详细信息。 对于SCORM Cloud，请输入服务器信息以及关联的SCORM Cloud应用程序的客户端ID和客户端密钥。 对于Adobe Learning Manager，请提供ALM环境所需的相应服务器和身份验证详细信息。
 
 ![](assets/configure-publish-profiles.png){width="350"}

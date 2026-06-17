@@ -6,41 +6,41 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/cqknNhuPThhuNTsLZzwnrUzPJguIPs4J-3rX6PVR2V8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: febac97b369bad427f0f650f2cdc69b0ca6c9f69
 workflow-type: tm+mt
-source-wordcount: 400
+source-wordcount: 460
 ht-degree: 0%
 
 ---
 
 # 对目录条目和主题内容应用自定义样式
 
-有时，您可能希望对目录条目或特定主题应用自定义样式。 可以通过将`outputclass`属性与DITA映射中的`<topicref>`元素关联来做到这一点。 此外，如果要将自定义格式应用于整个主题，则也可以通过在CSS中扩展属性的样式定义来实现该目的。
+您可以在支持的映射元素（如`<topicref>`和`<topichead>`）上使用`outputclass`属性，将自定义样式应用于目录条目、主题头或单个主题。 要将自定义格式应用于整个主题，请在CSS中扩展`outputclass`属性的样式定义。
 
-让我们以您要发送以供审阅的新主题为例。 为便于识别更新的主题，您需要向DITA映射中的`<topicref>`元素添加`outputclass`属性，然后在CSS中为相同元素定义自定义样式。
+## 设置通过`<topicref>`引用的主题的样式
+
+您可以对`<topicref>`元素应用`outputclass`来设置所生成PDF中目录条目、主题标题或完整主题内容的样式。
+
+例如，要确定需要审阅的主题，请将outputclass属性添加到DITA映射中的相应`<topicref>`元素，并在CSS中定义关联的样式。
 
 在以下示例中，*航班历史记录*&#x200B;主题已分配了一个值为`new-topic`的`outputclass`属性。
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-CSS中`new-topic`的类定义允许您为以下项定义样式：
+`new-topic`类可用于定义以下对象的样式：
+
 * 目录或迷你目录中的主条目
 * 主内容中主题的标题
 * 主题的整个内容，包括标题
 
-让我们看看如何在CSS中定义每种场景。 在`new-topic`类的以下CSS定义中，文本颜色已更改。
+以下CSS定义会更改目录条目和主题标题的文本颜色：
 
 ```css
-…
 .new-topic {
-  color: #CC5309
+  color:#CC5309
 }
-…
 ```
 
 此定义控制目录中的文本颜色和主题标题。 以下PDF输出显示了应用于目录条目的不同颜色：
@@ -57,23 +57,23 @@ CSS中`new-topic`的类定义允许您为以下项定义样式：
 ...
 /*for styling TOC entry */
 .new-topic {
-  color: #CC3509
+  color:#CC3509
 }
 
 /* for styling topic's title */
 .new-topic.title {
-  color: #092ACC
+  color:#092ACC
 }
 ...
 ```
 
-最后，您还可以在主题的整个内容中应用样式。 为此，您需要向类名添加后缀“`-content`”。 在以下示例中，更改栏已添加到主题的整个内容中：
+要将样式应用于整个主题内容，请将`-content`后缀附加到类名。 以下示例在主题内容中添加了更改栏：
 
 ```css
 ...
 /* for styling the topic's content */
 .new-topic-content {
-  -ro-change-bar-color: #A609CC;
+  -ro-change-bar-color:#A609CC;
 }
 ...
 ```
@@ -81,6 +81,46 @@ CSS中`new-topic`的类定义允许您为以下项定义样式：
 使用上述样式属性，*航班历史记录*&#x200B;主题的左侧添加了更改栏，如下所示：
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## 将样式应用到`topichead`元素
+
+您可以使用`<topichead>`元素上的`outputclass`属性将不同的样式应用于目录条目和为`topichead`生成的标题。
+
+例如，如果您在DITA映射中定义以下`topichead`：
+
+```xml
+<topichead navtitle="Getting Started" outputclass="new-topichead">
+    ...
+</topichead>
+```
+
+`new-topichead`类应用于目录中的主题标题项和为主题标题生成的标题。
+
+如果要对标题应用不同的样式，请为其定义单独的类，类似于`<topicref>`如何支持目录条目和主题标题的单独样式：
+
+```css
+...
+/* Style for the topichead TOC entry */
+.new-topichead {
+  color: #CC5309;
+}
+
+/* Style for the topichead heading */
+.new-topichead.title {
+  color: #092ACC;
+}...
+```
+
+如果要设置与主题头关联的内容的样式，请将`- content`后缀附加到类名：
+
+```css
+.new-topichead-content {
+    border-left: 2px solid #cccccc;
+    padding-left: 8px;
+}
+```
+
+
 
 ## 从目录中删除空行
 

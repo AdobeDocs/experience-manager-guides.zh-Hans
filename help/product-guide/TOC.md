@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
+source-git-commit: c748a4cef0848b35c2e1bee6c5fec4e4de91ba22
 workflow-type: tm+mt
-source-wordcount: '3406'
-ht-degree: 7%
+source-wordcount: '2532'
+ht-degree: 9%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 7%
       - 云服务 {#cloud-release-notes}
          - {hide-from-toc}[部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2026版 {#2026-releases}
+            - 2026.06.0发行版 {#2606-release}
+               - [新增功能](./release-info/whats-new-2026-06-0.md)
+               - [修复的问题](./release-info/fixed-issues-2026-06-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2026-06-0.md)
             - 2026.05.0 SP1发行版 {#2605-sp1-release}
                - [修复的问题](./release-info/fixed-issues-2026-05-0-sp1.md)
             - 2026.05.0发行版 {#2605-release}
@@ -198,13 +202,13 @@ ht-degree: 7%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页 {#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -230,7 +234,7 @@ ht-degree: 7%
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
             - [搜索面板](./user-guide/search-panel-explorer.md)
-         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -310,7 +314,8 @@ ht-degree: 7%
          - 使用基线 {#work-with-baseline}
             - [从“映射”控制台创建和管理基线](./user-guide/web-editor-baseline.md)
             - [从“映射”功能板创建和管理基线](./user-guide/generate-output-use-baseline-for-publishing.md)
-            - [从映射控制台创建和管理新基线](./user-guide/web-editor-baseline-v2.md)
+            - [从“映射”控制台创建和管理新基线](./user-guide/web-editor-baseline-v2.md)
+            - [新建基线迁移常见问题解答](./user-guide/new-baseline-migration-faq.md)
          - [管理全局和文件夹配置文件输出预设](./user-guide/web-editor-manage-output-presets.md)
          - [使用变量设置目标路径、站点名称或文件名选项](./user-guide/generate-output-use-variables.md)
          - [使用DITA-OT将元数据传递到输出](./user-guide/pass-metadata-dita-ot.md)
@@ -323,6 +328,7 @@ ht-degree: 7%
                - [发布AEM Sites页面](./user-guide/publish-aem-sites.md)
                - [增量输出生成](./user-guide/generate-output-aem-site.md)
          - [使用映射集合生成输出](./user-guide/generate-output-use-map-collection-output-generation.md)
+         - [使用新的映射集合生成输出](./user-guide/generate-output-use-new-map-collection-output-generation.md)
          - [管理输出生成流程](./user-guide/generate-output-manage-process.md)
          - [使用发布仪表板管理发布任务](./user-guide/generate-output-publish-dashboard.md)
          - [基本疑难解答](./user-guide/generate-output-basic-troubleshooting.md)
@@ -408,201 +414,7 @@ ht-degree: 7%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-- 安装和配置 {#install-guide}
-   - 内部部署 {#on-prem-ig}
-      - {hide-from-toc}[内部部署基础知识](./install-guide/introduction.md)
-      - 下载、安装和升级 {#download-install-upgrade-aemg}
-         - {hide-from-toc}[下载和安装概述](./install-guide/download-install.md)
-         - {hide-from-toc}[技术要求](./install-guide/download-install-technical-requirements.md)
-         - {hide-from-toc}[安装Adobe Experience Manager](./install-guide/download-install-aem.md)
-         - {hide-from-toc}[首次下载并安装AEM Guides](./install-guide/download-install-aemg-first-time.md)
-         - {hide-from-toc}[配置Dispatcher](./install-guide/download-install-configure-dispatcher.md)
-         - {hide-from-toc}[验证AEM Guides安装](./install-guide/download-install-verify-aemg-installation.md)
-         - {hide-from-toc}[升级AEM Guides](./install-guide/upgrade-xml-documentation.md)
-         - {hide-from-toc}[卸载AEM Guides](./install-guide/download-install-unistall-aemg.md)
-         - {hide-from-toc}[性能优化建议](./install-guide/download-install-recommend-perf-optimiz.md)
-      - 使用用户组和安全性 {#user-group-sec}
-         - {hide-from-toc}[用户管理和安全性](./install-guide/user-admin-sec.md)
-      - 内容迁移 {#content-migration}
-         - {hide-from-toc}[从Non-UUID迁移到UUID内容](./install-guide/migrate-uuid-non-uuid.md)
-         - 迁移过程 {#migration-process}
-            - {hide-from-toc}[从4.3.1非UUID迁移到4.3.2 UUID内容](./install-guide/migrate-non-uuid-4-3.md)
-            - {hide-from-toc}[从4.6.0非UUID迁移到4.6.1 UUID内容](./install-guide/migrate-non-uuid-uuid-4-6.md)
-         - {hide-from-toc}[迁移现有内容](./install-guide/migrate-content.md)
-         - {hide-from-toc}[上载现有DITA内容](./install-guide/migrate-content-upload-existing-dita-content.md)
-         - {hide-from-toc}[迁移非DITA内容](./install-guide/migrate-content-non-dita.md)
-      - 使用自定义DITA-OT和专业化 {#custom-dita-ot-spec}
-         - {hide-from-toc}[使用自定义DITA-OT和DITA专用化](./install-guide/dita-ot-specialization.md)
-      - {hide-from-toc}[为文件夹配置后处理](./install-guide/conf-folder-post-processing.md)
-      - {hide-from-toc}[配置文件名](./install-guide/conf-file-names.md)
-      - {hide-from-toc}[根据UUID配置自动文件名](./install-guide/conf-auto-uuid-filenames.md)
-      - {hide-from-toc}[为有效的文件名字符配置Regx](./install-guide/conf-file-names-valid-regx.md)
-      - {hide-from-toc}[为AEM站点输出配置有效的文件名](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - 使用主题和地图模板 {#topic-map-template}
-         - {hide-from-toc}[配置主题和映射模板](./install-guide/conf-template-tags.md)
-         - {hide-from-toc}[配置自定义DITA主题模板](./install-guide/conf-template-tags-custom-dita-topic-template.md)
-         - {hide-from-toc}[配置自定义DITA映射模板](./install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - 使用文档状态 {#doc-state}
-         - {hide-from-toc}[配置文档状态](./install-guide/customize-doc-state.md)
-      - 编辑器设置 {#editor-configs}
-         - {hide-from-toc}[配置编辑器设置](./install-guide/editor-settings.md)
-      - 使用Web编辑器配置 {#web-editor-configs}
-         - {hide-from-toc}[自定义Web编辑器](./install-guide/conf-web-editor.md)
-         - {hide-from-toc}[自定义工具栏](./install-guide/conf-web-editor-customize-toolbar.md)
-         - {hide-from-toc}[为标记视图配置默认值](./install-guide/configure-default-value-tags-view.md)
-         - {hide-from-toc}[配置签入和签出图标的标题](./install-guide/conf-checkin-checkout-title.md)
-         - {hide-from-toc}[配置基于UUID的链接的显示](./install-guide/conf-uuid-based-links.md)
-         - {hide-from-toc}[在同一选项卡中打开DITA主题或映射文件](./install-guide/open-dita-files-same-tab.md)
-         - {hide-from-toc}[在左侧面板中配置自定义面板](./install-guide/configure-custom-panel.md)
-         - {hide-from-toc}[在Web编辑器中自动保存配置文件](./install-guide/auto-save-in-editor.md)
-         - {hide-from-toc}[为文件浏览对话框配置筛选器](./install-guide/conf-custom-file-filters.md)
-         - {hide-from-toc}[配置提示以在关闭时另存为新版本](./install-guide/conf-save-as-new-version-close.md)
-         - {hide-from-toc}[配置关闭时签入文件的提示](./install-guide/conf-checkin-file-close.md)
-         - {hide-from-toc}[配置允许的特殊字符](./install-guide/conf-special-chars.md)
-         - {hide-from-toc}[自动生成元素ID](./install-guide/auto-generate-ids.md)
-         - {hide-from-toc}[自定义AEM的默认词典](./install-guide/customize-aem-custom-dictionary.md)
-         - {hide-from-toc}[配置文本筛选器](./install-guide/config-text-filters.md)
-         - {hide-from-toc}[配置查询的LimitReads数](./install-guide/conf-query-limitreads.md)
-         - {hide-from-toc}[安装基于文章的发布的包](./install-guide/configure-article-based-publishing.md)
-         - {hide-from-toc}[从用户界面配置数据源连接器](./install-guide/conf-data-source-connector-tools.md)
-         - {hide-from-toc}[将高级映射编辑器设置为默认值](./install-guide/conf-map-editor.md)
-         - {hide-from-toc}[默认情况下包含@navtitle属性](./install-guide/auto-add-navtitle.md)
-         - {hide-from-toc}[将选项配置为在氧气中进行编辑](./cs-install-guide/conf-edit-in-oxygen.md)
-         - {hide-from-toc}[配置其他特殊字符](./web-editor/configure-additional-special-characters.md)
-      - 使用全局和文件夹级别的用户档案 {#global-folder-profiles}
-         - {hide-from-toc}[配置全局或文件夹级别的配置文件](./install-guide/conf-folder-level.md)
-      - 配置版本 {#version-mgt}
-         - {hide-from-toc}[版本管理](./install-guide/version-management.md)
-      - 使用基于桌面的XML编辑器 {#desktop-xml-editor}
-         - {hide-from-toc}[集成基于桌面的XML编辑器](./install-guide/integrate-desktop-editors.md)
-      - 使用输出生成设置 {#output-gen-config}
-         - {hide-from-toc}[配置输出生成设置](./install-guide/conf-output-generation.md)
-         - {hide-from-toc}[下载并安装AEM Sites模板](./install-guide/download-install-aem-sites-templates.md)
-         - {hide-from-toc}[AEM Sites的组件映射](./install-guide/component-mapping.md)
-         - {hide-from-toc}[在AEM Sites输出中叠加HTML标记](./install-guide/overlay-html-tags-aem-sites.md)
-         - 原生PDF发布 {#config-native-pdf-publish}
-            - {hide-from-toc}[PDF模板](./native-pdf/pdf-template.md)
-            - {hide-from-toc}[PDF模板的组件](./native-pdf/components-pdf-template.md)
-            - {hide-from-toc}[设计页面布局](./native-pdf/design-page-layout.md)
-            - {hide-from-toc}[PDF输出中的变量](./native-pdf/native-pdf-variables.md)
-            - {hide-from-toc}[支持语言变量](./native-pdf/native-pdf-language-variables.md)
-            - {hide-from-toc}[向PDF输出添加条形码](./native-pdf/add-barcode.md)
-            - 常见内容样式 {#content-styles}
-               - {hide-from-toc}[使用常见的内容样式](./native-pdf/stylesheet.md)
-               - {hide-from-toc}[使用自定义更改条样式](./native-pdf/change-bar-style.md)
-               - {hide-from-toc}[对目录条目和主题内容应用自定义样式](./native-pdf/custom-style-toc.md)
-               - {hide-from-toc}[在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
-               - {hide-from-toc}[使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
-               - {hide-from-toc}[将样式应用于脚注](./native-pdf/footnote-number-style.md)
-         - {hide-from-toc}[为本机PDF发布配置JVM标志](./native-pdf/configure-jvm-flags.md)
-         - {hide-from-toc}[配置发布输出的基本输出位置](./native-pdf/configure-base-output-location.md)
-         - {hide-from-toc}[配置和自定义工作流](./install-guide/customize-workflows.md)
-      - 使用翻译配置 {#translate-config}
-         - {hide-from-toc}[翻译内容](./install-guide/translation.md)
-      - 使用AEM Assets搜索 {#aem-asset-search}
-         - {hide-from-toc}[配置AEM Assets UI的搜索](./install-guide/conf-dita-search.md)
-      - 使用资产处理 {#asset-processing-on-prem}
-         - {hide-from-toc}[配置资源处理功能](./install-guide/configure-asset-processing.md)
-      - 使用B树清理{#btree-cleanup}
-         - {hide-from-toc}[配置B树清理](./install-guide/configure-btree-clean-up-job.md)
-      - 自定义索引{#custom-indexing}
-         - {hide-from-toc}[部署用于查找和替换的自定义索引（Source视图）](./install-guide/custom-indexing-prem.md)
-      - 使用DITA assets复制{#dita-assets-replication}
-         - {hide-from-toc}[配置DITA Assets复制](./install-guide/configure-dita-asset-replication.md)
-      - {hide-from-toc}[附录](./install-guide/appendix.md)
-   - 云服务 {#cs-ig}
-      - {hide-from-toc}[关于本指南](./cs-install-guide/introduction.md)
-      - 部署和配置AEM Guides as Cloud Service {#deploy-conf-aemg-cs}
-         - {hide-from-toc}[下载并安装](./cs-install-guide/download-install.md)
-         - {hide-from-toc}[部署AEM Guides模块](./cs-install-guide/download-install-dxml-first-time.md)
-         - {hide-from-toc}[配置Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
-         - {hide-from-toc}[验证AEM Guides安装](./cs-install-guide/download-install-verify-dxml-installation.md)
-         - {hide-from-toc}[升级AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
-         - {hide-from-toc}[用于将AEM Guides升级为Cloud Service的其他配置](./cs-install-guide/additional-config-for-cloud-service.md)
-         - {hide-from-toc}[配置覆盖](./cs-install-guide/download-install-additional-config-override.md)
-         - {hide-from-toc}[性能优化建议](./cs-install-guide/download-install-recommend-perf-optimiz.md)
-      - 使用用户组和安全性 {#user-group-sec-cs}
-         - {hide-from-toc}[用户管理和安全性](./cs-install-guide/user-admin-sec.md)
-      - 内容迁移 {#migrate-con-cs}
-         - {hide-from-toc}[迁移现有内容](./cs-install-guide/migrate-content.md)
-         - {hide-from-toc}[上载现有DITA内容](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
-         - {hide-from-toc}[迁移非DITA内容](./cs-install-guide/migrate-content-non-dita.md)
-         - {hide-from-toc}[将内容从内部部署迁移到Cloud Service](./cs-install-guide/migrate-on-premise-content-cloud.md)
-      - 使用自定义DITA-OT和专业化 {#custom-dita-ot-spec-cs}
-         - {hide-from-toc}[使用自定义DITA-OT和DITA专用化](./cs-install-guide/dita-ot-specialization.md)
-      - 配置基于UUID和非UUID的文件名 {#conf-non-uuid-filename-cs}
-         - {hide-from-toc}[为文件夹配置后处理](./cs-install-guide/conf-folder-post-processing.md)
-         - {hide-from-toc}[配置文件名](./cs-install-guide/conf-file-names.md)
-         - {hide-from-toc}[根据UUID配置自动文件名](./cs-install-guide/conf-auto-uuid-filenames.md)
-         - {hide-from-toc}[为有效的文件名字符配置Regx](./cs-install-guide/conf-file-names-valid-regx.md)
-         - {hide-from-toc}[为AEM站点输出配置有效的文件名](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - 使用主题和地图模板 {#topic-map-template-cs}
-         - {hide-from-toc}[配置主题和映射模板](./cs-install-guide/conf-template-tags.md)
-         - {hide-from-toc}[配置自定义DITA主题模板](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
-         - {hide-from-toc}[配置自定义DITA映射模板](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - 使用文档状态 {#doc-state-cs}
-         - {hide-from-toc}[配置文档状态](./cs-install-guide/customize-doc-state.md)
-         - {hide-from-toc}[配置文档状态筛选器](./cs-install-guide/config-doc-state-filters.md)
-      - 配置Workspace设置 {#workspace-configs}
-         - {hide-from-toc}[Workspace设置](./cs-install-guide/workspace-settings.md)
-      - 使用Web编辑器配置 {#web-editor-configs-cs}
-         - {hide-from-toc}[自定义Web编辑器](./cs-install-guide/conf-web-editor.md)
-         - {hide-from-toc}[自定义工具栏](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - {hide-from-toc}[为创作配置AI支持的智能建议](./cs-install-guide/conf-smart-suggestions.md)
-         - {hide-from-toc}[配置AI支持的智能帮助以搜索内容](./cs-install-guide/conf-smart-help.md)
-         - {hide-from-toc}[为标记视图配置默认值](./cs-install-guide/configure-default-value-tags-view.md)
-         - {hide-from-toc}[配置基于UUID的链接的显示](./cs-install-guide/conf-uuid-based-links.md)
-         - {hide-from-toc}[配置粘贴表的显示](./cs-install-guide/conf-pasted-tables.md)
-         - {hide-from-toc}[在同一选项卡中打开DITA主题或映射文件](./cs-install-guide/open-dita-files-same-tab.md)
-         - {hide-from-toc}[在左侧面板中配置自定义面板](./cs-install-guide/configure-custom-panel.md)
-         - {hide-from-toc}[在Web编辑器中自动保存配置文件](./cs-install-guide/auto-save-in-editor.md)
-         - {hide-from-toc}[配置提示以在关闭时另存为新版本](./cs-install-guide/conf-save-as-new-version-close.md)
-         - {hide-from-toc}[配置关闭时签入文件的提示](./cs-install-guide/conf-checkin-file-close.md)
-         - {hide-from-toc}[配置允许的特殊字符](./cs-install-guide/conf-special-chars.md)
-         - {hide-from-toc}[自动生成元素ID](./cs-install-guide/auto-generate-ids.md)
-         - {hide-from-toc}[自定义AEM的默认词典](./cs-install-guide/customize-aem-custom-dictionary.md)
-         - {hide-from-toc}[配置文本筛选器](./cs-install-guide/config-text-filters.md)
-         - {hide-from-toc}[为文件浏览对话框配置筛选器](./cs-install-guide/conf-custom-file-filters.md)
-         - {hide-from-toc}[安装基于文章的发布的包](./cs-install-guide/configure-article-based-publishing.md)
-         - {hide-from-toc}[配置单主题PDF生成](./cs-install-guide/conf-pdf-generation-dita-ot.md)
-         - {hide-from-toc}[在Web编辑器中配置翻译功能](./cs-install-guide/conf-translation-web-editor.md)
-         - {hide-from-toc}[配置数据源连接器](./cs-install-guide/conf-data-source-connector.md)
-         - {hide-from-toc}[从用户界面配置数据源连接器](./cs-install-guide/conf-data-source-connector-tools.md)
-         - {hide-from-toc}[将高级映射编辑器设置为默认值](./cs-install-guide/conf-map-editor.md)
-         - {hide-from-toc}[默认情况下包含@navtitle属性](./cs-install-guide/auto-add-navtitle.md)
-      - 使用全局和文件夹级别的用户档案 {#global-folder-profiles-cs}
-         - {hide-from-toc}[配置全局或文件夹级别的配置文件](./cs-install-guide/conf-folder-level.md)
-      - 配置版本 {#version-mgt-cs}
-         - {hide-from-toc}[版本管理](./cs-install-guide/version-management.md)
-      - 使用基于桌面的XML编辑器 {#desktop-xml-editor}
-         - {hide-from-toc}[集成基于桌面的XML编辑器](./cs-install-guide/integrate-desktop-editors-cs.md)
-      - 配置Workfront {#configure-workfront-cs}
-         - {hide-from-toc}[配置Workfront](./cs-install-guide/conf-workfront.md)
-      - 使用输出生成设置 {#output-gen-config-cs}
-         - {hide-from-toc}[配置输出生成设置](./cs-install-guide/conf-output-generation.md)
-         - {hide-from-toc}[下载并安装AEM Sites模板](./cs-install-guide/download-install-aem-sites-templates-cs.md)
-         - {hide-from-toc}[AEM Sites的组件映射](./cs-install-guide/component-mapping.md)
-         - {hide-from-toc}[本机PDF发布](./cs-install-guide/native-pdf-publishing.md)
-         - {hide-from-toc}[为本机PDF发布配置节点进程](./native-pdf/configure-node-options.md)
-         - {hide-from-toc}[创建主题与内容片段之间的映射](./cs-install-guide/conf-content-fragment-mapping-cs.md)
-         - {hide-from-toc}[创建主题和体验片段之间的映射](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
-         - {hide-from-toc}[配置发布输出的基本输出位置](./native-pdf/configure-base-location-cs.md)
-      - 使用自定义工作流 {#custom-workflow-cs}
-         - {hide-from-toc}[配置和自定义工作流](./cs-install-guide/customize-workflows.md)
-      - 使用翻译配置 {#translate-config-cs}
-         - {hide-from-toc}[翻译内容](./cs-install-guide/translation.md)
-      - 使用AEM Assets搜索 {#aem-asset-search-cs}
-         - {hide-from-toc}[配置AEM Assets UI的搜索](./cs-install-guide/conf-dita-search.md)
-      - 使用资产处理 {#asset-processing-cloud}
-         - {hide-from-toc}[配置资源处理功能](./cs-install-guide/configure-asset-processing-cs.md)
-      - 使用B树清理 {#btree-cleanup-cs}
-         - {hide-from-toc}[配置B树清理](./cs-install-guide/configure-btree-cleanup-cs.md)
-      - 自定义索引 {#custom-indexing-cs}
-         - {hide-from-toc}[部署用于查找和替换的自定义索引（Source视图）](./cs-install-guide/custom-indexing.md)
-      - 使用DITA assets复制 {#dita-assets-replication-cs}
-         - {hide-from-toc}[配置DITA Assets复制](./cs-install-guide/configure-dita-assets-replication.md)
-      - {hide-from-toc}[附录](./cs-install-guide/appendix.md)
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-conf-guide}
    - [下载、安装和升级](./install-conf-guide/introduction.md)
    - Cloud Service的安装过程 {#deploy-conf-aemg-cs}
@@ -622,10 +434,10 @@ ht-degree: 7%
       - 内部部署 {#on-prem}
          - [升级AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
          - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
-         - [Experience Manager Guides版本的配置更新](./install-conf-guide/configuration-on-prem.md)
+         - Experience Manager Guides版本的[配置更新](./install-conf-guide/configuration-on-prem.md)
    - 性能优化建议 {#performance-optimization-aemg}
       - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
-      - [针对内部部署的性能优化](./install-conf-guide/perf-optimization-on-prem.md)
+      - 针对内部部署的[性能优化](./install-conf-guide/perf-optimization-on-prem.md)
    - 内容迁移 {#migrate-content-cs}
       - [迁移现有内容](./install-conf-guide/migrate-content.md)
       - [使用用于内部部署的Framemaker和WebDav工具上载现有DITA内容](./install-conf-guide/upload-dita-content.md)
@@ -685,7 +497,7 @@ ht-degree: 7%
          - [为内部部署查询配置LimitReads的数量](./install-conf-guide/conf-query-limitreads.md)
       - 数据源连接器 {#data-source}
          - [从用户界面配置数据源连接器](./install-conf-guide/conf-data-source-connector-tools.md)
-         - [为Cloud Service配置数据源连接器](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[为Cloud Service配置数据源连接器](./install-conf-guide/conf-data-source-connector-cs.md)
          - {hide-from-toc}[从用户界面创建和配置Git连接器](./install-conf-guide/conf-git-connector.md)
    - 全局和文件夹级别配置文件 {#global-folder-profiles}
       - [配置全局或文件夹级别的配置文件](./install-conf-guide/conf-profiles.md)
@@ -710,7 +522,22 @@ ht-degree: 7%
          - [在AEM Sites输出中叠加HTML标记以进行内部部署](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [为AEM站点输出配置有效文件名](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
       - 原生PDF发布 {#config-native-pdf-publish}
-         - [本机PDF发布模板和内容样式](./install-conf-guide/template-content-styles.md)
+         - {hide-from-toc}[本机PDF发布模板和内容样式](./install-conf-guide/template-content-styles.md)
+         - [PDF模板](./native-pdf/pdf-template.md)
+         - [PDF模板的组件](./native-pdf/components-pdf-template.md)
+         - [设计页面布局](./native-pdf/design-page-layout.md)
+         - [PDF输出中的变量](./native-pdf/native-pdf-variables.md)
+         - [支持语言变量](./native-pdf/native-pdf-language-variables.md)
+         - [向PDF输出添加条形码](./native-pdf/add-barcode.md)
+         - 常见内容样式 {#content-styles}
+            - [使用常见的内容样式](./native-pdf/stylesheet.md)
+            - [使用自定义更改条样式](./native-pdf/change-bar-style.md)
+            - [对目录条目和主题内容应用自定义样式](./native-pdf/custom-style-toc.md)
+            - [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
+            - [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
+            - [将样式应用于脚注](./native-pdf/footnote-number-style.md)
+         - [为本机PDF配置新发布引擎](./native-pdf/conf-new-pdf-engine.md)
+         - [使用本机PDF引擎v2](./native-pdf/new-pdf-engine.md)
          - [为Cloud Service的本机PDF发布配置节点进程](./native-pdf/conf-node-options-cs.md)
          - [为本地本地PDF发布配置JVM标记](./native-pdf/conf-jvm-flags-on-prem.md)
       - 为Cloud Service配置内容和体验片段 {#conf-content-exp-fragment}
@@ -725,6 +552,7 @@ ht-degree: 7%
       - [为内部部署配置目标副本初始化](./install-conf-guide/conf-translation-copies-on-prem.md)
       - [为内部部署配置新基线](./install-conf-guide/conf-new-baseline-on-prem.md)
       - [配置内部部署的对等链接跳过](./install-conf-guide/conf-skip-peer-links-on-prem.md)
+      - {hide-from-toc}[为输出生成配置新的映射集合](./install-conf-guide/conf-new-map-collection-on-prem.md)
    - 扩展功能 {#aemg-customization}
       - [为Cloud Service的查找和替换功能部署自定义索引](./install-conf-guide/custom-indexing-cs.md)
       - [为内部部署的查找和替换功能重新编制索引](./install-conf-guide/custom-indexing-on-prem.md)
@@ -740,7 +568,7 @@ ht-degree: 7%
    - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
    - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
    - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-   - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+   - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
    - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
@@ -798,7 +626,7 @@ ht-degree: 7%
             - 小组件 {#framework-widgets}
                - [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-            - [编辑器2.0的扩展框架更改](./guides-ui-extensions/getting-started/editor-extension-guide.md)
+            - 编辑器2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)的[扩展框架更改
          - 快速入门 {#getting-started}
             - [简介](./guides-ui-extensions/getting-started/introduction.md)
             - [安装指南](./guides-ui-extensions/getting-started/integrating-customisations.md)

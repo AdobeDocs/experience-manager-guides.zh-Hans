@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948
 TQID: https://experienceleague.adobe.com/9WSwgksrX0fahrniOalbizWFXCqcW0QlGAHn707vm-k
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 331
 ht-degree: 0%
 
 ---
@@ -41,8 +36,13 @@ ht-degree: 0%
 
   ![](assets/scorm-content-tab.png){width="650"}
 
-- **发布：**&#x200B;仅当要将输出发布到SCORM云以便直接访问时，才使用此设置。
 
-  ![](assets/scorm-publish-tab.png){width="650"}
+- **发布到LMS：**&#x200B;使用此设置将您的内容直接发布到Adobe Learning Manager (ALM)。 从&#x200B;**发布服务器**&#x200B;下拉列表中，选择&#x200B;**Adobe Learning Manager**，然后选择以前在Workspace设置中配置的所需&#x200B;**发布配置文件**。 选定的配置文件用于建立连接，并将生成的内容上传到ALM。
+
+  >[!NOTE]
+  >
+  > 在将内容发布到ALM之前，必须配置Adobe Learning Manager发布配置文件。 有关详细信息，请查看[发布配置文件](../lc-config-guide/lc-folder-profile.md)。
+
+  ![](assets/scorm-publish-lms.png){width="650"}
 
 配置所有更改后，使用SCORM预设页面工具栏右角的&#x200B;**保存**&#x200B;保存对SCORM预设所做的更改。

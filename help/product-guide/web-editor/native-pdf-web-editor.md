@@ -5,29 +5,14 @@ exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
 TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-  - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ec33566b72205a2c64510f38f588adf51b2175a
 workflow-type: tm+mt
-source-wordcount: 3311
+source-wordcount: 3403
 ht-degree: 0%
 
 ---
@@ -81,6 +66,7 @@ ht-degree: 0%
 | **使用基线** | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。 查看[使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)以了解更多详细信息。 |
 | **创建具有已发布版本间更改条的PDF** | 使用以下选项创建一个PDF，它使用更改栏显示两个版本之间的内容差异： <br><ul><li> **以前版本的基线**&#x200B;选择要与当前版本或其他基线进行比较的基线版本。 PDF中将显示一个更改栏，以指示修改的内容。 更改条是一条垂直线，用于直观地标识新内容或修订的内容。 更改栏显示在已插入、更改或删除的内容左侧。<br> **注意**：如果您选择&#x200B;**使用基线**&#x200B;并选择要发布的基线，将在两个选定的基线版本之间进行比较。 例如，如果您在&#x200B;**使用基线**&#x200B;下选择基线版本1.3，在&#x200B;**以前版本的基线**&#x200B;下选择基线版本1.1，则将在基线版本1.1和基线版本1.3之间进行比较。<br><li> **显示添加的文本**&#x200B;选择以绿色显示插入的文本并加下划线。 默认情况下，该选项处于选中状态。<br> <li> **显示已删除的文本**&#x200B;选择以红色显示已删除的文本并标记删除线。 默认情况下，该选项处于选中状态。 <br>**注意**&#x200B;您还可以使用样式表自定义更改栏、插入的内容或删除内容的样式。<br></ul> |
 | **语言** | 选择要翻译输出的语言。<br> **注意**：交叉引用文本（如“查看章节”或“查看页面”）受语言变量控制。 变量通过`xml:lang`属性使用主题中定义的语言。 如果未在该处指定语言，则使用预设语言。 如果两个都缺失，则默认为英语(en_US)。 |
+| **DITA-OT命令行参数** | 启用&#x200B;**启用DITA-OT预处理**&#x200B;后，**DITA-OT命令行参数**&#x200B;字段将变为可用。 在这里，可以指定在生成输出时希望DITA-OT处理的附加参数。 有关DITA-OT中支持的命令行参数的详细信息，请查看[DITA-OT文档](https://www.dita-ot.org/)。<br>**注意：**&#x200B;默认情况下，本机PDF输出中不包括在DITA关系表(`<reltable>`)中定义的相关链接。 使用此字段传递所需的DITA-OT参数，并在本机PDF输出中包含此类相关链接。 |
 | **帖子生成工作流** | 选择以显示一个下拉列表，其中包含在AEM中配置的所有工作流。 您可以选择在PDF生成工作流完成后要执行的工作流。 |
 
 **元数据**
@@ -96,13 +82,14 @@ ht-degree: 0%
 <img src="assets/pdf-metadata.png" alt="“元数据”选项卡" width="600">
 
 从输出预设中，选择&#x200B;**PDF** > **Native-PDF** > **元数据**&#x200B;以添加和自定义元数据选项。
+
 * **使用添加在topicmeta中的元数据**
 
   默认情况下，该选项处于选中状态。 您可以使用在DITA映射的topicmeta元素中添加的元数据来填充PDF输出的元数据字段。
 
 * **提供XMP文件**
 
-  您还可以通过导入[XMP](https://www.adobe.com/cn/products/xmp.html)（可扩展元数据平台）文件直接填充元数据字段。 您可以从此处下载示例XMP文件。
+  您还可以通过导入[XMP](https://www.adobe.com/products/xmp.html)（可扩展元数据平台）文件直接填充元数据字段。 您可以从此处下载示例XMP文件。
 
   [下载](assets/SampleXMP.xmp)
 
@@ -206,7 +193,7 @@ ht-degree: 0%
 | **创建交互式PDF表单** | 如果要包含交互式和可自定义的PDF表单字段，以便在生成的PDF输出中提供增强的用户输入，请选择此选项。 |
 | **包含跟踪更改** | 如果要在生成的PDF中包含跟踪的更改以便于查看和比较，请选择此选项。 |
 | **保留临时文件** | 如果要保留在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 下载的文件还将包括`system_config.xml`文件，该文件为您提供了有关作者URL、本地URL和发布URL的信息。 这些URL是在AEM外部化设置中配置的，并反映在`system_config.xml`文件中。 |
-| **PDF合规性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用的PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请查看[关于PDF标准](https://helpx.adobe.com/cn/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
+| **PDF合规性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用的PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请查看[关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
 | **文件属性** | 选择要传递到本机PDF发布的元数据。 该下拉列表会同时列出自定义属性和默认属性。 例如，`dc:description`、`dc:language`、`dc:title`和`docstate`是默认属性，而您可以将`author`作为自定义属性。 所选元数据属性将传递到使用本机PDF生成的PDF文件。<br> 这些属性是从位于`/libs/fmdita/config/metadataList`的`metadataList`文件中选取的。 <br>此文件可以覆盖在： `/apps/fmdita/config/metadataList`。 |
 
 

@@ -5,16 +5,12 @@ feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
 TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -57,6 +53,17 @@ ht-degree: 0%
 根据反馈，如果任务的作者或发起者决定[关闭审核任务](./review-close-review-task.md)，则审核UI上的任务状态将更改为&#x200B;**已关闭**。
 
 ![](images/review-status-closed-review-ui.png){width="350"}
+
+>[!NOTE]
+>
+>默认情况下，当审核者将审核任务标记为&#x200B;**完成**&#x200B;时，任务将保留在审核者的AEM收件箱中，直到作者或任务发起者审核反馈并关闭审核任务为止。
+>
+>但是，您可以选择在审核UI和AEM收件箱之间启用任务同步。 启用此功能后，在审核UI中将审核任务标记为&#x200B;**完成**&#x200B;将自动完成相应的任务，并将其从审核者的AEM收件箱中删除。 同样，从AEM收件箱中完成任务会在“审阅”UI中自动将其标记为完成。
+>
+>作者或任务发起者仍可以审核反馈并重新分配任务（如果需要进行其他审核）。 重新分配任务后，将为审阅人生成新的AEM收件箱通知，以便再次审阅任务。
+>
+>要在您的环境中启用此功能，请联系您的客户成功团队。
+
 
 ## 查看任务级注释
 
