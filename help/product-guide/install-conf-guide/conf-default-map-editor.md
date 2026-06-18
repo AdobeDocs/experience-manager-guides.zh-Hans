@@ -4,9 +4,10 @@ description: 了解如何将高级映射编辑器设置为默认值
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 60205ca4-518f-49fa-b63b-f1a56d70fc01
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -15,10 +16,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 以前在Experience Manager Guides中提供的Basic Map Editor已从版本4.3和2307开始弃用。 您不能访问“基本映射编辑器”来创建和管理DITA映射。
->建议您使用高级映射编辑器。 高级映射编辑器提供了增强功能和更好的自定义选项。 详细了解如何使用[高级映射编辑器](../user-guide/map-editor-advanced-map-editor.md)。
+> 以前在Experience Manager Guides中提供的Basic Map Editor已从版本4.3和2307开始弃用。您不能访问“基本映射编辑器”来创建和管理DITA映射。
+>建议您使用高级映射编辑器。高级映射编辑器提供了增强功能和更好的自定义选项。详细了解如何使用[高级映射编辑器](../user-guide/map-editor-advanced-map-editor.md)。
 
-对于4.3和2307之前的版本，Experience Manager Guides附带了基本映射编辑器和高级映射编辑器。 基本映射编辑器为您提供了创建映射文件所需的所有功能。 高级映射编辑器功能更丰富，并且集成在Web编辑器中。 高级映射编辑器允许作者使用易于使用的界面创建和编辑DITA映射文件。
+对于4.3和2307之前的版本，Experience Manager Guides附带了基本映射编辑器和高级映射编辑器。 基本映射编辑器为您提供了创建映射文件所需的所有功能。 高级映射编辑器功能更丰富，并且已集成在编辑器中。 高级映射编辑器允许作者使用易于使用的界面创建和编辑DITA映射文件。
 
 默认情况下，每当创建新映射文件时，都会在“基本映射编辑器”中打开该文件。 通过启用默认打开“高级映射编辑器”的设置，可以更改此行为。
 
@@ -57,4 +58,4 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**[&#x200B;自定义编辑器](customize-overview.md)

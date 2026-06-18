@@ -5,9 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: a456027a-56a4-48c0-a79b-2f423692abc2
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,6 @@ ht-degree: 0%
 
 1. 保存文件并将其上传。
 
-执行上述步骤后，如果从Web编辑器的“用户首选项”中选择相同的文件夹配置文件，则将在主题的预览模式下看到用于生成PDF的选项。
+执行上述步骤后，如果从编辑器的“用户首选项”中选择相同的文件夹配置文件，则会在主题的预览模式下看到用于生成PDF的选项。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**[&#x200B;自定义编辑器](customize-overview.md)

@@ -6,18 +6,18 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # 配置数据源连接器
 
-AEM Guides为JIRA和SQL(MySQL、PostgreSQL、SQL Server、SQLite)数据库提供现成的连接器。 也可以通过扩展缺省接口来添加其它连接器。 以下配置可帮助您轻松添加各种数据源。 添加后，您可以在Web编辑器中查看数据源。
+AEM Guides为JIRA和SQL(MySQL、PostgreSQL、SQL Server、SQLite)数据库提供现成的连接器。 也可以通过扩展缺省接口来添加其它连接器。 以下配置可帮助您轻松添加各种数据源。 添加后，您可以在编辑器中查看数据源。
 
-执行以下步骤来配置数据源连接器，然后从Web编辑器使用它：
+执行以下步骤来配置数据源连接器，然后从编辑器中使用它：
 
 ## 配置连接器
 

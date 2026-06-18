@@ -6,29 +6,14 @@ exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
 TQID: https://experienceleague.adobe.com/3ZkAlpDfF7-v0biHN9N5aiospS63Kr9veXsBqKHevtY
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: a44282cf-0adb-456f-8700-3ec7a3f89fd4
-  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: a44282cf-0adb-456f-8700-3ec7a3f89fd4id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 6522
+source-wordcount: 6471
 ht-degree: 0%
 
 ---
@@ -64,7 +49,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
 >[!IMPORTANT]
 >
->如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 有关卸载说明，请参阅[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html)文章中的&#x200B;**卸载包**&#x200B;部分。
+>如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 有关卸载说明，请参阅[如何使用包](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)文章中的&#x200B;**卸载包**&#x200B;部分。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -98,7 +83,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
 >[!IMPORTANT]
 >
->如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅[如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html)文章卸载说明中的&#x200B;**卸载包**&#x200B;部分。
+>如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅[如何使用包](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)文章卸载说明中的&#x200B;**卸载包**&#x200B;部分。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -137,7 +122,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在Expe
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=zh-Hans)。
+   包管理器会管理本地AEM安装中的包。 有关使用包管理器的更多信息，请参阅AEM文档中的[如何使用包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en)。
 
    ![包管理器](images/package-manager.png) {width="650"}
 
@@ -274,14 +259,14 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 1. 在&#x200B;**扩展**&#x200B;选项卡中，进行以下更改：
 
-   - 单击&#x200B;**扩展包**&#x200B;旁边的&#x200B;**选择**&#x200B;并在&#x200B;**类**&#x200B;列表中选择`LinkResolverExtensionBundle - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
+   - 单击&#x200B;**扩展包**&#x200B;旁边的&#x200B;**选择**&#x200B;并在&#x200B;**类**&#x200B;列表中选择`LinkResolverExtensionBundle - com.adobe.o2.framework.extn`。单击&#x200B;**确定**。
      ![为DITA主题配置的扩展](images/dita-map-extenstion-link-resolve.png) {width="650"}
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作扩展状态侦听器**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作自定义属性值编辑器**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomValueEditor - com.adobe.o2.framework.extn`。 单击&#x200B;**确定**。
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**创作外部对象插入处理程序**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomURLInsertionHandler - com.adobe.o2.ui `。 单击&#x200B;**确定**。
 
 
-   以下屏幕截图显示了为DITA主题配置的&#x200B;**扩展**&#x200B;选项卡：
+   以下屏幕截图显示了为DITA主题配置的&#x200B;**扩展**选项卡：
    <img src="images/dita-topic-extension-tab.png" alt="为DITA主题配置的扩展" width="650" border="2px">
 1. 在所有对话框中单击&#x200B;**确定**&#x200B;以保存更改。
 
@@ -306,7 +291,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    - 单击&#x200B;**单个扩展**&#x200B;下的&#x200B;**引用解析程序**&#x200B;旁边的&#x200B;**选择**，并在&#x200B;**类**&#x200B;列表中选择`CustomDITAMapReferenceResolver - com.adobe.o2`。 单击&#x200B;**确定**。
    - *\（可选\）*&#x200B;如果在打开映射文件时不想解析引用，则需要执行以下附加配置：
 
-   以下屏幕截图显示了配置的&#x200B;**扩展**&#x200B;选项卡：
+   以下屏幕截图显示了配置的&#x200B;**扩展**选项卡：
    <img src="images/dita-map-extension-tab.png" alt="为DITA映射配置的扩展" width="650" border="2px">
 
 1. 在所有对话框中单击&#x200B;**确定**&#x200B;以保存更改。
@@ -342,7 +327,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 右键单击AEM Guides存储库中的文件夹或文件即可使用适用于AEM的氧气插件。 文件夹可用的功能与文件不同。 以下是AEM Guides上下文菜单的氧插件中的完整功能列表：
 
 - **打开**：打开选定的文件或展开选定的文件夹。
-- **在**&#x200B;中打开：您可以选择在AEM Guides的Web编辑器、地图仪表板或地图编辑器中打开选定的文件。 有关这些选项的详细信息，请参阅[在AEM Guides编辑器中打开文件](#id195GH0V30KX)。
+- **在**&#x200B;中打开：您可以选择在AEM Guides编辑器、地图仪表板或地图编辑器中打开选定的文件。 有关这些选项的详细信息，请参阅[在AEM Guides编辑器中打开文件](#id195GH0V30KX)。
 - **签出**：从AEM存储库签出文件。 有关详细信息，请参阅[签出文件](#id195HC020TS4)。
 - **签出依赖项**：签出包含其直接引用的文件。 有关详细信息，请参阅[签出文件](#id195HC020TS4)。
 - **签出只读依赖项**：签出选定的文件及其依赖项。 无法在相关文件中进行任何更改。 有关详细信息，请参阅[签出文件](#id195HC020TS4)。
@@ -391,7 +376,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 1. 从上下文菜单中选择&#x200B;**在**&#x200B;中打开，然后从以下选项中选择：
 
-   - **Web主题编辑器**：如果要打开的文件是.xml或.dita文件，则可以在Web编辑器中打开该文件进行编辑。 选择&#x200B;**Web主题编辑器**&#x200B;选项，打开选定的文件以便在Web编辑器中编辑。
+   - **Web主题编辑器**：如果要打开的文件是.xml或.dita文件，则可以在编辑器中打开该文件进行编辑。 选择&#x200B;**Web主题编辑器**&#x200B;选项以打开所选文件在编辑器中编辑。
 
    - **映射仪表板**：您可以选择在映射仪表板中编辑.ditamap文件，您可以在其中对映射文件执行各种操作。 这些操作取决于您所属的角色/组。
 
@@ -466,8 +451,8 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    ![签入对话框](images/checkin-dropdown-labels.png){width="550"}
 
-   您可以向主题的同一版本添加多个标签（用逗号分隔）。  例如，*Adobe*、*AEM*、*指南*。
-但是，不能向主题的不同版本添加相同的标签。 如果添加已经添加到早期版本的标签，则会将其添加到最新版本并从早期版本中删除。
+   您可以向主题的同一版本添加多个标签（用逗号分隔）。 例如，*Adobe*、*AEM*、*指南*。
+但是，不能向主题的不同版本添加相同的标签。如果添加已经添加到早期版本的标签，则会将其添加到最新版本并从早期版本中删除。
 
    >[!NOTE]
    > 

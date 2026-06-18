@@ -5,16 +5,16 @@ feature: Introduction
 role: Admin
 level: Experienced
 exl-id: 43167f0e-158e-4599-8451-303750076731
-source-git-commit: 33f261cafedf505f6d67cdb32d7529d9bfdfe305
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
 
 # 关于本指南
 
-Adobe Experience Manager Guides \（以后称为&#x200B;*AEM Guides*\）是一个功能强大、基于云的企业级组件内容管理解决方案\(CCMS\)。 它在Adobe Experience Manager中启用了本机DITA支持，使AEM能够处理基于DITA的内容创建和交付。 它使作者能够使用易于使用的内置Web编辑器创建内容并将其发布为各种输出格式。
+Adobe Experience Manager Guides \（以后称为&#x200B;*AEM Guides*\）是一个功能强大、基于云的企业级组件内容管理解决方案\(CCMS\)。 它在Adobe Experience Manager中启用了本机DITA支持，使AEM能够处理基于DITA的内容创建和交付。 它使作者能够使用易于使用的内置编辑器创建内容并将其发布为各种输出格式。
 
 本指南提供了适用于Cloud Service和内部部署的AEM Guides的下载、安装和配置说明。 在本指南中，您将找到根据组织创作和发布需求设置AEM Guides的详细说明。
 

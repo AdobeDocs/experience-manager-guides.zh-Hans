@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 9%
+source-wordcount: '2528'
+ht-degree: 10%
 
 ---
 
@@ -202,13 +202,13 @@ ht-degree: 9%
                - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
                - [4.2发行说明](./release-info/release-notes-4-2.md)
          - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x发行说明](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - 用户指南（新UI） {#user-guide}
    - 简介 {#about-aemg}
       - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
          - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    - 主页 {#home-page}
       - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -234,7 +234,7 @@ ht-degree: 9%
             - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
             - [右面板](./user-guide/web-editor-right-panel.md)
             - [搜索面板](./user-guide/search-panel-explorer.md)
-         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+         - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
          - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
          - [编辑器视图](./user-guide/web-editor-views.md)
          - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -414,7 +414,7 @@ ht-degree: 9%
       - 疑难解答 {#troubleshooting}
          - [会话超时](./user-guide/session-timeout-prompt.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-conf-guide}
    - [下载、安装和升级](./install-conf-guide/introduction.md)
    - Cloud Service的安装过程 {#deploy-conf-aemg-cs}
@@ -434,10 +434,10 @@ ht-degree: 9%
       - 内部部署 {#on-prem}
          - [升级AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
          - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
-         - [Experience Manager Guides版本的配置更新](./install-conf-guide/configuration-on-prem.md)
+         - Experience Manager Guides版本的[配置更新](./install-conf-guide/configuration-on-prem.md)
    - 性能优化建议 {#performance-optimization-aemg}
       - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
-      - [针对内部部署的性能优化](./install-conf-guide/perf-optimization-on-prem.md)
+      - 针对内部部署的[性能优化](./install-conf-guide/perf-optimization-on-prem.md)
    - 内容迁移 {#migrate-content-cs}
       - [迁移现有内容](./install-conf-guide/migrate-content.md)
       - [使用用于内部部署的Framemaker和WebDav工具上载现有DITA内容](./install-conf-guide/upload-dita-content.md)
@@ -474,7 +474,7 @@ ht-degree: 9%
       - [配置基于UUID的链接的显示](./install-conf-guide/conf-uuid-based-links.md)
       - [在同一选项卡中打开DITA主题或映射文件](./install-conf-guide/open-dita-files-same-tab.md)
       - [将高级映射编辑器设置为默认值](./install-conf-guide/conf-default-map-editor.md)
-      - [在Web编辑器中配置文件自动保存](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [在编辑器中自动保存配置文件](./install-conf-guide/conf-auto-save-in-editor.md)
       - [配置关闭时另存为新版本的提示](./install-conf-guide/conf-save-as-new-version-close.md)
       - [配置关闭时签入文件的提示](./install-conf-guide/conf-checkin-file-close.md)
       - [配置允许的特殊字符](./install-conf-guide/conf-special-chars.md)
@@ -489,7 +489,7 @@ ht-degree: 9%
          - [配置在Cloud Service的氧气中编辑的选项](./install-conf-guide/conf-edit-in-oxygen.md)
          - [为Cloud Service配置粘贴表的显示](./install-conf-guide/conf-pasted-tables.md)
          - [为Cloud Service配置单主题PDF生成](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [在Web编辑器中为Cloud Service配置翻译功能](./install-conf-guide/conf-translation-editor.md)
+         - [在编辑器中为Cloud Service配置翻译功能](./install-conf-guide/conf-translation-editor.md)
       - On-Premise的编辑器设置 {#editor-on-prem-settings}
          - [配置新编辑器](./install-conf-guide/conf-new-editor-on-prem.md)
          - [为内部部署配置其他特殊字符](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -568,7 +568,7 @@ ht-degree: 9%
    - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
    - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
    - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-   - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+   - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
    - [后处理事件处理程序](./api-reference/post-process-event.md)
    - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
    - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
@@ -600,12 +600,12 @@ ht-degree: 9%
       - [AEM Guides中的内容审查](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - 文章 {#kb-articles}
       - 创作 {#authoring}
-         - Web编辑器 {#webeditor}
+         - 编辑器 {#webeditor}
             - [AEM Guides中的内容可重复使用](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [在AEM Guides中使用Markdown](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
             - 自定义 {#customizing}
                - [向工具栏添加自定义按钮](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               - [向Web编辑器添加自定义样式](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+               - [将自定义样式添加到编辑器](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [自定义文件夹上下文菜单](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
                - [自定义文件上下文菜单](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - 模式管 {#schematron}
@@ -626,7 +626,7 @@ ht-degree: 9%
             - 小组件 {#framework-widgets}
                - [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-            - [编辑器2.0的扩展框架更改](./guides-ui-extensions/getting-started/editor-extension-guide.md)
+            - 编辑器2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)的[扩展框架更改
          - 快速入门 {#getting-started}
             - [简介](./guides-ui-extensions/getting-started/introduction.md)
             - [安装指南](./guides-ui-extensions/getting-started/integrating-customisations.md)

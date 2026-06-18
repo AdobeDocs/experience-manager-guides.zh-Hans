@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: e3747a18-b6a1-46fd-a4d1-28a9c087e924
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # 配置允许的特殊字符 {#id20CIL600035}
 
-利用Web编辑器，可插入一些现成的特殊字符。 但是，您可以自定义作者可以插入其文档中的特殊字符列表。 如果自定义特殊字符列表，则它会覆盖默认的特殊字符集。 只有您在配置中添加的特殊字符才可供作者使用。
+编辑器允许您插入一些现成的特殊字符。 但是，您可以自定义作者可以插入其文档中的特殊字符列表。 如果自定义特殊字符列表，则它会覆盖默认的特殊字符集。 只有您在配置中添加的特殊字符才可供作者使用。
 
 以下选项卡提供了有关如何根据您的Experience Manager Guides设置覆盖默认特殊字符列表的说明：Cloud Service或内部部署。
 
@@ -82,4 +82,4 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**[&#x200B;自定义编辑器](customize-overview.md)
