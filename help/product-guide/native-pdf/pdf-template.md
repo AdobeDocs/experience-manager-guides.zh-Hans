@@ -6,10 +6,18 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
 source-wordcount: 1099
@@ -64,7 +72,7 @@ ht-degree: 0%
 
    <img src="assets/duplicate-template.png" alt="复制PDF模板" width="350">
 
-   *在&#x200B;**复制PDF模板**对话框中选择要复制的模板、预览缩略图并更新标题。*
+   *在&#x200B;**复制PDF模板**&#x200B;对话框中选择要复制的模板、预览缩略图并更新标题。*
 
 1. 指定模板的标题。
 
@@ -86,7 +94,7 @@ ht-degree: 0%
 ### 删除
 
 选择删除选项可删除所选模板。然后，在确认提示中选择是。
-预设已从**模板**&#x200B;中删除。
+预设已从&#x200B;**模板**&#x200B;中删除。
 
 ### 属性{#properties-option}
 
