@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 默认情况下，此选项处于关闭状态。 启用此选项后，作者在创建新主题或映射文件时，将不会看到指定文件名的选项。 可以从Assets UI和Web编辑器创建新主题或映射文件。
+> 默认情况下，此选项处于关闭状态。 启用此选项后，作者在创建新主题或映射文件时，将不会看到指定文件名的选项。 可以从Assets UI和编辑器创建新主题或映射文件。
 
 **父主题：**&#x200B;[&#x200B;配置文件名](conf-file-names.md)

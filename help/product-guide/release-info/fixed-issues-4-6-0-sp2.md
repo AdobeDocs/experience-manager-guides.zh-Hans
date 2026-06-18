@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: 370
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 4%
 - 当内容包含不间断的空格时，发布到Salesforce失败。 (23664)
 - 对于链接断开等错误的主题，Salesforce发布将失败，并且进度条会无限期显示。 (22985)
 - 对于链接断开的映射，Salesforce发布会失败，并且进度条会无限期显示。 (24963)
-- 如果外部链接包含UUID，则它会进行后期处理，并将外部链接转换为UUID链接，从而在Web编辑器和发布站点上破坏该链接。 (22574)
+- 如果外部链接包含UUID，则它会进行后期处理，并将外部链接转换为UUID链接，从而断开编辑器和发布站点上的链接。 (22574)
 - 即使链接的&#x200B;**作用域**&#x200B;设置为&#x200B;**外部**，`xref`也可以转换为相对链接。 (23059)
 - 对于将&#x200B;**chunk**&#x200B;属性设置为&#x200B;**to-content**&#x200B;的内容，本机PDF生成失败。 (21772)
 - 基线的&#x200B;**编辑属性**&#x200B;对话框不显示以前保存的动态基线标准。 (23964)

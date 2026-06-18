@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 51099b42-706f-42b4-993e-7d9577b5a4f0
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 # 自定义AEM的默认词典 {#id209SD8000WU}
 
-可以将Web编辑器配置为使用AEM的拼写检查器或浏览器的拼写检查器。 如果您选择使用AEM的拼写检查器，则可以灵活地定义自定义单词列表。 这些自定义单词随后将添加到AEM的词典中，并且不会在Web编辑器中标记这些单词\（不正确\）。
+可以将编辑器配置为使用AEM的拼写检查器或浏览器的拼写检查器。 如果您选择使用AEM的拼写检查器，则可以灵活地定义自定义单词列表。 这些自定义单词随后将添加到AEM的词典中，并且不会在编辑器中将这些单词标记为\（不正确\）。
 
 以下选项卡提供了创建自定义单词列表的说明，这些列表已根据您的Experience Manager Guides设置添加到AEM的词典中： Cloud Service或内部部署。
 
@@ -37,7 +37,7 @@ ht-degree: 2%
    提交更改并运行Cloud Manager \(CI/CD\)管道以部署配置更改。
 
 
-作者需要重新启动Web编辑器会话才能在AEM词典中更新自定义词列表。
+作者需要重新启动其编辑器会话才能在AEM词典中更新自定义词列表。
 
 >[!TAB 内部部署]
 
@@ -58,8 +58,8 @@ ht-degree: 2%
 1. 保存并关闭该文件。
 
 
-作者需要重新启动Web编辑器会话才能在AEM词典中更新自定义词列表。
+作者需要重新启动其编辑器会话才能在AEM词典中更新自定义词列表。
 
 >[!ENDTABS]
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**&#x200B;[&#x200B;自定义编辑器](customize-overview.md)

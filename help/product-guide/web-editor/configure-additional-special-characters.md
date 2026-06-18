@@ -1,6 +1,6 @@
 ---
-title: 在Web编辑器工具栏中配置其他特殊字符
-description: 了解如何在AEM Guides的Web编辑器中配置其他特殊字符。
+title: 在编辑器工具栏中配置其他特殊字符
+description: 了解如何在AEM Guides的编辑器中配置其他特殊字符。
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
@@ -12,14 +12,14 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: 262
 ht-degree: 0%
 
 ---
 
-# 如何在Web编辑器工具栏中为内部部署配置其他特殊字符
+# 如何在内部部署的编辑器工具栏中配置其他特殊字符
 
 Web编辑器工具栏中有一个快捷方式选项，让作者可以插入特殊字符。
 如下面的屏幕截图所示：

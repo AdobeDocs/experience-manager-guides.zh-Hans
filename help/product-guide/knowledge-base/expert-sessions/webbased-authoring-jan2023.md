@@ -1,6 +1,6 @@
 ---
 title: 创作基于Web的内容
-description: 了解如何使用Web编辑器创作结构化内容。
+description: 了解如何使用编辑器创作结构化内容。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -22,20 +22,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 238
 ht-degree: 1%
 
 ---
 
 # 创作基于Web的内容
 
-AEM Guides附带用于创作结构化内容的内置Web编辑器。 您可以使用简化的基于Web的创作体验，但还是选择使用或启用强大的功能，如条件内容验证、拼写检查、内容重用、引用验证、友好名称和创作数学公式。
+AEM Guides附带用于创作结构化内容的内置编辑器。 您可以使用简化的基于Web的创作体验，但还是选择使用或启用强大的功能，如条件内容验证、拼写检查、内容重用、引用验证、友好名称和创作数学公式。
 
 ## 会话概述
 
-在此会话中，您将了解如何使用Web编辑器创建、发布和管理内容。
+在此会话中，您将了解如何使用编辑器创建、发布和管理内容。
 
 ## 会话录制
 

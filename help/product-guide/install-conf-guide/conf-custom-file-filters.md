@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # 为文件浏览对话框配置筛选器
 
-在Web编辑器中工作时，需要使用文件浏览对话框插入图像、引用或键引用等元素。 默认的文件浏览对话框不提供任何文件过滤选项。 您可以添加自己的过滤器，以便轻松快速地访问所需的文件。
+在编辑器中工作时，需要使用文件浏览对话框插入图像、引用或键引用等元素。 默认的文件浏览对话框不提供任何文件过滤选项。 您可以添加自己的过滤器，以便轻松快速地访问所需的文件。
 
 以下选项卡提供了有关如何根据您的Experience Manager Guides设置将自定义文件筛选选项添加到文件浏览对话框的说明： Cloud Service或内部部署。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    第二个滤镜用于图像文件。 除了`value`参数之外，这些参数与第一个筛选器相似。 `value`参数采用图像类型的数组作为其值。 在value参数中指定的所有文件类型都将被搜索并显示在文件浏览对话框中，所有其他文件类型将被忽略。
 
-1. 保存&#x200B;*ui\_config.json*&#x200B;文件并上传该文件。 然后重新加载Web编辑器。
+1. 保存&#x200B;*ui\_config.json*&#x200B;文件并上传该文件。 然后，重新加载编辑器。
 
    启动文件浏览对话框时，将显示在ui\_config.json文件中配置的过滤器选项。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    第二个滤镜用于图像文件。 除了`value`参数之外，这些参数与第一个筛选器相似。 `value`参数采用图像类型的数组作为其值。 在value参数中指定的所有文件类型都将被搜索并显示在文件浏览对话框中，所有其他文件类型将被忽略。
 
-1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载Web编辑器。
+1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载编辑器。
 
    启动文件浏览对话框时，将显示在ui\_config.json文件中配置的过滤器选项。
 
@@ -127,4 +127,4 @@ ht-degree: 0%
 >[!ENDTABS]
 
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**&#x200B;[&#x200B;自定义编辑器](customize-overview.md)

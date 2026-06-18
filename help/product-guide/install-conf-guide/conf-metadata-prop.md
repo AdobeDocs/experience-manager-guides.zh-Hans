@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中为元数据属性配置忽略列表。
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8e8b24bea8504ad9fcca1117bd9e7b400e757dff
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -70,4 +70,4 @@ AEM Guides在忽略列表中包含一组默认的元数据属性。 您可以根
 
 只有未包括在忽略列表中的元数据属性才考虑将文档的版本标记为已修改。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**&#x200B;[&#x200B;自定义编辑器](customize-overview.md)

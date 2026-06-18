@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: f37cd341-aa8b-4af0-9a40-1d034eea3be6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,6 @@ Experience Manager Guides将完整主题转换为HTML，然后可以将其映射
 
 
 
-从Web编辑器发布体验片段时，从&#x200B;**生成体验片段**&#x200B;对话框中的下拉列表中选择`Template`，以在&#x200B;**映射**&#x200B;字段中查看可用于模板的映射。 如果模板不存在自定义映射，则会列出默认映射。 您可以使用默认映射将整个主题发布为体验片段。
+从编辑器发布体验片段时，从&#x200B;**生成体验片段**&#x200B;对话框中的下拉列表中选择`Template`，以在&#x200B;**映射**&#x200B;字段中查看可用于模板的映射。 如果模板不存在自定义映射，则会列出默认映射。 您可以使用默认映射将整个主题发布为体验片段。
 
 有关详细信息，请查看[发布体验片段](../user-guide/publish-experience-fragment.md)。

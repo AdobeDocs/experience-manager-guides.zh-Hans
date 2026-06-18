@@ -15,18 +15,18 @@ subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 199
+source-wordcount: 196
 ht-degree: 1%
 
 ---
 
 # 配置关闭时签入文件的提示 {#id222HC040PE8}
 
-当用户尝试使用文件选项卡上的&#x200B;**关闭**&#x200B;按钮或“选项”菜单中的&#x200B;**关闭**&#x200B;选项关闭在Web编辑器中打开的文件时，如果文件包含未保存的数据或未保存的版本，则会出现一个对话框。 如果文件已锁定，则提示用户解锁文件。
+当用户尝试使用文件选项卡上的&#x200B;**关闭**&#x200B;按钮或“选项”菜单中的&#x200B;**关闭**&#x200B;选项关闭在编辑器中打开的文件时，如果文件包含未保存的数据或未保存的版本，则会出现一个对话框。 如果文件已锁定，则提示用户解锁文件。
 
-默认情况下，**解锁文件**&#x200B;复选框未启用，您需要从configMgr启用它。 执行以下步骤以在Web编辑器中默认启用此选项：
+默认情况下，**解锁文件**&#x200B;复选框未启用，您需要从configMgr启用它。 执行以下步骤以在编辑器中默认启用此选项：
 
 1. 打开Adobe Experience Manager Web控制台配置页面。
 
@@ -47,4 +47,4 @@ ht-degree: 1%
 
 有关更多详细信息，请参阅“使用Adobe Experience Manager Guides as a Cloud Service”指南中的&#x200B;*文件关闭和保存方案*&#x200B;部分。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义编辑器](conf-web-editor.md)

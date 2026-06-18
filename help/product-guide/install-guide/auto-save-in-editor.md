@@ -1,6 +1,6 @@
 ---
-title: 在Web编辑器中配置文件自动保存
-description: 了解如何在Web编辑器中配置文件自动保存
+title: 在编辑器中自动保存配置文件
+description: 了解如何在编辑器中配置文件自动保存
 exl-id: 23fe404c-c76d-43ba-9b28-c49ab1e524de
 feature: Web Editor Configuration
 role: Admin
@@ -15,18 +15,18 @@ subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 204
-ht-degree: 0%
+source-wordcount: 197
+ht-degree: 1%
 
 ---
 
-# 在Web编辑器中配置文件自动保存 {#id199CC0J0M5Z}
+# 在编辑器中自动保存配置文件 {#id199CC0J0M5Z}
 
-基于浏览器的编辑器中最常见的功能之一是，在特定时间段后能够保存数据。 AEM Guides的Web编辑器还支持在指定的时间间隔自动保存主题和映射文件。 触发此功能时，将保存主题或映射的工作副本。 不会创建主题或映射的新版本。 要创建新版本，您必须单击Web编辑器工具栏中的“保存修订版本”图标。
+基于浏览器的编辑器中最常见的功能之一是，在特定时间段后能够保存数据。 AEM Guides编辑器还支持在指定的时间间隔自动保存主题和映射文件。 触发此功能时，将保存主题或映射的工作副本。 不会创建主题或映射的新版本。 要创建新版本，您必须单击编辑器工具栏中的保存修订版本图标。
 
-默认情况下，不会启用自动保存功能，您需要从configMgr启用此功能。 执行以下步骤以在Web编辑器中启用自动保存功能：
+默认情况下，不会启用自动保存功能，您需要从configMgr启用此功能。 执行以下步骤以在编辑器中启用自动保存功能：
 
 1. 打开Adobe Experience Manager Web控制台配置页面。
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 1. 单击&#x200B;**保存**。
 
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义编辑器](conf-web-editor.md)

@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 配置设置以允许编辑已签出的文件
 
-AEM Guides Web编辑器允许您创建和更新DITA主题。 您可以将Web编辑器配置为仅允许编辑已从存储库中签出的那些文档。 这可确保没有其他编写器意外覆盖由其他编写器打开进行编辑的主题。 打开主题进行编辑后，作者可以在关闭文件时签入文件。
+AEM Guides编辑器允许您创建和更新DITA主题。 您可以将编辑器配置为仅允许编辑已从存储库中签出的那些文档。 这可确保没有其他编写器意外覆盖由其他编写器打开进行编辑的主题。 打开主题进行编辑后，作者可以在关闭文件时签入文件。
 
 另一条重要规则是确保已签出的文件被签回系统。 这样可防止用户在不重新签入文件的情况下意外关闭文件。
 

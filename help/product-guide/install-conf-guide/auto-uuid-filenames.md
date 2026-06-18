@@ -4,9 +4,10 @@ description: 了解如何根据UUID配置自动文件名
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 2b591ddc-173b-484a-995f-1b3322babbbd
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 启用此选项后，作者在创建新主题或映射文件时，将不会看到指定文件名的选项。 可以从Assets UI和Web编辑器创建新主题或映射文件。
+> 启用此选项后，作者在创建新主题或映射文件时，将不会看到指定文件名的选项。 可以从Assets UI和编辑器创建新主题或映射文件。
 
 >[!TAB 内部部署]
 
@@ -53,7 +54,6 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 默认情况下，此选项处于关闭状态。 启用此选项后，作者在创建新主题或映射文件时，将不会看到指定文件名的选项。 可以从Assets UI和Web编辑器创建新主题或映射文件。
+> 默认情况下，此选项处于关闭状态。 启用此选项后，作者在创建新主题或映射文件时，将不会看到指定文件名的选项。 可以从Assets UI和编辑器创建新主题或映射文件。
 
 >[!ENDTABS]
-

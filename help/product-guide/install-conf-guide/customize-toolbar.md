@@ -5,22 +5,22 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
 
 # 自定义工具栏 {#id172FB00L0V6}
 
-默认情况下，Web编辑器附带了任何DITA编辑器所需的最常见编辑功能。 编辑器中提供了插入列表\（编号或项目符号\）类型的元素、交叉引用、内容引用、表格、段落和字符格式等功能。 除了这些基本元素之外，您还可以自定义Web编辑器以插入在创作环境中使用的元素。
+默认情况下，该编辑器附带了任何DITA编辑器所需的最常见编辑功能。 编辑器中提供了插入列表\（编号或项目符号\）类型的元素、交叉引用、内容引用、表格、段落和字符格式等功能。 除了这些基本元素之外，您还可以自定义编辑器以插入在创作环境中使用的元素。
 
 >[!NOTE]
 >
 > 从旧UI迁移到新AEM Guides UI（适用于AEM Guides的2502和5.0版本）时，`ui_config`的更新必须转换为更灵活和模块化的UI配置。 此框架有助于在适用的情况下无缝地采用对editor_toolbar和其他目标构件所做的更改。 有关详细信息，请查看[转换UI配置概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
 
-可通过两种方式自定义Web编辑器的工具栏：
+自定义编辑器工具栏的方法有两种：
 
 - 向工具栏添加新功能
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 在工具栏中添加功能
 
-向Web编辑器添加功能涉及两个主要任务 — 在&#x200B;*ui\_config.json*&#x200B;文件中为该功能添加图标，以及在JavaScript中添加后台功能。
+向编辑器添加功能涉及两个主要任务 — 在&#x200B;*ui\_config.json*&#x200B;文件中为该功能添加一个图标，以及在JavaScript中添加后台功能。
 
 以下选项卡提供了基于您的Experience Manager Guides设置的说明：Cloud Service或内部部署。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. 通过将&#x200B;*apps.fmdita.xml\_editor.page\_overrides*&#x200B;的值指定给&#x200B;*clientlib*&#x200B;文件夹来更新其类别属性。
 
-1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载Web编辑器。
+1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载编辑器。
 
 >[!TAB 内部部署]
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 1. 通过将&#x200B;*apps.fmdita.xml\_editor.page\_overrides*&#x200B;的值指定给&#x200B;*clientlib*&#x200B;文件夹来更新其类别属性。
 
-1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载Web编辑器。
+1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载编辑器。
 
 
 **JavaScript代码示例**
@@ -193,7 +193,7 @@ ht-degree: 0%
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -234,7 +234,7 @@ ht-degree: 0%
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -295,7 +295,7 @@ ht-degree: 0%
 
 ## 从工具栏中删除功能
 
-有时，您可能不希望提供Web编辑器中当前可用的所有功能，在这种情况下，您可以从Web编辑器的工具栏中删除不需要的功能。
+有时，您可能不希望提供编辑器中当前可用的所有功能，在这种情况下，您可以从编辑器工具栏中删除不需要的功能。
 
 以下选项卡提供了有关如何根据Experience Manager Guides设置从工具栏中删除任何多余功能的说明：Cloud Service或内部部署。
 
@@ -325,7 +325,7 @@ ht-degree: 0%
 
 1. 从工具栏部分中，删除不想向用户公开的功能条目。
 
-1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载Web编辑器。
+1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载编辑器。
 
 >[!TAB 内部部署]
 
@@ -354,6 +354,6 @@ ht-degree: 0%
 
 1. 从工具栏部分中，删除不想向用户公开的功能条目。
 
-1. 保存`*ui\_config.json*`文件并重新加载Web编辑器。
+1. 保存`*ui\_config.json*`文件并重新加载编辑器。
 
 >[!ENDTABS]

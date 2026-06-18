@@ -4,10 +4,11 @@ description: 了解如何为查询配置LimitReads的数量
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 53748636-f3d1-4b3b-a772-2730b78741cb
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -32,4 +33,4 @@ ht-degree: 1%
 
 当增加此属性值时，它有助于为较大的DITA映射生成报告。
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](customize-overview.md)
+**父主题：**&#x200B;[&#x200B;自定义编辑器](customize-overview.md)

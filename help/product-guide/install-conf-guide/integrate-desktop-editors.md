@@ -4,18 +4,19 @@ description: 了解如何集成基于桌面的XML编辑器
 feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d63a6b8d-263b-4524-b24c-1127aa69ccb9
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
 
 # 集成基于桌面的XML编辑器
 
-市面上有许多XML编辑器，您已经可以使用了一个。 Adobe FrameMaker是最强大的XML编辑器之一，它与AEM连接器一起提供。 使用FrameMaker中的AEM连接器，您可以轻松连接到AEM存储库、签出和签入文件以及直接在FrameMaker中编辑文件。 您还可以配置Experience Manager Guides以从Web编辑器启动FrameMaker。 在FrameMaker中打开文件后，您可以编辑该文件并将其签回AEM存储库。
+市面上有许多XML编辑器，您已经可以使用了一个。 Adobe FrameMaker是最强大的XML编辑器之一，它与AEM连接器一起提供。 使用FrameMaker中的AEM连接器，您可以轻松连接到AEM存储库、签出和签入文件以及直接在FrameMaker中编辑文件。 您还可以将Experience Manager Guides配置为从编辑器中启动FrameMaker。 在FrameMaker中打开文件后，您可以编辑该文件并将其签回AEM存储库。
 
-## 从Web编辑器在FrameMaker中启用文件编辑
+## 从编辑器在FrameMaker中启用文件编辑
 
 您可以使用FrameMaker或任何其他DITA编辑器创建和更新DITA内容。 但是，如果贵组织使用FrameMaker作为DITA编辑器，则可以为用户提供一个选项，以直接从AEM在FrameMaker中打开DITA文档。
 

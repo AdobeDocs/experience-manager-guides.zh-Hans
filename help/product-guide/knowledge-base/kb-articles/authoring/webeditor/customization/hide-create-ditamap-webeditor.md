@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 0%
+source-wordcount: 444
+ht-degree: 1%
 
 ---
 
 # 在编辑器的文件夹上下文菜单中显示/隐藏“创建DitaMAP”
 
-在本文中，我们将了解如何自定义Guides Web编辑器，以根据用户/组权限在文件夹上下文菜单中隐藏或显示“创建DitaMap”选项。
+在本文中，我们将了解如何基于用户/组权限自定义指南编辑器，以隐藏或显示文件夹上下文菜单中的“创建DitaMap”选项。
 在此用例中，我们将为所有非作者用户隐藏此选项。
 
 ## 先决条件
@@ -78,7 +78,7 @@ const folderOptions = {
 
   需要创建新的构件创建(customoptions.ts)来编写逻辑，以仅对非创作用户隐藏此选项。 为此，我们使用了“show”键，它用作JSON结构中的切换开关。
 
-  您可以编写自己的外部servlet来检查组详细信息。 通过这种方式，您也可以自定义自定义群组的文件夹菜单选项。
+  您可以编写自己的外部servlet来检查组详细信息。通过这种方式，您也可以自定义自定义群组的文件夹菜单选项。
 在此示例中，我们利用OOTB AEM“rolesapi”调用获取用户详细信息，并在“isAuthor”中设置响应，如上面的代码片段所示。
 
 ```typescript
@@ -133,7 +133,7 @@ controller: {
 
 ## 测试
 
-- 使用不属于作者组的用户登录AEM。 创建DitaMap选项将在任何文件夹的上下文菜单中隐藏，如下所示。
+- 使用不属于作者组的用户登录AEM。创建DitaMap选项将在任何文件夹的上下文菜单中隐藏，如下所示。
 此用例已添加到GIT，请查找以下相关资源。
 
 ![隐藏创建DitaMap选项](../../../assets/authoring/ditamap-hide-non-author.png)

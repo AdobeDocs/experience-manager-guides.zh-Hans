@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 399
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 0%
 # 控制Web编辑器中的内容质量
 
 本文概述了AEM Guides Web编辑器中的验证可能性。
-通过设计，Web编辑器利用系统中的DITA架构设置强制用户创建DITA兼容内容。 这样，存储在系统中的所有内容都是结构化、可重用且有效的DITA内容。
+通过设计，Web编辑器利用系统中的DITA架构设置强制用户创建DITA兼容内容。这样，存储在系统中的所有内容都是结构化、可重用且有效的DITA内容。
 
 除了支持DITA规则之外，Web编辑器还支持基于“*架构*”规则的内容验证。
 
-“*架构*”是指用于定义XML文件测试的基于规则的验证语言。 您可以导入Schematron文件，也可以在Web编辑器中编辑它们。 使用“架构”文件，您可以定义某些规则，然后针对DITA主题或映射验证这些规则。 Schematron规则可以通过施加定义为规则的限制来确保XML结构的一致性。 这些限制是由拥有内容质量和一致性的中小企业推动的。
+“*架构*”是指用于定义XML文件测试的基于规则的验证语言。 您可以导入Schematron文件，也可以在编辑器中编辑它们。 使用“架构”文件，您可以定义某些规则，然后针对DITA主题或映射验证这些规则。 Schematron规则可以通过施加定义为规则的限制来确保XML结构的一致性。 这些限制是由拥有内容质量和一致性的中小企业推动的。
 
-注意：Web编辑器支持ISO架构。
+注意：编辑器支持ISO模式。
 
 
 ## 了解“Schematron”在Web编辑器中如何工作

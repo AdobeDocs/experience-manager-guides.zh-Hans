@@ -15,16 +15,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 240
 ht-degree: 0%
 
 ---
 
 # 删除Webeditor中文件上下文菜单中的“删除”选项
 
-在本文中，我们将了解如何在AEM Guides Web编辑器的文件上下文菜单中向特定用户或组隐藏“删除”选项。 有关文件上下文菜单选项的其他自定义设置，请查看Guides扩展框架。 可在[此处](https://github.com/adobe/guides-extension/tree/main)找到更多详细信息。
+在本文中，我们将了解如何在AEM Guides编辑器的文件上下文菜单中向特定用户或组隐藏“删除”选项。 有关文件上下文菜单选项的其他自定义设置，请查看Guides扩展框架。 可在[此处](https://github.com/adobe/guides-extension/tree/main)找到更多详细信息。
 
 正如您从下面的代码片段中所看到的，文件上下文菜单具有适用于此特定用户的“删除”选项。
 
@@ -58,5 +58,5 @@ ht-degree: 0%
 ![File contextmenu，不删除](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
-Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.
+Please note that these steps would also remove 'move' and 'rename' options from the Editor as they are also tied to delete process at the backend.
 ```

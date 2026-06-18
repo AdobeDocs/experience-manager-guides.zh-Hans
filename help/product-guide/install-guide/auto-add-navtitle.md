@@ -16,9 +16,9 @@ subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: 221
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 1. 下载ui\_config.json文件。
 
-   您可以在全局级别或文件夹级别配置文件中进行此更改。 根据要进行此更改的位置，您需要下载相应的ui\_config.json文件。 有关下载ui\_config.json文件的详细信息，请参阅[配置和自定义XML Web编辑器](conf-folder-level.md#id2065G300O5Z)。
+   您可以在全局级别或文件夹级别配置文件中进行此更改。 根据要进行此更改的位置，您需要下载相应的ui\_config.json文件。 有关下载ui\_config.json文件的详细信息，请参阅[配置和自定义XML编辑器](conf-folder-level.md#id2065G300O5Z)。
 
 1. 搜索`ditaAttributes`定义。
 

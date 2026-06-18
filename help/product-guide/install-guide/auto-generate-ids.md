@@ -15,9 +15,9 @@ subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: 342
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ AEM Guides提供了简单的配置设置，您需要在其中定义自动生成I
 1. 单击&#x200B;**保存**。
 
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义编辑器](conf-web-editor.md)

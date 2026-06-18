@@ -18,9 +18,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1099
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 要创建新的PDF模板，请执行以下步骤：
 
-1. 在Web编辑器中，转到&#x200B;**输出**&#x200B;选项卡。
+1. 在编辑器中，转到&#x200B;**输出**&#x200B;选项卡。
 1. 选择&#x200B;**模板** 左侧面板中的<img src="./assets/template.png" alt= "“模板”图标" width="25">。
 
    <img src="assets/create-pdf-template.png" alt="创建PDF模板" width="400">
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 要复制现有PDF模板，请执行以下步骤：
 
-1. 在Web编辑器中，转到&#x200B;**输出**&#x200B;选项卡。
+1. 在编辑器中，转到&#x200B;**输出**&#x200B;选项卡。
 1. 选择&#x200B;**模板** 左侧面板中的<img src="./assets/template.svg" alt= "“模板”图标" width="25">。 这将打开&#x200B;**模板**&#x200B;窗口。
 1. 将鼠标悬停在要复制的模板上并选择&#x200B;**...** *选项*&#x200B;图标，然后从上下文菜单中选择&#x200B;**复制**。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 要自定义PDF模板，请执行以下步骤：
 
-1. 在Web编辑器中，转到&#x200B;**输出**&#x200B;选项卡。
+1. 在编辑器中，转到&#x200B;**输出**&#x200B;选项卡。
 1. 展开左侧边栏并选择&#x200B;**模板**。
 
    这将打开&#x200B;**模板**&#x200B;面板。

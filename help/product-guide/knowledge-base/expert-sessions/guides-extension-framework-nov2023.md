@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 - 了解可使用此扩展框架扩展的所有接口
 - 了解已有的功能，以便轻松开始创建自己的自定义功能
 - 通过示例了解自定义设置：
-   - 在Web编辑器中添加“帮助和支持”部分
+   - 在编辑器中添加帮助和支持部分
    - 添加另一个左侧面板 — 例如，查看当前用户的任务
    - 使用此框架为主题/地图添加一个或多个工具栏按钮
    - 扩展在浏览器的“内容属性”面板中显示的信息 — 添加后处理信息以指示是否对给定文件执行后处理

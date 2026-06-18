@@ -16,16 +16,16 @@ subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: 165
 ht-degree: 0%
 
 ---
 
 # 配置签入和签出图标的标题
 
-AEM Guides允许您在Web编辑器中配置签入和签出图标的标题。 执行以下步骤来配置检入和检出图标的标题：
+AEM Guides允许您在编辑器中配置签入和签出图标的标题。 执行以下步骤来配置检入和检出图标的标题：
 
 1. 以管理员身份登录Adobe Experience Manager以下载用户界面配置文件。
 1. 单击顶部的Adobe Experience Manager链接，然后选择&#x200B;**工具**。
