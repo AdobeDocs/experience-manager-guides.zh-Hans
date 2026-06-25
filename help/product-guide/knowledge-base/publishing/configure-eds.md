@@ -5,26 +5,26 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 7a207bd17946baaf1489a8aa5ca7caa07199be31
+source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1585'
 ht-degree: 1%
 
 ---
 
 # Experience Manager Guides和Edge Delivery Services
 
-Adobe Experience Manager Guides允许您通过基于GitHub的专用发布配置文件，直接将DITA内容发布到Edge Delivery Services (EDS)（当前在&#x200B;*Beta*&#x200B;中提供）。 此功能使组织能够提供高性能、响应式文档体验，同时在Experience Manager Guides中维护基于DITA的创作工作流。
+Adobe Experience Manager Guides允许您通过基于GitHub的专用发布配置文件直接将DITA内容发布到Edge Delivery Services (EDS)。 此功能使组织能够提供高性能、响应式文档体验，同时在Experience Manager Guides中维护基于DITA的创作工作流。
 
 有关在Adobe Experience Manager中使用EDS的详细信息，请查看[Edge Delivery Services概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/edge-delivery/overview)。
 
 要支持从Experience Manager Guides发布到EDS，您必须完成GitHub和Experience Manager Guides中的一系列配置步骤。 以下各节将依次概述每个步骤，并解释它们如何在整个发布工作流程中协同工作。
 
-1. [为EDS设置和配置GitHub](#set-up-and-configure-github-for-eds-beta)
-2. [在Experience Manager Guides中创建并配置EDS的发布配置文件](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
+1. [为EDS设置和配置GitHub](#set-up-and-configure-github-for-eds)
+2. [在Experience Manager Guides中创建并配置EDS的发布配置文件](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [使用EDS块自定义输出](#customize-output-using-eds-blocks)
 
-若要快速视频演练，请查看AEM Guides中的[发布](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
+若要快速视频演练，请查看AEM Guides中的[发布](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
 
 
 
