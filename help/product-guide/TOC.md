@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2527'
 ht-degree: 10%
 
 ---
@@ -661,7 +661,7 @@ ht-degree: 10%
          - [微服务体系结构和性能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [使用JWT身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
          - [使用OAuth身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [配置Edge Delivery Services (Beta)](./knowledge-base/publishing/configure-eds.md)
+         - [配置Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
          - [在AEM Cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
       - 工作流 {#workflows}
          - [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
