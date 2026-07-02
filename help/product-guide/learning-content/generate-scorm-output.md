@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+source-git-commit: 4433d28a41c3d9d797b38dbf732119fc3ea69f36
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: 124
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    ![](assets/scorm-generate-output-new.png){width="650"}
 
-1. 生成完成后，将显示一条成功消息，确认已创建&#x200B;**filename.zip**&#x200B;文件。 您可以使用成功消息上的&#x200B;**查看输出**&#x200B;预览输出。
+1. 生成完成后，将显示一条成功消息，确认已创建&#x200B;**filename.zip**&#x200B;文件。 您可以使用成功消息上的&#x200B;**查看输出**&#x200B;选项预览输出。
 
    ![](assets/scorm-success-message.png){width="350"}
 
@@ -36,5 +36,5 @@ ht-degree: 0%
 
    ![](assets/scorm-view-output-new.png){width="650"}
 
-您可以使用SCORM预设的&#x200B;**发布到LMS**&#x200B;选项卡上的&#x200B;**上传**&#x200B;选项将ZIP文件上传到LMS，以使学习者能够使用该课程。
+您可以使用SCORM预设的&#x200B;**发布到LMS**&#x200B;选项卡上的&#x200B;**上传**&#x200B;选项将ZIP文件上传到LMS，以使学习者可以使用您的课程。
 
