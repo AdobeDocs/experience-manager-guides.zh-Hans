@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
+source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
 workflow-type: tm+mt
-source-wordcount: '2527'
+source-wordcount: '2537'
 ht-degree: 10%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 10%
       - 云服务 {#cloud-release-notes}
          - {hide-from-toc}[部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2026版 {#2026-releases}
+            - 2026.07.0发行版 {#2607-release}
+               - [修复的问题](./release-info/fixed-issues-2026-07-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2026-07-0.md)
             - 2026.06.0发行版 {#2606-release}
                - [新增功能](./release-info/whats-new-2026-06-0.md)
                - [修复的问题](./release-info/fixed-issues-2026-06-0.md)
@@ -401,6 +404,7 @@ ht-degree: 10%
          - [配置文件夹配置文件](./lc-config-guide/lc-folder-profile.md)
          - [设置文件夹结构的最佳实践](./lc-config-guide/best-practices-folder-structure.md)
          - [配置其他设置](./lc-config-guide/lc-other-settings.md)
+         - [配置SCORM预览过滤器](./lc-config-guide/conf-scorm-preview-filters.md)
          - [SCORM关键量度](./lc-config-guide/learning-course-parameters.md)
       - 视频教程 {#lc-video}
          - [创作工作流](./lc-video-tutorials/author-workflow.md)
