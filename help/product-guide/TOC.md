@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
+source-git-commit: 944f0c06731cec941f72581a1e47aba25c451c6a
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2533'
 ht-degree: 10%
 
 ---
@@ -404,7 +404,6 @@ ht-degree: 10%
          - [配置文件夹配置文件](./lc-config-guide/lc-folder-profile.md)
          - [设置文件夹结构的最佳实践](./lc-config-guide/best-practices-folder-structure.md)
          - [配置其他设置](./lc-config-guide/lc-other-settings.md)
-         - [配置SCORM预览过滤器](./lc-config-guide/conf-scorm-preview-filters.md)
          - [SCORM关键量度](./lc-config-guide/learning-course-parameters.md)
       - 视频教程 {#lc-video}
          - [创作工作流](./lc-video-tutorials/author-workflow.md)

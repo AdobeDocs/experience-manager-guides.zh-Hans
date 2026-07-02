@@ -1,9 +1,9 @@
 ---
 title: 发行说明 |修复了Adobe Experience Manager Guides 2026.06.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2026.06.0版本中的错误修复。
-source-git-commit: 010a11e20d518064549ce7d66648586f49f572ec
+source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Adobe发现了2026.06.0版本的以下已知问题：
 
 - 在Source和创作模式之间切换会导致内容不一致，主题的部分内容消失或在不同模式之间不显示。 （指南 — 47432）
 
-- 在启用了&#x200B;**跟踪更改**&#x200B;的大纲视图中工作时，拒绝更改将删除标记中的全部内容，而非仅拒绝特定修改的内容。 （指南 — 48319）
+- 处理跟踪更改时，拒绝导入的文本插入会删除标记中的所有内容，而非仅拒绝特定的插入内容。 （指南 — 48319）
 
 - 使用文件夹配置文件中的`editor_toolbar.json`自定义编辑器工具栏时，预览模式中的&#x200B;**导出为PDF**&#x200B;按钮不执行任何操作。 （指南 — 47525）
 
