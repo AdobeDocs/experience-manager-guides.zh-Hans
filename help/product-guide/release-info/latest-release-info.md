@@ -56,7 +56,7 @@ UUID和非UUID内部版本之间的主要区别如下：
 
 当您从较旧版本升级到[!DNL AEM Guides]的较新版本时，您可能需要执行迁移脚本。 有关升级说明，请参阅发行说明和特定于版本的文档。
 
-并非所有升级路径都直接受支持。 例如，只有从版本3.8直接升级到版本4.0才可行。如果您使用的版本低于3.8，请参阅特定于版本的文档以了解升级说明[帮助存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)。请联系您的客户成功经理以验证升级路径。
+并非所有升级路径都直接受支持。 例如，只有从版本3.8直接升级到版本4.0才可行。如果您使用的版本低于3.8，请参阅特定于版本的文档以了解升级说明[帮助存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)。请联系您的客户成功经理以验证升级路径。
 
 **[!DNL AEM Guides]内部版本**
 
