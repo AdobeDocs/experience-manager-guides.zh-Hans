@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
+source-git-commit: 83f5a8409e8bb9c8a6ccc33ffadf64e6c7875f6f
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: 1478
 ht-degree: 0%
 
 ---
@@ -164,5 +164,8 @@ PDF是在文档开发周期的每一个可能阶段使用的最常见输出格�
 
    有关详细信息，[查看PDF](./images/best-practices-guide.pdf)
 
+
+
+   有关详细信息，[查看PDF](./images/best-practices-guide.pdf) ![PDF图标](./images/pdf_icon.png "PDF文档")
 
 **父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)
