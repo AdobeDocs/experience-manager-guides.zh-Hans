@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 5dd840e3286511dff9eccc17b048bb7701f4ac9c
+source-git-commit: d24dd017dcedb08e71cfbcf6c4f0aabdc8f20d85
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2502'
 ht-degree: 10%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 10%
    - 发行说明 {#release-notes}
       - 云服务 {#cloud-release-notes}
          - {hide-from-toc}[部署说明](./release-info/deploy-xml-on-aemaacs.md)
+         - {hide-from-toc}[云版本](./release-info/latest-release-info-cs.md)
          - 2026版 {#2026-releases}
             - 2026.07.0发行版 {#2607-release}
                - [修复的问题](./release-info/fixed-issues-2026-07-0.md)
@@ -602,6 +603,7 @@ ht-degree: 10%
       - [AEM Guides中的发布](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
       - [AEM Guides中的内容审查](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - 文章 {#kb-articles}
+      - [概述](./knowledge-base/kb-articles/introduction.md)
       - 创作 {#authoring}
          - 编辑器 {#webeditor}
             - [AEM Guides中的内容可重复使用](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
