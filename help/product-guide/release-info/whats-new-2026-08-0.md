@@ -2,9 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides 2026.08.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 2026.08.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 087f74b41a3ce374aca06701e8b58e0d27492592
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 有关此版本中修复的问题列表，请查看[2026.08.0版本中的已修复问题](fixed-issues-2026-08-0.md)。
 
-了解2026.08.0版本[&#128279;](../release-info/upgrade-instructions-2026-08-0.md)的升级说明。
+了解2026.08.0版本](../release-info/upgrade-instructions-2026-08-0.md)的[升级说明。
 
 
 ## 用于管理映射和发布输出的新映射集合
@@ -36,11 +36,11 @@ Experience Manager Guides现在引入了Git连接器，它允许您将Git存储�
 ![](assets/git-bulk-importer-import-all.png)
 
 
-## Experience Manager Guides为AI助手集成添加了MCP支持
+## Experience Manager Guides添加了MCP支持
 
-Experience Manager Guides现在支持MCP（模型上下文协议）集成，从而使Anthropic Claude等AI助手能够直接连接到AEM Guides环境。
+Experience Manager Guides现在支持模型上下文协议(MCP)。 您可以将Claude、Cursor等AI工具连接到Guides，而无需任何自定义工作。 通过单个MCP端点，在这个版本中，经过身份验证的用户可以将Guides用作Headless系统，并管理主题和映射、创建和导出基线以及生成报表，所有这些操作都是在其现有AEM权限下进行的。 这使文档团队能够使用AI应用程序和代理更高效地工作。
 
-通过单个MCP端点，经过身份验证的用户可以管理主题和映射、创建和导出基线，以及使用自然语言生成报表，所有这些操作都是在其现有AEM权限下进行的。 这消除了重复、导航繁重的任务，并允许文档团队在聊天应用程序和支持MCP的开发人员工具（如Cursor和Visual Studio Code）之间更高效地工作。 有关详细信息，请查看[使用Adobe Experience Manager Guides MCP服务器](../install-conf-guide/conf-aem-guides-mcp.md)。
+有关详细信息，请查看[使用Adobe Experience Manager Guides MCP服务器](../install-conf-guide/conf-aem-guides-mcp.md)。
 
 
 ## 审核增强功能
@@ -65,7 +65,7 @@ Experience Manager Guides现在支持MCP（模型上下文协议）集成，从�
 
 在评论或回复中标记用户时，标记下拉菜单现在显示每个用户的电子邮件地址及其用户ID。 这使得识别和选择正确的查看者更容易，特别是在显示名称可能仅模糊的大型组织中。
 
-如果电子邮件地址不可用，则会显示用户ID。 有关使用审阅UI的详细信息，请在评论[&#128279;](../user-guide/review-topics.md#tag-task-users-in-a-comment)中查看标记任务用户。
+如果电子邮件地址不可用，则会显示用户ID。 有关使用审阅UI的详细信息，请在评论](../user-guide/review-topics.md#tag-task-users-in-a-comment)中查看[标记任务用户。
 
 
 ### 查看主题的所有审阅任务
@@ -78,7 +78,7 @@ Experience Manager Guides现在支持MCP（模型上下文协议）集成，从�
 
 当审阅任务包含一个或多个附加的DITAVAL文件时，“条件”面板现在将每个条件显示为切换，预先设置以匹配附加的DITAVAL文件，因此审阅人按照审阅发起人的预期方式查看内容。 关闭切换开关会在审阅中隐藏该内容；打开切换开关会恢复审阅。
 
-有关详细信息，请查看具有基于DITAVAL的条件[&#128279;](../user-guide/review-topics.md#conditions-panel-with-ditaval-based-conditions)的条件面板。
+有关详细信息，请查看具有基于DITAVAL的条件](../user-guide/review-topics.md#conditions-panel-with-ditaval-based-conditions)的[条件面板。
 
 ![](assets/review-condition-panel-ditaval.png){width="350"}
 
@@ -119,7 +119,7 @@ Experience Manager Guides现在支持MCP（模型上下文协议）集成，从�
 
   ![](assets/pdf-icon.png){width="650"}
 
-- 在已发布的课程输出中，学习者现在在完成测验尝试后可使用&#x200B;**查看答案**&#x200B;选项，以重新访问他们提交的答案并查看哪些答案正确或不正确。 了解有关测验[&#128279;](../learning-content/quiz-insert-questions.md#question-properties)中问题属性的更多信息。
+- 在已发布的课程输出中，学习者现在在完成测验尝试后可使用&#x200B;**查看答案**&#x200B;选项，以重新访问他们提交的答案并查看哪些答案正确或不正确。 了解有关测验](../learning-content/quiz-insert-questions.md#question-properties)中[问题属性的更多信息。
 
   ![](assets/review-answer-quiz.png){width="650"}
 
@@ -129,5 +129,5 @@ Experience Manager Guides现在支持MCP（模型上下文协议）集成，从�
 
 ## API增强
 
-此发行版本引入了用于资产管理、翻译和发布的新Swagger API，使得将这些工作流与现有工具和系统连接起来更加容易。 有关详细信息，请在Experience Manager Guides版本[&#128279;](../api-reference/api-update-swagger.md)中查看API更新。
+此发行版本引入了用于资产管理、翻译和发布的新Swagger API，使得将这些工作流与现有工具和系统连接起来更加容易。 有关详细信息，请在Experience Manager Guides版本](../api-reference/api-update-swagger.md)中查看[API更新。
 
