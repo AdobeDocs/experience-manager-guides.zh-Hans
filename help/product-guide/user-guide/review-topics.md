@@ -5,24 +5,14 @@ exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
-  - id: c8841798-1a28-4264-a46a-984860f8e6f6
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -97,7 +87,7 @@ ht-degree: 0%
 1. 选择工具栏右上角的&#x200B;**注释**&#x200B;图标，打开“注释”面板。
 
    通过从工具栏中选择适当的评论类型来提供评论并按Enter键提交您的评论。
-   评论框支持多行条目，并允许用户根据需要展开以提供详细反馈。您可以在编写评论时使用&#x200B;**Shift** + **Enter**&#x200B;转到下一行。
+   评论框支持多行条目，并允许用户根据需要展开以提供详细反馈。您可以在编写评论时使用**Shift** + **Enter**&#x200B;转到下一行。
 
    >[!NOTE]
    >
@@ -158,6 +148,10 @@ ht-degree: 0%
 注释按文档中注释文本的顺序显示。 例如，在第一句上有高亮文本注释，在第一段中的第二句上插入文本注释，然后高亮文本注释显示在插入的文本注释之前。
 
 使用“注释”面板可以执行的任务如下所述：
+
+- 使用信息图标![](./images/info-icon.svg)查看审阅任务的详细信息，包括审阅任务名称、审阅版本、状态和任务描述。
+
+  ![](./images/review-details-review-ui.png)
 
 - 选择注释会突出显示并显示相应注释在文档中的位置。
 - 您可以向评论添加回复。
@@ -351,4 +345,4 @@ ht-degree: 0%
 
 ![](images/version-history-dialog.png)
 
-**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)
+**父主题：**[&#x200B;要审阅的简介](review.md)
