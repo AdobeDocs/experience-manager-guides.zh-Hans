@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
+source-wordcount: '3264'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 >
 > 创建自定义设计模板节点后，必须更新AEM站点输出预设中的设计选项才能使用自定义设计模板节点。
 
-有关详细信息，请参阅[创建您的第一个Adobe Experience Manager网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)和[在AEM上开发您自己的网站的基础知识](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=zh-Hans)。
+有关详细信息，请参阅[创建您的第一个Adobe Experience Manager网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en)和[在AEM上开发您自己的网站的基础知识](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)。
 
 ## 使用文档标题生成AEM站点输出
 
@@ -122,6 +122,9 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | 布尔值\(true/false\)。 如果要使用页面标题生成输出，则将此属性设置为true。 默认情况下，它设置为使用文件名。<br> **默认值**： false |
 
+>[!NOTE]
+>
+> `aemsite.pagetitle`属性定义AEM站点页面标题的默认文件夹级别行为。 如果在环境的AEM Sites预设中提供了用于选择`Topic filename`或`Topic title`的选项，则预设级别选择优先，并覆盖该输出的`aemsite.pagetitle`文件夹级别配置。 例如，如果`aemsite.pagetitle=true`但用户在输出预设中选择&#x200B;*主题文件名*，则使用主题文件名。 如果`aemsite.pagetitle=false`但用户选择&#x200B;*主题标题*，则使用主题标题。
 
 >[!TAB 内部部署]
 
@@ -210,7 +213,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 
 1. 搜索并单击&#x200B;*com.adobe.fmdita.common.SanizeNodeNameImpl*&#x200B;包。
 
-1. 在&#x200B;**不允许发布到AEM Sites**&#x200B;属性的字符集中，确保将该属性设置为`<>`&#x200B;`@$`。 您可以向此列表添加更多特殊字符，但是，它必须具有这些必需的特殊字符。
+1. 在&#x200B;**不允许发布到AEM Sites**&#x200B;属性的字符集中，确保将该属性设置为`<>``@$`。 您可以向此列表添加更多特殊字符，但是，它必须具有这些必需的特殊字符。
 
    >[!NOTE]
    >
@@ -363,7 +366,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 ## 在AEM站点输出中为已删除的页面配置版本控制
 
-生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;**&#x200B;**&#x200B;选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
+生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;****选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
 
 以下选项卡提供了有关如何根据您的Experience Manager Guides设置停止为正在删除的页面创建版本的说明：Cloud Service或内部部署。
 

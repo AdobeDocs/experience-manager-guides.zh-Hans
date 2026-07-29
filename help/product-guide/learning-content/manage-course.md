@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +42,16 @@ ht-degree: 0%
 您可以将内容存储库中的现有内容添加到课程中。 执行以下步骤以添加现有内容：
 
 1. 选择&#x200B;**选项**&#x200B;菜单> **添加现有**。
-2. 选择要创建的课程内容类型。
-3. 在&#x200B;**选择文件**&#x200B;对话框中，导航到内容位置并选择所需的学习内容。
+1. 选择要创建的课程内容类型。
+1. 在&#x200B;**选择文件**&#x200B;对话框中，导航到内容位置并选择所需的学习内容。
 
-   ![](assets/add-existing-learning-content.png)
-4. 选择&#x200B;**选择**。
+>[!NOTE]
+>
+> 将HTML主题添加到学习组映射时，`format="html"`属性会自动添加到映射中的相应`topicref`。 这将确保主题得到正确处理和发布。
+
+![](assets/add-existing-learning-content.png)
+
+1. 选择&#x200B;**选择**。
 
 所选课程内容即从存储库添加到课程。
 

@@ -5,26 +5,14 @@ exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
-  - id: c8841798-1a28-4264-a46a-984860f8e6f6
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1526
 ht-degree: 0%
 
 ---
@@ -51,9 +39,9 @@ ht-degree: 0%
 
 - **B：**&#x200B;在&#x200B;**注释**&#x200B;面板中选择&#x200B;**审阅详细信息** ![](images/active-review-info-icon.svg)以查看有关审阅任务的更多信息：
 
-   - **名称**：审核任务的名称。
-   - **审核版本**：显示与所选审核任务关联的版本。 这有助于跟踪您共享以供审阅的版本
-   - **状态**：审核任务的当前状态。
+  - **名称**：审核任务的名称。
+  - **审核版本**：显示与所选审核任务关联的版本。 这有助于跟踪您共享以供审阅的版本
+  - **状态**：审核任务的当前状态。
 
   >[!NOTE]
   >
@@ -90,7 +78,8 @@ ht-degree: 0%
 - **I**：对评论应用筛选器。 您可以根据审阅类型\（全部、高亮显示、已删除、已插入或附注\）、审阅状态\（全部、已接受、已拒绝或无\）、审阅者\(全部或特定审阅者\(s\)\)或主题版本来筛选以查看注释。 默认情况下，不选择任何过滤器。
 
   ![](images/review-comments-author-filter.png){width="350"}
-  **通过标记其他用户回复评论**
+
+**通过标记其他用户回复评论**
 
 作为审阅任务的作者和发起者，您可以回复审阅注释，并标记同一审阅任务中涉及的其他用户，以引起他们的注意或分配跟进。 此功能仅适用于活动审阅任务。
 
@@ -109,4 +98,27 @@ ht-degree: 0%
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
 
-**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)
+## 查看主题的所有审阅任务
+
+>[!NOTE]
+>
+> 此功能默认处于启用状态。 如果您不希望在您的环境中使用此功能，请联系您的客户成功团队。
+
+此功能允许您从“注释”面板中选择与当前打开的主题相关联的审阅任务（打开或已关闭）。 启用后，审阅UI中的“注释”面板包含一个下拉列表，其中列出了主题所属的每个审阅任务，以及每个任务的状态（“活动”或“已关闭”）及其所属的项目。 默认情况下，您当前使用的任务标记为&#x200B;**当前**&#x200B;标记。
+
+![](./images/review-task-selection-dropdpwn.png){width="350"}
+
+使用审阅任务下拉列表，您可以选择这些任务中的任意任务并浏览其注释，而无需切换审阅项目。 您还可以在下拉菜单中选择任务旁边的&#x200B;**(i)**&#x200B;图标以查看任务详细信息。
+
+>[!NOTE]
+>
+> 如果下拉列表中未显示您预期查看的审阅任务，则可能是因为该任务是在实例上启用此功能之前创建的。 请与管理员联系，以解决此问题，方法是[执行索引以将某个主题的所有审阅任务包含在“注释”面板中](../install-conf-guide/index-review-tasks.md)。
+
+使用此功能时，请注意：
+
+- 在编辑器中切换到其他主题会将面板重置回“注释”中的“当前”任务
+- 选择“当前”以外的任何任务会以只读模式打开该任务的主题版本及其注释。 您可以查看注释，但无法编辑、接受或拒绝注释，并且&#x200B;**导入**&#x200B;选项已禁用。 只能将“当前”任务的注释导入到工作副本中。
+- 筛选和搜索仅适用于选定任务的注释；来自其他未选定任务的注释不受影响。
+
+
+**父主题：**[&#x200B;要审阅的简介](review.md)

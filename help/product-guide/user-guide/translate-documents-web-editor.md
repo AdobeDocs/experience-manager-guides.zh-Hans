@@ -5,25 +5,13 @@ exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd456af4-cb12-4a34-8cc4-b74adf885626
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: 2562
 ht-degree: 0%
 
 ---
@@ -133,8 +121,8 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    除了新的翻译项目外，您还可以从以下选项中进行选择：
 
    - 您可以选择&#x200B;**仅为翻译项目创建结构**。
-   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**&#x200B;以将XML内容转换为XML本地化交换文件格式(XLIFF)。XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。Experience Manager Guides支持XLIFF版本1.2。
-在XLIFF项目中，内容将导出为行业标准XLIFF格式，可提供给翻译供应商。XLIFF格式使您在翻译阶段已翻译的区段有可能得到重用。\
+   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**以将XML内容转换为XML本地化交换文件格式(XLIFF)。XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。Experience Manager Guides支持XLIFF版本1.2。
+     在XLIFF项目中，内容将导出为行业标准XLIFF格式，可提供给翻译供应商。XLIFF格式使您在翻译阶段已翻译的区段有可能得到重用。\
      翻译XLIFF内容后，可将其导入Experience Manager Guides，从而创建原始DITA项目的翻译版本。
 
    >[!NOTE]
@@ -145,15 +133,24 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    - 如果您已经有一个翻译项目，则可以向该项目添加主题。 从“项目”列表中选择&#x200B;**添加到现有翻译项目**&#x200B;选项，然后从“现有翻译项目”列表中选择一个项目。 您可以按最近、升序或降序对这些项目排序。
 
    - 如果选择&#x200B;**添加到现有翻译项目**，此操作将更新项目中的现有资产条目（如果已添加资产）并且相关翻译作业状态为&#x200B;*草稿*&#x200B;状态。
-      - 如果项目中不存在目标语言，则会为单语言翻译项目创建新项目，并为多语言翻译项目创建新作业。
+     - 如果项目中不存在目标语言，则会为单语言翻译项目创建新项目，并为多语言翻译项目创建新作业。
 
-      - 如果针对目标语言的作业已存在，并且作业状态不处于&#x200B;*草稿*&#x200B;状态，则会在同一项目中创建新的作业以添加要翻译的资产。
+     - 如果针对目标语言的作业已存在，并且作业状态不处于&#x200B;*草稿*&#x200B;状态，则会在同一项目中创建新的作业以添加要翻译的资产。
 
    >[!NOTE]
    >
    > 如果现有项目是范围项目，则其名称中会附加“\(Scoping\)”。
 
    - 如果需要为要翻译的项目创建范围，可以选择&#x200B;**创建新的范围翻译项目**。 这不会发送副本以供翻译，并且文件的原始翻译状态将保持不变。 对于为了设定范围而发送的引用主题的目标语言副本，不会造成任何影响。
+1. 在&#x200B;**路径**&#x200B;字段中，选择应创建新翻译项目的位置：
+
+   - 如果要创建新的翻译项目，请选择要创建项目的文件夹。
+
+     ![输入项目路径](images/project-path.png){width="650"}
+
+   - 如果要添加到现有翻译项目，请选择该项目已存在的路径。 然后，从&#x200B;**现有翻译项目**&#x200B;列表中，选择要将当前翻译任务添加到的项目。 您还可以使用可用的&#x200B;**筛选器**&#x200B;来缩小列表范围。
+
+     ![输入现有项目路径](images/existing-project-path.png){width="650"}
 
 1. 在&#x200B;**项目标题**&#x200B;字段中，输入项目标题。
 1. 选择&#x200B;**提交**&#x200B;以创建新的翻译项目。
@@ -257,4 +254,4 @@ Experience Manager Guides提供了用于检查主题的所选版本与上次翻�
 如果您希望稍后使用翻译项目，也可以禁用这些项目。 删除项目会删除项目中存在的所有文件和文件夹。 禁用项目不会删除它，而是将其保留在存储库中。 但无法更新或编辑已禁用的项目。  删除或禁用项目不会影响任何引用的翻译状态。
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

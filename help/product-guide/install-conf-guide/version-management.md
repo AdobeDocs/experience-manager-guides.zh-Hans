@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2277'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ ht-degree: 0%
    如果选择该选项，则会发生新版本管理机制并覆盖任何后续上传的默认上传行为，它将上传文件的内容另存为新版本。 如果取消选择该选项，AEM Guides将使用AEM的默认版本管理机制。
 
 1. 单击&#x200B;**保存**。
-
-
->[!NOTE]
->
-> 如果启用属性&#x200B;**为已上传的文件创建新版本** \(create.ver.new.content\)，并使用&#x200B;**Assets UI**&#x200B;批量上传资源，则可以批量上传70个或更少文件。
 
 >[!ENDTABS]
 
@@ -314,7 +309,7 @@ AEM Guides编辑器允许您创建和更新DITA主题。 您可以将编辑器�
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **从最新版本中保留的版本数**：输入应保留而不清除的版本数。 例如，如果输入5，则会保留最后5个版本，并且如果满足其他清除条件，则符合清除条件的版本中之前的版本将被清除。
    - **保留在时间跨度\（以天为单位\）**&#x200B;内创建的版本：输入版本的最长存在时间（以天为单位）。 如果满足其他清除条件，则符合清除指定天数之前的版本的资格。 例如，如果输入100，则符合其他清除条件时，所有在100天之前创建的版本都将被清除。
    - **路径**：选择要清除其文件的文件或文件夹的路径。

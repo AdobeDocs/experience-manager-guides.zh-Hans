@@ -5,25 +5,17 @@ feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
 TQID: https://experienceleague.adobe.com/uuaP85TjYQvFzKfFRLfYj8xkOiIzpIVB-6Vj34wipHI
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # 以作者身份请求重新审阅或关闭审阅任务
-
->[!IMPORTANT]
->
-> 默认情况下，在2508版的Experience Manager Guides as a Cloud Service中启用了本文中描述的新功能。 在迁移之前创建的审阅不会受到影响，并将继续使用之前的工作流。 如果您希望在不进行这些更新的情况下继续使用现有功能，请联系您的客户成功团队以禁用新功能。
 
 当审阅任务被审阅人标记为已完成时，会向任务发起人触发通知，使他们能够访问和审阅任务及相关任务级别的注释。
 
@@ -31,6 +23,10 @@ ht-degree: 0%
 
 - 请求重新审阅
 - 关闭审核任务
+
+>[!NOTE]
+>
+> 如果为您的环境启用了委派功能，审阅人还可以请求[将另一个审阅人添加到审阅任务](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)。 此类请求会以通知形式显示在您的AEM收件箱中。 如果推荐的审阅人不是关联项目的一部分，您可以选择先将他们添加到项目中。 否则，您将被定向到&#x200B;**任务详细信息**&#x200B;页面的&#x200B;**审阅人**&#x200B;选项卡，以将推荐的审阅人添加到审阅任务。 添加推荐审阅人的决定始终由您作为审阅任务的发起者来做出。
 
 ## 请求重新审阅或关闭审阅任务
 

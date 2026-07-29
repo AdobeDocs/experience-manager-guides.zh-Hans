@@ -5,19 +5,13 @@ exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 3343
+source-wordcount: 3663
 ht-degree: 0%
 
 ---
@@ -81,7 +75,9 @@ ht-degree: 0%
 
 1. 输入任务的&#x200B;**描述**。
 
-   此描述用作发送给审阅人的通知电子邮件的正文。
+   描述用作发送给审阅人的通知电子邮件的正文。 它还显示在&#x200B;**审阅详细信息**&#x200B;对话框中，可通过审阅UI和编辑器界面中&#x200B;**注释**&#x200B;标题旁边的&#x200B;*信息*&#x200B;图标进行访问。
+
+   ![](images/review-details.png)
 
 1. 选择&#x200B;**截止日期**&#x200B;和时间以标记审阅截止日期。
 
@@ -108,6 +104,35 @@ ht-degree: 0%
    >[!NOTE]
    >
    > 解析关键引用时，所选根映射的优先级最高。 有关详细信息，请查看[解析键引用](map-editor-other-features.md#id176GD01H05Z)。
+
+1. 附加DITAVAL文件（仅在为您的环境启用时可用）
+
+   >[!NOTE]
+   >
+   > 默认情况下，会启用将DITAVAL文件附加到审阅任务的功能。 如果您不希望在您的环境中使用此功能，请联系您的客户成功团队。
+
+   如果要发送以供审阅的主题使用条件，则可以将一个或多个DITAVAL文件附加到审阅任务。
+
+   ![](./images/attach-ditaval-review-task.png)
+
+   >[!NOTE]
+   >
+   > 文件选择器只接受DITAVAL文件。 如果选择任何其他文件类型（如主题或映射），则会出现一条错误消息，提示您改为选择DITAVAL文件。
+
+   附加的DITAVAL文件中定义的条件用于预选择审阅者的“条件”面板中的切换，因此审阅者有权访问您作为发起者希望进行此审阅的相同条件集。
+
+   您还有&#x200B;**允许审阅人条件更改**&#x200B;复选框，该复选框控制审阅人是否可以更改预设切换：
+
+   ![](./images/reviewer-conditions.png)
+
+   - 如果选定此选项，审阅者可以在审阅期间打开或关闭任何条件的切换，覆盖DITAVAL文件设置的值。
+   - 如果清除，则切换对审阅人保持禁用状态，并且他们只能审阅由附加的DITAVAL文件过滤的内容。
+
+   **其他备注**：
+
+   - 可以将多个DITAVAL文件附加到单个审阅任务。 如果两个或多个附加文件为同一条件定义了冲突值，则先添加的文件（按插入顺序）优先。
+   - 任何附加的DITAVAL文件未涵盖的条件不受影响；这些条件在审核UI中保留默认（未过滤）行为。
+   - 创建审阅任务后，您可以从“任务详细信息”页面更新审阅任务，以添加、删除或替换附加的DITAVAL文件，并更改&#x200B;**允许审阅人条件更改**&#x200B;设置。
 
 1. 由于您可以将不同的审阅人分配给不同的主题，因此&#x200B;**允许被分派人审阅任何主题**&#x200B;选项控制审阅人是否可以审阅审阅审阅任务中的所有主题，还是只能审阅被分派审阅的主题。
 
@@ -334,4 +359,4 @@ Experience Manager Guides允许您同时在DITA映射中发送一个或多个主
 有关更多详细信息，请查看[了解审阅通知](./review-understanding-review-notifications.md)。
 
 
-**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)
+**父主题：**[&#x200B;要审阅的简介](review.md)

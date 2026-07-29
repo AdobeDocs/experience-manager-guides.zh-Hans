@@ -4,47 +4,40 @@ description: 了解如何创建和删除新的映射收藏集以及添加或删�
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
 workflow-type: tm+mt
-source-wordcount: 1447
+source-wordcount: 1548
 ht-degree: 0%
 
 ---
 
-# 使用新的映射集合生成输出(Beta)
+# 使用新的映射集合生成输出
 
 >[!IMPORTANT]
 >
-> 从2026.06.0版本开始，Experience Manager Guides as a Cloud Service中提供了新的地图收藏集。 请联系您的客户成功团队以启用此功能。
+> 从2026.08.0版本开始，Experience Manager Guides as a Cloud Service中提供了新的地图收藏集。 请联系您的客户成功团队以启用此功能。
 
 Adobe Experience Manager Guides中的映射收藏集使发布专家能够将多个文档整理到单个收藏集中，控制为每个文档生成的输出，以及从集中式仪表板高效地批量生成和发布输出。 它还提供输出生成进度的可见性，突出显示自上次发布输出以来对映射所做的更改，并允许您在需要时重新发布内容。
 
-新的地图收藏集将以前分布于旧地图收藏集的功能整合到单个统一界面中。 启用后，您可以从一个位置管理映射、预设、层代历史记录、发布历史记录、元数据和收藏集成员资格。
+新的地图收藏集将以前分布于旧地图收藏集的功能合并到单个统一界面中。 启用后，您可以从一个位置管理映射、预设、层代历史记录、发布历史记录、元数据和收藏集成员资格。
 
 ## 创建映射集合并添加DITA映射
 
 要创建映射集合并将映射添加到其中，请执行以下步骤：
 
-1. 打开Experience Manager Guides主页并选择&#x200B;**新建地图收藏集**。
+1. 打开Experience Manager Guides主页并选择&#x200B;**映射收藏集**。
 
    将打开&#x200B;**映射收藏集**&#x200B;页面。
 
    ![](images/new-maps-collection.png){width="650"}
 
 
-1. 在&#x200B;**映射收藏集**&#x200B;页面上，选择右上角的&#x200B;**创建**，并为您的新映射收藏集提供&#x200B;**名称**。
+1. 在&#x200B;**映射收藏集**&#x200B;页面上，选择右上角的&#x200B;**创建**，并为您的映射收藏集提供&#x200B;**名称**。
 
    ![](images/create-new-map-collection.png){width="350"}
 
@@ -90,6 +83,10 @@ Adobe Experience Manager Guides中的映射收藏集使发布专家能够将多�
 
 您将获得所有所需映射的列表，以及映射标题、对应的文件名、提供的语言和配置的预设。
 
+>[!NOTE]
+>
+> 当将大量地图添加到地图集合时，地图和预设选项卡一次最多显示四个地图以及关联的预设。 屏幕底部提供了一个分页视图，允许用户在页面之间导航并访问其他映射和预设。 如果选择映射或预设，则会在浏览不同页面上的其余映射和预设时保留所做的选择。
+
 ![映射和预设选项卡](./images/maps-presets-tab.png)
 
 **映射和预设**&#x200B;选项卡在以下列中显示基于特定语言选定映射的信息：
@@ -107,7 +104,7 @@ Adobe Experience Manager Guides中的映射收藏集使发布专家能够将多�
 
 - **自生成**&#x200B;以来已修改：您可以选择“是”、“否”或“尚未生成”。 如果选择“是”，则只有生成后修改的映射才会显示在“映射和预设”选项卡中。
 - **自发布以来已修改**：您可以选择“是”、“否”或“尚未生成”。 如果选择“是”，则只有发布后修改的映射才会显示在“映射和预设”选项卡中。
-- **预设**：选择要过滤掉映射文件的预设。 例如，如果选择&#x200B;*AEM Site*&#x200B;预设，则仅显示上面配置了&#x200B;*AEM Site*&#x200B;输出预设的映射。
+- **预设类型**：选择要过滤掉映射文件的预设。 例如，如果选择&#x200B;*AEM Site*&#x200B;预设，则仅显示上面配置了&#x200B;*AEM Site*&#x200B;输出预设的映射。
 - **语言**：您可以选择任何可用的语言代码，并在“映射和预设”选项卡中仅显示选定的语言。
 
   ![映射和预设选项卡中的筛选器](./images/filters-maps-presets.png)
@@ -136,6 +133,9 @@ Adobe Experience Manager Guides中的映射收藏集使发布专家能够将多�
    - **已完成（绿色）**：已成功完成生成。
    - **已完成（红色）**：生成已完成，但出现错误。 可在日志中查看错误详细信息。
    - **正在执行（蓝色）**：正在生成。
+   - **失败（红色）**：生成失败。
+   - **正在等待（蓝色）**：正在生成处于队列中。
+
 
    ![状态类型](./images/status-types.png)
 
@@ -150,6 +150,10 @@ Adobe Experience Manager Guides中的映射收藏集使发布专家能够将多�
 
 
 ## 使用映射集合发布输出
+
+>[!NOTE]
+>
+> 从层代历史记录中发布时，将始终发布预设的最新输出，而不是所选的层代。
 
 要使用“Map Collection（映射收集）”发布输出（如果已配置），请执行以下步骤：
 
@@ -192,4 +196,4 @@ Adobe Experience Manager Guides中的映射收藏集使发布专家能够将多�
 元数据属性与文件属性同步。 更新后，可以从编辑器的&#x200B;**文件属性**&#x200B;面板中查看这些文件。
 
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

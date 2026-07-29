@@ -4,9 +4,9 @@ description: 了解Experience Manager Guides编辑器界面中可用的各种设
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
+source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2304'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在版本5.2之前的内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。对于版本5.2及更高版本中的Cloud Service和内部部署配置，此选项已重命名为&#x200B;**Workspace设置**。在&#x200B;**编辑器设置**&#x200B;下可用的所有现有配置选项保持不变。
->内部部署的> ![编辑器设置](assets/editor-settings-on-prem.png){width="650"}
+> 在版本5.2之前的内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。对于版本5.2及更高版本中的Cloud Service和内部部署配置，此选项已重命名为&#x200B;**Workspace设置**。在&#x200B;**编辑器设置**下可用的所有现有配置选项保持不变。
+内部部署的> ![编辑器设置](assets/editor-settings-on-prem.png){width="650"}
 
 
 编辑器[选项卡栏](../user-guide/web-editor-tab-bar.md)中存在的&#x200B;**Workspace设置**&#x200B;选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
@@ -53,17 +53,27 @@ ht-degree: 0%
 
   通过&#x200B;**创作快速操作**&#x200B;菜单，您可以：
 
-   - 使用这些切换可启用或禁用作者在使用AI Assistant时可以访问的特定选项。
+  - 使用这些切换可启用或禁用作者在使用AI Assistant时可以访问的特定选项。
 
-   - 更改选项的显示顺序，根据需要拖放它们。
+  - 更改选项的显示顺序，根据需要拖放它们。
 
   ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
+- **指南AI**
 
+  >[!NOTE]
+  >
+  > 要在您的环境中使用Guides AI功能，请联系客户成功团队。 一次只能启用一个AI体验；可选择Guides AI或AI Assistant。
+
+  选择&#x200B;**指南AI**&#x200B;切换开关可在Experience Manager Guides中启用此功能。取消选择可禁用此功能。
+
+  启用此选项后，您将能够从主页上的导航栏和编辑器界面上的选项卡栏访问指南人工智能功能。 有关如何为主题生成AI建议标记的详细信息，请查看[开始使用Guides AI](../user-guide/guides-ai.md)。
+
+  ![](assets/guides-ai-workspace.png){width="350"}
 
 - **创作**
 
-   - **启用全部替换**：选择此项以查看&#x200B;**查找和替换**&#x200B;面板中的&#x200B;**全部替换**&#x200B;图标。
+  - **启用全部替换**：选择此项以查看&#x200B;**查找和替换**&#x200B;面板中的&#x200B;**全部替换**&#x200B;图标。
 
 - **引用**
 
@@ -71,28 +81,28 @@ ht-degree: 0%
 
 - **条件**
 
-   - **在作者视图中高亮显示条件文本**：选择此项以在作者视图中高亮显示条件文本。 使用为条件定义的颜色突出显示条件内容。
+  - **在作者视图中高亮显示条件文本**：选择此项以在作者视图中高亮显示条件文本。 使用为条件定义的颜色突出显示条件内容。
 
-   - **使用条件属性进行验证**：选择此项以允许验证为属性定义的值。 这样可防止您添加任何不正确的值。
+  - **使用条件属性进行验证**：选择此项以允许验证为属性定义的值。 这样可防止您添加任何不正确的值。
 
-   - **在“主题方案”面板中显示带有标题的键**：选择此项可显示主题方案中的键和标题。 如果不选择此选项，则只显示标题。 例如，此处“os”、“audience”和“other”键也会与标题一起显示。
+  - **在“主题方案”面板中显示带有标题的键**：选择此项可显示主题方案中的键和标题。 如果不选择此选项，则只显示标题。 例如，此处“os”、“audience”和“other”键也会与标题一起显示。
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550"}
+    ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
-   - **在条件面板中显示主题方案**：选择此项可在条件面板中查看主题方案。 如果取消选择此选项，则定义的条件将显示在条件面板中。
+  - **在条件面板中显示主题方案**：选择此项可在条件面板中查看主题方案。 如果取消选择此选项，则定义的条件将显示在条件面板中。
 
 - **拼写检查**
 
   有两个选项：AEM拼写检查和浏览器拼写检查。
 
-   - **浏览器拼写检查**：默认情况下，编辑器使用浏览器拼写检查功能，其中使用浏览器的内置词典执行拼写检查。
+  - **浏览器拼写检查**：默认情况下，编辑器使用浏览器拼写检查功能，其中使用浏览器的内置词典执行拼写检查。
 
-   - **AEM拼写检查**：您可以切换到AEM拼写检查以使用Adobe Experience Manager的词典，也可以自定义该词典以添加您的自定义单词列表。 有关自定义AEM词典的详细信息，请查看[自定义AEM的默认词典](../install-conf-guide/customize-aem-default-dictionary.md)。
+  - **AEM拼写检查**：您可以切换到AEM拼写检查以使用Adobe Experience Manager的词典，也可以自定义该词典以添加您的自定义单词列表。 有关自定义AEM词典的详细信息，请查看[自定义AEM的默认词典](../install-conf-guide/customize-aem-default-dictionary.md)。
 
-     >[!NOTE]
-     >
-     > AEM拼写检查使用在文件的语言属性中选择的语言，如果未为文件指定语言，则拼写检查将回退到AEM服务器语言。
-     >为确保拼写检查结果准确，所选语言的词典必须在AEM中可用。 如果所配置语言的所需字典不可用，则拼写检查默认为`en_us`。
+    >[!NOTE]
+    >
+    > AEM拼写检查使用在文件的语言属性中选择的语言，如果未为文件指定语言，则拼写检查将回退到AEM服务器语言。
+    >为确保拼写检查结果准确，所选语言的词典必须在AEM中可用。 如果所配置语言的所需字典不可用，则拼写检查默认为`en_us`。
 
 
 ## 面板
@@ -152,24 +162,24 @@ ht-degree: 0%
 
 - 配置连接的应用程序时，请确保满足以下条件：
 
-   - 指定回调。
+  - 指定回调。
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - 选择以下OAuth范围：
-      - 完全访问（完全）
-      - 选择通过API (api)管理用户数据
+  - 选择以下OAuth范围：
+    - 完全访问（完全）
+    - 选择通过API (api)管理用户数据
 
-     配置应用程序后，Salesforce会提供&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 这些资源可用于创建Salesforce配置文件。
+    配置应用程序后，Salesforce会提供&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 这些资源可用于创建Salesforce配置文件。
 
 
-   - 要创建Salesforce配置文件，请从&#x200B;**服务器类型**&#x200B;下拉列表中选择&#x200B;**Salesforce**&#x200B;知识库。 输入配置文件名称。 在&#x200B;**站点URL**&#x200B;中，输入用于发布输出的使用者站点，然后添加由Salesforce使用者站点提供的&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 然后，**验证**&#x200B;和&#x200B;**保存**&#x200B;新创建的配置文件。
+  - 要创建Salesforce配置文件，请从&#x200B;**服务器类型**&#x200B;下拉列表中选择&#x200B;**Salesforce**&#x200B;知识库。 输入配置文件名称。 在&#x200B;**站点URL**&#x200B;中，输入用于发布输出的使用者站点，然后添加由Salesforce使用者站点提供的&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 然后，**验证**&#x200B;和&#x200B;**保存**&#x200B;新创建的配置文件。
 
-     ![工作区设置中的salesforce发布配置文件](../user-guide/images/salesforce-publish-profile.png){width="550"}
+    ![工作区设置中的salesforce发布配置文件](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >要在Experience Manager Guides中配置Salesforce的代理，请使用AEM中的Apache HTTP组件代理配置。 了解如何[配置AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的代理。
+    >[!NOTE]
+    >
+    >要在Experience Manager Guides中配置Salesforce的代理，请使用AEM中的Apache HTTP组件代理配置。 了解如何[配置AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的代理。
 
 
 **创建ServiceNow配置文件**
@@ -235,24 +245,24 @@ ht-degree: 0%
 
   执行以下步骤以创建新语言组：
 
-   1. 选择&#x200B;**添加**。
-   1. 输入语言组名称。 每种语言都应该有一个唯一的名称。 如果名称字段为空或名称不唯一，则可以查看错误。
-   1. 从下拉列表中选择语言。 您可以选择多种语言。
+  1. 选择&#x200B;**添加**。
+  1. 输入语言组名称。 每种语言都应该有一个唯一的名称。 如果名称字段为空或名称不唯一，则可以查看错误。
+  1. 从下拉列表中选择语言。 您可以选择多种语言。
 
-      键入语言的前几个字符或语言代码以筛选所需的语言。 例如，键入“en”可筛选名称或代码开头包含“en”的所有语言。
+     键入语言的前几个字符或语言代码以筛选所需的语言。 例如，键入“en”可筛选名称或代码开头包含“en”的所有语言。
 
-   1. 选择完成图标以将所选语言添加到组。 将显示语言。 添加三种或更多语言时，将显示&#x200B;**显示更多**&#x200B;选项。 您可以选择&#x200B;**显示更多**&#x200B;以查看该组中存在的所有语言。
+  1. 选择完成图标以将所选语言添加到组。 将显示语言。 添加三种或更多语言时，将显示&#x200B;**显示更多**&#x200B;选项。 您可以选择&#x200B;**显示更多**&#x200B;以查看该组中存在的所有语言。
 
-      >[!TIP]
-      >
-      > 将&#x200B;**显示更多**&#x200B;切换为&#x200B;**显示更少**&#x200B;并只查看几种语言。
+     >[!TIP]
+     >
+     > 将&#x200B;**显示更多**&#x200B;切换为&#x200B;**显示更少**&#x200B;并只查看几种语言。
 
-   1. 将鼠标悬停在组中的语言上以编辑![编辑图标](../user-guide/images/edit_pencil_icon.svg)或删除![删除](../user-guide/images/Delete_icon.svg)语言组。
-   1. 保存&#x200B;**设置**。
+  1. 将鼠标悬停在组中的语言上以编辑![编辑图标](../user-guide/images/edit_pencil_icon.svg)或删除![删除](../user-guide/images/Delete_icon.svg)语言组。
+  1. 保存&#x200B;**设置**。
 
-      >[!NOTE]
-      >
-      >作为用户，您可以查看为文件夹配置文件配置的语言组。
+     >[!NOTE]
+     >
+     >作为用户，您可以查看为文件夹配置文件配置的语言组。
 
 - **将源版本标签传播到目标版本**：选择此选项可将源文件版本的标签传递到已翻译的文件。 默认情况下，该选项处于禁用状态。
 - **完成后的翻译项目清理**：选择此选项可将翻译项目配置为在翻译后自动禁用或删除。 默认情况下，选择&#x200B;**无**，这样项目在翻译后就会存在。
@@ -272,9 +282,9 @@ ht-degree: 0%
 
 工作区设置中的![元数据选项卡](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
 您还可以定义这些元数据标记的显示顺序。要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。

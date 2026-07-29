@@ -5,18 +5,13 @@ feature: Authoring
 role: User
 exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -48,7 +43,7 @@ ht-degree: 0%
 
   ![](assets/insert-h5p-lc.png)
 
-  如果您希望从系统中使用H5P内容，请首先使用&#x200B;**上传assets**&#x200B;选项在DAM[&#128279;](../user-guide/authoring-upload-existing-files.md)中上传文件，然后将其纳入存储库视图/Assets。
+  如果您希望从系统中使用H5P内容，请首先使用&#x200B;**上传assets**&#x200B;选项在DAM](../user-guide/authoring-upload-existing-files.md)中[上传文件，然后将其纳入存储库视图/Assets。
 
   ![](assets/upload-assets-option.png)
 
@@ -65,12 +60,14 @@ ht-degree: 0%
 
   该公式使用浅灰色背景插入。 您可以随时更新公式，方法是右键单击现有公式并从上下文菜单中选择&#x200B;**编辑数学公式**。 有关在Experience Manager Guides中验证MathML方程式的详细信息，请在MathML编辑器中查看[方程式的验证](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor)。
 
-- **知识检查：**&#x200B;允许您以可用格式（“单个正确”、“多个正确”、“真/假”、“符合以下内容”或插入问题库）将问题添加到主题以供审阅，并且无需评分即可确认理解。 这些问题反映了标准格式并排除了评分，因此非常适合于自我评估，并且适合作为课程内容的一部分或以后测验或评估之前的主题（如果可用）。
+- **知识检查：**&#x200B;允许您以可用格式（“单个正确”、“多个正确”、“真/假”、“符合以下内容”或插入问题库）将问题添加到主题以供审阅，并且无需评分即可确认理解。 这些问题反映了标准格式并排除了评分，因此非常适合于自我评估，并且适合作为课程内容的一部分或以后测验或评估之前的主题（如果可用）。 您可以通过&#x200B;**内容属性**&#x200B;面板配置正确答案和其他必填字段。 有关详细信息，请查看[问题类型](./quiz-insert-questions.md)。
 
   ![](assets/knowledge-check-topic.png){width="650"}
 
 
-  您可以通过&#x200B;**内容属性**&#x200B;面板配置正确答案和其他必填字段。 有关详细信息，请查看[问题类型](./quiz-insert-questions.md)。 您可以使用如下所示的知识检查选项添加各种问题类型。
+  如果学习者对知识检查问题提交的响应不正确，则响应字段将随错误消息一起高亮显示，指导学习者选择&#x200B;**重试**&#x200B;以重试同一问题。
+
+  ![](assets/knowledge-check-try-again.png){width="650"}
 
   此外，您可以启用&#x200B;**需要知识检查以继续**&#x200B;选项，以确保学习者在进入后续课程内容之前尝试进行指定的知识检查。 此功能有助于通过防止学习者跳过关键评估检查点来强化关键学习目标。 在配置SCORM预设输出时，如果启用&#x200B;**学习者必须按照顺序完成内容**&#x200B;设置，从而确保课程进度遵循预期学习路径，则支持该功能。
 

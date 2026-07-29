@@ -5,17 +5,12 @@ exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
 TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 695
 ht-degree: 0%
 
 ---
@@ -26,21 +21,34 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 查看[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans)，以详细了解Adobe Experience Manager中支持的内容上传方法。
+> 查看[将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)，以详细了解Adobe Experience Manager中支持的内容上传方法。
 
 ## Assets Console用户界面
 
-要使用Adobe Experience Manager as a Cloud Service Console用户界面[将数字资源添加到Assets Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#filename-handling网站#upload-assets)，请在桌面上选择所需的资源，然后在Adobe Experience Manager用户界面\（Web浏览器\）上拖动到目标文件夹。 上传资产时，请确保文件名不包含任何不支持或禁止使用的字符。
+要使用Adobe Experience Manager as a Cloud Service Console用户界面[将数字资源添加到Assets Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling网站#upload-assets)，请在桌面上选择所需的资源，然后在Adobe Experience Manager用户界面\（Web浏览器\）上拖动到目标文件夹。 上传资产时，请确保文件名不包含任何不支持或禁止使用的字符。
 
-有关更多详细信息，请查看Adobe Experience Manager文档中的[文件名处理和禁止使用的字符](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#filename-handling)部分。
+有关更多详细信息，请查看Adobe Experience Manager文档中的[文件名处理和禁止使用的字符](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling)部分。
+
+### 使用Assets UI界面上传文件
+
+当您使用&#x200B;**创建** > **文件**&#x200B;上载文件并从系统中选择文件时，将显示&#x200B;**上载Assets**。 此对话框允许您在启动上载之前查看并可以选择重命名文件。 您可以保留原始文件名，也可以根据要求提供新名称。
+
+![](images/upload-file.png){width="350"}
+
+开始上传后，状态将显示在&#x200B;**上传Assets**&#x200B;对话框中，并显示每个要上传文件的上传进度。 如果需要在操作完成之前停止操作，可以随时通过选择&#x200B;**取消**&#x200B;选项或选择“取消”图标来取消上载。 取消操作将终止上载，并且文件不会添加到存储库中。
+
+![](images/upload-status.png){width="350"}
+
+上传成功完成后，系统将显示一条确认消息，指示文件已成功上传。 此消息确认现在可在Assets存储库内的选定位置找到文件。
+
 
 ## Adobe Experience Manager 桌面应用程序
 
-如果您是创意专业人士并想要在本地桌面上管理资源，请使用Adobe Experience Manager桌面应用程序。 您可以使用桌面应用程序打开和编辑这些资源。 您还可以维护版本并与其他用户共享您的文件。 有关更多详细信息，请查看[Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=zh-Hans)。
+如果您是创意专业人士并想要在本地桌面上管理资源，请使用Adobe Experience Manager桌面应用程序。 您可以使用桌面应用程序打开和编辑这些资源。 您还可以维护版本并与其他用户共享您的文件。 有关更多详细信息，请查看[Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)。
 
 ## 资源批量提取器
 
-如果您进行了大规模迁移并偶尔进行了批量摄取，请使用资产批量摄取器上传您的内容。 使用此工具，您可以从受支持的数据存储（如Azure或S3）上传批量内容。 有关更多详细信息，请查看[资产批量引入器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#asset-bulk-ingestor)。
+如果您进行了大规模迁移并偶尔进行了批量摄取，请使用资产批量摄取器上传您的内容。 使用此工具，您可以从受支持的数据存储（如Azure或S3）上传批量内容。 有关更多详细信息，请查看[资产批量引入器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)。
 
 ## 使用FrameMaker进行批量上传
 
@@ -58,4 +66,7 @@ Adobe FrameMaker附带强大的Adobe Experience Manager连接器，可让您轻�
 
 如果您使用Adobe Experience Manager桌面应用程序或资产批量引入器等工具，则对重复文件执行的操作将由Adobe Experience Manager服务器中的设置控制。 请与系统管理员联系以了解此配置。
 
-**父主题：**&#x200B;[&#x200B;管理内容](authoring.md)
+
+
+
+**父主题：**[&#x200B;管理内容](authoring.md)
