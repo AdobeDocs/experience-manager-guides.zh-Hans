@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -158,6 +158,10 @@ ht-degree: 0%
 注释按文档中注释文本的顺序显示。 例如，在第一句上有高亮文本注释，在第一段中的第二句上插入文本注释，然后高亮文本注释显示在插入的文本注释之前。
 
 使用“注释”面板可以执行的任务如下所述：
+
+- 使用信息图标![](./images/info-icon.svg)查看审阅任务的详细信息，包括审阅任务名称、审阅版本、状态和任务描述。
+
+  ![](./images/review-details-review-ui.png)
 
 - 选择注释会突出显示并显示相应注释在文档中的位置。
 - 您可以向评论添加回复。

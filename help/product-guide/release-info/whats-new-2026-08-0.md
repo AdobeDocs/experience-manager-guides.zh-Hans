@@ -2,9 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides 2026.08.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 2026.08.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 087f74b41a3ce374aca06701e8b58e0d27492592
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,11 @@ Experience Manager Guides现在引入了Git连接器，它允许您将Git存储�
 ![](assets/git-bulk-importer-import-all.png)
 
 
-## Experience Manager Guides为AI助手集成添加了MCP支持
+## Experience Manager Guides添加了MCP支持
 
-Experience Manager Guides现在支持MCP（模型上下文协议）集成，从而使Anthropic Claude等AI助手能够直接连接到AEM Guides环境。
+Experience Manager Guides现在支持模型上下文协议(MCP)。 您可以将Claude、Cursor等AI工具连接到Guides，而无需任何自定义工作。 通过单个MCP端点，在这个版本中，经过身份验证的用户可以将Guides用作Headless系统，并管理主题和映射、创建和导出基线以及生成报表，所有这些操作都是在其现有AEM权限下进行的。 这使文档团队能够使用AI应用程序和代理更高效地工作。
 
-通过单个MCP端点，经过身份验证的用户可以管理主题和映射、创建和导出基线，以及使用自然语言生成报表，所有这些操作都是在其现有AEM权限下进行的。 这消除了重复、导航繁重的任务，并允许文档团队在聊天应用程序和支持MCP的开发人员工具（如Cursor和Visual Studio Code）之间更高效地工作。 有关详细信息，请查看[使用Adobe Experience Manager Guides MCP服务器](../install-conf-guide/conf-aem-guides-mcp.md)。
+有关详细信息，请查看[使用Adobe Experience Manager Guides MCP服务器](../install-conf-guide/conf-aem-guides-mcp.md)。
 
 
 ## 审核增强功能
