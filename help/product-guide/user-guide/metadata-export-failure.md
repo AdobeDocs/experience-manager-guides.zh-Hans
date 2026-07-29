@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # 为什么文件夹元数据导出失败并出现“字符串太长”异常？
 
-当您从Assets UI [导出文件夹的元数据](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata)时，导出作业可能会失败，并出现`String is too long`异常。 当文件夹包含存储非字符串值（如`baselineObj`）的Experience Manager Guides特定属性时，通常会发生这种情况。
+当您从Assets UI [导出文件夹的元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/using/metadata#export-metadata)时，导出作业可能会失败，并出现`String is too long`异常。 当文件夹包含存储非字符串值（如`baselineObj`）的Experience Manager Guides特定属性时，通常会发生这种情况。
 
 **为什么会出现这种情况？**
 

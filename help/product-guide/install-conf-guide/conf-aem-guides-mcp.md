@@ -79,7 +79,7 @@ Experience Manager Guides MCP服务器是&#x200B;**远程**&#x200B;服务器。 
 
 ### 克洛德
 
-遵循官方演练：[为AEM MCP设置Claude](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 添加自定义连接器时，请使用Experience Manager Guides端点：
+遵循官方演练：[为AEM MCP设置Claude](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 添加自定义连接器时，请使用Experience Manager Guides端点：
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides
