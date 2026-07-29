@@ -12,10 +12,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: fb2dc7f7a0341924f86f024c31d3cc7f46092f4f
+source-git-commit: 0d64b07a3e5230b84acf451ea7a8f784bcd804f6
 workflow-type: tm+mt
-source-wordcount: 852
-ht-degree: 34%
+source-wordcount: 881
+ht-degree: 35%
 
 ---
 
@@ -35,13 +35,14 @@ Experience Manager Guides as a Cloud Service的发行计划如下：
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 修复的问题 | 状态 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.08.0 <br> | 自动更新 | 2026年8月03日至05日 | - | - | - | Target |
+| Adobe Experience Manager Guides 2026.09.0 | 自动更新 | ~2026年9月 | - | - | - | Target |
 
 
 ### 实时版本
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 修复的问题 | 状态 |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2026.08.0 <br> [（AEM版本 — 27293）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026年8月03日至05日 | [此处](./whats-new-2026-08-0.md) | [此处](./upgrade-instructions-2026-08-0.md) | [此处](./fixed-issues-2026-08-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.07.0 <br> [（AEM版本 — 26908）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026年7月第一周 | - | [此处](upgrade-instructions-2026-07-0.md) | [此处](fixed-issues-2026-07-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.06.0 <br> [（AEM版本 — 26773）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026年6月22日至24日 | [此处](whats-new-2026-06-0.md) | [此处](upgrade-instructions-2026-06-0.md) | [此处](fixed-issues-2026-06-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.05.0 <br> [（AEM版本 — 25898）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Service Pack 1 | 2026年5月21至22日 | - | - | [此处](fixed-issues-2026-05-0-sp1.md) | 已更新 |

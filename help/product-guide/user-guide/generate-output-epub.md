@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 1%
+source-wordcount: 1020
+ht-degree: 0%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 1%
 1. 选择&#x200B;**完成**&#x200B;以保存预设设置。
 
 以下配置选项可用于EPUB预设：
+
+>[!NOTE]
+>
+>如果为文件夹配置文件配置了[运行状况检查功能](../install-conf-guide/conf-health-check-preset.md)，则“常规”选项卡中将显示额外的&#x200B;**在生成输出之前运行运行状况检查**&#x200B;切换开关。 使用此预设可在每次使用此预设生成输出时自动运行运行状况检查，因此您不必从映射手动触发它。 报告会附加到发布日志中，并且仅用作参考信息。 即使检查发现未解决的错误或警告，它也不会阻止或延迟输出。 了解有关[在Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map)中使用运行状况检查功能的更多信息。
 
 | ePub选项 | 描述 |
 | --- | --- |

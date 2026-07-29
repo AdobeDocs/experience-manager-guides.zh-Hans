@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2277'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ ht-degree: 0%
    如果选择该选项，则会发生新版本管理机制并覆盖任何后续上传的默认上传行为，它将上传文件的内容另存为新版本。 如果取消选择该选项，AEM Guides将使用AEM的默认版本管理机制。
 
 1. 单击&#x200B;**保存**。
-
-
->[!NOTE]
->
-> 如果启用属性&#x200B;**为已上传的文件创建新版本** \(create.ver.new.content\)，并使用&#x200B;**Assets UI**&#x200B;批量上传资源，则可以批量上传70个或更少文件。
 
 >[!ENDTABS]
 

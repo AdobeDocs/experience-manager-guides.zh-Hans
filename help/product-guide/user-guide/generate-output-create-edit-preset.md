@@ -15,9 +15,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a99aa6be404fb5f4675f50aad8c4f282520d605f
 workflow-type: tm+mt
-source-wordcount: 129
+source-wordcount: 153
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 0%
 通过直接将必填字段更改为所需的预设设置，可以编辑选定的输出预设。
 
 此外，您还可以使用&#x200B;**选项**&#x200B;下拉菜单复制或删除输出预设，如下所示。
+
+>[!NOTE]
+>
+>无法编辑、复制或删除模板预设。 这些操作仅限管理员执行。 若要了解有关模板预设的更多信息，请参阅[模板预设](../install-conf-guide/template-presets-output-generation.md)。
 
 
 ![](images/delete-preset-map-console.png)

@@ -13,18 +13,14 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 675
 ht-degree: 0%
 
 ---
 
 # 了解审阅通知
-
->[!IMPORTANT]
->
-> 默认情况下，Experience Manager Guides as a Cloud Service的2508版本中启用了本文中描述的新功能。 在迁移之前创建的审阅不会受到影响，并将继续使用之前的工作流。 如果您希望在不进行这些更新的情况下继续使用现有功能，请联系您的客户成功团队以禁用新功能。
 
 Experience Manager Guides通过结构化的审阅工作流程简化了作者与审阅者之间的协作。 作为此工作流的一部分，通知在使审核任务的所有参与者了解情况并响应更改方面发挥着关键作用。
 

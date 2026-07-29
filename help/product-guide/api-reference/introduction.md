@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: b0e39e78724e6d47e47648cd8c3a36aef307caf8
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 0%
 
 ---
@@ -134,14 +134,13 @@ Experience Manager Guides提供了一组全面的基于REST的API，允许开发
 
 >[!NOTE]
 >
-> 您还可以参阅&#x200B;**Swagger文档**，以了解位于`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`的公开可用REST API。 目前，Swagger文档中仅提供了与Assets、基线和报表相关的API。
-
+> 您还可以参阅&#x200B;**Swagger文档**&#x200B;以了解位于`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`的公开可用REST API，或通过AEM界面访问它，方法是导航到&#x200B;**工具** > **指南** > **API Swagger**。 目前，Swagger文档仅提供与Assets、基线、报表、翻译和发布相关的API。
 
 ## 其他资源
 
-以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)页面上：
+以下是AEM Guides其他有用资源的列表，这些资源位于[学习与支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)页面上：
 
 - 用户指南
 - 安装和配置指南
 - 快速入门指南
-- [帮助存档页面](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）
+- [帮助存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（访问旧版文档\）

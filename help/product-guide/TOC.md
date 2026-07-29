@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: d24dd017dcedb08e71cfbcf6c4f0aabdc8f20d85
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2573'
 ht-degree: 10%
 
 ---
@@ -15,666 +15,680 @@ ht-degree: 10%
 - [[!DNL AEM Guides]概述](overview.md)
 - [免责声明](./user-guide/rebranding-disclaimer.md)
 - 版本信息 {#release-info}
-   - [AEM Guides版本发行路线图](./release-info/aem-guides-releases-roadmap.md)
-   - 发行说明 {#release-notes}
-      - 云服务 {#cloud-release-notes}
-         - {hide-from-toc}[部署说明](./release-info/deploy-xml-on-aemaacs.md)
-         - {hide-from-toc}[云版本](./release-info/latest-release-info-cs.md)
-         - 2026版 {#2026-releases}
-            - 2026.07.0发行版 {#2607-release}
-               - [修复的问题](./release-info/fixed-issues-2026-07-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2026-07-0.md)
-            - 2026.06.0发行版 {#2606-release}
-               - [新增功能](./release-info/whats-new-2026-06-0.md)
-               - [修复的问题](./release-info/fixed-issues-2026-06-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2026-06-0.md)
-            - 2026.05.0 SP1发行版 {#2605-sp1-release}
-               - [修复的问题](./release-info/fixed-issues-2026-05-0-sp1.md)
-            - 2026.05.0发行版 {#2605-release}
-               - [新增功能](./release-info/whats-new-2026-05-0.md)
-               - [修复的问题](./release-info/fixed-issues-2026-05-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2026-05-0.md)
-            - 2026.04.0发行版 {#2604-release}
-               - [新增功能](./release-info/whats-new-2026-04-0.md)
-               - [修复的问题](./release-info/fixed-issues-2026-04-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2026-04-0.md)
-            - 2026.03.0发行版 {#2603-release}
-               - {hide-from-toc}[新增功能](./release-info/whats-new-2026-03-0.md)
-               - {hide-from-toc}[已修复问题](./release-info/fixed-issues-2026-03-0.md)
-               - {hide-from-toc}[升级说明](./release-info/upgrade-instructions-2026-03-0.md)
-            - 2026.01.0发行版 {#2601-release}
-               - [新增功能](./release-info/whats-new-2026-01-0.md)
-               - [修复的问题](./release-info/fixed-issues-2026-01-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2026-01-0.md)
-         - 2025版 {#2025-releases}
-            - 2025.11.0发行版 {#2511-release}
-               - [新增功能](./release-info/whats-new-2025-11-0.md)
-               - [修复的问题](./release-info/fixed-issues-2025-11-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2025-11-0.md)
-            - 2025.10.0发行版 {#2510-release}
-               - [新增功能](./release-info/whats-new-2025-10-0.md)
-               - [修复的问题](./release-info/fixed-issues-2025-10-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2025-10-0.md)
-            - 2025.08.0发行版 {#2508-release}
-               - [新增功能](./release-info/whats-new-2025-08-0.md)
-               - [修复的问题](./release-info/fixed-issues-2025-08-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2025-08-0.md)
-            - 2025.07.0发行版 {#2507-release}
-               - [新增功能](./release-info/whats-new-2025-07-0.md)
-               - [修复的问题](./release-info/fixed-issues-2025-07-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2025-07-0.md)
-            - 2025.06.0发行版 {#2506-release}
-               - [新增功能](./release-info/whats-new-2025-06-0.md)
-               - [修复的问题](./release-info/fixed-issues-2025-06-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2025-06-0.md)
-            - 2025.04.0发行版 {#2504-release}
-               - [新增功能](./release-info/whats-new-2025-04-0.md)
-               - [修复的问题](./release-info/fixed-issues-2025-04-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2025-04-0.md)
-            - 2025.02.0发布 {#2502-release}
-               - [新增功能](./release-info/whats-new-2025-02-0.md)
-               - [修复的问题](./release-info/fixed-issues-2025-02-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2025-02-0.md)
-         - 2024版 {#2024-releases}
-            - 2024.12.0发行版 {#2412-release}
-               - [修复的问题](./release-info/fixed-issues-2024-12-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2024-12-0.md)
-            - 2024.10.0 SP1发行版 {#2410-0-sp1-release}
-               - [修复的问题](./release-info/fixed-issues-2024-10-0-sp1.md)
-            - 2024.10.0发行版 {#2410-0-release}
-               - [新增功能](./release-info/whats-new-2024-10-0.md)
-               - [修复的问题](./release-info/fixed-issues-2024-10-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2024-10-0.md)
-            - 2024.6.0发行版 {#2406-release}
-               - [新增功能](./release-info/whats-new-2024-06-0.md)
-               - [修复的问题](./release-info/fixed-issues-2024-06-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2024-06-0.md)
-            - 2024.4.0发行版 {#2404-release}
-               - [新增功能](./release-info/whats-new-2024-04-0.md)
-               - [修复的问题](./release-info/fixed-issues-2024-04-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2024-04-0.md)
-            - 2024.2.0发行版 {#2402-release}
-               - [新增功能](./release-info/whats-new-2024-2-0.md)
-               - [修复的问题](./release-info/fixed-issues-2024-2-0.md)
-               - [升级说明](./release-info/upgrade-instructions-2024-2-0.md)
-         - 2023版 {#2023-releases}
-            - 12月版 {#2312-release}
-               - [新增功能](./release-info/whats-new-2023-12-0.md)
-               - [发行说明](./release-info/release-notes-2023-12-0.md)
-            - 11月版 {#2311-release}
-               - [新增功能](./release-info/whats-new-2023-11-0.md)
-               - [发行说明](./release-info/release-notes-2023-11-0.md)
-            - 10月版 {#2310-release}
-               - [新增功能](./release-info/whats-new-2023-10-0.md)
-               - [发行说明](./release-info/release-notes-2023-10-0.md)
-            - 9月版 {#2309-release}
-               - [新增功能](./release-info/whats-new-2023-9-0.md)
-               - [发行说明](./release-info/release-notes-2023-9-0.md)
-            - 7月版 {#2307-release}
-               - [新增功能](./release-info/whats-new-2023-7-0.md)
-               - [发行说明](./release-info/release-notes-2023-7-0.md)
-            - 6月版 {#2306-release}
-               - [新增功能](./release-info/whats-new-2023-6-0.md)
-               - [发行说明](./release-info/release-notes-2023-6-0.md)
-            - 4月版 {#2304-release}
-               - [新增功能](./release-info/whats-new-2023-4-0.md)
-               - [发行说明](./release-info/release-notes-2023-4-0.md)
-            - 3月版 {#2303-release}
-               - [新增功能](./release-info/whats-new-2023-3-0.md)
-               - [发行说明](./release-info/release-notes-2023-3-0.md)
-            - 2月版 {#2302-release}
-               - [新增功能](./release-info/whats-new-2023-2-0.md)
-               - [发行说明](./release-info/release-notes-2023-2-0.md)
-         - 2022版 {#2022-releases}
-            - [11月发行说明](./release-info/release-notes-2022-11-0.md)
-            - [10月发行说明](./release-info/release-notes-2022-10-0.md)
-            - [9月发行说明](./release-info/release-notes-2022-9-0.md)
-            - [8月发行说明](./release-info/release-notes-2022-8-0.md)
-            - [5月发行说明](./release-info/release-notes-2022-5-0.md)
-            - [4月发行说明](./release-info/release-notes-2022-4-0.md)
-            - [3月发行说明](./release-info/release-notes-2022-3-0.md)
-            - [2月发行说明](./release-info/release-notes-2022-2-0.md)
-            - [1月发行说明](./release-info/release-notes-2022-1-0.md)
-      - 内部部署/Managed Services {#on-prem-release-notes}
-         - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
-         - 5.2.0发行版 {#520-release}
-            - [新增功能](./release-info/whats-new-5-2-0.md)
-            - [修复的问题](./release-info/fixed-issues-5-2-0.md)
-            - [升级说明](./release-info/upgrade-instructions-5-2-0.md)
-         - 5.1.0 SP4版本 {#510-sp4-release}
-            - [修复的问题](./release-info/fixed-issues-5-1-0-sp4.md)
-            - [升级说明](./release-info/upgrade-instructions-5-1-0-sp4.md)
-         - 5.1.0 SP3版本 {#510-sp3-release}
-            - [新增功能](./release-info/whats-new-5-1-3.md)
-            - [修复的问题](./release-info/fixed-issues-5-1-0-sp3.md)
-            - [升级说明](./release-info/upgrade-instructions-5-1-0-sp3.md)
-         - 5.1.0 SP1版本 {#510-sp1-release}
-            - [修复的问题](./release-info/fixed-issues-5-1-0-sp1.md)
-            - [升级说明](./release-info/upgrade-instructions-5-1-0-sp1.md)
-         - 5.1.0发行版 {#510-release}
-            - [新增功能](./release-info/whats-new-5-1-0.md)
-            - [修复的问题](./release-info/fixed-issues-5-1-0.md)
-            - [升级说明](./release-info/upgrade-instructions-5-1-0.md)
-         - 5.0.0 SP4版本 {#500-sp4-release}
-            - [修复的问题](./release-info/fixed-issues-5-0-0-sp4.md)
-            - [升级说明](./release-info/upgrade-instructions-5-0-0-sp4.md)
-         - 5.0.0 SP3版本 {#500-sp3-release}
-            - [修复的问题](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [升级说明](./release-info/upgrade-instructions-5-0-0-sp3.md)
-         - 5.0.0 SP2版本 {#500-sp2-release}
-            - [修复的问题](./release-info/fixed-issues-5-0-0-sp2.md)
-            - [升级说明](./release-info/upgrade-instructions-5-0-0-sp2.md)
-         - 5.0.0 SP1版本 {#500-sp1-release}
-            - [修复的问题](./release-info/fixed-issues-5-0-0-sp1.md)
-            - [升级说明](./release-info/upgrade-instructions-5-0-0-sp1.md)
-         - 5.0.0发行版 {#500-release}
-            - [新增功能](./release-info/whats-new-5-0-0.md)
-            - [修复的问题](./release-info/fixed-issues-5-0-0.md)
-            - [升级说明](./release-info/upgrade-instructions-5-0-0.md)
-         - 4.6.0 SP4版本 {#460-sp4-release}
-            - [已修复问题](./release-info/fixed-issues-4-6-0-sp4.md)
-            - [升级说明](./release-info/upgrade-instructions-4-6-0-sp4.md)
-         - 4.6.0 SP3版本 {#460-sp3-release}
-            - [已修复问题](./release-info/fixed-issues-4-6-0-sp2.md)
-            - [升级说明](./release-info/upgrade-instructions-4-6-0-sp2.md)
-         - 4.6.0 SP1版本 {#460-sp1-release}
-            - [已修复问题](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [升级说明](./release-info/upgrade-instructions-4-6-0-sp1.md)
-         - 4.6.0发行版 {#460-release}
-            - [新增功能](./release-info/whats-new-4-6.md)
-            - [已修复问题](./release-info/fixed-issues-4-6-0.md)
-            - [升级说明](./release-info/upgrade-instructions-4-6-0.md)
-         - 4.4.0发行版 {#440-release}
-            - [新增功能](./release-info/whats-new-4-4.md)
-            - [修复的问题](./release-info/fixed-issues-4-4.md)
-            - [升级说明](./release-info/upgrade-instructions-4-4.md)
-         - 4.3.1.5版本 {#4315-release}
-            - [修复的问题](./release-info/fixed-issues-4-3-1-5.md)
-            - [升级说明](./release-info/upgrade-instructions-4-3-1-5.md)
-         - 4.3.0发行版 {#43-release}
-            - 新增功能 {#43-whats-new}
-               - [4.3.1新增功能](./release-info/whats-new-4-3-1-release.md)
-               - [4.3.0新增功能](./release-info/whats-new-4-3-release.md)
-            - 发行说明 {#43-release-notes}
-               - [4.3.1发行说明](./release-info/release-notes-4-3-1.md)
-               - [4.3.0发行说明](./release-info/release-notes-4-3.md)
-         - 4.2版本 {#42-release}
-            - 新增功能 {#42-whats-new}
-               - [4.2.1新增功能](./release-info/whats-new-4-2-1-release.md)
-               - [4.2新增功能](./release-info/whats-new-4-2-release.md)
-            - 发行说明 {#42-release-notes}
-               - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
-               - [4.2发行说明](./release-info/release-notes-4-2.md)
-         - [4.1.x发行说明](./release-info/release-notes-4-1.md)
-         - [4.0.x发行说明](./release-info/release-notes-4-0.md)
-         - [3.8.x发行说明](./release-info/release-notes-3-8.md)
+  - [AEM Guides版本发行路线图](./release-info/aem-guides-releases-roadmap.md)
+  - 发行说明 {#release-notes}
+    - 云服务 {#cloud-release-notes}
+      - {hide-from-toc}[部署说明](./release-info/deploy-xml-on-aemaacs.md)
+      - {hide-from-toc}[云版本](./release-info/latest-release-info-cs.md)
+      - 2026版 {#2026-releases}
+        - 2026.08.0发行版 {#2608-release}
+          - [新增功能](./release-info/whats-new-2026-08-0.md)
+          - [修复的问题](./release-info/fixed-issues-2026-08-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2026-08-0.md)
+        - 2026.07.0发行版 {#2607-release}
+          - [修复的问题](./release-info/fixed-issues-2026-07-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2026-07-0.md)
+        - 2026.06.0发行版 {#2606-release}
+          - [新增功能](./release-info/whats-new-2026-06-0.md)
+          - [修复的问题](./release-info/fixed-issues-2026-06-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2026-06-0.md)
+        - 2026.05.0 SP1发行版 {#2605-sp1-release}
+          - [修复的问题](./release-info/fixed-issues-2026-05-0-sp1.md)
+        - 2026.05.0发行版 {#2605-release}
+          - [新增功能](./release-info/whats-new-2026-05-0.md)
+          - [修复的问题](./release-info/fixed-issues-2026-05-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2026-05-0.md)
+        - 2026.04.0发行版 {#2604-release}
+          - [新增功能](./release-info/whats-new-2026-04-0.md)
+          - [修复的问题](./release-info/fixed-issues-2026-04-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2026-04-0.md)
+        - 2026.03.0发行版 {#2603-release}
+          - {hide-from-toc}[新增功能](./release-info/whats-new-2026-03-0.md)
+          - {hide-from-toc}[已修复问题](./release-info/fixed-issues-2026-03-0.md)
+          - {hide-from-toc}[升级说明](./release-info/upgrade-instructions-2026-03-0.md)
+        - 2026.01.0发行版 {#2601-release}
+          - [新增功能](./release-info/whats-new-2026-01-0.md)
+          - [修复的问题](./release-info/fixed-issues-2026-01-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2026-01-0.md)
+      - 2025版 {#2025-releases}
+        - 2025.11.0发行版 {#2511-release}
+          - [新增功能](./release-info/whats-new-2025-11-0.md)
+          - [修复的问题](./release-info/fixed-issues-2025-11-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2025-11-0.md)
+        - 2025.10.0发行版 {#2510-release}
+          - [新增功能](./release-info/whats-new-2025-10-0.md)
+          - [修复的问题](./release-info/fixed-issues-2025-10-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2025-10-0.md)
+        - 2025.08.0发行版 {#2508-release}
+          - [新增功能](./release-info/whats-new-2025-08-0.md)
+          - [修复的问题](./release-info/fixed-issues-2025-08-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2025-08-0.md)
+        - 2025.07.0发行版 {#2507-release}
+          - [新增功能](./release-info/whats-new-2025-07-0.md)
+          - [修复的问题](./release-info/fixed-issues-2025-07-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2025-07-0.md)
+        - 2025.06.0发行版 {#2506-release}
+          - [新增功能](./release-info/whats-new-2025-06-0.md)
+          - [修复的问题](./release-info/fixed-issues-2025-06-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2025-06-0.md)
+        - 2025.04.0发行版 {#2504-release}
+          - [新增功能](./release-info/whats-new-2025-04-0.md)
+          - [修复的问题](./release-info/fixed-issues-2025-04-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2025-04-0.md)
+        - 2025.02.0发布 {#2502-release}
+          - [新增功能](./release-info/whats-new-2025-02-0.md)
+          - [修复的问题](./release-info/fixed-issues-2025-02-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2025-02-0.md)
+      - 2024版 {#2024-releases}
+        - 2024.12.0发行版 {#2412-release}
+          - [修复的问题](./release-info/fixed-issues-2024-12-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2024-12-0.md)
+        - 2024.10.0 SP1发行版 {#2410-0-sp1-release}
+          - [修复的问题](./release-info/fixed-issues-2024-10-0-sp1.md)
+        - 2024.10.0发行版 {#2410-0-release}
+          - [新增功能](./release-info/whats-new-2024-10-0.md)
+          - [修复的问题](./release-info/fixed-issues-2024-10-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2024-10-0.md)
+        - 2024.6.0发行版 {#2406-release}
+          - [新增功能](./release-info/whats-new-2024-06-0.md)
+          - [修复的问题](./release-info/fixed-issues-2024-06-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2024-06-0.md)
+        - 2024.4.0发行版 {#2404-release}
+          - [新增功能](./release-info/whats-new-2024-04-0.md)
+          - [修复的问题](./release-info/fixed-issues-2024-04-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2024-04-0.md)
+        - 2024.2.0发行版 {#2402-release}
+          - [新增功能](./release-info/whats-new-2024-2-0.md)
+          - [修复的问题](./release-info/fixed-issues-2024-2-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2024-2-0.md)
+      - 2023版 {#2023-releases}
+        - 12月版 {#2312-release}
+          - [新增功能](./release-info/whats-new-2023-12-0.md)
+          - [发行说明](./release-info/release-notes-2023-12-0.md)
+        - 11月版 {#2311-release}
+          - [新增功能](./release-info/whats-new-2023-11-0.md)
+          - [发行说明](./release-info/release-notes-2023-11-0.md)
+        - 10月版 {#2310-release}
+          - [新增功能](./release-info/whats-new-2023-10-0.md)
+          - [发行说明](./release-info/release-notes-2023-10-0.md)
+        - 9月版 {#2309-release}
+          - [新增功能](./release-info/whats-new-2023-9-0.md)
+          - [发行说明](./release-info/release-notes-2023-9-0.md)
+        - 7月版 {#2307-release}
+          - [新增功能](./release-info/whats-new-2023-7-0.md)
+          - [发行说明](./release-info/release-notes-2023-7-0.md)
+        - 6月版 {#2306-release}
+          - [新增功能](./release-info/whats-new-2023-6-0.md)
+          - [发行说明](./release-info/release-notes-2023-6-0.md)
+        - 4月版 {#2304-release}
+          - [新增功能](./release-info/whats-new-2023-4-0.md)
+          - [发行说明](./release-info/release-notes-2023-4-0.md)
+        - 3月版 {#2303-release}
+          - [新增功能](./release-info/whats-new-2023-3-0.md)
+          - [发行说明](./release-info/release-notes-2023-3-0.md)
+        - 2月版 {#2302-release}
+          - [新增功能](./release-info/whats-new-2023-2-0.md)
+          - [发行说明](./release-info/release-notes-2023-2-0.md)
+      - 2022版 {#2022-releases}
+        - [11月发行说明](./release-info/release-notes-2022-11-0.md)
+        - [10月发行说明](./release-info/release-notes-2022-10-0.md)
+        - [9月发行说明](./release-info/release-notes-2022-9-0.md)
+        - [8月发行说明](./release-info/release-notes-2022-8-0.md)
+        - [5月发行说明](./release-info/release-notes-2022-5-0.md)
+        - [4月发行说明](./release-info/release-notes-2022-4-0.md)
+        - [3月发行说明](./release-info/release-notes-2022-3-0.md)
+        - [2月发行说明](./release-info/release-notes-2022-2-0.md)
+        - [1月发行说明](./release-info/release-notes-2022-1-0.md)
+    - 内部部署/Managed Services {#on-prem-release-notes}
+      - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
+      - 5.2.0发行版 {#520-release}
+        - [新增功能](./release-info/whats-new-5-2-0.md)
+        - [修复的问题](./release-info/fixed-issues-5-2-0.md)
+        - [升级说明](./release-info/upgrade-instructions-5-2-0.md)
+      - 5.1.0 SP4版本 {#510-sp4-release}
+        - [修复的问题](./release-info/fixed-issues-5-1-0-sp4.md)
+        - [升级说明](./release-info/upgrade-instructions-5-1-0-sp4.md)
+      - 5.1.0 SP3版本 {#510-sp3-release}
+        - [新增功能](./release-info/whats-new-5-1-3.md)
+        - [修复的问题](./release-info/fixed-issues-5-1-0-sp3.md)
+        - [升级说明](./release-info/upgrade-instructions-5-1-0-sp3.md)
+      - 5.1.0 SP1版本 {#510-sp1-release}
+        - [修复的问题](./release-info/fixed-issues-5-1-0-sp1.md)
+        - [升级说明](./release-info/upgrade-instructions-5-1-0-sp1.md)
+      - 5.1.0发行版 {#510-release}
+        - [新增功能](./release-info/whats-new-5-1-0.md)
+        - [修复的问题](./release-info/fixed-issues-5-1-0.md)
+        - [升级说明](./release-info/upgrade-instructions-5-1-0.md)
+      - 5.0.0 SP4版本 {#500-sp4-release}
+        - [修复的问题](./release-info/fixed-issues-5-0-0-sp4.md)
+        - [升级说明](./release-info/upgrade-instructions-5-0-0-sp4.md)
+      - 5.0.0 SP3版本 {#500-sp3-release}
+        - [修复的问题](./release-info/fixed-issues-5-0-0-sp3.md)
+        - [升级说明](./release-info/upgrade-instructions-5-0-0-sp3.md)
+      - 5.0.0 SP2版本 {#500-sp2-release}
+        - [修复的问题](./release-info/fixed-issues-5-0-0-sp2.md)
+        - [升级说明](./release-info/upgrade-instructions-5-0-0-sp2.md)
+      - 5.0.0 SP1版本 {#500-sp1-release}
+        - [修复的问题](./release-info/fixed-issues-5-0-0-sp1.md)
+        - [升级说明](./release-info/upgrade-instructions-5-0-0-sp1.md)
+      - 5.0.0发行版 {#500-release}
+        - [新增功能](./release-info/whats-new-5-0-0.md)
+        - [修复的问题](./release-info/fixed-issues-5-0-0.md)
+        - [升级说明](./release-info/upgrade-instructions-5-0-0.md)
+      - 4.6.0 SP4版本 {#460-sp4-release}
+        - [已修复问题](./release-info/fixed-issues-4-6-0-sp4.md)
+        - [升级说明](./release-info/upgrade-instructions-4-6-0-sp4.md)
+      - 4.6.0 SP3版本 {#460-sp3-release}
+        - [已修复问题](./release-info/fixed-issues-4-6-0-sp2.md)
+        - [升级说明](./release-info/upgrade-instructions-4-6-0-sp2.md)
+      - 4.6.0 SP1版本 {#460-sp1-release}
+        - [已修复问题](./release-info/fixed-issues-4-6-0-sp1.md)
+        - [升级说明](./release-info/upgrade-instructions-4-6-0-sp1.md)
+      - 4.6.0发行版 {#460-release}
+        - [新增功能](./release-info/whats-new-4-6.md)
+        - [已修复问题](./release-info/fixed-issues-4-6-0.md)
+        - [升级说明](./release-info/upgrade-instructions-4-6-0.md)
+      - 4.4.0发行版 {#440-release}
+        - [新增功能](./release-info/whats-new-4-4.md)
+        - [修复的问题](./release-info/fixed-issues-4-4.md)
+        - [升级说明](./release-info/upgrade-instructions-4-4.md)
+      - 4.3.1.5版本 {#4315-release}
+        - [修复的问题](./release-info/fixed-issues-4-3-1-5.md)
+        - [升级说明](./release-info/upgrade-instructions-4-3-1-5.md)
+      - 4.3.0发行版 {#43-release}
+        - 新增功能 {#43-whats-new}
+          - [4.3.1新增功能](./release-info/whats-new-4-3-1-release.md)
+          - [4.3.0新增功能](./release-info/whats-new-4-3-release.md)
+        - 发行说明 {#43-release-notes}
+          - [4.3.1发行说明](./release-info/release-notes-4-3-1.md)
+          - [4.3.0发行说明](./release-info/release-notes-4-3.md)
+      - 4.2版本 {#42-release}
+        - 新增功能 {#42-whats-new}
+          - [4.2.1新增功能](./release-info/whats-new-4-2-1-release.md)
+          - [4.2新增功能](./release-info/whats-new-4-2-release.md)
+        - 发行说明 {#42-release-notes}
+          - [4.2.1发行说明](./release-info/release-notes-4-2-1.md)
+          - [4.2发行说明](./release-info/release-notes-4-2.md)
+      - [4.1.x发行说明](./release-info/release-notes-4-1.md)
+      - [4.0.x发行说明](./release-info/release-notes-4-0.md)
+      - [3.8.x发行说明](./release-info/release-notes-3-8.md)
 - 用户指南（新UI） {#user-guide}
-   - 简介 {#about-aemg}
-      - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
-         - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
-   - 主页 {#home-page}
-      - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
-      - [存储库界面](./user-guide/home-page-repository-view.md)
-   - 创作内容 {#author-content}
-      - [创作概述](./user-guide/authoring-content.md)
-      - [使用AEM Guides创作内容的方法](./user-guide/authoring-content-xml-doc.md)
-      - 编辑器 {#work-with-editor}
-         - [编辑器简介](./user-guide/web-editor.md)
-         - [启动编辑器](./user-guide/web-editor-launch-editor.md)
-         - [在编辑器中编辑主题](./user-guide/web-editor-edit-topics.md)
-         - 主题创建和预览 {#create-preview-topics}
-            - [创建和预览主题](./user-guide/create-preview-topics.md)
-            - [创建主题](./user-guide/web-editor-create-topics.md)
-            - [预览主题](./user-guide/web-editor-preview-topics.md)
-         - {hide-from-toc}[了解编辑器功能](./user-guide/web-editor-features.md)
-         - 了解编辑器界面和功能 {#editor-interface-features}
-            - [概述](./user-guide/intro-editor-interface.md)
-            - [标题栏](./user-guide/web-editor-header-bar.md)
-            - [选项卡栏](./user-guide/web-editor-tab-bar.md)
-            - [工具栏](./user-guide/web-editor-toolbar.md)
-            - [左侧面板](./user-guide/web-editor-left-panel.md)
-            - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
-            - [右面板](./user-guide/web-editor-right-panel.md)
-            - [搜索面板](./user-guide/search-panel-explorer.md)
-         - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
-         - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
-         - [编辑器视图](./user-guide/web-editor-views.md)
-         - [支持Schematron文件](./user-guide/support-schematron-file.md)
-         - [从编辑器中创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
-         - [将引用添加到您的内容](./user-guide/web-editor-apply-citations.md)
-         - [使用数据源中的数据](./user-guide/web-editor-content-snippet.md)
-         - {hide-from-toc}[使用Git Connector (Beta)导入内容](./user-guide/web-editor-git-connector.md)
-         - [文档状态](./user-guide/web-editor-document-states.md)
-         - [使用标签](./user-guide/web-editor-use-label.md)
-         - [编辑器设置](./user-guide/config-editor-settings.md)
-      - 映射编辑器 {#map-editor}
-         - [映射编辑器简介](./user-guide/map-editor.md)
-         - [创建映射](./user-guide/map-editor-create-map.md)
-         - [根据自定义模板创建映射](./user-guide/create-maps-customized-templates.md)
-         - [映射编辑器功能](./user-guide/map-editor-advanced-map-editor.md)
-         - [下载文件](./user-guide/authoring-download-assets.md)
-         - [地图编辑器中的其他功能](./user-guide/map-editor-other-features.md)
-      - DITAVAL编辑器 {#ditaval-editor}
-         - [使用DITAVAL编辑器](./user-guide/ditaval-editor.md)
-      - 用于创作内容的桌面工具 {#author-using-desktop-tools}
-         - [使用桌面工具创作内容](./user-guide/author-desktop-tools.md)
-   - 审核内容 {#review}
-      - [评论简介](./user-guide/review.md)
-      - [创建DITA项目](./user-guide/authoring-create-dita-project.md)
-      - [发送主题以供审阅](./user-guide/review-send-topics-for-review.md)
-      - [查看主题](./user-guide/review-topics.md)
-      - [使用通知重新分配审核任务](./user-guide/reassign-review-using-notification.md)
-      - [以审阅者身份完成审阅任务](./user-guide/review-complete-review-tasks.md)
-      - [地址审核注释](./user-guide/review-address-review-comments.md)
-      - [关闭或请求重新审核审核任务](./user-guide/review-close-review-task.md)
-      - [使用审阅功能板管理审阅任务](./user-guide/review-manage-tasks-review-dashboard.md)
-      - [查看已完成的审核任务](./user-guide/review-view-completed-task.md)
-      - [了解审阅通知](./user-guide/review-understanding-review-notifications.md)
-   - 使用Adobe Workfront进行协作 {#workfront-integration}
-      - [Workfront与Experience Manager Guides集成](./user-guide/workfront-integration.md)
-   - 元数据和标记 {#manage-metadata}
-      - [管理元数据](./user-guide/manage-metadata.md)
-      - [在AEM中使用元数据](./user-guide/metadata-dita.md)
-      - [智能标记](./user-guide/web-editor-smart-tagging.md)
-      - [批量标记DITA内容](./user-guide/map-editor-bulk-tagging.md)
-   - 地图管理和发布 {#map-management-publishing}
-      - [映射控制台概述](./user-guide/map-console-overview.md)
-      - [在“映射”控制台中打开文件](./user-guide/open-files-map-console.md)
-      - 报告 {#reports-aem-guide}
-         - [报表简介](./user-guide/reports-intro.md)
-         - [“映射”控制台中的DITA映射报表](./user-guide/reports-web-editor.md)
-         - [映射仪表板中的DITA映射报表](./user-guide/reports-ditamap.md)
-         - [内容重用报告](./user-guide/reports-content-reuse.md)
-         - [转化状态报表](./user-guide/reports-convertion-status.md)
-         - [还原的文件版本历史记录报告](./user-guide/reports-reverted-file-version-history.md)
-      - 内容翻译 {#translate-content}
-         - [内容翻译概述](./user-guide/translation.md)
-         - [内容翻译的最佳实践](./user-guide/translation-first-time.md)
-         - [从“地图”控制台翻译文档](./user-guide/translate-documents-web-editor.md)
-         - [查看翻译状态](./user-guide/translation-view-trans-state-6234.md)
-         - [翻译修改的主题](./user-guide/translation-modified-topics-6234.md)
-      - 输出生成 {#output-gen}
-         - [输出生成基础知识](./user-guide/generate-output.md)
-         - AEM Guides中的输出预设 {#output-presets-aemg}
-            - [输出预设简介](./user-guide/generate-output-understand-presets.md)
-            - AEM Sites {#aem-sites}
-               - [“地图”控制台中的AEM Sites预设](./user-guide/generate-output-aem-site-web-editor.md)
-               - [地图仪表板中的AEM Sites预设](./user-guide/generate-output-aem-site-map-dashboard.md)
-            - PDF {#pdf-preset}
-               - [PDF输出预设概述](./user-guide/generate-output-pdf.md)
-               - [DITA-OT PDF输出预设](./user-guide/generate-output-pdf-dita-ot.md)
-               - [原生PDF输出预设](./web-editor/native-pdf-web-editor.md)
-            - [知识库](./user-guide/generate-output-knowledge-base.md)
-            - [HTML5](./user-guide/generate-output-html5.md)
-            - [ePub](./user-guide/generate-output-epub.md)
-            - [自定义](./user-guide/generate-output-custom.md)
-            - [JSON](./user-guide/generate-output-json.md)
-         - [编辑、复制或删除输出预设](./user-guide/generate-output-create-edit-preset.md)
-         - 条件化内容 {#conditional-content}
-            - [使用条件预设](./user-guide/generate-output-use-condition-presets.md)
-            - [条件属性分析](./user-guide/generate-output-conditional-attribute-profiling.md)
-         - 使用基线 {#work-with-baseline}
-            - [从“映射”控制台创建和管理基线](./user-guide/web-editor-baseline.md)
-            - [从“映射”功能板创建和管理基线](./user-guide/generate-output-use-baseline-for-publishing.md)
-            - [从“映射”控制台创建和管理新基线](./user-guide/web-editor-baseline-v2.md)
-            - [新建基线迁移常见问题解答](./user-guide/new-baseline-migration-faq.md)
-         - [管理全局和文件夹配置文件输出预设](./user-guide/web-editor-manage-output-presets.md)
-         - [使用变量设置目标路径、站点名称或文件名选项](./user-guide/generate-output-use-variables.md)
-         - [使用DITA-OT将元数据传递到输出](./user-guide/pass-metadata-dita-ot.md)
-         - 生成输出 {#generate-output}
-            - [为DITA映射生成输出](./user-guide/generate-output-for-a-dita-map.md)
-            - [生成知识库输出](./user-guide/web-editor-article-publishing.md)
-            - 单个主题发布 {#single-topic-publishing}
-               - [发布内容片段](./user-guide/publish-content-fragment.md)
-               - [发布体验片段](./user-guide/publish-experience-fragment.md)
-               - [发布AEM Sites页面](./user-guide/publish-aem-sites.md)
-               - [增量输出生成](./user-guide/generate-output-aem-site.md)
-         - [使用映射集合生成输出](./user-guide/generate-output-use-map-collection-output-generation.md)
-         - [使用新的映射集合生成输出](./user-guide/generate-output-use-new-map-collection-output-generation.md)
-         - [管理输出生成流程](./user-guide/generate-output-manage-process.md)
-         - [使用发布仪表板管理发布任务](./user-guide/generate-output-publish-dashboard.md)
-         - [基本疑难解答](./user-guide/generate-output-basic-troubleshooting.md)
-         - [有关发布工作流和可扩展性的常见问题解答](./user-guide/publishing-scalability-faq.md)
-      - 批量激活内容 {#bulk-activation}
-         - [批量激活已发布的内容](./user-guide/conf-bulk-activation.md)
-         - [创建批量激活映射集合](./user-guide/conf-bulk-activation-create-map-collection.md)
-         - [激活输出](./user-guide/conf-bulk-activation-publish-map-collection.md)
-         - [编辑批量激活映射集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
-         - [删除批量激活映射集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
-         - [管理DITA源资产的复制](./user-guide/dita-assets-replication-aem-sites.md)
-   - 生成FrameMaker文档输出 {#generate-fm-output}
-      - [FrameMaker输出生成基础知识](./user-guide/fm-output-generatation.md)
-      - 支持的预设 {#fm-docs-generating-presets}
-         - [用于生成FrameMaker文档的预设](./user-guide/fm-output-understand-presets.md)
-         - [PDF](./user-guide/fm-output-pdf-preset.md)
-         - [HTML5](./user-guide/fm-output-html5-preset.md)
-         - [ePub](./user-guide/fm-output-epub-preset.md)
-      - [生成.book或.fm文件的输出](./user-guide/fm-output-generate.md)
-      - [查看输出生成任务的状态](./user-guide/fm-output-view-status.md)
-   - AEM Guides的人工智能助手 {#ai-assistant-aem}
-      - [Adobe Generative AI用户披露](./user-guide/adobe-generative-ai-disclosures.md)
-      - [AI 助手概述](./user-guide/ai-assistant.md)
-      - [用于搜索内容的AI支持的智能帮助](./user-guide/ai-based-smart-help.md)
-      - [AI助手创作以智能地创作文档](./user-guide/ai-assistant-right-panel.md)
-      - [用于创作内容的AI支持的智能建议](./user-guide/authoring-ai-based-smart-suggestions.md)
-      - [常见问题解答](./user-guide/ai-assistant-faq.md)
-   - 管理学习内容 {#learning-training-content}
-      - 快速入门指南 {#get-started}
-         - 简介 {#intro-lc}
-            - {hide-from-toc}[发行说明](./release-info-lt/release-notes-lt-2025-12-v2.md)
-            - {hide-from-toc}[发行说明](./release-info-lt/release-notes-lt-2026-02-v3.md)
-            - [学习和培训内容概述](./learning-content/intro.md)
-         - 设置您的课程 {#setup-course}
-            - [课程概述](./learning-content/course-overview.md)
-            - [探索界面和先决条件](./learning-content/access-lc-interface-preq.md)
-            - [创建您的第一个课程](./learning-content/create-first-course.md)
-            - [了解课程经理基础知识](./learning-content/course-manager-basics.md)
-            - [管理您的课程](./learning-content/manage-course.md)
-         - 创建和自定义学习内容 {#customize-lc}
-            - [概述](./learning-content/lc-overview.md)
-            - [创建主题](./learning-content/create-content.md)
-            - [编辑主题](./learning-content/edit-content.md)
-            - [添加基本构建基块](./learning-content/lc-basic-blocks.md)
-            - [使用交互式小组件](./learning-content/lc-widgets.md)
-            - [“插入”菜单中的其他选项](./learning-content/lc-other-insert-options.md)
-            - [使用内联样式](./learning-content/lc-inline-styles.md)
-         - 创建和管理测验 {#quiz}
-            - [测试概述](./learning-content/quiz-overview.md)
-            - [创建测验](./learning-content/create-quiz.md)
-            - [编辑测验](./learning-content/edit-quiz.md)
-            - [在测验中插入问题](./learning-content/quiz-insert-questions.md)
-            - [测验属性](./learning-content/quiz-properties.md)
-            - 题库 {#question-bank}
-               - [创建问题银行](./learning-content/create-qb.md)
-               - [插入来自题库的问题](./learning-content/insert-questions.md)
-         - 发布您的课程 {#publish-course}
-            - [关于课程发布](./learning-content/publish-overview.md)
-            - [支持的预设](./learning-content/course-presets.md)
-            - 以SCORM格式发布课程 {#scorm-output}
-               - [创建SCORM输出预设](./learning-content/create-scorm-preset.md)
-               - [配置SCORM输出预设](./learning-content/config-scorm-preset.md)
-               - [生成SCORM输出](./learning-content/generate-scorm-output.md)
-            - 以PDF格式发布课程 {#pdf-output}
-               - [创建PDF输出预设](./learning-content/create-course-pdf-preset.md)
-               - [配置PDF输出预设](./learning-content/config-course-pdf-preset.md)
-               - [生成 PDF](./learning-content/generate-course-pdf.md)
-      - 配置指南 {#config-lc}
-         - [关于本指南](./lc-config-guide/introduction.md)
-         - [配置文件夹配置文件](./lc-config-guide/lc-folder-profile.md)
-         - [设置文件夹结构的最佳实践](./lc-config-guide/best-practices-folder-structure.md)
-         - [配置其他设置](./lc-config-guide/lc-other-settings.md)
-         - [SCORM关键量度](./lc-config-guide/learning-course-parameters.md)
-      - 视频教程 {#lc-video}
-         - [创作工作流](./lc-video-tutorials/author-workflow.md)
-         - [管理员工作流](./lc-video-tutorials/admin-workflow.md)
-   - 附录 {#appendix}
-      - 管理内容 {#manage-content}
-         - [关键概念、角色和权限以及先决条件](./user-guide/authoring.md)
-         - [上载文件](./user-guide/authoring-upload-existing-files.md)
-         - [管理文件和文件夹](./user-guide/authoring-file-management.md)
-         - [处理资源](./user-guide/asset-processor.md)
-      - 疑难解答 {#troubleshooting}
-         - [会话超时](./user-guide/session-timeout-prompt.md)
+  - 简介 {#about-aemg}
+    - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
+    - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
+      - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+      - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
+  - 主页 {#home-page}
+    - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
+    - [存储库界面](./user-guide/home-page-repository-view.md)
+  - 创作内容 {#author-content}
+    - [创作概述](./user-guide/authoring-content.md)
+    - [使用AEM Guides创作内容的方法](./user-guide/authoring-content-xml-doc.md)
+    - 编辑器 {#work-with-editor}
+      - [编辑器简介](./user-guide/web-editor.md)
+      - [启动编辑器](./user-guide/web-editor-launch-editor.md)
+      - [在编辑器中编辑主题](./user-guide/web-editor-edit-topics.md)
+      - 主题创建和预览 {#create-preview-topics}
+        - [创建和预览主题](./user-guide/create-preview-topics.md)
+        - [创建主题](./user-guide/web-editor-create-topics.md)
+        - [预览主题](./user-guide/web-editor-preview-topics.md)
+      - {hide-from-toc}[了解编辑器功能](./user-guide/web-editor-features.md)
+      - 了解编辑器界面和功能 {#editor-interface-features}
+        - [概述](./user-guide/intro-editor-interface.md)
+        - [标题栏](./user-guide/web-editor-header-bar.md)
+        - [选项卡栏](./user-guide/web-editor-tab-bar.md)
+        - [工具栏](./user-guide/web-editor-toolbar.md)
+        - [左侧面板](./user-guide/web-editor-left-panel.md)
+        - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
+        - [右面板](./user-guide/web-editor-right-panel.md)
+        - [搜索面板](./user-guide/search-panel-explorer.md)
+      - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+      - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
+      - [编辑器视图](./user-guide/web-editor-views.md)
+      - [支持Schematron文件](./user-guide/support-schematron-file.md)
+      - [从编辑器中创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
+      - [将引用添加到您的内容](./user-guide/web-editor-apply-citations.md)
+      - [使用数据源中的数据](./user-guide/web-editor-content-snippet.md)
+      - [使用Git连接器导入内容](./user-guide/web-editor-git-connector.md)
+      - [文档状态](./user-guide/web-editor-document-states.md)
+      - [使用标签](./user-guide/web-editor-use-label.md)
+      - [编辑器设置](./user-guide/config-editor-settings.md)
+    - 映射编辑器 {#map-editor}
+      - [映射编辑器简介](./user-guide/map-editor.md)
+      - [创建映射](./user-guide/map-editor-create-map.md)
+      - [根据自定义模板创建映射](./user-guide/create-maps-customized-templates.md)
+      - [映射编辑器功能](./user-guide/map-editor-advanced-map-editor.md)
+      - [下载文件](./user-guide/authoring-download-assets.md)
+      - [地图编辑器中的其他功能](./user-guide/map-editor-other-features.md)
+    - DITAVAL编辑器 {#ditaval-editor}
+      - [使用DITAVAL编辑器](./user-guide/ditaval-editor.md)
+    - 用于创作内容的桌面工具 {#author-using-desktop-tools}
+      - [使用桌面工具创作内容](./user-guide/author-desktop-tools.md)
+  - 审核内容 {#review}
+    - [评论简介](./user-guide/review.md)
+    - [创建DITA项目](./user-guide/authoring-create-dita-project.md)
+    - [发送主题以供审阅](./user-guide/review-send-topics-for-review.md)
+    - [查看主题](./user-guide/review-topics.md)
+    - [使用通知重新分配审核任务](./user-guide/reassign-review-using-notification.md)
+    - [以审阅者身份完成审阅任务](./user-guide/review-complete-review-tasks.md)
+    - [地址审核注释](./user-guide/review-address-review-comments.md)
+    - [关闭或请求重新审核审核任务](./user-guide/review-close-review-task.md)
+    - [使用审阅功能板管理审阅任务](./user-guide/review-manage-tasks-review-dashboard.md)
+    - [查看已完成的审核任务](./user-guide/review-view-completed-task.md)
+    - [了解审阅通知](./user-guide/review-understanding-review-notifications.md)
+  - 使用Adobe Workfront进行协作 {#workfront-integration}
+    - [Workfront与Experience Manager Guides集成](./user-guide/workfront-integration.md)
+  - 元数据和标记 {#manage-metadata}
+    - [管理元数据](./user-guide/manage-metadata.md)
+    - [在AEM中使用元数据](./user-guide/metadata-dita.md)
+    - [智能标记](./user-guide/web-editor-smart-tagging.md)
+    - [批量标记DITA内容](./user-guide/map-editor-bulk-tagging.md)
+  - 地图管理和发布 {#map-management-publishing}
+    - [映射控制台概述](./user-guide/map-console-overview.md)
+    - [在“映射”控制台中打开文件](./user-guide/open-files-map-console.md)
+    - 报告 {#reports-aem-guide}
+      - [报表简介](./user-guide/reports-intro.md)
+      - [“映射”控制台中的DITA映射报表](./user-guide/reports-web-editor.md)
+      - [映射仪表板中的DITA映射报表](./user-guide/reports-ditamap.md)
+      - [内容重用报告](./user-guide/reports-content-reuse.md)
+      - [转化状态报表](./user-guide/reports-convertion-status.md)
+      - [还原的文件版本历史记录报告](./user-guide/reports-reverted-file-version-history.md)
+    - 内容翻译 {#translate-content}
+      - [内容翻译概述](./user-guide/translation.md)
+      - [内容翻译的最佳实践](./user-guide/translation-first-time.md)
+      - [从“地图”控制台翻译文档](./user-guide/translate-documents-web-editor.md)
+      - [查看翻译状态](./user-guide/translation-view-trans-state-6234.md)
+      - [翻译修改的主题](./user-guide/translation-modified-topics-6234.md)
+    - 输出生成 {#output-gen}
+      - [输出生成基础知识](./user-guide/generate-output.md)
+      - AEM Guides中的输出预设 {#output-presets-aemg}
+        - [输出预设简介](./user-guide/generate-output-understand-presets.md)
+        - AEM Sites {#aem-sites}
+          - [“地图”控制台中的AEM Sites预设](./user-guide/generate-output-aem-site-web-editor.md)
+          - [地图仪表板中的AEM Sites预设](./user-guide/generate-output-aem-site-map-dashboard.md)
+        - PDF {#pdf-preset}
+          - [PDF输出预设概述](./user-guide/generate-output-pdf.md)
+          - [DITA-OT PDF输出预设](./user-guide/generate-output-pdf-dita-ot.md)
+          - [原生PDF输出预设](./web-editor/native-pdf-web-editor.md)
+        - [知识库](./user-guide/generate-output-knowledge-base.md)
+        - [HTML5](./user-guide/generate-output-html5.md)
+        - [ePub](./user-guide/generate-output-epub.md)
+        - [自定义](./user-guide/generate-output-custom.md)
+        - [JSON](./user-guide/generate-output-json.md)
+      - [编辑、复制或删除输出预设](./user-guide/generate-output-create-edit-preset.md)
+      - 条件化内容 {#conditional-content}
+        - [使用条件预设](./user-guide/generate-output-use-condition-presets.md)
+        - [条件属性分析](./user-guide/generate-output-conditional-attribute-profiling.md)
+      - 使用基线 {#work-with-baseline}
+        - [从“映射”控制台创建和管理基线](./user-guide/web-editor-baseline.md)
+        - [从“映射”功能板创建和管理基线](./user-guide/generate-output-use-baseline-for-publishing.md)
+        - [从“映射”控制台创建和管理新基线](./user-guide/web-editor-baseline-v2.md)
+        - [新建基线迁移常见问题解答](./user-guide/new-baseline-migration-faq.md)
+      - [管理全局和文件夹配置文件输出预设](./user-guide/web-editor-manage-output-presets.md)
+      - [使用变量设置目标路径、站点名称或文件名选项](./user-guide/generate-output-use-variables.md)
+      - [使用DITA-OT将元数据传递到输出](./user-guide/pass-metadata-dita-ot.md)
+      - 生成输出 {#generate-output}
+        - [为DITA映射生成输出](./user-guide/generate-output-for-a-dita-map.md)
+        - [生成知识库输出](./user-guide/web-editor-article-publishing.md)
+        - 单个主题发布 {#single-topic-publishing}
+          - [发布内容片段](./user-guide/publish-content-fragment.md)
+          - [发布体验片段](./user-guide/publish-experience-fragment.md)
+          - [发布AEM Sites页面](./user-guide/publish-aem-sites.md)
+          - [增量输出生成](./user-guide/generate-output-aem-site.md)
+      - [使用映射集合生成输出](./user-guide/generate-output-use-map-collection-output-generation.md)
+      - [使用新的映射集合生成输出](./user-guide/generate-output-use-new-map-collection-output-generation.md)
+      - [将旧映射集合迁移到新映射集合](./user-guide/map-collection-migration.md)
+      - [管理输出生成流程](./user-guide/generate-output-manage-process.md)
+      - [使用发布仪表板管理发布任务](./user-guide/generate-output-publish-dashboard.md)
+      - [基本疑难解答](./user-guide/generate-output-basic-troubleshooting.md)
+      - [有关发布工作流和可扩展性的常见问题解答](./user-guide/publishing-scalability-faq.md)
+    - 批量激活内容 {#bulk-activation}
+      - [批量激活已发布的内容](./user-guide/conf-bulk-activation.md)
+      - [创建批量激活映射集合](./user-guide/conf-bulk-activation-create-map-collection.md)
+      - [激活输出](./user-guide/conf-bulk-activation-publish-map-collection.md)
+      - [编辑批量激活映射集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
+      - [删除批量激活映射集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - [管理DITA源资产的复制](./user-guide/dita-assets-replication-aem-sites.md)
+  - 生成FrameMaker文档输出 {#generate-fm-output}
+    - [FrameMaker输出生成基础知识](./user-guide/fm-output-generatation.md)
+    - 支持的预设 {#fm-docs-generating-presets}
+      - [用于生成FrameMaker文档的预设](./user-guide/fm-output-understand-presets.md)
+      - [PDF](./user-guide/fm-output-pdf-preset.md)
+      - [HTML5](./user-guide/fm-output-html5-preset.md)
+      - [ePub](./user-guide/fm-output-epub-preset.md)
+    - [生成.book或.fm文件的输出](./user-guide/fm-output-generate.md)
+    - [查看输出生成任务的状态](./user-guide/fm-output-view-status.md)
+  - AEM Guides的人工智能助手 {#ai-assistant-aem}
+    - [Adobe Generative AI用户披露](./user-guide/adobe-generative-ai-disclosures.md)
+    - [AI 助手概述](./user-guide/ai-assistant.md)
+    - [用于搜索内容的AI支持的智能帮助](./user-guide/ai-based-smart-help.md)
+    - [AI助手创作以智能地创作文档](./user-guide/ai-assistant-right-panel.md)
+    - [用于创作内容的AI支持的智能建议](./user-guide/authoring-ai-based-smart-suggestions.md)
+    - [常见问题解答](./user-guide/ai-assistant-faq.md)
+  - AEM Guides中的Guides AI {#guides-ai-aem}
+    - [开始使用Guides AI](./user-guide/guides-ai.md)
+  - 管理学习内容 {#learning-training-content}
+    - 快速入门指南 {#get-started}
+      - 简介 {#intro-lc}
+        - {hide-from-toc}[发行说明](./release-info-lt/release-notes-lt-2025-12-v2.md)
+        - {hide-from-toc}[发行说明](./release-info-lt/release-notes-lt-2026-02-v3.md)
+        - [学习和培训内容概述](./learning-content/intro.md)
+      - 设置您的课程 {#setup-course}
+        - [课程概述](./learning-content/course-overview.md)
+        - [探索界面和先决条件](./learning-content/access-lc-interface-preq.md)
+        - [创建您的第一个课程](./learning-content/create-first-course.md)
+        - [了解课程经理基础知识](./learning-content/course-manager-basics.md)
+        - [管理您的课程](./learning-content/manage-course.md)
+      - 创建和自定义学习内容 {#customize-lc}
+        - [概述](./learning-content/lc-overview.md)
+        - [创建主题](./learning-content/create-content.md)
+        - [编辑主题](./learning-content/edit-content.md)
+        - [添加基本构建基块](./learning-content/lc-basic-blocks.md)
+        - [使用交互式小组件](./learning-content/lc-widgets.md)
+        - [“插入”菜单中的其他选项](./learning-content/lc-other-insert-options.md)
+        - [使用内联样式](./learning-content/lc-inline-styles.md)
+      - 创建和管理测验 {#quiz}
+        - [测试概述](./learning-content/quiz-overview.md)
+        - [创建测验](./learning-content/create-quiz.md)
+        - [编辑测验](./learning-content/edit-quiz.md)
+        - [在测验中插入问题](./learning-content/quiz-insert-questions.md)
+        - [测验属性](./learning-content/quiz-properties.md)
+        - 题库 {#question-bank}
+          - [创建问题银行](./learning-content/create-qb.md)
+          - [插入来自题库的问题](./learning-content/insert-questions.md)
+      - 发布您的课程 {#publish-course}
+        - [关于课程发布](./learning-content/publish-overview.md)
+        - [支持的预设](./learning-content/course-presets.md)
+        - 以SCORM格式发布课程 {#scorm-output}
+          - [创建SCORM输出预设](./learning-content/create-scorm-preset.md)
+          - [配置SCORM输出预设](./learning-content/config-scorm-preset.md)
+          - [生成SCORM输出](./learning-content/generate-scorm-output.md)
+        - 以PDF格式发布课程 {#pdf-output}
+          - [创建PDF输出预设](./learning-content/create-course-pdf-preset.md)
+          - [配置PDF输出预设](./learning-content/config-course-pdf-preset.md)
+          - [生成 PDF](./learning-content/generate-course-pdf.md)
+    - 配置指南 {#config-lc}
+      - [关于本指南](./lc-config-guide/introduction.md)
+      - [配置文件夹配置文件](./lc-config-guide/lc-folder-profile.md)
+      - [设置文件夹结构的最佳实践](./lc-config-guide/best-practices-folder-structure.md)
+      - [配置其他设置](./lc-config-guide/lc-other-settings.md)
+      - [SCORM关键量度](./lc-config-guide/learning-course-parameters.md)
+    - 视频教程 {#lc-video}
+      - [创作工作流](./lc-video-tutorials/author-workflow.md)
+      - [管理员工作流](./lc-video-tutorials/admin-workflow.md)
+  - 附录 {#appendix}
+    - 管理内容 {#manage-content}
+      - [关键概念、角色和权限以及先决条件](./user-guide/authoring.md)
+      - [上载文件](./user-guide/authoring-upload-existing-files.md)
+      - [管理文件和文件夹](./user-guide/authoring-file-management.md)
+      - [处理资源](./user-guide/asset-processor.md)
+    - 疑难解答 {#troubleshooting}
+      - [会话超时](./user-guide/session-timeout-prompt.md)
+      - [元数据导出中的字符串异常过长](./user-guide/metadata-export-failure.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-   - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-conf-guide}
-   - [下载、安装和升级](./install-conf-guide/introduction.md)
-   - Cloud Service的安装过程 {#deploy-conf-aemg-cs}
-      - [部署和Dispatcher配置](./install-conf-guide/conf-deployment-dispatcher-cs.md)
-   - On-Premise的安装过程 {#deploy-conf-aemg-on-prem}
-      - [技术要求](./install-conf-guide/aemg-technical-requirements.md)
-      - [安装Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
-      - [首次下载并安装AEM Guides](./install-conf-guide/download-install-aemg-first-time.md)
-      - [配置 Dispatcher](./install-conf-guide/conf-dispatcher.md)
-      - [卸载AEM Guides](./install-conf-guide/uninstall-aemg.md)
-   - [验证AEM Guides安装](./install-conf-guide/verify-aemg-installation.md)
-   - 升级AEM Guides {#upgrade-aemg}
-      - 云服务 {#cloud-service}
-         - [升级AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
-         - [升级AEM Guides as Cloud Service的其他配置](./install-conf-guide/additional-config-for-upgrade.md)
-         - [Cloud Service的配置覆盖](./install-conf-guide/download-install-config-override.md)
-      - 内部部署 {#on-prem}
-         - [升级AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
-         - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
-         - [Experience Manager Guides版本的配置更新](./install-conf-guide/configuration-on-prem.md)
-   - 性能优化建议 {#performance-optimization-aemg}
-      - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
-      - [针对内部部署的性能优化](./install-conf-guide/perf-optimization-on-prem.md)
-   - 内容迁移 {#migrate-content-cs}
-      - [迁移现有内容](./install-conf-guide/migrate-content.md)
-      - [使用用于内部部署的Framemaker和WebDav工具上载现有DITA内容](./install-conf-guide/upload-dita-content.md)
-      - [使用Curl命令上传DITA内容](./install-conf-guide/use-curl-command.md)
-      - [配置UUID文件模式](./install-conf-guide/conf-uuid-filename-pattern.md)
-      - [迁移非DITA内容](./install-conf-guide/non-dita-content.md)
-      - [将内容从内部部署迁移到Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
-      - 内部部署的迁移过程 {#migration-process-on-prem}
-         - [非UUID到UUID内容迁移](./install-conf-guide/uuid-non-uuid.md)
-         - [从4.3.1非UUID迁移到4.3.2 UUID内容](./install-conf-guide/non-uuid-4-3.md)
-         - [从4.6.0非UUID迁移到4.6.1 UUID内容](./install-conf-guide/non-uuid-uuid-4-6.md)
-   - 自定义DITA-OT和专业化 {#custom-dita-ot-cs}
-      - [使用自定义DITA-OT和DITA专业化](./install-conf-guide/dita-ot-specialization.md)
-   - 用户组和安全性 {#user-group-sec-cs}
-      - [用户管理](./install-conf-guide/user-admin-sec.md)
-   - 系统设置 {#aemg-system-settings}
-      - 配置基于UUID和非UUID的文件名 {#conf-filename}
-         - [配置文件名](./install-conf-guide/conf-file-names-overview.md)
-         - [根据UUID配置自动文件名](./install-conf-guide/auto-uuid-filenames.md)
-         - [为有效的文件名字符配置Regx](./install-conf-guide/file-names-valid-regx.md)
-      - 资产处理 {#asset-processing}
-         - [配置资源处理功能](./install-conf-guide/conf-asset-processing.md)
-         - [为文件夹配置后处理](./install-conf-guide/conf-folder-post-processing.md)
-      - [版本管理](./install-conf-guide/version-management.md)
-      - [配置B树清理](./install-conf-guide/conf-btree-cleanup.md)
-      - [配置DITA Assets复制](./install-conf-guide/conf-dita-asset-replication.md)
-   - 编辑器配置 {#editor-configs}
-      - [自定义编辑器](./install-conf-guide/customize-overview.md)
-      - [自定义工具栏](./install-conf-guide/customize-toolbar.md)
-      - [在左侧面板中配置自定义面板](./install-conf-guide/conf-custom-panel.md)
-      - [配置标记视图的默认值](./install-conf-guide/conf-default-value-tags-view.md)
-      - [自动生成元素ID](./install-conf-guide/auto-generate-element-ids.md)
-      - [默认包含@navtitle属性](./install-conf-guide/auto-add-navtitle.md)
-      - [配置基于UUID的链接的显示](./install-conf-guide/conf-uuid-based-links.md)
-      - [在同一选项卡中打开DITA主题或映射文件](./install-conf-guide/open-dita-files-same-tab.md)
-      - [将高级映射编辑器设置为默认值](./install-conf-guide/conf-default-map-editor.md)
-      - [在编辑器中自动保存配置文件](./install-conf-guide/conf-auto-save-in-editor.md)
-      - [配置关闭时另存为新版本的提示](./install-conf-guide/conf-save-as-new-version-close.md)
-      - [配置关闭时签入文件的提示](./install-conf-guide/conf-checkin-file-close.md)
-      - [配置允许的特殊字符](./install-conf-guide/conf-special-chars.md)
-      - [自定义AEM的默认词典](./install-conf-guide/customize-aem-default-dictionary.md)
-      - [配置文本过滤器](./install-conf-guide/conf-text-filters.md)
-      - [为文件浏览对话框配置筛选器](./install-conf-guide/conf-custom-file-filters.md)
-      - [安装用于基于文章的发布的包](./install-conf-guide/conf-article-based-publishing.md)
-      - [配置元数据属性的忽略列表](./install-conf-guide/conf-metadata-prop.md)
-      - Cloud Service的编辑器设置 {#editor-cloud-settings}
-         - [为Cloud Service的创作配置AI支持的智能建议](./install-conf-guide/conf-smart-suggestions.md)
-         - [配置AI支持的智能帮助以搜索Cloud Service的内容](./install-conf-guide/conf-smart-help.md)
-         - [配置在Cloud Service的氧气中编辑的选项](./install-conf-guide/conf-edit-in-oxygen.md)
-         - [为Cloud Service配置粘贴表的显示](./install-conf-guide/conf-pasted-tables.md)
-         - [为Cloud Service配置单主题PDF生成](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [在编辑器中为Cloud Service配置翻译功能](./install-conf-guide/conf-translation-editor.md)
-      - On-Premise的编辑器设置 {#editor-on-prem-settings}
-         - [配置新编辑器](./install-conf-guide/conf-new-editor-on-prem.md)
-         - [为内部部署配置其他特殊字符](/help/product-guide/web-editor/conf-additional-special-characters.md)
-         - [为内部部署的签入和签出图标配置标题](./install-conf-guide/conf-checkin-checkout-title.md)
-         - [为内部部署查询配置LimitReads的数量](./install-conf-guide/conf-query-limitreads.md)
-      - 数据源连接器 {#data-source}
-         - [从用户界面配置数据源连接器](./install-conf-guide/conf-data-source-connector-tools.md)
-         - {hide-from-toc}[为Cloud Service配置数据源连接器](./install-conf-guide/conf-data-source-connector-cs.md)
-         - {hide-from-toc}[从用户界面创建和配置Git连接器](./install-conf-guide/conf-git-connector.md)
-   - 全局和文件夹级别配置文件 {#global-folder-profiles}
-      - [配置全局或文件夹级别的配置文件](./install-conf-guide/conf-profiles.md)
-   - 主题和映射模板 {#topic-map-template}
-      - [配置主题和映射模板](./install-conf-guide/conf-template-tags.md)
-      - [配置自定义DITA主题模板](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
-      - [配置自定义DITA映射模板](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
-   - 文档状态 {#doc-state}
-      - [配置文档状态](./install-conf-guide/customize-doc-state.md)
-      - [配置Cloud Service的文档状态筛选器](./install-conf-guide/conf-doc-state-filters.md)
-   - 配置Workspace设置 {#workspace-configs}
-      - [Workspace设置](./install-conf-guide/workspace-settings.md)
-   - AEM Assets搜索 {#aem-asset-search}
-      - [配置AEM Assets UI的搜索](./install-conf-guide/conf-dita-search.md)
-   - 输出生成设置 {#output-gen-config}
-      - [配置输出生成设置](./install-conf-guide/conf-output-generation.md)
-      - 配置AEM站点输出设置 {#conf-aem-sites-output}
-         - [下载并安装AEM Sites模板](./install-conf-guide/download-install-aem-sites-templates.md)
-         - [自定义新的AEM站点模板的一般说明](./install-conf-guide/customize-existing-site-template.md)
-         - [自定义现有AEM站点输出](./install-conf-guide/customize-aem-site-output.md)
-         - [使用AEM组件为旧版AEM站点输出自定义DITA元素映射](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
-         - [在AEM Sites输出中叠加HTML标记以进行内部部署](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
-         - [为AEM站点输出配置有效文件名](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - 原生PDF发布 {#config-native-pdf-publish}
-         - [本机PDF发布模板和内容样式](./install-conf-guide/template-content-styles.md)
-         - [PDF模板](./native-pdf/pdf-template.md)
-         - [PDF模板的组件](./native-pdf/components-pdf-template.md)
-         - [设计页面布局](./native-pdf/design-page-layout.md)
-         - [PDF输出中的变量](./native-pdf/native-pdf-variables.md)
-         - [支持语言变量](./native-pdf/native-pdf-language-variables.md)
-         - [向PDF输出添加条形码](./native-pdf/add-barcode.md)
-         - 常见内容样式 {#content-styles}
-            - [使用常见的内容样式](./native-pdf/stylesheet.md)
-            - [使用自定义更改条样式](./native-pdf/change-bar-style.md)
-            - [对目录条目和主题内容应用自定义样式](./native-pdf/custom-style-toc.md)
-            - [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
-            - [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
-            - [将样式应用于脚注](./native-pdf/footnote-number-style.md)
-         - [为本机PDF配置新发布引擎](./native-pdf/conf-new-pdf-engine.md)
-         - [使用本机PDF引擎v2](./native-pdf/new-pdf-engine.md)
-         - [为Cloud Service的本机PDF发布配置节点进程](./native-pdf/conf-node-options-cs.md)
-         - [为本地本地PDF发布配置JVM标记](./native-pdf/conf-jvm-flags-on-prem.md)
-      - 为Cloud Service配置内容和体验片段 {#conf-content-exp-fragment}
-         - [创建主题和内容片段之间的映射](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
-         - [创建主题和体验片段之间的映射](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
-   - 工作流自定义 {#workflow}
-      - [配置和自定义工作流](./install-conf-guide/conf-customize-workflows.md)
-   - 集成 {#aemg-integrations}
-      - [集成基于桌面的XML编辑器](./install-conf-guide/integrate-desktop-editors.md)
-      - [为Cloud Service配置Workfront](./install-conf-guide/conf-workfront.md)
-      - [配置翻译](./install-conf-guide/conf-translation.md)
-      - [为内部部署配置目标副本初始化](./install-conf-guide/conf-translation-copies-on-prem.md)
-      - [为内部部署配置新基线](./install-conf-guide/conf-new-baseline-on-prem.md)
-      - [配置内部部署的对等链接跳过](./install-conf-guide/conf-skip-peer-links-on-prem.md)
-      - {hide-from-toc}[为输出生成配置新的映射集合](./install-conf-guide/conf-new-map-collection-on-prem.md)
-   - 扩展功能 {#aemg-customization}
-      - [为Cloud Service的查找和替换功能部署自定义索引](./install-conf-guide/custom-indexing-cs.md)
-      - [为内部部署的查找和替换功能重新编制索引](./install-conf-guide/custom-indexing-on-prem.md)
-      - [为内部部署配置查找和替换功能](./install-conf-guide/conf-find-replace-on-prem.md)
-      - [AEM Sites的组件映射](./install-conf-guide/component-mapping.md)
-   - 附录 {#appendix}
-      - [附录](./install-conf-guide/aemg-appendix.md)
+  - [下载、安装和升级](./install-conf-guide/introduction.md)
+  - Cloud Service的安装过程 {#deploy-conf-aemg-cs}
+    - [部署和Dispatcher配置](./install-conf-guide/conf-deployment-dispatcher-cs.md)
+  - On-Premise的安装过程 {#deploy-conf-aemg-on-prem}
+    - [技术要求](./install-conf-guide/aemg-technical-requirements.md)
+    - [安装Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
+    - [首次下载并安装AEM Guides](./install-conf-guide/download-install-aemg-first-time.md)
+    - [配置 Dispatcher](./install-conf-guide/conf-dispatcher.md)
+    - [卸载AEM Guides](./install-conf-guide/uninstall-aemg.md)
+  - [验证AEM Guides安装](./install-conf-guide/verify-aemg-installation.md)
+  - 升级AEM Guides {#upgrade-aemg}
+    - 云服务 {#cloud-service}
+      - [升级AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
+      - [升级AEM Guides as Cloud Service的其他配置](./install-conf-guide/additional-config-for-upgrade.md)
+      - [Cloud Service的配置覆盖](./install-conf-guide/download-install-config-override.md)
+    - 内部部署 {#on-prem}
+      - [升级AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
+      - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
+      - [Experience Manager Guides版本的配置更新](./install-conf-guide/configuration-on-prem.md)
+  - 性能优化建议 {#performance-optimization-aemg}
+    - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
+    - [针对内部部署的性能优化](./install-conf-guide/perf-optimization-on-prem.md)
+  - 内容迁移 {#migrate-content-cs}
+    - [迁移现有内容](./install-conf-guide/migrate-content.md)
+    - [使用用于内部部署的Framemaker和WebDav工具上载现有DITA内容](./install-conf-guide/upload-dita-content.md)
+    - [使用Curl命令上传DITA内容](./install-conf-guide/use-curl-command.md)
+    - [配置UUID文件模式](./install-conf-guide/conf-uuid-filename-pattern.md)
+    - [迁移非DITA内容](./install-conf-guide/non-dita-content.md)
+    - [将内容从内部部署迁移到Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
+    - 内部部署的迁移过程 {#migration-process-on-prem}
+      - [非UUID到UUID内容迁移](./install-conf-guide/uuid-non-uuid.md)
+      - [从4.3.1非UUID迁移到4.3.2 UUID内容](./install-conf-guide/non-uuid-4-3.md)
+      - [从4.6.0非UUID迁移到4.6.1 UUID内容](./install-conf-guide/non-uuid-uuid-4-6.md)
+  - 自定义DITA-OT和专业化 {#custom-dita-ot-cs}
+    - [使用自定义DITA-OT和DITA专业化](./install-conf-guide/dita-ot-specialization.md)
+  - 用户组和安全性 {#user-group-sec-cs}
+    - [用户管理](./install-conf-guide/user-admin-sec.md)
+  - 系统设置 {#aemg-system-settings}
+    - 配置基于UUID和非UUID的文件名 {#conf-filename}
+      - [配置文件名](./install-conf-guide/conf-file-names-overview.md)
+      - [根据UUID配置自动文件名](./install-conf-guide/auto-uuid-filenames.md)
+      - [为有效的文件名字符配置Regx](./install-conf-guide/file-names-valid-regx.md)
+    - 资产处理 {#asset-processing}
+      - [配置资源处理功能](./install-conf-guide/conf-asset-processing.md)
+      - [为文件夹配置后处理](./install-conf-guide/conf-folder-post-processing.md)
+    - [版本管理](./install-conf-guide/version-management.md)
+    - [配置B树清理](./install-conf-guide/conf-btree-cleanup.md)
+    - [配置DITA Assets复制](./install-conf-guide/conf-dita-asset-replication.md)
+  - 编辑器配置 {#editor-configs}
+    - [自定义编辑器](./install-conf-guide/customize-overview.md)
+    - [自定义工具栏](./install-conf-guide/customize-toolbar.md)
+    - [在左侧面板中配置自定义面板](./install-conf-guide/conf-custom-panel.md)
+    - [配置标记视图的默认值](./install-conf-guide/conf-default-value-tags-view.md)
+    - [自动生成元素ID](./install-conf-guide/auto-generate-element-ids.md)
+    - [默认包含@navtitle属性](./install-conf-guide/auto-add-navtitle.md)
+    - [配置基于UUID的链接的显示](./install-conf-guide/conf-uuid-based-links.md)
+    - [在同一选项卡中打开DITA主题或映射文件](./install-conf-guide/open-dita-files-same-tab.md)
+    - [将高级映射编辑器设置为默认值](./install-conf-guide/conf-default-map-editor.md)
+    - [在编辑器中自动保存配置文件](./install-conf-guide/conf-auto-save-in-editor.md)
+    - [配置关闭时另存为新版本的提示](./install-conf-guide/conf-save-as-new-version-close.md)
+    - [配置关闭时签入文件的提示](./install-conf-guide/conf-checkin-file-close.md)
+    - [配置允许的特殊字符](./install-conf-guide/conf-special-chars.md)
+    - [自定义AEM的默认词典](./install-conf-guide/customize-aem-default-dictionary.md)
+    - [配置文本过滤器](./install-conf-guide/conf-text-filters.md)
+    - [为文件浏览对话框配置筛选器](./install-conf-guide/conf-custom-file-filters.md)
+    - [安装用于基于文章的发布的包](./install-conf-guide/conf-article-based-publishing.md)
+    - [配置元数据属性的忽略列表](./install-conf-guide/conf-metadata-prop.md)
+    - Cloud Service的编辑器设置 {#editor-cloud-settings}
+      - [为Cloud Service的创作配置AI支持的智能建议](./install-conf-guide/conf-smart-suggestions.md)
+      - [配置AI支持的智能帮助以搜索Cloud Service的内容](./install-conf-guide/conf-smart-help.md)
+      - [配置在Cloud Service的氧气中编辑的选项](./install-conf-guide/conf-edit-in-oxygen.md)
+      - [为Cloud Service配置粘贴表的显示](./install-conf-guide/conf-pasted-tables.md)
+      - [为Cloud Service配置单主题PDF生成](./install-conf-guide/conf-pdf-generation-dita-ot.md)
+      - [在编辑器中为Cloud Service配置翻译功能](./install-conf-guide/conf-translation-editor.md)
+      - [创建和管理运行状况检查预设](./install-conf-guide/conf-health-check-preset.md)
+    - On-Premise的编辑器设置 {#editor-on-prem-settings}
+      - [配置新编辑器](./install-conf-guide/conf-new-editor-on-prem.md)
+      - [为内部部署配置其他特殊字符](/help/product-guide/web-editor/conf-additional-special-characters.md)
+      - [为内部部署的签入和签出图标配置标题](./install-conf-guide/conf-checkin-checkout-title.md)
+      - [为内部部署查询配置LimitReads的数量](./install-conf-guide/conf-query-limitreads.md)
+    - 数据源连接器 {#data-source}
+      - [从用户界面配置数据源连接器](./install-conf-guide/conf-data-source-connector-tools.md)
+      - {hide-from-toc}[为Cloud Service配置数据源连接器](./install-conf-guide/conf-data-source-connector-cs.md)
+      - {hide-from-toc}[从用户界面创建和配置Git连接器](./install-conf-guide/conf-git-connector.md)
+  - 全局和文件夹级别配置文件 {#global-folder-profiles}
+    - [配置全局或文件夹级别的配置文件](./install-conf-guide/conf-profiles.md)
+  - 主题和映射模板 {#topic-map-template}
+    - [配置主题和映射模板](./install-conf-guide/conf-template-tags.md)
+    - [配置自定义DITA主题模板](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
+    - [配置自定义DITA映射模板](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
+  - 文档状态 {#doc-state}
+    - [配置文档状态](./install-conf-guide/customize-doc-state.md)
+    - [配置Cloud Service的文档状态筛选器](./install-conf-guide/conf-doc-state-filters.md)
+  - 配置Workspace设置 {#workspace-configs}
+    - [Workspace设置](./install-conf-guide/workspace-settings.md)
+  - AEM Assets搜索 {#aem-asset-search}
+    - [配置AEM Assets UI的搜索](./install-conf-guide/conf-dita-search.md)
+  - 输出生成设置 {#output-gen-config}
+    - [配置输出生成设置](./install-conf-guide/conf-output-generation.md)
+    - 配置AEM站点输出设置 {#conf-aem-sites-output}
+      - [下载并安装AEM Sites模板](./install-conf-guide/download-install-aem-sites-templates.md)
+      - [自定义新的AEM站点模板的一般说明](./install-conf-guide/customize-existing-site-template.md)
+      - [自定义现有AEM站点输出](./install-conf-guide/customize-aem-site-output.md)
+      - [使用AEM组件为旧版AEM站点输出自定义DITA元素映射](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
+      - [在AEM Sites输出中叠加HTML标记以进行内部部署](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
+      - [为AEM站点输出配置有效文件名](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
+    - 原生PDF发布 {#config-native-pdf-publish}
+      - [本机PDF发布模板和内容样式](./install-conf-guide/template-content-styles.md)
+      - [PDF模板](./native-pdf/pdf-template.md)
+      - [PDF模板的组件](./native-pdf/components-pdf-template.md)
+      - [设计页面布局](./native-pdf/design-page-layout.md)
+      - [PDF输出中的变量](./native-pdf/native-pdf-variables.md)
+      - [支持语言变量](./native-pdf/native-pdf-language-variables.md)
+      - [向PDF输出添加条形码](./native-pdf/add-barcode.md)
+      - 常见内容样式 {#content-styles}
+        - [使用常见的内容样式](./native-pdf/stylesheet.md)
+        - [使用自定义更改条样式](./native-pdf/change-bar-style.md)
+        - [对目录条目和主题内容应用自定义样式](./native-pdf/custom-style-toc.md)
+        - [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
+        - [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
+        - [将样式应用于脚注](./native-pdf/footnote-number-style.md)
+      - [为本机PDF配置新发布引擎](./native-pdf/conf-new-pdf-engine.md)
+      - [使用本机PDF引擎v2](./native-pdf/new-pdf-engine.md)
+      - [为Cloud Service的本机PDF发布配置节点进程](./native-pdf/conf-node-options-cs.md)
+      - [为本地本地PDF发布配置JVM标记](./native-pdf/conf-jvm-flags-on-prem.md)
+    - 为Cloud Service配置内容和体验片段 {#conf-content-exp-fragment}
+      - [创建主题和内容片段之间的映射](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
+      - [创建主题和体验片段之间的映射](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+  - 工作流自定义 {#workflow}
+    - [配置和自定义工作流](./install-conf-guide/conf-customize-workflows.md)
+  - 集成 {#aemg-integrations}
+    - [集成基于桌面的XML编辑器](./install-conf-guide/integrate-desktop-editors.md)
+    - [为Cloud Service配置Workfront](./install-conf-guide/conf-workfront.md)
+    - [配置翻译](./install-conf-guide/conf-translation.md)
+    - [为内部部署配置目标副本初始化](./install-conf-guide/conf-translation-copies-on-prem.md)
+    - [为内部部署配置新基线](./install-conf-guide/conf-new-baseline-on-prem.md)
+    - [配置内部部署的对等链接跳过](./install-conf-guide/conf-skip-peer-links-on-prem.md)
+    - {hide-from-toc}[为输出生成配置新的映射集合](./install-conf-guide/conf-new-map-collection-on-prem.md)
+    - [使用Experience Manager Guides MCP服务器](./install-conf-guide/conf-aem-guides-mcp.md)
+  - 扩展功能 {#aemg-customization}
+    - [为Cloud Service的查找和替换功能部署自定义索引](./install-conf-guide/custom-indexing-cs.md)
+    - [为内部部署的查找和替换功能重新编制索引](./install-conf-guide/custom-indexing-on-prem.md)
+    - [为内部部署配置查找和替换功能](./install-conf-guide/conf-find-replace-on-prem.md)
+    - [为审阅任务中的主题编制索引](./install-conf-guide/index-review-tasks.md)
+    - [AEM Sites的组件映射](./install-conf-guide/component-mapping.md)
+    - [配置用于生成输出的模板预设](./install-conf-guide/template-presets-output-generation.md)
+  - 附录 {#appendix}
+    - [附录](./install-conf-guide/aemg-appendix.md)
 
 - API 引用 {#api-reference}
-   - [简介](./api-reference/introduction.md)
-   - [用于输出管理的REST API](./api-reference/output-management.md)
-   - [使用DITA映射的REST API](./api-reference/dita-map-management.md)
-   - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
-   - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
-   - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-   - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
-   - [后处理事件处理程序](./api-reference/post-process-event.md)
-   - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
-   - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
-   - [批量激活完成事件处理程序](./api-reference/bulk-activation-complete-event.md)
-   - [转换过程事件处理程序](./api-reference/conversion-complete-event.md)
-   - [创建翻译项目](./api-reference/translation-project.md)
+  - [简介](./api-reference/introduction.md)
+  - [Experience Manager Guides版本的API更新](./api-reference/api-update-swagger.md)
+  - [用于输出管理的REST API](./api-reference/output-management.md)
+  - [使用DITA映射的REST API](./api-reference/dita-map-management.md)
+  - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
+  - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
+  - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
+  - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+  - [后处理事件处理程序](./api-reference/post-process-event.md)
+  - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
+  - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
+  - [批量激活完成事件处理程序](./api-reference/bulk-activation-complete-event.md)
+  - [转换过程事件处理程序](./api-reference/conversion-complete-event.md)
+  - [创建翻译项目](./api-reference/translation-project.md)
 - 知识库 {#knowledge-base}
-   - 专家讲座 {#expert-session}
-      - [专家讲座概述](./knowledge-base/expert-sessions/expert-session.md)
-      - [翻译内容](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
-      - [使用基线管理内容](./knowledge-base/expert-sessions/baselines-dec22.md)
-      - [创作基于Web的内容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
-      - [原生PDF发布要点](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-      - [AEM Guides中的报表](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
-      - [内容和模板设置](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
-      - [学习本机PDF发布 — 第1部分](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-      - [学习原生PDF发布 — 实验操作 — BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
-      - [AEM Guides的扩展框架](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
-      - [外部数据源集成](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
-      - [在《指南》中翻译内容 — 第2部分](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
-      - [定义、管理和利用元数据](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-      - [AEM Sites输出变量](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
-      - [部署选项和迁移到云](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
-      - [将内容从非UUID迁移到UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
-      - [增量内容迁移](./knowledge-base/expert-sessions/migration-delta-content.md)
-      - [使用原生PDF更智能地发布PDF](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
-      - [AEM Guides中的新增ux和AI功能](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
-      - [AEM Guides中的发布](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
-      - [AEM Guides中的内容审查](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
-   - 文章 {#kb-articles}
-      - [概述](./knowledge-base/kb-articles/introduction.md)
-      - 创作 {#authoring}
-         - 编辑器 {#webeditor}
-            - [AEM Guides中的内容可重复使用](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-            - [在AEM Guides中使用Markdown](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
-            - 自定义 {#customizing}
-               - [向工具栏添加自定义按钮](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               - [将自定义样式添加到编辑器](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
-               - [自定义文件夹上下文菜单](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
-               - [自定义文件上下文菜单](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-            - 模式管 {#schematron}
-               - [架构验证](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
-         - 报告 {#reports}
-            - [管理DITA内容的元数据](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-         - [为自定义Dita类型定义图标](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-      - 指南扩展框架 {#extention-framework}
-         - Aem Guides框架 {#aem-guides-framework}
-            - [基本自定义](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
-            - [JUI框架](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
-            - 组件 {#framework-components}
-               - [按钮](./guides-ui-extensions/aem_guides_framework/components/button.md)
-               - [图标](./guides-ui-extensions/aem_guides_framework/components/icon.md)
-               - [标签](./guides-ui-extensions/aem_guides_framework/components/label.md)
-               - [列表](./guides-ui-extensions/aem_guides_framework/components/list.md)
-               - [文本区域](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
-            - 小组件 {#framework-widgets}
-               - [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
-               - [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-            - [编辑器2.0的扩展框架更改](./guides-ui-extensions/getting-started/editor-extension-guide.md)
-         - 快速入门 {#getting-started}
-            - [简介](./guides-ui-extensions/getting-started/introduction.md)
-            - [安装指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
-            - [扩展存储库简介](./guides-ui-extensions/getting-started/extension-repo-intro.md)
-         - 自定义 {#customisations}
-            - [简单的自定义](./guides-ui-extensions/customisations/add-button.md)
-            - [自定义上下文菜单](./guides-ui-extensions/customisations/context-menus.md)
-            - [自定义工具栏和顶栏](./guides-ui-extensions/customisations/toolbar-topbar.md)
-            - [示例](./guides-ui-extensions/examples.md)
-            - [可自定义的Json](./guides-ui-extensions/jsons.md)
-            - 审阅{#review-app-customisations}
-               - [组件](./guides-ui-extensions/customisations/ReviewApp/components.md)
-               - [自定义](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
-               - [自定义对话框](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
-      - 外部数据源 {#external-data-source}
-         - [集成数据源](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [配置数据源连接器](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
-      - 发布 {#publishing}
-         - 原生PDF {#native-pdf}
-            - [将自定义字体添加到DITA Native PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-            - [为本机PDF发布配置AEM环境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-            - [将企业品牌添加到PDF的第一页](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-            - [在本机PDF发布中生成书签映射的目录](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-         - DITA-OT {#dita-ot}
-            - [在插件中使用AEM元数据](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
-            - [设置自定义DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-         - AEM Sites模板 {#aem-site-templates}
-            - [下载并安装适用于Cloud Services的AEM Sites模板](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
-            - [下载并安装适用于On-Premise服务的AEM Sites模板](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
-            - [自定义现有AEM Sites模板](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
-         - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-         - [微服务体系结构和性能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-         - [使用JWT身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
-         - [使用OAuth身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [配置Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
-         - [在AEM Cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
-      - 工作流 {#workflows}
-         - [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
-      - 翻译 {#translation}
-         - [提高翻译性能的最佳实践](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
-         - [从翻译中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-      - 用例 {#use-cases}
-         - [使用条件内容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
-         - [使用键](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-         - [在从AEM Guides生成的AEM Sites页面中启用上下文内容变量(CCVAR)](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
-   - {hide-from-toc}[使用氧气连接器](./oxygen-connector/use-aem-connector.md)
+  - 专家讲座 {#expert-session}
+    - [专家讲座概述](./knowledge-base/expert-sessions/expert-session.md)
+    - [翻译内容](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
+    - [使用基线管理内容](./knowledge-base/expert-sessions/baselines-dec22.md)
+    - [创作基于Web的内容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+    - [原生PDF发布要点](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+    - [AEM Guides中的报表](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+    - [内容和模板设置](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
+    - [学习本机PDF发布 — 第1部分](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
+    - [学习原生PDF发布 — 实验操作 — BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
+    - [AEM Guides的扩展框架](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
+    - [外部数据源集成](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
+    - [在《指南》中翻译内容 — 第2部分](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
+    - [定义、管理和利用元数据](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
+    - [AEM Sites输出变量](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+    - [部署选项和迁移到云](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
+    - [将内容从非UUID迁移到UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
+    - [增量内容迁移](./knowledge-base/expert-sessions/migration-delta-content.md)
+    - [使用原生PDF更智能地发布PDF](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
+    - [AEM Guides中的新增ux和AI功能](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
+    - [AEM Guides中的发布](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
+    - [AEM Guides中的内容审查](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
+  - 文章 {#kb-articles}
+    - [概述](./knowledge-base/kb-articles/introduction.md)
+    - 创作 {#authoring}
+      - 编辑器 {#webeditor}
+        - [AEM Guides中的内容可重复使用](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
+        - [在AEM Guides中使用Markdown](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
+        - 自定义 {#customizing}
+          - [向工具栏添加自定义按钮](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+          - [将自定义样式添加到编辑器](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+          - [自定义文件夹上下文菜单](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
+          - [自定义文件上下文菜单](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
+        - 模式管 {#schematron}
+          - [架构验证](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+      - 报告 {#reports}
+        - [管理DITA内容的元数据](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+      - [为自定义Dita类型定义图标](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
+    - 指南扩展框架 {#extention-framework}
+      - Aem Guides框架 {#aem-guides-framework}
+        - [基本自定义](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+        - [JUI框架](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+        - 组件 {#framework-components}
+          - [按钮](./guides-ui-extensions/aem_guides_framework/components/button.md)
+          - [图标](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+          - [标签](./guides-ui-extensions/aem_guides_framework/components/label.md)
+          - [列表](./guides-ui-extensions/aem_guides_framework/components/list.md)
+          - [文本区域](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
+        - 小组件 {#framework-widgets}
+          - [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+          - [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+        - [编辑器2.0的扩展框架更改](./guides-ui-extensions/getting-started/editor-extension-guide.md)
+        - [将扩展框架迁移到Editor 2.0](./guides-ui-extensions/getting-started/migrating-extensions-new-editor.md)
+      - 快速入门 {#getting-started}
+        - [简介](./guides-ui-extensions/getting-started/introduction.md)
+        - [安装指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
+        - [扩展存储库简介](./guides-ui-extensions/getting-started/extension-repo-intro.md)
+      - 自定义 {#customisations}
+        - [简单的自定义](./guides-ui-extensions/customisations/add-button.md)
+        - [自定义上下文菜单](./guides-ui-extensions/customisations/context-menus.md)
+        - [自定义工具栏和顶栏](./guides-ui-extensions/customisations/toolbar-topbar.md)
+        - [示例](./guides-ui-extensions/examples.md)
+        - [可自定义的Json](./guides-ui-extensions/jsons.md)
+        - 审阅{#review-app-customisations}
+          - [组件](./guides-ui-extensions/customisations/ReviewApp/components.md)
+          - [自定义](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+          - [自定义对话框](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
+    - 外部数据源 {#external-data-source}
+      - [集成数据源](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+      - [配置数据源连接器](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+    - 发布 {#publishing}
+      - 原生PDF {#native-pdf}
+        - [将自定义字体添加到DITA Native PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+        - [为本机PDF发布配置AEM环境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+        - [将企业品牌添加到PDF的第一页](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+        - [在本机PDF发布中生成书签映射的目录](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+      - DITA-OT {#dita-ot}
+        - [在插件中使用AEM元数据](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
+        - [设置自定义DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+      - AEM Sites模板 {#aem-site-templates}
+        - [下载并安装适用于Cloud Services的AEM Sites模板](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
+        - [下载并安装适用于On-Premise服务的AEM Sites模板](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
+        - [自定义现有AEM Sites模板](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
+      - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+      - [微服务体系结构和性能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
+      - [使用JWT身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
+      - [使用OAuth身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices-imt-config.md)
+      - [配置Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
+      - [在AEM Cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
+    - 工作流 {#workflows}
+      - [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+    - 翻译 {#translation}
+      - [提高翻译性能的最佳实践](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
+      - [从翻译中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+    - 用例 {#use-cases}
+      - [使用条件内容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+      - [使用键](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+      - [在从AEM Guides生成的AEM Sites页面中启用上下文内容变量(CCVAR)](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
+  - {hide-from-toc}[使用氧气连接器](./oxygen-connector/use-aem-connector.md)
