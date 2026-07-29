@@ -5,10 +5,22 @@ exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
 workflow-type: tm+mt
 source-wordcount: 2562
@@ -121,7 +133,7 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    除了新的翻译项目外，您还可以从以下选项中进行选择：
 
    - 您可以选择&#x200B;**仅为翻译项目创建结构**。
-   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**以将XML内容转换为XML本地化交换文件格式(XLIFF)。XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。Experience Manager Guides支持XLIFF版本1.2。
+   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**&#x200B;以将XML内容转换为XML本地化交换文件格式(XLIFF)。XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。Experience Manager Guides支持XLIFF版本1.2。
      在XLIFF项目中，内容将导出为行业标准XLIFF格式，可提供给翻译供应商。XLIFF格式使您在翻译阶段已翻译的区段有可能得到重用。\
      翻译XLIFF内容后，可将其导入Experience Manager Guides，从而创建原始DITA项目的翻译版本。
 
@@ -254,4 +266,4 @@ Experience Manager Guides提供了用于检查主题的所选版本与上次翻�
 如果您希望稍后使用翻译项目，也可以禁用这些项目。 删除项目会删除项目中存在的所有文件和文件夹。 禁用项目不会删除它，而是将其保留在存储库中。 但无法更新或编辑已禁用的项目。  删除或禁用项目不会影响任何引用的翻译状态。
 
 
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)

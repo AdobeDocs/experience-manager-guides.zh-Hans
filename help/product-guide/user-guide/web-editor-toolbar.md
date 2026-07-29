@@ -5,11 +5,21 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
 workflow-type: tm+mt
 source-wordcount: 6454
@@ -259,7 +269,7 @@ Experience Manager Guides允许您以自由格式文本格式指定标签或使�
 
 旧编辑器中的“显示”菜单包含以下功能：
 
-- **跟踪更改：**您可以启用“跟踪更改”模式，以跟踪对文档所做的所有更新。启用跟踪更改后，文档将捕获所有插入和删除。使用删除线突出显示所有已删除的内容，并以绿色文本突出显示所有插入。此外，您还可以在主题页面的边缘获得更改条。再次重申，对于已删除的内容，将显示红色栏，对于添加的内容，将显示绿色栏。如果在同一行上进行了添加和删除，则会同时显示绿色栏和红色栏。
+- **跟踪更改：**&#x200B;您可以启用“跟踪更改”模式，以跟踪对文档所做的所有更新。启用跟踪更改后，文档将捕获所有插入和删除。使用删除线突出显示所有已删除的内容，并以绿色文本突出显示所有插入。此外，您还可以在主题页面的边缘获得更改条。再次重申，对于已删除的内容，将显示红色栏，对于添加的内容，将显示绿色栏。如果在同一行上进行了添加和删除，则会同时显示绿色栏和红色栏。
 以下屏幕截图突出显示删除和插入的内容以及更改条：
   ![](images/track-changes-content.png){width="650"}
 
@@ -764,4 +774,4 @@ Experience Manager Guides允许您以自由格式文本格式指定标签或使�
 作为管理员，您还可以访问&#x200B;**强制解锁**&#x200B;功能，该功能允许您解锁其他用户锁定的文件。 使用此功能可以访问其他用户锁定的文件的编辑权限。
 
 ![](images/web-editor-force-unlock-new.png){width="350"}
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)

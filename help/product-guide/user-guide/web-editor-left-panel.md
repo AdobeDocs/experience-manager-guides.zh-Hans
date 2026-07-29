@@ -5,11 +5,24 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
 source-wordcount: 11073
@@ -107,7 +120,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > - 要从收藏夹列表中删除项目，请选择收藏夹收藏中该项目旁边的“选项”图标，然后选择&#x200B;**从收藏夹中删除**。
-> - 要预览文件而不打开它，请选择一个文件，然后从“选项”菜单中选择“预览”****。
+> - 要预览文件而不打开它，请选择一个文件，然后从“选项”菜单中选择“预览”**&#x200B;**。
 
 </details>
 
@@ -172,7 +185,7 @@ ht-degree: 0%
 - **DITA文件**：您可以查找所选路径中存在的所有&#x200B;**DITA主题**&#x200B;和&#x200B;**DITA映射**。 默认情况下，将选择这些选项。
 - **非DITA文件**：您可以在所选路径中搜索&#x200B;**Ditaval文件**、**图像文件**、**多媒体**、**文档**&#x200B;和&#x200B;**JSON**。
 
-  ![快速搜索过滤器 ](images/repository-filter-search-quick.png) {width="300"}
+  ![快速搜索过滤器 &#x200B;](images/repository-filter-search-quick.png) {width="300"}
 
   *使用快速过滤器搜索 DITA 和非 DITA 文件。*
 
@@ -1134,7 +1147,7 @@ Experience Manager Guides提供了在本机PDF输出中使用语言变量的功�
 
 ## 变量
 
-Experience Manager Guides允许您创建和管理变量以供本机PDF发布。 有关详细信息，请在PDF输出](../native-pdf/native-pdf-variables.md)中查看[变量。
+Experience Manager Guides允许您创建和管理变量以供本机PDF发布。 有关详细信息，请在PDF输出[&#128279;](../native-pdf/native-pdf-variables.md)中查看变量。
 
 
 ## 查找并替换
@@ -1371,11 +1384,11 @@ Experience Manager Guides提供用于显示项目中所有审阅任务的功能�
 
    >[!NOTE]
    > 
-   > **审阅**&#x200B;面板和&#x200B;**评论**面板始终同步。在“注释”面板中，会根据“审阅”面板中加载的审阅任务来加载注释。
+   > **审阅**&#x200B;面板和&#x200B;**评论**&#x200B;面板始终同步。在“注释”面板中，会根据“审阅”面板中加载的审阅任务来加载注释。
    >您可以在审核面板的左边栏中查看已关闭的审核任务以及活动的审核任务。
-   >此外，对于已关闭的审阅任务，您可以在右侧的“注释”面板中查看审阅注释，但&#x200B;**导入注释**&#x200B;和&#x200B;**还原版本**按钮已禁用。
+   >此外，对于已关闭的审阅任务，您可以在右侧的“注释”面板中查看审阅注释，但&#x200B;**导入注释**&#x200B;和&#x200B;**还原版本**&#x200B;按钮已禁用。
    >有关如何处理评论的详细信息，请查看[地址审核评论](review-address-review-comments.md#)。
 
 </details>
 
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
