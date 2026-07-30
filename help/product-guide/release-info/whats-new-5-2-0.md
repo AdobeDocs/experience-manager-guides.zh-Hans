@@ -2,7 +2,7 @@
 title: 发行说明 | Adobe Experience Manager Guides 5.2.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 5.2.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Editor 2.0（又称“新编辑器”）提供了简化的创作过程，使您�
 
 - **统一的用户级编辑器设置**：新的集中式设置面板，它使作者更好地控制编辑器行为，允许用户从单个位置更轻松地管理首选项。 配置选项包括启用/禁用功能：
 
-   - 创作模式中的不间断空格
-   - 具有属性或不具有属性的标记可见性设置
-   - 创作模式中的XML注释
-   - 在编辑器中插入元素的快速插入菜单
+  - 创作模式中的不间断空格
+  - 具有属性或不具有属性的标记可见性设置
+  - 创作模式中的XML注释
+  - 在编辑器中插入元素的快速插入菜单
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -78,9 +78,9 @@ Editor 2.0（又称“新编辑器”）提供了简化的创作过程，使您�
 
 - **改进了表创作**：通过更直观、更高效的交互来创建和管理表，增强了整个表创作体验。
 
-   - 流畅而直观的交互：可轻松插入行和列，并且支持拖放以重新排列行和列。
-   - 上下文工具栏：直接在表中访问特定于表的操作，例如格式设置、对齐、合并和其他附加操作。
-   - 配置表：在单个操作中添加多个行或列，从而减少重复步骤并提高效率。
+  - 流畅而直观的交互：可轻松插入行和列，并且支持拖放以重新排列行和列。
+  - 上下文工具栏：直接在表中访问特定于表的操作，例如格式设置、对齐、合并和其他附加操作。
+  - 配置表：在单个操作中添加多个行或列，从而减少重复步骤并提高效率。
 
   ![](assets/config-table.png){width="650"}
 
@@ -415,7 +415,7 @@ Experience Manager Guides现在支持AEM Sites输出中的元素级别组件映�
 
 作为此版本的一部分，进行了以下API增强：
 
-- 引入新API以创建新翻译项目并跟踪其状态。 这些API有助于自动化翻译过程，减少手动工作并提高效率。 有关详细信息，请查看[创建翻译项目](../api-reference/translation-project.md)
+- 引入新API以创建新翻译项目并跟踪其状态。 这些API有助于自动化翻译过程，减少手动工作并提高效率。 有关详细信息，请查看[创建翻译项目](../api-reference/create-translation-project.md)。
 - 增强了资源处理API，提高了文件和文件夹的过滤能力。 有关详细信息，请查看[处理资源](../api-reference/bulk-assets-processing.md)。
 - 新API可用于跟踪单个资源和文件夹的后处理状态。这对于使用自动化工作流的团队特别有用，因为在这些团队中，发布需要仅在内容经过完全处理之后进行。API提供了一种确认就绪性的可靠方式，从而降低了因处理不完整而导致发布失败的风险。此外，通过引入此API，资产后处理事件将不会自动触发。管理员现在可以通过`fmdita config manager`中的设置启用此事件。
 有关详细信息，请查看[API以跟踪单个资源和文件夹的后处理状态](../api-reference/track-post-processing-status.md)和[fmdita配置管理器中的后处理事件处理程序设置](../api-reference/post-process-event.md)

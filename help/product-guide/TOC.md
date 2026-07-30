@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 5a4aae4385951abb8c0a577d4b7f5542c8b1dde6
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2578'
 ht-degree: 10%
 
 ---
@@ -412,6 +412,7 @@ ht-degree: 10%
       - [配置文件夹配置文件](./lc-config-guide/lc-folder-profile.md)
       - [设置文件夹结构的最佳实践](./lc-config-guide/best-practices-folder-structure.md)
       - [配置其他设置](./lc-config-guide/lc-other-settings.md)
+      - [为SCORM预览配置CSP](./lc-config-guide/guides-scorm-preview-config.md)
       - [SCORM关键量度](./lc-config-guide/learning-course-parameters.md)
     - 视频教程 {#lc-video}
       - [创作工作流](./lc-video-tutorials/author-workflow.md)
@@ -591,7 +592,7 @@ ht-degree: 10%
   - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
   - [批量激活完成事件处理程序](./api-reference/bulk-activation-complete-event.md)
   - [转换过程事件处理程序](./api-reference/conversion-complete-event.md)
-  - [创建翻译项目](./api-reference/translation-project.md)
+  - [创建翻译项目](./api-reference/create-translation-project.md)
 - 知识库 {#knowledge-base}
   - 专家讲座 {#expert-session}
     - [专家讲座概述](./knowledge-base/expert-sessions/expert-session.md)

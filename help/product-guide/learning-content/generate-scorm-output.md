@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4433d28a41c3d9d797b38dbf732119fc3ea69f36
+source-git-commit: 1eb7ff8740855a0781a8a290275d02f1b2bc53f4
 workflow-type: tm+mt
-source-wordcount: 124
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -33,6 +33,11 @@ ht-degree: 0%
    ![](assets/scorm-success-message.png){width="350"}
 
 1. 您可以通过选择&#x200B;**下载输出**&#x200B;或&#x200B;**预览输出**&#x200B;来下载或预览输出。
+
+   >[!NOTE]
+   >
+   > 在生成SCORM输出时，可以使用SCORM预览。 如果您的课程依赖外部域提供字体、样式表或嵌入内容，请在[配置SCORM预览](../lc-config-guide/guides-scorm-preview-config.md)中配置允许的域。
+
 
    ![](assets/scorm-view-output-new.png){width="650"}
 
