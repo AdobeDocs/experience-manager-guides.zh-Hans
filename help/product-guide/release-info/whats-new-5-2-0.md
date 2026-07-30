@@ -2,7 +2,7 @@
 title: 发行说明 | Adobe Experience Manager Guides 5.2.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 5.2.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 有关此版本中修复的问题列表，请查看[5.2.0版本](../release-info/fixed-issues-5-2-0.md)中的已修复问题。
 
-了解5.2.0版本[&#128279;](../release-info/upgrade-instructions-5-2-0.md)的升级说明。
+了解5.2.0版本](../release-info/upgrade-instructions-5-2-0.md)的[升级说明。
 
 
 ## Editor 2.0简介
@@ -224,7 +224,7 @@ Experience Manager Guides在编辑器界面的左侧面板中提供的查找和�
 
 ![](assets/file-properties-new.png){width="350"}
 
-有关详细信息，请在编辑器[&#128279;](../user-guide/web-editor-right-panel.md#file-properties)中查看右侧面板。
+有关详细信息，请在编辑器](../user-guide/web-editor-right-panel.md#file-properties)中查看[右侧面板。
 
 ### 在创作视图的主题和映射中轻松识别和修复重复ID
 
@@ -271,7 +271,7 @@ Experience Manager Guides现在在编辑器中包含&#x200B;**重复ID**&#x200B;
 
 ### 版本历史记录
 
-查看者现在可以访问所查看主题的版本历史记录，从而允许他们在以前的查看任务中查看和比较同一主题的先前已查看版本和更新版本。 这有助于审阅人通过审阅当前审阅上下文中的注释、标签和其他相关详细信息，来验证自早期审阅周期以来所做的更改并保持连续性。 有关详细信息，请查看审阅者[&#128279;](../user-guide/review-topics.md#version-history-for-the-reviewer)的版本历史记录。
+查看者现在可以访问所查看主题的版本历史记录，从而允许他们在以前的查看任务中查看和比较同一主题的先前已查看版本和更新版本。 这有助于审阅人通过审阅当前审阅上下文中的注释、标签和其他相关详细信息，来验证自早期审阅周期以来所做的更改并保持连续性。 有关详细信息，请查看审阅者](../user-guide/review-topics.md#version-history-for-the-reviewer)的[版本历史记录。
 
 ### 直接从审阅面板访问审阅任务的状态
 
@@ -397,7 +397,7 @@ Experience Manager Guides现在在编辑器中包含&#x200B;**重复ID**&#x200B;
 
 Experience Manager Guides现在支持AEM Sites输出中的元素级别组件映射（使用复合组件映射），从而让团队能够精确控制DITA元素使用`componentmapping.json`呈现的方式。 通过将`topicref`、标题、图像、表等映射到适当的AEM核心组件，您可以获得更简洁的结构，而不是默认使用文本组件的所有内容。 这可以提高性能，并解锁更丰富、更现代的Sites体验。
 
-有关详细信息，请查看AEM Sites[&#128279;](../install-conf-guide/component-mapping.md)的组件映射。
+有关详细信息，请查看AEM Sites](../install-conf-guide/component-mapping.md)的[组件映射。
 
 ## Experience Manager Guides中引入的新基线体验
 
@@ -409,13 +409,13 @@ Experience Manager Guides现在支持AEM Sites输出中的元素级别组件映�
 - 更强的UI和后端一致性
 - 扩展的筛选、导航和依赖项可见性
 
-有关详细信息，请在Experience Manager Guides[&#128279;](../user-guide/web-editor-baseline-v2.md)中查看新的基线体验(Beta)。
+有关详细信息，请在Experience Manager Guides](../user-guide/web-editor-baseline-v2.md)中查看[新的基线体验(Beta)。
 
 ## API增强功能
 
 作为此版本的一部分，进行了以下API增强：
 
-- 引入新API以创建新翻译项目并跟踪其状态。 这些API有助于自动化翻译过程，减少手动工作并提高效率。 有关详细信息，请查看[创建翻译项目](../api-reference/api-update-swagger.md)。
+- 引入新API以创建新翻译项目并跟踪其状态。 这些API有助于自动化翻译过程，减少手动工作并提高效率。 有关详细信息，请查看[创建翻译项目](../api-reference/create-translation-project.md)。
 - 增强了资源处理API，提高了文件和文件夹的过滤能力。 有关详细信息，请查看[处理资源](../api-reference/bulk-assets-processing.md)。
 - 新API可用于跟踪单个资源和文件夹的后处理状态。这对于使用自动化工作流的团队特别有用，因为在这些团队中，发布需要仅在内容经过完全处理之后进行。API提供了一种确认就绪性的可靠方式，从而降低了因处理不完整而导致发布失败的风险。此外，通过引入此API，资产后处理事件将不会自动触发。管理员现在可以通过`fmdita config manager`中的设置启用此事件。
 有关详细信息，请查看[API以跟踪单个资源和文件夹的后处理状态](../api-reference/track-post-processing-status.md)和[fmdita配置管理器中的后处理事件处理程序设置](../api-reference/post-process-event.md)
