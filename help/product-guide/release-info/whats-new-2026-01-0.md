@@ -3,7 +3,7 @@ title: 发行说明 | Adobe Experience Manager Guides 2026.01.0版本中的新�
 description: 了解Adobe Experience Manager Guides 2026.01.0版本中的新增功能和增强功能
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 有关此版本中修复的问题列表，请查看[2026.01.0版本](fixed-issues-2026-01-0.md)中修复的问题。
 
-了解2026.01.0版本[&#128279;](../release-info/upgrade-instructions-2026-01-0.md)的升级说明。
+了解2026.01.0版本](../release-info/upgrade-instructions-2026-01-0.md)的[升级说明。
 
 
 ## 在“查找和替换”中引入Source模式搜索
@@ -105,7 +105,7 @@ Experience Manager Guides在编辑器界面的左侧面板中提供的查找和�
 
 ![](assets/file-properties-new.png){width="350"}
 
-有关详细信息，请在编辑器[&#128279;](../user-guide/web-editor-right-panel.md#file-properties)中查看右侧面板。
+有关详细信息，请在编辑器](../user-guide/web-editor-right-panel.md#file-properties)中查看[右侧面板。
 
 ### 只读文件的元数据属性不再可编辑
 
@@ -167,7 +167,7 @@ Experience Manager Guides在编辑器界面的左侧面板中提供的查找和�
 
 Experience Manager Guides现在支持AEM Sites输出中的元素级别组件映射（使用复合组件映射），从而让团队能够精确控制DITA元素使用`componentmapping.json`呈现的方式。 通过将`topicref`、标题、图像、表等映射到适当的AEM核心组件，您可以获得更简洁的结构，而不是默认使用文本组件的所有内容。 这可以提高性能，并解锁更丰富、更现代的Sites体验。
 
-有关详细信息，请在AEM Sites[&#128279;](../cs-install-guide/component-mapping.md)中查看组件映射。
+有关详细信息，请在AEM Sites](../cs-install-guide/component-mapping.md)中查看[组件映射。
 
 ## 资产处理增强功能
 
@@ -184,5 +184,5 @@ Experience Manager Guides现在支持AEM Sites输出中的元素级别组件映�
 
 作为此版本的一部分，进行了以下API增强：
 
-- 引入新API以创建新翻译项目并跟踪其状态。 这些API有助于自动化翻译过程，减少手动工作并提高效率。 有关详细信息，请查看[创建翻译项目](../api-reference/translation-project.md)
+- 引入新API以创建新翻译项目并跟踪其状态。 这些API有助于自动化翻译过程，减少手动工作并提高效率。 有关详细信息，请查看[创建翻译项目](../api-reference/api-update-swagger.md)。
 - 增强了资源处理API，提高了文件和文件夹的过滤能力。 有关详细信息，请查看[处理资源](../api-reference/bulk-assets-processing.md)。
