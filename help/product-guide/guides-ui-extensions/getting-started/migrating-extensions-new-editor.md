@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 ## 概述
 
 - **您的注册未更改**：继续使用`window.extension` / `tcx.extension.register`。
-- **编辑器画布是新表面。**&#x200B;上下文菜单项必须声明新的构件ID
+- **编辑器画布是新表面。** 上下文菜单项必须声明新的构件ID
   `markup_editor_menu`；编辑器中的行为必须停止接触DOM。
 - **停止读取/写入DOM**：将`tcx.curEditor.*` DOM访问权限替换为
   `guides.editor` API：[使用`runUtil(...)`](#migrate-reads-dom-runutil)读取，[使用`runCommand(...)`](#migrate-writes-dom-mutation-runcommand)写入，[样式使用装饰](#migrate-rendering-only-logic-dom-paint-decorations)，以及[通过应用程序事件运行全局操作（保存）](#migrate-global-actions-savefocus-app-events) 。
@@ -355,9 +355,9 @@ const createXrefPlugin = () => {
 guides.ready(() => guides.editor.registerPlugin(createXrefPlugin));
 ```
 
-在应用程序加载时注册插件（一次），而不是在对话框内注册插件，或者重复注册插件，注册表不会进行重复数据删除。`registerPlugin`仅接受&#x200B;**工厂函数**，不接受插件实例。
-`guides.editor.prosemirror`公开： `state`、`model`、`view`、`transform`、`commands`、`keymap`、
-`history`，`tables`，`dropcursor`，`collab`，`markdown`。
+在应用程序加载时注册插件（一次），而不是在对话框内注册插件，或者重复注册插件，注册表不会进行重复数据删除。 `registerPlugin`仅接受&#x200B;**工厂函数**，不接受插件实例。
+`guides.editor.prosemirror`公开：`state`、`model`、`view`、`transform`、`commands`、`keymap`，
+`history`, `tables`, `dropcursor`, `collab`, `markdown`.
 
 
 ## 迁移CSS（页面clientlib→影子DOM）
@@ -424,7 +424,7 @@ guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
 （样式）。
 - **CSS无效**：它属于页面级别；编辑器位于影子DOM中。 使用`registerPlugin({ css })`。
 - **不安全的防护抛出**：类似`if (!tcx.curEditor && !tcx.curEditor.editor)`的模式评估
-  在假对象上执行`.editor`。改为保护`guides.editor`功能：
+  在假对象上执行`.editor`。 改为保护`guides.editor`功能：
   `if (!guides?.editor) return;`.
 - **正在尝试迁移app-shell菜单**：存储库/映射/文件菜单不是编辑器画布；
 保留为其旧版构件ID。
