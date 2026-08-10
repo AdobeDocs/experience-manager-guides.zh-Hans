@@ -68,7 +68,7 @@ guides.ready(cb) // fires once at app load (view system ready) — before any fi
 
 ### 插件注册和运行时选通
 
-- **注册** （`registerPlugin`，一次性设置）：在`guides.ready`中无条件运行它&#x200B;****。 在旧版编辑器中，这是一项无害的无操作操作：旧版编辑器从不读取插件注册表，并且您的工厂仅在实际构建MarkupEditor时才运行。 它会&#x200B;**不**&#x200B;丢弃。
+- **注册** （`registerPlugin`，一次性设置）：在`guides.ready`中无条件运行它&#x200B;**&#x200B;**。 在旧版编辑器中，这是一项无害的无操作操作：旧版编辑器从不读取插件注册表，并且您的工厂仅在实际构建MarkupEditor时才运行。 它会&#x200B;**不**&#x200B;丢弃。
 
 - **运行时调用** (`runCommand`， `runUtil`， `addDecoration`， ...)：存在门别版本并且在调用时不等于“1.0.0”。 它们不会抛出旧版编辑器（它们安全地返回`false`/`undefined`），但门控可避免无操作警告，并允许您保留旧版回退。
 
@@ -91,7 +91,7 @@ function onMenuClick() {
 
 ### Hello world：仅限CSS的高亮插件
 
-最小的有用扩展仅提供&#x200B;**CSS**无操作ProseMirror插件和样式。 此
+最小的有用扩展仅提供&#x200B;**CSS**&#x200B;无操作ProseMirror插件和样式。 此
 突出显示编辑器内具有黄色背景的每个`<note>`元素：
 
 ```js
@@ -105,7 +105,7 @@ guides.ready(() => {
 
 - 每个元素都呈现为`data-xml-element="<tag>"`，因此您可以通过这种方式定位任何DITA元素
 (`note`，`codeblock`，`section`，`table`， ...)。
-- CSS **必须**通过registerPlugin发运：编辑器位于影子DOM中，因此page/clientlib CSS无法发送
+- CSS **必须**&#x200B;通过registerPlugin发运：编辑器位于影子DOM中，因此page/clientlib CSS无法发送
 找到它。
 - 打开包含`<note>`的DITA主题以查看其应用。 注册是无条件的(§2.1)，
 因此即使`version`在`guides.ready`时间仍为`1.0.0`，这是安全的。
@@ -320,7 +320,7 @@ tcx.eventHandler.next(tcx.eventHandler.KEYS.AUTHOR_SAVE_KEY);
 ## 迁移仅渲染逻辑（DOM绘制：装饰）
 
 通过修改DOM而添加CSS类、`data-*`属性或“显示文本”的任何内容都必须
-成为**装饰**，或者该装饰在重新渲染时消失。 以下是简单的声明性用例：
+成为&#x200B;**装饰**，或者该装饰在重新渲染时消失。 以下是简单的声明性用例：
 
 ```js
 guides.editor.addDecoration('important-sections', 'section', {
