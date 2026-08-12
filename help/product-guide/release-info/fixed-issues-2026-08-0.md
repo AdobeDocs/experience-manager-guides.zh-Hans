@@ -1,9 +1,9 @@
 ---
 title: 发行说明 |修复了Adobe Experience Manager Guides 2026.08.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2026.08.0版本中的错误修复。
-source-git-commit: 11d5db19cc352a3750754099a11290e4c0da0846
+source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1218'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,7 @@ Adobe发现了2026.08.0版本的以下已知问题：
 - 包装在`foreign`和`equation`块中的MathML公式会导致多余的间距，即使在调整缩进后，在公式中键入也会导致问题。 （指南 — 46606）
 - 启用&#x200B;**显示标记**&#x200B;选项并在编辑器设置中禁用&#x200B;**显示属性**&#x200B;选项时，无法将光标置于`reltable`内的`topicref`内。 （指南 — 46565）
 - 将引用拖放到空的`keydef`中会添加`topicref`元素，而不是更新引用。 （指南 — 45068）
+- 在表单元格`<entry>`中的内联标记被删除之前输入的空格。 （指南 — 49144）
 
 ## 发布
 
