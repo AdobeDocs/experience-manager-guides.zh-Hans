@@ -12,9 +12,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 4f263fb5c60be66c1ec2d30d57dfb8f5be06eb92
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: 289
 ht-degree: 0%
 
 ---
@@ -30,18 +30,18 @@ ht-degree: 0%
 ## 如果您使用的版本低于4.6（内部部署）或2404（云）：
 
 - 一旦翻译完成并批准，将所有项目标记为“非活动”。项目仍可供审查，并且只是标记为不活动。
-   - 遵循这些步骤将有助于保持整体翻译性能的良好状态。
-     ![不活动的翻译项目](../assets/translation/translation-project-image1.png)
+  - 遵循这些步骤将有助于保持整体翻译性能的良好状态。
+    ![不活动的翻译项目](./assets/translation-project-image1.png)
 
 - 对于标记为不活动的旧项目文件夹，应删除已批准和已审阅的文件夹
-   - 执行以下步骤将有助于通过清除与此项目文件夹关联的临时翻译文件和用户组，保持整体翻译性能良好。
-     ![删除翻译项目和文件夹](../assets/translation/translation-project-image2.png)
+  - 执行以下步骤将有助于通过清除与此项目文件夹关联的临时翻译文件和用户组，保持整体翻译性能良好。
+    ![删除翻译项目和文件夹](./assets/translation-project-image2.png)
 
 
 ## 如果您位于上，请构建4.6或2404或更高版本：
 
 您可以继续执行上述相同步骤。 从版本4.6/2404开始，AEM Guides为管理员引入了一个编辑器设置，用于禁用自动删除翻译项目。
 
-参考：[自动删除或禁用已完成的翻译项目](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project)
+参考：[自动删除或禁用已完成的翻译项目](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![在AEM Guides &#x200B;](../assets/translation/translation-project-image3.png)中删除并禁用翻译项目的自动设置
+![在AEM Guides &#x200B;](./assets/translation-project-image3.png)中删除并禁用翻译项目的自动设置

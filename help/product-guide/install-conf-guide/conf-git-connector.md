@@ -4,9 +4,9 @@ description: 了解如何在Experience Manager Guides中配置Git。
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 将鼠标悬停在 <img src="./assets/info-details.svg" alt= "信息图标" width="25">在字段附近查看有关它的更多详细信息。
-   >* 带*的字段为必填字段。 例如，您可以为Elasticsearch连接器输入以下详细信息。
+   >* 带*的字段为必填字段。 例如，您可以为Git连接器输入以下详细信息。
 
    &#x200B;- **名称**：输入数据源的名称。
    &#x200B;- **Target AEM根路径**：输入从Git导入的内容应存储在AEM存储库中的路径。
@@ -70,13 +70,17 @@ ht-degree: 0%
 
 在可以从&#x200B;**数据源**&#x200B;页面配置Git连接器之前，必须将它作为依赖项嵌入到AEM项目中。 执行以下步骤可添加依赖关系：
 
+>[!NOTE]
+>
+> 要查看可用的Git连接器版本，请查看[Maven中央存储库](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github)。
+
 1. 在您的AEM项目的`all/pom.xml`中，将Git Connector作为依赖项添加到`<dependencies>`下：
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 

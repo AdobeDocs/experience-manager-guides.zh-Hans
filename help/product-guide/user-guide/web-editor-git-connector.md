@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: f8123b54fae2aa209efda73abb333e63cf722708
 workflow-type: tm+mt
-source-wordcount: 1352
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
@@ -115,7 +115,9 @@ Git Connector将内容从Git存储库移动到Experience Manager Guides中四个
 
    >[!NOTE]
    >
-   > 您可以启用&#x200B;**自动同步**&#x200B;以自动同步内容并将内容从Git存储库导入到Experience Manager Guides中。 如果检测到任何错误，则不会触发自动同步，作者必须通过选择&#x200B;**全部导入**&#x200B;来手动导入内容。 启用后，无法为导入程序禁用自动同步。
+   > 如果您使用的是低于1.0.1的Git Connector版本，则在提取操作期间，导入包含Git子模块的存储库可能会失败。 请升级到Git连接器1.0.1版或更高版本，以避免出现此问题。 从版本1.0.1开始，克隆和导入期间将跳过Git子模块，并且只导入主存储库中的内容。
+
+1. *（可选）*&#x200B;您可以启用&#x200B;**自动同步**&#x200B;以自动同步内容并将内容从Git存储库导入到Experience Manager Guides中。 如果检测到任何错误，则不会触发自动同步，作者必须通过选择&#x200B;**全部导入**&#x200B;来手动导入内容。 启用后，无法为导入程序禁用自动同步。
 
 导入内容后，在设置Git Connector时，该内容存储在配置的&#x200B;**Target AEM根路径**&#x200B;下。
 
