@@ -1,6 +1,6 @@
 ---
 title: Experience Manager Guides教程
-description: 查找 Experience Manager Guides（原 XML Documentation for Experience Manager）教程视频。 了解 Experience Manager 中的原生 DITA 支持与结构化创作功能。
+description: 查找 Experience Manager Guides（原 XML Documentation for Adobe Experience Manager）教程视频。 了解 Experience Manager 中的原生 DITA 支持与结构化创作功能。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
@@ -62,6 +62,6 @@ ht-degree: 10%
 ## 其他资源
 
 * [[!DNL Experience Manager Guides]用户指南（旧UI）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [[!DNL AEM Guides]学习和支持](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)
+* [[!DNL AEM Guides]学习和支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League — 浏览AEM](https://business.adobe.com/cn/products/experience-manager/adobe-experience-manager.html)
 
