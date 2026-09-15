@@ -7,18 +7,20 @@ role: Leader
 TQID: https://experienceleague.adobe.com/RROF3KWnqtnbbHGyW1McC9uvdA7x27fI-Rp4nCZOTHo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 1a08469a4bd12f8b6dd9d83196463432b331f239
+    internal-label: Customer experience
+source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: '2473'
 ht-degree: 0%
-
 ---
-
 # [!DNL AEM Guides]版本
 
 [!DNL Adobe Experience Manager Guides]是部署在AEM上的应用程序。 这是一个功能强大、企业级组件内容管理解决方案(CCMS)，可在Adobe Experience Manager中启用原生DITA支持，使AEM能够处理基于DITA的内容创建和交付。
@@ -37,8 +39,8 @@ UUID和非UUID内部版本之间的主要区别如下：
 ### UUID构建的优势
 
 * UUID安装的性能更高：
-   * 参照是独立于路径的：参照管理系统在参照基于UUID而不是路径创建时可识别链接。
-   * 移动/更新操作高效：即使资产迁移到存储库中的其他路径，UUID仍保持不变。 因此，在移动/更新操作中，无需处理即可修补资源之间的引用。
+  * 参照是独立于路径的：参照管理系统在参照基于UUID而不是路径创建时可识别链接。
+  * 移动/更新操作高效：即使资产迁移到存储库中的其他路径，UUID仍保持不变。 因此，在移动/更新操作中，无需处理即可修补资源之间的引用。
 * UUID构建具有前瞻性，因为我们也将此框架用于AEM Guides的云设置。
 
 
@@ -56,7 +58,9 @@ UUID和非UUID内部版本之间的主要区别如下：
 
 当您从较旧版本升级到[!DNL AEM Guides]的较新版本时，您可能需要执行迁移脚本。 有关升级说明，请参阅发行说明和特定于版本的文档。
 
-并非所有升级路径都直接受支持。 例如，只有从版本3.8直接升级到版本4.0才可行。如果您使用的版本低于3.8，请参阅特定于版本的文档以了解升级说明[帮助存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)。请联系您的客户成功经理以验证升级路径。
+并非所有升级路径都直接受支持。 例如，只有从版本3.8直接升级到版本4.0才可行。
+如果您使用的版本低于3.8，请参阅特定于版本的文档以了解升级说明[帮助存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)。
+请联系您的客户成功经理以验证升级路径。
 
 **[!DNL AEM Guides]内部版本**
 
@@ -64,7 +68,7 @@ UUID和非UUID内部版本之间的主要区别如下：
 >
 >联系您的客户成功经理以访问AEM as a Cloud Service的[!DNL AEM Guides]内部版本。
 
-以下列表包含可用于在AMS或内部部署上安装的最新[!DNL AEM Guides]软件包、软件包的下载链接以及其他有用信息。 在安装Experience Manager Guides之前，请确保您的系统符合[技术要求](../install-guide/download-install-technical-requirements.md)。 此外，建议仅使用[!DNL AEM Guides]的最新内部版本。 如果由于某种原因，您需要访问旧版本，请联系您帐户的客户成功经理。
+以下列表包含可用于在AMS或内部部署上安装的最新[!DNL AEM Guides]软件包、软件包的下载链接以及其他有用信息。 在安装Experience Manager Guides之前，请确保您的系统符合[技术要求](../install-conf-guide/aemg-technical-requirements.md)。 此外，建议仅使用[!DNL AEM Guides]的最新内部版本。 如果由于某种原因，您需要访问旧版本，请联系您帐户的客户成功经理。
 
 >[!NOTE]
 >
