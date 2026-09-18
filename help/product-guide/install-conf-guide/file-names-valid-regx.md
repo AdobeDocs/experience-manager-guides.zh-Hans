@@ -4,13 +4,12 @@ description: 了解如何为有效的文件名字符配置Regx
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0eacc712-1179-4c11-b8f9-9eb2706e6295
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # 为有效的文件名字符配置Regx {#id214BD0550E8}
 
 从AEM Guides 3.8版本开始，作为管理员，您可以定义一个列表，其中包含允许在文件名中使用的有效特殊字符。 在早期版本中，允许用户定义包含特殊字符（如`@`、`$`、`>`等）的文件名。 这些特殊字符在DITA映射仪表板中打开主题或单击目录中的主题链接时会导致问题，这通常会导致URL中的特殊字符导致页面无法打开。

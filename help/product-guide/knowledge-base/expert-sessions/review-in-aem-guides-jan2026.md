@@ -1,13 +1,12 @@
 ---
 title: AEM Guides中的内容审查
 description: 专家讲座 — AEM Guides审核工作流程内部。 功能和实际用例
-source-git-commit: a05fb3e28481648b7cceca970dc9d9a617dce3a2
+exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
+source-git-commit: 0d214aca4b5f12d5401ed174d20259627bf94469
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '234'
 ht-degree: 1%
-
 ---
-
 # AEM Guides中的内容审查
 
 通过AEM Guides审阅工作流程，作者、SME和审阅人无需离开AEM即可就DITA主题和映射进行协作。 它支持注释、版本控制、任务管理和多阶段批准。
@@ -38,11 +37,11 @@ ht-degree: 1%
 
 ## 相关资源
 
-- [审阅工作流文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/user-guide/review/review)
+- [查看工作流文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [AEM Guides与Workfront的集成](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [AEM Guides与Workfront集成](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [自定义审阅UI](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [自定义审阅UI](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -55,7 +54,7 @@ ht-degree: 1%
 
 ### 社区论坛
 
-- 有关Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hans)。
+- 有关Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 
 ## 联系我们

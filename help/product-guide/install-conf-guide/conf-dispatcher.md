@@ -4,20 +4,19 @@ description: 了解如何配置Dispatcher
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 4b7b4e9b-0a5c-4b61-87d9-a6bd6494c030
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 7%
-
+source-wordcount: '293'
+ht-degree: 6%
 ---
-
 # 配置 Dispatcher {#id213BCM0M05U}
 
 如果您计划在AEM创作实例上将Dispatcher与AEM Guides结合使用，则需要执行以下其他配置以完成设置：
 
 >[!NOTE]
 >
-> Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关使用Dispatcher的详细信息，请参阅[Dispatcher概述](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=zh-Hans)。
+> Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。 有关使用Dispatcher的详细信息，请参阅[Dispatcher概述](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en)。
 
 ## 在URL中启用AllowEncodedSlases
 
@@ -71,7 +70,7 @@ ht-degree: 7%
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}
 ```
 
-- 确保未在创作Dispatcher上缓存URL模式`/libs/cq/security/userinfo.json`，因此请在`\(like below\)`中添加规则`author\_dispatcher.any`
+- 确保未在创作Dispatcher上缓存URL模式`/libs/cq/security/userinfo.json`，因此请在`author\_dispatcher.any`中添加规则`\(like below\)`
 
 ```json
 /xxxx {
@@ -79,4 +78,3 @@ ht-degree: 7%
                 /type "deny"
                 }
 ```
-

@@ -1,16 +1,15 @@
 ---
-title: 本机PDF |为本机PDF发布配置JVM标记
+title: 原生PDF |为本机PDF发布配置JVM标记
 description: 为本机PDF发布配置JVM标记
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: a2a9f44c-cb17-4423-a66e-499bce921398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 1%
-
 ---
-
 # 为本地本地PDF发布配置JVM标记
 
 本机PDF发布会启动一个单独的JVM进程来生成PDF。 您可能需要调整此JVM的配置以支持不同的场景。 例如，要运行较大的工作负载，应增加派生的JVM进程可用的最大栈大小。
@@ -27,7 +26,7 @@ ht-degree: 1%
 
 1. 搜索并选择&#x200B;*com.adobe.fmdita.config.ConfigManager*&#x200B;包。
 
-1. 更新本机pdf **(** native.pdf.java.opts *)的属性* Java命令行选项以传递任何标准JVM标志。
+1. 更新本机pdf **(*native.pdf.java.opts*)的属性** Java命令行选项以传递任何标准JVM标志。
 
 
 

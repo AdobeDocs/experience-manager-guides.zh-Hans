@@ -4,13 +4,12 @@ description: 了解如何迁移现有内容
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: d3d24119-8a3c-40f2-994f-3c0e5ee37f59
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '155'
 ht-degree: 2%
-
 ---
-
 # 迁移现有内容 {#id181AGB000Y4}
 
 AEM Guides允许您将各种结构化和非结构化文档转换为DITA格式。 本主题介绍有关在AEM存储库中上传DITA内容以及将非DITA内容转换为DITA格式的信息。
@@ -24,5 +23,3 @@ AEM Guides允许您将各种结构化和非结构化文档转换为DITA格式。
 | 云服务 | 内部部署 |
 |-------------|------------|
 | <ul><li>[使用Curl命令上传DITA内容](./use-curl-command.md)</li><li>[配置UUID文件模式](./conf-uuid-filename-pattern.md)</li><li>[迁移非DITA内容](./non-dita-content.md)</li><li>[将内容从内部部署迁移到Cloud Service](./migrate-on-premise-content-cloud.md)</li></ul> | <ul><li>[使用Framemaker和WebDav工具（内部部署）上载现有DITA内容](upload-dita-content.md)</li><li>[使用Curl命令上传DITA内容](./use-curl-command.md)</li><li>[配置UUID文件模式](./conf-uuid-filename-pattern.md)</li><li>[迁移非DITA内容](./non-dita-content.md)</li></ul> |
-
-

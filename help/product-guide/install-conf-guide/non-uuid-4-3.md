@@ -4,13 +4,12 @@ description: 了解如何将非UUID迁移到UUID内容
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 313208e4-4403-4ba8-8e97-c5a95475b87e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1697'
 ht-degree: 1%
-
 ---
-
 # 从4.3.1非UUID迁移到4.3.2 UUID内容
 
 
@@ -23,7 +22,7 @@ ht-degree: 1%
 >   1. 已关闭所有活动审核。
 >   1. 已关闭所有翻译任务。
 > * 在将内容迁移到UUID服务器之前，请确保您的非UUID服务器上安装了兼容的AEM Guides版本。
-> * 如果您使用的版本低于4.3.1，请升级到版本4.3.1。按照特定于您的产品的许可版本的[升级说明](./upgrade-aemg-latest-version.md)执行操作。
+> * 如果您使用的版本低于4.3.1，请升级到版本4.3.1。 按照特定于您的产品的许可版本的[升级说明](./upgrade-aemg-latest-version.md)执行操作。
 > * 当前，不支持版本高于4.3.1的迁移。
 
 
@@ -115,7 +114,7 @@ ht-degree: 1%
    * `com.adobe.guides.uuid`。
 
 
-1. （如果之前未这样做）如果系统中有超过100,000个DITA文件，请将`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于存在的资产数的值，例如200,000）。
+1. （如果之前未这样做）如果系统中有超过100,000个DITA文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新为更大的值（任何大于存在的资产数的值，例如200,000）。
 
    | PID | 属性键 | 属性值 |
    |---|---|---|
@@ -216,8 +215,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 如果在迁移之前，属性&#x200B;**在**&#x200B;中使用AEM站点页面名称的标题`com.adobe.fmdita.config.ConfigManager`，设置为&#x200B;*False*，则在迁移之后，需要更新此属性。
+   > 如果在迁移之前，属性&#x200B;**在`com.adobe.fmdita.config.ConfigManager`中使用AEM站点页面名称的标题**，设置为&#x200B;*False*，则在迁移之后，需要更新此属性。
 
 
-1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hans`）。
-
+1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`）。

@@ -4,13 +4,12 @@ description: 了解如何为AEM Sites进行组件映射
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # AEM Sites的组件映射
 
 本文讨论了AEM站点的组件映射（使用复合组件映射）的各个方面。
@@ -191,9 +190,9 @@ ht-degree: 0%
 ### 文件夹结构和关键文件（在此存储库中）
 
 - 组件HTL和clientlibs： `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
-   - `table.html` （HTL渲染器）
-   - `_cq_editConfig.xml` （刷新侦听器）
-   - `clientlibs/`与`css.txt`，`js.txt`，`css/table.css`，`js/table.js`
+  - `table.html` （HTL渲染器）
+  - `_cq_editConfig.xml` （刷新侦听器）
+  - `clientlibs/`与`css.txt`，`js.txt`，`css/table.css`，`js/table.js`
 - Sling模型： `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - 图像渲染服务： `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 

@@ -4,18 +4,17 @@ description: 了解如何翻译内容
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 7138fc35-09ee-4df5-8496-dc673effe120
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 6%
-
+source-wordcount: '1573'
+ht-degree: 5%
 ---
-
 # 翻译内容 {#id181GB0400UI}
 
-自动翻译页面内容、资产和用户生成的内容，以创建和维护多语言网站。 要自动化翻译工作流，您可以将翻译服务提供商与 AEM 集成并创建项目以将内容翻译成多种语言。AEM 支持人工翻译工作流和机器翻译工作流。
+自动翻译页面内容、资产和用户生成的内容，以创建和维护多语言网站。 要自动化翻译工作流，您可以将翻译服务提供商与 AEM 集成并创建项目以将内容翻译成多种语言。 AEM 支持人工翻译工作流和机器翻译工作流。
 
-- 人工翻译：内容将发送给您的翻译提供商并由专业翻译人员进行翻译。 完成后，将返回翻译的内容并将其导入 AEM。当您的翻译提供商与AEM集成时，内容会在AEM和翻译提供商之间自动交换
+- 人工翻译：内容将发送给您的翻译提供商并由专业翻译人员进行翻译。 完成后，将返回翻译的内容并将其导入 AEM。 当您的翻译提供商与AEM集成时，内容会在AEM和翻译提供商之间自动交换
 
 - 机器翻译：机器翻译服务将立即翻译您的内容
 
@@ -26,32 +25,32 @@ ht-degree: 6%
 
 >[!TAB Cloud Service]
 
-1. 将AEM与您的[翻译服务提供商](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hans)连接并创建翻译集成框架配置。
+1. 将AEM与您的[翻译服务提供商](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)连接并创建翻译集成框架配置。
 
 1. 将语言母版页面关联到翻译服务和框架配置。
 
-1. 标识要翻译的[内容的类型](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=zh-Hans)。
+1. 标识要翻译的[内容的类型](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en)。
 
-1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=zh-Hans)。
+1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)。
 
-1. 创建[翻译项目](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=zh-Hans)以收集要翻译的内容并准备翻译过程。
+1. 创建[翻译项目](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)以收集要翻译的内容并准备翻译过程。
 
-1. 使用翻译项目[管理内容翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=zh-Hans)进程。
+1. 使用翻译项目[管理内容翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)进程。
 
 
 >[!TAB 内部部署]
 
-1. 将AEM与您的[翻译服务提供商](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)连接并创建[翻译集成框架配置](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
+1. 将AEM与您的[翻译服务提供商](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)连接并创建[翻译集成框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)。
 
-1. 将语言母版页面与[翻译服务和框架配置](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)关联。
+1. 将语言母版页面与[翻译服务和框架配置](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)关联。
 
-1. 标识要翻译的[内容的类型](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-rules.html)。
+1. 标识要翻译的[内容的类型](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html)。
 
-1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-prep.html)。
+1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)。
 
-1. 创建[翻译项目](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻译的内容并准备翻译过程。
+1. 创建[翻译项目](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)以收集要翻译的内容并准备翻译过程。
 
-1. 使用翻译项目[管理内容翻译](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-manage.html)进程。
+1. 使用翻译项目[管理内容翻译](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html)进程。
 
 >[!ENDTABS]
 
@@ -121,7 +120,7 @@ ht-degree: 6%
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布尔值： <br> -   如果您使用的是人工翻译，则&#x200B;*禁用* \( `false`\) **基于组件的翻译工作流**&#x200B;选项。 <br> -   如果您正在使用机器翻译，则&#x200B;*启用\( `true`\)* **基于组件的翻译工作流**&#x200B;选项。 |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布尔值： <br> — 如果您正在使用人工翻译，则&#x200B;*禁用* \(`false`\) **基于组件的翻译工作流**&#x200B;选项。<br> — 如果您正在使用机器翻译，则&#x200B;*启用\( `true`\)* **基于组件的翻译工作流**&#x200B;选项。 |
 
 >[!TAB 内部部署]
 
@@ -143,7 +142,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   > 如果您使用的是翻译连接器，请确保已按照AEM文档中的&#x200B;*[配置翻译集成框架](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主题中所述配置连接器。
+   > 如果您使用的是翻译连接器，请确保已按照AEM文档中的&#x200B;*[配置翻译集成框架](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*&#x200B;主题中所述配置连接器。
 
 1. 单击&#x200B;**保存**。
 
@@ -171,12 +170,12 @@ ht-degree: 6%
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布尔值： <br> — 如果您使用最新的翻译工作流，则&#x200B;*禁用* \(`false`\) **运行旧版翻译工作流**&#x200B;选项。  <br> -   如果使用旧版翻译，则&#x200B;*启用\( `true`\)* **运行旧版翻译工作流**&#x200B;选项。<br> **默认值**： false |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布尔值： <br> — 如果您使用最新的翻译工作流，则&#x200B;*禁用* \(`false`\) **运行旧版翻译工作流**&#x200B;选项。 <br> — 如果您使用旧版翻译，则&#x200B;*启用\( `true`\)* **运行旧版翻译工作流**&#x200B;选项。<br> **默认值**： false |
 
 
 >[!NOTE]
 >
-> 如果您使用的是翻译连接器，请确保已按照Adobe Experience Manager文档中的&#x200B;*[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=zh-Hans)*&#x200B;主题中所述配置连接器。
+> 如果您使用的是翻译连接器，请确保已按照Adobe Experience Manager文档中的&#x200B;*[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)*&#x200B;主题中所述配置连接器。
 
 >[!IMPORTANT]
 >
@@ -221,7 +220,7 @@ ht-degree: 6%
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔值： <br> -   如果不想对临时文件运行后处理操作，则&#x200B;*禁用* \( false\) **后处理语言副本**&#x200B;选项。<br> -   如果要对临时文件运行后处理操作，请&#x200B;*启用* \( true\) **后处理语言副本**&#x200B;选项。<br> **默认值**： false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔值： <br> — 如果不想对临时文件运行后处理操作，则&#x200B;*禁用* \( false\) **后处理语言副本**&#x200B;选项。<br>  — 如果要对临时文件运行后处理操作，请&#x200B;*启用* \( true\) **后处理语言副本**&#x200B;选项。<br> **默认值**： false |
 
 >[!TAB 内部部署]
 

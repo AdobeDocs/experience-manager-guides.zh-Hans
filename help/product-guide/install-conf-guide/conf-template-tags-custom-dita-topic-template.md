@@ -4,13 +4,12 @@ description: 了解如何配置自定义DITA主题模板
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: aaf24a83-3a94-4f77-aa37-7b0398f6ae71
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 2%
-
 ---
-
 # 配置自定义DITA主题模板 {#id16A7G0O02TD}
 
 AEM Guides附带以下DITA主题模板：
@@ -68,7 +67,7 @@ AEM Guides允许您配置文件夹以存储自定义的DITA映射和模板。 �
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | 指定存储自定义模板的位置。<br>如果DAM中存在指定的位置，则所有默认映射和主题模板都将复制到该文件夹中。 如果该位置不存在，则使用所有默认映射和主题模板创建文件夹。 |
+| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | 指定用于存储自定义模板的位置。<br> 如果DAM中存在指定的位置，则所有默认映射和主题模板都将复制到该文件夹中。 如果该位置不存在，则使用所有默认映射和主题模板创建文件夹。 |
 
 >[!TAB 内部部署]
 
@@ -99,4 +98,4 @@ AEM Guides允许您配置文件夹以存储自定义的DITA映射和模板。 �
 >[!ENDTABS]
 
 
-**父级主题：**&#x200B;[&#x200B;配置主题并映射模板](conf-template-tags.md)
+**父级主题：**[&#x200B;配置主题并映射模板](conf-template-tags.md)
