@@ -39,16 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '288'
 ht-degree: 5%
 ---
 # Experience Manager Guides文档
 
 Experience Manager Guides是一款企业级CCMS，它在本机DITA中支持结构化创作、多渠道发布和内容生命周期管理。
 
-[!BADGE Cloud Service]{type=Informative}，[!BADGE 内部部署]{type=Informative}，[!BADGE 管理服务]{type=Informative}
+**部署：** [!BADGE Cloud Service]{type=Informative} [!BADGE 内部部署]{type=Informative} [!BADGE 管理服务]{type=Informative}
 
 ## 由您的角色开始
 
@@ -57,7 +57,7 @@ Experience Manager Guides是一款企业级CCMS，它在本机DITA中支持结�
 ::::landing-cards-container
 
 :::card
-![作者图标](./user-guide/images/author.svg)
+![作者图标](./user-guide/images/author.png)
 
 作者
 
@@ -67,7 +67,7 @@ Experience Manager Guides是一款企业级CCMS，它在本机DITA中支持结�
 :::
 
 :::card
-![管理员图标](./user-guide/images/admin.svg)
+![管理员图标](./user-guide/images/admin.png)
 
 管理员
 
@@ -77,7 +77,7 @@ Experience Manager Guides是一款企业级CCMS，它在本机DITA中支持结�
 :::
 
 :::card
-![发布者图标](./user-guide/images/publish.svg)
+![发布者图标](./user-guide/images/publish.png)
 
 发布者
 
@@ -86,16 +86,17 @@ Experience Manager Guides是一款企业级CCMS，它在本机DITA中支持结�
 [地图管理和发布](./user-guide/map-console-overview.md)
 :::
 
+<!--
 :::card
-![架构师图标](./user-guide/images/architect.svg)
+![Architects icon](./user-guide/images/architect.svg)
 
-架构师
+Architects
 
-为您的实施设计DITA专业化、架构和内容架构。
+Design DITA specializations, schemas, and content architecture for your implementation.
 
-[DITA专业化](./install-conf-guide/dita-ot-specialization.md)
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
-
+-->
 ::::
 
 ## 按功能区域浏览
@@ -175,17 +176,17 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 <tr>
 <td>
 
-[!BADGE 功能]{type=Informative} <br> [**使用Git Connector导入内容**](./user-guide/web-editor-git-connector.md)<br>&#x200B;将内容直接从Git存储库导入指南。
+[!BADGE 功能]{type=Neutral} <br> [**使用Git Connector导入内容**](./user-guide/web-editor-git-connector.md)<br>&#x200B;将内容直接从Git存储库导入指南。
 
 </td>
 <td>
 
-[!BADGE 功能]{type=Informative} <br> [**新的映射集合**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br>&#x200B;用于管理映射和发布输出的统一界面
+[!BADGE 功能]{type=Neutral} <br> [**新的映射集合**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br>&#x200B;用于管理映射和发布输出的统一界面
 
 </td>
 <td>
 
-[!BADGE 增强功能]{type=Informative} <br> [**委派审阅任务**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br>审阅人可以将审阅任务委派给其他审阅人
+[!BADGE 增强功能]{type=Neutral} <br> [**委派审阅任务**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br>审阅人可以将审阅任务委派给其他审阅人
 
 </td>
 </tr>
@@ -195,7 +196,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 
 * [Cloud Service发行说明](./release-info/latest-release-info-cs.md)
 * [On-Premise发行说明](./release-info/latest-release-info.md)
-* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hans){target="_blank"}
-* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.zh-Hans){target="_blank"}
-* [支持](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hans){target="_blank"}
-* [视频教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支持](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [视频教程](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
