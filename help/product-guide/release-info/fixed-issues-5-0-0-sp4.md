@@ -13,7 +13,7 @@ ht-degree: 1%
 
 本文介绍Adobe Experience Manager Guides 5.0.0 Service Pack 4版本中修复的错误。
 
-了解5.0.0 Service Pack 4版本](upgrade-instructions-5-0-0-sp4.md)的[升级说明。
+了解5.0.0 Service Pack 4版本[&#128279;](upgrade-instructions-5-0-0-sp4.md)的升级说明。
 
 ## 翻译
 

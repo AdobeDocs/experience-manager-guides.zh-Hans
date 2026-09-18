@@ -98,4 +98,4 @@ AEM Guides允许您配置文件夹以存储自定义的DITA映射和模板。 �
 >[!ENDTABS]
 
 
-**父级主题：**[&#x200B;配置主题并映射模板](conf-template-tags.md)
+**父级主题：**&#x200B;[&#x200B;配置主题并映射模板](conf-template-tags.md)
