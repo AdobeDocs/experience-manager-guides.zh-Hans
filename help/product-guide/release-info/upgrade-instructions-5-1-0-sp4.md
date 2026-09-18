@@ -60,7 +60,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> 如果您当前使用AEM 6.5并计划迁移到AEM 6.5 LTS，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您当前使用AEM 6.5并计划迁移到AEM 6.5 LTS，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 在继续升级到版本5.1.0 Service Pack 4的Experience Manager Guides之前，必须考虑以下几点：
 
