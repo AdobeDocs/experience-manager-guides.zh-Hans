@@ -1,20 +1,19 @@
 ---
-title: 发行说明|修复了Adobe Experience Manager Guides 5.1.0 Service Pack 4版本中的问题
+title: 发行说明 |修复了Adobe Experience Manager Guides 5.1.0 Service Pack 4版本中的问题
 description: 了解Adobe Experience Manager Guides 5.1.0 Service Pack 4版本中的错误修复
 role: Leader
-source-git-commit: 8fb33e0f609ebfb15fb16e710928c01be73e41e9
+exl-id: 35137d5f-82ec-4c1e-a61d-f905a0075dff
+source-git-commit: d11f910bde58b36a8db27d74be6799eb7891f3b5
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '92'
 ht-degree: 1%
-
 ---
-
 # 修复了5.1.0 Service Pack 4版本（2026年4月）中的问题
 
 
 本文介绍Adobe Experience Manager Guides 5.1.0 Service Pack 4版本中修复的错误。
 
-了解5.1.0 Service Pack 4版本[的](upgrade-instructions-5-1-0-sp4.md)升级说明。
+了解5.1.0 Service Pack 4版本[&#128279;](upgrade-instructions-5-1-0-sp4.md)的升级说明。
 
 
 ## 创作

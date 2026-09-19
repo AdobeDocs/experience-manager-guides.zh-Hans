@@ -4,13 +4,12 @@ description: 了解如何验证AEM Guides安装
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 19cded6f-6545-42af-8511-7c32cf4ddf2d
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # 验证AEM Guides安装 {#id213BD030FBE}
 
 安装AEM Guides后，您需要验证安装是否成功。
@@ -25,11 +24,11 @@ ht-degree: 0%
 
 1. 访问Cloud Service的Developer Console。
 
-   有关访问Developer Console的详细信息，请参阅AEM文档中的[Developer Console访问](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=zh-Hans)。
+   有关访问Developer Console的详细信息，请参阅AEM文档中的[Developer Console访问](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html)。
 
 1. 访问AEM中的OSGi包列表。
 
-   有关访问捆绑包的详细信息，请参阅AEM文档中的[捆绑包](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=zh-Hans#bundles)。
+   有关访问捆绑包的详细信息，请参阅AEM文档中的[捆绑包](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles)。
 
 1. 在捆绑列表中搜索fmdita并检查其状态。
 
@@ -59,5 +58,3 @@ ht-degree: 0%
 > 您可以考虑使用许多性能优化建议来提高系统性能。 有关详细信息，请参阅[性能优化建议](perf-optimization-on-prem.md#)。
 
 >[!ENDTABS]
-
-

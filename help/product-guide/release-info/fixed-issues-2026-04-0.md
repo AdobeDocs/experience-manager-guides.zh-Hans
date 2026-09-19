@@ -1,20 +1,19 @@
 ---
-title: 发行说明|修复了Adobe Experience Manager Guides 2026.04.0版本中的问题
+title: 发行说明 |修复了Adobe Experience Manager Guides 2026.04.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2026.04.0版本中的错误修复。
-source-git-commit: ce2c9da0d9beb05a15f7cefcf9483e0c93abbf37
+exl-id: 2861db0f-2086-445a-8b1d-27393f5b101d
+source-git-commit: 97512e5459540f57703bc99ec9a29a9d35786f01
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 3%
-
+ht-degree: 0%
 ---
-
 # 修复了2026.04.0版本中的问题
 
 本文介绍Adobe Experience Manager Guides as a Cloud Service 2026.04.0版本中修复的各个方面的错误。
 
-有关新功能和增强功能的更多信息，请查看 [2026.04.0 版本中的新增功能](whats-new-2026-04-0.md)。
+有关新增功能和增强功能的详细信息，请查看[2026.04.0版本中的新增功能](whats-new-2026-04-0.md)。
 
-了解2026.04.0版本[的](upgrade-instructions-2026-04-0.md)升级说明。
+了解2026.04.0版本[&#128279;](upgrade-instructions-2026-04-0.md)的升级说明。
 
 ## 创作
 

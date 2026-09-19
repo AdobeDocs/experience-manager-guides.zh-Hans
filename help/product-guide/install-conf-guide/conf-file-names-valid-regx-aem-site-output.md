@@ -4,13 +4,12 @@ description: 了解如何为AEM站点输出配置有效文件名
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: b2bc5159-2144-4683-970d-738949ac9662
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # 为AEM站点输出配置有效文件名 {#id214GK0X0KXA}
 
 与DITA主题允许的有效文件名字符列表类似，您还可以为AEM站点输出配置有效文件名字符列表。 URL中不允许使用的一些已知字符是： ``'<>`@$``。 这些字符配置为在生成AEM站点输出文件名时找到时自动转换为下划线“`_`”。

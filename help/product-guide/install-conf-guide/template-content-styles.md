@@ -4,13 +4,12 @@ description: 了解如何自定义和配置本机PDF功能的各种组件。
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 2198b9c77a0dfa888edbce5994da4721cb6127e6
+exl-id: f1ee4b53-9fdc-4227-903f-082fcf67818b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # 原生PDF发布
 
 借助AEM Guides，您可以使用本机PDF输出生成功能生成各个主题的PDF或映射文件。 您可以在生成PDF输出时自定义和使用PDF模板。 您可以创建和设计页面布局，以根据您的要求在PDF输出中显示各个部分。
@@ -26,9 +25,9 @@ ht-degree: 0%
 * [PDF输出中的变量](../native-pdf/native-pdf-variables.md)
 * [向PDF输出添加条形码](../native-pdf/add-barcode.md)
 * 常见内容样式 {#content-styles}
-   * [使用常见的内容样式](../native-pdf/stylesheet.md)
-   * [使用自定义更改条样式](../native-pdf/change-bar-style.md)
-   * [对目录条目和主题内容应用自定义样式](../native-pdf/custom-style-toc.md)
-   * [在PDF输出中添加自定义书签](../native-pdf/add-custom-bookmark.md)
-   * [使用JavaScript处理内容或样式](../native-pdf/use-javascript-content-style.md)
-   * [在脚注中使用自定义样式](../native-pdf/footnote-number-style.md)
+  * [使用常见的内容样式](../native-pdf/stylesheet.md)
+  * [使用自定义更改条样式](../native-pdf/change-bar-style.md)
+  * [对目录条目和主题内容应用自定义样式](../native-pdf/custom-style-toc.md)
+  * [在PDF输出中添加自定义书签](../native-pdf/add-custom-bookmark.md)
+  * [使用JavaScript处理内容或样式](../native-pdf/use-javascript-content-style.md)
+  * [在脚注中使用自定义样式](../native-pdf/footnote-number-style.md)

@@ -4,13 +4,12 @@ description: 了解如何将非UUID迁移到UUID内容
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 0ce73a2a-e1a4-43b6-a918-75d1c537a87c
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1753'
 ht-degree: 1%
-
 ---
-
 # 从4.6.0 Service Pack 4非UUID迁移到4.6.1 UUID内容
 
 执行以下步骤，将您的内容从非UUID版本4.6.0 Service Pack 4迁移到UUID版本4.6.1。
@@ -113,7 +112,7 @@ ht-degree: 1%
    * `com.adobe.guides.uuid`。
 
 
-1. （如果之前未这样做）如果系统中有超过100,000个DITA文件，请将`queryLimitReads`下的`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`更新为更大的值（任何大于存在的资产数的值，例如200,000）。
+1. （如果之前未这样做）如果系统中有超过100,000个DITA文件，请将`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`下的`queryLimitReads`更新为更大的值（任何大于存在的资产数的值，例如200,000）。
 
    | PID | 属性键 | 属性值 |
    |---|---|---|
@@ -216,7 +215,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 如果在迁移之前，属性&#x200B;**在**&#x200B;中使用AEM站点页面名称的标题`com.adobe.fmdita.config.ConfigManager`，设置为&#x200B;*False*，则在迁移之后，需要更新此属性。
+   > 如果在迁移之前，属性&#x200B;**在`com.adobe.fmdita.config.ConfigManager`中使用AEM站点页面名称的标题**，设置为&#x200B;*False*，则在迁移之后，需要更新此属性。
 
 
 1. 完成验证后，可以通过运行压缩回收大部分磁盘空间（请参阅`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=zh-Hans`）。

@@ -4,13 +4,12 @@ description: 了解Experience Manager Guides as a Cloud Service中的部署和Di
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 657a42be-36e7-4657-83d5-e866f8e55f09
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 3%
-
+source-wordcount: '347'
+ht-degree: 6%
 ---
-
 # 部署和Dispatcher配置
 
 本文介绍了如何部署Experience Manager Guides as a Cloud Service和配置Dispatcher。
@@ -46,7 +45,7 @@ ht-degree: 3%
 
 ## 配置调度程序
 
-Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关更多详细信息，请参阅[云中的Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=zh-Hans)。
+Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。 有关更多详细信息，请参阅[云中的Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=zh-Hans)。
 
 1. 要将Dispatcher配置从AMS迁移到Cloud Service，请参阅[将Dispatcher配置从AMS迁移到AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=zh-Hans)。
 1. 有关如何配置Dispatcher的详细信息，请参阅[配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-Hans)。

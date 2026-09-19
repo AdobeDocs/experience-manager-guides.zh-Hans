@@ -4,13 +4,12 @@ description: 了解如何配置UUID文件名模式
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 63d19ec4-1313-4691-b83e-38b67f9d2050
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '301'
 ht-degree: 1%
-
 ---
-
 # 配置UUID文件名模式
 
 导入内容时，文件名不必基于UUID。 在使用基于UUID的文件名的系统中，必须使用UUID而不是原始文件名引用所有文件。 如果导入的文件没有基于UUID的文件名，则可以将系统配置为向其文件属性添加UUID。 然后，使用此UUID来引用此类文件，其中UUID不用于命名文件。
@@ -27,7 +26,7 @@ ht-degree: 1%
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | 指定UUID文件名模式的正则表达式的字符串。 <br>如果文件不遵循指定的模式，则会将UUID添加到文件的属性，并且所有对该文件的引用都将使用分配给该文件的UUID进行更新。<br> **默认值**： `"^GUID-(?<id>.*)"` |
+| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | 指定UUID文件名模式的正则表达式的字符串。<br> 如果文件不遵循指定的模式，则会将UUID添加到文件的属性中，并且使用分配给文件的UUID更新对该文件的所有引用。<br> **默认值**： `"^GUID-(?<id>.*)"` |
 
 >[!TAB 内部部署]
 
@@ -50,8 +49,3 @@ ht-degree: 1%
 1. 选择&#x200B;**保存**。
 
 >[!ENDTABS]
-
-
-
-
-

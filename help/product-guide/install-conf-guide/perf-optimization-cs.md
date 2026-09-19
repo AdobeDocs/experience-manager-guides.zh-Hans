@@ -4,13 +4,12 @@ description: 了解性能优化建议
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 6c9684d4-180f-4ccb-bfd6-6c82a8a7b720
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 0%
-
+source-wordcount: '152'
+ht-degree: 5%
 ---
-
 # Cloud Service性能优化建议 {#id213BD0JG0XA}
 
 对于性能优化，请考虑以下几点：
@@ -22,4 +21,3 @@ ht-degree: 0%
   *必需的配置*：将自定义DITA-OT包中的Xerces Jar文件替换为附带的OOTB文件。 默认的OOTB `xercesImpl-2.11.0.jar`文件在`/libs/fmdita/dita\_resources/DITA-OT.zip`文件中可用。 请确保重命名`xercesImpl-2.11.0.jar`文件以匹配要替换的旧Xerces Jar文件。 这可以在运行时完成。
 
   此更改可减少发布时间和内存使用率，同时发布包含大量主题的DITA映射。
-

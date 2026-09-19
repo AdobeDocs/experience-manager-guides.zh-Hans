@@ -4,13 +4,12 @@ description: 了解如何配置和自定义工作流
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2280'
 ht-degree: 2%
-
 ---
-
 # 配置和自定义工作流 {#id181AI0OJ0RO}
 
 借助工作流，您可以自动化Adobe Experience Manager \(AEM\)活动。 工作流包含一系列按特定顺序执行的步骤。 您可以定义要在每个步骤中执行的不同活动。 例如，您可以在创建主题审阅时向组中的所有审阅人发送电子邮件通知。 或者，在输出生成任务完成时向发布者发送通知。
@@ -95,7 +94,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `initiator` | 字符串 | 启动审阅任务的用户的用户ID。 |
 | `operation` | 字符串 | 静态值设置为`AEM_REVIEW`。 |
 | `orgTopics` | 字符串 | 共享以供审核的主题路径。 指定多个以逗号分隔的主题。 |
-| `payloadJson` | JSON 对象 | 指定以下值： -   `base`：包含已发送以供审阅主题的父文件夹的路径。 <br> -   `asset`：发送供审阅的主题路径。 <br> -   `referrer`：将其留空。 |
+| `payloadJson` | JSON 对象 | 指定以下值： - `base`：包含已发送以供审阅主题的父文件夹的路径。<br> - `asset`：发送以供审阅的主题路径。<br> - `referrer`：将其留空。 |
 | `deadline` | 字符串 | 以`yyyy-MM-dd'T'HH:mm:ss.SSSXXX`格式指定时间。 |
 | `title` | 字符串 | 输入审核任务的标题。 |
 | `description` | 字符串 | 输入审核任务的说明。 |
@@ -110,7 +109,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `ditamap` | 字符串 | 指定审核任务的日期映射的路径 |
 | `allowAllReviewers` | 布尔值 | false/true |
 | `notifyViaEmail` | 布尔值 | false/true |
-| `reviewVersion` | 字符串 | 指定审阅工作流的当前版本。 默认值设置为`3.0` 。<br>要为[作者](../user-guide/review-close-review-task.md)和[审阅人](../user-guide/review-complete-review-tasks.md)启用新的审阅工作流功能，请确保`reviewVersion`设置为`3.0`。 |
+| `reviewVersion` | 字符串 | 指定审阅工作流的当前版本。 默认值设置为`3.0` .<br> 要为[作者](../user-guide/review-close-review-task.md)和[审阅人](../user-guide/review-complete-review-tasks.md)启用新的审阅工作流功能，请确保`reviewVersion`设置为`3.0`。 |
 
 
 创建脚本后，请在调用工作流中的创建审阅进程之前调用该脚本。 然后，根据您的要求，您可以调用其他审阅工作流流程。
@@ -140,7 +139,7 @@ AEM Guides包含一组用于审核工作流的电子邮件和AEM通知，您可�
 
    >[!NOTE]
    >
-   > 请勿在``libs``节点中使用默认配置文件中的任何自定义设置。 您必须在``libs``节点中创建``apps``节点的叠加，并仅更新``apps``节点中的所需文件。
+   > 请勿在``libs``节点中使用默认配置文件中的任何自定义设置。 您必须在``apps``节点中创建``libs``节点的叠加，并仅更新``apps``节点中的所需文件。
 
 1. `review`文件夹包含以下子文件夹：
 

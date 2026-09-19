@@ -4,13 +4,12 @@ description: 了解如何为上传到Adobe Experience Manager Assets的文件夹
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: eaf974f4-c804-4392-b1f3-f4f24dd441f7
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 0%
-
 ---
-
 # 禁用文件夹的后处理
 
 默认情况下，所有上传的资产都使用DAM更新资产工作流进行处理。 作为此工作流的一部分，Experience Manager Guides会运行一个名为后处理的额外处理。 这还有助于生成UUID
@@ -77,4 +76,3 @@ ht-degree: 0%
 * 如果忽略父文件夹进行后处理，但启用了子文件夹，则子文件夹及其所有后续文件夹均被视为已启用。
 * 如果为父项启用后处理，但忽略子项，则将忽略子项及其所有后续项。
 * 如果ignored.post.processing.paths和enabled.post.processing.paths配置中存在相同的文件夹路径，则后处理时会将其忽略。
-
