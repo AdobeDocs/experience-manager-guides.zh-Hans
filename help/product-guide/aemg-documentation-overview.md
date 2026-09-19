@@ -39,22 +39,29 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
+source-git-commit: 411756129e6ce756f8674d6d3feb27a1cd9a2f19
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '311'
 ht-degree: 5%
 ---
 # Experience Manager Guides文档
 
 Experience Manager Guides是一款企业级CCMS，它在本机DITA中支持结构化创作、多渠道发布和内容生命周期管理。
 
-**部署：** [!BADGE Cloud Service]{type=Informative} [!BADGE 内部部署]{type=Informative} [!BADGE 管理服务]{type=Informative}
+**部署：** [!BADGE Cloud Service]{type=Positive} [!BADGE 内部部署]{type=Informative}
 
 ## 由您的角色开始
 
-<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
-
 ::::landing-cards-container
+:::card
+![管理员图标](./user-guide/images/admin.png)
+
+管理员
+
+配置文件夹配置文件、权限、工作流设置和输出模板。
+
+[管理指南](./install-conf-guide/introduction.md)
+:::
 
 :::card
 ![作者图标](./user-guide/images/author.png)
@@ -67,16 +74,6 @@ Experience Manager Guides是一款企业级CCMS，它在本机DITA中支持结�
 :::
 
 :::card
-![管理员图标](./user-guide/images/admin.png)
-
-管理员
-
-配置文件夹配置文件、权限、工作流设置和输出模板。
-
-[管理指南](./install-conf-guide/introduction.md)
-:::
-
-:::card
 ![发布者图标](./user-guide/images/publish.png)
 
 发布者
@@ -85,6 +82,9 @@ Experience Manager Guides是一款企业级CCMS，它在本机DITA中支持结�
 
 [地图管理和发布](./user-guide/map-console-overview.md)
 :::
+
+::::
+
 
 <!--
 :::card
@@ -96,8 +96,9 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
--->
+
 ::::
+-->
 
 ## 按功能区域浏览
 
@@ -170,33 +171,68 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 ## 新增功能
 
 <!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+::::landing-cards-container
 
+:::card
+![管理员图标](https://cdn.experienceleague.adobe.com/icons/admin.svg)
 
+Git连接器
+
+直接从Git存储库将内容导入指南。
+
+[使用Git连接器导入内容](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![疑难解答图标](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+
+新建地图收藏集
+
+用于管理映射和发布输出的统一界面。
+
+[新建地图收藏集](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![书图标](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+委派审核任务
+
+审阅人可以将审阅任务委派给其他审阅人。
+
+[委派审核任务](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
+:::
+
+::::
+
+<!--
 <table>
 <tr>
 <td>
 
-[!BADGE 功能]{type=Neutral} <br> [**使用Git Connector导入内容**](./user-guide/web-editor-git-connector.md)<br>&#x200B;将内容直接从Git存储库导入指南。
+[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
 
 </td>
 <td>
 
-[!BADGE 功能]{type=Neutral} <br> [**新的映射集合**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br>&#x200B;用于管理映射和发布输出的统一界面
+[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
 
 </td>
 <td>
 
-[!BADGE 增强功能]{type=Neutral} <br> [**委派审阅任务**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br>审阅人可以将审阅任务委派给其他审阅人
+[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
+-->
+
 
 ## 其他资源
 
 * [Cloud Service发行说明](./release-info/latest-release-info-cs.md)
 * [On-Premise发行说明](./release-info/latest-release-info.md)
-* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hans){target="_blank"}
-* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.zh-Hans){target="_blank"}
-* [支持](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hans){target="_blank"}
-* [视频教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支持](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [视频教程](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
