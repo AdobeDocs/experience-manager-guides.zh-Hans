@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2610'
 ht-degree: 10%
 ---
 
@@ -140,6 +140,10 @@ ht-degree: 10%
         - [1月发行说明](./release-info/release-notes-2022-1-0.md)
     - 内部部署/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides]版本](./release-info/latest-release-info.md)
+      - 5.2.0 SP1版本 {#520-sp1-release}
+        - [新增功能](./release-info/whats-new-5-2-1.md)
+        - [修复的问题](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [升级说明](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - 5.2.0发行版 {#520-release}
         - [新增功能](./release-info/whats-new-5-2-0.md)
         - [修复的问题](./release-info/fixed-issues-5-2-0.md)
@@ -215,7 +219,7 @@ ht-degree: 10%
   - 简介 {#about-aemg}
     - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-      - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+      - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
       - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
   - 主页 {#home-page}
     - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -241,7 +245,7 @@ ht-degree: 10%
         - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
         - [右面板](./user-guide/web-editor-right-panel.md)
         - [搜索面板](./user-guide/search-panel-explorer.md)
-      - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+      - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
       - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
       - [编辑器视图](./user-guide/web-editor-views.md)
       - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -426,7 +430,7 @@ ht-degree: 10%
       - [会话超时](./user-guide/session-timeout-prompt.md)
       - [元数据导出中的字符串异常过长](./user-guide/metadata-export-failure.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-  - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-conf-guide}
   - [下载、安装和升级](./install-conf-guide/introduction.md)
   - Cloud Service的安装过程 {#deploy-conf-aemg-cs}
@@ -446,10 +450,10 @@ ht-degree: 10%
     - 内部部署 {#on-prem}
       - [升级AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
       - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
-      - [Experience Manager Guides版本的配置更新](./install-conf-guide/configuration-on-prem.md)
+      - Experience Manager Guides版本的[配置更新](./install-conf-guide/configuration-on-prem.md)
   - 性能优化建议 {#performance-optimization-aemg}
     - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
-    - [针对内部部署的性能优化](./install-conf-guide/perf-optimization-on-prem.md)
+    - 针对内部部署的[性能优化](./install-conf-guide/perf-optimization-on-prem.md)
   - 内容迁移 {#migrate-content-cs}
     - [迁移现有内容](./install-conf-guide/migrate-content.md)
     - [使用用于内部部署的Framemaker和WebDav工具上载现有DITA内容](./install-conf-guide/upload-dita-content.md)
@@ -566,7 +570,10 @@ ht-degree: 10%
     - [为内部部署配置新基线](./install-conf-guide/conf-new-baseline-on-prem.md)
     - [配置内部部署的对等链接跳过](./install-conf-guide/conf-skip-peer-links-on-prem.md)
     - {hide-from-toc}[为输出生成配置新的映射集合](./install-conf-guide/conf-new-map-collection-on-prem.md)
-    - [使用Experience Manager Guides MCP服务器](./install-conf-guide/conf-aem-guides-mcp.md)
+    - AEM Guides MCP集成 {#mcp}
+      - [使用AEM Guides MCP服务器](./install-conf-guide/conf-aem-guides-mcp.md)
+      - [设置AEM Guides MCP服务器](./install-conf-guide/configure-aem-guides-mcp.md)
+      - [为AEM Guides内部部署配置MCP连接设置](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
   - 扩展功能 {#aemg-customization}
     - [为Cloud Service的查找和替换功能部署自定义索引](./install-conf-guide/custom-indexing-cs.md)
     - [为内部部署的查找和替换功能重新编制索引](./install-conf-guide/custom-indexing-on-prem.md)
@@ -585,7 +592,7 @@ ht-degree: 10%
   - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
   - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
   - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-  - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+  - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
   - [后处理事件处理程序](./api-reference/post-process-event.md)
   - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
   - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
@@ -644,7 +651,7 @@ ht-degree: 10%
         - 小组件 {#framework-widgets}
           - [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-        - [编辑器2.0的扩展框架更改](./guides-ui-extensions/getting-started/editor-extension-guide.md)
+        - 编辑器2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)的[扩展框架更改
         - [将扩展框架迁移到Editor 2.0](./guides-ui-extensions/getting-started/migrating-extensions-new-editor.md)
       - 快速入门 {#getting-started}
         - [简介](./guides-ui-extensions/getting-started/introduction.md)
