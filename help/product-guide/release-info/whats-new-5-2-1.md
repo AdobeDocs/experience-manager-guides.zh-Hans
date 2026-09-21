@@ -28,7 +28,7 @@ ht-degree: 0%
 
 有关此版本中已修复的问题的列表，请查看[5.2.0 Service Pack 1版本](fixed-issues-5-2-0-sp1.md)中已修复的问题。
 
-了解5.2.0 Service Pack 1版本](../release-info/upgrade-instructions-5-2-0-sp1.md)的[升级说明。
+了解5.2.0 Service Pack 1版本[&#128279;](../release-info/upgrade-instructions-5-2-0-sp1.md)的升级说明。
 
 
 ## Experience Manager Guides添加了MCP支持
