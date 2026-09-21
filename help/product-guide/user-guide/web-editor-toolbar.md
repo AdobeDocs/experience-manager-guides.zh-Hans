@@ -7,26 +7,34 @@ exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
+    internal-label: Metadata
+source-git-commit: 2a8b90039694267a542d3eb6012a3b5d439eeba8
 workflow-type: tm+mt
-source-wordcount: 6454
+source-wordcount: '6603'
 ht-degree: 0%
-
 ---
-
 # 编辑器中的工具栏
 
 >[!INFO]
@@ -269,7 +277,7 @@ Experience Manager Guides允许您以自由格式文本格式指定标签或使�
 
 旧编辑器中的“显示”菜单包含以下功能：
 
-- **跟踪更改：**&#x200B;您可以启用“跟踪更改”模式，以跟踪对文档所做的所有更新。启用跟踪更改后，文档将捕获所有插入和删除。使用删除线突出显示所有已删除的内容，并以绿色文本突出显示所有插入。此外，您还可以在主题页面的边缘获得更改条。再次重申，对于已删除的内容，将显示红色栏，对于添加的内容，将显示绿色栏。如果在同一行上进行了添加和删除，则会同时显示绿色栏和红色栏。
+- **跟踪更改：**&#x200B;您可以启用“跟踪更改”模式，以跟踪对文档所做的所有更新。 启用跟踪更改后，文档将捕获所有插入和删除。 使用删除线突出显示所有已删除的内容，并以绿色文本突出显示所有插入。 此外，您还可以在主题页面的边缘获得更改条。 再次重申，对于已删除的内容，将显示红色栏，对于添加的内容，将显示绿色栏。 如果在同一行上进行了添加和删除，则会同时显示绿色栏和红色栏。
 以下屏幕截图突出显示删除和插入的内容以及更改条：
   ![](images/track-changes-content.png){width="650"}
 
@@ -555,7 +563,8 @@ Experience Manager Guides允许您以自由格式文本格式指定标签或使�
 
 >[!IMPORTANT]
 >
-> 根据标准DITA行为，scope=`external`属性不能应用于内部链接，因为它仅用于引用外部资源。 将此属性应用于内部链接可能会中断工作流。 对于Experience Manager Guides中管理的内容，请改用默认范围=`local`或基于键的引用。
+> - 根据标准DITA行为，scope=`external`属性不能应用于内部链接，因为它仅用于引用外部资源。 将此属性应用于内部链接可能会中断工作流。 对于Experience Manager Guides中管理的内容，请改用默认范围=`local`或基于键的引用。
+> - 默认情况下，Web链接引用类型始终插入scope=`external`并按原样添加URL，无需进行任何修改。 此行为始终适用于所有受支持URL类型（包括HTTP/S和FTP/S）的相对路径和绝对路径。
 
 >[!BEGINTABS]
 

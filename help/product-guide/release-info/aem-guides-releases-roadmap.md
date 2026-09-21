@@ -18,9 +18,9 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 07589ad852842604e53ccd7cb5802ade6573a786
+source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 35%
 ---
 # [!DNL Experience Manager Guides]版本信息 {#aem-guides-releases-roadmap}
@@ -79,7 +79,6 @@ Experience Manager Guides as a Cloud Service的发行计划如下：
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 状态 |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.2.0 | Service Pack 1 | 2026年9月21日 | - | - | Target |
 | Adobe Experience Manager Guides 5.2.0 | Service Pack 3 | 2026年11月17 | - | - | Target |
 | Adobe Experience Manager Guides 5.3.0 | 发行版本 | 2027年1月20日 | - | - | Target |
 
@@ -88,6 +87,7 @@ Experience Manager Guides as a Cloud Service的发行计划如下：
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 状态 |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 5.2.0 | Service Pack 1 | 2026年9月21日 | [此处](whats-new-5-2-1.md) | [此处](upgrade-instructions-5-2-0-sp1.md) | 已发布 |
 | Adobe Experience Manager Guides 5.2.0 | 发行版本 | 2026年5月29日 | [此处](whats-new-5-2-0.md) | [此处](upgrade-instructions-5-2-0.md) | 已发布 |
 | Adobe Experience Manager Guides 5.1.0 | Service Pack 4 | 2026年4月1日 | - | [此处](upgrade-instructions-5-1-0-sp4.md) | 已发布 |
 | Adobe Experience Manager Guides 5.0.0 | Service Pack 4 | 2026年4月1日 | - | [此处](upgrade-instructions-5-0-0-sp4.md) | 已发布 |
