@@ -3,9 +3,9 @@ title: 将MCP与Adobe Experience Manager Guides结合使用
 description: 了解如何将模型上下文协议(MCP)与AEM Guides结合使用，以通过AI助手使用主题、地图、基线和报告
 feature: Authoring
 role: User
-source-git-commit: 864884f26389d256b0e054e3c0b7400b89f6d6ce
+source-git-commit: 20e5b1099b3d9a7230a40415495ba8e77f438b2a
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '790'
 ht-degree: 0%
 ---
 
@@ -40,10 +40,6 @@ Experience Manager Guides提供了用于处理Experience Manager Guides内容和
 * **系统**：通过检查包版本、包运行状况和环境诊断，了解系统的状态。
 
 如果您无权在AEM中执行操作，则无法通过MCP执行相同的操作。
-
-确切的可用工具可能会随着时间的推移而改变。 请让您的助理向您显示可用内容，而不是依赖固定列表：
-
-`List all Experience Manager Guides tools available and describe what they do.`
 
 
 ## 支持的应用程序
