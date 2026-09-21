@@ -48,7 +48,7 @@ List all Experience Manager Guides tools available from the author https://autho
 
 ### 克洛德
 
-遵循官方演练：[为AEM MCP设置Claude](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 添加自定义连接器时，请使用Experience Manager Guides端点：
+遵循官方演练：[为AEM MCP设置Claude](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 添加自定义连接器时，请使用Experience Manager Guides端点：
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides
