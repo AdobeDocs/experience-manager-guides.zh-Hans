@@ -5,9 +5,9 @@ meta-feature: Authoring
 meta-product: Experience Manager, Experience Manager Guides
 meta-role: User
 meta-type: Documentation
-source-git-commit: e234425f1e277990de25057971f3e2453c93360f
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1557'
 ht-degree: 1%
 ---
 
@@ -48,7 +48,7 @@ List all Experience Manager Guides tools available from the author https://autho
 
 ### 克洛德
 
-遵循官方演练：[为AEM MCP设置Claude](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 添加自定义连接器时，请使用Experience Manager Guides端点：
+遵循官方演练：[为AEM MCP设置Claude](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 添加自定义连接器时，请使用Experience Manager Guides端点：
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides
@@ -141,7 +141,7 @@ https://mcp.adobeaemcloud.com/adobe/mcp/guides
 
 Claude Desktop支持桌面扩展(`.mcpb`)。 Experience Manager Guides MCP扩展将打包连接配置，因此您无需手动编辑MCP JSON配置。
 
-1. 解压缩[AEM Guides .mcpb zip文件](./mcpbfile.zip)并获取`aem-guides-mcp.mcpb`扩展名文件。
+1. 获取[`aem-guides-mcp.mcpb`](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/other-packages/guides-mcp/aem-guides-mcp.zip)扩展文件。
 
 2. 打开&#x200B;**Claude Desktop**&#x200B;并导航到&#x200B;**设置>扩展**。
 
