@@ -4,19 +4,17 @@ description: 了解Experience Manager Guides编辑器界面中可用的各种设
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2378'
 ht-degree: 0%
-
 ---
-
 # Workspace设置
 
 >[!NOTE]
 >
-> 在版本5.2之前的内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。对于版本5.2及更高版本中的Cloud Service和内部部署配置，此选项已重命名为&#x200B;**Workspace设置**。在&#x200B;**编辑器设置**&#x200B;下可用的所有现有配置选项保持不变。
->内部部署的> ![编辑器设置](assets/editor-settings-on-prem.png){width="650"}
+> 在版本5.2之前的内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。 对于版本5.2及更高版本的Cloud Service和内部部署配置，此选项已重命名为&#x200B;**Workspace设置**。 在&#x200B;**编辑器设置**下可用的所有现有配置选项保持不变。
+> ![内部部署](assets/editor-settings-on-prem.png){width="650"}的编辑器设置
 
 
 编辑器[选项卡栏](../user-guide/web-editor-tab-bar.md)中存在的&#x200B;**Workspace设置**&#x200B;选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
@@ -42,14 +40,27 @@ ht-degree: 0%
 
 常规设置允许您配置设置以使用编辑器。 此选项卡包含五个部分：**AI助手**、**创作**、**引用**、**条件**&#x200B;和&#x200B;**拼写检查**。
 
-![](../user-guide/images/editor-setting-general.png){width="350"}
+![](assets/editor-setting-general-agentic.png){width="350"}
 
 - **AI助手**
-选择此项可在Experience Manager Guides中启用[AI助手](../user-guide/ai-assistant.md)功能。 取消选择可禁用该功能。
 
-  启用&#x200B;**AI助手**&#x200B;切换后，您可以使用&#x200B;**创作快速操作**&#x200B;菜单为作者配置在&#x200B;**创作选项卡**&#x200B;下显示的选项，如下所示。\
-  这些更改适用于您正在处理的特定文件夹配置文件。 如果您创建新的文件夹配置文件，则默认情况下它将继承&#x200B;**全局**&#x200B;文件夹配置文件中定义的Workspace设置。 您可以使用&#x200B;**Workspace设置**&#x200B;根据需要修改这些设置并保存更新的配置。\
-  有关使用AI助手创作可用选项的详细概述，请使用AI助手智能地查看[创作文档](../user-guide/ai-assistant-right-panel.md)。
+  >[!NOTE]
+  >
+  > 要在环境中使用AI助手功能的代理模式，请联系客户成功团队。
+
+  选择此项可在Experience Manager Guides中启用[AI助手](../user-guide/ai-assistant.md)功能。 取消选择可禁用该功能。
+
+  AI助手有两种模式可用：**代理**&#x200B;和&#x200B;**标准**。 通过启用各自的切换，可以在两种模式之间进行选择。
+
+  - **代理**：启用此选项后，您将能够从主页上的导航栏和编辑器界面上的选项卡栏访问代理AI助手功能。 有关如何为主题生成AI建议标记的详细信息，请查看[在代理模式下使用AI助手](../user-guide/ai-assistant-agentic.md)。
+
+  ![](assets/agentic-ai-workspace.png){width="350"}
+
+  - **Standard**：启用&#x200B;**Standard**&#x200B;切换开关后，您可以使用&#x200B;**创作快速操作**&#x200B;菜单为作者配置&#x200B;**创作选项卡**&#x200B;下显示的选项，如下所示。
+
+    这些更改适用于您正在处理的特定文件夹配置文件。 如果您创建新的文件夹配置文件，则默认情况下它将继承&#x200B;**全局**&#x200B;文件夹配置文件中定义的Workspace设置。 您可以使用&#x200B;**Workspace设置**&#x200B;根据需要修改这些设置并保存更新的配置。
+
+    有关使用AI助手创作可用选项的详细概述，请使用AI助手智能地查看[创作文档](../user-guide/ai-assistant-right-panel.md)。
 
   通过&#x200B;**创作快速操作**&#x200B;菜单，您可以：
 
@@ -57,19 +68,7 @@ ht-degree: 0%
 
   - 更改选项的显示顺序，根据需要拖放它们。
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
-
-- **指南AI**
-
-  >[!NOTE]
-  >
-  > 要在您的环境中使用Guides AI功能，请联系客户成功团队。 一次只能启用一个AI体验；可选择Guides AI或AI Assistant。
-
-  选择&#x200B;**指南AI**&#x200B;切换开关可在Experience Manager Guides中启用此功能。取消选择可禁用此功能。
-
-  启用此选项后，您将能够从主页上的导航栏和编辑器界面上的选项卡栏访问指南人工智能功能。 有关如何为主题生成AI建议标记的详细信息，请查看[开始使用Guides AI](../user-guide/guides-ai.md)。
-
-  ![](assets/guides-ai-workspace.png){width="350"}
+  ![](assets/authoring-quick-actions-standard.png){width="350"}
 
 - **创作**
 
@@ -282,9 +281,9 @@ ht-degree: 0%
 
 工作区设置中的![元数据选项卡](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
-您还可以定义这些元数据标记的显示顺序。要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
+您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。

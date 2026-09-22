@@ -7,20 +7,23 @@ exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
 TQID: https://experienceleague.adobe.com/bz8MQVs9yKIVkdD4iyjZWj-w70f1fukQ1I-bwx6LF80
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 53f073a6c37a9b6e9bff27349cc065e9a2d75345
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
-
 # 搜索面板
 
 >[!INFO]
@@ -31,7 +34,7 @@ ht-degree: 0%
 
 可通过以下方式访问“搜索”面板：
 
-- **编辑器界面**：从&#x200B;**资源管理器面板**&#x200B;中选择&#x200B;**搜索图标**，或使用&#x200B;**内容编辑区域**&#x200B;左下角的&#x200B;**搜索图标**。 有关详细信息，请在“资源管理器”面板[&#128279;](#search-from-the-explorer-panel)中查看搜索。
+- **编辑器界面**：从&#x200B;**资源管理器面板**&#x200B;中选择&#x200B;**搜索图标**，或使用&#x200B;**内容编辑区域**&#x200B;左下角的&#x200B;**搜索图标**。 有关详细信息，请在“资源管理器”面板](#search-from-the-explorer-panel)中查看[搜索。
 
   ![](images/search-icon-editor.png)
 
@@ -60,6 +63,10 @@ ht-degree: 0%
 2. 执行搜索并根据需要应用过滤器。 有关搜索和筛选选项的详细说明，请查看[搜索和筛选体验](./home-page-repository-view.md#search-and-filter-experience)。
 
 3. 搜索完成后，选择&#x200B;**在搜索面板中显示**。 您最近的搜索随后将显示在编辑器底部的“搜索”面板中。
+
+   >[!NOTE]
+   >
+   > 从2026.09.0版本开始，Experience Manager Guides通过分页加载提供了更好的浏览体验。 此功能默认处于启用状态。 要禁用此功能，请联系您的客户成功团队。 有关详细信息，请参阅[文件和文件夹的分页加载](./web-editor-other-features.md#paginated-loading-of-files-and-folders)。
 
    ![](images/show-search-explorer.png)
 

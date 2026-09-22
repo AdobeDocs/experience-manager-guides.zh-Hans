@@ -7,27 +7,37 @@ role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
+    internal-label: User
+source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
 workflow-type: tm+mt
-source-wordcount: 2562
+source-wordcount: '2794'
 ht-degree: 0%
-
 ---
-
 # 从地图控制台翻译文档 {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -66,7 +76,8 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
 
    >[!IMPORTANT]
    >
-   > 您只能选择并翻译为已创建目标文件夹的语言，并且与源语言平行。 在任何其他级别（例如从源语言文件夹往下一个级别）创建的语言文件夹也不显示。 请确保创建的所有目标语言文件夹与源语言文件夹处于同一级别。
+   > * 您只能选择并翻译为已创建目标文件夹的语言，并且与源语言平行。 在任何其他级别（例如从源语言文件夹往下一个级别）创建的语言文件夹也不显示。 请确保创建的所有目标语言文件夹与源语言文件夹处于同一级别。
+   > * 如果在创建语言组之后为语言创建目标文件夹，请刷新浏览器以在语言组中启用该语言。
 
 
 
@@ -80,7 +91,9 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
 
    >[!NOTE]
    >
-   > 如果在创建语言组之后为语言创建目标文件夹，请刷新浏览器以在语言组中启用该语言。
+   > 如果将单个源语言副本或目标语言副本（文件）从其原始语言文件夹移入其他文件夹，则“翻译”面板将按如下方式反映此更改：
+   > - 目标语言副本：如果将目标（目标）语言副本从其原始目标语言文件夹移入其他文件夹，则相应的资产将在“翻译”面板中显示为已禁用。
+   > - Source语言副本：如果将源语言副本从其原始源语言文件夹移入其他语言文件夹，则相应的资源将显示为在“翻译”面板中启用状态，从而允许翻译按预期继续。
 
 1. 如果选择特定语言，则该语言在您选择的所有语言组下均显示为已选择。 所以，当你翻译成任何一种语言的时候，它都会被翻译成所有语言组。 例如，如果德语同时存在于G1和G2语言组中，则它同时被选中。
 
@@ -133,8 +146,8 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    除了新的翻译项目外，您还可以从以下选项中进行选择：
 
    - 您可以选择&#x200B;**仅为翻译项目创建结构**。
-   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**&#x200B;以将XML内容转换为XML本地化交换文件格式(XLIFF)。XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。Experience Manager Guides支持XLIFF版本1.2。
-     在XLIFF项目中，内容将导出为行业标准XLIFF格式，可提供给翻译供应商。XLIFF格式使您在翻译阶段已翻译的区段有可能得到重用。\
+   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**以将XML内容转换为XML本地化交换文件格式(XLIFF)。 XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。 Experience Manager Guides支持XLIFF版本1.2。
+     在XLIFF项目中，内容将导出为行业标准XLIFF格式，可提供给翻译供应商。 XLIFF格式使您在翻译阶段已翻译的区段有可能得到重用。\
      翻译XLIFF内容后，可将其导入Experience Manager Guides，从而创建原始DITA项目的翻译版本。
 
    >[!NOTE]
@@ -143,6 +156,10 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
 
    - 您可以选择&#x200B;**新建多语言翻译项目**，该项目将包括您已选择进行翻译的所有语言的翻译作业。 例如，如果您选择了法语、德语和西班牙语，则会创建一个项目，其中包含所有三种语言的翻译作业。
    - 如果您已经有一个翻译项目，则可以向该项目添加主题。 从“项目”列表中选择&#x200B;**添加到现有翻译项目**&#x200B;选项，然后从“现有翻译项目”列表中选择一个项目。 您可以按最近、升序或降序对这些项目排序。
+
+     >[!NOTE]
+     >
+     > 使用&#x200B;**添加到现有翻译项目**&#x200B;发送其他资源以进行翻译时，如果同一项目的上一个请求（项目创建或添加到现有项目）仍在进行中，则操作将失败。 显示以下消息： *此项目的上一个请求仍在进行中。 请等待几分钟，然后重试*。
 
    - 如果选择&#x200B;**添加到现有翻译项目**，此操作将更新项目中的现有资产条目（如果已添加资产）并且相关翻译作业状态为&#x200B;*草稿*&#x200B;状态。
      - 如果项目中不存在目标语言，则会为单语言翻译项目创建新项目，并为多语言翻译项目创建新作业。
@@ -163,6 +180,7 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    - 如果要添加到现有翻译项目，请选择该项目已存在的路径。 然后，从&#x200B;**现有翻译项目**&#x200B;列表中，选择要将当前翻译任务添加到的项目。 您还可以使用可用的&#x200B;**筛选器**&#x200B;来缩小列表范围。
 
      ![输入现有项目路径](images/existing-project-path.png){width="650"}
+
 
 1. 在&#x200B;**项目标题**&#x200B;字段中，输入项目标题。
 1. 选择&#x200B;**提交**&#x200B;以创建新的翻译项目。
@@ -266,4 +284,4 @@ Experience Manager Guides提供了用于检查主题的所选版本与上次翻�
 如果您希望稍后使用翻译项目，也可以禁用这些项目。 删除项目会删除项目中存在的所有文件和文件夹。 禁用项目不会删除它，而是将其保留在存储库中。 但无法更新或编辑已禁用的项目。  删除或禁用项目不会影响任何引用的翻译状态。
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

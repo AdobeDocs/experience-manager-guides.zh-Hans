@@ -5,21 +5,28 @@ exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 TQID: https://experienceleague.adobe.com/R61ig9pzRNSHnZrlnZRRPMwNXjJhvcKoJ5SCUQb3nzI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: '1074'
 ht-degree: 0%
-
 ---
-
 # 使用AI助手(Beta)智能地创作文档
+
+>[!NOTE]
+>
+>此功能在标准模式下的AI助手可用。
 
 Adobe Experience Manager Guides提供了一个AI助手工具，可帮助您更智能、更快速地创作。 使用此工具，查看智能建议以重用现有内容存储库中的内容。 使用文本提示功能提供提示，并根据您的要求更改内容。 使用AI助手可智能地将段落转换为列表。 您可以根据所选内容为当前主题创建简短描述。 此功能还可帮助您轻松改进和翻译所选内容。
 

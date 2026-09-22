@@ -8,18 +8,20 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 1417
+source-wordcount: '1891'
 ht-degree: 0%
-
 ---
-
 # 支持语言变量
 
 Adobe Experience Manager Guides提供了使用语言变量的功能。 您可以使用语言变量在PDF输出中定义本地化字符串，或在输出模板中本地化任何静态文本。 您可以使用CSS样式将来自CSS的字符串本地化。
@@ -101,8 +103,8 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 
 ### 导出语言变量
 
-要导出语言的语言变量，请从下拉列表中选择语言，然后选择&#x200B;**导出** <img src="./assets/language-variable-export-icon.svg" alt="导出图标" width="25">。
-它将创建格式为`language_variable_<ln>`的XML文件，其中`<ln>`是所选语言的代码。例如，`language_variable_en.xml`表示英语，`language_variable_fr.xml`表示法语。
+要导出语言的语言变量，请从下拉列表中选择语言，然后选择&#x200B;**导出** <img src="./assets/language-variable-export-icon.svg" alt="导出图标" width="25">.
+它将创建格式为`language_variable_<ln>`的XML文件，其中`<ln>`是所选语言的代码。 例如，`language_variable_en.xml`表示英语，`language_variable_fr.xml`表示法语。
 
 >[!NOTE]
 > 
@@ -113,7 +115,7 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 要导入语言变量：
 
 1. 从下拉列表中选择一种语言，然后选择&#x200B;**导入** <img src="./assets/language-variable-import-icon.svg" width="25">。
-2. 浏览并选择包含语言变量的XML。例如，language_variable_en.xml。
+2. 浏览并选择包含语言变量的XML。 例如，language_variable_en.xml。
 可以以下列格式导入XML文件：
 
 ```
@@ -130,7 +132,7 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 >[!NOTE]
 > 
 ><ul><li>如果文件不是XML文件，或者如果文件包含的格式不正确，且未使用语言变量进行映射，则您将看到一个错误，表明XML文件存在问题。 
->&gt;<li>如果文件不包含具有相同ID的变量，您将看到一条警告，指出在导入的文件中未找到匹配的语言变量。
+&gt;<li>如果文件不包含具有相同ID的变量，您将看到一条警告，指出在导入的文件中未找到匹配的语言变量。
 
 ### 语言变量的选项
 
@@ -138,10 +140,10 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 
 <img width="550" alt="语言变量的选项菜单" src="./assets/language-variable-user-options.png">
 
-*使用&#x200B;**选项**&#x200B;菜单删除、预览或复制语言变量。*
+*使用&#x200B;**选项**菜单删除、预览或复制语言变量。*
 
-您可以预览应用程序和用户变量。要查看变量值在输出中的显示方式，请从所选变量的&#x200B;**选项**&#x200B;菜单中选择&#x200B;**预览**。
-您还可以选择&#x200B;**删除**&#x200B;或&#x200B;**复制**&#x200B;用户变量。从一种语言中删除变量会自动将其从所有语言中删除。
+您可以预览应用程序和用户变量。 要查看变量值在输出中的显示方式，请从所选变量的&#x200B;**选项**&#x200B;菜单中选择&#x200B;**预览**。
+您还可以选择**删除**&#x200B;或&#x200B;**复制**&#x200B;用户变量。 从一种语言中删除变量会自动将其从所有语言中删除。
 
 ### 编辑或还原应用程序变量
 
@@ -150,8 +152,6 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 ## 在输出模板中使用语言变量
 
 您应在本地化文档中添加语言变量。 您可以在本地化文档中跨不同页面显示的页面布局中插入这些语言变量。 例如，您可以为显示在页面布局的页眉区域（或任何其他部分，如页脚或正文）中的`author-name`添加语言变量。
-
-
 
 <img alt="pdf的页面布局" src="./assets/language-variable-page-layout.png" width="550">
 
@@ -172,7 +172,7 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 
    >[!NOTE]
    >
-   > 您还可以在文本框中输入搜索字符串。将过滤包含给定字符串的变量名称，并将其显示在列表中。
+   > 您还可以在文本框中输入搜索字符串。 将过滤包含给定字符串的变量名称，并将其显示在列表中。
    > 选定的语言变量将插入标题区域。
 
 
@@ -180,6 +180,21 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 <img alt="在标题区域中插入变量" src="./assets/language-variable-header.png" width="550">
 
 *已在标题区域添加`copyright-label`。*
+
+插入后，生成的输出中的语言变量的值取决于输出预设中配置的语言。 如果您的地图已使用`xml:lang`属性定义了语言，并且您希望模板使用该语言，请确保在输出预设中选中&#x200B;**使用地图语言**&#x200B;选项，而不是显式选择语言。 查看DITA内容与输出模板变量的[语言解析度](#language-resolution-for-dita-content-vs-output-template-variables)，了解一种语言如何根据其内容类型进行解析。
+
+### DITA内容与输出模板变量的语言分辨率
+
+您的文档可以包含两种需要翻译的内容：DITA内容（如交叉引用和表连续标记）以及输出模板内容（如使用语言变量插入的前件、后件、页眉和页脚）。
+
+使用下表了解每种类型的内容如何解析其语言。
+
+| 内容类型 | 示例 | 语言解析顺序 |
+|---|---|---|
+| DITA内容 | 交叉引用（例如，“参阅章节”或“参阅页面”）、表连续标记 | &#x200B;1. 最接近主题的`xml:lang`特性或映射<br> 2。 如果未设置`xml:lang`，则输出预设语言 |
+| 输出模板语言变量 | 正文、正文、页眉、页脚、运行页眉和生成的标签（注意、警告、警告） | &#x200B;1. 在输出预设<br> 2中选择的语言。 根映射的`xml:lang`，如果已选择&#x200B;**使用映射语言** <br> 3。 英语(en_US)（如果两者均不可用） |
+
+如果希望您的DITA内容遵循特定语言，请设置主题上的`xml:lang`属性或最接近该内容的映射。 语言变量的工作方式不同；由于它们不是DITA源的一部分，因此它们没有要继承的`xml:lang`，因此您可以改为通过输出预设控制它们的语言。
 
 ### 将内容样式应用于语言变量
 
@@ -201,9 +216,9 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 
 ## 使用CSS样式本地化字符串
 
-使用CSS样式，您还可以本地化Autonumber中使用的字符串，如Chapter、Section、Figure和Table。由于这些字符串来自CSS文件，因此无法使用语言变量对其进行本地化。要将这些字符串本地化，您可以为要将其本地化的每种语言创建CSS样式。
+使用CSS样式，您还可以本地化Autonumber中使用的字符串，如Chapter、Section、Figure和Table。 由于这些字符串来自CSS文件，因此无法使用语言变量对其进行本地化。 要将这些字符串本地化，您可以为要将其本地化的每种语言创建CSS样式。
 例如，您可以使用以下CSS以各种语言显示章节前缀和相应的数字格式。
-例如，您可以使用以下CSS以德语将Chapter显示为Hoofdstuk，并以小数格式显示章节编号。对于日语，可以使用日语数字格式在目录中显示章节编号。
+例如，您可以使用以下CSS以德语将Chapter显示为Hoofdstuk，并以小数格式显示章节编号。 对于日语，可以使用日语数字格式在目录中显示章节编号。
 
 ```
 // for English

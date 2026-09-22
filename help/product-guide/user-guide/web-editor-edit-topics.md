@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+    internal-label: User
+source-git-commit: 44b50108aa453052c1c9b429eaeb254cad746166
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1497'
 ht-degree: 0%
-
 ---
-
 # 在编辑器中编辑主题 {#id2056B040VUI}
 
 >[!INFO]
@@ -91,16 +95,16 @@ Experience Manager Guides还允许您跨元素选择内容。 选择内容后，
 
 - 使用有效元素括起内容：执行以下步骤以使用有效元素括起内容：
 
-   - 选择元素中的内容。
-   - 从顶部的工具栏中选择![添加](images/Add_icon.svg)图标以查看&#x200B;**插入元素**&#x200B;对话框。 该对话框列出了选定内容的有效元素。
+  - 选择元素中的内容。
+  - 从顶部的工具栏中选择![添加](images/Add_icon.svg)图标以查看&#x200B;**插入元素**&#x200B;对话框。 该对话框列出了选定内容的有效元素。
 
-     >[!NOTE]
-     >
-     > 您还可以通过选择所选内容的上下文菜单来查看“插入元素”对话框。
+    >[!NOTE]
+    >
+    > 您还可以通过选择所选内容的上下文菜单来查看“插入元素”对话框。
 
-   - 从对话框中选择元素。 选定的内容将封装在该元素下。 例如，如果您在段落中选择内容，然后从&#x200B;**插入元素**&#x200B;对话框中选择`<note>`元素，则所选内容将显示在注释下。
+  - 从对话框中选择元素。 选定的内容将封装在该元素下。 例如，如果您在段落中选择内容，然后从&#x200B;**插入元素**&#x200B;对话框中选择`<note>`元素，则所选内容将显示在注释下。
 
-     ![插入元素对话框](./images/insert-element-editor.png) {width="300"}
+    ![插入元素对话框](./images/insert-element-editor.png) {width="300"}
 
 ## 编辑文件时刷新浏览器
 
@@ -181,6 +185,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
+## 在并发编辑期间阻止内容覆盖
+
+>[!NOTE]
+>
+> 启用&#x200B;**禁用编辑，但不锁定ConfigMgr中的文件**&#x200B;设置，以实现此功能。
+
+当两个作者同时处理同一DITA主题时，在过期的副本上所做的编辑可能会在不知不觉中覆盖其他作者的更改。 为防止出现这种情况，在主题上选择&#x200B;**锁定**&#x200B;会在开始编辑之前自动刷新编辑器以从服务器加载最新内容，确保更改始终基于最新版本，而不是过时的副本。
+
 ## 在资源管理器中找到打开的文件
 
 在编辑器中打开文件时，Experience Manager Guides提供在资源管理器中查找文件的功能。 例如，在编辑当前主题时，它会找到该主题。
@@ -191,4 +203,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 >
 >从2025.11.0版本开始，**始终查找存储库中的文件**&#x200B;设置重命名为&#x200B;**始终查找资源管理器中的文件**。 对于内部部署设置，在Experience Manager Guides 5.1版发布之前，它将继续在存储库中作为始终定位文件提供。
 
-**父主题：**&#x200B;[&#x200B;使用编辑器](web-editor.md)
+**父主题：**[&#x200B;使用编辑器](web-editor.md)

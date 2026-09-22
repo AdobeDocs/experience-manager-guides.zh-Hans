@@ -7,31 +7,44 @@ role: User
 TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Security
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 3561
+source-wordcount: '4071'
 ht-degree: 0%
-
 ---
-
 # 原生PDF输出预设
 
 在创作内容时，必须确保内容针对查看、编辑和打印进行了优化。 通过使用诸如W3C CSS3之类的用于内容样式设置的标准和诸如Size、边距、方向、分页符、页眉、页脚和页码等页面定义属性的CSS分页媒体标准，您可以为PDF文档设置视图和布局，以确保一致性和可用性。 原生PDF发布功能使用这些标准生成PDF。
@@ -84,13 +97,13 @@ ht-degree: 0%
 | **使用**&#x200B;应用条件 | 对于条件化内容，请从以下选项中选择以根据这些条件生成PDF输出： <br><ul> <li> **未应用**&#x200B;如果不想对映射和源内容应用任何条件，请选择此选项。<br><li> **DITAVAL文件**&#x200B;选择DITAVAL文件以生成条件内容。 您可以使用浏览对话框或手动输入文件路径来选择多个DITAVAL文件。 要删除选定的文件，请单击其名称旁边的交叉图标。 如果选择了无效文件，则会显示一条错误消息，说明&#x200B;**选择了无效的DITAVAL文件**。<br> <br>每个DITAVAL文件都可以包含一系列属性，如筛选条件和标记样式。 标记允许您使用开始和结束标记直观地标记内容，这些标记可以包括图像或文本格式，如粗体或斜体。 如果出现重叠条件或样式冲突，可以使用“样式”冲突设置定义背景颜色。 有关更多详细信息，请查看[使用DITAVAL编辑器](../user-guide/ditaval-editor.md)。<br><li> **条件预设**&#x200B;从下拉列表中选择条件预设，以在发布输出时应用条件。 如果为DITA映射文件添加了条件，则此选项可见。 条件设置在DITA映射控制台的条件预设选项卡中可用。 要了解有关条件预设的更多信息，请查看[使用条件预设](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html)。<br> </ul> |
 | **使用基线** | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。 查看[使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)以了解更多详细信息。 |
 | **创建具有已发布版本间更改条的PDF** | 使用以下选项创建一个PDF，它使用更改栏显示两个版本之间的内容差异： <br><ul><li> **以前版本的基线**&#x200B;选择要与当前版本或其他基线进行比较的基线版本。 PDF中将显示一个更改栏，以指示修改的内容。 更改条是一条垂直线，用于直观地标识新内容或修订的内容。 更改栏显示在已插入、更改或删除的内容左侧。<br> **注意**：如果您选择&#x200B;**使用基线**&#x200B;并选择要发布的基线，将在两个选定的基线版本之间进行比较。 例如，如果您在&#x200B;**使用基线**&#x200B;下选择基线版本1.3，在&#x200B;**以前版本的基线**&#x200B;下选择基线版本1.1，则将在基线版本1.1和基线版本1.3之间进行比较。<br><li> **显示添加的文本**&#x200B;选择以绿色显示插入的文本并加下划线。 默认情况下，该选项处于选中状态。<br> <li> **显示已删除的文本**&#x200B;选择以红色显示已删除的文本并标记删除线。 默认情况下，该选项处于选中状态。 <br>**注意**&#x200B;您还可以使用样式表自定义更改栏、插入的内容或删除内容的样式。<br></ul> |
-| **语言** | 选择要翻译输出的语言。<br> **注意**：交叉引用文本（如“查看章节”或“查看页面”）受语言变量控制。 变量通过`xml:lang`属性使用主题中定义的语言。 如果未在该处指定语言，则使用预设语言。 如果两个都缺失，则默认为英语(en_US)。 |
+| **语言** | 选择要翻译输出的语言。 如果您希望发布输出时采用与根映射的`xml:lang`属性相同的语言，请选择&#x200B;**使用映射语言**&#x200B;选项，而不是显式选择语言。<br> 如果映射未定义`xml:lang`，则默认将输出设置为英语(en_US)。 当父映射已设置`xml:lang`属性时，这很有用，因此您不需要为每种语言设置单独的输出预设。 要了解此设置如何影响不同类型的内容，请查看[DITA内容的语言解析度与输出模板变量](../native-pdf/native-pdf-language-variables.md#language-resolution-for-dita-content-vs-output-template-variables)。 |
 | **DITA-OT命令行参数** | 启用&#x200B;**启用DITA-OT预处理**&#x200B;后，**DITA-OT命令行参数**&#x200B;字段将变为可用。 在这里，可以指定在生成输出时希望DITA-OT处理的附加参数。 有关DITA-OT中支持的命令行参数的详细信息，请查看[DITA-OT文档](https://www.dita-ot.org/)。<br>**注意：** <br>默认情况下，本机PDF输出中不包括在DITA关系表(`<reltable>`)中定义的相关链接。 使用`-Dargs.rellinks=nofamily` DITA-OT参数在本机PDF输出中包含此类相关链接。<br> 对于嵌套映射，默认情况下，映射引用上设置的`toc="no"`属性不会从目录中排除其子主题。 使用`-Dpreprocess.move-meta-entries.skip=false` DITA-OT参数确保从此类映射的TOC中排除子主题。 |
 | **帖子生成工作流** | 选择以显示一个下拉列表，其中包含在AEM中配置的所有工作流。 您可以选择在PDF生成工作流完成后要执行的工作流。 |
 
 >[!NOTE]
 >
->&#x200B;- 默认情况下，在DITA关系表(`<reltable>`)中定义的相关链接不包括在Native PDF输出中。 使用此字段传递`-Dargs.rellinks=nofamily` DITA-OT参数并在输出中包含此类相关链接。
+>- 默认情况下，在DITA关系表(`<reltable>`)中定义的相关链接不包括在Native PDF输出中。 使用此字段传递`-Dargs.rellinks=nofamily` DITA-OT参数并在输出中包含此类相关链接。
 >
 
 **元数据**
@@ -113,7 +126,7 @@ ht-degree: 0%
 
 * **提供XMP文件**
 
-  您还可以通过导入[XMP](https://www.adobe.com/cn/products/xmp.html)（可扩展元数据平台）文件直接填充元数据字段。 您可以从此处下载示例XMP文件。
+  您还可以通过导入[XMP](https://www.adobe.com/products/xmp.html)（可扩展元数据平台）文件直接填充元数据字段。 您可以从此处下载示例XMP文件。
 
   [下载](assets/SampleXMP.xmp)
 
@@ -131,7 +144,7 @@ ht-degree: 0%
   1. 输入元数据的值并选择“+”图标。
      元数据将添加到PDF的元数据列表中。
 
-您还可以使用变量来定义元数据值。 可以将为DITA映射或书图文件定义的元数据用作变量。可以在DITA映射或书签映射文件的`/jcr:content/metadata`节点下找到元数据。
+您还可以使用变量来定义元数据值。  可以将为DITA映射或书图文件定义的元数据用作变量。 可以在DITA映射或书签映射文件的`/jcr:content/metadata`节点下找到元数据。
 使用变量时，将从元数据属性中选取变量的值。
 
 要使用变量，您需要以`${<variable>}`格式定义它。
@@ -173,29 +186,54 @@ ht-degree: 0%
 >
 > 从Experience Manager Guides 5.0/2025.02.0版本开始，“打印”部分现在是&#x200B;**本机PDF输出预设**&#x200B;的一部分。 对于已保存打印设置的现有模板，打印数据将保持不变，但将不再出现在UI中或在输出期间应用。 要继续使用这些设置，必须在本机PDF输出预设中重新配置它们。
 
-配置打印生产设置以分配打印机标记，选择颜色模型，并指定与打印PDF输出相关的属性。
+配置打印生产设置以分配打印机标记、定义页框以及为PDF输出设置颜色和ICC配置文件选项。 “打印”选项卡分为三个部分，顺序为：**打印机标记**、**页框**&#x200B;和&#x200B;**颜色和ICC**。
 
-* **打印机标记**：在准备文档以进行打印生产时，打印机标记将添加到页面边界以帮助在打印期间正确对齐、修剪和颜色选择。 通过选择打印机标记，扩展页面边界以容纳在打印期间被修剪的标记。 您可以选择在PDF输出中显示以下打印机标记：
-  * **裁切标记**：选择选项以在裁切区域的每个角落处放置标记，以指示打印后需要裁切纸张的位置。
-  * **出血标记**：选择此项可在出血框的每一角放置标记，以指示扩展图像的修剪区域。
-  * **对齐标记**：选择此项可将标记置于裁切区域之外，以对齐彩色文档中的不同分色。
-  * **颜色条**：选择此项可在修剪区域外添加一条颜色条，以保持颜色一致性并在打印时调整油墨密度。
+## 打印机标记
 
-  使用&#x200B;**行宽**、**行色**&#x200B;和&#x200B;**出血框宽**&#x200B;选项设置所选打印机标记的尺寸。
+在准备文档以进行打印生产时，打印机标记会添加到页面边界中，以帮助在打印期间正确对齐、修剪和颜色选择。 选择打印机标记时，会扩展页面边界以容纳标记，并在打印后修剪扩展区域。
 
-* **媒体盒大小**：这是总页大小，包括打印机标记所占用的扩展区域。 使用下拉选项为PDF输出选择页面大小或创建自己的自定义大小。
+使用以下设置为PDF输出配置打印机标记：
 
-* **色彩空间**：您可以选择使用RGB或CMYK色彩空间打印PDF文档。 选择RGB以数字方式显示生成的PDF以及用于物理打印的CMYK。 文档中定义的颜色将转换为所选颜色空间。
+| 设置 | 描述 |
+| --- | --- |
+| **所有打印机标记** | 选择以启用或禁用所有打印机标记设置：**修剪标记**、**出血标记**、**注册标记**&#x200B;和&#x200B;**颜色条**。 如果在选择&#x200B;**所有打印机标记**&#x200B;时启用或禁用单个标记，则此设置将自动关闭。 取消选择此设置时，您可以启用或禁用单个标记。 |
+| **修剪标记** | 选择以在修剪区域的每个角落处放置标记，以指示打印后需要修剪纸张的位置。 |
+| **出血标记** | 选择以在出血框的每个角处放置标记，以指示扩展图像的修剪区域。 |
+| **注册标记** | 选择将标记置于裁切区域之外，以对齐彩色文档中的不同分色。 |
+| **色条** | 选择以在修剪区域外添加一条颜色条，以保持颜色一致性并调整打印时的油墨密度。 |
+| **行宽** | 指定用于绘制所选打印机标记的线条宽度。 该值按0.25 pt的步骤递增。 |
+| **线条颜色** | 指定用于绘制所选打印机标记的线条的颜色。 |
 
-* **ICC配置文件**：在这里，您可以通过指定ICC配置文件来管理跨设备的颜色准确性。 这确保在打印输出中呈现一致的颜色。
+## 页面框
 
-要配置此设置，请指定服务器上的ICC配置文件路径，并提供ICC配置文件名称以便于识别。 或者，如果ICC配置文件在线存储，则可以提供其URL而不是文件路径。
+使用此部分可定义PDF输出的整体页面大小和出血区域。
+
+使用以下设置配置页面框：
+
+| 设置 | 描述 |
+| --- | --- |
+| **媒体盒大小** | 指定总页大小，包括打印机标记所占用的扩展区域。 使用下拉列表为PDF输出选择页面大小或创建自定义大小。 |
+| **出血框宽度** | 指定出血框的宽度，这是延伸到裁切框以外的区域，其中包含出血标记和延伸到裁切线以外的任何图像。 |
+
+## 颜色和ICC
+
+使用此部分选择用于打印的色彩空间，并（可选）使用ICC配置文件管理跨设备的色彩准确度。 使用CMYK色彩空间时，需要使用ICC色彩配置文件才能符合需要色彩管理的PDF要求。
 
 >[!NOTE]
 >
-> 如果使用CMYK色彩空间，则创建PDF/A时需要ICC色彩配置文件。
+> 为了改进ICC颜色配置文件处理，请确保您使用的是[本机PDF引擎v2](../native-pdf/new-pdf-engine.md)，其中包括对本机PDF引擎v1中已知ICC颜色配置文件问题的修复。
 
-<!--For more information on applying these print settings, see *Printing preferences*.-->
+使用以下设置配置色彩空间和ICC配置文件：
+
+| 设置 | 描述 |
+| --- | --- |
+| **色彩空间** | 为PDF文档选择&#x200B;**RGB**&#x200B;和&#x200B;**CMYK**&#x200B;色彩空间。 为用于数字显示的PDF选择&#x200B;**RGB**，为物理打印选择&#x200B;**CMYK**。 |
+| **转换颜色** | 启用可将文档中定义的颜色转换为上面选择的颜色空间。 默认情况下，RGB和CMYK色彩空间将启用此选项。 启用后，**渲染方法**&#x200B;字段也将变为可用。 |
+| **渲染方法** | 仅在启用&#x200B;**转换颜色**&#x200B;选项时可用。 选择将颜色转换为目标色彩空间时使用的渲染方法： <br>- **默认**：使用默认渲染行为。<br>- **可感知**：调整颜色以保留它们的整体视觉外观。<br>- **相对比色**：根据目标色彩空间调整颜色，同时尽可能保持颜色准确性。<br> **注意**：将此功能与Adobe Experience Manager Guides本地设置一起使用时，请确保基础本机PDF引擎可以使用Java 20或更高版本，以应用指定的渲染方法。 |
+| **标识符名称** | 输入输出标识符名称。 |
+| **浏览配置文件** | 浏览到AEM服务器上的ICC配置文件（`.icc`或`.icm`）。 启用&#x200B;**为配置文件**&#x200B;使用URL时，此字段被禁用。 |
+| **为配置文件**&#x200B;使用URL | 启用此选项以使用联机托管的ICC配置文件而不是本地文件。 |
+| 配置文件&#x200B;**的** URL | 仅在启用&#x200B;**配置文件**&#x200B;的“使用URL”时可用。 输入托管ICC配置文件的URL。 |
 
 **高级**
 
@@ -216,8 +254,9 @@ ht-degree: 0%
 | **启用MathML公式** | 选择此选项以呈现内容中存在的MathML公式。 否则将默认忽略公式。 |
 | **创建交互式PDF表单** | 如果要包含交互式和可自定义的PDF表单字段，以便在生成的PDF输出中提供增强的用户输入，请选择此选项。 |
 | **包含跟踪更改** | 如果要在生成的PDF中包含跟踪的更改以便于查看和比较，请选择此选项。 |
+| **包含草稿评论** | 如果要在生成的PDF中包括添加到所选映射的DITA主题中的草稿注释，请选择此选项。<br> **注意**：仅启用此选项不会使草稿注释出现在输出中。 管理员还必须在用于映射的输出模板中将草稿注释样式的display属性设置为可见值（如`block`、`inline-block`、`grid`等）。 有关详细信息，请查看[在本机PDF输出中显示或隐藏草稿注释](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output)。 |
 | **保留临时文件** | 如果要保留在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 下载的文件还将包括`system_config.xml`文件，该文件为您提供了有关作者URL、本地URL和发布URL的信息。 这些URL是在AEM外部化设置中配置的，并反映在`system_config.xml`文件中。 |
-| **PDF合规性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用的PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请查看[关于PDF标准](https://helpx.adobe.com/cn/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
+| **PDF合规性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用的PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请查看[关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
 | **文件属性** | 选择要传递到本机PDF发布的元数据。 该下拉列表会同时列出自定义属性和默认属性。 例如，`dc:description`、`dc:language`、`dc:title`和`docstate`是默认属性，而您可以将`author`作为自定义属性。 所选元数据属性将传递到使用本机PDF生成的PDF文件。<br> 这些属性是从位于`/libs/fmdita/config/metadataList`的`metadataList`文件中选取的。 <br>此文件可以覆盖在： `/apps/fmdita/config/metadataList`。 |
 
 
