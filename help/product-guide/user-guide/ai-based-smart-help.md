@@ -41,7 +41,7 @@ Experience Manager Guides提供了基于GenAI的智能帮助，这是一项对�
 
 ![智能帮助面板](images/smart-help-panel.png){width="300"}
 
-*查看&#x200B;**帮助**面板。*
+*查看&#x200B;**帮助**&#x200B;面板。*
 
 执行以下步骤以使用“帮助”面板查找相应的内容并解决您的查询：
 

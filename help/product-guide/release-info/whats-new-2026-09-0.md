@@ -13,7 +13,7 @@ ht-degree: 0%
 
 有关此版本中修复的问题列表，请查看[2026.09.0版本中的已修复问题](fixed-issues-2026-09-0.md)。
 
-了解2026.09.0版本](../release-info/upgrade-instructions-2026-09-0.md)的[升级说明。
+了解2026.09.0版本[&#128279;](../release-info/upgrade-instructions-2026-09-0.md)的升级说明。
 
 ## 在AI Assistant中引入AI支持的智能标记
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 当映射具有一个或多个静态基线时，您现在可以在编辑器中基于所选基线而不是当前工作副本预览映射。
 
-与所选基线关联的主题、资产、图像和引用的所有版本都将显示在“预览”中，以便在创建基线时提供地图内容的准确视图。 有关更多详细信息，请查看主题](../user-guide/web-editor-views.md#preview-content-using-baseline)的[编辑器视图。
+与所选基线关联的主题、资产、图像和引用的所有版本都将显示在“预览”中，以便在创建基线时提供地图内容的准确视图。 有关更多详细信息，请查看主题[&#128279;](../user-guide/web-editor-views.md#preview-content-using-baseline)的编辑器视图。
 
 ## 审核增强功能
 
@@ -87,7 +87,7 @@ Experience Manager Guides为审阅人引入了主题级进度跟踪，使具有�
 
 现在，作者可以为学习课程中使用的每个H5P元素启用或禁用全屏显示。 使用&#x200B;**内容属性**&#x200B;面板中的&#x200B;**启用全屏**&#x200B;切换可控制此设置。 启用后，学习者可以将H5P内容展开到全屏。 禁用后，内容将内联保留在标准视图中。 此设置始终适用于预览模式和已发布的输出。
 
-在产品培训和学习内容的“插入”菜单](../learning-content/lc-other-insert-options.md)中了解有关[其他选项的更多信息。
+在产品培训和学习内容的“插入”菜单[&#128279;](../learning-content/lc-other-insert-options.md)中了解有关其他选项的更多信息。
 
 ![](./assets/h5p-fullscreen.png)
 

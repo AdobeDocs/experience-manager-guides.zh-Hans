@@ -39,7 +39,7 @@ Experience Manager Guides使用分页API加载文件和文件夹。 文件夹不
 - 添加文件会将其插入到文件夹的顶部，而不会刷新文件夹。
 - 打开文件夹将加载第一批资源，并为后续批次附加&#x200B;**加载更多**&#x200B;选项。
 
-  收藏集](images/collections-paginated.png){width="650"}的![页
+  收藏集![&#128279;](images/collections-paginated.png){width="650"}的页
 
 
 ### 资源管理器
@@ -47,7 +47,7 @@ Experience Manager Guides使用分页API加载文件和文件夹。 文件夹不
 - **根文件夹**：无限滚动。 最初加载第一批资产；滚动时，会自动附加后续批次。
 - **子文件夹**：展开文件夹将加载第一批资源，并为后续批次附加&#x200B;**加载更多**&#x200B;选项。
 
-  资源管理器](images/explorer-pagination.png){width="650"}的![页
+  资源管理器![&#128279;](images/explorer-pagination.png){width="650"}的页
 
 - **重命名**：就地进行，不刷新文件夹。
 - **删除**：根文件夹刷新以显示第一批资源。
