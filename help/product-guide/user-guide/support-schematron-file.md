@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 根据Schematron文件中定义的角色属性显示验证结果。 有关详细信息，请查看[了解验证结果和严重性级别](#understanding-validation-results-and-serverity-levels)。
+   > 根据Schematron文件中定义的角色属性显示验证结果。 有关详细信息，请查看[了解验证结果和严重性级别](#understanding-validation-results-and-severity-levels)。
 
 1. 选择错误消息，以在打开的主题/映射中突出显示包含错误的元素。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ![](images/schematron-validation-errors.png){width="350"}
 
-为了确定问题的严重性，将评估在相应Schematron文件中定义的角色属性的&#x200B;_case-senstive_&#x200B;值。
+为了确定问题的严重性，将计算在相应Schematron文件中定义的role属性的&#x200B;_区分大小写的_&#x200B;值。
 
 以下代码片段显示了架构规则中定义的受支持的角色属性值：
 

@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -79,14 +79,14 @@ AI助手有两种模式可用：**代理**&#x200B;和&#x200B;**标准**。 管�
 
 ## 在标准模式下开始使用AI助手
 
-当您首次在标准模式下使用&#x200B;**AI Assistant**&#x200B;时，系统会提示您先提交同意，然后再使用Experience Manager Guides Generative AI功能。
+首次在标准模式下使用&#x200B;**AI助手**&#x200B;时，系统会提示您先提交同意，然后再使用Experience Manager Guides创作AI功能。
 
 执行以下步骤以启动AI助手：
 
 1. 登录Experience Manager Guides。
 1. 在主页上，从顶部选择&#x200B;**AI助手**。 确保管理员已在所需模式下启用AI助手功能。
 
-AI助手显示关键功能、用户指南链接和&#x200B;**入门**&#x200B;按钮。
+AI助手显示关键功能、用户指南链接和&#x200B;**开始使用**&#x200B;按钮。
 
 ![智能帮助面板](images/get-started-ai.png)
 
