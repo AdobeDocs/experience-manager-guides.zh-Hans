@@ -4,13 +4,11 @@ description: 了解Adobe Experience Manager Guides的主页。
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2331'
 ht-degree: 0%
-
 ---
-
 # Experience Manager Guides主页体验
 
 主页是您登录Experience Manager Guides时查看的第一个屏幕。 它为您提供了统一且直观的欢迎屏幕体验，包括您最近访问的文件、收藏集等的快速视图。
@@ -45,16 +43,17 @@ Experience Manager Guides主页分为以下部分：
   - **主页**：登录Experience Manager Guides时查看的默认页面。
   - **编辑器**：一种易于使用的基于Web的编辑器，允许您在Experience Manager Guides中创建和管理结构化文档。 [了解编辑器界面](./web-editor.md)。
   - **映射控制台**：为您提供专用工作区以处理映射管理和发布的各个方面。 [了解地图控制台界面](./map-console-overview.md)。
-- **AI助手**：一款功能强大的AI驱动工具，旨在通过智能帮助功能提高您的工作效率。 此外，在编辑器界面中工作时，您可以利用AI Assistant的智能创作功能，通过内容重用和优化的智能建议，使创作过程更智能、更快。
-
-  [AI助手](./ai-assistant.md)功能当前仅适用于Adobe Experience Manager as Cloud Service。
-
-- **Guides AI**：将Adobe CX Enterprise Co-worker中智能、智能的智能标记技能引入编辑器，实现自然、对话的内容标记。 它可分析您的内容、推荐相关标记，并帮助您以最省力的方式应用一致且准确的元数据。 您可以查看建议的标记，并在确认选择之前选择应用或拒绝这些标记。 [Guides AI](../user-guide/guides-ai.md)简化了标记过程，改善了内容组织和可发现性。
-
+- **AI助手**： AI助手有两种模式可用： **代理**&#x200B;和&#x200B;**标准**。
 
   >[!NOTE]
   >
-  > 要在您的环境中使用Guides AI功能，请联系客户成功团队。 启用该功能后，管理员可以从Workspace设置中将其打开或关闭。 一次只能启用一个AI体验；可选择Guides AI或AI Assistant。
+  > 要在环境中使用AI助手功能的代理模式，请联系客户成功团队。 启用该功能后，管理员可以从Workspace设置中将其打开或关闭。 一次只能启用一种AI Assistant模式：Agentic或Standard。
+
+  - **全能**：将Adobe CX Enterprise Coworker的智能、全能智能标记技能引入编辑器，实现自然的对话式内容标记。 它可分析您的内容、推荐相关标记，并帮助您以最省力的方式应用一致且准确的元数据。 您可以查看建议的标记，并在确认选择之前选择应用或拒绝这些标记。 [在代理模式下使用AI助手](../user-guide/ai-assistant-agentic.md)可简化标记过程，提高内容组织和可发现性。
+
+  - **Standard**：一款功能强大、AI驱动的工具，旨在通过智能帮助功能提高您的工作效率。 此外，在编辑器界面中工作时，您可以利用AI Assistant的智能创作功能，通过内容重用和优化的智能建议，使创作过程更智能、更快。
+
+  [AI助手](./ai-assistant.md)功能当前仅适用于Adobe Experience Manager as Cloud Service。
 
 - **自定义概述部分**：允许您隐藏或显示小组件部分中的小组件。
 - **正在使用的文件夹配置文件**：显示当前正在使用的文件夹配置文件。
@@ -208,6 +207,7 @@ Experience Manager Guides允许您使用名为&#x200B;**映射收藏集**&#x200B
 
   - **始终在资源管理器中查找文件**：选择此选项可在编辑器中编辑文件时显示文件在存储库中的位置。
 
-  >[!NOTE]
-  >
-  >从2025.11.0版的Cloud Service和从5.2.0版的On-premise，设置&#x200B;**始终查找存储库中的文件**&#x200B;重命名为&#x200B;**始终查找资源管理器中的文件**。 对于5.2版本之前的内部部署设置，它仍可用作“始终在存储库中查找文件”。
+    >[!NOTE]
+    >
+    >- 从2025.11.0版的Cloud Service和从5.2.0版的On-premise，设置&#x200B;**始终查找存储库中的文件**&#x200B;重命名为&#x200B;**始终查找资源管理器中的文件**。 对于5.2版本之前的内部部署设置，它仍可用作“始终在存储库中查找文件”。
+    >- 从2026.09.0版本开始，默认情况下启用&#x200B;**文件和文件夹的分页加载**。 启用此功能后，**始终在资源管理器**&#x200B;中查找文件在用户首选项中不可用。 要使“始终在资源管理器中查找文件”首选项可用，请联系您的客户成功团队以禁用文件和文件夹的分页加载设置。 有关详细信息，请参阅[文件和文件夹的分页加载](./web-editor-other-features.md#paginated-loading-of-files-and-folders)。

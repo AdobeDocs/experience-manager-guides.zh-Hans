@@ -7,22 +7,27 @@ role: User
 TQID: https://experienceleague.adobe.com/hdEk3etzBCch3Ejdl5SnIC37pSK6a-WERkTMqu-jlGM
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 1578
+source-wordcount: '1824'
 ht-degree: 0%
-
 ---
-
 # 主题的编辑器视图 {#id204GK0D0V5Z}
 
 >[!INFO]
@@ -122,15 +127,33 @@ Source视图显示构成该主题的基础XML。 如果您习惯直接使用XML�
 
 预览模式提供了以下功能：
 
+* [使用基线预览内容](#preview-content-using-baseline)
 * [查看基于条件筛选器的内容](#id2114BI00VXA)
 * [查看跟踪更改标记](#id2114BJ00CE8)
 * [将主题导出为PDF](#id2114BL00B5U)
+
+
+### 使用基线预览内容（仅适用于DITA映射）
+
+>[!NOTE]
+>
+>请联系您的客户成功团队，以在您的环境中启用此功能。
+
+默认情况下，预览模式显示主题或映射的当前工作副本。 如果映射具有一个或多个静态基线，则可以使用&#x200B;**使用基线预览**&#x200B;切换来预览该映射，因为它存在于特定基线版本中。 此功能仅支持静态基线；动态基线不可预览。
+
+![](images/preview-baseline.png){width="650"}
+
+从下拉列表中选择基线时，预览会根据所选基线而不是当前工作副本解析所有关联的主题、资源、图像和引用。 这样可准确表示创建基线时的映射内容。
+
+例如，如果在创建基线后替换了某个图像，则预览该基线将显示与该基线关联的图像的版本，而不是当前工作副本中的图像。
+
+预览模式在呈现初始主题集时显示加载的预览指示器。 在编辑主题或切换版本后，它不会自动更新。 要查看最新内容，请手动刷新预览，或者关闭并重新打开主题或地图。 此外，在预览基线的映射时，“跟踪”选项（“无标记”、“原始”和“显示标记”）不可用。
 
 ### 查看基于条件筛选器的内容 {#id2114BI00VXA}
 
 如果您在主题或地图中使用了条件，则这些条件会显示在“筛选器”面板中。 默认情况下，将选择所有条件并显示整个内容。 如果取消选择某个条件，则会从视图中删除具有该条件的内容。 您还可以选择高亮显示条件化内容。
 
-下图显示了一个使用两个条件的主题：`Audience`和`Platfor`。 条件化内容以黄色背景突出显示。
+下图显示了一个使用两个条件的主题：`Audience`和`Platform`。 条件化内容以黄色背景突出显示。
 
 >[!BEGINTABS]
 
@@ -153,7 +176,7 @@ Source视图显示构成该主题的基础XML。 如果您习惯直接使用XML�
 有三个&#x200B;**跟踪**&#x200B;选项可供您选择：
 
 * **无标记**：在此视图中，接受所有插入和删除，并呈现文档的简单视图。 在此视图中，您不会查看任何跟踪更改标记。
-* **原始**：在此视图中，所有插入都将被拒绝，所有删除都将恢复，然后显示预览。 简单地说，您可以在启用跟踪更改模式之前获得文档的原始表单。
+* **原始**：在此视图中，所有插入都将被拒绝，所有删除都将恢复，然后显示预览。 在启用跟踪更改模式之前，您将获得文档的原始表单。
 * **显示标记**：在此视图中，您将获得插入和删除内容的所有标记。
 
   下图显示了带有标记的映射文件的预览：
@@ -185,6 +208,5 @@ PDF是在文档开发周期的每一个可能阶段使用的最常见输出格�
    > 请确保已在浏览器配置中启用弹出窗口，否则将不会下载PDF。
 
    将生成PDF并在新选项卡中打开，或者您会看到一个对话框，用于在本地系统上保存PDF。
-
 
 **父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)

@@ -7,21 +7,27 @@ exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
 TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+    internal-label: Customer experience
+source-git-commit: 912b7583cbbbb4beff08423d360a9a06f3c365cf
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: '912'
 ht-degree: 0%
-
 ---
-
 # 以审阅者身份完成审阅任务
 
 作为审阅人，您可以在审阅完所有内容并想要通知作者后，将审阅任务标记为完成。 您还可以在此阶段留下任何最终注释。
+
+>[!NOTE]
+>
+> 从Experience Manager Guides as a Cloud Service的&#x200B;**2026.09.0版本**&#x200B;开始，**标记为完成**&#x200B;按钮将重命名为&#x200B;**完成审阅任务**，以及审阅UI中的其他功能，以帮助审阅人跟踪其审阅进度。 有关更多详细信息，请查看[将单个主题标记为完成](review-topics.md#mark-individual-topics-as-done-in-a-review-task)。 完成审阅任务的步骤保持不变。
 
 执行以下步骤以完成审阅任务：
 

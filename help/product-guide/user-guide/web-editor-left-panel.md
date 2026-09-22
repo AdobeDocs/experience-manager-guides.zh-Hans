@@ -7,29 +7,40 @@ exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 06a24bcf5a4dc05ba20846e9d745ea6f36ee8183
 workflow-type: tm+mt
-source-wordcount: 11073
+source-wordcount: '11296'
 ht-degree: 0%
-
 ---
-
 # 编辑器中的左侧面板
 
 >[!INFO]
@@ -77,6 +88,10 @@ ht-degree: 0%
 左侧面板功能的详细说明如下：
 
 ## 收藏集
+
+>[!NOTE]
+>
+> 从2026.09.0版本开始，Experience Manager Guides通过分页加载提供了更好的浏览体验。 此功能默认处于启用状态。 要禁用此功能，请联系您的客户成功团队。 有关详细信息，请参阅[文件和文件夹的分页加载](./web-editor-other-features.md#paginated-loading-of-files-and-folders)。
 
 如果您使用一组文件或文件夹，则可以将它们添加到收藏夹列表以快速访问它们。 **收藏集**&#x200B;显示您已添加的文档列表以及其他用户可公开访问的文档列表。
 
@@ -493,7 +508,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 从Cloud Service的2025.11.0版本和内部部署的5.2.0版本开始，**存储库**&#x200B;将替换为&#x200B;**资源管理器**。 对于版本5.2之前的内部部署，您将继续通过编辑器界面查看和使用存储库。
+>- 从Cloud Service的2025.11.0版本和内部部署的5.2.0版本开始，**存储库**&#x200B;将替换为&#x200B;**资源管理器**。 对于版本5.2之前的内部部署，您将继续通过编辑器界面查看和使用存储库。
+>- 从2026.09.0版本开始，Experience Manager Guides通过分页加载提供了更好的浏览体验。 此功能默认处于启用状态。 要禁用此功能，请联系您的客户成功团队。 有关详细信息，请参阅[文件和文件夹的分页加载](./web-editor-other-features.md#paginated-loading-of-files-and-folders)。
 
 Explorer提供了以前在存储库中提供的大多数功能，包括：
 
@@ -1008,8 +1024,8 @@ Experience Manager Guides还支持嵌套级别主题方案映射，并且您可�
     <summary> 将值限制为特定元素 </summary>
 
 
-您也可以将条件限制为主题中的某些元素。使用`<elementdef>`标记定义元素，使用`<attributedef>`标记定义可以应用于元素的条件。 如果不添加`<elementdef>`标记，则可以将条件应用于所有元素。
-例如，使用以下枚举将`@platform`属性限制为`<shortdesc>`元素。 其他条件对于所有元素均可见。
+您也可以将条件限制为主题中的某些元素。 使用`<elementdef>`标记定义元素，使用`<attributedef>`标记定义可以应用于元素的条件。  如果不添加`<elementdef>`标记，则可以将条件应用于所有元素。
+例如，使用以下枚举将`@platform`属性限制为`<shortdesc>`元素。  其他条件对于所有元素均可见。
 
 ```XML
 <enumerationdef>
@@ -1115,6 +1131,10 @@ Experience Manager Guides还支持嵌套级别主题方案映射，并且您可�
 > 从代码片段条目的上下文菜单中，您还可以选择编辑、删除、获取预览或插入代码片段。
 
 ## 模板
+
+>[!NOTE]
+>
+> 从2026.09.0版本开始，Experience Manager Guides通过分页加载提供了更好的浏览体验。 此功能默认处于启用状态。 要禁用此功能，请联系您的客户成功团队。 有关详细信息，请参阅[文件和文件夹的分页加载](./web-editor-other-features.md#paginated-loading-of-files-and-folders)。
 
 “模板”面板仅对管理员可用。 使用此面板，管理员可以轻松创建和管理随后可供作者使用的模板。 默认情况下，模板在&#x200B;*映射*&#x200B;和&#x200B;*主题*&#x200B;类型模板下分类。
 
@@ -1384,7 +1404,7 @@ Experience Manager Guides提供用于显示项目中所有审阅任务的功能�
 
    >[!NOTE]
    > 
-   > **审阅**&#x200B;面板和&#x200B;**评论**&#x200B;面板始终同步。在“注释”面板中，会根据“审阅”面板中加载的审阅任务来加载注释。
+   > **审阅**&#x200B;面板和&#x200B;**评论**&#x200B;面板始终同步。 在“注释”面板中，会根据“审阅”面板中加载的审阅任务来加载注释。
    >您可以在审核面板的左边栏中查看已关闭的审核任务以及活动的审核任务。
    >此外，对于已关闭的审阅任务，您可以在右侧的“注释”面板中查看审阅注释，但&#x200B;**导入注释**&#x200B;和&#x200B;**还原版本**&#x200B;按钮已禁用。
    >有关如何处理评论的详细信息，请查看[地址审核评论](review-address-review-comments.md#)。

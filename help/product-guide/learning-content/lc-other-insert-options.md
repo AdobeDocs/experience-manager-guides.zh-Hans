@@ -7,20 +7,23 @@ exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
+    internal-label: User
+source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # “插入”菜单中的其他选项
 
 编辑器工具栏的“插入”菜单中的其他可用选项包括：
@@ -52,11 +55,17 @@ ht-degree: 0%
 
   ![](assets/upload-assets-option.png)
 
-  完成后，在预览模式下查看H5P内容并发布输出。
+  完成后，在预览模式下查看H5P内容并发布输出。 H5P内容还支持全屏显示选项。 您可以通过内容属性面板中的专用切换来启用或禁用每个嵌入H5P元素的全屏模式。 启用后，学习者可以将内容展开到全屏；禁用后，内容仍内联在标准视图中。 此设置始终适用于预览模式和已发布的输出。
 
   >[!NOTE]
   >
   > Adobe Experience Manager Guides不支持编辑或创建H5P内容。 在上载之前，请在外部准备H5P包。
+
+  ![](assets/h5p-fullscreen.png)
+
+  **预览模式**
+
+  ![](assets/h5p-preview.png)
 
 
 - **MathML公式：**&#x200B;将MathML公式插入到您的内容中。 您可以创建一个MathML公式，并选择&#x200B;**插入**&#x200B;以将其添加到您的文档中。

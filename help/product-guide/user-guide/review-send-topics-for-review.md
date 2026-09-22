@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
+    internal-label: User
+source-git-commit: 279cf0605427042290a7bbf179636f022d4bfd46
 workflow-type: tm+mt
-source-wordcount: 3663
+source-wordcount: '4036'
 ht-degree: 0%
-
 ---
-
 # 发送主题以供审阅 {#id199RD0S035Z}
 
 审阅工作流创建多审阅者环境，其中发起者指定要审阅的主题列表，添加多个审阅者，并为审阅任务分配时间线。 Adobe Experience Manager Guides允许属于作者和发布者组的用户启动审阅。
@@ -275,6 +279,10 @@ Experience Manager Guides允许您同时在DITA映射中发送一个或多个主
 
    ![](images/content-page-map-review.png)
 
+   >[!NOTE]
+   >
+   > 此页面上内容的组织方式取决于为您的环境是否启用了映射层次结构功能。 启用后，映射及其子映射将以分层视图显示，而不是以平面主题列表显示。 有关更多详细信息，在选择审核主题时查看[查看映射层次结构](#view-the-map-hierarchy-while-selecting-topics-for-review)。
+
 1. 在“内容”页面上，选择要共享以进行审阅的主题版本。
 
    您可以使用以下方法之一来选择版本：
@@ -327,6 +335,33 @@ Experience Manager Guides允许您同时在DITA映射中发送一个或多个主
 
 
 将向所有审阅人发送电子邮件，通知他们已被分派审阅主题。 电子邮件包含一个直接链接，用户可使用它访问浏览器窗口中的主题。 主题以及DITA映射将在审阅模式下打开。
+
+### 选择要查看的主题时查看映射层次结构
+
+>[!NOTE]
+>
+> 默认情况下，此功能处于禁用状态。 要在您的环境中启用它，请联系您的客户成功团队。
+
+使用此功能，映射内容的现有结构或层次结构将显示在&#x200B;**Content**&#x200B;页面上。 在选择要审阅的内容时，映射及其子映射不会以平面列表的形式显示映射中的所有主题，而是会显示在映射的实际层次结构中，以便更好地参考。
+
+![](./images/review-map-hierarchy.png)
+
+>[!NOTE]
+>
+> - 如果映射只包含主题而没有子映射，则按常规方式显示主题平面列表。
+> - 只有可包含在审核中的内容类型才会显示在层次结构中。 这些主题包括“概念”、“任务”、“引用”和“通用”主题，以及“DITA映射”、“BookMap”和“学习内容映射”类型。 不可查看的项目（如术语引用、键定义和术语列表）不会显示在映射层次结构中。
+
+默认情况下，将选择层次结构中的所有映射、子映射和主题。 作为审阅任务的作者或发起者，您可以根据要发送以进行审阅的内容选择或取消选择单个主题或完成子映射。 取消选择子映射也会取消选择子映射中的所有主题。
+
+当仅选择子映射中的某些主题时，子映射的复选框将更改为不确定的状态以指示部分选择。 此选择状态同时反映在&#x200B;**Content**&#x200B;和&#x200B;**Reviewers**&#x200B;页面中，以确保选定的内容在整个审阅工作流中保持一致。
+
+![](./images/review-partial-selection-submap.png)
+
+当子映射中的所有主题都选中或取消选中时，子映射的选择状态将自动相应地调整。
+
+如果在映射层次结构中多次引用同一主题，则第一个主题之后的每个实例都使用&#x200B;**重复**&#x200B;标签进行标记，以便于识别。 用于选择、取消选择或更改这些重复主题的版本的选项将被禁用。 任何选择或版本更改都必须从第一次出现该主题时开始。
+
+![](./images/review-duplicate-topics-in-map.png)
 
 ## 在正在进行的审阅任务中添加或删除主题
 

@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
+    internal-label: User
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
-source-wordcount: 984
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # 支持Schematron文件
 
 “架构”是指用于定义XML文件测试的基于规则的验证语言。 该编辑器支持Schematron文件。 您可以导入Schematron文件，也可以在编辑器中编辑它们。 使用Schematron文件，您可以定义某些规则，然后针对DITA主题或映射验证这些规则。
@@ -73,7 +77,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 根据Schematron文件中定义的角色属性显示验证结果。 有关详细信息，请查看[了解验证结果和严重性级别](#understanding-validation-results-and-serverity-levels)。
+   > 根据Schematron文件中定义的角色属性显示验证结果。 有关详细信息，请查看[了解验证结果和严重性级别](#understanding-validation-results-and-severity-levels)。
 
 1. 选择错误消息，以在打开的主题/映射中突出显示包含错误的元素。
 
@@ -85,7 +89,7 @@ ht-degree: 0%
 
 ![](images/schematron-validation-errors.png){width="350"}
 
-为了确定问题的严重性，将评估在相应Schematron文件中定义的角色属性的&#x200B;_case-senstive_&#x200B;值。
+为了确定问题的严重性，将计算在相应Schematron文件中定义的role属性的&#x200B;_区分大小写的_&#x200B;值。
 
 以下代码片段显示了架构规则中定义的受支持的角色属性值：
 
@@ -191,3 +195,21 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
+
+## 使用文本节点上下文定义规则
+
+您可以定义具有文本节点上下文的Schematron规则，例如`context="//text()"`，以便该规则直接针对文本节点进行评估，而不是要求您枚举可以包含该文本的每个可能的DITA元素。
+
+例如，以下规则标记主题文本中任意位置的直引号：
+
+```XML
+<sch:pattern id="quotation-marks-straight-v2">
+  <sch:rule context="//text()">
+    <sch:report role="info" test="contains(., '&quot;')">Please use typographic quotes instead of straight quotes.</sch:report>
+  </sch:rule>
+</sch:pattern>
+```
+
+当此规则匹配时，验证结果将指向触发它的确切文本节点，而不是仅指向封闭元素。
+
+使用显式元素上下文（例如`context="//p"`）的规则将继续像以前一样工作，并且您仍然可以使用任一方法，具体取决于您希望匹配项和错误位置的精确程度。

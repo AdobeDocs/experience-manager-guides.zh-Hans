@@ -7,28 +7,38 @@ role: User
 TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
+    internal-label: Administration
+source-git-commit: 912b7583cbbbb4beff08423d360a9a06f3c365cf
 workflow-type: tm+mt
-source-wordcount: 1526
+source-wordcount: '1618'
 ht-degree: 0%
-
 ---
-
 # 地址审核注释 {#id2056B0X0KBI}
 
 作为作者，您可以使用编辑器在主题中处理注释。 根据在“审阅”面板中选择的审阅任务载入注释。 有关更多详细信息，请在[左侧面板](../user-guide/web-editor-left-panel.md)部分中查看&#x200B;**审阅**&#x200B;面板![](images/active-review-tasklist-icon.svg)功能说明。
@@ -101,6 +111,18 @@ ht-degree: 0%
 
 ![](images/tag-users-review.png){width="350"}
 *Caption:Tag用户作为发起人/作者*
+
+要标记用户，请在评论或回复中输入`@`，然后从与此项目关联的用户列表中选择一个用户。 该列表显示用户的名称以及其他详细信息，以帮助您识别正确的用户。
+
+用户详细信息按以下顺序显示：
+
+`<Role>` | `<User name>` | `<Email address>`
+
+如果电子邮件地址不可用，则仅显示用户的角色和名称。
+
+您还可以将鼠标悬停在列表中的用户上，以在工具提示中查看其用户名、角色和电子邮件地址。
+
+![](images/tag-users-author-ui.png){width="350"}
 
 标记的用户会收到电子邮件和AEM通知，确保他们及时获得通知。 有关如何触发审阅通知的更多详细信息，请查看[了解审阅通知](./review-understanding-review-notifications.md)。
 

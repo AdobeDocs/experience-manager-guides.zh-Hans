@@ -7,23 +7,29 @@ role: User
 TQID: https://experienceleague.adobe.com/r6gZE2a3lXtL0mFWxurEjna8mUTJIMEQdz2eLw2OWcQ
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
+    internal-label: User
+source-git-commit: 811743900fefe761f10254ff13c741a7d8f41d27
 workflow-type: tm+mt
-source-wordcount: 4258
+source-wordcount: '4329'
 ht-degree: 0%
-
 ---
-
 # 编辑器中的其他功能 {#id2056B0B0YPF}
 
 编辑器中还有一些其他有用的功能可供您使用：
@@ -220,26 +226,26 @@ Generate the output for the selected file. Output can be generated only for file
 
   ![](images/set-alignment-rows.png){width="550"}
 
-   - 水平文本对齐方式（对简单表不可用）
-   - 垂直文本对齐方式（对简单表不可用）
-   - 在上方插入行
-   - 在下方插入行
-   - 删除行
-   - 合并单元格（对简单表不可用）
+  - 水平文本对齐方式（对简单表不可用）
+  - 垂直文本对齐方式（对简单表不可用）
+  - 在上方插入行
+  - 在下方插入行
+  - 删除行
+  - 合并单元格（对简单表不可用）
 
   用于单列或多列选择的可用选项：
 
   ![](images/set-alignment-columns.png){width="550"}
 
-   - 水平文本对齐方式（对简单表不可用）
-   - 垂直文本对齐方式（对简单表不可用）
-   - 在上方插入行
-   - 在下方插入行
-   - 删除行
-   - 在上方插入列
-   - 在下方插入列
-   - 删除列
-   - 合并单元格（对简单表不可用）
+  - 水平文本对齐方式（对简单表不可用）
+  - 垂直文本对齐方式（对简单表不可用）
+  - 在上方插入行
+  - 在下方插入行
+  - 删除行
+  - 在上方插入列
+  - 在下方插入列
+  - 删除列
+  - 合并单元格（对简单表不可用）
 
 - 选择表格以将文本格式和对齐应用于整个表格。
 
@@ -349,17 +355,17 @@ Experience Manager Guides提供了直观的对话框 — **选择文件**&#x200B
 
   这意味着：
 
-   - 如果您使用全局配置文件，则会应用全局配置文件中配置的过滤器值。
-   - 如果您选择特定的文件夹配置文件，则会获取该配置文件中定义的筛选器值。
+  - 如果您使用全局配置文件，则会应用全局配置文件中配置的过滤器值。
+  - 如果您选择特定的文件夹配置文件，则会获取该配置文件中定义的筛选器值。
 
   可用于文档状态的默认筛选器值为：“草稿”、“编辑”、“审核中”、“已批准”、“已审核”和“完成”。 有关自定义文档状态筛选器值的详细信息，请查看[配置文档状态筛选器](../cs-install-guide/config-doc-state-filters.md)。
 
 - **锁定者**：显示用户列表。 该列表以异步方式分页并加载，一次显示一组有限的用户，并在滚动或导航时获取更多内容。 这提高了加载速度和整体性能，尤其是在处理大量用户时。
 
 - **上次修改时间**：根据修改日期筛选内容。 从日历中选择一个日期范围或选择以下时间范围选项之一：
-   - 在上周
-   - 在上个月
-   - 在去年
+  - 在上周
+  - 在上个月
+  - 在去年
 
 - **标记**：根据标记筛选内容。
 
@@ -422,7 +428,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 ### 在MathML编辑器中验证公式
 
 当您保存包含公式的主题时，Experience Manager Guides会验证MathML公式。
-使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。您可以在插入之前更正它。如果您未进行任何更改，但选择&#x200B;**插入**，则会显示警告。
+使用MathML编辑器插入公式时，如果存在任何语法问题，Experience Manager Guides会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择&#x200B;**插入**，则会显示警告。
 
 ![验证mathml公式](images/validate-mathml-equation.png){width="400"}
 
@@ -498,7 +504,7 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 - 您可以使用&#x200B;**Symobol** ![](images/symbol-icon.svg)图标或&#x200B;**Alt** + **空格**&#x200B;快捷键在文档中插入不间断空格。  在编辑器中编辑主题时，这些不间断的空格会显示为指示符。 在[用户首选项](./intro-home-page.md#user-preferences)的&#x200B;**外观**&#x200B;选项卡中，可以使用&#x200B;**在创作模式下显示不间断空格指示符**&#x200B;选项关闭不间断空格的显示。
 
 - 如果将任何外部源中具有不间断空格的内容复制并粘贴到&#x200B;**创作**&#x200B;视图中，则不间断空格的内容将转换为空格。
-但是，如果您从&#x200B;**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则内容将保留。
+但是，如果您从&#x200B;**创作**&#x200B;视图中复制并粘贴带有不间断空格的内容，则该内容会保留。
 
 
 ## 自动生成元素ID
@@ -551,6 +557,5 @@ Experience Manager Guides为您提供开箱即用的支持，以便通过与[Mat
 
 
 - 警报消息仅适用于DITA文件，并且在所有视图（创作、Source和布局）中都可见。
-
 
 **父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
