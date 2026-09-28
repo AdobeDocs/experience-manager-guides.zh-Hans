@@ -7,22 +7,27 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+    internal-label: User
+source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # 编辑器中的选项卡栏
 
 >[!INFO]
@@ -61,21 +66,17 @@ ht-degree: 0%
 >
 > **全部保存**&#x200B;操作不会创建主题的新版本。 要创建新版本，请使用&#x200B;**另存为新版本**&#x200B;选项。
 
-**AI助手**
-
-一款强大的AI驱动工具，旨在通过智能帮助和创作功能提高您的工作效率。 它将两项强大的AI功能（**创作**&#x200B;和&#x200B;**帮助**）整合到Experience Manager Guides界面中，使您能够更快、更高效地创作内容并访问Experience Manager Guides文档中的信息。
+**AI助手**： AI助手有两种模式可用： **代理**&#x200B;和&#x200B;**标准**。
 
 >[!NOTE]
 >
-> AI助手功能当前适用于Adobe Experience Manager Guides as a Cloud Service。
+> 要在环境中使用AI助手功能的代理模式，请联系客户成功团队。 启用该功能后，管理员可以从Workspace设置中将其打开或关闭。 一次只能启用一种AI Assistant模式：Agentic或Standard。
 
-**指南AI**
+- **全能**：将Adobe CX Enterprise Coworker的智能、全能智能标记技能引入编辑器，实现自然的对话式内容标记。 它可分析您的内容、推荐相关标记，并帮助您以最省力的方式应用一致且准确的元数据。 您可以查看建议的标记，并在确认选择之前选择应用或拒绝这些标记。 [在代理模式下使用AI助手](../user-guide/ai-assistant-agentic.md)可简化标记过程，提高内容组织和可发现性。
 
-将来自Adobe CX Enterprise Co-worker的智能、智能的智能标记技能引入编辑器，实现自然、对话式的内容标记。 它可分析您的内容、推荐相关标记，并帮助您以最省力的方式应用一致且准确的元数据。 您可以查看建议的标记，并在确认选择之前选择应用或拒绝它们，从而改善内容组织和可发现性。
+- **Standard**：一款功能强大、AI驱动的工具，旨在通过智能帮助功能提高您的工作效率。 此外，在编辑器界面中工作时，您可以利用AI Assistant的智能创作功能，通过内容重用和优化的智能建议，使创作过程更智能、更快。
 
->[!NOTE]
->
-> 要在您的环境中使用Guides AI功能，请联系客户成功团队。 启用该功能后，管理员可以从Workspace设置中将其打开或关闭。 一次只能启用一个AI体验；可选择Guides AI或AI Assistant。
+[AI助手](./ai-assistant.md)功能当前仅适用于Adobe Experience Manager as Cloud Service。
 
 **展开视图**：允许您使用&#x200B;**展开**&#x200B;图标展开页面视图。 在此视图中，包含Adobe Experience Manager徽标的标题栏处于隐藏状态。 这样可最大化内容空间以供编辑。 要返回到标准视图，请使用&#x200B;**退出扩展视图**&#x200B;图标。
 
@@ -91,6 +92,6 @@ ht-degree: 0%
 >
 >如果在版本5.2之前的内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下仍显示为&#x200B;**设置**。
 
-- **编辑器设置**：转到“编辑器设置”对话框，您可以在其中自定义单个作者级别的编辑器行为。 利用该功能，可在创作过程中控制标记、注释及其他编辑器级别设置的可见性和行为。 有关详细信息，请查看[编辑器设置](../install-conf-guide/workspace-settings.md)。
+- **编辑器设置**：转到“编辑器设置”对话框，您可以在其中自定义单个作者级别的编辑器行为。 利用该功能，可在创作过程中控制标记、注释及其他编辑器级别设置的可见性和行为。 有关详细信息，请查看[编辑器设置](../user-guide/config-editor-settings.md)。
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)
