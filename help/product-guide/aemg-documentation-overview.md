@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
+source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '325'
 ht-degree: 5%
 ---
 # Experience Manager Guides文档
@@ -206,6 +206,15 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 </table>
 
 >[!ENDSHADEBOX]
+
+## 新增功能
+
+[!BADGE 2026.09.0发行版]{type=Informative}
+
+Adobe Experience Manager Guides 2026.09.0版在AI Assistant中引入了由AI支持的智能标记，以及在创作、内容管理、发布和整体用户体验方面的增强功能。
+
+[探索新增功能](./release-info/whats-new-2026-09-0.md)
+
 
 ## 其他资源
 
