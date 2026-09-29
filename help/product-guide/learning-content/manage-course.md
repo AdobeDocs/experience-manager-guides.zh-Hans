@@ -7,19 +7,22 @@ exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: '740'
 ht-degree: 0%
-
 ---
-
 # 管理您的课程
 
 创建课程后，该课程将在“课程管理器”面板中打开。 您可以锁定课程并在课程级别进行所有必需的更改。 以下部分将介绍编辑课程的可用选项。
@@ -50,11 +53,11 @@ ht-degree: 0%
 1. 选择要创建的课程内容类型。
 1. 在&#x200B;**选择文件**&#x200B;对话框中，导航到内容位置并选择所需的学习内容。
 
->[!NOTE]
->
-> 将HTML主题添加到学习组映射时，`format="html"`属性会自动添加到映射中的相应`topicref`。 这将确保主题得到正确处理和发布。
+   >[!NOTE]
+   >
+   > 将HTML主题添加到学习组映射时，`format="html"`属性会自动添加到映射中的相应`topicref`。 这将确保主题得到正确处理和发布。
 
-![](assets/add-existing-learning-content.png)
+   ![](assets/add-existing-learning-content.png)
 
 1. 选择&#x200B;**选择**。
 

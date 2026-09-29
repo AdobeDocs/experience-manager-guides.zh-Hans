@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -94,4 +94,4 @@ ht-degree: 0%
 
 - **编辑器设置**：转到“编辑器设置”对话框，您可以在其中自定义单个作者级别的编辑器行为。 利用该功能，可在创作过程中控制标记、注释及其他编辑器级别设置的可见性和行为。 有关详细信息，请查看[编辑器设置](../user-guide/config-editor-settings.md)。
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

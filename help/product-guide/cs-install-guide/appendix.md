@@ -8,21 +8,25 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: d5800bf2b6aa807975b6c12c20bfb340a015b830
 workflow-type: tm+mt
-source-wordcount: 2866
+source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # 附录 {#id195AD0L60Y4}
 
 ## AEM Guides疑难解答
@@ -45,10 +49,10 @@ ht-degree: 0%
 1. 运行验证脚本\[`/bin/fmdita/validatebtree?operation=validate`\]以检查是否存在任何新的已损坏引用。
 1. 如果验证脚本报告任何错误，可以使用修补程序脚本对其进行修补程序。
 1. 记录以下提供的详细信息，并在必要时与客户成功团队分享：
-1. &#x200B;
+
    - 验证脚本打印的日志
-- “`/content/fmdita/references`”的包
-- 任何其他所需的详细信息，具体取决于所报告的情景
+   - “`/content/fmdita/references`”的包
+   - 任何其他所需的详细信息，具体取决于所报告的情景
 
 **修补程序脚本**
 
@@ -56,13 +60,13 @@ ht-degree: 0%
 
 1. 运行修补程序脚本`[/bin/fmdita/validatebtree?operation=patch]`以修复损坏的引用。 脚本执行需要几分钟时间，并在执行过程中打印日志。 执行完成后，它会在末尾打印“`Done`”。
 
->[!NOTE]
->
-> 建议您复制并保存日志以供参考。
+   >[!NOTE]
+   >
+   > 建议您复制并保存日志以供参考。
 
 1. 成功执行修补程序脚本后，可以执行以下检查：
-1. &#x200B;
-   - 检查`/content/fmdita`下是否创建了新节点“`references_backup_<timestamp>"`”
+
+- 检查`/content/fmdita`下是否创建了新节点“`references_backup_<timestamp>"`”
 - 检查引用是否已修复
 
 **记录器**
@@ -355,7 +359,7 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 
 `paragraphStyleRule`元素描述如下：
 
-选&#x200B;**`paraRule`元素**
+选**`paraRule`元素**
 
 `paraRule`元素是必需的。 这会指定所有段落样式的映射规则。 在InDesign文档中，所有文本都包含在段落样式的子结构中，即使没有任何样式的段落也被命名为`\[No paragraph style\]`。 方括号，表示内置InDesign样式名称。
 
@@ -370,8 +374,9 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 - `@mapTo`： DITA目标元素的名称。
 
 - `@context`：当有多个包装器选择可用时，此属性用于链接到特定的&#x200B;**wrap**&#x200B;规则。 示例： `li`元素可以封装在`ol`或`ul`元素中。 要标识不同的列表类型，您可以使用特定的样式名或`@local`属性，该属性可显示以下内容：
-   - `local="p[-|-|-|-|-|b|-|-]"`其中字段6中的“`b`”表示项目符号列表项。 在这种情况下，将`@context`设置为“`bullet`”。
-   - `local="p[-|-|-|-|-|n|-|-]"`其中字段6中的“`n`”表示编号列表项。 在这种情况下，将`@context`设置为“`number`”。
+
+  - `local="p[-|-|-|-|-|b|-|-]"`其中字段6中的“`b`”表示项目符号列表项。 在这种情况下，将`@context`设置为“`bullet`”。
+  - `local="p[-|-|-|-|-|n|-|-]"`其中字段6中的“`n`”表示编号列表项。 在这种情况下，将`@context`设置为“`number`”。
 
 - `@commentOut`：此属性允许在XML注释中封装目标元素，这样信息就不会丢失，但用户可手动处理。 如果无法强制源内容符合DITA结构规则，这将很有用。
 
@@ -402,9 +407,8 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 - `@local`：请参阅[\#id194CG0V005Z](#id194CG0V005Z)。
 - `@mapTo`： DITA目标元素的名称。
 - `@refactor`：此可选属性可以选择两个值：
-   - `unwrap`：删除匹配的元素，同时保留其内容。
-
-   - `drop`：已删除匹配的元素及其所有内容。
+  - `unwrap`：删除匹配的元素，同时保留其内容。
+  - `drop`：已删除匹配的元素及其所有内容。
 
 
 **属性规则**
@@ -434,11 +438,11 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 > 此元素可以包含多个子元素。
 
 - `addNew`：向匹配的元素添加新属性。 可用于所有上下文。 它具有两个属性：
-   - `@name`：必须是合法的XML名称，最好对DITA上下文有效。
-   - `@value`：可以是文本或简单的XPath表达式。
+  - `@name`：必须是合法的XML名称，最好对DITA上下文有效。
+  - `@value`：可以是文本或简单的XPath表达式。
 - `copyAtt`：将单个属性复制到目标，同时可以选择在此过程中重命名该属性。 此值不会更改。 可用于上下文`mapDoctypeParaRule`、`mapDoctypeElemRule`、`doctypeElemRule`和`elementRule`。 当此元素存在时，`@copyAllAtts`值被假定为`false`。 它具有两个属性：
-   - `@name`：必须是源XML元素上存在的属性的名称。
-   - `@mapTo`：必须是合法的XML名称，最好对DITA上下文有效。
+  - `@name`：必须是源XML元素上存在的属性的名称。
+  - `@mapTo`：必须是合法的XML名称，最好对DITA上下文有效。
 
 **本地格式代码**
 
@@ -492,9 +496,9 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 
 - `@refactor`：此可选属性可以选择两个值：
 
-   - `unwrap`：删除匹配的元素，同时保留其内容。
+  - `unwrap`：删除匹配的元素，同时保留其内容。
 
-   - `drop`：已删除匹配的元素及其所有内容。
+  - `drop`：已删除匹配的元素及其所有内容。
 
 - `@context`：当有多个包装选项可用时，此属性用于链接到特定包装规则。 示例： `li`元素可以封装在`ol`或`ul`元素中。
 

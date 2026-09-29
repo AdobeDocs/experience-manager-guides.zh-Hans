@@ -6,31 +6,37 @@ exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
 TQID: https://experienceleague.adobe.com/PFM-i4fVsgpBUJy4BeOpvyY4GWxGS8F24jEGb0Y2oiI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1021'
 ht-degree: 1%
-
 ---
-
 # 2024.10.0版（2024年10月）的新增功能
 
 本文介绍Adobe Experience Manager Guides as a Cloud Service 2024.10.0版本中引入的新增功能和增强功能。
 
 有关此版本中修复的问题列表，请查看 [2024.10.0 版本中已修复的问题](fixed-issues-2024-10-0.md)。
 
-了解2024.10.0版[&#128279;](../release-info/upgrade-instructions-2024-10-0.md)的升级说明。
+了解2024.10.0版](../release-info/upgrade-instructions-2024-10-0.md)的[升级说明。
 
 
 ## 发布增强功能
@@ -70,7 +76,7 @@ Experience Manager Guides允许您将主题或其元素发布到体验片段。 
 ### 为方便使用，重新组织了AEM Sites预设
 
 这些设置已重新组织，以帮助您快速配置输出预设并生成AEM Sites输出。
-您可以通过在&#x200B;**新建输出预设**&#x200B;对话框中选择&#x200B;**使用旧版组件映射**&#x200B;选项来创建现有的AEM Sites预设。
+您可以通过在**新建输出预设**&#x200B;对话框中选择&#x200B;**使用旧版组件映射**&#x200B;选项来创建现有的AEM Sites预设。
 
 查看AEM Sites预设中的&#x200B;**常规**、**内容**&#x200B;和&#x200B;**交叉映射引用**&#x200B;选项卡：
 - **常规**：包含用于生成输出的常规配置。 您可以指定站点和输出路径，删除或覆盖现有的输出页面，删除已删除主题的先前生成的页面，选择设计模板，保留临时文件，以及指定生成后工作流。
@@ -91,7 +97,7 @@ Experience Manager Guides中的交叉映射引用有助于改进内容导航、�
 
 ![旧版AEM Sites预设](assets/aem-sites-legacy.png)
 
-*从&#x200B;**AEM Sites**&#x200B;预设的&#x200B;**交叉映射引用**&#x200B;选项卡中为链接的主题指定发布上下文。*
+*从&#x200B;**AEM Sites**预设的&#x200B;**交叉映射引用**选项卡中为链接的主题指定发布上下文。*
 
 了解有关[AEM Sites预设](../user-guide/generate-output-aem-site.md)的更多信息。
 
@@ -111,9 +117,10 @@ Experience Manager Guides中的交叉映射引用有助于改进内容导航、�
 ### 对锁定文件的创作和Source模式的只读访问权限
 
 如果DITA或Markdown文件被其他用户锁定或签出，则无法编辑或更改内容。 除了预览之外，您还可以在“创作”或“Source”模式下以只读文件的形式查看它。
-在只读模式下，您可以在&#x200B;**创作**&#x200B;或&#x200B;**Source**&#x200B;模式下查看内容以及标记和属性，并编辑文件属性。
+在只读模式下，您可以在**创作**&#x200B;或&#x200B;**Source**&#x200B;模式下查看内容以及标记和属性，并编辑文件属性。
 
 您还可以访问只读DITA映射的&#x200B;**布局**&#x200B;视图。
+
 >[!NOTE]
 >
 > 您的文件夹配置文件管理员必须更新&#x200B;*ui_config.json*，以便您可以在“创作”、“Source”和“布局”模式下协调访问只读文件。
