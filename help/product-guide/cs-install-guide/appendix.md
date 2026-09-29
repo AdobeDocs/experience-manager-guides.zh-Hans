@@ -359,7 +359,7 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 
 `paragraphStyleRule`元素描述如下：
 
-选**`paraRule`元素**
+选&#x200B;**`paraRule`元素**
 
 `paraRule`元素是必需的。 这会指定所有段落样式的映射规则。 在InDesign文档中，所有文本都包含在段落样式的子结构中，即使没有任何样式的段落也被命名为`\[No paragraph style\]`。 方括号，表示内置InDesign样式名称。
 
