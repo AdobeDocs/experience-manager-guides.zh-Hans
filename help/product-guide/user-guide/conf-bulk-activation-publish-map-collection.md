@@ -7,20 +7,23 @@ role: User
 TQID: https://experienceleague.adobe.com/ujkifru-aKa2oYvrE8EKUEE3Sai8NqQ9lx9BA2ZUw9U
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 1%
-
 ---
-
 # 激活输出 {#id214GGF00V5U}
 
 创建用于批量激活的映射收藏集后，下一步是在发布实例上激活您的内容。 要激活内容，请执行以下步骤：
@@ -62,13 +65,11 @@ ht-degree: 1%
 **发布**
 
 * 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**发布到** > **发布**。
-
 * 要激活所有DITA映射及其配置预设的输出，请选中映射（列）旁边的复选框，然后选择&#x200B;**发布到** > **发布**。
-
 
 >[!NOTE]
 > 
-> 仅当已生成映射的输出时，才会启用映射输出的复选框。
+>仅当已生成映射的输出时，才会启用映射输出的复选框。
 
 当映射输出排队等待发布时，会显示一条成功消息。
 
@@ -84,6 +85,7 @@ ht-degree: 1%
 
 * 要激活所选映射的输出，请选择预生成的映射输出，然后选择&#x200B;**快速发布**。
 * 要激活所有DITA映射及其配置预设的输出，请选中映射（列）旁边的复选框，然后选择&#x200B;**快速发布。**
+
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]

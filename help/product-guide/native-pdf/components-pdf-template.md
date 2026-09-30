@@ -19,9 +19,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '5053'
+source-wordcount: '5049'
 ht-degree: 0%
 ---
 # PDF模板的组件 {#components-pdf-template}
@@ -61,6 +61,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
      <img src="assets/add-layout-2.png" alt="“添加布局”对话框" width="250">
 
 1. 指定新页面布局的名称。
+
    >[!NOTE]
    >
    >在命名页面布局时，请避免使用任何特殊字符。 名称中的空格被下划线“_”替换。
@@ -196,6 +197,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
    <img src="assets/resources-import-assets.png" alt="上传资产" width="300">
 
    将在&#x200B;**选择资产文件夹**&#x200B;字段中显示上传资产文件的路径。
+
    >[!NOTE]
    >
    >您无法更改上传资产的路径。 默认情况下，所有资源都存储在`/content/dam/dita-templates/pdf/<PDF-template-name>`文件夹下。
@@ -339,8 +341,6 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
 
 您可以在PDF中显示或隐藏以下部分，并且还可以排列它们在最终PDF输出中的显示顺序：
 
-
-
 * 目录
 * 章节和主题
 * 数字列表
@@ -349,18 +349,16 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
 * 术语表
 * 引用
 
-  <img src="assets/page-order-advance-settings.png" alt="页面布局顺序" width="550">
+<img src="assets/page-order-advance-settings.png" alt="页面布局顺序" width="550">
 
-  如果不想在PDF输出中显示特定部分，则可以通过关闭切换开关来隐藏该部分。
+如果不想在PDF输出中显示特定部分，则可以通过关闭切换开关来隐藏该部分。
 
-  您还可以定义在PDF中生成这些不同部分的顺序。 要更改这些部分的默认顺序，请选择虚线将部分拖放到所需位置。
+您还可以定义在PDF中生成这些不同部分的顺序。 要更改这些部分的默认顺序，请选择虚线将部分拖放到所需位置。
 
-  >[!NOTE]
-  >
-  > 顺序和包含设置仅适用于DITA映射。 对于书图，这些设置不适用。 书签中的页面按照书签中各个部分的顺序显示。
+>[!NOTE]
+>
+> 顺序和包含设置仅适用于DITA映射。 对于书图，这些设置不适用。 书签中的页面按照书签中各个部分的顺序显示。
 
-
-.
 默认情况下始终启用&#x200B;**章节和主题**&#x200B;布局。 您无法切换它。
 
 **合并页面**
@@ -479,6 +477,7 @@ AEM Guides提供了以下开箱即用的变量：
 * **表**： `{captionText}`
 
 交叉引用的优先级顺序为：
+
 * 在交叉引用中添加的链接文本
 * 在本机PDF模板中定义的交叉引用格式
 * 默认交叉引用格式
@@ -502,7 +501,6 @@ AEM Guides提供了以下开箱即用的变量：
 *以英语发布时，段落中的交叉引用。*
 
 <img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出&quot; width =&quot;800" border="2px">
-
 
 *以德语发布的段落中的交叉引用。*
 

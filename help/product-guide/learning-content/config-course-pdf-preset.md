@@ -7,23 +7,29 @@ exl-id: 52bc8f90-e4ae-4e83-bb1c-9d152fa9bb65
 TQID: https://experienceleague.adobe.com/NX3LuUjSmQKtirXc1iaJVZziVIvuDqANXwqPTi-1LIo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+    internal-label: Security
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 3002
+source-wordcount: '3060'
 ht-degree: 0%
-
 ---
-
 # 配置PDF输出预设
 
 创建预设后，配置PDF预设设置。 预设配置选项组织在“常规”、“元数据”、“布局”、“安全性”、“打印”和“高级”选项卡下。
@@ -64,20 +70,20 @@ ht-degree: 0%
   [下载](assets/SampleXMP.xmp)
 
   或者，您可以使用Adobe Acrobat生成XMP文件。
-   1. 在Acrobat中选择&#x200B;**文件** > **属性**。
-   1. 在&#x200B;**描述**&#x200B;下，选择&#x200B;**其他元数据**。
-   1. 从左侧面板中选择&#x200B;**高级**。
-   1. 选择&#x200B;**保存**。
+  1. 在Acrobat中选择&#x200B;**文件** > **属性**。
+  1. 在&#x200B;**描述**&#x200B;下，选择&#x200B;**其他元数据**。
+  1. 从左侧面板中选择&#x200B;**高级**。
+  1. 选择&#x200B;**保存**。
 
   XMP文件将保存在设备上。
 
 * **提供元数据名称和值**
 
-   1. 从下拉列表中选择以添加名称，或直接在名称字段中键入以添加自定义元数据。
-   1. 输入元数据的值并选择“+”图标。
-元数据将添加到PDF的元数据列表中。
+  1. 从下拉列表中选择以添加名称，或直接在名称字段中键入以添加自定义元数据。
+  1. 输入元数据的值并选择“+”图标。
+     元数据将添加到PDF的元数据列表中。
 
-您还可以使用变量来定义元数据值。 可以将为DITA映射或书图文件定义的元数据用作变量。可以在DITA映射或书签映射文件的`/jcr:content/metadata`节点下找到元数据。
+您还可以使用变量来定义元数据值。  可以将为DITA映射或书图文件定义的元数据用作变量。 可以在DITA映射或书签映射文件的`/jcr:content/metadata`节点下找到元数据。
 使用变量时，将从元数据属性中选取变量的值。
 
 要使用变量，您需要以`${<variable>}`格式定义它。
@@ -115,10 +121,10 @@ ht-degree: 0%
 配置打印生产设置以分配打印机标记，选择颜色模型，并指定与打印PDF输出相关的属性。
 
 * **打印机标记**：在准备文档以进行打印生产时，打印机标记将添加到页面边界以帮助在打印期间正确对齐、修剪和颜色选择。 通过选择打印机标记，扩展页面边界以容纳在打印期间被修剪的标记。 您可以选择在PDF输出中显示以下打印机标记：
-   * **裁切标记**：选择选项以在裁切区域的每个角落处放置标记，以指示打印后需要裁切纸张的位置。
-   * **出血标记**：选择此项可在出血框的每一角放置标记，以指示扩展图像的修剪区域。
-   * **对齐标记**：选择此项可将标记置于裁切区域之外，以对齐彩色文档中的不同分色。
-   * **颜色条**：选择此项可在修剪区域外添加一条颜色条，以保持颜色一致性并在打印时调整油墨密度。
+  * **裁切标记**：选择选项以在裁切区域的每个角落处放置标记，以指示打印后需要裁切纸张的位置。
+  * **出血标记**：选择此项可在出血框的每一角放置标记，以指示扩展图像的修剪区域。
+  * **对齐标记**：选择此项可将标记置于裁切区域之外，以对齐彩色文档中的不同分色。
+  * **颜色条**：选择此项可在修剪区域外添加一条颜色条，以保持颜色一致性并在打印时调整油墨密度。
 
   使用&#x200B;**行宽**、**行色**&#x200B;和&#x200B;**出血框宽**&#x200B;选项设置所选打印机标记的尺寸。
 

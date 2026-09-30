@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -91,9 +91,9 @@ AEM Guides提供了一组预定义的或现成的应用程序变量。 您可以
 
 1. 选择&#x200B;**添加语言变量** <img src="./assets/add-language-variable.svg" width="25">以向所选语言添加新语言变量。 将变量添加到一种语言会自动将其添加到所有语言。 不能创建与现有变量同名的变量。 显示错误。
 
->[!NOTE]
->
-> 如果不选择&#x200B;**添加语言变量**，则不会创建该变量并将其添加到列表中
+   >[!NOTE]
+   >
+   > 如果不选择&#x200B;**添加语言变量**，则不会创建该变量并将其添加到列表中
 
 ## 导出和导入语言变量
 

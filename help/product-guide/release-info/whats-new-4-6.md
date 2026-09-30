@@ -6,27 +6,36 @@ exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
 TQID: https://experienceleague.adobe.com/SuUfplm5WDGOjPlkNjMiWXoWzpFeM8RQsTHNL36iLn8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 2738
-ht-degree: 19%
-
+source-wordcount: '3089'
+ht-degree: 17%
 ---
-
 # 4.6.0版本的新增功能（2024年9月）
 
 本文介绍Adobe Experience Manager Guides版本4.6.0中引入的新增功能和增强功能。
@@ -129,7 +138,7 @@ Experience Manager Guides还支持本机PDF发布中的Markdown文档。 此功�
 
 ### 通过DITA-OT生成输出时下载临时文件
 
-您还可以下载通过DITA-OT发布AEM Sites、HTML、自定义、JSON或PDF输出时生成的临时文件。此功能可帮助您分析输出生成过程中可能发生的任何问题并有效地进行故障排除。  
+您还可以下载通过DITA-OT发布AEM Sites、HTML、自定义、JSON或PDF输出时生成的临时文件。 此功能可帮助您分析输出生成过程中可能发生的任何问题并有效地进行故障排除。  
 如果您选择了任何已传递到使用DITA-OT生成的输出的元数据属性，则也可以下载metadata.xml文件。 
 
 有关预设的详细信息，请查看[了解输出预设](../user-guide/generate-output-understand-presets.md)。
@@ -138,7 +147,7 @@ Experience Manager Guides还支持本机PDF发布中的Markdown文档。 此功�
 ### 用于为HTML5输出选择平面或嵌套文件层次结构的选项
 
 现在，通过Experience Manager Guides可保留临时文件的平面文件夹层次结构，其中整个内容以HTML5输出格式发布并保存在单个文件夹中。
-如果不选择拼合文件层次结构，则会在嵌套文件夹层次结构中生成HTML5输出。这意味着内容的原始文件夹结构（其中包含组织到子文件夹中的文件）将在输出中进行复制。这种嵌套文件夹层次结构使文件的组织和分类更加复杂，更易于管理和导航大量数据。
+如果不选择拼合文件层次结构，则会在嵌套文件夹层次结构中生成HTML5输出。 这意味着内容的原始文件夹结构（其中包含组织到子文件夹中的文件）将在输出中进行复制。 这种嵌套文件夹层次结构使文件的组织和分类更加复杂，更易于管理和导航大量数据。
 
 
 详细了解如何[生成HTML5输出](../user-guide/generate-output-html5.md)
@@ -150,10 +159,11 @@ Experience Manager Guides还支持本机PDF发布中的Markdown文档。 此功�
 
 ### 对锁定文件的创作和Source模式的只读访问权限
 
-如果DITA或Markdown文件被其他用户锁定或签出，则无法编辑或更改内容。除了预览之外，您还可以在“创作”或“Source”模式下以只读文件的形式查看它。
+如果DITA或Markdown文件被其他用户锁定或签出，则无法编辑或更改内容。 除了预览之外，您还可以在“创作”或“Source”模式下以只读文件的形式查看它。
 在只读模式下，您可以在&#x200B;**创作**&#x200B;或&#x200B;**Source**&#x200B;模式下查看内容以及标记和属性，并编辑文件属性。
 
 您还可以访问只读DITA映射的&#x200B;**布局**&#x200B;视图。
+
 >[!NOTE]
 >
 > 您的文件夹配置文件管理员必须更新&#x200B;*ui_config.json*，以便您可以在“创作”、“Source”和“布局”模式下协调访问只读文件。
@@ -203,7 +213,7 @@ Experience Manager Guides可增强您在Web编辑器中跨元素选择内容的�
 
 *搜索包含文本的文件`general purpose.`*
 
-享受更快地访问相关文件和使用更直观的用户界面等益处，使您的搜索体验更加顺畅、高效。
+享受诸多优势，例如更快地访问相关文件以及更直观的用户界面，让您的搜索体验更加顺畅、高效。
 
 ![快速搜索过滤器 &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
 
@@ -247,8 +257,8 @@ Web编辑器中的&#x200B;**用户首选项**&#x200B;对话框现在包含新的
 
 ### 改进了Web编辑器中不间断空格的处理
 
-Experience Manager Guides允许您在Web编辑器中编辑文档时显示不间断空间指示器。它还改进了不中断空间的处理。
-它将多个连续的空格转换为单个空格，以在Web编辑器中保留文档的WYSIWYG视图。此功能还有助于改进文档的整体外观和专业性。
+Experience Manager Guides允许您在Web编辑器中编辑文档时显示不间断空间指示器。 它还改进了不中断空间的处理。
+它将多个连续的空格转换为单个空格，以在Web编辑器中保留文档的WYSIWYG视图。 此功能还有助于改进文档的整体外观和专业性。
 
 
 有关详细信息，请查看Web编辑器的[其他功能](../user-guide/web-editor-other-features.md)。
@@ -271,8 +281,8 @@ Experience Manager Guides允许您在Web编辑器中编辑文档时显示不间�
 
 ### 提高了从映射编辑器批量签入文件的性能
 
-Experience Manager Guides改进了映射编辑器中批量文件签入功能的性能和体验。这项改进可帮助您更快地批量签入文件。
-您还可以从&#x200B;**另存为新版本和解锁**&#x200B;对话框中查看文件的签入操作的进度。最后，在操作完成且所有选定的检出文件都已检入后，将显示成功消息。
+Experience Manager Guides改进了映射编辑器中批量文件签入功能的性能和体验。 这项改进可帮助您更快地批量签入文件。
+您还可以从&#x200B;**另存为新版本和解锁**&#x200B;对话框中查看文件的签入操作的进度。 最后，在操作完成且所有选定的检出文件都已检入后，将显示成功消息。
 
 ![另存为新版本并解锁对话框](./assets/save-version-lock.png){width="300"}
 
@@ -341,7 +351,7 @@ Experience Manager Guides 现在允许您创建语言组，并轻松地将您的
 ### 在Adobe Experience Manager Assets上禁用选择性文件夹的后处理
 
 
-作为管理员，您现在可以在Experience Manager Assets上为选择性文件夹禁用后处理和UUID生成。此配置可能很有用，尤其是在处理许多资源或复杂的文件夹结构时。它还有助于多个用户同时快速上传资产，而不会相互干扰。  
+作为管理员，您现在可以在Experience Manager Assets上为选择性文件夹禁用后处理和UUID生成。 此配置可能很有用，尤其是在处理许多资源或复杂的文件夹结构时。 它还有助于多个用户同时快速上传资产，而不会相互干扰。  
 
 禁用文件夹的后处理也会影响其所有子文件夹。 但是，Experience Manager Guides现在支持选择性地为被忽略文件夹中的各个子文件夹启用后处理。
 
@@ -369,7 +379,7 @@ Experience Manager Guides 现在允许您创建语言组，并轻松地将您的
 
 现在，作为管理员，您可以配置 JSON 文件连接器，以使用 JSON 数据文件作为数据源。 使用连接器从您的计算机或 Adobe Experience Manager Assets 中导入 JSON 文件。 然后，作为作者，您可以使用生成器创建内容片段或主题。
 
-此功能可帮助您使用存储在 JSON 文件中的数据，并在各个代码片段中重复使用它。 每当您更新 JSON 文件时，内容也会动态更新。
+此功能可帮助您使用存储在 JSON 文件中的数据，并在各种片段中重复使用这些数据。 每当您更新 JSON 文件时，内容也会动态更新。
 
 ### 为连接器配置多个资源URL以创建内容片段或主题
 

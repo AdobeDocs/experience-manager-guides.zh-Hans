@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Manager Guides 2024年版路线图
+title: Adobe Experience Manager Guides版本发行路线图
 description: 获取有关Adobe Experience Manager Guides内部部署和Adobe Experience Manager Guides as a Cloud Service的实时版本和即将发行的版本的信息
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
@@ -18,9 +18,9 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 8614b2ad9ae0bc762745a4b558c1565ee4c7ca1a
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '938'
 ht-degree: 35%
 ---
 # [!DNL Experience Manager Guides]版本信息 {#aem-guides-releases-roadmap}

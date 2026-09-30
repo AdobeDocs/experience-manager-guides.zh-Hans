@@ -2,13 +2,11 @@
 title: 配置AI助手以进行智能帮助和创作
 description: 了解如何在Experience Manager Guides中配置AI助手
 exl-id: 59da626d-8433-44c6-ba69-654c7796a264
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
-
 ---
-
 # 为Cloud Service配置AI助手
 
 管理员可以在Experience Manager Guides中配置AI助手功能。 AI助手由基于Adobe IMS身份验证的身份验证保护。 将您的环境与Adobe基于令牌的安全身份验证工作流集成并开始使用AI助手功能。 以下配置可帮助您将&#x200B;**AI配置**&#x200B;选项卡添加到文件夹配置文件。 添加后，您可以使用Experience Manager Guides中的AI助手功能。

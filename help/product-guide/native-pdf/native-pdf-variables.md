@@ -8,16 +8,17 @@ exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
 TQID: https://experienceleague.adobe.com/Y6sobecXfXdQn-BpVO-z3H2uLbSCLpbcPtYUv7pFPYo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: '1476'
 ht-degree: 0%
-
 ---
-
 # PDF输出中的变量
 
 变量是一对用作可重用信息的数据的名称值。 这使您的内容可移植且易于更新。 修改变量或其值时，该变量或值的每次出现都将更新。
@@ -77,7 +78,7 @@ ht-degree: 0%
 
 ### 搜索和预览变量
 
-您可以搜索和预览变量的值。在&#x200B;**变量**&#x200B;面板的搜索框中输入字符串。它同时根据变量名称及其值执行搜索。
+您可以搜索和预览变量的值。 在&#x200B;**变量**&#x200B;面板的搜索框中输入字符串。 它同时根据变量名称及其值执行搜索。
 您可以通过两种方式预览变量：
 
 变量的预览显示默认值。 例如，如果您已将ProductName变量的默认值定义为“Adobe Experience Manager Guides”，则它会在预览中显示此值。
@@ -141,7 +142,7 @@ Adobe Experience Manager Guides还支持变量集，您可以使用变量集为�
 
 所有变量集都具有相同的变量，但可以具有不同的值。
 
-您可以查看、编辑和预览特定变量集的值。从&#x200B;**变量集**&#x200B;下拉列表中选择一个变量集。根据所选变量集显示值。
+您可以查看、编辑和预览特定变量集的值。 从&#x200B;**变量集**&#x200B;下拉列表中选择一个变量集。 根据所选变量集显示值。
 编辑特定变量集中的变量值时，它会覆盖默认值并更改所选变量集的值。
 例如，您可以为变量集设置以下值： *Adobe-set1*&#x200B;和&#x200B;*Adobe-set2*。
 

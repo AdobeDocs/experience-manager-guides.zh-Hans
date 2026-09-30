@@ -7,25 +7,33 @@ role: User
 TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: '1929'
 ht-degree: 0%
-
 ---
-
 # 从“映射”控制台创建和管理基线 {#id223MB0ZF043}
 
 >[!NOTE]
@@ -41,7 +49,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 建议从“映射”控制台中使用此基线功能。 但是，您也可以[使用映射仪表板创建和管理基线](./generate-output-use-baseline-for-publishing.md)。
+>建议从“映射”控制台中使用此基线功能。 但是，您也可以[使用映射仪表板创建和管理基线](./generate-output-use-baseline-for-publishing.md)。
 
 在&#x200B;**基线**&#x200B;选项卡中，您可以执行以下操作：
 
@@ -81,13 +89,13 @@ ht-degree: 0%
   对于静态基线中的直接引用，将从地图的最新保存版本中提取标签。 例如，如果您为主题A 1.0和1.1版本创建了标签`Label Release 1.0`和`Label Release 1.1`，然后将主题A添加到另存为版本1.0的映射中。 在这种情况下，您可以在下拉列表中查看静态基线标签的标签`Label Release 1.0`和`Label Release 1.1`。
 
   当您选择&#x200B;**标签，**&#x200B;时，您可以选择直接引用和间接引用。
-   - 对于DITA映射中的直接引用，可以选择使用未应用指定标签的最新版本主题。
+  - 对于DITA映射中的直接引用，可以选择使用未应用指定标签的最新版本主题。
 
-     >[!NOTE]
-     >
-     > 如果输入的标签不存在，并选择选项&#x200B;**不创建基线**，则基线创建将失败，并在“基线”面板中的基线名称附近显示错误消息。
+    >[!NOTE]
+    >
+    > 如果输入的标签不存在，并选择选项&#x200B;**不创建基线**，则基线创建将失败，并在“基线”面板中的基线名称附近显示错误消息。
 
-   - 对于DITA映射中的间接引用，提供了附加选项，可用于未在其上应用指定标签的最新版本主题。 您还可以选择&#x200B;**自动挑选引用的内容**，系统会自动挑选与引用内容版本对应的引用内容版本。
+  - 对于DITA映射中的间接引用，提供了附加选项，可用于未在其上应用指定标签的最新版本主题。 您还可以选择&#x200B;**自动挑选引用的内容**，系统会自动挑选与引用内容版本对应的引用内容版本。
 
 选择标签或版本作为日期后，将相应地选择映射中所有引用的主题和媒体文件。 所选的主题不会显示在用户界面上，但会保存在后端。
 
@@ -108,11 +116,12 @@ ht-degree: 0%
   >在提取标签时，会出现加载器，并且下拉列表被禁用。
 
   对于动态基线，将从地图的最新保存版本和当前工作副本中提取标签。 例如，如果您为主题A的版本1.0和1.1创建了标签`Label Release A.1.0 `和`Label Release A.1.1`，为主题B的版本1.0和1.1创建了标签`Label Release B.1.0`和`Label Release B.1.1`。 然后，可以添加主题A来映射1.0版中的A，添加主题B来映射1.0*版中的A（工作副本）。 在这种情况下，您可以在动态基线标签下拉列表中查看`Label Release A.1.0 `、`Label Release A.1.1`、`Label Release B.1.0`和`Label Release B.1.1`。
+
 - **间接引用**：对于DITA映射中的间接引用，提供了以下选项：
 
-   - **自动挑选**：您可以选择自动挑选&#x200B;**引用的内容**，系统会自动挑选与引用内容版本对应的引用内容版本。
-   - **使用所选标签**：您可以为某个版本的主题创建具有所选标签的基线。
-   - **使用最新版本或工作副本**：使用未应用指定标签的主题的最新版本，或者如果尚未创建任何版本，则使用主题的工作副本创建基线。
+  - **自动挑选**：您可以选择自动挑选&#x200B;**引用的内容**，系统会自动挑选与引用内容版本对应的引用内容版本。
+  - **使用所选标签**：您可以为某个版本的主题创建具有所选标签的基线。
+  - **使用最新版本或工作副本**：使用未应用指定标签的主题的最新版本，或者如果尚未创建任何版本，则使用主题的工作副本创建基线。
 
 ## 管理基线
 
@@ -122,13 +131,13 @@ ht-degree: 0%
 - 使用“基线”面板中的&#x200B;**刷新**&#x200B;图标可重新检查所有基线，并显示在“映射视图”中打开的DITA映射的最新基线列表。
 - 选择基线以查看或编辑&#x200B;**基线**&#x200B;面板中现有静态基线的内容。 基线编辑窗口显示DITA映射文件、映射的内容或主题以及引用的内容。
 
-  >[!NOTE]
-  >
-  >仅建议对少量的引用更改执行静态基线的编辑操作。 不建议执行编辑操作来更改主DITA映射的版本，因为它必须重新计算所有引用。 这可能会导致大型DITA映射的基线更新失败。 对于较大的DITA映射，可以创建新基线或编辑基线的属性。
-  >
-  >在动态基线的情况下进行编辑操作允许您编辑基线的属性，因为动态基线的引用是在运行时使用标签生成的。
+>[!NOTE]
+>
+>仅建议对少量的引用更改执行静态基线的编辑操作。 不建议执行编辑操作来更改主DITA映射的版本，因为它必须重新计算所有引用。 这可能会导致大型DITA映射的基线更新失败。 对于较大的DITA映射，可以创建新基线或编辑基线的属性。
+>
+>在动态基线的情况下进行编辑操作允许您编辑基线的属性，因为动态基线的引用是在运行时使用标签生成的。
 
-  基线![&#128279;](images/baseline-options.png)的选项
+基线![&#128279;](images/baseline-options.png)的选项
 
 ### 可用于现有基线的操作
 
@@ -141,15 +150,17 @@ ht-degree: 0%
 ![复制基线](images/baseline-duplicate.png){width="300"}
 *根据标签复制基线或创建精确副本。*
 
-1. 从基线的“选项”菜单中选择&#x200B;**复制**。将打开&#x200B;**复制基线**&#x200B;对话框。
->[!NOTE]
->
->基线的默认名称为`<selected baseline name>`_suffix （如sample-baseline_1）。您可以根据自己的要求更改名称。
+1. 从基线的“选项”菜单中选择&#x200B;**复制**。 将打开&#x200B;**复制基线**&#x200B;对话框。
+
+   >[!NOTE]
+   > 
+   >基线的默认名称为`<selected baseline name>`_suffix （如sample-baseline_1）。 您可以根据自己的要求更改名称。
 
    在&#x200B;**选择基于**&#x200B;的版本中，您可以选择&#x200B;**完全复制**&#x200B;选项或&#x200B;**标签**&#x200B;选项：
 
    - **精确副本**： Experience Manager Guides选择所有主题的相同版本，并创建重复基线的精确副本。
    - **标签**：您可以使用下拉菜单选择[列出的标签](#labels-list)之一。 Experience Manager Guides会选取为其定义了选定标签的主题的这些版本，对于其余主题，它会从复制的基线中选取版本。 例如，从下拉列表中选择标签`Release 1.0`，然后它会选取您已为其定义此标签的主题的这些版本。 对于所有其他主题，它会从复制的基线中选取版本。
+
 1. 选择&#x200B;**复制**。
 
 - **重命名**，或&#x200B;**删除**&#x200B;现有基线**。
@@ -166,6 +177,7 @@ ht-degree: 0%
 ### 标签列表 {#labels-list}
 
 下拉列表中列出的标签基于以下条件：
+
 - 标签应添加到DITA映射（在其上创建基线）中主题的某个版本中。
 - 并且只考虑DITA映射的第一级引用（主题或子映射）来选取标签。
 
