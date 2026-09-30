@@ -18,7 +18,7 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 8614b2ad9ae0bc762745a4b558c1565ee4c7ca1a
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 35%
@@ -46,7 +46,7 @@ Adobe Experience Manager Guides as a Cloud Service的发行计划如下：
 
 | 发行版本 | 事件 | 计划 | 新增功能 | 升级说明 | 修复的问题 | 状态 |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.09.0 <br> [（AEM版本 — 28187）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026 年 9 月 28-30 日 | [此处](./whats-new-2026-09-0.md) | [此处](./upgrade-instructions-2026-09-0.md) | [此处](./fixed-issues-2026-09-0.md) | 已更新 |
+| Adobe Experience Manager Guides 2026.09.0 <br> [（AEM版本 — 28386）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026 年 9 月 28-30 日 | [此处](./whats-new-2026-09-0.md) | [此处](./upgrade-instructions-2026-09-0.md) | [此处](./fixed-issues-2026-09-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.08.0 <br> [（AEM版本 — 27293）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026年8月03日至05日 | [此处](./whats-new-2026-08-0.md) | [此处](./upgrade-instructions-2026-08-0.md) | [此处](./fixed-issues-2026-08-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.07.0 <br> [（AEM版本 — 26908）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026年7月第一周 | - | [此处](upgrade-instructions-2026-07-0.md) | [此处](fixed-issues-2026-07-0.md) | 已更新 |
 | Adobe Experience Manager Guides 2026.06.0 <br> [（AEM版本 — 26773）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自动更新 | 2026 年 6 月 22-24 日 | [此处](whats-new-2026-06-0.md) | [此处](upgrade-instructions-2026-06-0.md) | [此处](fixed-issues-2026-06-0.md) | 已更新 |

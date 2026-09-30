@@ -1,13 +1,11 @@
 ---
 title: 发行说明 |Adobe Experience Manager Guides 5.2.0版本的升级说明
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides的5.2.0版本。
-source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 4%
-
+source-wordcount: '872'
+ht-degree: 3%
 ---
-
 # 5.2.0版（2026年5月）的升级说明
 
 本文介绍Adobe Experience Manager Guides 5.2.0版的升级说明和兼容性矩阵。
@@ -64,7 +62,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 | AEM Guides | AEM 版本 | 组件版本 | 站点版本 |
 |---|---|---| ---|
-| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | NA |
+| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
 | 5.2.0 UUID | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 ## 先决条件
@@ -116,7 +114,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 | 忽略元数据属性以将版本标记为已修改 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | 忽略已更新版本的元数据属性 | `xmleditor.dirtychecker.ignoremetadata` |
 | Source视图中的查找和替换功能 | `com.adobe.fmdita.config.ConfigManager` | 启用标记查找和替换 | `enable.markup.findreplace` |
 | 启用或禁用跳过旧基线的对等链接 | `com.adobe.fmdita.config.ConfigManager` | 跳过基线V1的对等链接 | `guides.baseline.v1.skip.peer.links` |
-| 启用或禁用在翻译工作流中使用源内容初始化目标副本。仅当禁用旧版翻译工作流时，此选项才适用。  | `com.adobe.fmdita.config.ConfigManager` | 使用源内容初始化目标语言副本 | `translation.workflow.propagate.source.content` |
+| 启用或禁用在翻译工作流中使用源内容初始化目标副本。 仅当禁用旧版翻译工作流时，此选项才适用。  | `com.adobe.fmdita.config.ConfigManager` | 使用源内容初始化目标语言副本 | `translation.workflow.propagate.source.content` |
 | 引用存储清理 | `com.adobe.fmdita.config.ConfigManager` | 指南树删除已启用 | `btree.deletion.enabled` |
 | DITA资产复制 | `com.adobe.fmdita.config.ConfigManager` | 复制DITA资产 | `publish.replicate` |
 | 资产处理 | `com.adobe.fmdita.config.ConfigManager` | 启用Guides资产处理计划作业 | `enable.asset.processing.scheduler` |

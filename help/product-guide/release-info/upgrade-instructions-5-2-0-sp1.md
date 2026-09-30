@@ -1,9 +1,9 @@
 ---
 title: 发行说明 |Adobe Experience Manager Guides 5.2.0 Service Pack 1版本的升级说明
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides的5.2.0 Service Pack 1版本。
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '929'
 ht-degree: 3%
 ---
 # 5.2.0 Service Pack 1版本（2026年9月）的升级说明
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 | AEM Guides | AEM 版本 | 组件版本 | 站点版本 |
 |---|---|---| ---|
-| 5.2.0 Service Pack 1 UUID | 6.5 LTS | guides-components.all-1.4.1 | NA |
+| 5.2.0 Service Pack 1 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
 | 5.2.0 Service Pack 1 UUID | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 ## 先决条件

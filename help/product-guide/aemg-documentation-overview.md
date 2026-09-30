@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 5%
+source-wordcount: '459'
+ht-degree: 6%
 ---
 # Experience Manager Guides文档
 
@@ -214,6 +214,63 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 Adobe Experience Manager Guides 2026.09.0版在AI Assistant中引入了由AI支持的智能标记，以及在创作、内容管理、发布和整体用户体验方面的增强功能。
 
 [探索新增功能](./release-info/whats-new-2026-09-0.md)
+
+## 快速链接
+
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![新增功能](../assets/whats-new-git-connector.svg)
+
+**AEM Guides的新增功能**
+
+探索最新版本的Experience Manager Guides中引入的新增功能和增强功能。
+
+- AI Assistant中的AI支持的智能标记
+- 在审阅任务中将主题标记为已完成
+- 学习内容增强功能
+
+[全部浏览](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![发行说明](../assets/whats-new-map-collection.svg)
+
+**发行说明**
+
+浏览云和内部部署的最新发行说明和产品更新。
+
+- Cloud版本 | [查看发行说明](./release-info/latest-release-info-cs.md)
+- 内部部署版本 | [查看发行说明](./release-info/latest-release-info.md)
+
+[查看版本发行路线图](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![学习和支持](../assets/whats-new-delegate-review.svg)
+
+**学习和支持**
+
+访问有用的资源、文档和支持，以充分利用该平台。
+
+* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.zh-Hans){target="_blank"}
+* [支持](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hans){target="_blank"}
+* [视频教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[Interact on Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hans)
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
 
 
 ## 其他资源
