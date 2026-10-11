@@ -184,4 +184,4 @@ Experience Manager Guides附带了&#x200B;**数据源**&#x200B;工具，可帮�
 
 配置数据源后，连接器将列在编辑器中的&#x200B;**数据源面板**&#x200B;下。 然后，您可以连接到数据源并将内容片段插入到您的主题中。 有关详细信息，请查看[插入数据源中的内容片段](../user-guide/web-editor-content-snippet.md)。
 
-仅对于内部部署设置，您还可以创建自定义连接器并将它们用于不同的数据源。 了解如何[配置自定义连接器](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)。
+仅对于内部部署设置，您还可以创建自定义连接器并将它们用于不同的数据源。 了解如何[配置自定义连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)。

@@ -117,13 +117,13 @@ Adobe Experience Manager Guides \（以后称为&#x200B;*AEM Guides*\）是一�
 
 ## Adobe Experience Manager概述\(AEM\)
 
-[Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)是用于构建网站、移动应用程序和表单的综合性内容管理解决方案。 AEM可帮助您管理营销内容和资源。 AEM在as a Cloud Service中提供。 AEM as a Cloud Service通过将AEM Content Management System的强大功能与AEM Digital Asset Management相结合，帮助您向客户提供以内容为导向的个性化体验。下面是一些可帮助您开始使用并部署到AEM as a Cloud Service的关键资源：
+[Adobe Experience Manager \(AEM\)](https://business.adobe.com/cn/products/experience-manager/adobe-experience-manager.html)是用于构建网站、移动应用程序和表单的综合性内容管理解决方案。 AEM可帮助您管理营销内容和资源。 AEM在as a Cloud Service中提供。 AEM as a Cloud Service通过将AEM Content Management System的强大功能与AEM Digital Asset Management相结合，帮助您向客户提供以内容为导向的个性化体验。下面是一些可帮助您开始使用并部署到AEM as a Cloud Service的关键资源：
 
-- [Experience Manager as a Cloud Service概述](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
-- [AEM as a Cloud Service 迁移之旅快速入门](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [开始使用Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
-- [实施 AEM as a Cloud Service 的应用程序](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
-- [部署到 AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
+- [Experience Manager as a Cloud Service概述](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=zh-Hans)
+- [AEM as a Cloud Service 迁移之旅快速入门](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=zh-Hans)
+- [开始使用Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=zh-Hanshttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [实施 AEM as a Cloud Service 的应用程序](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=zh-Hans)
+- [部署到 AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=zh-Hans)
 - [Assets as a Cloud Service指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=cn)
 
 ## 其他资源

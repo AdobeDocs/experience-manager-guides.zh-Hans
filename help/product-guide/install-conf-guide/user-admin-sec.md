@@ -35,7 +35,7 @@ Adobe Experience Manager文档中的以下主题将帮助您了解用户管理�
 
 | 云服务 | 内部部署 |
 |---|---|
-| [AEM用户、组和权限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[用户管理和安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) | [AEM中的用户和组](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEM中的权限](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[管理用户和组](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[管理权限](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [AEM用户、组和权限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hans)<br>[用户管理和安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=zh-Hans) | [AEM中的用户和组](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEM中的权限](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[管理用户和组](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[管理权限](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## AEM Guides创建的用户组 {#id181TF0K0MHT}
