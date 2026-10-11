@@ -89,7 +89,7 @@ DITAVAL编辑器允许您使用“编辑器”工具栏中的选项执行以下�
 
 第一个下拉列表列出了可以在DITAVAL文件中使用的允许DITA属性。
 
-第二个下拉列表显示为所选属性配置的值。 然后，下一个下拉列表显示了您可以对选定属性配置的操作。 操作下拉列表中允许的值是 — `include`、`exclude`、`passthrough`和`flag`。 有关这些值的详细信息，请查看OASIS DITA文档中[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素的定义。 有关在属性中添加的属性的操作的详细信息，请查看属性](#actions-for-property)的[操作。
+第二个下拉列表显示为所选属性配置的值。 然后，下一个下拉列表显示了您可以对选定属性配置的操作。 操作下拉列表中允许的值是 — `include`、`exclude`、`passthrough`和`flag`。 有关这些值的详细信息，请查看OASIS DITA文档中[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素的定义。 有关在属性中添加的属性的操作的详细信息，请查看属性[&#128279;](#actions-for-property)的操作。
 
 #### 添加收入属性
 

@@ -56,4 +56,4 @@ AEM Guides提供了集成在Web编辑器中的基于文章的发布功能，该�
 - **[从存储库面板或地图视图面板生成输出](web-editor-article-publishing-output.md)**
 
 
-**父主题：**[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)

@@ -42,37 +42,37 @@ Adobe Experience Manager Guides提供了根据文件的当前文档状态搜索�
 1. 选择&#x200B;**下载**&#x200B;图标以在您的本地系统上下载`ui\_config.json`文件。
 在下载的`ui\_config.json`文件中，请参阅以下部分：
 
-       ``
-     `repositoryFilters`： [
-     {
+       &grave;&grave;
+     `repositoryFilters`： &lbrack;
+     &lbrace;
      `title`： &quot;Document state&quot;，
      `property`： &quot;jcr：content/metadata/docstate&quot;，
-     `children`： [
-     {
+     `children`： &lbrack;
+     &lbrace;
      `title`： &quot;Draft&quot;，
      `value`： &quot;Draft&quot;
-     }，    {
+     &rbrace;，    &lbrace;
      &quot;title&quot;： &quot;Edit&quot;，
      &quot;value&quot;： &quot;Edit&quot;
-     }，
-     {
+     &rbrace;，
+     &lbrace;
      &quot;title&quot;： &quot;In-Review&quot;，
      &quot;value&quot;： &quot;In-Review&quot;
-     }，
-     {
+     &rbrace;，
+     &lbrace;
      &quot;title&quot;： &quot;Approved&quot;，
-     &quot;value&quot;： &quot;Approved&quot;     }，
-     {
+     &quot;value&quot;： &quot;Approved&quot;     &rbrace;，
+     &lbrace;
      &quot;title&quot;： &quot;Reviewed&quot;，
      &quot;value&quot;： &quot;Reviewed&quot;
-     }，
-     {
+     &rbrace;，
+     &lbrace;
      &quot;title&quot;： &quot;Done&quot;，
      &quot;value&quot;： &quot;Done&quot;
-     }
-     ]
+     &rbrace;
+     &rbrack;
      
-     ]
+     &rbrack;
      &quot;&#39;
    
 
@@ -91,4 +91,4 @@ Adobe Experience Manager Guides提供了根据文件的当前文档状态搜索�
 
 配置的筛选器显示在主页存储库中的&#x200B;**筛选器**&#x200B;面板中。
 
-**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)

@@ -66,4 +66,4 @@ ht-degree: 11%
 1. 选择&#x200B;**完成**。
 
 
-**父主题：**[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)
+**父主题：**&#x200B;[&#x200B;已发布内容的批量激活](conf-bulk-activation.md)

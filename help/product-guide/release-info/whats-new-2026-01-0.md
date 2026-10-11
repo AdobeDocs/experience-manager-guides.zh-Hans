@@ -22,7 +22,7 @@ ht-degree: 0%
 
 有关此版本中修复的问题列表，请查看[2026.01.0版本](fixed-issues-2026-01-0.md)中修复的问题。
 
-了解2026.01.0版本](../release-info/upgrade-instructions-2026-01-0.md)的[升级说明。
+了解2026.01.0版本[&#128279;](../release-info/upgrade-instructions-2026-01-0.md)的升级说明。
 
 
 ## 在“查找和替换”中引入Source模式搜索
@@ -111,7 +111,7 @@ Experience Manager Guides在编辑器界面的左侧面板中提供的查找和�
 
 ![](assets/file-properties-new.png){width="350"}
 
-有关详细信息，请在编辑器](../user-guide/web-editor-right-panel.md#file-properties)中查看[右侧面板。
+有关详细信息，请在编辑器[&#128279;](../user-guide/web-editor-right-panel.md#file-properties)中查看右侧面板。
 
 ### 只读文件的元数据属性不再可编辑
 
@@ -173,7 +173,7 @@ Experience Manager Guides在编辑器界面的左侧面板中提供的查找和�
 
 Experience Manager Guides现在支持AEM Sites输出中的元素级别组件映射（使用复合组件映射），从而让团队能够精确控制DITA元素使用`componentmapping.json`呈现的方式。 通过将`topicref`、标题、图像、表等映射到适当的AEM核心组件，您可以获得更简洁的结构，而不是默认使用文本组件的所有内容。 这可以提高性能，并解锁更丰富、更现代的Sites体验。
 
-有关详细信息，请在AEM Sites](../cs-install-guide/component-mapping.md)中查看[组件映射。
+有关详细信息，请在AEM Sites[&#128279;](../cs-install-guide/component-mapping.md)中查看组件映射。
 
 ## 资产处理增强功能
 

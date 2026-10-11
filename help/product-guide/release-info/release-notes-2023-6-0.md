@@ -184,7 +184,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 原生PDF | Xref正在打印href主题标题的内容而不是Xref标签。 (11322)
 - 原生PDF |无法保存PDF模板设置。 (10751)
 - 原生PDF |文本在包含多个xref时超出列宽。 (10876)
-- 原生PDF | `<note>``</note>`元素未生成其类型的额外范围标题。 (10549)
+- 原生PDF | `<note>`&#x200B;`</note>`元素未生成其类型的额外范围标题。 (10549)
 - 原生PDF |在生成的PDF中无法设置语言元数据以符合WCAG 2.0。 (12296)
 
 

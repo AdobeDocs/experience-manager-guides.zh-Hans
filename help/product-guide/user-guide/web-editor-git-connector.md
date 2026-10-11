@@ -94,7 +94,7 @@ Git Connector将内容从Git存储库移动到Experience Manager Guides中四个
 在开始使用此功能之前，请确保：
 
 - 必须为环境启用Git连接器功能。
-- （*如果启用*）管理员已在您的环境中配置了Git连接器。 有关详细信息，请通过用户界面](../install-conf-guide/conf-git-connector.md)查看[创建和配置Git连接器。
+- （*如果启用*）管理员已在您的环境中配置了Git连接器。 有关详细信息，请通过用户界面[&#128279;](../install-conf-guide/conf-git-connector.md)查看创建和配置Git连接器。
 - 您对包含要导入的内容的Git存储库具有&#x200B;*读取*&#x200B;访问权限。
 - 您知道要导入哪个存储库分支和源文件夹。
 - 您知道Experience Manager Guides中将存储导入内容的目标文件夹。

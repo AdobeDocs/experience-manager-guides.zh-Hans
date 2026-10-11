@@ -247,7 +247,7 @@ AEM支持通过受支持的云存储提供商进行批量内容摄取，从而�
 
 - 计划摄取：可以计划内容摄取在预定义的时间段内进行，从而确保对最终用户和持续操作的影响最小或没有。
 
-有关详细信息，请使用“批量导入”查看[](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/bulk-import)。
+有关详细信息，请使用“批量导入”查看[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/bulk-import)。
 
 ## 使用AEM上传进行批量摄取
 

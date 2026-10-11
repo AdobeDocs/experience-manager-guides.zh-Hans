@@ -49,4 +49,4 @@ ht-degree: 0%
 
 参考：[自动删除或禁用已完成的翻译项目](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![在AEM Guides ](./assets/translation-project-image3.png)中删除并禁用翻译项目的自动设置
+![在AEM Guides &#x200B;](./assets/translation-project-image3.png)中删除并禁用翻译项目的自动设置

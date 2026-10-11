@@ -55,7 +55,7 @@ Experience Manager Guides提供开箱即用的连接器，帮助您连接数据�
 
 Experience Manager Guides现在还提供了一个&#x200B;**数据源**&#x200B;工具，可帮助您为数据源配置现成的连接器。 您可以轻松为JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce和Elasticsearch数据库创建连接器。
 
-您还可以轻松地编辑、重新连接、复制或删除数据源连接器。 了解有关如何从用户界面](../install-guide/conf-data-source-connector-tools.md)轻松[配置数据源连接器的更多信息。
+您还可以轻松地编辑、重新连接、复制或删除数据源连接器。 了解有关如何从用户界面[&#128279;](../install-guide/conf-data-source-connector-tools.md)轻松配置数据源连接器的更多信息。
 
 数据源面板中列出了![数据源连接器](assets/data-sources-create-window.png){width="550"}
 
@@ -84,7 +84,7 @@ Experience Manager Guides现在还提供了一个&#x200B;**数据源**&#x200B;�
 
 ### 在目录中查看没有自动编号的章节
 
-Experience Manager Guides在目录(TOC)中显示章节编号和章节名称。 现在，您可以选择仅发布章节名称，而不发布章节编号。 查看有关如何配置模板](../native-pdf/components-pdf-template.md#advanced-pdf-settings)的[高级PDF设置的更多详细信息。
+Experience Manager Guides在目录(TOC)中显示章节编号和章节名称。 现在，您可以选择仅发布章节名称，而不发布章节编号。 查看有关如何配置模板[&#128279;](../native-pdf/components-pdf-template.md#advanced-pdf-settings)的高级PDF设置的更多详细信息。
 
 ## 从Web编辑器下载映射
 

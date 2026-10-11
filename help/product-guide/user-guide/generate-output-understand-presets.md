@@ -63,4 +63,4 @@ Experience Manager Guides支持通过DITA-OT、原生PDF和FMPS以最常用的�
 
 作为管理员，Experience Manager Guides允许您为全局和文件夹配置文件创建和管理输出预设。 有关详细信息，请查看[管理全局和文件夹配置文件输出预设](./web-editor-manage-output-presets.md)。
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

@@ -334,4 +334,4 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**父主题：**[&#x200B;管理内容](authoring.md)
+**父主题：**&#x200B;[&#x200B;管理内容](authoring.md)

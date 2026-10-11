@@ -117,7 +117,7 @@ ht-degree: 0%
 
 1. 为所有相关主题选择所需的映射及其输出预设，然后选择&#x200B;**完成**。
 
-   现已设置相关主题的上下文。 可以为当前映射生成输出。 有关生成输出的详细信息，请从映射控制台](generate-output-for-a-dita-map.md#)中查看[生成DITA映射的输出。
+   现已设置相关主题的上下文。 可以为当前映射生成输出。 有关生成输出的详细信息，请从映射控制台[&#128279;](generate-output-for-a-dita-map.md#)中查看生成DITA映射的输出。
 
 ### 混合发布
 
@@ -140,4 +140,4 @@ AEM Guides支持在现有AEM站点中发布DITA内容。 例如，如果您现�
 
 有关更多详细信息，请查看《安装和配置AEM指南》中的&#x200B;*配置Adobe Experience Manager Guides站点节点结构的扁平化*&#x200B;部分。
 
-**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)

@@ -79,4 +79,4 @@ Adobe FrameMaker附带强大的Adobe Experience Manager连接器，可让您轻�
 
 
 
-**父主题：**[&#x200B;管理内容](authoring.md)
+**父主题：**&#x200B;[&#x200B;管理内容](authoring.md)

@@ -192,4 +192,4 @@ Experience Manager Guides提供基线功能，允许用户创建基线，并使�
 1. \（可选\）要导出已导出的基线，请选择&#x200B;**覆盖现有基线**，然后选择&#x200B;**导出基线**。
 
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

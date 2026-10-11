@@ -107,4 +107,4 @@ Adobe Experience Manager为领先的翻译提供商提供了内置连接器。 �
 * 快速入门指南
 * [帮助*存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) （访问旧版文档）
 
-**父主题：**[&#x200B;关于Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**父主题：**&#x200B;[&#x200B;关于Adobe Experience Manager Guides as a Cloud Service](intro.md)

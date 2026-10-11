@@ -92,4 +92,4 @@ Adobe Experience Manager Guides提供了根据文件的当前文档状态搜索�
 
 配置的筛选器显示在主页存储库中的&#x200B;**筛选器**&#x200B;面板中。
 
-**父主题：**[&#x200B;自定义编辑器](customize-overview.md)
+**父主题：**&#x200B;[&#x200B;自定义编辑器](customize-overview.md)

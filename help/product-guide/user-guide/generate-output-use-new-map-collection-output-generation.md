@@ -212,4 +212,4 @@ Adobe Experience Manager Guides中的映射收藏集使发布专家能够将多�
 元数据属性与文件属性同步。 更新后，可以从编辑器的&#x200B;**文件属性**&#x200B;面板中查看这些文件。
 
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

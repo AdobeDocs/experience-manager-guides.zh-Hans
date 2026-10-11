@@ -110,6 +110,6 @@ Experience Manager Guides提供的强大功能使您能够将内容翻译成多�
 
 Workfront功能也存在于映射控制台中，允许您直接从Experience Manager Guides处理Adobe Workfront任务。
 
-了解Experience Manager Guides](./workfront-integration.md)中的[Adobe Workfront集成。
+了解Experience Manager Guides[&#128279;](./workfront-integration.md)中的Adobe Workfront集成。
 
 仅当管理员在Experience Manager Guides实例中配置了&#x200B;**Adobe Workfront**&#x200B;集成时，您才可以访问此功能。

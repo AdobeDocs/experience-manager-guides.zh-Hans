@@ -139,4 +139,4 @@ AEM Guides支持在现有AEM站点中发布DITA内容。 例如，如果您现�
 
 有关更多详细信息，请参阅“安装和配置AEM”指南中的&#x200B;*配置Adobe Experience Manager Guides站点节点结构的扁平化*&#x200B;部分。
 
-**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)

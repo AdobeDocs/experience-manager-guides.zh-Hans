@@ -104,4 +104,4 @@ Adobe Experience Manager Guides允许您将标签添加到文件的不同版本�
 ![](images/delete-labels.png){width="300"}
 
 
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)

@@ -75,11 +75,11 @@ ht-degree: 0%
 
 - **扩展框架基本存储库** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)上的&#x200B;**文档** - [
+- Experience League[&#128279;](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)上的&#x200B;**文档** - 
 
-- **在Experience League上记录常见用例** - [](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **在Experience League上记录常见用例** - [&#128279;](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- 在GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)上有&#x200B;**公共存储库（带有示例）** - [。 参阅分支sc-expert-session
+- 在GIT[&#128279;](https://github.com/adobe/guides-extension/tree/sc-expert-session)上有&#x200B;**公共存储库（带有示例）** - 。 参阅分支sc-expert-session
 
 
 >[!NOTE]

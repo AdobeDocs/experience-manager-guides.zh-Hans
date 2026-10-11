@@ -532,7 +532,7 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后由所有�
 
 ## 配置AI助手以进行智能帮助和创作（仅适用于Cloud Service）
 
-对于Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg))。
+对于Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg))。
 
 Adobe Experience Manager Guides中的AI助手是一款功能强大的、由AI驱动的工具，旨在通过智能创作和内容重用体验来增强您的内容。 它将两项强大的AI功能（**创作**&#x200B;和&#x200B;**帮助**）整合到Experience Manager Guides界面中，使您能够更快更高效地创作文档并访问信息。
 
@@ -618,7 +618,7 @@ Adobe Experience Manager Guides中的AI助手是一款功能强大的、由AI驱
 
 **自定义智能帮助的默认问题**
 
-对于Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg))。
+对于Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg))。
 
 您可以配置AI支持的智能&#x200B;**帮助**，以帮助作者提出问题并轻松地从[Experience Manager Guides文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)中找到所需内容。
 

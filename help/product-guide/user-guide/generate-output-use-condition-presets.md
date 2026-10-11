@@ -188,4 +188,4 @@ Experience Manager Guides允许您从“映射”控制台创建和管理条件�
 1. 选择&#x200B;**删除**&#x200B;按钮。
 1. 选择&#x200B;**删除**&#x200B;以确认操作。
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)

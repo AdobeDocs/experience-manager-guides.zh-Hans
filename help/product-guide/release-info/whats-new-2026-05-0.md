@@ -21,7 +21,7 @@ ht-degree: 0%
 
 有关此版本中修复的问题列表，请查看[2026.05.0版本中的已修复问题](fixed-issues-2026-05-0.md)。
 
-了解2026.05.0版本](../release-info/upgrade-instructions-2026-05-0.md)的[升级说明。
+了解2026.05.0版本[&#128279;](../release-info/upgrade-instructions-2026-05-0.md)的升级说明。
 
 ## Editor 2.0简介
 
@@ -112,7 +112,7 @@ Editor 2.0（又称“新编辑器”）提供了简化的创作过程，使您�
 
 - 您现在可以启用&#x200B;**自动提醒**，以便在审核任务的到期日之前和到期之后，为审核者安排AEM通知和电子邮件提醒。 您可以为每个案例配置多个提醒，根据配置的提醒计划，按定义的顺序发送预过期提醒，并在任务标记为过期后触发过期提醒。 有关详细信息，请查看[发送审阅主题](../user-guide/review-send-topics-for-review.md)。
 
-- 查看者现在可以访问所查看主题的版本历史记录，从而允许他们在以前的查看任务中查看和比较同一主题的先前已查看版本和更新版本。 这有助于审阅人通过审阅当前审阅上下文中的注释、标签和其他相关详细信息，来验证自早期审阅周期以来所做的更改并保持连续性。 有关详细信息，请查看审阅者](../user-guide/review-topics.md#version-history-for-the-reviewer)的[版本历史记录。
+- 查看者现在可以访问所查看主题的版本历史记录，从而允许他们在以前的查看任务中查看和比较同一主题的先前已查看版本和更新版本。 这有助于审阅人通过审阅当前审阅上下文中的注释、标签和其他相关详细信息，来验证自早期审阅周期以来所做的更改并保持连续性。 有关详细信息，请查看审阅者[&#128279;](../user-guide/review-topics.md#version-history-for-the-reviewer)的版本历史记录。
 
 ## Experience Manager Guides中引入的新基线体验
 
@@ -128,7 +128,7 @@ Editor 2.0（又称“新编辑器”）提供了简化的创作过程，使您�
 - 更强的UI和后端一致性
 - 扩展的筛选、导航和依赖项可见性
 
-有关详细信息，请在Experience Manager Guides](../user-guide/web-editor-baseline-v2.md)中查看[新的基线体验(Beta)。
+有关详细信息，请在Experience Manager Guides[&#128279;](../user-guide/web-editor-baseline-v2.md)中查看新的基线体验(Beta)。
 
 
 
