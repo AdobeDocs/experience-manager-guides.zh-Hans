@@ -4,7 +4,7 @@ description: 了解编辑器中的工具栏。 了解Adobe Experience Manager Gu
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
+TQID: 'https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
     internal-label: Map Editor
@@ -30,7 +32,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 2a8b90039694267a542d3eb6012a3b5d439eeba8
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6603'
 ht-degree: 0%
@@ -277,7 +279,7 @@ Experience Manager Guides允许您以自由格式文本格式指定标签或使�
 
 旧编辑器中的“显示”菜单包含以下功能：
 
-- **跟踪更改：**&#x200B;您可以启用“跟踪更改”模式，以跟踪对文档所做的所有更新。 启用跟踪更改后，文档将捕获所有插入和删除。 使用删除线突出显示所有已删除的内容，并以绿色文本突出显示所有插入。 此外，您还可以在主题页面的边缘获得更改条。 再次重申，对于已删除的内容，将显示红色栏，对于添加的内容，将显示绿色栏。 如果在同一行上进行了添加和删除，则会同时显示绿色栏和红色栏。
+- **跟踪更改：**您可以启用“跟踪更改”模式，以跟踪对文档所做的所有更新。 启用跟踪更改后，文档将捕获所有插入和删除。 使用删除线突出显示所有已删除的内容，并以绿色文本突出显示所有插入。 此外，您还可以在主题页面的边缘获得更改条。 再次重申，对于已删除的内容，将显示红色栏，对于添加的内容，将显示绿色栏。 如果在同一行上进行了添加和删除，则会同时显示绿色栏和红色栏。
 以下屏幕截图突出显示删除和插入的内容以及更改条：
   ![](images/track-changes-content.png){width="650"}
 
@@ -783,4 +785,4 @@ Experience Manager Guides允许您以自由格式文本格式指定标签或使�
 作为管理员，您还可以访问&#x200B;**强制解锁**&#x200B;功能，该功能允许您解锁其他用户锁定的文件。 使用此功能可以访问其他用户锁定的文件的编辑权限。
 
 ![](images/web-editor-force-unlock-new.png){width="350"}
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

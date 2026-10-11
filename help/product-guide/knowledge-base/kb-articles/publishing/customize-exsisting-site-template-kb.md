@@ -5,27 +5,40 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
-TQID: https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ
+TQID: 'https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 951
+source-wordcount: '951'
 ht-degree: 2%
-
 ---
-
 # 为AEM Guides自定义现有AEM站点模板
 
 本指南提供了分步说明，用于自定义现有AEM站点模板以与AEM Guides一起使用以从DITA映射和主题生成AEM Sites。
@@ -40,8 +53,8 @@ ht-degree: 2%
 - 您已有使用可编辑模板构建的现有站点层次结构。
 - 您现有项目中至少有两个模板：
 
-   - **文档容器页面模板**，用于将DITA映射呈现为文档根。
-   - **主题页模板**&#x200B;用于呈现各个DITA主题页。
+  - **文档容器页面模板**，用于将DITA映射呈现为文档根。
+  - **主题页模板**&#x200B;用于呈现各个DITA主题页。
 
 ## 模板命名注意事项
 
@@ -88,8 +101,8 @@ ht-degree: 2%
   ![正在添加具有强制属性的文本组件](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - 在站点生成期间，此占位符将替换为DITA主题的实际内容。
-   - 文本组件通常置于&#x200B;**Container组件**&#x200B;中，以确保布局和样式正确。
-   - 可以自定义以包含所有主题页面中一致的页眉、页脚和导航元素。
+  - 文本组件通常置于&#x200B;**Container组件**&#x200B;中，以确保布局和样式正确。
+  - 可以自定义以包含所有主题页面中一致的页眉、页脚和导航元素。
 
 **示例用例：**
 如果您有有关“安装说明”的DITA主题，则主题页面模板将生成一个显示该主题内容的页面。
@@ -154,4 +167,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 在部署到生产环境之前，请确保在非生产环境中测试模板。<br><br>有关更多详细信息，请参阅官方的[AEM Guides](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/get-started/authoring)文档。
+> 在部署到生产环境之前，请确保在非生产环境中测试模板。<br><br>有关更多详细信息，请参阅官方的[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)和[AEM Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/get-started/authoring)文档。

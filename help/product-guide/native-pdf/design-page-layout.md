@@ -5,26 +5,36 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
+TQID: 'https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5060
+source-wordcount: '5089'
 ht-degree: 0%
-
 ---
-
 # 设计页面布局 {#design-page-layout}
 
 在创建PDF文档时，您将拥有用于呈现不同类型信息的各个部分。 例如，PDF文档将从头页或封面开始，其中包含您公司的徽标、书籍标题或版本信息。 然后是章节、附录或词汇页。 PDF文档中的每个部分的外观都不一样，具体可以通过创建和自定义页面布局来实现。
@@ -113,9 +123,9 @@ PDF文档通常包含以下部分：
 * **视图旋转** ：指定旋转后表示原始顶边的边或方向。 您可以选择“顺时针90”、“逆时针90”或“逆时针180度”。 当您希望在输出中使用纵向和横向布局的组合时，这非常有用。 例如，可以将纵向用作一般页面布局，并且可以设置横向页面布局以呈现宽表格。 在这种情况下，可设置为以顺时针90度显示表格内容。 这样，页面将定向为横向，内容将旋转90度以保持视图的连续性。 我们将在本节的后面部分查看如何实现此目标。
 
 * **页面编号** :The在PDF中，默认情况下是连续的。 例如，一个100页的PDF可以具有1到100之间的连续页码。 也可以从所有不同节中的特定编号或第一次出现的节重新开始编号。
-   * **从**&#x200B;重新启动：指定此页面布局的起始页码。 例如，您可以将每个章节的页码设置为重新启动。 在这种情况下，您需要将章节页面布局的第一个页面布局变体上的从属性重新启动设置为1。 默认情况下，页面编号会从上一页继续。
+  * **从**&#x200B;重新启动：指定此页面布局的起始页码。 例如，您可以将每个章节的页码设置为重新启动。 在这种情况下，您需要将章节页面布局的第一个页面布局变体上的从属性重新启动设置为1。 默认情况下，页面编号会从上一页继续。
 
-   * **仅应用于第一次发生次数**：您也可以仅从第一次发生节的特定数字开始。 例如，您只能从1开始第一个章节，然后继续其他章节的页码。
+  * **仅应用于第一次发生次数**：您也可以仅从第一次发生节的特定数字开始。 例如，您只能从1开始第一个章节，然后继续其他章节的页码。
 
 * **布局** ：指定页边距以及上、下、左、右边的内边距。 下图说明了如何在内容周围呈现边距、边距和边框。 请注意，页面顶部和底部的边距包含页眉和页脚。
 
@@ -370,7 +380,7 @@ PDF文档通常包含以下部分：
 * 地图标题
 * 页码
 * 章节编号
-* 总页数
+* 页面总数
 * 日期
 * 用时
 

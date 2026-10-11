@@ -5,23 +5,29 @@ exl-id: 8d09ab89-4be5-49f1-9831-9f01c92dc472
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/BD8MStcVS-bjRftYXTtXjUodzuRnaS8D11jKXH-qTs8
+TQID: 'https://experienceleague.adobe.com/BD8MStcVS-bjRftYXTtXjUodzuRnaS8D11jKXH-qTs8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '342'
 ht-degree: 0%
-
 ---
-
 # 自动生成元素ID {#id20CIL40016I}
 
 AEM Guides会为您创建的任何新文档生成一个文档ID。 例如，创建DITA映射时，会将`map.ditamap_random_digits`等ID分配给映射的ID。 您还可以定义自动为其生成和分配ID的元素。
@@ -55,4 +61,4 @@ AEM Guides提供了简单的配置设置，您需要在其中定义自动生成I
 1. 单击&#x200B;**保存**。
 
 
-**父主题：**&#x200B;[&#x200B;自定义编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义编辑器](conf-web-editor.md)

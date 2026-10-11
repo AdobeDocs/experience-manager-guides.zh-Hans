@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
-TQID: https://experienceleague.adobe.com/j6uFt82jpyFbhL2-lS-cPIT-cseP4rpQg9aVjipDmio
+TQID: 'https://experienceleague.adobe.com/j6uFt82jpyFbhL2-lS-cPIT-cseP4rpQg9aVjipDmio'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -18,6 +18,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -25,10 +29,12 @@ subfeature_v2:
     internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
     internal-label: Web Editor
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 0%
@@ -116,7 +122,7 @@ AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建�
   >
   >在动态基线的情况下进行编辑操作允许您编辑基线的属性，因为动态基线的引用是在运行时使用标签生成的。
 
-  基线![&#128279;](images/baseline-options.png){width="800"}的选项
+  基线](images/baseline-options.png){width="800"}的![选项
 
   也可以从“选项”菜单对基线执行以下操作：
 
@@ -178,4 +184,4 @@ AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建�
 
 编辑基线后，可以单击顶部的&#x200B;**保存**&#x200B;按钮以保存对基线的更改。 如果不想保存更改并重置基线，可单击&#x200B;**重置**&#x200B;按钮。 单击“**重置**”按钮时，会显示一条警告，指出未保存的更改将丢失。
 
-**父主题：**&#x200B;[&#x200B;使用Web编辑器](web-editor.md)
+**父主题：**[&#x200B;使用Web编辑器](web-editor.md)

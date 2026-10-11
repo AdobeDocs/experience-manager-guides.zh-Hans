@@ -1,7 +1,15 @@
 ---
 title: 发行说明 |Adobe Experience Manager Guides 5.2.0 Service Pack 1版本的升级说明
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides的5.2.0 Service Pack 1版本。
-source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 3%
@@ -34,7 +42,7 @@ ht-degree: 3%
 |---|---|---|----|
 | 5.2.0 Service Pack 1 (UUID) | 5.2.2 | [AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-有关更多详细信息，请查看[从Maven Central存储库](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/api-reference/introduction)配置并使用API JAR。
+有关更多详细信息，请查看[从Maven Central存储库](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)配置并使用API JAR。
 
 
 ### FrameMaker和FrameMaker Publishing Server
@@ -79,7 +87,7 @@ ht-degree: 3%
 >
 > - **对于AEM 6.5 LTS**：只有Experience Manager Guides 6.5 LTS Service Pack 2支持AEM 5.2.0 Service Pack 1。
 > - **对于AEM 6.5**：仅Experience Manager Guides 6.5 Service Pack 24、23和22支持AEM 5.2.0 Service Pack 1。
-> - 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.2.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> - 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.2.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 > - 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 Service Pack 24或更高版本，请确保先完成AEM升级。 完成后，重新安装Experience Manager Guides 5.2.0。 安装Experience Manager Guides 5.2.1之前。
 
 在继续升级到版本5.2.0 Service Pack 1的Experience Manager Guides之前，必须考虑以下几点：

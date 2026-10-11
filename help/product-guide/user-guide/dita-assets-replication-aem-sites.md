@@ -4,13 +4,25 @@ description: 了解如何复制DITA源资产
 feature: Publishing
 role: User
 exl-id: 71aec782-2cc1-4fd5-b35b-97a603c3dd48
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
-
 ---
-
 # 管理DITA源资产的复制
 
 在某些发布环境中使用&#x200B;**快速发布**&#x200B;或&#x200B;**管理发布**&#x200B;发布从DITA内容生成的输出时，AEM还会尝试发布关联的DITA源资源，例如DITA映射，在某些情况下，还会发布DITA主题。 出现这种情况是因为AEM将DITA资产视为所生成Sites页面的依赖项。

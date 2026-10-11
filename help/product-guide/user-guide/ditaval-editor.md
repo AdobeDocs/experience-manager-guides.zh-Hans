@@ -4,29 +4,35 @@ description: 了解如何使用Adobe Experience Manager Guides中的DIVATAL编�
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-TQID: https://experienceleague.adobe.com/VkX-SA8LgL-O3Gws5pGoj9RIFgrcn7NADVIDzBagxeg
+TQID: 'https://experienceleague.adobe.com/VkX-SA8LgL-O3Gws5pGoj9RIFgrcn7NADVIDzBagxeg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
+  - id: ec789d92-5632-44b6-abc6-bc29bbd44cb6
+    internal-label: DITAVAL editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1537
+source-wordcount: '1556'
 ht-degree: 0%
-
 ---
-
 # DITAVAL编辑器 {#ditaval-editor}
 
 DITAVAL文件用于生成条件输出。 在单个主题中，您可以使用元素属性添加条件以条件化内容。 然后，创建一个DITAVAL文件，在该文件中指定应选取以生成内容的条件，以及应从最终输出中排除哪些条件。
 
-Adobe Experience Manager Guides允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 DITAVAL编辑器将检索系统中定义的属性（可用作条件），您可以使用这些属性来创建或编辑DITAVAL文件。 有关在Adobe Experience Manager中创建和管理条件的更多详细信息，请查看Adobe Experience Manager文档中的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=zh-Hans)部分。
+Adobe Experience Manager Guides允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 DITAVAL编辑器将检索系统中定义的属性（可用作条件），您可以使用这些属性来创建或编辑DITAVAL文件。 有关在Adobe Experience Manager中创建和管理条件的更多详细信息，请查看Adobe Experience Manager文档中的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)部分。
 
 以下各节介绍了Experience Manager Guides中可用于DITAVAL文件的选项。
 
@@ -83,7 +89,7 @@ DITAVAL编辑器允许您使用“编辑器”工具栏中的选项执行以下�
 
 第一个下拉列表列出了可以在DITAVAL文件中使用的允许DITA属性。
 
-第二个下拉列表显示为所选属性配置的值。 然后，下一个下拉列表显示了您可以对选定属性配置的操作。 操作下拉列表中允许的值是 — `include`、`exclude`、`passthrough`和`flag`。 有关这些值的详细信息，请查看OASIS DITA文档中[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素的定义。 有关在属性中添加的属性的操作的详细信息，请查看属性[&#128279;](#actions-for-property)的操作。
+第二个下拉列表显示为所选属性配置的值。 然后，下一个下拉列表显示了您可以对选定属性配置的操作。 操作下拉列表中允许的值是 — `include`、`exclude`、`passthrough`和`flag`。 有关这些值的详细信息，请查看OASIS DITA文档中[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素的定义。 有关在属性中添加的属性的操作的详细信息，请查看属性](#actions-for-property)的[操作。
 
 #### 添加收入属性
 

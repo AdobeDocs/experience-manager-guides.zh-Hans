@@ -5,13 +5,28 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3276'
 ht-degree: 1%
-
 ---
-
 # 自定义现有AEM站点输出 {#id166TG0B30WR}
 
 AEM Guides支持以下列格式创建输出：
@@ -98,7 +113,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 >
 > 创建自定义设计模板节点后，必须更新AEM站点输出预设中的设计选项才能使用自定义设计模板节点。
 
-有关详细信息，请参阅[创建您的第一个Adobe Experience Manager网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)和[在AEM上开发您自己的网站的基础知识](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=zh-Hans)。
+有关详细信息，请参阅[创建您的第一个Adobe Experience Manager网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en)和[在AEM上开发您自己的网站的基础知识](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)。
 
 ## 使用文档标题生成AEM站点输出
 
@@ -213,7 +228,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 
 1. 搜索并单击&#x200B;*com.adobe.fmdita.common.SanizeNodeNameImpl*&#x200B;包。
 
-1. 在&#x200B;**不允许发布到AEM Sites**&#x200B;属性的字符集中，确保将该属性设置为`<>`&#x200B;`@$`。 您可以向此列表添加更多特殊字符，但是，它必须具有这些必需的特殊字符。
+1. 在&#x200B;**不允许发布到AEM Sites**&#x200B;属性的字符集中，确保将该属性设置为`<>``@$`。 您可以向此列表添加更多特殊字符，但是，它必须具有这些必需的特殊字符。
 
    >[!NOTE]
    >
@@ -366,7 +381,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 ## 在AEM站点输出中为已删除的页面配置版本控制
 
-生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;**&#x200B;**&#x200B;选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
+生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;****选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
 
 以下选项卡提供了有关如何根据您的Experience Manager Guides设置停止为正在删除的页面创建版本的说明：Cloud Service或内部部署。
 

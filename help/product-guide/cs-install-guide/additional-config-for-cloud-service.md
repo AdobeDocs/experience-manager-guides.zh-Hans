@@ -2,13 +2,19 @@
 title: 用于升级云服务的其他配置
 description: 了解用于升级云服务的其他配置
 exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 1%
-
 ---
-
 # 升级AEM Guides as Cloud Service的其他配置
 
 >[!INFO]
@@ -61,7 +67,7 @@ http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-m
 >
 >您应该检查节点是否仍然存在，以及作业的状态。
 
-GET：
+获取：
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
@@ -88,7 +94,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一终结点 — `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`（例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. 作业完成后，先前的GET请求会做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
+1. 作业完成后，上一个GET请求会做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
 +++
 
@@ -107,7 +113,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../cs-in
 
 1. 对服务器运行POST请求（使用正确的身份验证） — `http://<server>//bin/guides/reports/upgrade`。
 
-1. API返回jobId。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 —  `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例如： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
 1. 作业完成后，上一个GET请求会做出成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。

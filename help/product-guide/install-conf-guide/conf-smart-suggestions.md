@@ -2,7 +2,15 @@
 title: 配置AI助手以进行智能帮助和创作
 description: 了解如何在Experience Manager Guides中配置AI助手
 exl-id: 59da626d-8433-44c6-ba69-654c7796a264
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -37,7 +45,7 @@ ht-degree: 0%
 
 1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕可显示Adobe产品和技术的所有可用API、事件和服务，您可以使用这些产品和技术开发应用程序。
 
-1. 选择&#x200B;**I/O管理API**&#x200B;以将其添加到您的项目中。
+1. 选择&#x200B;**I/O管理API**以将其添加到您的项目中。
    ![IO管理API](assets/confi-ss-io-management.png)
    *将I/O管理API添加到您的项目中。*
 

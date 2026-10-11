@@ -5,34 +5,44 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/eZq4BTrrbSDDDuYas-D4iCw4WS6Pvzas2AhBPl67LKo
+TQID: 'https://experienceleague.adobe.com/eZq4BTrrbSDDDuYas-D4iCw4WS6Pvzas2AhBPl67LKo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '968'
 ht-degree: 0%
-
 ---
-
 # 自定义工具栏 {#id172FB00L0V6}
 
 默认情况下，Web编辑器附带了任何DITA编辑器所需的最常见编辑功能。 编辑器中提供了插入列表\（编号或项目符号\）类型的元素、交叉引用、内容引用、表格、段落和字符格式等功能。 除了这些基本元素之外，您还可以自定义Web编辑器以插入在创作环境中使用的元素。
 
 >[!NOTE]
 >
-> 从旧UI迁移到新AEM Guides UI（适用于AEM Guides的2502和5.0版本）时，`ui_config`的更新必须转换为更灵活和模块化的UI配置。 此框架有助于在适用的情况下无缝地采用对editor_toolbar和其他目标构件所做的更改。 有关详细信息，请查看[转换UI配置概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
+> 从旧UI迁移到新AEM Guides UI（适用于AEM Guides的2502和5.0版本）时，`ui_config`的更新必须转换为更灵活和模块化的UI配置。 此框架有助于在适用的情况下无缝地采用对editor_toolbar和其他目标构件所做的更改。 有关详细信息，请查看[转换UI配置概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
 
 可通过两种方式自定义Web编辑器的工具栏：
 
@@ -63,7 +73,7 @@ ht-degree: 0%
 
 1. 在`ui_config.json`文件中，在工具栏部分中添加新功能的定义。 通常，您可以创建新的工具栏按钮组，并向其添加一个或多个工具栏按钮。 或者，您可以在现有工具栏组中添加新的工具栏按钮。 需要以下详细信息才能创建新的工具栏组：
 
-   - **type：**&#x200B;指定`blockGroup`作为`type`值。 此值表示您正在创建包含一个或多个工具栏组的块组。
+   - **type：**指定`blockGroup`作为`type`值。 此值表示您正在创建包含一个或多个工具栏组的块组。
 
    - **extraclass：**&#x200B;用空格分隔的一个或多个类的名称。
 
@@ -83,7 +93,7 @@ ht-degree: 0%
      ```
 
      在`items`集合中，您需要指定一个或多个工具栏图标的定义。
-您需要定义以下属性以添加工具栏图标：
+     您需要定义以下属性以添加工具栏图标：
 
    - **类型：**&#x200B;指定`button`作为`type`值。 此值表示您正在添加工具栏按钮。
 
@@ -254,4 +264,4 @@ ht-degree: 0%
 1. 保存&#x200B;*ui\_config.json*&#x200B;文件并重新加载Web编辑器。
 
 
-**父主题：**&#x200B;[&#x200B;自定义Web编辑器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)

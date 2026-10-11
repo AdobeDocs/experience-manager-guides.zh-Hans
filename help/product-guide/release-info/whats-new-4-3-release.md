@@ -4,34 +4,51 @@ description: 了解Adobe Experience Manager Guides 4.3.0版本中的新增功能
 exl-id: 36decbf0-ec9d-43e2-99b7-85b0f9a87bc1
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/N-4hVzb2vN6fLLIFtyftHhzK94G7Q14Knj1-1Y9nGHE
+TQID: 'https://experienceleague.adobe.com/N-4hVzb2vN6fLLIFtyftHhzK94G7Q14Knj1-1Y9nGHE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Insights
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2242
+source-wordcount: '2705'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides 4.3.0版本的新增功能（2023年7月）
 
 本文介绍4.3.0版本的Adobe Experience Manager Guides（以后称为&#x200B;*AEM Guides*）中的新增功能和增强功能。
@@ -43,7 +60,7 @@ ht-degree: 0%
 
 现在，您可以使用AEM Guides中的现成连接器快速连接到数据源。 连接到数据源使您能够保持信息与源同步，并且数据的任何更新都会自动反映出来，从而使AEM Guides成为真正的内容中心。 此功能可帮助您节省手动添加或复制数据的时间和精力。
 
-AEM Guides允许管理员为JIRA和SQL(MySQL、PostgreSQL、SQL Server、SQLite)数据库配置现成的连接器。它们还可以通过扩展缺省接口来添加其它连接器。
+AEM Guides允许管理员为JIRA和SQL(MySQL、PostgreSQL、SQL Server、SQLite)数据库配置现成的连接器。 它们还可以通过扩展缺省接口来添加其它连接器。
 添加后，您可以在Web编辑器的数据源面板下查看列出的已配置连接器。
 
 <img src="assets/data-sources.png" alt="面板中的数据源列表" width="300">
@@ -92,8 +109,8 @@ AEM Guides现在提供了改进的审核功能，具有以下功能：
 
 ### 搜索审核主题
 
-开展审查是AEM Guides的一项重要功能。它有助于查看者查看分配给他们的文档。
-现在，通过在审阅面板的主题视图的搜索栏中输入标题或文件路径的文本的一部分来搜索主题。您还可以选择查看所有主题或查看包含注释的主题。默认情况下，可以查看审阅任务中存在的所有主题。
+开展审查是AEM Guides的一项重要功能。 它有助于查看者查看分配给他们的文档。
+现在，通过在审阅面板的主题视图的搜索栏中输入标题或文件路径的文本的一部分来搜索主题。 您还可以选择查看所有主题或查看包含注释的主题。 默认情况下，可以查看审阅任务中存在的所有主题。
 
 
 ![在评论主题面板中搜索](assets/review-search-topic.png){width="800"}
@@ -112,12 +129,12 @@ AEM Guides现在提供了改进的审核功能，具有以下功能：
 
 ### 支持语言变量
 
-AEM Guides提供对语言变量的支持。您可以使用语言变量在PDF输出中定义开箱即用标签的本地化版本，如注释、警告和警告或静态文本。
+AEM Guides提供对语言变量的支持。 您可以使用语言变量在PDF输出中定义开箱即用标签的本地化版本，如注释、警告和警告或静态文本。
 您可以将语言变量或本地化的标签版本添加到PDF输出和输出模板中的相应部分。
 
 #### PDF输出中的语言变量
 
-您可以使用语言变量为“注意”、“警告”等元素定义本地化标签。您可以用一种或多种语言更新这些变量的值，然后在PDF输出中自动选取本地化的值。
+您可以使用语言变量为“注意”、“警告”等元素定义本地化标签。 您可以用一种或多种语言更新这些变量的值，然后在PDF输出中自动选取本地化的值。
 例如，您可以通过以下方式在PDF输出中显示标签“注释”：
 
 * 英文：注释
@@ -126,8 +143,8 @@ AEM Guides提供对语言变量的支持。您可以使用语言变量在PDF输�
 
 #### 输出模板中的语言变量
 
-如果要创建各种语言的PDF输出，则必须创建各种包含每种语言的本地化文本的PDF模板。现在，使用语言变量功能，您只需创建模板一次。然后，对于需要本地化的任何静态文本，您可以创建相应的语言变量并在模板中使用它们。
-您可以为较长的文本创建语言变量，例如整个句子甚至段落。您还可以应用样式并使用HTML标记来设置这些语言变量的格式。
+如果要创建各种语言的PDF输出，则必须创建各种包含每种语言的本地化文本的PDF模板。 现在，使用语言变量功能，您只需创建模板一次。 然后，对于需要本地化的任何静态文本，您可以创建相应的语言变量并在模板中使用它们。
+您可以为较长的文本创建语言变量，例如整个句子甚至段落。 您还可以应用样式并使用HTML标记来设置这些语言变量的格式。
 
 有关更多详细信息，请查看[对语言变量的支持](../native-pdf/native-pdf-language-variables.md)。
 
@@ -188,7 +205,7 @@ AEM Guides提供对语言变量的支持。您可以使用语言变量在PDF输�
 您可以使用变量来定义交叉引用。 使用变量时，将从属性中提取其值。
 
 现在您还可以使用{figure}和{table}。
-使用{figure}添加对数字的交叉引用。它从您为数字定义的自动编号样式中选取数字编号。
+使用{figure}添加对数字的交叉引用。 它从您为数字定义的自动编号样式中选取数字编号。
 
 使用{table}添加对表编号的交叉引用。 它会从您为题注定义的自动编号样式中选取表格编号。
 
@@ -237,7 +254,7 @@ AEM Guides提供对语言变量的支持。您可以使用语言变量在PDF输�
 
 ## Web编辑器中的“断开链接”报表
 
-AEM Guides允许您检查技术文档的整体完整性，并从Web编辑器生成报告。在2023年6月版中，AEM Guides现在提供了查看和修复断开链接的功能。这是一个有用的报表，可帮助您管理断开的链接。您可以轻松地查看DITA映射中存在的断开链接并进行修复。
+AEM Guides允许您检查技术文档的整体完整性，并从Web编辑器生成报告。 在2023年6月版中，AEM Guides现在提供了查看和修复断开链接的功能。 这是一个有用的报表，可帮助您管理断开的链接。 您可以轻松地查看DITA映射中存在的断开链接并进行修复。
 ![断开的链接报告](assets/broken-link-report.png){width="800"}
 
 修复链接后，该链接不会显示在断开链接列表下。
@@ -289,13 +306,13 @@ AEM Guides还支持翻译中的XML本地化交换文件格式(XLIFF)格式。 �
 ## 批量发布功能板中的本机PDF支持
 
 
-借助AEM Guides的批量激活功能，您可以快速轻松地激活内容从创作到发布实例。在“批量激活”映射中，您可以包含本机PDF输出预设、AEM Site、PDF、HTML5、自定义和JSON输出。
+借助AEM Guides的批量激活功能，您可以快速轻松地激活内容从创作到发布实例。 在“批量激活”映射中，您可以包含本机PDF输出预设、AEM Site、PDF、HTML5、自定义和JSON输出。
 有关详细信息，请查看[已发布内容的批量激活](../user-guide/conf-bulk-activation.md)。
 
 ## 改进的批量移动工具
 
 现在，作为管理员，您可以使用改进的批量移动工具将具有多个文件的文件夹从一个位置移动到另一个位置。
-可以使用“浏览文件”对话框选择要移动的源文件夹。您还可以浏览以选择要移动源文件夹的目标位置。选择某个字段附近的![信息图标](assets/info-icon.svg) {width="25"}以查看有关该字段的更多信息。
+可以使用“浏览文件”对话框选择要移动的源文件夹。 您还可以浏览以选择要移动源文件夹的目标位置。 选择某个字段附近的![信息图标](assets/info-icon.svg) {width="25"}以查看有关该字段的更多信息。
 
 有关详细信息，请查看[批量移动文件](../user-guide/authoring-file-management.md#move-files-bulk)。
 

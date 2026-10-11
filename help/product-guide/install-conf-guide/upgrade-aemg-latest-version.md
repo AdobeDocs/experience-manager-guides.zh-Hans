@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
-source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 2%
-
 ---
-
 # 升级Adobe Experience Manager Guides 4.6.0及更高版本
 
 本文介绍了如何升级您的Experience Manager Guides 4.6.0及更高版本。
@@ -46,7 +61,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.2.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.2.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 **先决条件**
 
@@ -74,7 +89,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.1.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您当前使用AEM 6.5，并计划迁移到AEM 6.5 LTS，请确保先完成AEM升级，然后再继续进行Experience Manager Guides 5.1.0升级。 有关详细信息，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 **先决条件**
 
@@ -193,15 +208,15 @@ ht-degree: 2%
 
      **常用选项卡：**
 
-      - **标题：** DXML后处理发起程序
+     - **标题：** DXML后处理发起程序
 
-      - **描述**： DXML后处理发起程序步骤，它将触发用于已修改/创建的资产的DXML后处理的Sling作业
+     - **描述**： DXML后处理发起程序步骤，它将触发用于已修改/创建的资产的DXML后处理的Sling作业
 
      **进程选项卡**
 
-      - 从&#x200B;**进程**&#x200B;下拉列表中选择&#x200B;**DXML后处理启动器**
-      - 选择&#x200B;**处理程序前进**
-      - 选择&#x200B;**完成**
+     - 从&#x200B;**进程**&#x200B;下拉列表中选择&#x200B;**DXML后处理启动器**
+     - 选择&#x200B;**处理程序前进**
+     - 选择&#x200B;**完成**
 
 1. 完成更改后，选择右上角的&#x200B;**同步**。 您将收到成功通知。
 
@@ -278,7 +293,7 @@ Experience Manager Guides有一个&#x200B;[**自定义sling重写器**](../insta
 
 ### 重新索引damAssetLucene的步骤
 
-使用AEM Guides更新了damAssetLucene的索引定义。 升级到所需版本后，请参阅[本文](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-16460)以重新索引damAssetLucene。
+使用AEM Guides更新了damAssetLucene的索引定义。 升级到所需版本后，请参阅[本文](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)以重新索引damAssetLucene。
 
 >[!NOTE]
 >

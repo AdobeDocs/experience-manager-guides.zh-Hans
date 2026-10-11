@@ -2,7 +2,15 @@
 title: AEM Guides中的内容审查
 description: 专家讲座 — AEM Guides审核工作流程内部。 功能和实际用例
 exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
-source-git-commit: 0d214aca4b5f12d5401ed174d20259627bf94469
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 1%
@@ -37,11 +45,11 @@ ht-degree: 1%
 
 ## 相关资源
 
-- [查看工作流文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/user-guide/review/review)
+- [查看工作流文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [AEM Guides与Workfront集成](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [AEM Guides与Workfront集成](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [自定义审阅UI](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [自定义审阅UI](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -54,7 +62,7 @@ ht-degree: 1%
 
 ### 社区论坛
 
-- 有关Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=zh-Hans)。
+- 有关Experience League上特定于会话的社区交互，请访问[AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)。
 
 
 ## 联系我们

@@ -4,29 +4,41 @@ description: 了解地图控制台以及允许您在Adobe Experience Manager Gui
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-TQID: https://experienceleague.adobe.com/RFlLBJ4tFUBVo2FyGFur21uIResNd0qFWpKszJbnBIk
+TQID: 'https://experienceleague.adobe.com/RFlLBJ4tFUBVo2FyGFur21uIResNd0qFWpKszJbnBIk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # 映射控制台概述
 
 Adobe Experience Manager Guides提供了一个专用控制台（称为&#x200B;**地图控制台**），用于简化所有地图管理和发布任务。 此集中式界面通过提供用于生成输出、翻译内容、访问报告等功能的选项，提高了与地图相关活动的生产力和准确性 — 所有这些功能都在一处完成。
@@ -41,15 +53,15 @@ Adobe Experience Manager Guides提供了一个专用控制台（称为&#x200B;**
 
   导航栏中可用的功能说明如下：
 
-   - **导航切换器**：允许无缝导航到其他页面 — 编辑器或主页：
-   - **选定的映射文件**：显示当前选定映射文件的名称。 您可以在编辑器中打开它，或为“映射”控制台选择其他映射文件。
-   - **更多操作**：提供用于导航到&#x200B;**Assets UI**&#x200B;和&#x200B;**Workspace设置**&#x200B;的选项。 有关详细信息，请查看[选项卡栏](./web-editor-tab-bar.md)。
+  - **导航切换器**：允许无缝导航到其他页面 — 编辑器或主页：
+  - **选定的映射文件**：显示当前选定映射文件的名称。 您可以在编辑器中打开它，或为“映射”控制台选择其他映射文件。
+  - **更多操作**：提供用于导航到&#x200B;**Assets UI**&#x200B;和&#x200B;**Workspace设置**&#x200B;的选项。 有关详细信息，请查看[选项卡栏](./web-editor-tab-bar.md)。
 
   >[!NOTE]
   >
   > 如果在版本5.2之前的内部部署设置中使用Adobe Experience Manager Guides，则Workspace设置选项在“更多操作”菜单下仍显示为&#x200B;**设置**。
 
-   - **展开视图**：允许您使用&#x200B;**展开**&#x200B;图标展开页面视图。 在此视图中，标题栏是隐藏的，从而最大化内容空间。 要返回到标准视图，请使用&#x200B;**退出扩展视图**&#x200B;图标。
+  - **展开视图**：允许您使用&#x200B;**展开**&#x200B;图标展开页面视图。 在此视图中，标题栏是隐藏的，从而最大化内容空间。 要返回到标准视图，请使用&#x200B;**退出扩展视图**&#x200B;图标。
 
   >[!NOTE]
   >
@@ -98,6 +110,6 @@ Experience Manager Guides提供的强大功能使您能够将内容翻译成多�
 
 Workfront功能也存在于映射控制台中，允许您直接从Experience Manager Guides处理Adobe Workfront任务。
 
-了解Experience Manager Guides[&#128279;](./workfront-integration.md)中的Adobe Workfront集成。
+了解Experience Manager Guides](./workfront-integration.md)中的[Adobe Workfront集成。
 
 仅当管理员在Experience Manager Guides实例中配置了&#x200B;**Adobe Workfront**&#x200B;集成时，您才可以访问此功能。

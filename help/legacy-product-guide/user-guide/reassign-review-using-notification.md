@@ -5,19 +5,23 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
-TQID: https://experienceleague.adobe.com/jF4wtAFnt2rEs4Vn-INbBYn5Juv-RXdQHhsjXKLH65A
+TQID: 'https://experienceleague.adobe.com/jF4wtAFnt2rEs4Vn-INbBYn5Juv-RXdQHhsjXKLH65A'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 271
+source-wordcount: '271'
 ht-degree: 0%
-
 ---
-
 # 使用通知重新分配审核任务 {#id21BNH03M0KS}
 
 您可以将分配给您的审阅任务重新分配给已添加到同一审阅项目的其他用户。 可以从收件箱中提供的审阅通知轻松地完成审阅任务重新分配。 但是，作为审阅人，您只能将审阅任务重新分配给个人用户，而不能使用通知将审阅任务重新分配给用户组。
@@ -45,4 +49,4 @@ ht-degree: 0%
 
 分配的审阅人将在收件箱中收到重新分配的审阅任务的通知。
 
-**父主题：**&#x200B;[&#x200B;审阅主题或映射](review.md)
+**父主题：**[&#x200B;审阅主题或映射](review.md)

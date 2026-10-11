@@ -4,7 +4,7 @@ description: 从Adobe Experience Manager Guides的映射控制台创建和管理
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
+TQID: 'https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -26,10 +30,12 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1929'
 ht-degree: 0%
@@ -137,7 +143,7 @@ ht-degree: 0%
 >
 >在动态基线的情况下进行编辑操作允许您编辑基线的属性，因为动态基线的引用是在运行时使用标签生成的。
 
-基线![&#128279;](images/baseline-options.png)的选项
+基线](images/baseline-options.png)的![选项
 
 ### 可用于现有基线的操作
 
@@ -199,5 +205,5 @@ ht-degree: 0%
 
 编辑基线后，选择&#x200B;**保存**&#x200B;以将更改保存到基线。 如果不想保存更改并重置基线，则可以选择&#x200B;**重置**。 选择&#x200B;**重置**&#x200B;时，会显示一条警告，指出未保存的更改将丢失。
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)
 

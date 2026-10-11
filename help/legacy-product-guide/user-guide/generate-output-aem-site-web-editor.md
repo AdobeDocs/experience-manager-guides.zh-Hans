@@ -5,29 +5,41 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-TQID: https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ
+TQID: 'https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2755
+source-wordcount: '2766'
 ht-degree: 0%
-
 ---
-
 # Web编辑器中的AEM Sites预设
 
 
@@ -58,8 +70,8 @@ Experience Manager Guides提供了用于创建AEM Sites的预定义模板。 这
 >[!NOTE]
 >
 >在为Experience Manager Guides配置AEM Sites预设之前，管理员需要使用模板创建AEM Sites结构。
->- **内部部署软件**：了解有关如何[下载并安装内部部署软件的AEM Sites模板](/help/product-guide/install-guide/download-install-aem-sites-templates.md)的详细信息。
->- **Cloud Service**：了解有关如何[下载并安装适用于Cloud Service的AEM Sites模板](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)的更多信息。
+- **内部部署软件**：了解有关如何[下载并安装内部部署软件的AEM Sites模板](/help/product-guide/install-guide/download-install-aem-sites-templates.md)的详细信息。
+- **Cloud Service**：了解有关如何[下载并安装适用于Cloud Service的AEM Sites模板](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)的更多信息。
 
 
 
@@ -91,11 +103,11 @@ Experience Manager Guides提供了用于创建AEM Sites的预定义模板。 这
 - 发布路径
 - 主题页面模板
 - 根据生成页面名称
-   - 主题文件名
-   - 主题标题
+  - 主题文件名
+  - 主题标题
 - 清理以前生成的页面
-   - 为从映射中删除的主题删除以前生成的页面
-   - 删除此路径下由其他源创建的所有页面：
+  - 为从映射中删除的主题删除以前生成的页面
+  - 删除此路径下由其他源创建的所有页面：
 - 后期生成工作流
 
 
@@ -108,8 +120,8 @@ Experience Manager Guides提供了用于创建AEM Sites的预定义模板。 这
 - 条件筛选
 - 其他DITA-OT命令行参数
 - 元数据
-   - 文件(Assets)属性
-   - 使用映射属性作为回退
+  - 文件(Assets)属性
+  - 使用映射属性作为回退
 
 
 有关详细信息，请参阅[AEM Sites配置](#aem_sites_config)。
@@ -208,7 +220,7 @@ Experience Manager Guides允许您使用现成的模板或添加您自己的AEM 
    - 对于从映射仪表板创建的预设。 请参阅显示映射仪表板工具提示。
    - 对于OOTB预设，请参阅显示映射功能板工具提示。
    - 对于全局预设，请创建此全局预设的本地副本以设置交叉映射引用。
-如果要从Web编辑器中使用AEM Sites预设，请创建新预设或复制现有预设。
+     如果要从Web编辑器中使用AEM Sites预设，请创建新预设或复制现有预设。
 
 1. 打开&#x200B;**交叉映射引用**&#x200B;选项卡。
 
@@ -224,7 +236,7 @@ Experience Manager Guides允许您使用现成的模板或添加您自己的AEM 
 
    ![交叉映射引用](images/aem-sites-cross-map-references.png)
 
-1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**&#x200B;发布上下文。
+1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**发布上下文。
 在发布包含链接主题的映射之前，您应该发布选定作为父映射的映射。 如果未发布包含链接主题的映射，则在AEM Sites输出中，链接将显示为普通文本而非超链接。
 您应为链接的主题选择相同类型的AEM Sites预设。 例如，如果当前AEM Sites预设使用旧版组件映射，则为链接的主题选择类似的AEM Sites预设。
 1. 在“父映射”下拉列表中，选择要为其输出链接当前映射输出的映射文件。

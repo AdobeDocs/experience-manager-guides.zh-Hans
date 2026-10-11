@@ -5,29 +5,38 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-TQID: https://experienceleague.adobe.com/mQXuCClDCF6tDYUudR2NqJPPK-OEvnlI4y-rY4KF2Ko
+TQID: 'https://experienceleague.adobe.com/mQXuCClDCF6tDYUudR2NqJPPK-OEvnlI4y-rY4KF2Ko'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: da9cce28-0561-45e7-851e-4500741b9744
+    internal-label: Metadata management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Data management
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # 批量标记DITA内容 {#id179SG0TN05Z}
 
 标记允许您对内容存储库以及已发布输出中的内容进行分组或分类。 如果您在内容中应用了标记，则可以轻松地在DITA映射中找到可以帮助您创作内容的相关主题。 利用已发布的输出，最终用户将能够借助适当的标记更快地找到适当的内容。
 
-AEM Guides允许您通过单击几下来标记DITA内容。 您可以使用批量标记功能将多个标记应用于多个主题、DITA映射或子映射。 或者，您也可以对单个主题应用标记。 标记是AEM中的本机功能，您可以在AEM文档的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=zh-Hans)部分中找到有关创建和管理标记的更多详细信息。
+AEM Guides允许您通过单击几下来标记DITA内容。 您可以使用批量标记功能将多个标记应用于多个主题、DITA映射或子映射。 或者，您也可以对单个主题应用标记。 标记是AEM中的本机功能，您可以在AEM文档的[管理标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)部分中找到有关创建和管理标记的更多详细信息。
 
 默认情况下，AEM Guides不向存储AEM存储库中所有标记的文件夹上的任何用户授予读取权限。 要使用AEM存储库中定义的标记，您必须要求系统管理员授予对存储标记的文件夹的访问权限。
 
@@ -119,4 +128,4 @@ AEM Guides允许您通过单击几下来标记DITA内容。 您可以使用批�
 
 如果您的主题应用了很长的标记列表，那么您可能会发现导航有点麻烦。 通过单击隐藏标记图标，可以轻松地从DITA映射控制台视图中隐藏中的标记。 同样，当标记不可见时，单击显示标记将显示所有标记。
 
-**父主题：**&#x200B;[&#x200B;管理元数据](manage-metadata.md)
+**父主题：**[&#x200B;管理元数据](manage-metadata.md)

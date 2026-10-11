@@ -1,34 +1,48 @@
 ---
-title: ' [!DNL AEM Guides]的发行说明，2022年1月版'
-description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Service的1月版本'
+title: '[!DNL AEM Guides]的发行说明，2022年1月版'
+description: '[!DNL Adobe Experience Manager Guides] as a Cloud Service的1月版'
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/-ddCfI97I7XJ-OuoritVp7KRCRst5veYuu3oSQWZw9Y
+TQID: 'https://experienceleague.adobe.com/-ddCfI97I7XJ-OuoritVp7KRCRst5veYuu3oSQWZw9Y'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Taxonomy
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2326
+source-wordcount: '2471'
 ht-degree: 3%
-
 ---
-
 # [!DNL Adobe Experience Manager Guides] as a Cloud Service的1月版
 
 ## 升级到1月版
@@ -66,7 +80,7 @@ ht-degree: 3%
 
 ![基于文章的发布](assets/article-based-publishing.png)
 
-除了AEM之外，您还可以使用此独特功能将文章发布到任何知识库门户，如Salesforce。此功能还附带一个OOTB内容模板，它基于AEM核心组件构建，允许您创建技术内容的基于知识的存储库。此模板的优点在于，它可完全自定义以符合您的组织要求，并且还可支持企业Intranet门户等用例。
+除了AEM之外，您还可以使用此独特功能将文章发布到任何知识库门户，如Salesforce。 此功能还附带一个OOTB内容模板，它基于AEM核心组件构建，允许您创建技术内容的基于知识的存储库。 此模板的优点在于，它可完全自定义以符合您的组织要求，并且还可支持企业Intranet门户等用例。
 您还可以根据文章的文档状态和修改时间筛选文章。
 
 这种按需文章发布功能不仅让您能够完全控制内容发布，还可以减少发布更新内容的整体时间。
@@ -100,7 +114,7 @@ Web编辑器中引入了许多增强功能和新功能：
 
 现在，您可以在FrameMaker中创作和发布文档。 FrameMaker附带一个到Adobe Experience Manager的现成连接器。 在FrameMaker中，您获得了一个易于使用的界面，它允许您在分布式协作环境中维护文档的版本。
 
-创建内容后，FrameMaker允许您以不同格式发布文档 — PDF、HTML5、EPUB和DITA。您还可以执行各种文件管理操作，如签出、带依赖项签出、签入、刷新等。
+创建内容后，FrameMaker允许您以不同格式发布文档 — PDF、HTML5、EPUB和DITA。 您还可以执行各种文件管理操作，如签出、带依赖项签出、签入、刷新等。
 要在[!DNL AEM Guides] as a Cloud Service中使用FrameMaker进行创作，请使用FrameMaker版本2020.4及更高版本。
 
 ### 新建翻译仪表板

@@ -4,7 +4,20 @@ description: 了解Experience Manager Guides编辑器界面中可用的各种设
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 0%
@@ -13,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在版本5.2之前的内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。 对于版本5.2及更高版本的Cloud Service和内部部署配置，此选项已重命名为&#x200B;**Workspace设置**。 在&#x200B;**编辑器设置**&#x200B;下可用的所有现有配置选项保持不变。
+> 在版本5.2之前的内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。 对于版本5.2及更高版本的Cloud Service和内部部署配置，此选项已重命名为&#x200B;**Workspace设置**。 在&#x200B;**编辑器设置**下可用的所有现有配置选项保持不变。
 > ![内部部署](assets/editor-settings-on-prem.png){width="650"}的编辑器设置
 
 
@@ -281,9 +294,9 @@ ht-degree: 0%
 
 工作区设置中的![元数据选项卡](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
 您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。

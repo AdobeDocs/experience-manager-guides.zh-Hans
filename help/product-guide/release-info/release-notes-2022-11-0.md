@@ -4,25 +4,33 @@ description: Adobe Experience Manager Guides as a Cloud Service 11月版
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/pF4RttF7xMpqHgR70QgOh2dc2m99KCbL0KdYt1FvoPE
+TQID: 'https://experienceleague.adobe.com/pF4RttF7xMpqHgR70QgOh2dc2m99KCbL0KdYt1FvoPE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1368
+source-wordcount: '1398'
 ht-degree: 2%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Service 11月版
 
 ## 升级到11月版
@@ -40,7 +48,7 @@ ht-degree: 2%
 (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-（例如：http://&lt;_localhost:8080_/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678）
+（例如：http://&lt;_localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678）
 
 * 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
@@ -72,7 +80,7 @@ AEM Guides as a Cloud Service在11月版本中提供了以下增强功能和新�
 
 ### 从存储库面板中删除文件
 
-现在，您可以从存储库面板的选定文件的&#x200B;**选项**&#x200B;菜单中轻松删除文件（一次删除一个文件）。
+现在，您可以从存储库面板的选定文件的&#x200B;**选项**菜单中轻松删除文件（一次删除一个文件）。
 <img src="assets/repository-delete-file.png" alt="从存储库中删除" width="500">
 
 删除文件之前会显示确认提示。 如果文件未从任何其他文件引用，则会将其删除，并显示一条成功消息。

@@ -5,25 +5,34 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-TQID: https://experienceleague.adobe.com/gekOxsimiTMF2Ch3cRsMAkMMnI7tRKVKZmdTVU9cxTs
+TQID: 'https://experienceleague.adobe.com/gekOxsimiTMF2Ch3cRsMAkMMnI7tRKVKZmdTVU9cxTs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1972
+source-wordcount: '1972'
 ht-degree: 0%
-
 ---
-
 # 使用基线 {#id1825FI0J0PF}
 
 基线功能允许您创建随后可用于发布或翻译的主题和资产的版本。 例如，如果您的DITA映射有`topicA`和`imageA`，则可以创建基线以使用`topicA`的第3版本，而使用`ImageA`的第4版本。 一旦基线就位，您只需单击一下即可发布或翻译不同版本的主题。
@@ -57,7 +66,7 @@ ht-degree: 0%
 执行以下步骤以创建基线：
 
 1. 在“基线”页面上，单击&#x200B;**创建**。
-1. 在&#x200B;**基线名称**&#x200B;中输入基线的名称。
+1. 在&#x200B;**基线名称**中输入基线的名称。
    ![创建基线](images/create-baseline.png){width="800"}
 1. 在&#x200B;**设置基于**&#x200B;的版本中，选择以下选项之一：
 
@@ -161,7 +170,7 @@ ht-degree: 0%
 1. 如果要将标签应用于从子映射引用的主题，请选择&#x200B;**将标签应用于子映射和依赖项**&#x200B;选项。
 
    - 单击&#x200B;**添加**。
-指定的标签将添加到DITA映射以及引用的主题和内容。
+     指定的标签将添加到DITA映射以及引用的主题和内容。
 
      ![](images/label-added-baseline-uuid.png){width="650"}
 
@@ -195,4 +204,4 @@ ht-degree: 0%
 1. \（可选\）要导出已导出的基线，请选择&#x200B;**覆盖现有基线**，然后单击&#x200B;**导出基线**。
 
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

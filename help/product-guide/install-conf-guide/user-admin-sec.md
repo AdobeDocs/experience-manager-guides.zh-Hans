@@ -5,13 +5,28 @@ feature: User Management
 role: Admin
 level: Experienced
 exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+    internal-label: User management
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 10%
-
 ---
-
 # 用户管理和安全性 {#id181AED00G5Z}
 
 要在AEM Guides中访问和配置功能，您需要创建用户。 然后，可以为这些用户分配访问AEM Guides中所有功能或特定功能的权限。 了解如何配置和维护用户授权，并了解在AEM中身份验证和授权的工作原理基础。
@@ -20,7 +35,7 @@ Adobe Experience Manager文档中的以下主题将帮助您了解用户管理�
 
 | 云服务 | 内部部署 |
 |---|---|
-| [AEM用户、组和权限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hans)<br>[用户管理和安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=zh-Hans) | [AEM中的用户和组](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEM中的权限](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[管理用户和组](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[管理权限](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [AEM用户、组和权限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[用户管理和安全性](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) | [AEM中的用户和组](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEM中的权限](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[管理用户和组](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[管理权限](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## AEM Guides创建的用户组 {#id181TF0K0MHT}
@@ -85,11 +100,11 @@ AEM Guides提供了三个现成的组。 这些组是： *作者*、*审阅者*&
 
 - 默认情况下，*发布者*&#x200B;被授予对DAM中以下文件夹的访问和权限：
 
-   - `/content/fmdita` -\>读写（适用于： ![](./assets/Smock_Cloud_18_N.svg)）<br>``/var/dxml``-\>读写（适用于： ![](./assets/Smock_Building_18_N.svg)）
+  - `/content/fmdita` -\>读写（适用于： ![](./assets/Smock_Cloud_18_N.svg)）<br>``/var/dxml``-\>读写（适用于： ![](./assets/Smock_Building_18_N.svg)）
 
-   - `/content/dam/fmdita-outputs` -\>读写
+  - `/content/dam/fmdita-outputs` -\>读写
 
-   - `/content/output/sites` -\>读写
+  - `/content/output/sites` -\>读写
 
   如果您使用除上述默认发布位置之外的任何其他位置，则必须向发布者授予明确的读写权限。
 

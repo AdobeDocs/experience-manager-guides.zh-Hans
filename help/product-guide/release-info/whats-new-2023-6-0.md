@@ -4,24 +4,33 @@ description: 了解Adobe Experience Manager Guides as a Cloud Service 2023年6�
 exl-id: 625f9702-2b91-4622-9fec-282f47f1d7a6
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/fPOg5RioczOxug8ACT9X9seCvXgjZ84mpPMEBUD4yJs
+TQID: 'https://experienceleague.adobe.com/fPOg5RioczOxug8ACT9X9seCvXgjZ84mpPMEBUD4yJs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '1228'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Service 2023年6月版的新增功能
 
 本文介绍Adobe Experience Manager Guides版本2023年6月中的新增功能和增强功能（以后称为&#x200B;*AEM Guides as a Cloud Service*）。
@@ -30,7 +39,7 @@ ht-degree: 0%
 
 ## Web编辑器中的“断开链接”报表
 
-AEM Guides允许您检查技术文档的整体完整性，并从Web编辑器生成报告。在2023年6月版中，AEM Guides现在提供了查看和修复断开链接的功能。这是一个有用的报表，可帮助您管理断开的链接。您可以轻松地查看DITA映射中存在的断开链接并进行修复。
+AEM Guides允许您检查技术文档的整体完整性，并从Web编辑器生成报告。 在2023年6月版中，AEM Guides现在提供了查看和修复断开链接的功能。 这是一个有用的报表，可帮助您管理断开的链接。 您可以轻松地查看DITA映射中存在的断开链接并进行修复。
 ![](assets/broken-link-report.png){width="800"}
 
 修复链接后，该链接不会显示在断开链接列表下。
@@ -55,12 +64,12 @@ AEM Guides允许您检查技术文档的整体完整性，并从Web编辑器生�
 
 ### 支持语言变量
 
-AEM Guides提供对语言变量的支持。您可以使用语言变量在PDF输出中定义开箱即用标签的本地化版本，如注释、警告和警告或静态文本。
+AEM Guides提供对语言变量的支持。 您可以使用语言变量在PDF输出中定义开箱即用标签的本地化版本，如注释、警告和警告或静态文本。
 您可以将语言变量或本地化的标签版本添加到PDF输出和输出模板中的相应部分。
 
 #### PDF输出中的语言变量
 
-您可以使用语言变量为“注意”、“警告”等元素定义本地化标签。您可以用一种或多种语言更新这些变量的值，然后在PDF输出中自动选取本地化的值。
+您可以使用语言变量为“注意”、“警告”等元素定义本地化标签。 您可以用一种或多种语言更新这些变量的值，然后在PDF输出中自动选取本地化的值。
 例如，您可以通过以下方式在PDF输出中显示标签“注释”：
 
 * 英文：注释
@@ -69,8 +78,8 @@ AEM Guides提供对语言变量的支持。您可以使用语言变量在PDF输�
 
 #### 输出模板中的语言变量
 
-如果要创建各种语言的PDF输出，则必须创建各种包含每种语言的本地化文本的PDF模板。现在，使用语言变量功能，您只需创建模板一次。然后，对于需要本地化的任何静态文本，您可以创建相应的语言变量并在模板中使用它们。
-您可以为较长的文本创建语言变量，例如整个句子甚至段落。您还可以应用样式并使用HTML标记来设置这些语言变量的格式。
+如果要创建各种语言的PDF输出，则必须创建各种包含每种语言的本地化文本的PDF模板。 现在，使用语言变量功能，您只需创建模板一次。 然后，对于需要本地化的任何静态文本，您可以创建相应的语言变量并在模板中使用它们。
+您可以为较长的文本创建语言变量，例如整个句子甚至段落。 您还可以应用样式并使用HTML标记来设置这些语言变量的格式。
 
 有关更多详细信息，请查看[对语言变量的支持](../native-pdf/native-pdf-language-variables.md)。
 
@@ -125,14 +134,14 @@ AEM Guides还支持Schematron中的抽象模式。 您可以定义通用抽象�
 
 ## 处理主题定义和枚举的分层定义
 
-AEM Guides提供了创建主题方案映射的强大功能，主题方案映射是DITA映射的一种特殊形式，用于定义分类主题和控制值。现在，通过AEM Guides还可以在映射中定义主题定义，以及在其他映射中定义枚举定义。然后，可以添加映射引用并使用主题方案。
+AEM Guides提供了创建主题方案映射的强大功能，主题方案映射是DITA映射的一种特殊形式，用于定义分类主题和控制值。 现在，通过AEM Guides还可以在映射中定义主题定义，以及在其他映射中定义枚举定义。 然后，可以添加映射引用并使用主题方案。
 主题枚举引用在同一映射或引用的映射中进行解析。
 
 有关处理主题定义和枚举的分层定义的更多详细信息，请参阅[左侧面板](../user-guide/web-editor-features.md#id2051EA0M0HS)部分中的&#x200B;**主题方案**&#x200B;功能描述。
 
 ## 在翻译中支持XLIFF格式
 
-AEM Guides还支持翻译中的XML本地化交换文件格式(XLIFF)格式。现在还可以选择&#x200B;**创建新的XLIFF翻译项目**&#x200B;以将XML内容转换为XLIFF格式。
+AEM Guides还支持翻译中的XML本地化交换文件格式(XLIFF)格式。 现在还可以选择&#x200B;**创建新的XLIFF翻译项目**以将XML内容转换为XLIFF格式。
 使用此格式，您可以将内容导出为行业标准XLIFF格式，然后将其提供给翻译供应商。有关更多详细信息，请参阅[创建翻译项目](../user-guide/translate-documents-web-editor.md#create-translation-project)。
 
 ![](assets/translation-project-types.png){width="350"}

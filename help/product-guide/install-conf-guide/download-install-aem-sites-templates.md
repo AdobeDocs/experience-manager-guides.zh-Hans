@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 53a36126-2075-40c8-8882-f77ad6435715
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 0%
-
 ---
-
 # 下载并安装AEM Sites模板
 
 本指南提供了分步说明，用于设置和配置最新的AEM Guides模板，以在云环境中生成AEM Sites页面。 按照以下步骤安装所需的包，创建和配置预设，以及生成AEM Sites。
@@ -28,14 +43,14 @@ ht-degree: 0%
 
 - **所需权限**：您必须具有以下权限：
 
-   - 访问&#x200B;**Cloud Manager**&#x200B;以部署包。
-   - 访问与您的环境关联的&#x200B;**Git存储库**。
-   - 在AEM Guides中创建和修改预设的权限。
+  - 访问&#x200B;**Cloud Manager**&#x200B;以部署包。
+  - 访问与您的环境关联的&#x200B;**Git存储库**。
+  - 在AEM Guides中创建和修改预设的权限。
 
 - **下载包**：从软件分发门户下载以下包：
 
-   - 组件包：guides-components.all-1.x.0.zip
-   - 站点模板：aemg-docs-1.x.0.zip
+  - 组件包：guides-components.all-1.x.0.zip
+  - 站点模板：aemg-docs-1.x.0.zip
 
 >[!TAB 内部部署]
 
@@ -43,14 +58,14 @@ ht-degree: 0%
 
 - **所需权限**：确保具有以下权限：
 
-   - 访问&#x200B;**软件分发门户**&#x200B;以下载所需的包
-   - 访问&#x200B;**CRX包管理器**&#x200B;以在AEM中安装包。
-   - 在AEM Guides中创建和修改预设的权限。
+  - 访问&#x200B;**软件分发门户**&#x200B;以下载所需的包
+  - 访问&#x200B;**CRX包管理器**&#x200B;以在AEM中安装包。
+  - 在AEM Guides中创建和修改预设的权限。
 
 - **下载包**：从&#x200B;**软件分发门户**&#x200B;下载以下包：
 
-   - 组件包： on-prem-guides-components.all-1.x.0.zip
-   - 站点包：aemg-docs.all-1.x.0.zip
+  - 组件包： on-prem-guides-components.all-1.x.0.zip
+  - 站点包：aemg-docs.all-1.x.0.zip
 
 >[!ENDTABS]
 
@@ -99,7 +114,7 @@ ht-degree: 0%
 >[!TAB 内部部署]
 
 1. **安装组件包：**
-   1. 导航到&#x200B;[**CRX包管理器**](http://&lt;your-aem-instance>/crx/packmgr)。
+   1. 导航到&#x200B;[**CRX包管理器**](http://<your-aem-instance>/crx/packmgr)。
    2. 上传并安装on-prem-guides-components.all-1.x.0.zip包。
 
 2. **安装站点包：**&#x200B;使用CRX包管理器上载并安装aemg-docs.all-1.x.0.zip包。
@@ -179,4 +194,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 对于Cloud Service设置，请确保在部署到生产环境之前在非生产环境中测试所有配置。<br><br> 有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。
+> 对于Cloud Service设置，请确保在部署到生产环境之前在非生产环境中测试所有配置。<br><br> 有关更多详细信息，请参阅官方的[部署到AEM as a Cloud Service文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)。

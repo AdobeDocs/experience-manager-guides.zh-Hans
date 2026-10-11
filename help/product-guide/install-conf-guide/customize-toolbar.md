@@ -5,20 +5,35 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1728'
 ht-degree: 0%
-
 ---
-
 # 自定义工具栏 {#id172FB00L0V6}
 
 默认情况下，该编辑器附带了任何DITA编辑器所需的最常见编辑功能。 编辑器中提供了插入列表\（编号或项目符号\）类型的元素、交叉引用、内容引用、表格、段落和字符格式等功能。 除了这些基本元素之外，您还可以自定义编辑器以插入在创作环境中使用的元素。
 
 >[!NOTE]
 >
-> 从旧UI迁移到新AEM Guides UI（适用于AEM Guides的2502和5.0版本）时，`ui_config`的更新必须转换为更灵活和模块化的UI配置。 此框架有助于在适用的情况下无缝地采用对editor_toolbar和其他目标构件所做的更改。 有关详细信息，请查看[转换UI配置概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
+> 从旧UI迁移到新AEM Guides UI（适用于AEM Guides的2502和5.0版本）时，`ui_config`的更新必须转换为更灵活和模块化的UI配置。 此框架有助于在适用的情况下无缝地采用对editor_toolbar和其他目标构件所做的更改。 有关详细信息，请查看[转换UI配置概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)。
 
 自定义编辑器工具栏的方法有两种：
 
@@ -55,16 +70,16 @@ ht-degree: 0%
    **项**：在工具栏中指定所有组的定义。 每个组可以包含一个或多个工具栏图标。 若要在工具栏组中定义图标，您需要在`items`中再次定义`type`属性，并将其值设置为`buttonGroup`。 在`extraclass`属性中指定一个或多个类名。 在`label`属性中指定功能名称。 `ui_config.json`文件中的以下代码片段显示了主工具栏块的定义，后跟`buttonGroup`定义：
 
        “
-     ”工具栏“： &lbrace;
+     ”工具栏“： {
      ”类型“： &quot;blockGroup&quot;，
      ”extraclass“：
      ”工具栏操作“，
-     ”项“： &lbrack;
-     &lbrace;
+     ”项“： [
+     {
      ”类型“： &quot;buttonGroup&quot;，
      ”extraclass“： &quot;left-controls&quot;，
      ”label“： &quot;Left Controls&quot;，
-     ”项： &lbrack;
+     ”项： [
      &quot;&#39;
    
    在`items`集合中，您需要指定一个或多个工具栏图标的定义。
@@ -81,9 +96,9 @@ ht-degree: 0%
 
    **单击**：在JavaScript文件中指定为该功能定义的命令名称。 如果命令需要输入参数，则将命令名称指定为：
 
-       &grave;&grave;Javascript
+       ``Javascript
      `单击`： {`name`： &quot;AUTHOR_INSERT_ELEMENT&quot;， &quot;args&quot;： &quot;simpletable&quot;}
-     &grave;&grave;
+     ``
    
    **显示或隐藏**：如果要定义`show`属性，请指定图标的显示模式。 可能的值为 — `@isAuthorMode`、`@isSourceMode`、`@isPreviewMode`、`true` \（在所有模式下显示\）或`false` \（在所有模式下隐藏\）。
 
@@ -133,7 +148,7 @@ ht-degree: 0%
 
 1. 在`ui_config.json`文件中，在工具栏部分中添加新功能的定义。 通常，您可以创建新的工具栏按钮组，并向其添加一个或多个工具栏按钮。 或者，您可以在现有工具栏组中添加新的工具栏按钮。 需要以下详细信息才能创建新的工具栏组：
 
-   - **type：**&#x200B;指定`blockGroup`作为`type`值。 此值表示您正在创建包含一个或多个工具栏组的块组。
+   - **type：**指定`blockGroup`作为`type`值。 此值表示您正在创建包含一个或多个工具栏组的块组。
 
    - **extraclass：**&#x200B;用空格分隔的一个或多个类的名称。
 
@@ -153,7 +168,7 @@ ht-degree: 0%
      ```
 
      在`items`集合中，您需要指定一个或多个工具栏图标的定义。
-您需要定义以下属性以添加工具栏图标：
+     您需要定义以下属性以添加工具栏图标：
 
    - **类型：**&#x200B;指定`button`作为`type`值。 此值表示您正在添加工具栏按钮。
 

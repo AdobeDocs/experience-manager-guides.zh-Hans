@@ -4,23 +4,31 @@ description: 了解Adobe Experience Manager Guides 4.3.1版本中的新增功能
 exl-id: 14db7453-ccc1-4709-903f-677f55c263b2
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/ARoAPa2b8DUCuRMbl4-8QwulfVtXMYnE9ixKVGlTJIg
+TQID: 'https://experienceleague.adobe.com/ARoAPa2b8DUCuRMbl4-8QwulfVtXMYnE9ixKVGlTJIg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1136
+source-wordcount: '1143'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides 4.3.1版的新增功能（2023年10月）
 
 本文介绍Adobe Experience Manager Guides版本4.3.1中的新增功能和增强功能（以后称为&#x200B;*Experience Manager Guides*）。
@@ -47,7 +55,7 @@ Experience Manager Guides提供开箱即用的连接器，帮助您连接数据�
 
 Experience Manager Guides现在还提供了一个&#x200B;**数据源**&#x200B;工具，可帮助您为数据源配置现成的连接器。 您可以轻松为JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce和Elasticsearch数据库创建连接器。
 
-您还可以轻松地编辑、重新连接、复制或删除数据源连接器。 了解有关如何从用户界面[&#128279;](../install-guide/conf-data-source-connector-tools.md)轻松配置数据源连接器的更多信息。
+您还可以轻松地编辑、重新连接、复制或删除数据源连接器。 了解有关如何从用户界面](../install-guide/conf-data-source-connector-tools.md)轻松[配置数据源连接器的更多信息。
 
 数据源面板中列出了![数据源连接器](assets/data-sources-create-window.png){width="550"}
 
@@ -76,7 +84,7 @@ Experience Manager Guides现在还提供了一个&#x200B;**数据源**&#x200B;�
 
 ### 在目录中查看没有自动编号的章节
 
-Experience Manager Guides在目录(TOC)中显示章节编号和章节名称。 现在，您可以选择仅发布章节名称，而不发布章节编号。 查看有关如何配置模板[&#128279;](../native-pdf/components-pdf-template.md#advanced-pdf-settings)的高级PDF设置的更多详细信息。
+Experience Manager Guides在目录(TOC)中显示章节编号和章节名称。 现在，您可以选择仅发布章节名称，而不发布章节编号。 查看有关如何配置模板](../native-pdf/components-pdf-template.md#advanced-pdf-settings)的[高级PDF设置的更多详细信息。
 
 ## 从Web编辑器下载映射
 

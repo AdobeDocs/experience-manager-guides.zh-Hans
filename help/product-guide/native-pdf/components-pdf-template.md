@@ -5,7 +5,7 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
+TQID: 'https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,10 +16,16 @@ feature_v2:
     internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '5049'
 ht-degree: 0%
@@ -272,7 +278,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
   >如果您是CSS开发人员，则也可以直接在CSS文件中定义引线格式。
 
 * **使用表继续标记**：选择此选项可定义跨多个页面的长表的标记。
-您可以定义要在断点前后显示的文本。 例如，第5页上有表分隔，而您为&#x200B;**分隔前文本**&#x200B;定义`<Continued on page %page-num%>`。  文本在第5页的底部显示“第6页继续”。
+您可以定义要在断点前后显示的文本。 例如，第5页上有表分隔，而您为**分隔前文本**&#x200B;定义`<Continued on page %page-num%>`。  文本在第5页的底部显示“第6页继续”。
 
   使用语言变量定义断点前后连续标记文本。 根据您选择的语言，将在PDF输出中自动选取本地化的值。 例如，您可以将`Continued on page %page-num%`发布为英语文本，将`Fortsetzung auf Seite %page-num%`发布为德语文本。
 
@@ -496,11 +502,11 @@ AEM Guides提供了以下开箱即用的变量：
 将`${lng:<variable name>}`添加到“段落”部分时，输出段落中的交叉引用包含本地化文本和页码。\
 例如，以下屏幕截图以英语显示交叉引用“View on page 1”并以德语显示“Einzelheiten finden Sie auf der Seite 1”。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出" width ="800" border="2px">
 
 *以英语发布时，段落中的交叉引用。*
 
-<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出" width ="800" border="2px">
 
 *以德语发布的段落中的交叉引用。*
 

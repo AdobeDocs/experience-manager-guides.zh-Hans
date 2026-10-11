@@ -5,33 +5,48 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/IkHZuSR5DLwAFy2ll9n0MN2syoqjScq7oUh7pRiQyjA
+TQID: 'https://experienceleague.adobe.com/IkHZuSR5DLwAFy2ll9n0MN2syoqjScq7oUh7pRiQyjA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 subfeature_v2:
   - id: baa3aa24-d162-4a57-b73a-d27341145083
+    internal-label: Performance optimization
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+    internal-label: Template configuration
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+    internal-label: Optimization
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5886
+source-wordcount: '5893'
 ht-degree: 1%
-
 ---
-
 # 配置输出生成设置 {#id181AI0B0E30}
 
 AEM Guides提供了许多配置选项，供您自定义输出生成过程。 本主题介绍有助于您设置输出生成过程的所有配置和自定义设置。
@@ -77,8 +92,8 @@ AEM Guides提供了许多配置选项，供您自定义输出生成过程。 本
 
 | 属性 | 描述 |
 |--------|-----------|
-| FrameMaker Publishing Server登录域 | 指定托管FrameMaker Publishing Server的域名或工作组名称。 基于FMPS版本，提供域名为:- **FMPS 2020**：IP地址为192.168.1.101 <br>- **FMPS 2019及更早版本**：IP地址或域名 |
-| FRAMEMAKER PUBLISHING SERVER URL | 指定FrameMaker Publishing Server的URL 基于FMPS版本，提供FMPS URL为：<br>- **FMPS 2020**： `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019及更早版本**： `http://<fmps_ip>:<port>/fmserver/v1/` |
+| FrameMaker Publishing Server登录域 | 指定托管FrameMaker Publishing Server的域名或工作组名称。 基于FMPS版本，提供域名：- **FMPS 2020**：IP地址为192.168.1.101 <br>- **FMPS 2019及更早版本**：IP地址或域名 |
+| FRAMEMAKER PUBLISHING SERVER URL | 指定FrameMaker Publishing Server的URL 基于FMPS版本，提供FMPS URL为：<br>- **FMPS 2020**： `http://<fmps_ip>:<port>` \(http://192.168.1.101：7000\) <br> - **FMPS 2019及更早版本**： `http://<fmps_ip>:<port>/fmserver/v1/` |
 | FMPS版本 | 指定FrameMaker Publishing Server的版本号。 基于FMPS版本，提供版本信息： <br>- **FMPS 2020**： 2020 <br> - **FMPS 2019及更早版本**： 2019或2017 |
 | FrameMaker Publishing Server用户名和密码 | 指定用于访问FrameMaker Publishing Server的用户名和密码。 |
 | FMPS超时 | \（*可选*\）指定AEM Guides等待FrameMaker Publishing Server响应的时间\（以秒为单位）。 如果在指定时间内未收到响应，则AEM Guides将终止发布任务，并且该任务被标记为失败。<br> 默认值：300秒\（5分钟\） |
@@ -205,7 +220,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 >
 > 创建自定义设计模板节点后，必须更新AEM站点输出预设中的设计选项才能使用自定义设计模板节点。
 
-有关详细信息，请参阅[创建您的第一个Adobe Experience Manager 6.3网站](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html)和[在AEM上开发您自己的网站的基础知识](https://helpx.adobe.com/cn/experience-manager/6-3/sites/developing/using/the-basics.html)。
+有关详细信息，请参阅[创建您的第一个Adobe Experience Manager 6.3网站](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html)和[在AEM上开发您自己的网站的基础知识](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html)。
 
 ### 使用文档标题生成AEM站点输出
 
@@ -262,7 +277,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 
 1. 搜索并单击&#x200B;*com.adobe.fmdita.common.SanizeNodeNameImpl*&#x200B;包。
 
-1. 在&#x200B;**不允许发布到AEM Sites**&#x200B;属性的字符集中，确保将该属性设置为`<>`&#x200B;`@$`。 您可以向此列表添加更多特殊字符，但是，它必须具有这些必需的特殊字符。
+1. 在&#x200B;**不允许发布到AEM Sites**&#x200B;属性的字符集中，确保将该属性设置为`<>``@$`。 您可以向此列表添加更多特殊字符，但是，它必须具有这些必需的特殊字符。
 
    >[!NOTE]
    >
@@ -352,7 +367,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 ### 在AEM站点输出中为已删除的页面配置版本控制
 
-生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;**&#x200B;**&#x200B;选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
+生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;****选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
 
 执行以下步骤可停止为要删除的页面创建版本：
 
@@ -662,11 +677,11 @@ AEM Guides提供了用于自定义映射控制台的`apps.fmdita.dashboard-extn`
 
 >[!NOTE]
 >
-> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://helpx.adobe.com/cn/experience-manager/6-4/sites/developing/using/clientlibs.html)。
+> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html)。
 
 ## 在输出生成期间处理图像演绎版 {#id177BF0G0VY4}
 
-AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://helpx.adobe.com/cn/experience-manager/6-5/assets/using/media-handlers.html)。
+AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html)。
 
 AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 例如，您可以从默认图像演绎版中选择或创建图像演绎版，然后使用相同的图像演绎版发布文档。 用于发布文档的图像演绎版映射存储在`/libs/fmdita/config/ **renditionmap.xml**`文件中。 `renditionmap.xml`文件的片段如下所示：
 
@@ -749,7 +764,7 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
 
 1. 在&#x200B;**输出历史记录清除周期**&#x200B;属性中，指定清除输出历史记录以及输出日志的天数。 默认情况下，该时间设置为5天。 如果要禁用此功能，则将此属性设置为0。
 
-1. 在&#x200B;**输出历史记录清除时间**&#x200B;属性中，指定启动清除过程的时间。 默认情况下，它被设置为0:00 \（或12:00午夜\）。 每天在此时间，清除进程都在&#x200B;**输出历史记录清除周期**&#x200B;属性中指定的天数之前生成的输出上执行。
+1. 在&#x200B;**输出历史记录清除时间**&#x200B;属性中，指定启动清除过程的时间。 默认情况下，设置为0:00 \（或12:00午夜\）。 每天在此时间，清除进程都在&#x200B;**输出历史记录清除周期**&#x200B;属性中指定的天数之前生成的输出上执行。
 
    >[!NOTE]
    >

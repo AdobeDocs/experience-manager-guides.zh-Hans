@@ -5,25 +5,32 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/z0del86WAJYu5cd2-h2RPuWvi1FwzvyeyEn-1zKDvl4
+TQID: 'https://experienceleague.adobe.com/z0del86WAJYu5cd2-h2RPuWvi1FwzvyeyEn-1zKDvl4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: c1a26c73-5f45-427a-a313-7cb7df2c304e
+    internal-label: Search configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1596
+source-wordcount: '1596'
 ht-degree: 1%
-
 ---
-
 # 配置AEM Assets UI搜索 {#id192SC800MY4}
 
 默认情况下，AEM不识别DITA内容，因此，它不提供任何机制来搜索其存储库中的DITA内容。 此外，OOTB不具备根据内容的UUID搜索内容的功能。 AEM Guides允许您在AEM存储库中添加DITA内容搜索和基于UUID的搜索功能。
@@ -231,7 +238,7 @@ XPath查询包含文档类型的类名。 `topic/topic`类用于主题类型DITA
 
 >[!NOTE]
 >
-> 您可以使用此过程将任何其他文件夹位置添加到排除列表中。 有关使用索引的更多详细信息，请参阅[内容搜索和索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=zh-Hans)。
+> 您可以使用此过程将任何其他文件夹位置添加到排除列表中。 有关使用索引的更多详细信息，请参阅[内容搜索和索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html)。
 
 1. 在自定义damAssetLucene索引中添加以下属性：
 

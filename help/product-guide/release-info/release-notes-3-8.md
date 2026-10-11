@@ -1,13 +1,19 @@
 ---
 title: Adobe Experience Manager Guides 3.8和3.8.5发行说明
 description: Adobe Experience Manager Guides版本3.8和3.8.5中的主要新增功能和增强功能（以前称为XML Documentation解决方案）。
-source-git-commit: ff3d35832b80f6221f1261498934ab74261b282b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
-
 ---
-
 
 # 发行说明 |Adobe Experience Manager Guides 3.8
 
@@ -66,8 +72,8 @@ ht-degree: 0%
   ![Version提示](assets/old-version-icon.avif)
 
 - 此发行版本中引入了新的版本历史记录功能。 使用“版本历史记录”功能可以：
-   - 查看当前活动主题的所有版本的列表以及为每个版本添加的标签。
-   - 还原到该主题的先前版本。
+  - 查看当前活动主题的所有版本的列表以及为每个版本添加的标签。
+  - 还原到该主题的先前版本。
 
   ![版本历史记录](assets/version-history.avif)
 
@@ -98,9 +104,9 @@ ht-degree: 0%
 #### 发布
 
 - **允许为生成的站点页面配置清理规则**：作为管理员，您可以为生成的AEM站点或DITA-OT输出的文件名定义清理规则。 每当您使用DITA-OT生成AEM Site输出或输出时，都可以配置以下规则以清理输出生成的URL或文件名：
-   - 将所有字符转换为小写。
-   - 使用分隔符替换特殊字符。
-   - 将长文件名限制为预定义的字符数。
+  - 将所有字符转换为小写。
+  - 使用分隔符替换特殊字符。
+  - 将长文件名限制为预定义的字符数。
 
 - 使用批量激活仪表板，轻松地将输出从创作实例推送到发布实例。 您可以使用单个地图或地图收藏集，并选择要用于发布的输出预设。
 

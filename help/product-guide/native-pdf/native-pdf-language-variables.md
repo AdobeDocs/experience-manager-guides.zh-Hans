@@ -5,19 +5,28 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
+TQID: 'https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -132,7 +141,7 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 >[!NOTE]
 > 
 ><ul><li>如果文件不是XML文件，或者如果文件包含的格式不正确，且未使用语言变量进行映射，则您将看到一个错误，表明XML文件存在问题。 
->&gt;<li>如果文件不包含具有相同ID的变量，您将看到一条警告，指出在导入的文件中未找到匹配的语言变量。
+&gt;<li>如果文件不包含具有相同ID的变量，您将看到一条警告，指出在导入的文件中未找到匹配的语言变量。
 
 ### 语言变量的选项
 
@@ -140,10 +149,10 @@ Experience Manager Guides支持导出和导入以选定语言显示的语言变�
 
 <img width="550" alt="语言变量的选项菜单" src="./assets/language-variable-user-options.png">
 
-*使用&#x200B;**选项**&#x200B;菜单删除、预览或复制语言变量。*
+*使用&#x200B;**选项**菜单删除、预览或复制语言变量。*
 
 您可以预览应用程序和用户变量。 要查看变量值在输出中的显示方式，请从所选变量的&#x200B;**选项**&#x200B;菜单中选择&#x200B;**预览**。
-您还可以选择&#x200B;**删除**&#x200B;或&#x200B;**复制**&#x200B;用户变量。 从一种语言中删除变量会自动将其从所有语言中删除。
+您还可以选择**删除**&#x200B;或&#x200B;**复制**&#x200B;用户变量。 从一种语言中删除变量会自动将其从所有语言中删除。
 
 ### 编辑或还原应用程序变量
 

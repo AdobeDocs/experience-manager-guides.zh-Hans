@@ -2,20 +2,26 @@
 title: 发行说明 | Adobe Experience Manager Guides 2026.05.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 2026.05.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
-
 ---
-
 # 2026.05.0版（2026年5月）的新增功能
 
 本文介绍Adobe Experience Manager Guides as a Cloud Service 2026.05.0版本中引入的新增功能和增强功能。
 
 有关此版本中修复的问题列表，请查看[2026.05.0版本中的已修复问题](fixed-issues-2026-05-0.md)。
 
-了解2026.05.0版本[&#128279;](../release-info/upgrade-instructions-2026-05-0.md)的升级说明。
+了解2026.05.0版本](../release-info/upgrade-instructions-2026-05-0.md)的[升级说明。
 
 ## Editor 2.0简介
 
@@ -46,10 +52,10 @@ Editor 2.0（又称“新编辑器”）提供了简化的创作过程，使您�
 
 - **统一的用户级编辑器设置**：新的集中式设置面板，它使作者更好地控制编辑器行为，允许用户从单个位置更轻松地管理首选项。 配置选项包括启用/禁用功能：
 
-   - 创作模式中的不间断空格
-   - 具有属性或不具有属性的标记可见性设置
-   - 创作模式中的XML注释
-   - 在编辑器中插入元素的快速插入菜单
+  - 创作模式中的不间断空格
+  - 具有属性或不具有属性的标记可见性设置
+  - 创作模式中的XML注释
+  - 在编辑器中插入元素的快速插入菜单
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -82,9 +88,9 @@ Editor 2.0（又称“新编辑器”）提供了简化的创作过程，使您�
 
 - **改进了表创作**：通过更直观、更高效的交互来创建和管理表，增强了整个表创作体验。
 
-   - 流畅而直观的交互：可轻松插入行和列，并且支持拖放以重新排列行和列。
-   - 上下文工具栏：直接在表中访问特定于表的操作，例如格式设置、对齐、合并和其他附加操作。
-   - 配置表：在单个操作中添加多个行或列，从而减少重复步骤并提高效率。
+  - 流畅而直观的交互：可轻松插入行和列，并且支持拖放以重新排列行和列。
+  - 上下文工具栏：直接在表中访问特定于表的操作，例如格式设置、对齐、合并和其他附加操作。
+  - 配置表：在单个操作中添加多个行或列，从而减少重复步骤并提高效率。
 
   ![](assets/config-table.png){width="650"}
 
@@ -106,7 +112,7 @@ Editor 2.0（又称“新编辑器”）提供了简化的创作过程，使您�
 
 - 您现在可以启用&#x200B;**自动提醒**，以便在审核任务的到期日之前和到期之后，为审核者安排AEM通知和电子邮件提醒。 您可以为每个案例配置多个提醒，根据配置的提醒计划，按定义的顺序发送预过期提醒，并在任务标记为过期后触发过期提醒。 有关详细信息，请查看[发送审阅主题](../user-guide/review-send-topics-for-review.md)。
 
-- 查看者现在可以访问所查看主题的版本历史记录，从而允许他们在以前的查看任务中查看和比较同一主题的先前已查看版本和更新版本。 这有助于审阅人通过审阅当前审阅上下文中的注释、标签和其他相关详细信息，来验证自早期审阅周期以来所做的更改并保持连续性。 有关详细信息，请查看审阅者[&#128279;](../user-guide/review-topics.md#version-history-for-the-reviewer)的版本历史记录。
+- 查看者现在可以访问所查看主题的版本历史记录，从而允许他们在以前的查看任务中查看和比较同一主题的先前已查看版本和更新版本。 这有助于审阅人通过审阅当前审阅上下文中的注释、标签和其他相关详细信息，来验证自早期审阅周期以来所做的更改并保持连续性。 有关详细信息，请查看审阅者](../user-guide/review-topics.md#version-history-for-the-reviewer)的[版本历史记录。
 
 ## Experience Manager Guides中引入的新基线体验
 
@@ -122,7 +128,7 @@ Editor 2.0（又称“新编辑器”）提供了简化的创作过程，使您�
 - 更强的UI和后端一致性
 - 扩展的筛选、导航和依赖项可见性
 
-有关详细信息，请在Experience Manager Guides[&#128279;](../user-guide/web-editor-baseline-v2.md)中查看新的基线体验(Beta)。
+有关详细信息，请在Experience Manager Guides](../user-guide/web-editor-baseline-v2.md)中查看[新的基线体验(Beta)。
 
 
 

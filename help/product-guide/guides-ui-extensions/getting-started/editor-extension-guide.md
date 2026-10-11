@@ -4,13 +4,28 @@ description: 了解Editor 2.0扩展框架中的更改
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2006'
 ht-degree: 4%
-
 ---
-
 # 编辑器2.0（新编辑器）的扩展框架更改
 
 本文档介绍了作为新编辑器（基于ProseMirror的编辑器）的扩展框架的一部分添加到`guides.editor`（和`guides`）的所有API。 这些API允许外部扩展与编辑器交互，而无需直接DOM操作或内部实施知识。
@@ -240,63 +255,63 @@ guides.ready(() => {
   | 查找和替换 | `findNext` | _（无）_ | 移到下一个搜索匹配 |
   | 查找和替换 | `replaceAll` | `replacement?: string` | 将当前搜索查询的所有匹配项替换为`replacement` |
 
-   - **示例：在节点**&#x200B;上设置多个属性
+  - **示例：在节点**&#x200B;上设置多个属性
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttributes",
-       rootRange.from,
-       { createdDate: "2024-01-01", author: "Jane Doe" }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttributes",
+      rootRange.from,
+      { createdDate: "2024-01-01", author: "Jane Doe" }
+    );
+    ```
 
-   - **示例：在节点**&#x200B;上设置单个属性
+  - **示例：在节点**&#x200B;上设置单个属性
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttribute",
-       range.from,
-       "placeholdertext",
-       "Chapter 3 — Safety Requirements"
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttribute",
+      range.from,
+      "placeholdertext",
+      "Chapter 3 — Safety Requirements"
+    );
+    ```
 
-   - **示例：使用元素环绕选择并设置属性**
+  - **示例：使用元素环绕选择并设置属性**
 
-     ```js
-     const didWrap = guides.editor.runCommand(
-       "surroundWithElement",
-       "ph",
-       { outputclass: "highlight" },
-       true   // replace text content with empty node
-     );
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand(
+      "surroundWithElement",
+      "ph",
+      { outputclass: "highlight" },
+      true   // replace text content with empty node
+    );
+    ```
 
-   - **示例：`<sup>`中的换行选择（打开上标）**
+  - **示例：`<sup>`中的换行选择（打开上标）**
 
-     ```js
-     const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
-     if (!didWrap) {
-       tcx.util.showAlert("warning", "superscript is not allowed here");
-     }
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
+    if (!didWrap) {
+      tcx.util.showAlert("warning", "superscript is not allowed here");
+    }
+    ```
 
-   - **示例：取消当前节点的包装（关闭上标）**
+  - **示例：取消当前节点的包装（关闭上标）**
 
-     ```js
-     const didUnwrap = guides.editor.runCommand('unwrapNode');
-     ```
+    ```js
+    const didUnwrap = guides.editor.runCommand('unwrapNode');
+    ```
 
-   - **示例：在光标处插入XML，插入符号位于**&#x200B;内
+  - **示例：在光标处插入XML，插入符号位于**&#x200B;内
 
-     ```js
-     guides.editor.runCommand(
-       'insertXml',
-       '<sup></sup>',
-       undefined,
-       { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      'insertXml',
+      '<sup></sup>',
+      undefined,
+      { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
+    );
+    ```
 
 - `guides.editor.canRunCommand(commandName, ...args)`：检查命名命令当前是否可以执行，而不实际运行它。
 
@@ -461,7 +476,7 @@ guides.ready(() => {
   | `filter` | `(node) => boolean` | 可选谓词 — 仅修饰其返回`true`的节点 |
 
   传递到`computeAttributes`的`context`对象包括：
-   - `index` — 在匹配选择器的同级节点中，从0开始的节点位置
+  - `index` — 在匹配选择器的同级节点中，从0开始的节点位置
 
   **示例：将CSS类添加到所有`<section>`元素**
 

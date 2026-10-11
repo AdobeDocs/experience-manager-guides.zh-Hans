@@ -4,24 +4,33 @@ description: 了解Adobe Experience Manager Guides 4.2.1版本中的新增功能
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/k-n-2PgbaHCR7-9cpjaeK1vD3T2rA-TeuMxBI78dpIU
+TQID: 'https://experienceleague.adobe.com/k-n-2PgbaHCR7-9cpjaeK1vD3T2rA-TeuMxBI78dpIU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 672
+source-wordcount: '706'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides 4.2.1版的新增功能（2023年5月）
 
 本文介绍Adobe Experience Manager Guides版本4.2.1中的新增功能和增强功能（以后称为&#x200B;*AEM Guides*）。
@@ -67,7 +76,7 @@ AEM Guides提供了一个改进的“大纲视图”面板，您可以在其中�
 
 AEM Guides提供了为技术文档生成报表的功能。  您可以使用此功能查看主题列表和管理文档的元数据。 现在，您还可以从Web编辑器的&#x200B;**报告**&#x200B;选项卡中查看当前映射的所有引用中使用的多媒体。
 
-您可以生成多媒体报告，该报告包含有关当前映射中引用使用的多媒体的详细信息。您可以灵活地筛选和排序报表中列出的多媒体文件。
+您可以生成多媒体报告，该报告包含有关当前映射中引用使用的多媒体的详细信息。 您可以灵活地筛选和排序报表中列出的多媒体文件。
 您还可以生成CSV来下载DITA映射中使用的多媒体的当前快照。
 
 <img src="assets/web-editor-reports-multimedia.png" alt="多媒体报告" width="600">

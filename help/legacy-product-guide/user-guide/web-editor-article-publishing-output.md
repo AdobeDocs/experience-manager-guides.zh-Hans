@@ -5,26 +5,38 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
-TQID: https://experienceleague.adobe.com/GZOGl14UmdRzGDEjvdrqHtnKRUFq29oksvNlR-lcTpA
+TQID: 'https://experienceleague.adobe.com/GZOGl14UmdRzGDEjvdrqHtnKRUFq29oksvNlR-lcTpA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 541
+source-wordcount: '541'
 ht-degree: 0%
-
 ---
-
 # 从“存储库”面板或“映射视图”面板生成输出 {#id218CL6010AE}
 
 也可以使用为DITA映射创建的输出预设从“存储库”面板或“映射视图”面板生成输出。
@@ -43,7 +55,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**作者**&#x200B;选项卡中，选择要发布的DITA映射中的主题。
 
-1. 从所选主题的“选项”菜单中选择“快速生成”**&#x200B;**。
+1. 从所选主题的“选项”菜单中选择“快速生成”****。
    ![](images/select-topic-options-menu_cs.png){width="650"}
 
 1. 要发布单个DITA映射中使用的主题，请选择要发布的映射的输出预设，然后单击&#x200B;**生成**。
@@ -71,7 +83,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**作者**&#x200B;选项卡中，选择要发布的DITA映射。
 
-1. 从DITA映射的“选项”菜单中选择“快速生成”**&#x200B;**。
+1. 从DITA映射的“选项”菜单中选择“快速生成”****。
 
    ![](images/select-map-options-menu_cs.png){width="650"}
 
@@ -99,4 +111,4 @@ ht-degree: 0%
 1. 您将看到输出生成过程的状态。要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
 
 
-**父主题：**&#x200B;[&#x200B;从Web编辑器中基于文章的发布](web-editor-article-publishing.md)
+**父主题：**[&#x200B;从Web编辑器中基于文章的发布](web-editor-article-publishing.md)

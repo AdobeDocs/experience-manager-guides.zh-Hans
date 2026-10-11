@@ -4,27 +4,37 @@ description: 了解如何从地图控制台和地图仪表板创建自定义预�
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/zoJtHeS1Zs8Zs5NYWqY5B5ZshCiVSv2Sen0ZgpMCj7w
+TQID: 'https://experienceleague.adobe.com/zoJtHeS1Zs8Zs5NYWqY5B5ZshCiVSv2Sen0ZgpMCj7w'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1396
+source-wordcount: '1396'
 ht-degree: 0%
-
 ---
-
 # 自定义 {#id205BEF00PX0}
 
 自定义输出预设可用于自定义DITA-OT插件。 您可以创建一个自定义DITA-OT输出预设，以使用自定义DITA-OT插件发布输出。
@@ -121,5 +131,5 @@ ht-degree: 0%
 | 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br> 查看[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以了解更多详细信息。 |
 | 文件属性/属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性显示在&#x200B;**文件属性**&#x200B;字段下。 选择资产旁边的交叉图标以将其删除。 <br><br>**注意**：您还可以使用DITA-OT发布将元数据传递到输出。 有关更多详细信息视图，[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)将元数据传递到输出。 |
 
-**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)
 

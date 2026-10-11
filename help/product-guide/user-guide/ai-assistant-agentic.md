@@ -1,7 +1,15 @@
 ---
 title: 用于智能标记功能的代理AI助手
 description: 了解如何使用Agentic AI Assistant在单个操作中为主题和地图提供智能标记功能。
-source-git-commit: cea0720e6482361a87b0e1dcff82760e3105436c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 0%
@@ -112,7 +120,7 @@ AI助手面板提供生成、查看和应用AI建议标记所需的所有工具�
      ![代理AI助手批量标记](images/ai-map-selection.png){width="650"}
 
 1. 选择&#x200B;**发送**。
-一条消息指示所选映射包含多个主题。 选择&#x200B;**选择主题**&#x200B;以选择要为其标记推荐的主题。
+一条消息指示所选映射包含多个主题。 选择**选择主题**&#x200B;以选择要为其标记推荐的主题。
 
    ![选择主题时批量AI助手标记](images/ai-select-topics.png){width="650"}
 

@@ -4,21 +4,28 @@ description: 了解Adobe Experience Manager Guides as a Cloud Service 2023年11�
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/XAwjfiapDvgvcwAuWm943W36PsAEiBfJUkN37DJeSZ0
+TQID: 'https://experienceleague.adobe.com/XAwjfiapDvgvcwAuWm943W36PsAEiBfJUkN37DJeSZ0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: '848'
 ht-degree: 0%
-
 ---
-
 # 2023年11月版Adobe Experience Manager Guides as a Cloud Service的新增功能
 
 本文介绍2023年11月版本的Adobe Experience Manager Guides（以后称为&#x200B;*Experience Manager Guides as a Cloud Service*）中的新增功能和增强功能。
@@ -67,14 +74,14 @@ Experience Manager Guides现在改进了本机PDF模板的资源管理。 您现
 
 ![用户首选项对话框](assets/user-preferences-2311.png){width="550"}
 
-*从&#x200B;**用户首选项**&#x200B;对话框更改查看文件的默认方式。*
+*从&#x200B;**用户首选项**对话框更改查看文件的默认方式。*
 
 
 ### 管理条件预设
 
 您可以在DITA主题中定义条件属性。 然后，使用条件预设中的条件属性发布DITA映射中的内容。 Experience Manager Guides现在还允许您从Web编辑器创建和管理条件预设。 您还可以轻松地编辑、复制或删除它们。
 
-Web编辑器![&#128279;](assets/web-editor-manage-condition-presets.png){width="550"}的“管理”选项卡中的条件预设
+Web编辑器](assets/web-editor-manage-condition-presets.png){width="550"}的“管理”选项卡中的![条件预设
 
 有关详细信息，请查看[使用条件预设](../user-guide/generate-output-use-condition-presets.md)。
 

@@ -4,26 +4,35 @@ description: 了解如何创建和删除映射收藏集以及添加或删除DITA
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
+TQID: 'https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1234
+source-wordcount: '1251'
 ht-degree: 1%
-
 ---
-
 # 使用映射集合生成输出 {#id1723F20G0HS}
 
 在任何组织中，一个产品都可以有多种类型的文档。 作为发布专家，您希望控制要为哪个文档生成什么输出。 此外，应提供一种方法，可一次性批量发布多个文档。
@@ -74,17 +83,17 @@ ht-degree: 1%
 收集页面上会显示以下筛选选项和映射详细信息：
 
 - **筛选器：**&#x200B;左边栏显示以下筛选器：
-   - **已修改**：您可以选择“是”或“否”。 如果选择“是”，则只有修改的DITA映射才会显示在“映射和预设”表中。
-   - **预设**：选择要过滤掉映射文件的预设。 例如，如果选择&#x200B;*AEM Site*&#x200B;预设，则仅显示上面配置了&#x200B;*AEM Site*&#x200B;输出预设的映射。
-   - **语言**：您可以选择任何可用的语言代码，并在“映射和预设”表中仅显示选定的语言。
+  - **已修改**：您可以选择“是”或“否”。 如果选择“是”，则只有修改的DITA映射才会显示在“映射和预设”表中。
+  - **预设**：选择要过滤掉映射文件的预设。 例如，如果选择&#x200B;*AEM Site*&#x200B;预设，则仅显示上面配置了&#x200B;*AEM Site*&#x200B;输出预设的映射。
+  - **语言**：您可以选择任何可用的语言代码，并在“映射和预设”表中仅显示选定的语言。
 - **映射和预设**&#x200B;表：“映射和预设”表显示以下列的信息：
-   - **映射**：显示DITA映射文件的标题。
-   - **文件名**：显示DITA映射的文件名。
-   - **语言**：显示DITA映射的语言。
-   - **预设**：显示在映射文件上配置的输出预设类型。
-   - **基线**：显示输出预设使用的基线。  如果未使用基线，则显示连字符“ — ”
-   - **已修改**：指示在上次发布后是否更新DITA映射。 根据此信息，您可以决定是否要重新发布此DITA映射的输出。
-   - **上次生成的输出**：显示上次生成的输出的日期和时间。
+  - **映射**：显示DITA映射文件的标题。
+  - **文件名**：显示DITA映射的文件名。
+  - **语言**：显示DITA映射的语言。
+  - **预设**：显示在映射文件上配置的输出预设类型。
+  - **基线**：显示输出预设使用的基线。  如果未使用基线，则显示连字符“ — ”
+  - **已修改**：指示在上次发布后是否更新DITA映射。 根据此信息，您可以决定是否要重新发布此DITA映射的输出。
+  - **上次生成的输出**：显示上次生成的输出的日期和时间。
 
 ## 使用映射集合配置和生成输出
 
@@ -162,4 +171,4 @@ ht-degree: 1%
 
 ![](images/cancel-publish-task-map-collection.png)
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

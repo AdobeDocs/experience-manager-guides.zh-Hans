@@ -1,13 +1,19 @@
 ---
-title: 发行说明| Adobe Experience Manager Guides 5.0.0版的升级说明
+title: 发行说明 |Adobe Experience Manager Guides 5.0.0版的升级说明
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guides的5.0.0版本。
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 6%
-
+source-wordcount: '410'
+ht-degree: 5%
 ---
-
 # 5.0.0版（2025年3月）的升级说明
 
 本文介绍5.0.0版本的Adobe Experience Manager Guides的升级说明和兼容性矩阵。
@@ -56,16 +62,16 @@ ht-degree: 6%
 
 ## 升级到Experience Manager Guides的5.0.0版本
 
-您可以轻松地将指南的当前版本升级到5.0.0版。在继续升级到版本5.0.0的Experience Manager Guides之前，必须考虑以下几点：
+您可以轻松地将指南的当前版本升级到5.0.0版。 在继续升级到版本5.0.0的Experience Manager Guides之前，必须考虑以下几点：
 
 - 如果您使用的是版本4.6.3、4.6.1、4.6或4.4，则可以直接升级到版本5.0.0。
 - 如果您使用的是版本4.2、4.2.1（修补程序4.2.1.3）、4.1或4.1.x，则需要在升级到版本5.0.0之前升级到版本4.4。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
 
 >[!NOTE]
 >
 >在升级AEM版本之前，必须安装Experience Manager Guides Service Pack。
 
-有关详细信息，请查看Experience Manager Guides内部部署版本[的](/help/product-guide/install-guide/upgrade-xml-documentation.md)升级说明。
+有关详细信息，请查看Experience Manager Guides内部部署版本](/help/product-guide/install-guide/upgrade-xml-documentation.md)的[升级说明。

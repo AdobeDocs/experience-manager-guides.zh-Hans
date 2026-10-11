@@ -5,13 +5,28 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 6fff24d2-ec25-4654-837c-179e8688e2f4
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3402'
 ht-degree: 1%
-
 ---
-
 # 配置输出生成设置 {#id181AI0B0E30}
 
 AEM Guides提供了许多配置选项，供您自定义输出生成过程。 本主题介绍有助于您设置输出生成过程的所有配置和自定义设置。
@@ -287,8 +302,8 @@ AEM Guides提供了一种在使用DITA-OT发布输出时传递自定义元数据
 
   要访问metadata.xml，请执行以下操作：
 
-   - 登录到运行AEM实例的服务器位置。
-   - 迁移到crx-quickstart/profiles/ditamaps/&lt;new-created-directory-name\>/metadata.xml。
+  - 登录到运行AEM实例的服务器位置。
+  - 迁移到crx-quickstart/profiles/ditamaps/&lt;new-created-directory-name\>/metadata.xml。
 - 示例文件格式：
 
   **metadata.xml**
@@ -347,11 +362,11 @@ AEM Guides提供了用于自定义映射控制台的`apps.fmdita.dashboard-extn`
 
 >[!NOTE]
 >
-> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hans)。
+> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)。
 
 ## 在输出生成期间处理图像演绎版 {#id177BF0G0VY4}
 
-AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=zh-Hans)。
+AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)。
 
 AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 例如，您可以从默认图像演绎版中选择或创建图像演绎版，然后使用相同的图像演绎版发布文档。 用于发布文档的图像演绎版映射存储在`/libs/fmdita/config/ **renditionmap.xml**`文件中。 `renditionmap.xml`文件的片段如下所示：
 
@@ -447,7 +462,7 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
 
 1. 在&#x200B;**输出历史记录清除周期**&#x200B;属性中，指定清除输出历史记录以及输出日志的天数。 默认情况下，该时间设置为5天。 如果要禁用此功能，则将此属性设置为0。
 
-1. 在&#x200B;**输出历史记录清除时间**&#x200B;属性中，指定启动清除过程的时间。 默认情况下，它被设置为0:00 \（或12:00午夜\）。 每天在此时间，清除进程都在&#x200B;**输出历史记录清除周期**&#x200B;属性中指定的天数之前生成的输出上执行。
+1. 在&#x200B;**输出历史记录清除时间**&#x200B;属性中，指定启动清除过程的时间。 默认情况下，设置为0:00 \（或12:00午夜\）。 每天在此时间，清除进程都在&#x200B;**输出历史记录清除周期**&#x200B;属性中指定的天数之前生成的输出上执行。
 
    >[!NOTE]
    >
@@ -503,8 +518,8 @@ AEM Guides允许您配置输出生成进程池大小，以控制同时运行的�
 
 | 属性 | 描述 |
 |--------|-----------|
-| FrameMaker Publishing Server登录域 | 指定托管FrameMaker Publishing Server的域名或工作组名称。 基于FMPS版本，提供域名为:- **FMPS 2020**：IP地址为192.168.1.101 <br>- **FMPS 2019及更早版本**：IP地址或域名 |
-| FRAMEMAKER PUBLISHING SERVER URL | 指定FrameMaker Publishing Server的URL 基于FMPS版本，提供FMPS URL为：<br>- **FMPS 2020**： `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019及更早版本**： `http://<fmps_ip>:<port>/fmserver/v1/` |
+| FrameMaker Publishing Server登录域 | 指定托管FrameMaker Publishing Server的域名或工作组名称。 基于FMPS版本，提供域名：- **FMPS 2020**：IP地址为192.168.1.101 <br>- **FMPS 2019及更早版本**：IP地址或域名 |
+| FRAMEMAKER PUBLISHING SERVER URL | 指定FrameMaker Publishing Server的URL 基于FMPS版本，提供FMPS URL为：<br>- **FMPS 2020**： `http://<fmps_ip>:<port>` \(http://192.168.1.101：7000\) <br> - **FMPS 2019及更早版本**： `http://<fmps_ip>:<port>/fmserver/v1/` |
 | FMPS版本 | 指定FrameMaker Publishing Server的版本号。 基于FMPS版本，提供版本信息： <br>- **FMPS 2020**： 2020 <br> - **FMPS 2019及更早版本**： 2019或2017 |
 | FrameMaker Publishing Server用户名和密码 | 指定用于访问FrameMaker Publishing Server的用户名和密码。 |
 | FMPS超时 | \（*可选*\）指定AEM Guides等待FrameMaker Publishing Server响应的时间\（以秒为单位）。 如果在指定时间内未收到响应，则AEM Guides将终止发布任务，并且该任务被标记为失败。<br> 默认值：300秒\（5分钟\） |

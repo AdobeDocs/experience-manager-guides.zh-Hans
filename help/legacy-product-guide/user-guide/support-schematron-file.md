@@ -5,24 +5,30 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
-TQID: https://experienceleague.adobe.com/RTjruUSe-4ZbghbPl3au1OjZd3D5-7VN3R4GP8UqsRM
+TQID: 'https://experienceleague.adobe.com/RTjruUSe-4ZbghbPl3au1OjZd3D5-7VN3R4GP8UqsRM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 673
+source-wordcount: '773'
 ht-degree: 0%
-
 ---
-
 # 支持Schematron文件
 
 “架构”是指用于定义XML文件测试的基于规则的验证语言。 Web编辑器支持Schematron文件。 您可以导入Schematron文件，也可以在Web编辑器中编辑它们。 使用Schematron文件，您可以定义某些规则，然后针对DITA主题或映射验证这些规则。
@@ -51,7 +57,7 @@ ht-degree: 0%
 * 添加了特定长度的简短描述。
 * 地图中应至少有一个topicref。
 
-在Web编辑器中打开主题时，右侧会显示“架构验证”面板。执行以下步骤以添加和验证主题或使用Schematron文件的映射：
+在Web编辑器中打开主题时，右侧会显示“架构验证”面板。 执行以下步骤以添加和验证主题或使用Schematron文件的映射：
 ![](images/schematron-validate.png){width="300"}
 
 1. 单击架构图标()以打开架构面板。
@@ -88,8 +94,8 @@ AEM Guides还支持Schematron中的声明和报告语句。 这些语句可帮�
 
 ### 报表语句
 
-当测试语句的计算结果为true时，报表语句会生成消息。例如，如果希望简要说明少于或等于150个字符，则可以定义报告语句以检查简要说明超过150个字符的主题。
-当使用架构验证DITA主题时，您会获得规则的一个完整报表，其中报表语句的计算结果为true。因此，您会收到一条有关短描述超过150个字符的主题的消息。
+当测试语句的计算结果为true时，报表语句会生成消息。 例如，如果希望简要说明少于或等于150个字符，则可以定义报告语句以检查简要说明超过150个字符的主题。
+当使用架构验证DITA主题时，您会获得规则的一个完整报表，其中报表语句的计算结果为true。 因此，您会收到一条有关短描述超过150个字符的主题的消息。
 
 
 ```XML

@@ -5,21 +5,31 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/3QZCUFBs7RU75KkryDjfbVkckn0owPCd7auGX3uLv9Y
+TQID: 'https://experienceleague.adobe.com/3QZCUFBs7RU75KkryDjfbVkckn0owPCd7auGX3uLv9Y'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: b88be3fe-792c-484d-8262-9f667de75c8d
+    internal-label: Version management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1518
+source-wordcount: '1518'
 ht-degree: 0%
-
 ---
-
 # 版本管理 {#id181GB000XY4}
 
 版本控制是任何内容管理系统的一个重要方面。 它允许您在特定时间点创建数字资产的快照。 有了数字资产的版本，您可以恢复并更新资产的所需版本。 通常，要创建任何资源的版本，您需要签出并签入所需的资源。
@@ -150,7 +160,7 @@ AEM Guides Web编辑器允许您创建和更新DITA主题。 您可以将Web编�
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **从最新版本中保留的版本数**：输入应保留而不清除的版本数。 例如，如果输入5，则会保留最后5个版本，并且如果满足其他清除条件，则符合清除条件的版本中之前的版本将被清除。
 - **保留在时间跨度\（以天为单位\）**&#x200B;内创建的版本：输入版本的最长存在时间（以天为单位）。 如果满足其他清除条件，则符合清除指定天数之前的版本的资格。 例如，如果输入100，则符合其他清除条件时，所有在100天之前创建的版本都将被清除。
 - **路径**：选择要清除其文件的文件或文件夹的路径。

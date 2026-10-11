@@ -4,28 +4,39 @@ description: 了解错误修复以及如何升级到Adobe Experience Manager Gui
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/NYtiFRSNt197F9PWTh8q-CyhpZz4F8pSFIQgph0twKk
+TQID: 'https://experienceleague.adobe.com/NYtiFRSNt197F9PWTh8q-CyhpZz4F8pSFIQgph0twKk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1410'
 ht-degree: 5%
-
 ---
-
 # 4.2版本的Adobe Experience Manager Guides（2023年2月）
 
 此发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.2中修复的问题（更高版本称为&#x200B;*AEM Guides*）。
@@ -126,7 +137,7 @@ ht-degree: 5%
 * 翻译 |对于资产位于活动翻译项目中的整个语言文件夹，后处理将被阻止。 (10332)
 * 翻译|元数据和标记不会传播到已翻译的副本。 (4696)
 * 如果在基线编辑器中更改并保存了版本，则会为任何资产显示多个弹出窗口。 (10399)
-* 会话泄漏发生在com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)。 (10279)
+* 会话泄漏发生在com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java：210)。 (10279)
 * 如果父文件夹名称中包含空格，则基线中缺少视频文件。 (10031)
 
 ### 发布

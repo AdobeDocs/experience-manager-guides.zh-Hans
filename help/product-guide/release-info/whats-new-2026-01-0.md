@@ -3,20 +3,26 @@ title: 发行说明 | Adobe Experience Manager Guides 2026.01.0版本中的新�
 description: 了解Adobe Experience Manager Guides 2026.01.0版本中的新增功能和增强功能
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
-
 ---
-
 # 2026.01.0版（2026年2月）的新增功能
 
 本文介绍Adobe Experience Manager Guides as a Cloud Service 2026.01.0版本中引入的新增功能和增强功能。
 
 有关此版本中修复的问题列表，请查看[2026.01.0版本](fixed-issues-2026-01-0.md)中修复的问题。
 
-了解2026.01.0版本[&#128279;](../release-info/upgrade-instructions-2026-01-0.md)的升级说明。
+了解2026.01.0版本](../release-info/upgrade-instructions-2026-01-0.md)的[升级说明。
 
 
 ## 在“查找和替换”中引入Source模式搜索
@@ -105,7 +111,7 @@ Experience Manager Guides在编辑器界面的左侧面板中提供的查找和�
 
 ![](assets/file-properties-new.png){width="350"}
 
-有关详细信息，请在编辑器[&#128279;](../user-guide/web-editor-right-panel.md#file-properties)中查看右侧面板。
+有关详细信息，请在编辑器](../user-guide/web-editor-right-panel.md#file-properties)中查看[右侧面板。
 
 ### 只读文件的元数据属性不再可编辑
 
@@ -167,7 +173,7 @@ Experience Manager Guides在编辑器界面的左侧面板中提供的查找和�
 
 Experience Manager Guides现在支持AEM Sites输出中的元素级别组件映射（使用复合组件映射），从而让团队能够精确控制DITA元素使用`componentmapping.json`呈现的方式。 通过将`topicref`、标题、图像、表等映射到适当的AEM核心组件，您可以获得更简洁的结构，而不是默认使用文本组件的所有内容。 这可以提高性能，并解锁更丰富、更现代的Sites体验。
 
-有关详细信息，请在AEM Sites[&#128279;](../cs-install-guide/component-mapping.md)中查看组件映射。
+有关详细信息，请在AEM Sites](../cs-install-guide/component-mapping.md)中查看[组件映射。
 
 ## 资产处理增强功能
 

@@ -2,7 +2,15 @@
 title: 配置智能帮助以搜索内容
 description: 了解如何配置智能帮助以搜索内容
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -27,11 +35,11 @@ ht-degree: 0%
 
 1. 从&#x200B;**项目**&#x200B;屏幕中选择&#x200B;**添加API**。  出现&#x200B;**添加API**&#x200B;屏幕。 此屏幕可显示Adobe产品和技术的所有可用API、事件和服务，您可以使用这些产品和技术开发应用程序。
 
-1. 选择&#x200B;**I/O管理API**&#x200B;以将其添加到您的项目中。
+1. 选择&#x200B;**I/O管理API**以将其添加到您的项目中。
    ![IO管理API](assets/confi-ss-io-management.png)
    *将I/O管理API添加到您的项目中。*
 
-1. 创建新的&#x200B;**OAuth凭据**&#x200B;并保存它。
+1. 创建新的&#x200B;**OAuth凭据**并保存它。
    配置API中的![OAuth凭据磁贴](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *为你的API配置OAuth凭据。*
 
@@ -103,5 +111,5 @@ ht-degree: 0%
 ```
 
 
-配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在编辑器的右侧面板中。 选择图标以查看&#x200B;**智能帮助**&#x200B;面板。
+配置完毕后，**智能帮助** ![智能帮助](assets/smart-help-icon.svg)图标将显示在编辑器的右侧面板中。 选择图标以查看&#x200B;**智能帮助**面板。
 有关更多详细信息，请查看《Experience Manager用户指南》中的[AI支持的智能帮助以搜索内容](../user-guide/ai-based-smart-help.md)部分。

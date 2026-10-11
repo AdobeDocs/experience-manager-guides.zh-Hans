@@ -5,27 +5,37 @@ feature: Publishing
 role: User
 hide: true
 exl-id: dbc082e9-e75e-414d-a1d1-41f919b345af
-TQID: https://experienceleague.adobe.com/7tnba7ZO-OnRaKWRFGQUMo3xULlBnmh1RL7LuUjPLQ8
+TQID: 'https://experienceleague.adobe.com/7tnba7ZO-OnRaKWRFGQUMo3xULlBnmh1RL7LuUjPLQ8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '721'
 ht-degree: 0%
-
 ---
-
 # JSON {#id231KK0180T4}
 
 您可以从Web编辑器创建JSON预设：
@@ -63,4 +73,4 @@ ht-degree: 0%
 | 要在输出中传播的属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 从下拉列表中选择的属性列在“属性”字段的下方。<br><br>**注意**：您还可以定义自定义属性，并使用DITA-OT发布将元数据传递到输出。 有关详细信息，请参阅[使用元数据](metadata-dita.md#id21BJ00QD0XA)。 |
 | 后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在AEM中配置的所有工作流。 必须选择输出生成工作流完成后要执行的工作流。<br><br>**注意**：有关创建自定义输出后生成工作流的详细信息，请参阅“安装和配置Adobe Experience Manager Guides as a Cloud Service”指南中的&#x200B;_自定义输出后生成工作流程_。 |
 
-**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)

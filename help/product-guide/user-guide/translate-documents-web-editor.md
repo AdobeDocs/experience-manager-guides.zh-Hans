@@ -4,7 +4,7 @@ description: 从Web编辑器将内容翻译成多种语言。 了解如何在AEM
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
+TQID: 'https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -33,7 +37,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2794'
 ht-degree: 0%
@@ -146,7 +150,7 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    除了新的翻译项目外，您还可以从以下选项中进行选择：
 
    - 您可以选择&#x200B;**仅为翻译项目创建结构**。
-   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**&#x200B;以将XML内容转换为XML本地化交换文件格式(XLIFF)。 XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。 Experience Manager Guides支持XLIFF版本1.2。
+   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**以将XML内容转换为XML本地化交换文件格式(XLIFF)。 XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。 Experience Manager Guides支持XLIFF版本1.2。
      在XLIFF项目中，内容将导出为行业标准XLIFF格式，可提供给翻译供应商。 XLIFF格式使您在翻译阶段已翻译的区段有可能得到重用。\
      翻译XLIFF内容后，可将其导入Experience Manager Guides，从而创建原始DITA项目的翻译版本。
 
@@ -284,4 +288,4 @@ Experience Manager Guides提供了用于检查主题的所选版本与上次翻�
 如果您希望稍后使用翻译项目，也可以禁用这些项目。 删除项目会删除项目中存在的所有文件和文件夹。 禁用项目不会删除它，而是将其保留在存储库中。 但无法更新或编辑已禁用的项目。  删除或禁用项目不会影响任何引用的翻译状态。
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

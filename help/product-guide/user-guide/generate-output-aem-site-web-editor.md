@@ -4,28 +4,39 @@ description: 使用复合组件映射和旧版组件映射，在映射控制台�
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
+TQID: 'https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3727
+source-wordcount: '3873'
 ht-degree: 0%
-
 ---
-
 # “地图”控制台中的AEM Sites预设
 
 您可以从“地图”控制台中创建AEM Sites预设，并将其配置为生成AEM Sites输出。 有两种方法可创建AEM Sites输出：
@@ -240,11 +251,11 @@ Experience Manager Guides允许您使用`peer @scope`创建主题引用。 然�
 
    ![交叉映射引用](images/aem-sites-preset-cross-map-references.png)
 
-1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**&#x200B;发布上下文。
-在发布包含链接主题的映射之前，您应该发布选定作为父映射的映射。如果未发布包含链接主题的映射，则在AEM Sites输出中，链接将显示为普通文本而非超链接。
-您应为链接的主题选择相同类型的AEM Sites预设。例如，如果当前AEM Sites预设使用旧版组件映射，则为链接的主题选择类似的AEM Sites预设。
+1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**发布上下文。
+在发布包含链接主题的映射之前，您应该发布选定作为父映射的映射。 如果未发布包含链接主题的映射，则在AEM Sites输出中，链接将显示为普通文本而非超链接。
+您应为链接的主题选择相同类型的AEM Sites预设。 例如，如果当前AEM Sites预设使用旧版组件映射，则为链接的主题选择类似的AEM Sites预设。
 1. 在“父映射”下拉列表中，选择要为其输出链接当前映射输出的映射文件。
-选择映射文件会在“父映射UUID”列中显示映射的UUID。与所选映射关联的输出预设列在父映射的预设列表中。例如，映射A中的主题1包含对主题2的引用。主题2可以出现在单个或多个映射中。您可以选择父映射和特定预设，也可以为每个链接选择最近发布的输出。
+选择映射文件会在“父映射UUID”列中显示映射的UUID。 与所选映射关联的输出预设列在父映射的预设列表中。 例如，映射A中的主题1包含对主题2的引用。 主题2可以出现在单个或多个映射中。 您可以选择父映射和特定预设，也可以为每个链接选择最近发布的输出。
 
 1. 如果同一主题在文件中被引用多次，则可以为每个实例添加不同的发布上下文。 这提供了更大的灵活性和对其内容的控制。 例如，主题3同时存在于映射B和映射C中。主题1包含两个对主题3的引用。 您可以选择映射B作为第一个链接的父映射，选择映射C作为第二个链接的父映射。
 

@@ -5,29 +5,37 @@ feature: Publishing
 role: User
 hide: true
 exl-id: b8e49fd3-1f98-471f-b285-572fd07df33a
-TQID: https://experienceleague.adobe.com/DvMfPAExE1L53gCxf7MHhmPJU-SD2a20sMbSnvcjFaI
+TQID: 'https://experienceleague.adobe.com/DvMfPAExE1L53gCxf7MHhmPJU-SD2a20sMbSnvcjFaI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: '165'
 ht-degree: 2%
-
 ---
-
 # AEM Sites {#id205BE3008SW}
 
 
 
 您可以从Web编辑器或映射仪表板创建和配置AEM Sites预设。
 
-从Web编辑器&#x200B;**&#x200B;**
+从Web编辑器&#x200B;****
 
 1. 在“存储库”面板中，在“映射视图”中打开DITA映射文件。
 1. 在输出选项卡中，选择+图标以创建输出预设。
@@ -36,11 +44,11 @@ ht-degree: 2%
 详细了解Web编辑器中的[AEM Sites预设](generate-output-aem-site-web-editor.md)。
 
 
-从地图仪表板&#x200B;**&#x200B;**
+从地图仪表板&#x200B;****
 
 
 1. 要打开AEM站点的输出预设，请从Assets UI中选择一个DITA映射文件。
 1. 选择输出预设，然后选择AEM站点输出选项。
 1. 在映射仪表板中，单击顶部的&#x200B;**编辑**&#x200B;以更新各种配置，然后单击&#x200B;**保存**。
 
-在地图仪表板[&#128279;](generate-output-aem-site-map-dashboard.md)上了解有关AEM Sites预设的更多信息。
+在地图仪表板](generate-output-aem-site-map-dashboard.md)上了解有关[AEM Sites预设的更多信息。

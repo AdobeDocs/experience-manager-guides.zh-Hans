@@ -5,7 +5,24 @@ feature: Workflow Configuration
 role: Admin
 level: Experienced
 exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b455a250-64c4-4598-b015-7b6b6dc528b1
+    internal-label: Workflow configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 2%
@@ -18,13 +35,13 @@ ht-degree: 2%
 
 | 云服务 | 内部部署 |
 |-------------|------------|
-| <ul><li>[管理工作流实例](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=zh-Hans)</li><li>应用和参与工作流： [使用项目工作流](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=zh-Hans)</li></ul> | <ul><li>[管理工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>应用和参与工作流： [使用工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>创建工作流模型和扩展工作流功能： [开发和扩展工作流](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>提高使用重要服务器资源的工作流的性能： [并发工作流处理](https://helpx.adobe.com/cn/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
+| <ul><li>[管理工作流实例](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)</li><li>应用和参与工作流： [使用项目工作流](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html)</li></ul> | <ul><li>[管理工作流](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>应用和参与工作流： [使用工作流](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>创建工作流模型和扩展工作流功能： [开发和扩展工作流](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>提高使用重要服务器资源的工作流的性能： [并发工作流处理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
 
 本主题中的部分将指导您逐步完成AEM Guides中提供的默认工作流中可以进行的各种自定义设置。
 
 ## 自定义审核工作流 {#id176NE0C00HS}
 
-每个组织的内容创作团队都以特定的方式工作，以满足其业务要求。 有些组织设有专门的编辑人员，而有些其他组织则设有自动编辑审查系统。 例如，在组织中，典型的创作和发布工作流程可能包括以下任务 — 每当作者完成创作内容时，它会自动发送给审阅人，审阅完成后会发送给发布者，以生成最终输出。 在AEM中，您可以采用流程的形式组合对内容和资产执行的活动并将其映射到AEM工作流。 有关AEM中工作流的详细信息，请参阅AEM文档中的[管理工作流](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=zh-Hans)。
+每个组织的内容创作团队都以特定的方式工作，以满足其业务要求。 有些组织设有专门的编辑人员，而有些其他组织则设有自动编辑审查系统。 例如，在组织中，典型的创作和发布工作流程可能包括以下任务 — 每当作者完成创作内容时，它会自动发送给审阅人，审阅完成后会发送给发布者，以生成最终输出。 在AEM中，您可以采用流程的形式组合对内容和资产执行的活动并将其映射到AEM工作流。 有关AEM中工作流的详细信息，请参阅AEM文档中的[管理工作流](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)。
 
 AEM Guides允许您自定义默认审核工作流。 您可以将以下四个与自定义审阅相关的流程用于其他创作或发布工作流。
 
@@ -105,7 +122,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `reviewType` | 字符串 | 静态值“AEM”。 |
 | `versionJson` | JSON 对象 | versionJson是审核中的主题列表，其中每个主题对象具有以下结构[ { &quot;path&quot;： &quot;/content/dam/1-topic.dita&quot;， &quot;version&quot;： &quot;1.1&quot;， &quot;review&quot;： true， &quot;reviewers&quot;： [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | 布尔值 | false/true |
-| `ditamapHierarchy` | JSON 对象 | 如果发送了映射以供审查，则此处的值应如下所示：[ &lbrace; &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： “”，“items”： [] } ] ]。 |
+| `ditamapHierarchy` | JSON 对象 | 如果发送了映射以供审查，则此处的值应如下所示：[ { &quot;path&quot;： &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;， &quot;items&quot;： [ { &quot;path&quot;： &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;， &quot;title&quot;： “”，“items”： [] } ] ]。 |
 | `ditamap` | 字符串 | 指定审核任务的日期映射的路径 |
 | `allowAllReviewers` | 布尔值 | false/true |
 | `notifyViaEmail` | 布尔值 | false/true |
@@ -131,7 +148,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 
 ### 自定义电子邮件和AEM通知
 
-许多AEM Guides工作流会使用电子邮件通知。 例如，如果您启动审阅任务，则会向审阅人发送电子邮件通知。 但是，要确保电子邮件通知已发送，您必须在AEM中启用此功能。 要在AEM中启用电子邮件通知，请参阅AEM文档中的文章[发送电子邮件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=zh-Hans#sending-email)。
+许多AEM Guides工作流会使用电子邮件通知。 例如，如果您启动审阅任务，则会向审阅人发送电子邮件通知。 但是，要确保电子邮件通知已发送，您必须在AEM中启用此功能。 要在AEM中启用电子邮件通知，请参阅AEM文档中的文章[发送电子邮件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email)。
 
 AEM Guides包含一组用于审核工作流的电子邮件和AEM通知，您可以对这些通知进行自定义。 执行以下步骤以自定义这些通知：
 

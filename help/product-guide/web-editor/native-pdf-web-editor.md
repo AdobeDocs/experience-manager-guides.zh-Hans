@@ -4,7 +4,7 @@ description: 了解如何使用本机PDF发布、创建和生成PDF输出预设�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
+TQID: 'https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -30,6 +32,10 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,7 +46,7 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '4071'
 ht-degree: 0%
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 * **提供XMP文件**
 
-  您还可以通过导入[XMP](https://www.adobe.com/cn/products/xmp.html)（可扩展元数据平台）文件直接填充元数据字段。 您可以从此处下载示例XMP文件。
+  您还可以通过导入[XMP](https://www.adobe.com/products/xmp.html)（可扩展元数据平台）文件直接填充元数据字段。 您可以从此处下载示例XMP文件。
 
   [下载](assets/SampleXMP.xmp)
 
@@ -256,7 +262,7 @@ ht-degree: 0%
 | **包含跟踪更改** | 如果要在生成的PDF中包含跟踪的更改以便于查看和比较，请选择此选项。 |
 | **包含草稿评论** | 如果要在生成的PDF中包括添加到所选映射的DITA主题中的草稿注释，请选择此选项。<br> **注意**：仅启用此选项不会使草稿注释出现在输出中。 管理员还必须在用于映射的输出模板中将草稿注释样式的display属性设置为可见值（如`block`、`inline-block`、`grid`等）。 有关详细信息，请查看[在本机PDF输出中显示或隐藏草稿注释](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output)。 |
 | **保留临时文件** | 如果要保留在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 下载的文件还将包括`system_config.xml`文件，该文件为您提供了有关作者URL、本地URL和发布URL的信息。 这些URL是在AEM外部化设置中配置的，并反映在`system_config.xml`文件中。 |
-| **PDF合规性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用的PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请查看[关于PDF标准](https://helpx.adobe.com/cn/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
+| **PDF合规性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用的PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请查看[关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
 | **文件属性** | 选择要传递到本机PDF发布的元数据。 该下拉列表会同时列出自定义属性和默认属性。 例如，`dc:description`、`dc:language`、`dc:title`和`docstate`是默认属性，而您可以将`author`作为自定义属性。 所选元数据属性将传递到使用本机PDF生成的PDF文件。<br> 这些属性是从位于`/libs/fmdita/config/metadataList`的`metadataList`文件中选取的。 <br>此文件可以覆盖在： `/apps/fmdita/config/metadataList`。 |
 
 

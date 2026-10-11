@@ -4,25 +4,32 @@ description: 了解如何使用AEM Guides的OAuth身份验证配置基于微服�
 feature: Microservice in AEM Guides
 role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-TQID: https://experienceleague.adobe.com/iAlQIB0z2bxI-BaOXp62M6YJjzS-RzGfJaJbl8BWNUc
+TQID: 'https://experienceleague.adobe.com/iAlQIB0z2bxI-BaOXp62M6YJjzS-RzGfJaJbl8BWNUc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: ee44b950-990d-4271-90e4-464bdf208628
+    internal-label: Microservice in AEM Guides
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: '850'
 ht-degree: 0%
-
 ---
-
 # 使用OAuth身份验证配置基于微服务的发布
 
 发布微服务允许您在Experience Manager Guides as a Cloud Service上同时运行大型发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。
@@ -52,7 +59,7 @@ ht-degree: 0%
 
    <img src="assets/projects-tab.png" alt="“项目”选项卡" width="500">
 
-   *在&#x200B;**Adobe Developer Console***上选择&#x200B;**&#x200B;项目&#x200B;**&#x200B;选项卡
+   *在&#x200B;**Adobe Developer Console***上选择**&#x200B;项目&#x200B;**选项卡
 
 1. 要创建新的空项目，请从&#x200B;**创建新项目**&#x200B;下拉列表中选择&#x200B;**空项目**。
 

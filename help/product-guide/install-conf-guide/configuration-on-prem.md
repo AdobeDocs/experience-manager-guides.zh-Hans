@@ -4,13 +4,28 @@ description: 了解特定版本的配置
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
-
 ---
-
 # Experience Manager Guides版本的配置更新
 
 本文为Experience Manager Guides 5.2.0版本引入了配置更改，并提供了这些更改的综合概述。 下表列出了发行版本和新引入或更新后的配置。 它还包含相关文档的链接，以获取详细的设置和配置说明。 使用此信息可快速识别升级期间可能应用于环境的配置更新。

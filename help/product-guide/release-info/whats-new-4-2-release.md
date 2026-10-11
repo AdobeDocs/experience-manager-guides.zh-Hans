@@ -4,26 +4,35 @@ description: 了解Adobe Experience Manager Guides 4.2版本中的新增功能�
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4
+TQID: 'https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2435
+source-wordcount: '2438'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides 4.2版的新增功能（2023年2月）
 
 本文介绍Adobe Experience Manager Guides版本4.2（以后称为&#x200B;*AEM Guides*）中的新增功能和增强功能。
@@ -34,7 +43,7 @@ ht-degree: 0%
 
 AEM Guides在Web编辑器中提供的一项功能使您能够检查技术文档的整体完整性并为其生成报告。
 您可以从查看主题列表并管理当前映射的所有引用的元数据
-Web编辑器中的&#x200B;**报告**&#x200B;选项卡。
+Web编辑器中的**报告**&#x200B;选项卡。
 
 **生成主题列表视图**
 
@@ -141,7 +150,7 @@ AEM Guides提供了为全局和文件夹配置文件创建和管理输出预设�
 可以在映射中插入主题引用、主题组和键定义。 您可以通过上移、下移、左移或右移来重新组织地图中的主题。 您还可以拖放主题以在地图中移动它们。 映射编辑器还提供了用于锁定或解锁文件、检查版本历史记录和执行版本标签管理的图标。
 
 
-布局视图还提供了&#x200B;**视图选项**&#x200B;来显示或隐藏行号、显示或隐藏复选框，或者显示映射中主题的文件名或标题。
+布局视图还提供了&#x200B;**视图选项**来显示或隐藏行号、显示或隐藏复选框，或者显示映射中主题的文件名或标题。
 您还可以根据主题上应用的条件筛选器查看主题。
 
 除了在映射文件中组织主题外，您还可以使用布局视图中元素的&#x200B;**选项**&#x200B;菜单添加、移动、复制、粘贴或删除引用。

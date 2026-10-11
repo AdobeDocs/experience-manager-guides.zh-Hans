@@ -4,13 +4,28 @@ description: 了解如何为现有的审核任务编制索引，以便它们与�
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # 执行索引以将主题的所有审阅任务包含在“注释”面板中
 
 通过“注释”面板中提供的[查看主题](../user-guide/review-address-review-comments.md#view-all-review-tasks-for-a-topic)的所有审阅任务，作者可以选择与当前打开的主题关联的任何审阅任务（打开或已关闭），而无需切换审阅项目。 启用后，编辑器中的&#x200B;**注释**&#x200B;面板包含一个下拉列表，其中列出了主题所属的每个审核任务，以及每个任务的状态和其所属的项目。

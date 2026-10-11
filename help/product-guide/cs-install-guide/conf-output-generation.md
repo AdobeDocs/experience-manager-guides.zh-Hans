@@ -5,31 +5,44 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/z-5JBbQXNm-3Vv-wSiaY17xDzlqEfjLUCy9-V5jKkaA
+TQID: 'https://experienceleague.adobe.com/z-5JBbQXNm-3Vv-wSiaY17xDzlqEfjLUCy9-V5jKkaA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
   - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+    internal-label: Template configuration
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5820
+source-wordcount: '5834'
 ht-degree: 1%
-
 ---
-
 # 配置输出生成设置 {#id181AI0B0E30}
 
 AEM Guides提供了许多配置选项，供您自定义输出生成过程。 本主题介绍有助于您设置输出生成过程的所有配置和自定义设置。
@@ -146,7 +159,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 >
 > 创建自定义设计模板节点后，必须更新AEM站点输出预设中的设计选项才能使用自定义设计模板节点。
 
-有关详细信息，请参阅[创建您的第一个Adobe Experience Manager网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)和[在AEM上开发您自己的网站的基础知识](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=zh-Hans)。
+有关详细信息，请参阅[创建您的第一个Adobe Experience Manager网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en)和[在AEM上开发您自己的网站的基础知识](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)。
 
 ### 使用文档标题生成AEM站点输出
 
@@ -287,7 +300,7 @@ AEM Guides允许您配置如何在内部创建AEM站点输出的节点结构。 
 
 ### 在AEM站点输出中为已删除的页面配置版本控制
 
-生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;**&#x200B;**&#x200B;选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
+生成针对“现有输出页面”设置选择了&#x200B;**删除和**&#x200B;创建&#x200B;****选项的AEM站点输出时，将为要删除的页面创建一个版本。 您可以将系统配置为在删除之前停止创建版本。
 
 执行以下步骤可停止为要删除的页面创建版本：
 
@@ -408,8 +421,8 @@ AEM Guides提供了一种在使用DITA-OT发布输出时传递自定义元数据
 
   要访问metadata.xml，请执行以下操作：
 
-   - 登录到运行AEM实例的服务器位置。
-   - 迁移到crx-quickstart/profiles/ditamaps/&lt;new-created-directory-name\>/metadata.xml。
+  - 登录到运行AEM实例的服务器位置。
+  - 迁移到crx-quickstart/profiles/ditamaps/&lt;new-created-directory-name\>/metadata.xml。
 - 示例文件格式：
 
   **metadata.xml**
@@ -648,11 +661,11 @@ AEM Guides提供了用于自定义映射控制台的`apps.fmdita.dashboard-extn`
 
 >[!NOTE]
 >
-> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hans)。
+> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)。
 
 ## 在输出生成期间处理图像演绎版 {#id177BF0G0VY4}
 
-AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=zh-Hans)。
+AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)。
 
 AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 例如，您可以从默认图像演绎版中选择或创建图像演绎版，然后使用相同的图像演绎版发布文档。 用于发布文档的图像演绎版映射存储在`/libs/fmdita/config/ **renditionmap.xml**`文件中。 `renditionmap.xml`文件的片段如下所示：
 

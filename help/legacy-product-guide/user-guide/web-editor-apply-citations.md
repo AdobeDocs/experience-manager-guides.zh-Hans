@@ -5,24 +5,30 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-TQID: https://experienceleague.adobe.com/3xNOR02eoj4FGibPTf4IMtqHf2O-M4DHaf5-MZy87uU
+TQID: 'https://experienceleague.adobe.com/3xNOR02eoj4FGibPTf4IMtqHf2O-M4DHaf5-MZy87uU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1896
+source-wordcount: '1896'
 ht-degree: 1%
-
 ---
-
 # 在内容中添加和管理引文
 
 引用是指对添加到内容的信息源的引用。 通过使用引文，您可以对源信息的作者进行评分，并帮助读者跟进源信息。 添加引文可让您的内容更可靠并防止抄袭。 它们还允许您显示经过仔细研究的内容。
@@ -45,14 +51,14 @@ AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国�
 要添加引文，请执行以下步骤：
 
 1. 选择左侧面板中的&#x200B;**引用** ![引用图标](images/citations-icon.svg)图标。
-将打开&#x200B;**引用**&#x200B;面板。
+将打开**引用**&#x200B;面板。
 
    ![](images/citation-panel.png){width="300"}
 
 1. 在&#x200B;**引用**&#x200B;面板中，选择![添加图标](images/Add_icon.svg)。 从下拉菜单中，您可以选择添加新引文或导入引文。
 
-1. 选择&#x200B;**新建引用**&#x200B;以添加新引用。
-将打开&#x200B;**添加引文**&#x200B;对话框。
+1. 选择&#x200B;**新建引用**以添加新引用。
+将打开**添加引文**&#x200B;对话框。
 
    Web编辑器中的![引用面板](images/citation-add.png) {width="300"}
 
@@ -110,7 +116,7 @@ AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国�
 
    >[!NOTE]
    > <ol><li> AEM Guides仅导入不重复且尚不存在的引用。
-   > &gt; <li> AEM Guides可以从书籍、日记或网站导入引文。 目前不支持来自其他来源的引用。
+    &gt; <li> AEM Guides可以从书籍、日记或网站导入引文。 目前不支持来自其他来源的引用。
 
 ## 管理引文
 
@@ -133,13 +139,13 @@ AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国�
 在引文中搜索您的内容。
 
 1. 在左侧面板中，选择“引文”。
-将打开&#x200B;**引用**&#x200B;面板。
+将打开**引用**&#x200B;面板。
 
 1. 使用搜索栏从长列表中搜索相应的引用。
 
 ### 更改引用样式 {#change-citation-style}
 
-系统管理员可以从&#x200B;**编辑器设置**&#x200B;的&#x200B;**常规设置**&#x200B;选项卡中的&#x200B;**引用**&#x200B;下拉菜单中更改引用的样式。
+系统管理员可以从&#x200B;**编辑器设置**&#x200B;的&#x200B;**常规设置**&#x200B;选项卡中的&#x200B;**引用**下拉菜单中更改引用的样式。
 这些样式决定引文在预览窗格或本机PDF输出中的显示方式。
 
 下拉菜单中提供了以下选项：
@@ -201,7 +207,7 @@ AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国�
 ### 从主工具栏
 
 1. 在主工具栏中选择&#x200B;**引用** ![引用图标](images/citations-icon.svg)图标。
-1. 在&#x200B;**引文**&#x200B;对话框中，选择引文。 您还可以选择多个引文。
+1. 在&#x200B;**引文**对话框中，选择引文。 您还可以选择多个引文。
    ![引文对话框](images/citation-dialog-main-toolbar.png){width="300"}
 1. 您可以在&#x200B;**引文**&#x200B;对话框的搜索面板中键入前几个字母来筛选引文。
 

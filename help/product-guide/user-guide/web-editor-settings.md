@@ -4,36 +4,53 @@ description: 了解Experience Manager Guides编辑器界面中可用的各种设
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-TQID: https://experienceleague.adobe.com/KKt48fFBvNE76mzZeitOyhL-ZDsl4GJeJu-SpXD3yyI
+TQID: 'https://experienceleague.adobe.com/KKt48fFBvNE76mzZeitOyhL-ZDsl4GJeJu-SpXD3yyI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2099
+source-wordcount: '2138'
 ht-degree: 0%
-
 ---
-
 # Workspace设置
 
 编辑器[选项卡栏](./web-editor-tab-bar.md)中存在的&#x200B;**Workspace设置**&#x200B;选项仅供管理员和文件夹配置文件管理员使用，并允许配置以下设置：
@@ -69,9 +86,9 @@ ht-degree: 0%
 
   通过&#x200B;**创作快速操作**&#x200B;菜单，您可以：
 
-   - 使用这些切换可启用或禁用作者在使用AI Assistant时可以访问的特定选项。
+  - 使用这些切换可启用或禁用作者在使用AI Assistant时可以访问的特定选项。
 
-   - 更改选项的显示顺序，根据需要拖放它们。
+  - 更改选项的显示顺序，根据需要拖放它们。
 
   ![](images/authoring-quick-actions-new.png){width="350"}
 
@@ -79,7 +96,7 @@ ht-degree: 0%
 
 - **创作**
 
-   - **启用全部替换**：选择此项以查看&#x200B;**查找和替换**&#x200B;面板中的&#x200B;**全部替换**&#x200B;图标。
+  - **启用全部替换**：选择此项以查看&#x200B;**查找和替换**&#x200B;面板中的&#x200B;**全部替换**&#x200B;图标。
 
 - **引用**
 
@@ -87,15 +104,15 @@ ht-degree: 0%
 
 - **条件**
 
-   - **在作者视图中高亮显示条件文本**：选择此项以在作者视图中高亮显示条件文本。 使用为条件定义的颜色突出显示条件内容。
+  - **在作者视图中高亮显示条件文本**：选择此项以在作者视图中高亮显示条件文本。 使用为条件定义的颜色突出显示条件内容。
 
-   - **使用条件属性进行验证**：选择此项以允许验证为属性定义的值。 这样可防止您添加任何不正确的值。
+  - **使用条件属性进行验证**：选择此项以允许验证为属性定义的值。 这样可防止您添加任何不正确的值。
 
-   - **在“主题方案”面板中显示带有标题的键**：选择此项可显示主题方案中的键和标题。 如果不选择此选项，则只显示标题。 例如，此处“os”、“audience”和“other”键也会与标题一起显示。
+  - **在“主题方案”面板中显示带有标题的键**：选择此项可显示主题方案中的键和标题。 如果不选择此选项，则只显示标题。 例如，此处“os”、“audience”和“other”键也会与标题一起显示。
 
-     ![](images/subject-scheme-title.png){width="550"}
+    ![](images/subject-scheme-title.png){width="550"}
 
-   - **在条件面板中显示主题方案**：选择此项可在条件面板中查看主题方案。 如果取消选择此选项，则定义的条件将显示在条件面板中。
+  - **在条件面板中显示主题方案**：选择此项可在条件面板中查看主题方案。 如果取消选择此选项，则定义的条件将显示在条件面板中。
 
 - **拼写检查**
 有两个选项 — **AEM拼写检查**&#x200B;和&#x200B;**浏览器拼写检查**。 默认情况下，编辑器使用浏览器拼写检查功能，其中拼写检查使用浏览器的内置词典执行。 您可以切换到AEM拼写检查以使用Adobe Experience Manager的词典，也可以自定义该词典以添加自定义单词列表。 有关自定义AEM词典的详细信息，请在“安装和配置AEM as a Cloud Service”中查看[自定义Adobe Experience Manager Guides的默认词典](../cs-install-guide/customize-aem-custom-dictionary.md)部分。
@@ -158,24 +175,24 @@ ht-degree: 0%
 
 - 配置连接的应用程序时，请确保满足以下条件：
 
-   - 指定回调。
+  - 指定回调。
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - 选择以下OAuth范围：
-      - 完全访问（完全）
-      - 选择通过API (api)管理用户数据
+  - 选择以下OAuth范围：
+    - 完全访问（完全）
+    - 选择通过API (api)管理用户数据
 
-     配置应用程序后，Salesforce会提供&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 这些资源可用于创建Salesforce配置文件。
+    配置应用程序后，Salesforce会提供&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 这些资源可用于创建Salesforce配置文件。
 
 
-   - 要创建Salesforce配置文件，请从&#x200B;**服务器类型**&#x200B;下拉列表中选择&#x200B;**Salesforce**&#x200B;知识库。 输入配置文件名称。 在&#x200B;**站点URL**&#x200B;中，输入用于发布输出的使用者站点，然后添加由Salesforce使用者站点提供的&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 然后，**验证**&#x200B;和&#x200B;**保存**&#x200B;新创建的配置文件。
+  - 要创建Salesforce配置文件，请从&#x200B;**服务器类型**&#x200B;下拉列表中选择&#x200B;**Salesforce**&#x200B;知识库。 输入配置文件名称。 在&#x200B;**站点URL**&#x200B;中，输入用于发布输出的使用者站点，然后添加由Salesforce使用者站点提供的&#x200B;**使用者密钥**&#x200B;和&#x200B;**使用者密钥**。 然后，**验证**&#x200B;和&#x200B;**保存**&#x200B;新创建的配置文件。
 
-     ![工作区设置中的salesforce发布配置文件](./images/salesforce-publish-profile.png){width="550"}
+    ![工作区设置中的salesforce发布配置文件](./images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >要在Experience Manager Guides中配置Salesforce的代理，请使用AEM中的Apache HTTP组件代理配置。 了解如何[配置AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的代理。
+    >[!NOTE]
+    >
+    >要在Experience Manager Guides中配置Salesforce的代理，请使用AEM中的Apache HTTP组件代理配置。 了解如何[配置AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)的代理。
 
 
 **创建ServiceNow配置文件**
@@ -238,24 +255,24 @@ ht-degree: 0%
 
   执行以下步骤以创建新语言组：
 
-   1. 选择&#x200B;**添加**。
-   1. 输入语言组名称。 每种语言都应该有一个唯一的名称。 如果名称字段为空或名称不唯一，则可以查看错误。
-   1. 从下拉列表中选择语言。 您可以选择多种语言。
+  1. 选择&#x200B;**添加**。
+  1. 输入语言组名称。 每种语言都应该有一个唯一的名称。 如果名称字段为空或名称不唯一，则可以查看错误。
+  1. 从下拉列表中选择语言。 您可以选择多种语言。
 
-      键入语言的前几个字符或语言代码以筛选所需的语言。 例如，键入“en”可筛选名称或代码开头包含“en”的所有语言。
+     键入语言的前几个字符或语言代码以筛选所需的语言。 例如，键入“en”可筛选名称或代码开头包含“en”的所有语言。
 
-   1. 选择完成图标以将所选语言添加到组。 将显示语言。 添加三种或更多语言时，将显示&#x200B;**显示更多**&#x200B;选项。 您可以选择&#x200B;**显示更多**&#x200B;以查看该组中存在的所有语言。
+  1. 选择完成图标以将所选语言添加到组。 将显示语言。 添加三种或更多语言时，将显示&#x200B;**显示更多**&#x200B;选项。 您可以选择&#x200B;**显示更多**&#x200B;以查看该组中存在的所有语言。
 
-      >[!TIP]
-      >
-      > 将&#x200B;**显示更多**&#x200B;切换为&#x200B;**显示更少**&#x200B;并只查看几种语言。
+     >[!TIP]
+     >
+     > 将&#x200B;**显示更多**&#x200B;切换为&#x200B;**显示更少**&#x200B;并只查看几种语言。
 
-   1. 将鼠标悬停在组中的语言上以编辑![编辑图标](images/edit_pencil_icon.svg)或删除![删除](images/Delete_icon.svg)语言组。
-   1. 保存&#x200B;**设置**。
+  1. 将鼠标悬停在组中的语言上以编辑![编辑图标](images/edit_pencil_icon.svg)或删除![删除](images/Delete_icon.svg)语言组。
+  1. 保存&#x200B;**设置**。
 
-      >[!NOTE]
-      >
-      >作为用户，您可以查看为文件夹配置文件配置的语言组。
+     >[!NOTE]
+     >
+     >作为用户，您可以查看为文件夹配置文件配置的语言组。
 
 - **将源版本标签传播到目标版本**：选择此选项可将源文件版本的标签传递到已翻译的文件。 默认情况下，该选项处于禁用状态。
 - **完成后的翻译项目清理**：选择此选项可将翻译项目配置为在翻译后自动禁用或删除。 默认情况下，选择&#x200B;**无**，这样项目在翻译后就会存在。
@@ -275,11 +292,11 @@ ht-degree: 0%
 
 工作区设置中的![元数据选项卡](images/editor-setting-metadata.png){width="550"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
-您还可以定义这些元数据标记的显示顺序。要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
+您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

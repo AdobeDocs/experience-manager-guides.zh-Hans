@@ -4,25 +4,33 @@ description: 了解如何使用变量来设置“目标路径”、“站点名�
 exl-id: 3396c971-6332-45b5-b2ef-b07f0abf97f7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/JiQKZ28KLI-TI5cqYdpKLyW79uOzlR2VV3zqZPFoVWc
+TQID: 'https://experienceleague.adobe.com/JiQKZ28KLI-TI5cqYdpKLyW79uOzlR2VV3zqZPFoVWc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 399
+source-wordcount: '402'
 ht-degree: 0%
-
 ---
-
 # 使用变量设置目标路径、站点路径、站点名称或文件名选项
 
 
@@ -42,4 +50,4 @@ ht-degree: 0%
 | `${system_time}` | 使用当前服务器时间创建目标路径。 | **DITA映射文件名：** <br>`SampleDita.ditamap` <br> <br> **DITA映射文件路径：** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**目标路径**&#x200B;配置为： <br> `/content/output/sites/${system_time}`<br><br>**最终输出位置：**<br>`/content/output/sites/055612/SampleDita.html` |
 
 此外，您还可以使用为DITA映射或书图文件定义的元数据作为变量。 可以在DITA映射或书签映射文件的`/jcr:content/metadata`节点下找到元数据。 例如，`/jcr:content/metadata`节点中定义的元数据属性之一是`dc:title`。 您可以指定`${dc:title}`并在最终输出中使用标题值。
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)
