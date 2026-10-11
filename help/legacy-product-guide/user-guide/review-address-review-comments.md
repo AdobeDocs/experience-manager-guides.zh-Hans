@@ -5,24 +5,30 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-TQID: https://experienceleague.adobe.com/CyM9kTBYOhhD-dO1WE--B1vrT-LYhl4WEhjoHC-CUSQ
+TQID: 'https://experienceleague.adobe.com/CyM9kTBYOhhD-dO1WE--B1vrT-LYhl4WEhjoHC-CUSQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1036
+source-wordcount: '1036'
 ht-degree: 0%
-
 ---
-
 # 地址审核注释 {#id2056B0X0KBI}
 
 
@@ -46,9 +52,9 @@ ht-degree: 0%
 
 - **B：**&#x200B;在&#x200B;**注释**&#x200B;面板中选择&#x200B;**审阅详细信息** ![](images/active-review-info-icon.svg)以查看有关审阅任务的更多信息：
 
-   - **名称**：审核任务的名称。
-   - **审阅版本**：显示与所选审阅任务关联的版本。 这有助于跟踪您共享以供审阅的版本
-   - **状态**：审核任务的当前状态。
+  - **名称**：审核任务的名称。
+  - **审阅版本**：显示与所选审阅任务关联的版本。 这有助于跟踪您共享以供审阅的版本
+  - **状态**：审核任务的当前状态。
 
   >[!NOTE]
   >

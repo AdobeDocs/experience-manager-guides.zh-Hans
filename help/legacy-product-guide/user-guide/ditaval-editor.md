@@ -5,24 +5,30 @@ feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-TQID: https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c
+TQID: 'https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
+  - id: ec789d92-5632-44b6-abc6-bc29bbd44cb6
+    internal-label: DITAVAL editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '792'
 ht-degree: 0%
-
 ---
-
 # DITAVAL编辑器 {#ditaval-editor}
 
 DITAVAL文件用于生成条件输出。 在单个主题中，您可以使用元素属性添加条件以条件化内容。 然后，创建一个DITAVAL文件，在该文件中指定应选取以生成内容的条件，以及应从最终输出中排除哪些条件。
@@ -63,13 +69,13 @@ AEM Guides允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 D
    DITAVAL编辑器允许您执行以下任务：
 
    A：切换左侧面板
-切换左侧面板视图。 如果您已通过DITA映射打开DITAVAL文件，则映射和存储库将显示在此面板中。 有关通过DITA映射打开文件的详细信息，请参阅[通过DITA映射编辑主题](map-editor-advanced-map-editor.md#id17ACJ0F0FHS)。
+   切换左侧面板视图。 如果您已通过DITA映射打开DITAVAL文件，则映射和存储库将显示在此面板中。 有关通过DITA映射打开文件的详细信息，请参阅[通过DITA映射编辑主题](map-editor-advanced-map-editor.md#id17ACJ0F0FHS)。
 
    B：保存
-保存您在文件中进行的更改。 所有更改都保存在文件的当前版本中。
+   保存您在文件中进行的更改。 所有更改都保存在文件的当前版本中。
 
    C：添加属性
-在DITAVAL文件中添加单个属性。
+   在DITAVAL文件中添加单个属性。
 
    ![](images/ditaval-editor-props.png)
 
@@ -78,7 +84,7 @@ AEM Guides允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 D
    第二个下拉列表显示为所选属性配置的值。 然后，下一个下拉列表显示了您可以对选定属性配置的操作。 操作下拉列表中允许的值是 — `include`、`exclude`、`passthrough`和`flag`。 有关这些值的更多信息，请参阅OASIS DITA文档中的[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)元素的定义
 
    D：添加所有属性
-如果要通过单击添加系统中定义的所有条件属性或属性，请使用“添加全部属性”功能。
+   如果要通过单击添加系统中定义的所有条件属性或属性，请使用“添加全部属性”功能。
 
    >[!NOTE]
    >

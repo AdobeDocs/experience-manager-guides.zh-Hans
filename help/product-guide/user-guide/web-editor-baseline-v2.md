@@ -4,13 +4,29 @@ description: 从Adobe Experience Manager Guides的映射控制台中创建和管
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
-
 ---
-
 # Experience Manager Guides中的新基线(Beta)
 
 >[!NOTE]
@@ -136,10 +152,10 @@ ht-degree: 0%
   ![](images/baseline-v2-dynamic-baseline-new.png)
 
   也可以使用为使用新基线模型创建的动态基线引入的新选项：
-   - **编辑属性**：允许您编辑现有基线的属性。
-   - **重新生成**：允许您在更改时重新生成动态基线。
+  - **编辑属性**：允许您编辑现有基线的属性。
+  - **重新生成**：允许您在更改时重新生成动态基线。
 
-     ![rebuild-baseline](images/rebuild-baseline.png)
+    ![rebuild-baseline](images/rebuild-baseline.png)
 
 - **下载**&#x200B;操作支持分页下载。 与应用的过滤器匹配的所有基线内容将包含在下载中，而不仅仅是当前页面上显示的内容。
 - 除了文件名或文件位置之外，还按GUID过滤文件。 **筛选无标签**&#x200B;文件的附加选项也可用。
@@ -151,28 +167,28 @@ ht-degree: 0%
 
   执行以下步骤来编辑基线：
 
-   - 从&#x200B;**基线**&#x200B;面板中打开基线。
+  - 从&#x200B;**基线**&#x200B;面板中打开基线。
 
-     此时将显示基线参照的表格视图。
+    此时将显示基线参照的表格视图。
 
-   - 导航到要编辑的文件并将光标悬停在该文件上。
-   - 选择&#x200B;**编辑**&#x200B;图标。
+  - 导航到要编辑的文件并将光标悬停在该文件上。
+  - 选择&#x200B;**编辑**&#x200B;图标。
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png)
+    ![edit-baseline-icon](images/edit-baseline-icon.png)
 
-     将显示&#x200B;**编辑版本**&#x200B;对话框。
-   - 从&#x200B;**版本**&#x200B;下拉列表中选择所需的版本（例如，从版本1.0更改为1.1）。
+    将显示&#x200B;**编辑版本**&#x200B;对话框。
+  - 从&#x200B;**版本**&#x200B;下拉列表中选择所需的版本（例如，从版本1.0更改为1.1）。
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png)
+    ![edit-version-baseline](images/edit-version-baseline.png)
 
-     将计算添加和移除的从属关系并显示为预览。 在应用更改之前查看这些更改。
+    将计算添加和移除的从属关系并显示为预览。 在应用更改之前查看这些更改。
 
-     ![](images/baseline-v2-version-added.png)
+    ![](images/baseline-v2-version-added.png)
 
-     如果未检测到依赖关系更改，则显示空状态消息。
+    如果未检测到依赖关系更改，则显示空状态消息。
 
-   - 选择&#x200B;**更新**&#x200B;以应用更改。
+  - 选择&#x200B;**更新**&#x200B;以应用更改。
 
   基线将更新为所选版本。
   +++

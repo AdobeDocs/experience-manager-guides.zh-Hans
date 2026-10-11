@@ -5,33 +5,48 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
+TQID: 'https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: b89a36a9-95de-429b-adde-f901256d8f24
+    internal-label: Variables
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1960
+source-wordcount: '1990'
 ht-degree: 0%
-
 ---
-
 # 配置文件夹配置文件
 
 需要文件夹配置文件来分隔企业中不同部门或产品的配置。 对于学习和培训内容，您可以创建和配置文件夹级别的配置文件，以管理创作模板、输出模板、输出预设和其他文件夹级别的设置。
@@ -76,8 +91,8 @@ ht-degree: 0%
 - **学习内容**：使用&#x200B;**启用学习内容**&#x200B;切换开关在文件夹配置文件级别启用或禁用该功能。
 - **HTML编辑器**：此设置允许您为基于HTML的创作配置编辑器。 此设置中存在的关键配置选项如下：
 
-   - **隐藏内联样式**：启用此选项可阻止作者将内联格式应用于课程内容。 启用后，编辑器右侧面板中存在的所有内联样式选项（如“字体”、“边框”、“布局”、“背景”和“列”）对作者保持隐藏状态。 但是，作者仍可以使用&#x200B;**样式**&#x200B;面板中提供的基于类的全局样式选项。 这有助于保持与组织风格指南的一致性。
-   - **隐藏作者的Source视图**：启用此选项可限制对HTML源代码的访问。 当您希望简化编辑体验或避免意外更改基础代码时，这将很有用。
+  - **隐藏内联样式**：启用此选项可阻止作者将内联格式应用于课程内容。 启用后，编辑器右侧面板中存在的所有内联样式选项（如“字体”、“边框”、“布局”、“背景”和“列”）对作者保持隐藏状态。 但是，作者仍可以使用&#x200B;**样式**&#x200B;面板中提供的基于类的全局样式选项。 这有助于保持与组织风格指南的一致性。
+  - **隐藏作者的Source视图**：启用此选项可限制对HTML源代码的访问。 当您希望简化编辑体验或避免意外更改基础代码时，这将很有用。
 
 ## 配置面板
 
@@ -217,7 +232,7 @@ SCORM输出模板允许您为课程中的不同主题类型分配不同的页面
 
 例如，课程页面可以使用包括页眉、内容区域和页脚的布局，而测验页面可以使用不带页脚的简化布局。 您还可以为概览页面或任何其他主题类型创建专用布局，并相应地映射它们。
 
-布局分配在&#x200B;**输出模板**&#x200B;级别配置。任何使用配置的输出模板的SCORM预设将在生成课程时应用选定的布局映射。
+布局分配在&#x200B;**输出模板**&#x200B;级别配置。 任何使用配置的输出模板的SCORM预设将在生成课程时应用选定的布局映射。
 请按照以下步骤配置模板的页面布局：
 
 1. 导航到&#x200B;**输出模板**&#x200B;并打开所需的&#x200B;**SCORM输出模板**。

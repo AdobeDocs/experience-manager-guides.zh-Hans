@@ -5,13 +5,32 @@ feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
 exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
-source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: f118db50-bb08-4bfa-a602-3b196f1f8882
+    internal-label: InDesign file conversion
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # 附录 {#id195AD0L60Y4}
 
 ## AEM Guides疑难解答
@@ -359,8 +378,8 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 - `@mapTo`： DITA目标元素的名称。
 
 - `@context`：当有多个包装器选择可用时，此属性用于链接到特定的&#x200B;**wrap**&#x200B;规则。 示例： `li`元素可以封装在`ol`或`ul`元素中。 要标识不同的列表类型，您可以使用特定的样式名或`@local`属性，该属性可显示以下内容：
-   - `local="p[-|-|-|-|-|b|-|-]"`其中字段6中的“`b`”表示项目符号列表项。 在这种情况下，将`@context`设置为“`bullet`”。
-   - `local="p[-|-|-|-|-|n|-|-]"`其中字段6中的“`n`”表示编号列表项。 在这种情况下，将`@context`设置为“`number`”。
+  - `local="p[-|-|-|-|-|b|-|-]"`其中字段6中的“`b`”表示项目符号列表项。 在这种情况下，将`@context`设置为“`bullet`”。
+  - `local="p[-|-|-|-|-|n|-|-]"`其中字段6中的“`n`”表示编号列表项。 在这种情况下，将`@context`设置为“`number`”。
 
 - `@commentOut`：此属性允许在XML注释中封装目标元素，这样信息就不会丢失，但用户可手动处理。 如果无法强制源内容符合DITA结构规则，这将很有用。
 
@@ -391,9 +410,9 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 - `@local`：请参阅[\#id194CG0V005Z](#id194CG0V005Z)。
 - `@mapTo`： DITA目标元素的名称。
 - `@refactor`：此可选属性可以选择两个值：
-   - `unwrap`：删除匹配的元素，同时保留其内容。
+  - `unwrap`：删除匹配的元素，同时保留其内容。
 
-   - `drop`：已删除匹配的元素及其所有内容。
+  - `drop`：已删除匹配的元素及其所有内容。
 
 
 **属性规则**
@@ -423,11 +442,11 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 > 此元素可以包含多个子元素。
 
 - `addNew`：向匹配的元素添加新属性。 可用于所有上下文。 它具有两个属性：
-   - `@name`：必须是合法的XML名称，最好对DITA上下文有效。
-   - `@value`：可以是文本或简单的XPath表达式。
+  - `@name`：必须是合法的XML名称，最好对DITA上下文有效。
+  - `@value`：可以是文本或简单的XPath表达式。
 - `copyAtt`：将单个属性复制到目标，同时可以选择在此过程中重命名该属性。 此值不会更改。 可用于上下文`mapDoctypeParaRule`、`mapDoctypeElemRule`、`doctypeElemRule`和`elementRule`。 当此元素存在时，`@copyAllAtts`值被假定为`false`。 它具有两个属性：
-   - `@name`：必须是源XML元素上存在的属性的名称。
-   - `@mapTo`：必须是合法的XML名称，最好对DITA上下文有效。
+  - `@name`：必须是源XML元素上存在的属性的名称。
+  - `@mapTo`：必须是合法的XML名称，最好对DITA上下文有效。
 
 **本地格式代码**
 
@@ -481,9 +500,9 @@ InDesign表样式允许列和单元格直排遵循交替模式。 虽然该功�
 
 - `@refactor`：此可选属性可以选择两个值：
 
-   - `unwrap`：删除匹配的元素，同时保留其内容。
+  - `unwrap`：删除匹配的元素，同时保留其内容。
 
-   - `drop`：已删除匹配的元素及其所有内容。
+  - `drop`：已删除匹配的元素及其所有内容。
 
 - `@context`：当有多个包装选项可用时，此属性用于链接到特定包装规则。 示例： `li`元素可以封装在`ol`或`ul`元素中。
 

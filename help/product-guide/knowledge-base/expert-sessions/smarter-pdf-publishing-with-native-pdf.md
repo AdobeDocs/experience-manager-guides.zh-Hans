@@ -3,13 +3,19 @@ title: 使用原生PDF更智能地发布PDF
 description: 此专家会议介绍如何使用原生PDF创建支持DITA的PDF，而无需使用高级CSS或XSLT专业知识，而是使用低代码技术生成PDF
 keywords: DITA PDF发布， AEM Guides，本机PDF， DITA到PDF， DITA发布工作流程， PDF自动化，元数据驱动发布， DITA模板
 exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
-source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 2%
-
 ---
-
 # 使用原生PDF更智能地发布PDF
 
 在此会话中，我们了解了如何使用AEM Guides中的高级本机PDF功能将DITA添加到PDF发布工作流程。 此会话演示如何使用元数据、品牌和本地化来自动进行PDF自定义，从而减少对多个DITA发布模板的需求。 了解这些强大的功能如何帮助DITA团队更智能、更快速、更大规模地发布。

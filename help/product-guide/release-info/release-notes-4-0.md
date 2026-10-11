@@ -1,13 +1,19 @@
 ---
 title: Adobe Experience Manager Guides 4.0.x发行说明
 description: 了解Adobe Experience Manager Guides版本4.0、4.0.1、4.0.2和4.0.3中的错误修复、新增功能和增强功能。
-source-git-commit: dc078c23c02c813fe39ca563e615dc3238c40253
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 5%
-
 ---
-
 
 # 发行说明 |Adobe Experience Manager Guides 4.0.x
 
@@ -209,10 +215,10 @@ Web编辑器中引入了许多增强功能和新功能：
 
 - 将核心框架从基于Coral的UI更改为基于频谱的UI。 这提供了一个非常标准化和直观的UI。
 - 右侧面板中引入了新的“文件属性”功能。 您可以检查活动文档的属性。 该信息分为两个部分：
-   - *常规*：包含常规文件详细信息，如文件名、UUID、元数据标记、语言、创建日期、签出状态和文档状态。
-   - *引用*：包含传入和传出引用。
+  - *常规*：包含常规文件详细信息，如文件名、UUID、元数据标记、语言、创建日期、签出状态和文档状态。
+  - *引用*：包含传入和传出引用。
 
-     ![文件属性面板](assets/file-properties.avif)
+    ![文件属性面板](assets/file-properties.avif)
 
 - Web编辑器中还添加了主题方案支持。 您现在可以使用“主题方案”面板创建和使用主题方案。 除了主题方案之外，您现在可以使用自己的公司元数据和分类。
 

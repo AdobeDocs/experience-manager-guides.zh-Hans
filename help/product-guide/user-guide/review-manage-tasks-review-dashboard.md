@@ -4,19 +4,23 @@ description: 从AEM Guides的审核仪表板管理审核任务。 了解任务�
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
+TQID: 'https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1440
+source-wordcount: '1440'
 ht-degree: 0%
-
 ---
-
 # 使用审阅功能板管理审阅任务 {#id2056B0Y70X4}
 
 审核管理工作流程可以包括各种任务。 例如，您可能希望为特定主题添加审阅人或延长审阅截止日期。 如果您认为所有利益相关者都提供了反馈，则您可能还希望将审阅任务标记为完成。 可以使用“审阅仪表板”管理这些任务。
@@ -139,9 +143,9 @@ ht-degree: 0%
 
 - 审阅任务被分配到的审阅人的姓名。
 - “状态”列指示审阅状态。 “状态”可以是以下状态之一：
-   - **未启动**：审核者尚未打开审核任务。
-   - **进行中**：审阅人已打开审阅任务，正在审阅主题。
-   - **完成**：审阅人已完成审阅，并在审阅UI中将任务标记为完成。 审核任务位于每个审核者的AEM通知收件箱中。
+  - **未启动**：审核者尚未打开审核任务。
+  - **进行中**：审阅人已打开审阅任务，正在审阅主题。
+  - **完成**：审阅人已完成审阅，并在审阅UI中将任务标记为完成。 审核任务位于每个审核者的AEM通知收件箱中。
 - 当审阅人打开审阅链接并导航到特定主题时，该主题将添加到“已审阅主题”列表中。 这有助于作者确定查看者是否打开了各自的部分。 如果提供了任何注释，则这些注释会显示在括号中。
 - 在所有主题上发表的评论总数。 若有多个正在审查的主题，则每个主题的评论数都以\（在方括号中\）的形式与主题名称相对应。
 - 查看者上次访问任何主题的日期。

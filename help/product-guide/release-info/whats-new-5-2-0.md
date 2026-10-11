@@ -2,13 +2,19 @@
 title: 发行说明 | Adobe Experience Manager Guides 5.2.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 5.2.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4152'
 ht-degree: 0%
-
 ---
-
 # 5.2.0版本的新增功能（2026年5月）
 
 本文介绍Adobe Experience Manager Guides as a Cloud Service 5.2.0版本中引入的新增功能和增强功能。
@@ -417,8 +423,8 @@ Experience Manager Guides现在支持AEM Sites输出中的元素级别组件映�
 
 - 引入新API以创建新翻译项目并跟踪其状态。 这些API有助于自动化翻译过程，减少手动工作并提高效率。 有关详细信息，请查看[创建翻译项目](../api-reference/create-translation-project.md)。
 - 增强了资源处理API，提高了文件和文件夹的过滤能力。 有关详细信息，请查看[处理资源](../api-reference/bulk-assets-processing.md)。
-- 新API可用于跟踪单个资源和文件夹的后处理状态。这对于使用自动化工作流的团队特别有用，因为在这些团队中，发布需要仅在内容经过完全处理之后进行。API提供了一种确认就绪性的可靠方式，从而降低了因处理不完整而导致发布失败的风险。此外，通过引入此API，资产后处理事件将不会自动触发。管理员现在可以通过`fmdita config manager`中的设置启用此事件。
-有关详细信息，请查看[API以跟踪单个资源和文件夹的后处理状态](../api-reference/track-post-processing-status.md)和[fmdita配置管理器中的后处理事件处理程序设置](../api-reference/post-process-event.md)
+- 新API可用于跟踪单个资源和文件夹的后处理状态。 这对于使用自动化工作流的团队特别有用，因为在这些团队中，发布需要仅在内容经过完全处理之后进行。 API提供了一种确认就绪性的可靠方式，从而降低了因处理不完整而导致发布失败的风险。 此外，通过引入此API，资产后处理事件将不会自动触发。 管理员现在可以通过`fmdita config manager`中的设置启用此事件。
+有关详细信息，请查看[API以跟踪单个资源和文件夹的后处理状态](../api-reference/track-post-processing-status.md)以及fmdita配置管理器中的[后处理事件处理程序设置](../api-reference/post-process-event.md)
 
 ## Experience Manager Guides中的产品培训和学习内容简介
 

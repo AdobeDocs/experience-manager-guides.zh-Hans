@@ -4,25 +4,34 @@ description: 了解基线在AEM Guides中的用法。 了解如何创建、查�
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/SV9DbfHOr-dOpbn52gq6zihZVMpSLfesLMU81lzZMMc
+TQID: 'https://experienceleague.adobe.com/SV9DbfHOr-dOpbn52gq6zihZVMpSLfesLMU81lzZMMc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: '1803'
 ht-degree: 0%
-
 ---
-
 # 处理地图仪表板中的基线 {#id1825FI0J0PF}
 
 Experience Manager Guides提供基线功能，允许用户创建基线，并使用它们发布或翻译不同版本的主题。 它们还可以并行发布同一DITA映射的多个输出预设。
@@ -149,7 +158,7 @@ Experience Manager Guides提供基线功能，允许用户创建基线，并使�
 1. 如果要将标签应用于从子映射引用的主题，请选择&#x200B;**将标签应用于子映射及其依赖项**&#x200B;选项。
 
    - 选择&#x200B;**添加**。
-指定的标签将添加到DITA映射以及引用的主题和内容。
+     指定的标签将添加到DITA映射以及引用的主题和内容。
 
      ![](images/label-added-baseline-uuid.png){width="650"}
 

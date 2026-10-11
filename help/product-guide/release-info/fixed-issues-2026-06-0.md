@@ -1,13 +1,19 @@
 ---
 title: 发行说明 |修复了Adobe Experience Manager Guides 2026.06.0版本中的问题
 description: 了解Adobe Experience Manager Guides as a Cloud Service 2026.06.0版本中的错误修复。
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 0%
-
 ---
-
 # 修复了2026.06.0版本中的问题
 
 本文介绍Adobe Experience Manager Guides as a Cloud Service 2026.06.0版本中修复的各个方面的错误。
@@ -63,10 +69,10 @@ ht-degree: 0%
 - 在AEM Sites上发布包含`processing-role=resource-only`个元素的DITA映射（使用旧版组件映射）时，会在其他方案（如`topicgroup`元素和特定内容配置）中为这些元素生成孤立网站页面。 （指南 — 37650）
 - 将长名称的映射添加到映射收藏集时，映射收藏集UI将以扭曲的布局呈现。 此问题已在新映射收藏集中得到解决。 （指南 — 42062）
 - 使用本机PDF引擎v1发布：
-   - 在为某些内容生成本机PDF输出时，尽管中间HTML包含多个页面中的完整内容，但PDF中仅呈现第一页。 （指南 — 28270）
-   - 启用了辅助功能设置的本机PDF输出中的内容读取顺序不正确。 页脚中的页码在主内容之前而不是结尾处读取。 （指南 — 27790）
-   - 当自定义页面大小时，原生PDF输出中的颜色条不会拉伸整个页面宽度，并且会重叠，从而导致隐藏某些颜色框。 （指南 — 15505）
-   - 本机PDF输出中不允许CSS `:is()`伪类选择器，从而导致与浏览器呈现的样式不同。 （指南 — 11328）
+  - 在为某些内容生成本机PDF输出时，尽管中间HTML包含多个页面中的完整内容，但PDF中仅呈现第一页。 （指南 — 28270）
+  - 启用了辅助功能设置的本机PDF输出中的内容读取顺序不正确。 页脚中的页码在主内容之前而不是结尾处读取。 （指南 — 27790）
+  - 当自定义页面大小时，原生PDF输出中的颜色条不会拉伸整个页面宽度，并且会重叠，从而导致隐藏某些颜色框。 （指南 — 15505）
+  - 本机PDF输出中不允许CSS `:is()`伪类选择器，从而导致与浏览器呈现的样式不同。 （指南 — 11328）
 
   >[!NOTE]
   >

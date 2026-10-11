@@ -5,23 +5,33 @@ exl-id: ab155879-4472-464d-ab25-6075088d718b
 feature: Document State
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/hnS2MHqddnjXMYeBuRF4nW2xGOSfc6i0CEqBQ4rr4Sc
+TQID: 'https://experienceleague.adobe.com/hnS2MHqddnjXMYeBuRF4nW2xGOSfc6i0CEqBQ4rr4Sc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 0%
-
 ---
-
 # 配置文档状态 {#id181GB0400UI}
 
 AEM Guides允许您根据组织的要求为DITA主题定义文档状态。 您可以定义文档从开始到结束的不同状态。 例如，第一个状态可以是“草稿”，它可以移至“审阅”、“已批准”、“已翻译”，最后移至“已发布”。
@@ -40,7 +50,7 @@ AEM Guides附带一组默认文档状态。 这些状态包括：
 - 编辑
 - 正在审核
 - 已批准
-- 已审核
+- 已审阅
 - 完成
 
 这些默认状态适用于在DAM下创建的所有DITA主题。 您可以创建自己的文档状态，并将这些状态分配给特定文件夹。 然后，在该文件夹下创建的所有DITA文件都将有权访问新创建的文档状态。
@@ -60,7 +70,7 @@ AEM Guides附带一组默认文档状态。 这些状态包括：
 
      单击&#x200B;**添加**&#x200B;按钮添加文档状态。
 
-      - 单击“删除”图标可删除文档状态。
+     - 单击“删除”图标可删除文档状态。
 
      >[!NOTE]
      >
@@ -70,11 +80,11 @@ AEM Guides附带一组默认文档状态。 这些状态包括：
    - 指定处于&#x200B;**结束状态**&#x200B;的文档的结束状态。
    - 在&#x200B;**状态转换**&#x200B;下指定&#x200B;**从**&#x200B;到&#x200B;**到**&#x200B;中的文档状态转换。
 
-      - 指定可以在&#x200B;**组**&#x200B;中更改文档状态的用户和用户组。
+     - 指定可以在&#x200B;**组**&#x200B;中更改文档状态的用户和用户组。
 
-      - 单击&#x200B;**添加**&#x200B;按钮添加状态转换。
+     - 单击&#x200B;**添加**&#x200B;按钮添加状态转换。
 
-      - 单击“删除”图标可删除状态转换。
+     - 单击“删除”图标可删除状态转换。
 
      >[!NOTE]
      >

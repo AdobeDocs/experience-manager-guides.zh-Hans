@@ -5,25 +5,33 @@ exl-id: 69f408da-602d-4541-94fa-6f058773502f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/uAtcZ4VUPvgMngXsl6nLEx9PUH7krEHd45XNh9WpK3Q
+TQID: 'https://experienceleague.adobe.com/uAtcZ4VUPvgMngXsl6nLEx9PUH7krEHd45XNh9WpK3Q'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 203
+source-wordcount: '203'
 ht-degree: 0%
-
 ---
-
 # 安装用于基于文章的发布的包 {#id21BNL02052Z}
 
 AEM Guides提供了与Web编辑器集成的强大的基于文章的发布功能。 使用此功能，您可以同时发布一个或多个主题。 在地图编辑器中打开地图后，您可以导航到输出选项卡以创建预设，然后选择一个或多个主题以生成输出。 您可以使用基于文章的发布功能递增地生成一个或多个主题的输出，或以逐篇文章的方式将内容发布到知识库平台。 有关更多详细信息，请参阅用户指南中的Web编辑器部分&#x200B;*中基于文章的发布。*

@@ -5,23 +5,29 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+TQID: 'https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: '3144'
 ht-degree: 0%
-
 ---
-
 # 管理文件和文件夹 {#id2116G0L08XA}
 
 本节介绍AEM Guides如何处理基本文件操作，例如复制、粘贴、拖放和删除文件。 可能会出现以下情况：
@@ -157,18 +163,18 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
    - **Source path\(s\)**：指定要移动的文件夹的位置。
 
-      - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动的文件夹，然后单击&#x200B;**选择**&#x200B;以完成该过程。
+     - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动的文件夹，然后单击&#x200B;**选择**&#x200B;以完成该过程。
 
-      - 您还可以键入或复制并粘贴源位置。 按Enter将文件夹添加到列表。
+     - 您还可以键入或复制并粘贴源位置。 按Enter将文件夹添加到列表。
 
-        选定的文件夹将与其路径一起列出。 将鼠标悬停在文件夹标记上可查看完整路径。
-      - 您也可以通过单击&#x200B;**删除**&#x200B;来删除任何文件夹 文件夹附近的<img src="images/remove-folder.svg" width="25">。
+       选定的文件夹将与其路径一起列出。 将鼠标悬停在文件夹标记上可查看完整路径。
+     - 您也可以通过单击&#x200B;**删除**&#x200B;来删除任何文件夹 文件夹附近的<img src="images/remove-folder.svg" width="25">。
 
 
    - **目标路径**：指定要移动源文件夹的位置。
 
-      - 选择&#x200B;**浏览文件夹** <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动源文件夹的位置。 ，然后单击选择以完成该过程。
-      - 您还可以键入或复制并粘贴目标路径。
+     - 选择&#x200B;**浏览文件夹** <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动源文件夹的位置。 ，然后单击选择以完成该过程。
+     - 您还可以键入或复制并粘贴目标路径。
 
      所选文件夹与其路径一起显示在文本框中。
 
@@ -206,24 +212,24 @@ AEM Guides附带了批量移动工具，可帮助管理员将包含大量文件�
 
    - **Source path\(s\)**：指定要移动的文件夹的位置。
 
-      - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动的文件夹，然后单击&#x200B;**选择**&#x200B;以完成该过程。
+     - 选择&#x200B;**浏览文件夹**  <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动的文件夹，然后单击&#x200B;**选择**&#x200B;以完成该过程。
 
-      - 您还可以键入或复制并粘贴源位置。 按Enter将文件夹添加到列表。
+     - 您还可以键入或复制并粘贴源位置。 按Enter将文件夹添加到列表。
 
-        选定的文件夹将与其路径一起列出。 将鼠标悬停在文件夹标记上可查看完整路径。
-      - 您也可以通过单击&#x200B;**删除**&#x200B;来删除任何文件夹 文件夹附近的<img src="images/remove-folder.svg" width="25">。
+       选定的文件夹将与其路径一起列出。 将鼠标悬停在文件夹标记上可查看完整路径。
+     - 您也可以通过单击&#x200B;**删除**&#x200B;来删除任何文件夹 文件夹附近的<img src="images/remove-folder.svg" width="25">。
 
 
    - **目标路径**：指定要移动源文件夹的位置。
 
-      - 选择&#x200B;**浏览文件夹** <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动源文件夹的位置。 ，然后单击选择以完成该过程。
-      - 您还可以键入或复制并粘贴目标路径。
+     - 选择&#x200B;**浏览文件夹** <img src="images/browse-folder-icon.svg" width="25">打开浏览文件对话框。 选择要移动源文件夹的位置。 ，然后单击选择以完成该过程。
+     - 您还可以键入或复制并粘贴目标路径。
 
-        所选文件夹与其路径一起显示在文本框中。
+       所选文件夹与其路径一起显示在文本框中。
 
    - 单击&#x200B;**批量移动**。
 
-     系统开始将文件从源位置移动到目标位置。移动过程完成后，页面右侧会显示移动过程的摘要。
+     系统开始将文件从源位置移动到目标位置。 移动过程完成后，页面右侧会显示移动过程的摘要。
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
 </details>
 

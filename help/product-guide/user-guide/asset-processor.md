@@ -5,24 +5,33 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
+TQID: 'https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 # 处理资产
 
 在发布等数据密集型工作流程中，高效的资产管理对于保持性能和可靠性至关重要。 资产处理工作流旨在管理需要密集数据操作的特定于用户的资产。 它主要处理两种情况：初始处理因错误而失败时，或文件因未启动资产处理触发器而保持未处理状态。 通过启用有针对性的文件夹级别处理，用户可以仅隔离和处理必要的资源，从而避免不必要的计算开销。 这种选择性方法可显着提升性能，减少发布和生成报告等关键操作所需的时间。 总体而言，它有助于在处理复杂数据任务时提高效率和速度。
@@ -73,8 +82,8 @@ ht-degree: 0%
    1. **功能类型**：从下拉列表中选择&#x200B;**正在处理资源**。
    1. **选择文件夹和文件**：导航并选择一个或多个要处理的文件夹和文件。
    1. **选择要忽略的文件夹**： （可选）选择要从处理中排除的所选父文件夹中的子文件夹。
-   1. **资源类型**：从下拉列表中，选择要处理的特定资源类型（例如，DITA主题、DITA映射、Markdown、HTML/CSS、DITAVAL或其他文件）。仅从您之前指定的文件夹中处理选定的资源类型。
-示例：选择DITA主题仅处理选定文件夹中的DITA主题，从而启用目标筛选。
+   1. **资源类型**：从下拉列表中，选择要处理的特定资源类型（例如，DITA主题、DITA映射、Markdown、HTML/CSS、DITAVAL或其他文件）。 仅从您之前指定的文件夹中处理选定的资源类型。
+      示例：选择DITA主题仅处理选定文件夹中的DITA主题，从而启用目标筛选。
    1. **创建于**&#x200B;之后/之前：应用日期筛选器以处理在指定时间范围内创建的资源。
 
    >[!NOTE]

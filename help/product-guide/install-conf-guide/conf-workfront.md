@@ -5,13 +5,25 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 694e9eeb-59a7-43e3-89b0-510b86be1f42
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 2%
-
 ---
-
 # 为Cloud Service配置Adobe Workfront
 
 Adobe Workfront是一个基于云的工作管理解决方案，可帮助团队和组织高效地规划、跟踪和管理其工作。 Experience Manager Guides与Adobe Workfront之间的集成让您能够在Experience Manager Guides核心CCMS功能之上访问强大的项目管理功能，从而允许您高效地计划、分配和跟踪任务。

@@ -5,13 +5,28 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # 配置全局或文件夹级别的配置文件 {#id181AH2003PF}
 
 在企业中，不同的组或产品可能使用不同的创作模板、输出模板、条件属性配置文件\（或主题方案\）和编辑器配置。 仅在企业\（或全局\）级别配置这些组件会让作者难以获得体验，因为他们会看到与其无关的模板或配置文件。
@@ -30,21 +45,21 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
 - **模板**：使用此选项卡可配置您的作者将用于创建或发布DITA内容的模板。 以下主题模板是现成可用的：
 
-   - 术语表
+  - 术语表
 
-   - 引用
+  - 引用
 
-   - 主题
+  - 主题
 
-   - 概念
+  - 概念
 
-   - 任务
+  - 任务
 
-   - 疑难解答
+  - 疑难解答
 
-   - 空白
+  - 空白
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -52,33 +67,33 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
   除了主题模板之外，您还可以定义提供给作者的映射模板。 以下映射模板是现成可用的：
 
-   - 地图
+  - 地图
 
-   - 书图
+  - 书图
 
 - **输出预设**：与模板类似，有五个预配置的输出预设：
 
-   - AEM站点
+  - AEM站点
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - ePub
+  - ePub
 
-   - 自定义
+  - 自定义
 
   发布者可以使用这些现成的输出预设来发布内容。 这些预设可由全局或文件夹级别配置文件的管理员配置。 配置后，发布预设将可供发布者用于新创建的DITA映射。 您还可以将发布预设应用于现有DITA映射，有关更多详细信息，请参阅[应用预设更改](#id18AGD0K0OHS)。
 
 - **XML编辑器配置**：使用此选项卡自定义编辑器的外观和各种功能。 以下可配置设置可供编辑器使用：
 
-   - XML编辑器UI配置
-   - 仅适用于Cloud Service的XML编辑器页面布局
-   - 仅适用于Cloud Service的XML编辑器配置
-   - CSS模板布局
-   - XML编辑器代码片段
-   - XML内容版本标签
-   - Rootmap \（仅在文件夹级别\）
+  - XML编辑器UI配置
+  - 仅适用于Cloud Service的XML编辑器页面布局
+  - 仅适用于Cloud Service的XML编辑器配置
+  - CSS模板布局
+  - XML编辑器代码片段
+  - XML内容版本标签
+  - Rootmap \（仅在文件夹级别\）
 
 您可以同时配置全局配置文件和文件夹级别的配置文件。 在文件夹级别的配置文件中，您可以定义将应用设置的文件夹。 这些设置包括条件属性、模板、输出预设和XML编辑器设置。 条件预设、模板和XML编辑器配置随后将提供给在配置的文件夹中工作的作者。 同样，发布者将有权访问在配置的文件夹中定义的配置的输出预设。
 

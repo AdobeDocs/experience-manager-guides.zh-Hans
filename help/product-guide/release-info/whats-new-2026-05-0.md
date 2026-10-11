@@ -2,13 +2,19 @@
 title: 发行说明 | Adobe Experience Manager Guides 2026.05.0版本中的新增功能
 description: 了解Adobe Experience Manager Guides 2026.05.0版本中的新增功能和增强功能
 role: Leader
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
-
 ---
-
 # 2026.05.0版（2026年5月）的新增功能
 
 本文介绍Adobe Experience Manager Guides as a Cloud Service 2026.05.0版本中引入的新增功能和增强功能。
@@ -46,10 +52,10 @@ Editor 2.0（又称“新编辑器”）提供了简化的创作过程，使您�
 
 - **统一的用户级编辑器设置**：新的集中式设置面板，它使作者更好地控制编辑器行为，允许用户从单个位置更轻松地管理首选项。 配置选项包括启用/禁用功能：
 
-   - 创作模式中的不间断空格
-   - 具有属性或不具有属性的标记可见性设置
-   - 创作模式中的XML注释
-   - 在编辑器中插入元素的快速插入菜单
+  - 创作模式中的不间断空格
+  - 具有属性或不具有属性的标记可见性设置
+  - 创作模式中的XML注释
+  - 在编辑器中插入元素的快速插入菜单
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -82,9 +88,9 @@ Editor 2.0（又称“新编辑器”）提供了简化的创作过程，使您�
 
 - **改进了表创作**：通过更直观、更高效的交互来创建和管理表，增强了整个表创作体验。
 
-   - 流畅而直观的交互：可轻松插入行和列，并且支持拖放以重新排列行和列。
-   - 上下文工具栏：直接在表中访问特定于表的操作，例如格式设置、对齐、合并和其他附加操作。
-   - 配置表：在单个操作中添加多个行或列，从而减少重复步骤并提高效率。
+  - 流畅而直观的交互：可轻松插入行和列，并且支持拖放以重新排列行和列。
+  - 上下文工具栏：直接在表中访问特定于表的操作，例如格式设置、对齐、合并和其他附加操作。
+  - 配置表：在单个操作中添加多个行或列，从而减少重复步骤并提高效率。
 
   ![](assets/config-table.png){width="650"}
 

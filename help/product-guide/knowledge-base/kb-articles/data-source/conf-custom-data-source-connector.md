@@ -5,27 +5,36 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
-TQID: https://experienceleague.adobe.com/ri2JBIGaro4dVmRbzq1KfOjt4DghBghn6hQ2-dbZ42E
+TQID: 'https://experienceleague.adobe.com/ri2JBIGaro4dVmRbzq1KfOjt4DghBghn6hQ2-dbZ42E'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Implementation
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1559
+source-wordcount: '1560'
 ht-degree: 0%
-
 ---
-
 # 配置自定义数据源连接器
 
 Experience Manager Guides允许您根据自己的要求自定义连接器，然后将它们用于不同的数据源。 要自定义连接器，您需要实施连接器接口及其重要功能，然后配置接口。 您还可以随自定义连接器一起提供资源。
@@ -35,10 +44,10 @@ Experience Manager Guides允许您根据自己的要求自定义连接器，然�
 - [实施连接器接口](#implement-interface)
 - [重要函数](#important-functions)
 - [默认连接器实施的类型](#default-connectors)
-   - [配置界面](#config-interface)
-   - [默认配置实施的类型](#default-config-types)
-   - [具体配置实施](#concrete-config-implementation)
-   - [其他资源](#resources)
+  - [配置界面](#config-interface)
+  - [默认配置实施的类型](#default-config-types)
+  - [具体配置实施](#concrete-config-implementation)
+  - [其他资源](#resources)
 
 
 

@@ -4,13 +4,28 @@ description: 了解如何在Experience Manager Guides中配置Git。
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
-
 ---
-
 # 从用户界面创建和配置Git连接器
 
 >[!NOTE]
@@ -42,17 +57,17 @@ ht-degree: 0%
    >* 将鼠标悬停在 <img src="./assets/info-details.svg" alt= "信息图标" width="25">在字段附近查看有关它的更多详细信息。
    >* 带*的字段为必填字段。 例如，您可以为Git连接器输入以下详细信息。
 
-   &#x200B;- **名称**：输入数据源的名称。
-   &#x200B;- **Target AEM根路径**：输入从Git导入的内容应存储在AEM存储库中的路径。
-   &#x200B;- **文件类型筛选器（包含）**：指定导入期间要包含的文件类型。
-   &#x200B;- **排除的路径（正则表达式）**：指定要从导入中排除的路径模式。
-   &#x200B;- **身份验证类型**：从下拉列表中选择身份验证类型。 当前，**个人访问令牌(PAT)**&#x200B;是唯一受支持的身份验证方法。 在连接器设置期间输入PAT以验证和访问Git存储库。
+   - **名称**：输入数据源的名称。
+   - **Target AEM根路径**：输入从Git导入的内容应存储在AEM存储库中的路径。
+   - **文件类型筛选器（包含）**：指定导入期间要包含的文件类型。
+   - **排除的路径（正则表达式）**：指定要从导入中排除的路径模式。
+   - **身份验证类型**：从下拉列表中选择身份验证类型。 当前，**个人访问令牌(PAT)**&#x200B;是唯一受支持的身份验证方法。 在连接器设置期间输入PAT以验证和访问Git存储库。
 
      了解如何[生成GitHub个人访问令牌](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)。
 
      在GitHub上生成PAT期间选择范围时，请确保启用以下范围：
-     &#x200B;- **repo**：选中顶级复选框。 自动选择所有子范围，授予对存储库内容、提交状态和部署的访问权限。
-     &#x200B;- **管理员:org**：仅选择&#x200B;**读取:org**。 这是解决组织和团队成员资格问题所必需的。
+     - **repo**：选中顶级复选框。 自动选择所有子范围，授予对存储库内容、提交状态和部署的访问权限。
+     - **管理员:org**：仅选择&#x200B;**读取:org**。 这是解决组织和团队成员资格问题所必需的。
    * **存储库URL**：输入应从中导入内容的Git存储库URL。
    * **分支**：输入用于内容导入的分支。
 

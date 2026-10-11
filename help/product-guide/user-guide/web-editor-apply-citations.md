@@ -4,24 +4,30 @@ description: 在AEM Guides中添加和管理引文。 了解如何应用、导�
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
+TQID: 'https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1890
-ht-degree: 0%
-
+source-wordcount: '1968'
+ht-degree: 1%
 ---
-
 # 在内容中添加和管理引文
 
 引用是指对添加到内容的信息源的引用。 通过使用引文，您可以对源信息的作者进行评分，并帮助读者跟进源信息。 添加引文可让您的内容更可靠并防止抄袭。 它们还允许您显示经过仔细研究的内容。
@@ -156,7 +162,7 @@ Experience Manager Guides支持多种类型的引文，例如现代语言协会(
 
 将打开&#x200B;**编辑引文**&#x200B;对话框。
 
-1. 进行所需的更改。选择&#x200B;**完成**。
+1. 进行所需的更改。 选择&#x200B;**完成**。
 将编辑选定的引文。
 
 >[!NOTE]
@@ -197,7 +203,7 @@ Experience Manager Guides支持多种类型的引文，例如现代语言协会(
 ### 从主工具栏
 
 1. 在主工具栏中选择&#x200B;**引用** ![引用图标](images/citations-icon.svg)图标。
-1. 在&#x200B;**引文**&#x200B;对话框中，选择引文。您还可以选择多个引文。
+1. 在&#x200B;**引文**&#x200B;对话框中，选择引文。 您还可以选择多个引文。
    ![引文对话框](images/citation-dialog-main-toolbar.png){width="300"}
 1. 您可以在&#x200B;**引文**&#x200B;对话框的搜索面板中键入前几个字母来筛选引文。
 
@@ -248,7 +254,7 @@ Experience Manager Guides支持多种类型的引文，例如现代语言协会(
 
 在主题中，将光标放在引文的末尾。
 
-1. 右键单击主题中的引用，然后从快捷菜单中选择&#x200B;**修改引用**。将打开“引文”对话框。
+1. 右键单击主题中的引用，然后从快捷菜单中选择&#x200B;**修改引用**。 将打开“引文”对话框。
    引用的![快捷菜单](./images/modify-citation.png)
 
 1. 您可以选择要插入到文档中的引文。

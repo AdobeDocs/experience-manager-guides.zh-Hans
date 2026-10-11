@@ -4,27 +4,41 @@ description: 借助Guides扩展框架，您可以使用易于更新的JSON、CSS
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
-TQID: https://experienceleague.adobe.com/6XYV9fBtBJiOAi2elIcZX3EC-fn22cfLCq2LrgpGJyg
+TQID: 'https://experienceleague.adobe.com/6XYV9fBtBJiOAi2elIcZX3EC-fn22cfLCq2LrgpGJyg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 386
+source-wordcount: '386'
 ht-degree: 0%
-
 ---
-
 # AEM Guides的扩展框架：自定义Web编辑器并查看UI
 
 在系统中工作时，企业/用户通常希望自定义按钮、操作或显示信息以满足其操作并提高其工作效率。 Extension Framework允许在AEM Guides上创建自定义软件包，以扩展用户界面及其行为。 这些自定义包对于开发人员和顾问非常有用，使他们可以在编辑器/审阅UI中实现组件的可扩展性。 他们可以定位按钮、对话框和下拉列表，并添加可轻松与AEM Guides UI交互操作的自定义JavaScript。
@@ -48,12 +62,12 @@ ht-degree: 0%
 - 了解可使用此扩展框架扩展的所有接口
 - 了解已有的功能，以便轻松开始创建自己的自定义功能
 - 通过示例了解自定义设置：
-   - 在编辑器中添加帮助和支持部分
-   - 添加另一个左侧面板 — 例如，查看当前用户的任务
-   - 使用此框架为主题/地图添加一个或多个工具栏按钮
-   - 扩展在浏览器的“内容属性”面板中显示的信息 — 添加后处理信息以指示是否对给定文件执行后处理
-   - 在审阅UI中添加自定义按钮 — 打开主题以在编辑器中编辑它
-   - 审阅UI的更多自定义选项
+  - 在编辑器中添加帮助和支持部分
+  - 添加另一个左侧面板 — 例如，查看当前用户的任务
+  - 使用此框架为主题/地图添加一个或多个工具栏按钮
+  - 扩展在浏览器的“内容属性”面板中显示的信息 — 添加后处理信息以指示是否对给定文件执行后处理
+  - 在审阅UI中添加自定义按钮 — 打开主题以在编辑器中编辑它
+  - 审阅UI的更多自定义选项
 - 在哪里可以找到上述示例的实施，以便您开始处理
 
 

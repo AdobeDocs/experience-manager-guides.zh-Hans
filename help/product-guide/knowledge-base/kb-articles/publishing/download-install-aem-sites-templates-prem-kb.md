@@ -5,21 +5,31 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-TQID: https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI
+TQID: 'https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 0%
-
 ---
-
 # 下载并安装AEM Sites模板（内部部署服务）
 
 本指南提供了设置和配置用于生成AEM Sites的最新AEM Guides模板的分步说明。 按照以下步骤安装所需的包，创建和配置预设，以及生成AEM Sites。
@@ -32,19 +42,19 @@ ht-degree: 0%
 
 - **所需权限**：确保具有以下权限：
 
-   - 访问&#x200B;**软件分发门户**&#x200B;以下载所需的包
-   - 访问&#x200B;**CRX包管理器**&#x200B;以在AEM中安装包。
-   - 在AEM Guides中创建和修改预设的权限。
+  - 访问&#x200B;**软件分发门户**&#x200B;以下载所需的包
+  - 访问&#x200B;**CRX包管理器**&#x200B;以在AEM中安装包。
+  - 在AEM Guides中创建和修改预设的权限。
 
 - **下载包**：从&#x200B;**软件分发门户**&#x200B;下载以下包：
 
-   - 组件包： on-prem-guides-components.all-1.x.0.zip
-   - 站点包：aemg-docs.all-1.x.0.zip
+  - 组件包： on-prem-guides-components.all-1.x.0.zip
+  - 站点包：aemg-docs.all-1.x.0.zip
 
 ## 使用CRX包管理器安装包
 
 1. **安装组件包：**
-   1. 导航到&#x200B;[**CRX包管理器**](http://&lt;your-aem-instance>/crx/packmgr)。
+   1. 导航到&#x200B;[**CRX包管理器**](http://<your-aem-instance>/crx/packmgr)。
    2. 上传并安装on-prem-guides-components.all-1.x.0.zip包。
 
 2. **安装站点包：**&#x200B;使用CRX包管理器上载并安装aemg-docs.all-1.x.0.zip包。

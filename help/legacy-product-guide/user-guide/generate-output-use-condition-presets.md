@@ -5,24 +5,32 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-TQID: https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM
+TQID: 'https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1119
+source-wordcount: '1214'
 ht-degree: 2%
-
 ---
-
 # 使用条件预设 {#id1825FL004PN}
 
 您可以在DITA主题中定义属性，并使用条件预设指定在最终输出中属性会发生什么情况。 例如，您可以在内容中添加版本为1.0和版本为2.0的属性，并使用条件预设来包含版本1.0的版本1.0和排除版本2.0。 同样，您可以将OS Windows和OS Linux等属性添加到内容中，然后根据操作系统在最终输出中包括或排除相关内容。
@@ -60,23 +68,23 @@ ht-degree: 2%
 1. 选择&#x200B;**创建**。
 新条件预设即添加到列表中。
 1. 双击条件预设可查看属性和操作。
-**属性**&#x200B;面板显示添加到映射中存在的任何引用的所有属性。右侧面板仅显示您添加到条件预设的条件。
+**属性**&#x200B;面板显示添加到映射中存在的任何引用的所有属性。 右侧面板仅显示您添加到条件预设的条件。
 1. 执行以下任一操作以添加属性：
    * 选择一个或多个属性，以将它们下的所有值添加到条件预设。 例如，您可以选择`platform`属性以添加其所有值。
    * 选择一个或多个属性值以将其添加到条件预设。 例如，您可以选择平台属性的`Unix`和`Win`值
    * 选择任意属性和值对并将其拖动到中央面板。 例如，您可以选择Platform属性的`Unix`值并拖动它。
    * **全选**&#x200B;以将所有属性及其值添加到条件预设。
-默认情况下，属性的操作为`Include`。
+     默认情况下，属性的操作为`Include`。
 
 1. 选择&#x200B;**添加**。 您可以重复此步骤以添加更多属性。 您添加的属性从中央移至右侧面板。
 1. 从顶部的操作栏中选择“移除”可移除右侧面板中的选定属性。
 1. （可选）如果需要，您可以覆盖应用于属性的操作。
-执行以下操作之一：
+执行下列操作之一：
    * 对于任何属性，请从“操作”下拉列表中选择以下操作之一。
-      * 包含
-      * 不包括
-      * 直通
-      * 标志
+     * 包含
+     * 不包括
+     * 直通
+     * 标志
    * 从右侧面板中选择多个属性行，然后从顶部的操作栏中选择一个操作。 例如，可以为所选属性选择“排除”操作。
 1. 选择&#x200B;**保存**&#x200B;以保存条件预设。
 
@@ -133,7 +141,7 @@ ht-degree: 2%
    * 不包括
    * 直通
    * 标志
-无论是否将属性添加到条件预设，该操作均设置为所有属性的默认操作。
+     无论是否将属性添加到条件预设，该操作均设置为所有属性的默认操作。
 
    例如，您的文档中有15个条件属性，并且您在条件预设中包含了其中的4个。 如果选择&#x200B;**排除**&#x200B;作为默认操作，则会将其应用于所有15个属性。
 

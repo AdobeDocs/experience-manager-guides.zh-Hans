@@ -5,30 +5,46 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
+TQID: 'https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+    internal-label: Report generation
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 9214
+source-wordcount: '9271'
 ht-degree: 1%
-
 ---
-
 # 升级Adobe Experience Manager Guides {#id224MBE0M0XA}
 
 >[!NOTE]
@@ -43,7 +59,7 @@ ht-degree: 1%
 - 如果您使用的是版本4.3.x、4.2、4.2.1（修补程序4.2.1.3）、4.1或4.1.x，则需要在升级到版本5.0.0之前升级到版本4.4。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
+- 如果您使用的版本低于3.8.5，请参阅[Adobe Experience Manager Guides帮助Experience Manager Guides存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的“升级PDF”部分。
 
 
 >[!NOTE]
@@ -76,7 +92,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 此升级过程仅适用于版本3.8.5到版本4.0。 有关从版本3.4或更高版本升级到3.8.5的过程，请参阅[Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/cn/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的&#x200B;*升级Adobe Experience Manager Guides*&#x200B;部分。
+> 此升级过程仅适用于版本3.8.5到版本4.0。 有关从版本3.4或更高版本升级到3.8.5的过程，请参阅[Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)上提供的产品特定安装指南中的&#x200B;*升级Adobe Experience Manager Guides*&#x200B;部分。
 
 
 
@@ -134,7 +150,7 @@ ht-degree: 1%
 
    - 如果您使用的是UUID版本的软件，请搜索“适用于AEM 6.5的XML Documentation解决方案的4.0 UUID版本”。
    - 如果您使用的是非UUID版本的软件，请搜索“适用于AEM 6.5的XML Documentation解决方案的4.0非UUID版本”。
-使用AEM包管理器将包上传到现有CRX服务器实例并进行安装。
+     使用AEM包管理器将包上传到现有CRX服务器实例并进行安装。
 
    >[!NOTE]
    >
@@ -287,7 +303,7 @@ ht-degree: 1%
 1. 在节点下添加名称为摘录的新节点。
 
    `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
-并在节点中设置以下属性：
+   并在节点中设置以下属性：
 
    ```
    name - rep:excerpt
@@ -485,7 +501,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
-- 确保`damAssetLucene`索引已完成。这可能需要几个小时，具体取决于服务器上存在的数据量。您可以通过检查中的重新索引字段是否设置为false来确认重新索引已完成
+- 确保`damAssetLucene`索引已完成。 这可能需要几个小时，具体取决于服务器上存在的数据量。 您可以通过检查中的重新索引字段是否设置为false来确认重新索引已完成
   `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在`damAssetLucene`中添加任何自定义项，则可能需要再次应用它们。
 
 - 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`。 （可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
@@ -750,7 +766,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    |---|---|
    | 请求类型 | **GET** |
    | 参数 | jobId：传递从上一个post请求收到的jobId。 |
-   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。<br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | 预期响应 |  — 作业完成后，GET请求会做出成功响应。<br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
@@ -951,7 +967,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    |---|---|
    | 请求类型 | **GET** |
    | 参数 | jobId：传递从上一个post请求收到的jobId。 |
-   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。<br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | 预期响应 |  — 作业完成后，GET请求会做出成功响应。<br> — 如果出现错误，请与您的客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 1. 如果您在步骤1中更改了`queryLimitReads`的值，请恢复为默认或以前的现有值。
 

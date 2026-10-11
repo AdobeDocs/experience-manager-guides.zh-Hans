@@ -5,29 +5,41 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-TQID: https://experienceleague.adobe.com/o2K7oBKJLUkB43dMNcQ1iS1rpNKjFu6dvgO-HY37Vvg
+TQID: 'https://experienceleague.adobe.com/o2K7oBKJLUkB43dMNcQ1iS1rpNKjFu6dvgO-HY37Vvg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ed9d83c9-e55d-4a67-9667-8e31871715a7
+    internal-label: Content migration
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Insights
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1052
+source-wordcount: '1059'
 ht-degree: 1%
-
 ---
-
 # 发布内容片段
 
 内容片段是Adobe Experience Manager中的离散内容片段。 它们是基于内容模型的结构化内容。 内容片段是纯内容，没有设计或布局信息。 它们可以独立于Adobe Experience Manager支持的渠道进行创作和管理。 内容片段是模块化的，其中的内容被划分为较小的组件。
@@ -70,9 +82,9 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
      > 
      > 仅当在主题中定义了条件属性时，才会启用条件。
 
-      * **无**：如果不想对已发布的输出应用任何条件，请选择此选项。
-      * **使用DITAVAL**：选择要在生成的输出中包含或排除特定内容的DITAVAL文件。 可使用浏览对话框或键入文件路径来选择DITAVAL文件。
-      * **使用属性**：您可以在DITA主题中定义条件属性。 然后选择条件属性以发布相关内容。
+     * **无**：如果不想对已发布的输出应用任何条件，请选择此选项。
+     * **使用DITAVAL**：选择要在生成的输出中包含或排除特定内容的DITAVAL文件。 可使用浏览对话框或键入文件路径来选择DITAVAL文件。
+     * **使用属性**：您可以在DITA主题中定义条件属性。 然后选择条件属性以发布相关内容。
 
 
 
@@ -87,7 +99,7 @@ Experience Manager Guides允许您将主题或其元素发布到内容片段。
 
    * **模型**：选择要用于创建内容片段的内容片段模型。 将从已在Experience Manager Guides服务器上配置的文件夹中选取模型。
    * **映射**：您可以查看应用了ID属性的主题元素。 将主题元素拖动到内容片段模型中存在的字段。
-如果存在内容片段，右侧会填充已发布的内容片段内容。 如有必要，可以用主题内容覆盖这些内容。 您还可以选择&#x200B;**撤消**&#x200B;以还原映射更改。
+     如果存在内容片段，右侧会填充已发布的内容片段内容。 如有必要，可以用主题内容覆盖这些内容。 您还可以选择&#x200B;**撤消**&#x200B;以还原映射更改。
 
 
      >[!NOTE]
