@@ -21,19 +21,37 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f89becea89888f7dec81e18c9220dcabda8f4e7d
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '161'
+ht-degree: 4%
 ---
 
 # 配置本机PDF引擎v2
 
 本机PDF的新发布引擎（即&#x200B;_本机PDF引擎v2_）提供了更新的PDF渲染功能，并修复了&#x200B;_本机PDF引擎v1_&#x200B;问题。
 
+>[!BEGINTABS]
+>[!TAB Cloud Service]
+
 使用[配置覆盖](../install-conf-guide/download-install-config-override.md)中提供的说明创建配置文件。 在配置文件中，提供以下（属性）详细信息：
 
 | PID | 属性键 | 属性值 |
 |-----|--------------|----------------|
 | `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br>默认值： `v1` |
+
+>[!TAB 内部部署]
+
+
+对于内部部署，其可用性取决于AEM和Java版本。
+
+_Native PDF引擎v2_&#x200B;需要&#x200B;**Java 17或更高版本**。
+
+- **AEM 6.5：**&#x200B;不支持Native PDF Publishing Engine v2，因为AEM 6.5在Java 8上运行。
+- 默认情况下已启用&#x200B;**AEM 6.5 LTS：**&#x200B;本机PDF发布引擎v2。 无需其他配置。
+
+如果您希望切换回带有AEM 6.5 LTS的&#x200B;_本机PDF引擎v2_，请卸载PDF发布者包：
+CRX包管理器中的`/crx/packmgr/index.jsp#/etc/packages/com.adobe.guides/pdf-publisher-package-3.0.0.zip`。
+
+>[!ENDTABS]
 
