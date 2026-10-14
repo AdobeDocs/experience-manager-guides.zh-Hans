@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 07928af0e6f028d01ff9e879d7ff79093a661a5d
+source-git-commit: 481c5fe8df7a81a8f00358b8f28dba131bca63d9
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2331'
 ht-degree: 0%
 ---
 # Experience Manager Guides主页体验
@@ -180,11 +180,7 @@ Experience Manager Guides主页分为以下部分：
 
 ### 映射收藏集
 
->[!NOTE]
->
-> 从2026.08.0版本开始，Experience Manager Guides as a Cloud Service中提供了新的地图收藏集。 请联系您的客户成功团队以启用此功能。
-
-Adobe Experience Manager Guides中的映射收藏集使发布专家能够将多个文档整理到单个收藏集中，控制为每个文档生成的输出，以及从集中式仪表板高效地批量生成和发布输出。 了解有关[使用新的映射集合生成输出的详细信息。](./generate-output-use-new-map-collection-output-generation.md)
+Experience Manager Guides允许您使用名为&#x200B;**映射收藏集**&#x200B;的功能板来组织内容以供发布。 若要使用此功能，请从左侧面板中选择&#x200B;**映射收藏集**。 它会将您转到&#x200B;**Assets UI**&#x200B;中的“映射集合”页面，您可以在其中使用[映射集合生成输出。](./generate-output-use-map-collection-output-generation.md)
 
 ### 批量发布
 
