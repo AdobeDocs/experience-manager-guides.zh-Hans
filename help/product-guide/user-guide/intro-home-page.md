@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2380'
 ht-degree: 0%
 ---
 # Experience Manager Guides主页体验
@@ -179,6 +179,10 @@ Experience Manager Guides主页分为以下部分：
 存储库是轻松发现文件夹和文件的集中中心。 它提供了所有文件和文件夹的全面的表格式列表视图，以及它们的上下文详细信息。 通过这个统一的界面，您可以使用强大的筛选选项无缝浏览文件和执行搜索，从而确保效率和增强的体验。 了解有关[存储库](./home-page-repository-view.md)的详细信息。
 
 ### 映射收藏集
+
+>[!NOTE]
+>
+>您可以从2026.08.0版本开始使用Adobe Experience Manager Guides as a Cloud Service中新的地图收藏集功能，该功能将地图管理和批量发布整合到一个统一的界面中。 请联系您的客户成功团队以启用此功能。了解有关[使用新映射集合的更多信息。](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides允许您使用名为&#x200B;**映射收藏集**&#x200B;的功能板来组织内容以供发布。 若要使用此功能，请从左侧面板中选择&#x200B;**映射收藏集**。 它会将您转到&#x200B;**Assets UI**&#x200B;中的“映射集合”页面，您可以在其中使用[映射集合生成输出。](./generate-output-use-map-collection-output-generation.md)
 
