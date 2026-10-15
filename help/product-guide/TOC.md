@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
+source-git-commit: a9f16f7a9a4458a89664c1b8bdae41453d4d8c3f
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2654'
 ht-degree: 10%
 ---
 
@@ -590,6 +590,7 @@ ht-degree: 10%
     - [为审阅任务中的主题编制索引](./install-conf-guide/index-review-tasks.md)
     - [AEM Sites的组件映射](./install-conf-guide/component-mapping.md)
     - [配置用于生成输出的模板预设](./install-conf-guide/template-presets-output-generation.md)
+    - [将AEM Guides与Guides知识人工智能联系起来](./install-conf-guide/knowledge-ai-connector.md)
   - 附录 {#appendix}
     - [附录](./install-conf-guide/aemg-appendix.md)
 
