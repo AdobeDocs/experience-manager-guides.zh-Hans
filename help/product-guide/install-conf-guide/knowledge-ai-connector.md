@@ -44,7 +44,7 @@ ht-degree: 1%
 
 知识人工智能使用服务帐户进行安全身份验证并访问内容。
 
-1. 按照[配置微服务IMT配置](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)中的说明操作
+1. 按照[配置微服务IMT配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)中的说明操作
 
 1. 创建新的服务帐户并下载生成的JSON凭据文件。
 
