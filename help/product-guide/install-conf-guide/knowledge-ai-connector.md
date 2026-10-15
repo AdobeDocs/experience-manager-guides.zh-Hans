@@ -4,7 +4,7 @@ description: 了解如何将AEM Guides与Guides知识人工智能联系起来
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 9f0ca688ae040c9f2f8a0aba0ac4547301a659ad
+source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 知识人工智能使用服务帐户进行安全身份验证并访问内容。
 
-1. 按照[配置微服务IMT配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)中的说明操作
+1. 按照[配置微服务IMT配置](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)中的说明操作
 
 1. 创建新的服务帐户并下载生成的JSON凭据文件。
 
@@ -62,15 +62,13 @@ ht-degree: 1%
 要授予对知识人工智能的访问权限，请确定服务帐户。
 
 1. 打开下载的服务帐户JSON文件。
-1. 搜索字段名称`technical_account_email`。
+1. 搜索字段名称`technical_account_email`。 查看类似于以下内容的值：
 
-查看类似于以下内容的值：
-
-```json
-{
-"technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
-}
-```
+   ```json
+   {
+   "technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
+   }
+   ```
 
 1. 复制与`technical_account_email`关联的电子邮件地址。 您将在下一步中使用此电子邮件地址。
 
