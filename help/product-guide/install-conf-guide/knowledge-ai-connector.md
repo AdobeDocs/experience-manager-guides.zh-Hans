@@ -4,9 +4,9 @@ description: 了解如何将AEM Guides与Guides知识人工智能联系起来
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
+source-git-commit: 05976e2a408e57256a454f181bb93d900dc091ab
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 1%
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 知识人工智能使用服务帐户进行安全身份验证并访问内容。
 
-1. 按照[配置微服务IMT配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)中的说明操作
+1. 按照[配置微服务IMT配置](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)中的说明操作。
 
 1. 创建新的服务帐户并下载生成的JSON凭据文件。
 
