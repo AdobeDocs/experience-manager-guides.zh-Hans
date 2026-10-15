@@ -1,6 +1,6 @@
 ---
-title: 从“地图”控制台创建和管理新基线(Beta)
-description: 从Adobe Experience Manager Guides的映射控制台中创建和管理新基线(Beta)。
+title: 从“映射”控制台创建和管理新基线
+description: 从Adobe Experience Manager Guides的映射控制台中创建和管理新基线。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
@@ -22,16 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1400'
 ht-degree: 0%
 ---
-# Experience Manager Guides中的新基线(Beta)
+# Experience Manager Guides中的新基线
 
 >[!NOTE]
 >
-> - 本文适用于新基线，它目前作为&#x200B;*Beta*&#x200B;功能提供，可提高Experience Manager Guides 2026.04.0版本中提供的性能和稳定性。
+> - 本文适用于Experience Manager Guides 2026.04.0版本中提供已改进性能和稳定性的新基线。
 > - 要为Cloud Service启用新的基线功能，请联系客户成功团队。
 > - 要为内部部署启用新基线功能，请查看[配置新基线](../install-conf-guide/conf-new-baseline-on-prem.md)。
 

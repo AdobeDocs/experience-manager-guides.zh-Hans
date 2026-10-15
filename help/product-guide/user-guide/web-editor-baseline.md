@@ -35,16 +35,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 0%
 ---
 # 从“映射”控制台创建和管理基线 {#id223MB0ZF043}
 
 >[!NOTE]
 >
-> Experience Manager Guides 2026.03.0版本中提供了新基线(Beta)，它提高了性能和稳定性。 要使用此基线，请联系客户成功团队以启用该功能。 了解有关[新基线(Beta)](./web-editor-baseline-v2.md)的更多信息。
+> Experience Manager Guides 2026.03.0版本中提供了新的基准，以改进性能和稳定性。 要使用此基线，请联系客户成功团队以启用该功能。 了解有关[新基线](./web-editor-baseline-v2.md)的更多信息。
 
 基线功能允许您创建随后可用于发布或翻译的主题和资产的版本。 例如，如果您的DITA映射有`topicA`和`imageA`，则可以创建基线以使用`topicA`的第3版本，而使用`ImageA`的第4版本。 一旦基线到位，您就可以在单一步骤中发布或翻译不同版本的主题。
 
