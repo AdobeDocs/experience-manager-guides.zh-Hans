@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 212757685049f8787ffe4d63be48c44977a67ef0
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '378'
 ht-degree: 6%
 ---
 # Experience Manager Guides文档
@@ -171,53 +171,6 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 
 ::::
 
-## 新增功能
-
-<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
-
->[!BEGINSHADEBOX]
-
-<table>
-<tr style="border: 0;">
-<td>
-
-![Git连接器](../assets/whats-new-git-connector.svg)
-
-**[使用Git Connector导入内容](./user-guide/web-editor-git-connector.md)**
-
-直接从Git存储库将内容导入指南。
-
-</td>
-<td>
-
-![映射收藏集](../assets/whats-new-map-collection.svg)
-
-**[新映射集合](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
-
-用于管理映射和发布输出的统一界面。
-
-</td>
-<td>
-
-![委托审核](../assets/whats-new-delegate-review.svg)
-
-**[委派审核任务](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
-
-审阅人可以将审阅任务委派给其他审阅人。
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
-## 新增功能
-
-[!BADGE 2026.09.0发行版]{type=Informative}
-
-Adobe Experience Manager Guides 2026.09.0版在AI Assistant中引入了由AI支持的智能标记，以及在创作、内容管理、发布和整体用户体验方面的增强功能。
-
-[探索新增功能](./release-info/whats-new-2026-09-0.md)
 
 ## 快速链接
 
@@ -266,7 +219,7 @@ Adobe Experience Manager Guides 2026.09.0版在AI Assistant中引入了由AI支�
 * [支持](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hans){target="_blank"}
 * [视频教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[Interact on Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hans&lang=zh_cn)
+[Interact on Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=zh_cn)
 
 </td>
 </tr>
@@ -274,14 +227,11 @@ Adobe Experience Manager Guides 2026.09.0版在AI Assistant中引入了由AI支�
 
 >[!ENDSHADEBOX]
 
-
-
-
 ## 其他资源
 
 * [Cloud Service发行说明](./release-info/latest-release-info-cs.md)
 * [On-Premise发行说明](./release-info/latest-release-info.md)
-* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=zh-Hans&lang=zh_cn){target="_blank"}
+* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=zh_cn){target="_blank"}
 * [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.zh-Hans){target="_blank"}
 * [支持](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hans){target="_blank"}
 * [视频教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
