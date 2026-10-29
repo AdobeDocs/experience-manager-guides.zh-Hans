@@ -25,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -74,7 +74,7 @@ ht-degree: 0%
 >
 > 要在环境中使用AI助手功能的代理模式，请联系客户成功团队。 启用该功能后，管理员可以从Workspace设置中将其打开或关闭。 一次只能启用一种AI Assistant模式：Agentic或Standard。
 
-- **全能**：将Adobe CX Enterprise Coworker的智能、全能智能标记技能引入编辑器，实现自然的对话式内容标记。 它可分析您的内容、推荐相关标记，并帮助您以最省力的方式应用一致且准确的元数据。 您可以查看建议的标记，并在确认选择之前选择应用或拒绝这些标记。 [在代理模式下使用AI助手](../user-guide/ai-assistant-agentic.md)可简化标记过程，提高内容组织和可发现性。
+- **代理**：将Adobe CX Enterprise Coworker的智能、代理智能标记技能引入编辑器，从而实现自然、对话的内容标记。 它可分析您的内容、推荐相关标记，并帮助您以最省力的方式应用一致且准确的元数据。 您可以查看建议的标记，并在确认选择之前选择应用或拒绝这些标记。 [在代理模式下使用AI助手](../user-guide/ai-assistant-agentic.md)可简化标记过程，提高内容组织和可发现性。
 
 - **Standard**：一款功能强大、AI驱动的工具，旨在通过智能帮助功能提高您的工作效率。 此外，在编辑器界面中工作时，您可以利用AI Assistant的智能创作功能，通过内容重用和优化的智能建议，使创作过程更智能、更快。
 
