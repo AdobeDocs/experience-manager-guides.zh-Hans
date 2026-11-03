@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
+source-git-commit: 607a230b50d4c3025b6b0e91667138099b7a8000
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '414'
 ht-degree: 0%
-
 ---
-
 # 编辑器简介 {#id181OD0QE05Z}
 
 Experience Manager Guides附带一个易于使用的编辑器，用于创建和编辑结构化文档。 该编辑器对作者隐藏了DITA结构的所有复杂内容。 编辑器提供了用户通常需要在文档中工作的DITA元素列表。
@@ -49,17 +47,9 @@ Experience Manager Guides附带一个易于使用的编辑器，用于创建和�
 - UI和UX细化：在创作和预览模式下通过深色主题和更丰富的默认CSS提高了可读性和视觉舒适性，并提供更现代的编辑界面。
 - 集中式编辑器设置：提供一个统一的设置面板来个性化创作体验，包括对标记、属性、XML注释、不间断空格和编辑器中的快速插入菜单的控制。
 
-### 新编辑器的限制
-
-新编辑器当前不支持以下功能。 计划在即将发布的版本中引入这些功能。
-
-- 在启用了跟踪更改的情况下创作（任何现有的跟踪更改都会保留，并被视为常规内容）
-
-
 >[!NOTE]
 >
 >新编辑器不支持DITA映射的布局视图。
-
 
 ## 旧编辑器
 

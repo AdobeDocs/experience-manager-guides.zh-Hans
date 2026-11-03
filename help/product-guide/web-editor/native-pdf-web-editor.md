@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4071'
+source-wordcount: '4203'
 ht-degree: 0%
 ---
 # 原生PDF输出预设
@@ -264,6 +264,21 @@ ht-degree: 0%
 | **保留临时文件** | 如果要保留在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 下载的文件还将包括`system_config.xml`文件，该文件为您提供了有关作者URL、本地URL和发布URL的信息。 这些URL是在AEM外部化设置中配置的，并反映在`system_config.xml`文件中。 |
 | **PDF合规性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用的PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请查看[关于PDF标准](https://helpx.adobe.com/cn/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)。 |
 | **文件属性** | 选择要传递到本机PDF发布的元数据。 该下拉列表会同时列出自定义属性和默认属性。 例如，`dc:description`、`dc:language`、`dc:title`和`docstate`是默认属性，而您可以将`author`作为自定义属性。 所选元数据属性将传递到使用本机PDF生成的PDF文件。<br> 这些属性是从位于`/libs/fmdita/config/metadataList`的`metadataList`文件中选取的。 <br>此文件可以覆盖在： `/apps/fmdita/config/metadataList`。 |
+
+## 中间HTML中的DITA元素映射
+
+在本机PDF生成期间，DITA内容会在生成PDF输出之前转换为中间HTML。 您可以通过启用本机PDF输出预设中的&#x200B;**保留临时文件**&#x200B;选项来访问这些中间文件。
+
+作为此转换的一部分，某些DITA元素可以映射到中间`merged.html`文件中的其他HTML元素。 这些映射有助于在生成的PDF中保留预期的内联渲染。
+
+如果您在中间文件中使用依赖于HTML元素结构的自定义项或自动化项，则在处理生成的HTML时请考虑这些映射。
+
+目前，以下DITA元素映射适用于中间`merged.html`文件：
+
+| DITA元素 | HTML元素 | 描述 |
+|----|----|-----|
+| `<option>` | `<span>` | 将DITA `<option>`元素映射到HTML `<span>`元素，以便在生成的PDF中保留周围的空格。 |
+
 
 
 

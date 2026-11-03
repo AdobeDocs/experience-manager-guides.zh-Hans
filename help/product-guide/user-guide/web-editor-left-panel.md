@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # 编辑器中的左侧面板
@@ -859,7 +859,8 @@ DITA的主要功能之一是能够重用内容。 **可重用内容**&#x200B;面
 
 >[!NOTE]
 >
-> 键入以创建新组，或为特定属性选择现有组。
+> - 键入以创建新组，或为特定属性选择现有组。
+> - “条件”面板中的条件按照其标签而不是其值的字母顺序排序。 排序顺序由分配给条件的标签确定，而不管其相应值如何。
 
 您可以使用`/`并定义子组，如`AEM Guides/Cloud Service`。
 

@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 # 地图编辑器中的其他功能 {#id1942D0T0HUI}
@@ -90,7 +90,7 @@ DITA内容键引用，或`conkeyref`是一种将部分内容从一个主题插�
 
 ## 在地图上运行运行状况检查
 
-利用上下文菜单中的运行运行状况检查选项，可以对所选映射运行运行状况检查，以在发布之前捕获链接断开、ID重复和架构验证失败等问题。
+上下文菜单中的&#x200B;**运行运行状况检查**&#x200B;选项允许您在发布之前对所选映射运行运行状况检查，以捕获链接断开、ID重复和架构验证失败等问题。 此功能在新编辑器和旧编辑器中均可用。
 
 >[!NOTE]
 >

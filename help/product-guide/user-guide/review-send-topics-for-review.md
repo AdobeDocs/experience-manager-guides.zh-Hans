@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4036'
+source-wordcount: '4222'
 ht-degree: 0%
 ---
 # 发送主题以供审阅 {#id199RD0S035Z}
@@ -400,6 +400,32 @@ Experience Manager Guides允许您同时在DITA映射中发送一个或多个主
 - **已完成**：已完成审阅的审阅人会收到请求重新审阅的通知。
 
 有关更多详细信息，请查看[了解审阅通知](./review-understanding-review-notifications.md)。
+
+## 为审阅人添加注释
+
+作为审阅任务的发起者，可以将内联注释添加到要审阅的主题。 创建审阅任务后，在&#x200B;**审阅UI**&#x200B;中打开该任务以提供其他上下文或吸引审阅人关注特定内容。
+
+执行以下步骤可向审阅任务中的主题添加注释：
+
+1. 创建审阅任务并添加所需的主题和审阅者。
+
+2. 在&#x200B;**审核UI**&#x200B;中打开创建的审核任务。
+
+   作为审阅发起人，您可以访问&#x200B;**评论**&#x200B;面板和左侧的主题列表，类似于审阅人可用的视图。
+
+   ![](./images/add-comments-as-author.png)
+
+3. 从主题列表中，选择要添加注释的主题。
+
+4. 选择相关内容并使用&#x200B;**评论**&#x200B;面板中可用的选项来添加您的反馈或吸引审阅人关注特定内容。
+
+5. 根据需要重复这些步骤向审阅任务中的其他主题添加注释。
+
+当审阅人访问审阅任务时，您添加的注释对审阅人可见。 添加评论时，审阅人还会收到AEM通知。
+
+
+
+
 
 
 **父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)

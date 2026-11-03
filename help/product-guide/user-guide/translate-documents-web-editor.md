@@ -37,9 +37,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '2794'
+source-wordcount: '2824'
 ht-degree: 0%
 ---
 # 从地图控制台翻译文档 {#id21BKF0Z0YZF}
@@ -181,7 +181,7 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
 
      ![输入项目路径](images/project-path.png){width="650"}
 
-   - 如果要添加到现有翻译项目，请选择该项目已存在的路径。 然后，从&#x200B;**现有翻译项目**&#x200B;列表中，选择要将当前翻译任务添加到的项目。 您还可以使用可用的&#x200B;**筛选器**&#x200B;来缩小列表范围。
+   - 如果要添加到现有翻译项目，请选择该项目已存在的路径。 然后，从&#x200B;**现有翻译项目**&#x200B;列表中选择要将当前翻译任务添加到的项目。 如果多个项目具有相同的标题，请使用随每个项目标题一起显示的路径来标识正确的路径。 您还可以使用可用于缩小列表范围的&#x200B;**筛选器**，还可以根据您的要求&#x200B;**对项目进行排序**
 
      ![输入现有项目路径](images/existing-project-path.png){width="650"}
 

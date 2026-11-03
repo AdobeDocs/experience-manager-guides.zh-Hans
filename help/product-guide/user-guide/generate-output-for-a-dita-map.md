@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '597'
 ht-degree: 0%
 ---
 # 生成输出
@@ -76,6 +76,9 @@ ht-degree: 0%
 >
 > 如果您的映射使用DITAVAL文件，则在DITAVAL文件中引用的所有标记图像都会复制到输出中与已发布映射相关的位置。  此外，如果在同一映射中使用多个DITAVAL文件进行筛选，请确保使用唯一的`.ditaval`文件名以避免发布期间出现重复文件名问题。
 
+您可以在&#x200B;**输出历史记录**&#x200B;选项卡中查看输出生成请求的当前状态。 有关详细信息，请查看[查看输出生成任务](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)的状态。
+
+
 ## 从映射仪表板生成DITA映射的输出
 
 执行以下步骤以使用“映射”仪表板生成DITA映射的输出：
@@ -91,7 +94,7 @@ ht-degree: 0%
 1. 选择&#x200B;**生成**&#x200B;图标以启动输出生成进程。
 
 
-您可以在&#x200B;**输出**&#x200B;选项卡中查看输出生成请求的当前状态。 有关详细信息，请查看[查看输出生成任务](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task)的状态。
+您可以在&#x200B;**输出**&#x200B;选项卡中查看输出生成请求的当前状态。 有关详细信息，请查看[查看输出生成任务](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)的状态。
 
 >[!IMPORTANT]
 >

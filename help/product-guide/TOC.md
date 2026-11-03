@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
+source-git-commit: e1ea38759b90ccb044664bd70a5e7dbbaf9dd4f2
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2699'
 ht-degree: 10%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 10%
       - {hide-from-toc}[部署说明](./release-info/deploy-xml-on-aemaacs.md)
       - [Cloud版本](./release-info/latest-release-info-cs.md)
       - 2026版 {#2026-releases}
+        - 2026.11.0发行版 {#2611-release}
+          - [新增功能](./release-info/whats-new-2026-11-0.md)
+          - [修复的问题](./release-info/fixed-issues-2026-11-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2026-11-0.md)
         - 2026.09.0发行版 {#2609-release}
           - [新增功能](./release-info/whats-new-2026-09-0.md)
           - [修复的问题](./release-info/fixed-issues-2026-09-0.md)
@@ -293,6 +297,10 @@ ht-degree: 10%
   - 地图管理和发布 {#map-management-publishing}
     - [映射控制台概述](./user-guide/map-console-overview.md)
     - [在“映射”控制台中打开文件](./user-guide/open-files-map-console.md)
+    - 分支和合并 {#work-with-branching}
+      - [概述](./user-guide/branching-overview.md)
+      - [创建和管理分支](./user-guide/create-manage-branch.md)
+      - [合并分支](./user-guide/merge-branches.md)
     - 报告 {#reports-aem-guide}
       - [报表简介](./user-guide/reports-intro.md)
       - [“映射”控制台中的DITA映射报表](./user-guide/reports-web-editor.md)
@@ -330,7 +338,7 @@ ht-degree: 10%
         - [从“映射”控制台创建和管理基线](./user-guide/web-editor-baseline.md)
         - [从“映射”功能板创建和管理基线](./user-guide/generate-output-use-baseline-for-publishing.md)
         - [从“映射”控制台创建和管理新基线](./user-guide/web-editor-baseline-v2.md)
-        - [新建基线迁移常见问题解答](./user-guide/new-baseline-migration-faq.md)
+        - [新基线迁移常见问题解答](./user-guide/new-baseline-migration-faq.md)
       - [管理全局和文件夹配置文件输出预设](./user-guide/web-editor-manage-output-presets.md)
       - [使用变量设置目标路径、站点名称或文件名选项](./user-guide/generate-output-use-variables.md)
       - [使用DITA-OT将元数据传递到输出](./user-guide/pass-metadata-dita-ot.md)
@@ -369,12 +377,15 @@ ht-degree: 10%
     - [Adobe Generative AI用户披露](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI 助手概述](./user-guide/ai-assistant.md)
     - 代理模式中的AI助手 {#ai-assistant-agentic}
-      - [在代理模式下使用AI助手](./user-guide/ai-assistant-agentic.md)
+      - [使用AI助手导入内容](./user-guide/import-ai-assistant.md)
+      - [创建内容的第一个草稿](./user-guide/create-ai-assistant.md)
+      - [使用AI助手进行智能标记](./user-guide/ai-assistant-agentic.md)
     - 标准模式中的AI助手 {#ai-assistant-standard}
-      - [用于搜索内容的AI支持的智能帮助](./user-guide/ai-based-smart-help.md)
       - [AI助手创作以智能地创作文档](./user-guide/ai-assistant-right-panel.md)
       - [用于创作内容的AI支持的智能建议](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [常见问题解答](./user-guide/ai-assistant-faq.md)
+  - AEM Guides中的帮助助手 {#help-assistant-aem}
+    - [AI支持的智能帮助以搜索内容](./user-guide/ai-based-smart-help.md)
   - 管理学习内容 {#learning-training-content}
     - 快速入门指南 {#get-started}
       - 简介 {#intro-lc}
@@ -563,6 +574,7 @@ ht-degree: 10%
         - [将样式应用于脚注](./native-pdf/footnote-number-style.md)
         - [为本机PDF配置新发布引擎](./native-pdf/conf-new-pdf-engine.md)
       - [使用本机PDF引擎v2](./native-pdf/new-pdf-engine.md)
+      - [为本机PDF的映射渲染配置附录渲染](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
       - [为Cloud Service的本机PDF发布配置节点进程](./native-pdf/conf-node-options-cs.md)
       - [为本地本地PDF发布配置JVM标志](./native-pdf/conf-jvm-flags-on-prem.md)
     - 为Cloud Service配置内容和体验片段 {#conf-content-exp-fragment}

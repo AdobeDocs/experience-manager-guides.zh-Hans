@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1613'
 ht-degree: 0%
 ---
 # 地址审核注释 {#id2056B0X0KBI}
@@ -130,9 +130,10 @@ ht-degree: 0%
 
 **使用审阅UI访问审阅注释**
 
-如果您是审阅任务的发起者或作者，并从&#x200B;**项目控制台**&#x200B;中打开它，则该主题将在审阅UI中启动。 由于此任务未分配给您，因此您可以查看和回复注释，但不能执行任何审阅操作。 对于未分配给任务的用户，“注释”工具栏保持禁用状态。
+作为审阅任务的发起者，您可以在&#x200B;**审阅UI**&#x200B;中打开审阅任务，以查看和响应审阅人的评论。 您还可以向审阅任务中的主题添加注释，以提供额外的上下文或吸引审阅人关注特定内容。
 
-![](images/review-comments-toolbar-disabled.png){width="350"}
+有关更多详细信息，请查看[为审阅人添加备注](./review-send-topics-for-review.md#add-comments-for-reviewers)。
+
 
 ## 查看主题的所有审阅任务
 

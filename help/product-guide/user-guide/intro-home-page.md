@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: b98bb66df096e0915c5d3c810b1c4b46d8473add
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2450'
 ht-degree: 0%
 ---
 # Experience Manager Guides主页体验
@@ -46,7 +46,7 @@ Experience Manager Guides主页分为以下部分：
 >
 > 如果使用Adobe Experience Manager Guides as a Cloud Service，则导航栏中会显示一个标记为&#x200B;**AI助手**&#x200B;的附加功能。
 
-![](images/aem-home-nav-bar.png)
+![](images/aem-home-nav-bar-new.png)
 
 导航栏中可用的功能说明如下：
 
@@ -60,12 +60,13 @@ Experience Manager Guides主页分为以下部分：
   >
   > 要在环境中使用AI助手功能的代理模式，请联系客户成功团队。 启用该功能后，管理员可以从Workspace设置中将其打开或关闭。 一次只能启用一种AI Assistant模式：Agentic或Standard。
 
-  - **代理**：将Adobe CX Enterprise Coworker的智能、代理智能标记技能引入编辑器，从而实现自然、对话的内容标记。 它可分析您的内容、推荐相关标记，并帮助您以最省力的方式应用一致且准确的元数据。 您可以查看建议的标记，并在确认选择之前选择应用或拒绝这些标记。 [在代理模式下使用AI助手](../user-guide/ai-assistant-agentic.md)可简化标记过程，提高内容组织和可发现性。
+  - **代理**： AI助手中的代理模式允许您通过自然语言交互完成与内容相关的任务。 您可以在聊天面板中描述您的要求，AI Assistant规划和执行任务，同时提供其进度的可见性。 它支持如下技能：导入，可将设备或内容存储库中的PDF、Word或Markdown文件转换为结构化主题；创建，可根据您的要求生成新主题，并可引用现有内容的色调和样式；智能标记，可根据贵组织的分类推荐相关标记以提高元数据一致性。
 
-  - **Standard**：一款功能强大、AI驱动的工具，旨在通过智能帮助功能提高您的工作效率。 此外，在编辑器界面中工作时，您可以利用AI Assistant的智能创作功能，通过内容重用和优化的智能建议，使创作过程更智能、更快。
+  - **Standard**：一款功能强大的AI驱动工具，旨在通过AI Assistant的智能创作功能提高您的工作效率，通过内容重用和优化的智能建议，使您的创作过程更智能、更快。
 
   [AI助手](./ai-assistant.md)功能当前仅适用于Adobe Experience Manager as Cloud Service。
 
+- **帮助助手**： Experience Manager Guides中的&#x200B;**帮助助手**&#x200B;是创作AI支持的对话搜索功能，可帮助您查找有关产品功能、工作流程和故障排除的信息。 它根据Experience Manager Guides文档提供相关答案，支持后续问题，并包含指向源文章的链接以供进一步参考。 有关详细信息，请通过帮助助手[&#128279;](./ai-based-smart-help.md)查看提高效率。
 - **自定义概述部分**：允许您隐藏或显示小组件部分中的小组件。
 - **正在使用的文件夹配置文件**：显示当前正在使用的文件夹配置文件。
 - **更多操作**：提供对其他选项的访问权限。 选择此按钮将打开一个菜单，其中包含以下选项：
@@ -182,7 +183,7 @@ Experience Manager Guides主页分为以下部分：
 
 >[!NOTE]
 >
->您可以从2026.08.0版本开始使用Adobe Experience Manager Guides as a Cloud Service中新的地图收藏集功能，该功能将地图管理和批量发布整合到一个统一的界面中。 请联系您的客户成功团队以启用此功能。了解有关[使用新映射集合的更多信息。](./generate-output-use-new-map-collection-output-generation.md)
+>您可以从2026.08.0版本开始使用Adobe Experience Manager Guides as a Cloud Service中新的地图收藏集功能，该功能将地图管理和批量发布整合到一个统一的界面中。 请联系您的客户成功团队以启用此功能。 了解有关[使用新映射集合的更多信息。](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides允许您使用名为&#x200B;**映射收藏集**&#x200B;的功能板来组织内容以供发布。 若要使用此功能，请从左侧面板中选择&#x200B;**映射收藏集**。 它会将您转到&#x200B;**Assets UI**&#x200B;中的“映射集合”页面，您可以在其中使用[映射集合生成输出。](./generate-output-use-map-collection-output-generation.md)
 

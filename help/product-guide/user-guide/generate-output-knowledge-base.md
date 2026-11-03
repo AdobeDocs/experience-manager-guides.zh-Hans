@@ -31,9 +31,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1584'
 ht-degree: 1%
 ---
 # 知识库 {#knowledge-base}
@@ -78,6 +78,17 @@ ht-degree: 1%
 
 此选项卡显示映射的树或分层视图。 选择要发布到知识库的主题。 展开目录节点并选择要发布的主题。
 
+![](./images/articles-tab-kb.png)
+
+发布到Salesforce时，如果未选择要发布的主题，则&#x200B;**文章**&#x200B;选项卡旁边会显示一个警告图标。 选择一个或多个主题后，警告图标将消失。
+
+>[!NOTE]
+>
+> 此功能在Adobe Experience Manager Guides as Cloud Service 2026.11.0版本中引入。 该功能默认处于禁用状态。 要启用此功能，请联系您的客户成功团队。 要详细了解2026.11.0版本中引入的Salesforce发布增强功能，请查看[使用后端处理的增强Salesforce发布](./generate-output-for-a-dita-map.md#merging-different-topics-within-a-dita-map-using-the-chunk-attribute)。
+
+![](./images/articles-tab-salesforce-kb.png)
+
+
 ### Target - Adobe Experience Manager/ServiceNow/Salesforce
 
 配置选项会根据您选择的目标而发生更改。
@@ -114,6 +125,9 @@ ht-degree: 1%
 | 发布个人资料 | 使用下拉菜单从管理员配置的ServiceNow连接配置文件中进行选择。 要了解有关管理员如何创建发布配置文件的更多信息，请在[左侧面板](./web-editor-features.md#id2051EA0M0HS)部分中查看&#x200B;**Workspace设置**(显示为&#x200B;**内部部署（版本5.2**&#x200B;之前）设置的&#x200B;**设置**)功能说明。 |
 | 知识库 | 使用此字段选择所需的ServiceNow知识库。 您可以在ServiceNow站点中配置知识库，以根据权限存储内容。 可以将此DITA映射中的文章发布到这些知识库。 |
 | 类别和子类别 | 类别类似于用于查找和分类ServiceNow Knowledge Base文章的分层树。 添加类别和子类别，将目录的主题和子主题发布到ServiceNow站点上的该类别和子类别中。 |
+| 上传图像 | 如果希望主题中的任何图像包含在已发布的输出中，请选择此选项。 |
+| 上传链接的文档 | 选择此选项可在已发布输出中包括主题中链接的文档。 |
+| 从文章正文中删除元素 | 键入元素的名称（例如，`prolog`或`shortdesc`），然后按&#x200B;**Enter**&#x200B;将其添加到列表中。 您添加的任何元素都会从已发布输出的文章正文中排除。 默认情况下，该列表包含&#x200B;**title**，因此文章正文中隐藏了主题标题。 如果希望包含主题标题，请选择&#x200B;**title**&#x200B;旁边的`x`图标以将其从列表中删除，或者添加要排除的其他元素。 <br><br>**注意**：在ServiceNow文章源代码视图中，输入DITA元素在转换后的HTML中出现的确切类名。 类名必须与可识别的元素匹配才能使排除项生效。 如果输入的名称与可识别的元素不匹配，则将忽略该元素，并且该元素将保留在已发布的文章中。 |
 
 **Salesforce**
 
@@ -125,17 +139,11 @@ ht-degree: 1%
 | 记录类型 | 根据基于用户配置文件的可见性设置，使用下拉菜单从Salesforce中设置的记录类型中进行选择。 Salesforce记录类型是一种对该对象进行多种类型记录分组的方法。 它们定义出版物的组织方式。 例如，您可以选择常见问题解答记录类型，并根据常见问题解答页面布局和字段进行发布。 |
 | 文章内容字段 | 每个记录类型模板可以有不同的字段和唯一的布局。 使用这些字段可根据文章类型输入特定信息。 例如，您可以查看常见问题解答文章的标题、答案和方程式。 |
 | 类别 | 从下拉列表中选择一个类别，以在Salesforce站点上发布该类别中目录的主题。 |
-
-**其他选项**
-
-您还可以在Salesforce和ServiceNow预设中查看以下选项：
-
-| 选项 | 描述 |
-| --- | --- |
 | 从文章正文中删除主题标题。 | 选择此选项可从已发布输出中的文章中删除主题标题。 |
 | 上载为草稿 | 选择此选项可上传主题，以将其共享为草稿，然后再提供给用户。 |
 | 上传图像 | 如果希望主题中的任何图像包含在已发布的输出中，请选择此选项。 |
 | 上传链接的文档 | 选择此选项可在已发布输出中包括主题中链接的文档。 |
+
 
 
 

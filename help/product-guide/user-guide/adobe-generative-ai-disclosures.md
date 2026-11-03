@@ -14,18 +14,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a96b54b405c93383689c81bcb31e1b95d9d24182
 workflow-type: tm+mt
-source-wordcount: 408
+source-wordcount: '406'
 ht-degree: 2%
-
 ---
-
 # Adobe Experience Manager Guides Generative AI用户披露
 
 有关您访问和使用Experience Manager Guides AI Assistant的用户指南位于[此处](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
 
-通过使用AI Assistant &quot;beta&quot;(&quot;Beta&quot;)，您在此确认可“原样”使用Beta且无任何担保。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持Beta。 建议您谨慎使用，切勿依赖此类Beta和/或随附材料的正确功能或性能。 Beta被视为Adobe的机密信息。 Adobe可能会使用输入或导入Beta的提示、内容、数据和其他材料，以及提供给您的用于产品改进和开发的响应。 您向Beta提供的任何“反馈”（有关Beta的信息，包括但不限于您在使用Adobe时遇到的问题或缺陷、建议、改进和推荐）均会分配给Adobe，其中包括针对该反馈的所有权利、标题和兴趣。 
+通过使用AI助手，您特此确认，Beta的使用是“按原样”提供的，无任何形式的担保。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持Beta。 建议您谨慎使用，切勿依赖此类Beta和/或随附材料的正确功能或性能。 Beta被视为Adobe的机密信息。 Adobe可能会使用输入或导入Beta的提示、内容、数据和其他材料，以及提供给您的用于产品改进和开发的响应。 您向Beta提供的任何“反馈”（有关Beta的信息，包括但不限于您在使用Adobe时遇到的问题或缺陷、建议、改进和推荐）均会分配给Adobe，其中包括针对该反馈的所有权利、标题和兴趣。 
 
 此外，请始终根据您的判断来评估生成的输出和任何源归因。 Experience Manager Guides的创作AI功能基于强大、新兴的大型语言模型技术，这些技术可能会生成不准确或误导性的输出，或反映不代表Adobe视图的内容。
 

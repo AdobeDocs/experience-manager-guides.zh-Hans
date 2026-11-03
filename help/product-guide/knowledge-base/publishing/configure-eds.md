@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1916'
 ht-degree: 1%
 ---
 # Experience Manager Guides和Edge Delivery Services
@@ -64,58 +64,6 @@ EDS需要一个具有预定义结构的GitHub存储库。 Adobe提供了专为Ex
 
 ![](assets/eds-repo-created-github-view.png)
 
-### 通过AEM代码同步将GitHub连接到Adobe
-
-Adobe Experience Manager使用名为&#x200B;**AEM Code Sync**&#x200B;的GitHub应用程序将内容从Experience Manager Guides推送到GitHub。
-
-执行以下步骤以安装和配置&#x200B;*AEM代码同步*&#x200B;应用程序：
-
-1. 导航到[AEM代码同步](https://github.com/apps/aem-code-sync)页面，然后选择&#x200B;**安装**。
-2. *AEM代码同步*&#x200B;监视存储库更改并确保将更新正确推送到GitHub。
-
-   >[!NOTE]
-   >
-   >安装应用程序时，请确保您使用的是拥有存储库的同一GitHub帐户。
-
-   ![](assets/eds-aem-code-sync-page.png)
-
-3. 在下一页上，授予对您创建的存储库的访问权限。 为此，请选择&#x200B;**仅选择存储库**&#x200B;选项，然后从下拉列表中选择您的存储库。
-
-   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
-
-4. 选择&#x200B;**安装并授权**。
-
-您将被重定向到GitHub设置页面，同时确认已成功注册&#x200B;*AEM代码同步*&#x200B;应用程序。 您还可以从此页面保存您网站的预览和实时URL。
-
-![](assets/eds-aem-code-sync-registered.png)
-
-### 创建新的GitHub应用程序
-
-1. 在GitHub上，导航到左侧边栏并选择&#x200B;**开发人员设置**。
-2. 在左侧边栏中，选择&#x200B;**GitHub应用程序**。
-3. 选择&#x200B;**新GitHub应用程序**。
-
-   ![](assets/eds-new-github-app.png){width="650"}
-
-4. 在&#x200B;**注册新的GitHub应用程序**&#x200B;页面上，提供以下详细信息：
-
-   - **GitHub应用名称**：输入应用名称。 例如，`USERNAME-eds-app`，其中USERNAME是您的GitHub用户名。
-   - **主页URL**：输入Experience Manager Guides实例的URL。
-
-     示例URL（格式）： `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
-
-     示例URL： `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
-
-   - **回调URL**：与主页URL相同。
-   - **Webhook URL**：禁用此选项。
-   - **存储库权限**：为&#x200B;*操作、管理和证明*&#x200B;设置&#x200B;**读取和写入**&#x200B;权限。
-
-5. 选择&#x200B;**创建GitHub应用程序**。
-
-您的应用程序现已准备就绪。 您将被重定向到GitHub应用程序的&#x200B;**设置**&#x200B;页面。
-
-![](assets/eds-github-app-registered-page.png)
-
 ### 创建新的OAuth应用程序
 
 在Experience Manager Guides中创建EDS发布配置文件时，需要使用OAuth应用程序对用户进行身份验证。 它使用&#x200B;*客户端ID*&#x200B;和&#x200B;*客户端密钥*&#x200B;启用安全登录流程。
@@ -145,54 +93,122 @@ Adobe Experience Manager使用名为&#x200B;**AEM Code Sync**&#x200B;的GitHub�
 
 ### 在EDS存储库中配置装载点URL
 
-EDS从`fstab.yaml`文件中定义为&#x200B;*装入点* URL的GitHub存储库路径中读取内容。
+EDS从存储库根目录的`fstab.yaml`文件中定义的&#x200B;*装入点* URL中读取内容。 此URL将EDS指向Experience Manager Guides发布所生成内容的位置。
 
 要在`fstab.yaml`文件中配置挂载点URL，请执行以下操作：
 
-1. 在存储库中打开`fstab.yaml`文件并更新以下内容：
+1. 在GitHub存储库中，打开`fstab.yaml`文件。
+2. 使用以下格式更新`url`值：
 
-   - `your-user-name`
-   - `your-repo-name`
+   ```text
+   https://guides.adobe.com/eds-workers/<account type>/<git acc domain>/<git username>/<git repo>/<branch>/<root folder>
+   ```
 
-   >[!NOTE]
-   >
-   > 在装入点URL中，`main`表示要发布内容的分支，`docs`表示您正在处理的EDS存储库的根文件夹。 如果您希望在GitHub上更改分支名称，则必须在&#x200B;*装入点* URL（在`fstab.yaml`文件中）以及Experience Manager Guides中的相应EDS发布配置文件中更新相同的分支名称。
+   下表介绍了URL中的每个字段：
+
+   | 字段 | 描述 |
+   |---|---|
+   | `https://guides.adobe.com/eds-workers` | Experience Manager Guides用于向EDS发布内容的工作者URL。 请勿更改此值。 |
+   | `<account type>` | Git帐户的类型。 设置为`github`。 |
+   | `<git acc domain>` | Git帐户的域。 设置为`github.com`。 |
+   | `<git username>` | 您的GitHub用户名。 |
+   | `<git repo>` | 您为EDS创建的GitHub存储库的名称。 |
+   | `<branch>` | 要发布内容的分支。 默认值为 `main`。 如果您在GitHub上更改分支名称，请在此处并在Experience Manager Guides的EDS发布配置文件中更新它。 |
+   | `<root folder>` | 提交已发布文件的存储库的根文件夹。 默认值为 `docs`。 如果您在GitHub上更改文件夹名称，请在此处并在Experience Manager Guides的EDS发布配置文件中更新它。 |
+
+   例如，如果您的GitHub用户名是`my-username`，存储库名称为`my-eds-repo`，则`fstab.yaml`文件将显示如下：
+
+   ```yaml
+   mountpoints:
+     /:
+       url: https://guides.adobe.com/eds-workers/github/github.com/my-username/my-eds-repo/main/docs
+       type: markup
+   ```
 
    ![](assets/eds-fstab-yaml-file.png){width="650"}
 
-2. 选择&#x200B;**提交更改**，输入提交详细信息，然后确认。
-3. 返回[开发人员设置](https://github.com/settings/apps)，找到您的应用程序，然后选择&#x200B;**编辑**。
+   >[!NOTE]
+   >
+   > 如果您继续使用以前的URL格式(`https://guides.adobe.com/eds-workers/<git username>/<git repo>/<branch>/<root folder>`)，则帐户类型和域默认为`github`和`github.com`。
 
-   ![](assets/eds-edit-github-app.png){width="650"}
+3. 重复步骤2和3，从[通过AEM代码同步](#connect-github-to-adobe-via-aem-code-sync)部分将GitHub连接到Adobe以授权存储库。
 
-4. 导航到&#x200B;**安装应用程序**&#x200B;页面，然后选择&#x200B;**安装**。
+### 通过AEM代码同步将GitHub连接到Adobe
 
-   ![](assets/eds-install-eds-app.png){width="650"}
+Adobe Experience Manager使用名为&#x200B;**AEM Code Sync**&#x200B;的GitHub应用程序将内容从Experience Manager Guides推送到GitHub。
 
-5. 重复步骤2和3，从[通过AEM代码同步](#connect-github-to-adobe-via-aem-code-sync)部分将GitHub连接到Adobe以授权存储库。
+执行以下步骤以安装和配置&#x200B;*AEM代码同步*&#x200B;应用程序：
+
+1. 导航到[AEM代码同步](https://github.com/apps/aem-code-sync)页面，然后选择&#x200B;**安装**。
+
+   **AEM代码同步**&#x200B;监视存储库更改并确保将更新正确推送到GitHub。
+
+   >[!NOTE]
+   >
+   >安装应用程序时，请确保您使用的是拥有存储库的同一GitHub帐户。
+
+   ![](assets/eds-aem-code-sync-page.png)
+
+2. 在下一页上，授予对您创建的存储库的访问权限。 选择&#x200B;**仅选择存储库**，然后从下拉列表中选择您的存储库。
+
+   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
+3. 选择&#x200B;**安装并授权**。
+
+   您将被重定向到GitHub设置页面。
+
+   ![](./assets/aem-code-sync-source-code-github.png)
+
+4. 查看源代码详细信息并选择&#x200B;**下一步**。
+
+5. 在&#x200B;**内容源**&#x200B;页面上，配置以下设置：
+
+   - **内容源类型：**&#x200B;选择&#x200B;**其他（自带标记）**。
+   - **内容源URL：**&#x200B;查看`fstab.yaml`文件中配置为装入点URL的URL。 如果您尚未更新文件中的URL，可以在此处更新它。
+   - **文件扩展名：**&#x200B;将默认`.html`后缀更改为`.htm`。
+
+   确保已选择&#x200B;**使用其他内容源**。
+
+6. 在&#x200B;**用户**&#x200B;页面上，根据需要添加用户，然后选择&#x200B;**下一步**。
+
+7. 查看配置摘要并选择&#x200B;**保存**。
+
+   成功注册后，将显示确认页面。 您可以从此页面复制并保存您网站的&#x200B;**预览**&#x200B;和&#x200B;**实时** URL。
+
+   ![](assets/eds-aem-code-sync-registered.png)
+
+## 为EDS设置和配置GitLab
+
+有关将GitLab配置为Edge Delivery Services的发布存储库的说明，请查看[为EDS设置和配置GitLab](./configure-eds-gitlab.md)。
 
 ## 在Experience Manager中创建并配置EDS的发布配置文件
 
 以下各节将依次概述每个步骤，并解释如何在Experience Manager Guides中设置EDS发布配置文件、配置输出预设以及使用EDS生成输出。
 
-### 创建EDS发布配置文件
+### 创建GitHub或GitLab的EDS发布配置文件
 
 1. 转到&#x200B;**[Workspace设置](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **发布配置文件**。
 2. 选择&#x200B;**+**&#x200B;图标以创建新的发布配置文件并提供以下详细信息：
 
-   - **服务器类型**：从下拉列表中选择&#x200B;**GitHub Edge Delivery Services**。
-   - **名称**：输入此配置文件的名称。
-   - **存储库名称**：使用从样板创建的GitHub存储库名称。
-   - **用户名**：输入您的GitHub用户名。
-   - **分支main**：设置为主要（默认）。
-   - **根文件夹**：设置为文档（默认）。
-   - **客户端ID和客户端密钥**：从GitHub应用程序获取它们（有关详细信息，请参阅[创建新的OAuth应用程序](#create-a-new-oauth-app)部分）。
-
-3. 选择&#x200B;**登录**&#x200B;以进行身份验证。
+   - **服务器类型\*：**&#x200B;从下拉列表中选择&#x200B;**Git （Edge Delivery服务）**。
+   - **名称\*：**&#x200B;输入发布配置文件的名称。
+   - **Git帐户类型\*：**&#x200B;从下拉列表中选择&#x200B;**GitHub**&#x200B;或&#x200B;**GitLab**，具体取决于您的Git存储库提供程序。
+   - **实例URL\*：**&#x200B;输入GitHub或GitLab实例的URL，例如`https://github.com`或`https://gitlab.com`。
+   - **存储库名称\*：**&#x200B;输入GitHub或GitLab存储库的名称。
+   - **用户名\*：**&#x200B;输入您的GitHub或GitLab用户名。
+   - **分支名称：**&#x200B;设置为`main`（默认）。
+   - **根文件夹\*：**&#x200B;设置为`docs`（默认）。
+   - **站点所有者（仅&#x200B;*GitLab*）：**&#x200B;输入Edge Delivery Services站点的所有者。
+   - **站点存储库（仅&#x200B;*GitLab*）：**&#x200B;输入与Edge Delivery Services站点关联的存储库名称。
+   - **HLX API密钥：**&#x200B;输入用于EDS配置的HLX API密钥。 要支持Experience Manager Guides as a Cloud Service 2026.11.0版本中引入的未发布功能，需要此密钥。 此外，如果内容大小超过100个文件，则需要密钥才能将内容发布到EDS。
+   - **身份验证凭据：**&#x200B;提供基于所选Git帐户类型的凭据：
+     - **GitHub：**&#x200B;输入从您的GitHub OAuth应用程序获得的&#x200B;**客户端ID\***和&#x200B;**客户端密钥\***。 有关详细信息，请参阅[创建新的OAuth应用程序](#create-a-new-oauth-app)。
+     - **GitLab：**&#x200B;输入为您的GitLab帐户生成的&#x200B;**Access token\***。
+3. （*仅限GitHub*）选择&#x200B;**登录**&#x200B;以进行身份验证。 对于GitLab，无需登录，因为访问令牌将用于身份验证。
 
    ![](assets/eds-publish-profile.png){width="650"}
 
-4. 成功验证后，选择&#x200B;**保存**。
+4. 选择&#x200B;**保存**。 对于GitHub，在成功进行身份验证后，**保存**&#x200B;选项可用。
 
 您的EDS发布配置文件现已配置完成。
 
@@ -206,21 +222,25 @@ EDS从`fstab.yaml`文件中定义为&#x200B;*装入点* URL的GitHub存储库路
 4. 选择&#x200B;**添加**。
 
    ![](assets/eds-output-preset.png){width="650"}
-5. 打开新创建的EDS输出预设，并导航到&#x200B;**配置**&#x200B;选项卡。
-   - 选择在上一步中创建的发布配置文件。
-   - 启用&#x200B;**推送至**。
+5. 打开新创建的EDS输出预设，并配置以下字段：
 
-   启用&#x200B;**实时推送**&#x200B;后，生成的输出将提交到GitHub，并且相应的更新将立即传播到实时网站。
+   - **条件筛选：**&#x200B;选择&#x200B;**无**&#x200B;生成输出而不进行筛选，或选择&#x200B;**使用DITAVAL**&#x200B;应用条件筛选。
+   - **发布子文件夹：**&#x200B;输入在其中发布输出的子文件夹的名称。 子文件夹在存储库的根文件夹下创建，其名称显示在指向已发布内容的EDS链接中。 例如，如果根文件夹为`docs`，而发布子文件夹为`product-guide`，则内容将发布到`docs/contents/product-guide`。
+   - **发布配置文件：**&#x200B;选择在上一部分中配置的GitHub或GitLab发布配置文件。
 
-   ![](assets/eds-output-preset-config-tab.png){width="650"}
+     ![](assets/eds-output-preset-config.png){width="650"}
 
 6. 选择&#x200B;**保存**，然后选择&#x200B;**生成输出**。
 
 >[!NOTE]
 >
->生成的输出存储在EDS存储库的&#x200B;**文档**&#x200B;文件夹中。
+>生成的输出存储在EDS存储库的`<root folder>/contents/<publish subfolder>`文件夹中。
 
 此时会生成EDS输出。 内容以简洁的响应布局显示。 它包括常规元素，例如页面标题、痕迹导航、正文内容以及主题中使用的任何块。 左侧的目录（从地图生成）可帮助您跨主题导航，而右侧的迷你目录会突出显示当前页面中的部分。 整个输出完全响应，确保跨设备优化、一致的读取体验。
+
+>[!NOTE]
+>
+> 您可以将多个DITA映射发布到同一网站。 发布的映射将显示在左侧导航面板中，允许用户从每个映射访问内容。 发布新映射不会覆盖以前发布的映射。
 
 ![](assets/eds-site-output.png)
 

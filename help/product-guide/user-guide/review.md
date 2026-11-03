@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '445'
 ht-degree: 0%
 ---
 # 评论简介 {#id1645H6010Q5}
@@ -42,6 +42,8 @@ Adobe Experience Manager Guides为&#x200B;*启动器\（或作者\）*&#x200B;�
 - 从“审阅仪表板”共享要审阅的主题的更新版本。
 
 - 访问在不同版本的主题上共享的注释。
+- 向主题添加注释以提供上下文或吸引审阅人关注特定内容。
+
 - 在评论或回复中轻松标记特定审阅任务的用户，以便快速操作和跟进。 标记的用户会通过AEM和电子邮件通知立即获得通知。
 - 根据主题的版本对注释进行分组和筛选。
 

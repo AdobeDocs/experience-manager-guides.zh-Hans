@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '872'
 ht-degree: 0%
 ---
 # 使用本机PDF引擎v2
@@ -102,3 +102,4 @@ ht-degree: 0%
 - 启用了辅助功能设置的本机PDF输出中的内容读取顺序不正确。 页脚中的页码在主内容之前而不是结尾处读取。 （指南 — 27790）
 - 当自定义页面大小时，原生PDF输出中的颜色条不会拉伸整个页面宽度，并且会重叠，从而导致隐藏某些颜色框。 （指南 — 15505）
 - 本机PDF输出中不允许`CSS:is()pseudo-class`选择器，从而导致样式与浏览器呈现样式不同。 （指南 — 11328）
+- 某些简体中文字符在本地PDF输出中使用日语字体进行渲染，即使输出语言设置为中文(zh-CN)也是如此。 （指南 — 48094）
