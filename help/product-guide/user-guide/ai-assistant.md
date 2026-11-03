@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 082688d62ed871fa52947e5152df35575b622164
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '757'
 ht-degree: 0%
 ---
 # AI 助手
@@ -38,10 +38,6 @@ ht-degree: 0%
 Adobe Experience Manager Guides中的AI Assistant是一款AI支持的工具，旨在通过简化内容创建、管理和创作工作流来提高工作效率。 它提供两种模式：Agentic和Standard。 在&#x200B;**代理模式**&#x200B;中，AI Assistant允许您通过自然语言交互执行与内容相关的任务，并具有“导入”、“创建”和“智能标记”等技能以简化内容创建、组织和元数据管理。 在&#x200B;**标准模式**&#x200B;中，AI Assistant提供创作帮助，帮助您更高效地创建、优化和管理内容。
 
 ## AI助手模式
-
->[!NOTE]
->
->要为环境以代理模式启用AI助手，请联系客户成功团队。
 
 AI助手有两种模式可用：**代理**&#x200B;和&#x200B;**标准**。 管理员可以从&#x200B;**Workspace设置**&#x200B;中&#x200B;**常规**&#x200B;选项卡的&#x200B;**AI功能**&#x200B;部分中选择模式。 编辑器中的AI助手面板在这两种模式下都保持不变，但可用功能有所不同：
 
@@ -91,8 +87,8 @@ AI Assistant面板的以下组件可帮助您添加内容、输入提示和启�
 1. 登录到Experience Manager Guides。
 1. 在主页上，从顶部选择&#x200B;**AI助手**。 确保管理员已在所需模式下启用AI助手功能。
 
-AI助手显示关键功能、用户指南链接和&#x200B;**开始使用**&#x200B;按钮。
-仔细阅读用户准则，然后选择&#x200B;**开始使用**&#x200B;以启动AI助手。
+AI助手显示关键功能、用户指南链接和&#x200B;**开始使用**按钮。
+仔细阅读用户准则，然后选择**开始使用**&#x200B;以启动AI助手。
 
 >[!NOTE]
 >

@@ -1,9 +1,9 @@
 ---
 title: 使用AI助手创建主题和地图
 description: 了解如何使用AI Assistant从注释、规范或粘贴的内容中草稿新的DITA主题和映射，然后在保存之前查看它们。
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 0%
 ---
 
@@ -11,10 +11,10 @@ ht-degree: 0%
 
 AI Assistant代理模式中的&#x200B;**创建**&#x200B;技能可帮助您根据注释、规范、白板图像、屏幕快照或其他可用参考材料生成结构化内容的初稿。 该技能会根据存储库中可用的内容和主题模板自动标识相应的DITA主题类型，如概念、任务、引用或疑难解答，从而减少构建和创作内容所需的人工工作。
 
-您可以附加文件，选择现有文件作为色调和样式的参照，并指定要保存生成内容的文件夹。 要创建所需内容的初稿，请执行以下步骤：
+您可以附加文件，选择现有文件作为色调和样式的参照，并指定要保存生成内容的文件夹。 要创建所需内容的第一个草稿，请执行以下步骤：
 
 1. 登录到Experience Manager Guides。
-1. 在主页上，从导航栏中选择&#x200B;**AI助手**。 确保管理员已启用代理模式[&#128279;](../install-conf-guide/workspace-settings.md)中的AI助手。
+1. 在主页上，从导航栏中选择&#x200B;**AI助手**。 确保管理员已启用代理模式](../install-conf-guide/workspace-settings.md)中的[AI助手。
 
 1. 从AI助手面板中选择&#x200B;**创建**。
 
@@ -30,7 +30,7 @@ AI Assistant代理模式中的&#x200B;**创建**&#x200B;技能可帮助您根据
 
 1. *（可选）*&#x200B;在起始提示符下，选择`[file]`。 选取希望拔模与其色调匹配的现有主题。 您可以从存储库或收藏集中选择主题。 在提示中，主题名称将替换`[file]`。
 
-   ![选择文件占位符以选择主题](images/sample-create.png){width="350"}
+   ![选择文件占位符以选择主题](images/sample-create.png){width="650"}
 
 1. 选择&#x200B;**发送**。
 
@@ -38,7 +38,7 @@ AI Assistant代理模式中的&#x200B;**创建**&#x200B;技能可帮助您根据
 
 1. 回答AI助手的任何跟进问题，以提供生成内容所需的详细信息。
 
-   ![选择文件占位符以选择主题](images/folder-create.png){width="350"}
+   ![选择文件占位符以选择主题](images/folder-create.png){width="650"}
 
 1. 选择&#x200B;**预览**&#x200B;以查看生成的主题。
 

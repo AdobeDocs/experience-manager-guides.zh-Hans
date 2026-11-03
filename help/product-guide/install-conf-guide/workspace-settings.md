@@ -17,16 +17,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2799'
 ht-degree: 0%
 ---
 # Workspace设置
 
 >[!NOTE]
 >
-> 在版本5.2之前的内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。 对于版本5.2及更高版本的Cloud Service和内部部署配置，此选项已重命名为&#x200B;**Workspace设置**。 在&#x200B;**编辑器设置**&#x200B;下可用的所有现有配置选项保持不变。
+> 在版本5.2之前的内部部署设置中，**设置**&#x200B;选项会显示在编辑器的选项卡栏中。 对于版本5.2及更高版本的Cloud Service和内部部署配置，此选项已重命名为&#x200B;**Workspace设置**。 在&#x200B;**编辑器设置**下可用的所有现有配置选项保持不变。
 > ![内部部署](assets/editor-settings-on-prem.png){width="650"}的编辑器设置
 
 
@@ -55,17 +55,13 @@ ht-degree: 0%
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **AI功能**
+- **AI功能**：使用此项在Experience Manager Guides中启用AI助手功能。 AI助手有两种模式可用：**代理**&#x200B;和&#x200B;**标准**。 通过启用各自的单选按钮，可以在两种模式之间进行选择。
 
   >[!NOTE]
   >
   > 要在环境中使用AI助手功能的代理模式，请联系客户成功团队。
 
-  选择以在Experience Manager Guides中启用AI助手功能。 取消选择可禁用该功能。
-
-  AI助手有两种模式可用：**代理**&#x200B;和&#x200B;**标准**。 通过启用各自的单选按钮，可以在两种模式之间进行选择。
-
-  - **代理**：启用此选项后，您可以从Experience Manager Guides应用程序上的导航栏访问Agentic AI助手。 您还可以配置智能标记技能使用的分类命名空间以生成标记推荐。 AI Assistant根据AEM中定义的标记，仅考虑来自所选命名空间的标记。 有关详细信息，请参阅AI助手[&#128279;](../user-guide/ai-assistant.md#ai-assistant-modes)中的代理模式。
+  - **代理**：启用此选项后，您可以从Experience Manager Guides应用程序上的导航栏访问Agentic AI助手。 您还可以配置智能标记技能使用的分类命名空间以生成标记推荐。 AI Assistant根据AEM中定义的标记，仅考虑来自所选命名空间的标记。 有关详细信息，请参阅AI助手](../user-guide/ai-assistant.md#ai-assistant-modes)中的[代理模式。
 
     ![](assets/agentic-new.png){width="350"}
 
@@ -321,9 +317,9 @@ ht-degree: 0%
 
 工作区设置中的![元数据选项卡](../user-guide/images/editor-setting-metadata.png){width="550"}
 
-*为&#x200B;**版本历史记录**&#x200B;对话框配置元数据。*
+*为&#x200B;**版本历史记录**对话框配置元数据。*
 
 
 
 您还可以定义这些元数据标记的显示顺序。 要更改这些标记的默认顺序，请选择虚线将标记拖放到所需位置。
-元数据标签在编辑器的&#x200B;**版本历史记录**&#x200B;对话框中以相同的顺序显示。
+元数据标签在编辑器的**版本历史记录**&#x200B;对话框中以相同的顺序显示。

@@ -1,7 +1,7 @@
 ---
 title: 使用AI助手将文档作为主题导入
 description: 了解如何使用AI助手将PDF、Word和Markdown文件转换为DITA主题和映射，并在保存之前查看结果。
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -16,7 +16,7 @@ AI Assistant代理模式中的&#x200B;**导入**&#x200B;技能可帮助您将现
 您可以从设备或内容存储库导入文件，指定定义新主题开始的标题级别，并为导入的内容选择目标文件夹。 要导入文件，请执行以下步骤：
 
 1. 登录到Experience Manager Guides。
-1. 在主页上，从导航栏中选择&#x200B;**AI助手**。 确保管理员已启用代理模式[&#128279;](../install-conf-guide/workspace-settings.md)中的AI助手。
+1. 在主页上，从导航栏中选择&#x200B;**AI助手**。 确保管理员已启用代理模式](../install-conf-guide/workspace-settings.md)中的[AI助手。
 1. 从AI助手面板中选择&#x200B;**导入**。 您还可以使用其他提示，如&#x200B;*将此Docx转换为DITA主题*（对于Word文件）或&#x200B;*将此Markdown转换为DITA主题*（对于Markdown文件）。
 
    提示框中会显示起始提示&#x200B;*帮助我从附加的PDF文件导入内容*。
