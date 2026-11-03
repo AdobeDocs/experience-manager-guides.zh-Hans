@@ -39,7 +39,7 @@ Adobe Experience Manager Guides允许您通过基于GitHub的专用发布配置�
 2. [在Experience Manager Guides中创建并配置EDS的发布配置文件](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [使用EDS块自定义输出](#customize-output-using-eds-blocks)
 
-若要快速视频演练，请查看AEM Guides中的[发布](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
+若要快速视频演练，请查看AEM Guides中的[发布](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)。
 
 
 
