@@ -66,7 +66,7 @@ Experience Manager Guides主页分为以下部分：
 
   [AI助手](./ai-assistant.md)功能当前仅适用于Adobe Experience Manager as Cloud Service。
 
-- **帮助助手**： Experience Manager Guides中的&#x200B;**帮助助手**&#x200B;是创作AI支持的对话搜索功能，可帮助您查找有关产品功能、工作流程和故障排除的信息。 它根据Experience Manager Guides文档提供相关答案，支持后续问题，并包含指向源文章的链接以供进一步参考。 有关详细信息，请通过帮助助手](./ai-based-smart-help.md)查看[提高效率。
+- **帮助助手**： Experience Manager Guides中的&#x200B;**帮助助手**&#x200B;是创作AI支持的对话搜索功能，可帮助您查找有关产品功能、工作流程和故障排除的信息。 它根据Experience Manager Guides文档提供相关答案，支持后续问题，并包含指向源文章的链接以供进一步参考。 有关详细信息，请通过帮助助手[&#128279;](./ai-based-smart-help.md)查看提高效率。
 - **自定义概述部分**：允许您隐藏或显示小组件部分中的小组件。
 - **正在使用的文件夹配置文件**：显示当前正在使用的文件夹配置文件。
 - **更多操作**：提供对其他选项的访问权限。 选择此按钮将打开一个菜单，其中包含以下选项：

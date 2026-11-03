@@ -56,4 +56,4 @@ Experience Manager Guides附带一个易于使用的编辑器，用于创建和�
 Experience Manager Guides中的旧编辑器为结构化内容提供了简单而可靠的创作体验，抽象DITA的复杂性，同时确保遵守受支持的标准，如DITA 1.2、1.3、轻量DITA和专用DITA。 它提供了使用通用块和内联元素的基本工具，使其非常适合于在结构化框架中一致且受控的内容创建。
 
 
-**父主题：**[&#x200B;使用Experience Manager Guides创作内容](authoring-content-xml-doc.md)
+**父主题：**&#x200B;[&#x200B;使用Experience Manager Guides创作内容](authoring-content-xml-doc.md)

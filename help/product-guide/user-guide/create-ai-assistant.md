@@ -14,7 +14,7 @@ AI Assistant代理模式中的&#x200B;**创建**&#x200B;技能可帮助您根据
 您可以附加文件，选择现有文件作为色调和样式的参照，并指定要保存生成内容的文件夹。 要创建所需内容的初稿，请执行以下步骤：
 
 1. 登录到Experience Manager Guides。
-1. 在主页上，从导航栏中选择&#x200B;**AI助手**。 确保管理员已启用代理模式](../install-conf-guide/workspace-settings.md)中的[AI助手。
+1. 在主页上，从导航栏中选择&#x200B;**AI助手**。 确保管理员已启用代理模式[&#128279;](../install-conf-guide/workspace-settings.md)中的AI助手。
 
 1. 从AI助手面板中选择&#x200B;**创建**。
 

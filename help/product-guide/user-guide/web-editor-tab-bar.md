@@ -80,7 +80,7 @@ ht-degree: 0%
 
 [AI助手](./ai-assistant.md)功能当前仅适用于Adobe Experience Manager as Cloud Service。
 
-**帮助助手**： Experience Manager Guides中的&#x200B;**帮助助手**&#x200B;是创作AI支持的对话搜索功能，可帮助您查找有关产品功能、工作流程和故障排除的信息。 它根据Experience Manager Guides文档提供相关答案，支持后续问题，并包含指向源文章的链接以供进一步参考。 有关详细信息，请通过帮助助手](./ai-based-smart-help.md)查看[提高效率。
+**帮助助手**： Experience Manager Guides中的&#x200B;**帮助助手**&#x200B;是创作AI支持的对话搜索功能，可帮助您查找有关产品功能、工作流程和故障排除的信息。 它根据Experience Manager Guides文档提供相关答案，支持后续问题，并包含指向源文章的链接以供进一步参考。 有关详细信息，请通过帮助助手[&#128279;](./ai-based-smart-help.md)查看提高效率。
 
 **展开视图**：允许您使用&#x200B;**展开**&#x200B;图标展开页面视图。 在此视图中，包含Adobe Experience Manager徽标的标题栏处于隐藏状态。 这样可最大化内容空间以供编辑。 要返回到标准视图，请使用&#x200B;**退出扩展视图**&#x200B;图标。
 
@@ -98,4 +98,4 @@ ht-degree: 0%
 
 - **编辑器设置**：转到“编辑器设置”对话框，您可以在其中自定义单个作者级别的编辑器行为。 利用该功能，可在创作过程中控制标记、注释及其他编辑器级别设置的可见性和行为。 有关详细信息，请查看[编辑器设置](../user-guide/config-editor-settings.md)。
 
-**父主题：**[&#x200B;编辑器简介](web-editor.md)
+**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)

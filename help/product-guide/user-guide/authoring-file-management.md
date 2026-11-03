@@ -359,7 +359,7 @@ Adobe Experience Manager Guides允许您预览非DITA文件、查看其版本历
 
    - **版本标签**：打开“版本标签”对话框，您可以从下拉列表中选择版本并查看其关联标签。 您可以使用可用选项添加或更新版本标签。 该对话框还会显示所选文件版本的预览（如果可用）。
 
-   有关详细信息，请在编辑器](./web-editor-toolbar.md#menu-dropdown)的[工具栏中查看“版本历史记录”和“版本标签”部分。
+   有关详细信息，请在编辑器[&#128279;](./web-editor-toolbar.md#menu-dropdown)的工具栏中查看“版本历史记录”和“版本标签”部分。
 
 4. 对版本标签进行所需的更改或查看版本信息。
 
@@ -390,4 +390,4 @@ Adobe Experience Manager Guides允许您预览非DITA文件、查看其版本历
 
 
 
-**父主题：**[&#x200B;管理内容](authoring.md)
+**父主题：**&#x200B;[&#x200B;管理内容](authoring.md)

@@ -113,4 +113,4 @@ Adobe Experience Manager Guides附带基于文章的发布功能，允许用户�
 在Experience Manager Guides中启用刷新令牌支持会自动启用PKCE支持。 但是，还必须在Salesforce中启用相应的设置，身份验证才能成功工作。
 
 
-**父主题：**[&#x200B;使用编辑器](web-editor.md)
+**父主题：**&#x200B;[&#x200B;使用编辑器](web-editor.md)
