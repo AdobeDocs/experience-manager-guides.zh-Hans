@@ -1,7 +1,7 @@
 ---
 title: 使用AI助手将文档作为主题导入
 description: 了解如何使用AI助手将PDF、Word和Markdown文件转换为DITA主题和映射，并在保存之前查看结果。
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
