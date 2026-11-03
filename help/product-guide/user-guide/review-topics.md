@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '3753'
+source-wordcount: '3746'
 ht-degree: 0%
 ---
 # 查看主题 {#id2056B0W0FBI}
@@ -107,7 +107,7 @@ ht-degree: 0%
 1. 选择工具栏右上角的&#x200B;**注释**&#x200B;图标，打开“注释”面板。
 
    通过从工具栏中选择适当的评论类型来提供评论并按Enter键提交您的评论。
-   评论框支持多行条目，并允许用户根据需要展开以提供详细反馈。 您可以在编写评论时使用&#x200B;**Shift** + **Enter**&#x200B;转到下一行。
+   评论框支持多行条目，并允许用户根据需要展开以提供详细反馈。 您可以在编写评论时使用**Shift** + **Enter**&#x200B;转到下一行。
 
    >[!NOTE]
    >
@@ -235,7 +235,10 @@ ht-degree: 0%
 
 “注释”面板显示有关当前主题的注释列表。 如果将主题发送给多个审阅人，则此面板还会列出来自其他审阅人的注释。 评论面板中的每个评论都链接到当前主题中的相应文本。 它有助于您识别注释的文本。 每个注释都显示已添加注释的审阅人的姓名以及时间戳。
 
-注释按文档中注释文本的顺序显示。 例如，在第一句上有高亮文本注释，在第一段中的第二句上插入文本注释，然后高亮文本注释显示在插入的文本注释之前。
+>[!NOTE]
+>
+> 审阅发起者还可以向主题添加注释，以提供额外的上下文或吸引审阅者关注特定内容。 这些注释与其他审阅人的注释一起显示在&#x200B;**注释**&#x200B;面板中。 有关更多详细信息，请查看[为审阅人添加备注](./review-send-topics-for-review.md#add-comments-for-reviewers)。
+
 
 使用“注释”面板可以执行的任务如下所述：
 
@@ -443,4 +446,4 @@ ht-degree: 0%
 
 ![](images/version-history-dialog.png)
 
-**父主题：**&#x200B;[&#x200B;要审阅的简介](review.md)
+**父主题：**[&#x200B;要审阅的简介](review.md)

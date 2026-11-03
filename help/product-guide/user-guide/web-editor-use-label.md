@@ -31,14 +31,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # 使用标签 {#id164JBG0M0T1}
 
-Adobe Experience Manager Guides允许您将标签添加到文件的不同版本。 您可以使用这些标签指定要包含在要发布的基线中的版本。 有关使用标签创建基线的详细信息，请查看[使用基线](generate-output-use-baseline-for-publishing.md#)。
+Adobe Experience Manager Guides允许您将标签添加到文件的不同版本。 您可以使用版本标签指定要包含在用于发布的[基线](./generate-output-use-baseline-for-publishing.md)中的主题版本，以及[管理非DITA文件的版本](./authoring-file-management.md#work-with-media-and-other-non-dita-files)，如图像、多媒体文件、PDF和ZIP文件。
 
 例如，如果要在&#x200B;*版本2.0*&#x200B;中使用同一主题的&#x200B;*版本1.0*&#x200B;和&#x200B;*版本1.1*&#x200B;中的&#x200B;*版本1.0*，则可以在&#x200B;*版本1.0*&#x200B;上添加&#x200B;*版本1.0*&#x200B;标签，在&#x200B;*版本1.1*&#x200B;上添加&#x200B;*版本2.0*&#x200B;标签。
 
@@ -104,4 +104,4 @@ Adobe Experience Manager Guides允许您将标签添加到文件的不同版本�
 ![](images/delete-labels.png){width="300"}
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

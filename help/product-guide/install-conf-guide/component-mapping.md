@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1140'
 ht-degree: 0%
 ---
 # AEM Sites的组件映射
@@ -171,9 +171,30 @@ ht-degree: 0%
 ]
 ```
 
-定义要定位的元素和类，使用`attributeMap`设置节点属性，添加`path-attributes`条目以标准化路径，并为要提取的值选择正确的`from`。 上面使用的`heroimage`是`we-retail`站点中的组件。
+定义要定位的元素和类，使用`attributeMap`设置节点属性，添加`path-attributes`条目以标准化路径，并为要提取的值选择正确的`from`。 上面使用的`heroimage`是`we-retail`站点中的组件。  讨论默认富文本并确定其使用元素很重要。
 
-**注意**：请务必讨论默认富文本，并识别使用它的元素。
+
+## 将原始日志元数据传播到页头
+
+通过组件映射生成AEM Sites输出时，prolog元数据（如作者、关键字和资源ID）将添加到生成的AEM Sites页面的正文中，而不是添加到页面标题中。
+
+要将prolog元数据传播到输出页面的标题，请将以下映射添加到组件映射文件中：
+
+```json
+{
+  "name": "div",
+  "class": "prolog",
+  "resourceType": "guides-components/components/prolog",
+  "attributeMap": [
+    {
+      "from": "outerHTML",
+      "to": "prologContent"
+    }
+  ]
+}
+```
+
+添加此映射后，prolog元数据可在生成的页面的标题中使用。 这支持搜索索引等用例。
 
 ## 构建自定义组件
 

@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5089'
+source-wordcount: '5425'
 ht-degree: 0%
 ---
 # 设计页面布局 {#design-page-layout}
@@ -481,6 +481,60 @@ PDF文档通常包含以下部分：
 </p>
 …
 ```
+
+### 从映射元数据添加图像
+
+如果使用同一模板发布多个映射，则可以为每个映射显示不同的图像，而不是模板“资源”中的静态图像。 例如，如果您的产品共享一个模板，并且只在封面图像上有所不同，则可以在封面布局中添加图像占位符。 发布映射时，占位符将替换为该映射的元数据中定义的图像。 发布地图1显示地图1中定义的图像，发布地图2显示地图2中定义的图像。 如果无法解析图像，则会显示您指定的占位符文本。
+
+您可以在书签映射的`<bookmeta>`元素或DITA映射的`<topicmeta>`元素中定义图像。 仅支持`<image>`元素。 可以使用Experience Manager Guides支持的所有图像格式，包括GIF、JPG、BMP、PNG、SVG和TIFF。
+
+要从地图显示图像，请执行以下操作：
+
+1. 在地图中定义图像，如以下示例所示。
+
+   在书签映射中，在`<bookmeta>`元素中添加图像：
+
+   ```xml
+   <bookmeta>
+     <metadata>
+       <data><image href="media/cover.png" id="cover-image"/></data>
+     </metadata>
+   </bookmeta>
+   ```
+
+   在DITA映射中，在`<topicmeta>`元素中添加图像：
+
+   ```xml
+   <topicmeta>
+     <data><image href="images/cover.png" id="cover-image"/></data>
+   </topicmeta>
+   ```
+
+   >[!NOTE]
+   >
+   >`<image>`元素必须具有`id`特性。 `id`是必需的，并且对于映射中的每个图像必须是唯一的。
+
+1. 在&#x200B;**输出模板**&#x200B;中，打开要添加图像占位符的页面布局，例如封面布局。
+
+1. 从&#x200B;**更多选项**&#x200B;中选择&#x200B;**字段**。
+
+1. 在&#x200B;**元数据**&#x200B;选项卡中，选择&#x200B;**添加格式**。
+
+1. 指定以下详细信息：
+
+   1. 在&#x200B;**使用来自**&#x200B;的元数据，选择&#x200B;**映射内容**。
+   1. 输入映像的XPath或其`href`属性的XPath。
+   1. 输入所需的格式。
+   1. 输入在图像未解析时要显示的占位符文本。
+   1. 选择&#x200B;**确定**。
+
+1. （*可选*）使用&#x200B;**样式表**&#x200B;将样式应用于图像。 图像元素支持CSS样式。
+
+1. 生成PDF输出。
+
+>[!NOTE]
+>
+>如果在Assets UI中更新图像，则下次生成PDF输出时将使用更新的图像。
 
 ## 使用内容区域 {#content-area}
 

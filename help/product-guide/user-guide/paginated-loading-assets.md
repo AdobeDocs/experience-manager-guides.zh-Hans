@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '724'
 ht-degree: 0%
 ---
 
@@ -55,7 +55,7 @@ Experience Manager Guides使用分页API加载文件和文件夹。 文件夹不
 - 添加文件会将其插入到文件夹的顶部，而不会刷新文件夹。
 - 打开文件夹将加载第一批资源，并为后续批次附加&#x200B;**加载更多**&#x200B;选项。
 
-  收藏集![&#128279;](images/collections-paginated.png){width="650"}的页
+  收藏集](images/collections-paginated.png){width="650"}的![页
 
 
 ### 资源管理器
@@ -63,13 +63,16 @@ Experience Manager Guides使用分页API加载文件和文件夹。 文件夹不
 - **根文件夹**：无限滚动。 最初加载第一批资产；滚动时，会自动附加后续批次。
 - **子文件夹**：展开文件夹将加载第一批资源，并为后续批次附加&#x200B;**加载更多**&#x200B;选项。
 
-  资源管理器![&#128279;](images/explorer-pagination.png){width="650"}的页
+  资源管理器](images/explorer-pagination.png){width="650"}的![页
 
 - **重命名**：就地进行，不刷新文件夹。
 - **删除**：根文件夹刷新以显示第一批资源。
 - **添加或复制**：新文件显示在文件夹顶部。
 - **移动**：在不相关的文件夹之间移动会将源文件夹刷新为其第一批资源，并在目标顶部添加该项目（如果尚未打开该目标，则加载该目标的第一批资源）。
 - **刷新**： Explorer面板标题中的新刷新按钮重新加载根级别，显示第一批资源。
+- **排序**：使用“资源管理器”面板顶部的“排序”按钮，在升序（默认值）和降序之间切换文件和文件夹的顺序。 资源管理器面板中的文件和文件夹按为其显示的名称排序，这取决于您的&#x200B;**编辑器文件在[用户首选项](./intro-home-page.md#user-preferences)中显示配置**。 如果将其设置为“标题”，则文件和文件夹将按标题排序。 如果将其设置为“文件名”，则按文件名排序。
+
+  ![资源管理器排序](images/explorer-sorting.png){width="350"}
 
 ### 搜索面板
 

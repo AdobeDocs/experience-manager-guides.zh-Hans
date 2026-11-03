@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # 配置输出生成设置 {#id181AI0B0E30}
@@ -362,11 +362,11 @@ AEM Guides提供了用于自定义映射控制台的`apps.fmdita.dashboard-extn`
 
 >[!NOTE]
 >
-> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hans)。
+> 有关创建AEM客户端库的更多信息，请参阅[使用客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)。
 
 ## 在输出生成期间处理图像演绎版 {#id177BF0G0VY4}
 
-AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=zh-Hans)。
+AEM提供了一组默认的工作流和媒体句柄来处理资源。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建相同的多个演绎版。 这些演绎版可以具有不同的尺寸、不同的分辨率、添加的水印或某些其他改变的特征。 有关AEM如何处理资源的更多信息，请参阅AEM文档中的[使用媒体处理程序和工作流处理Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)。
 
 AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 例如，您可以从默认图像演绎版中选择或创建图像演绎版，然后使用相同的图像演绎版发布文档。 用于发布文档的图像演绎版映射存储在`/libs/fmdita/config/ **renditionmap.xml**`文件中。 `renditionmap.xml`文件的片段如下所示：
 
@@ -423,7 +423,12 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
 
 `/var/dxml/metadata/outputHistory`
 
-在一段时间内，所有日志文件的集合大小可能会达到GB。 AEM Guides允许您配置一个时间段，以将这些日志文件保留在存储库中。 在指定的时间段后，日志以及输出生成历史记录将从存储库中删除。
+在一段时间内，所有日志文件的集合大小可能会达到GB。 AEM Guides允许您控制日志和输出生成历史记录在存储库中保留的时间。 可通过以下方式之一保留输出历史记录：
+
+- **按时间（默认）：**&#x200B;清除早于指定天数的条目。
+- **按计数：**&#x200B;每个映射和预设仅保留您指定的最近条目数。 将清除旧条目，而不考虑其年龄。
+
+您还可以选择清除是删除整个输出历史记录条目及其日志，还是只删除日志。 保留条目而不记录日志可帮助您保留生成的输出记录以供审核之用，同时仍可减小存储库大小。
 
 >[!NOTE]
 >
@@ -431,11 +436,15 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
 
 配置历史记录清除功能会影响存储库中所有DITA映射的输出生成。 在DITA映射的输出选项卡中，在指定的天数之后以及在设置中指定的时间清除历史记录。
 
+
+
 >[!NOTE]
 >
 > 删除日志文件和输出生成历史记录不会对生成的输出产生任何影响。
 
-以下选项卡提供了有关如何根据Experience Manager Guides设置清除输出历史记录和日志的日期和时间的说明：Cloud Service或内部部署。
+以下选项卡提供了有关如何根据Experience Manager Guides设置清除输出历史记录和日志的说明： Cloud Service或内部部署。
+
+![](assets/purging-history-setting.png){width="600"}
 
 >[!BEGINTABS]
 
@@ -445,8 +454,11 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | 指定清除输出历史记录以及输出日志的天数。 如果要禁用此功能，则将此属性设置为0。每天在指定的时间，对此属性中指定的天数之前生成的输出执行清除过程。 | **默认值**： 5 |
-| `output.history.purgetime` | 指定清除流程的启动时间。 | **默认值**： 0:00 \（或12:00午夜\） |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | 指定清除输出历史记录以及输出日志的天数。 如果要禁用此功能，则将此属性设置为0。 每天在指定的时间对此属性中指定的天数之前生成的输出执行清除过程。 此属性仅在`output.history.retention.mode`为`AGE`时使用。 **默认值**： `5` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgetime` | 指定清除流程的启动时间。 格式： `HH:MM` （例如，`15:30`）。 **默认值**： `0:00`（或午夜12:00） |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.mode` | 指定输出历史记录的保留策略。 可能的值为`AGE`和`COUNT`。 **默认值**： `AGE` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.count` | 指定为每个映射和预设保留的最近输出历史记录条目的数量。 输入一个正整数。 此属性仅在`output.history.retention.mode`为`COUNT`时使用。 **默认值**： `25` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.action` | 指定在任一模式下，保留期间删除的输出历史记录条目会发生什么情况。 可能的值为`DELETE_ENTRY`和`LOGS_ONLY`。 **默认值**： `DELETE_ENTRY` |
 
 >[!TAB 内部部署]
 
@@ -460,13 +472,19 @@ AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 
 
 1. 搜索并单击&#x200B;**com.adobe.fmdita.config.ConfigManager**&#x200B;包。
 
-1. 在&#x200B;**输出历史记录清除周期**&#x200B;属性中，指定清除输出历史记录以及输出日志的天数。 默认情况下，该时间设置为5天。 如果要禁用此功能，则将此属性设置为0。
+1. 在&#x200B;**输出历史记录清除周期**&#x200B;属性中，指定清除输出历史记录以及输出日志的天数。 默认情况下，该时间设置为5天。 如果要禁用此功能，则将此属性设置为0。 此属性仅在&#x200B;**输出历史记录保留模式**&#x200B;设置为&#x200B;**AGE**&#x200B;时使用。
 
-1. 在&#x200B;**输出历史记录清除时间**&#x200B;属性中，指定启动清除过程的时间。 默认情况下，设置为0:00 \（或12:00午夜\）。 每天在此时间，清除进程都在&#x200B;**输出历史记录清除周期**&#x200B;属性中指定的天数之前生成的输出上执行。
+1. 在&#x200B;**输出历史记录清除时间**&#x200B;属性中，指定启动清除过程的时间。 默认情况下，设置为0:00（或午夜12:00）。 每天在此时间，清除进程都在&#x200B;**输出历史记录清除周期**&#x200B;属性中指定的天数之前生成的输出上执行。
 
    >[!NOTE]
    >
-   > 默认情况下，清除功能会在每个午夜对超过5天的输出执行。
+   >默认情况下，清除功能会在每个午夜对超过5天的输出执行。
+
+1. 从&#x200B;**输出历史记录保留模式**&#x200B;下拉列表中选择保留策略。 默认情况下，它设置为&#x200B;**AGE**。 这两种模式是互斥的。
+
+1. 在&#x200B;**输出历史记录保留计数（每个预设）**&#x200B;属性中，指定为每个映射和预设保留的最近输出历史记录条目数。 默认情况下，设置为25。 此属性仅在&#x200B;**输出历史记录保留模式**&#x200B;设置为&#x200B;**COUNT**&#x200B;时使用。
+
+1. 从&#x200B;**输出历史记录保留操作**&#x200B;下拉列表中，选择由保留删除的条目发生的情况。 默认情况下，它设置为&#x200B;**DELETE_条目**。
 
 1. 单击&#x200B;**保存**。
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
+source-git-commit: e1ea38759b90ccb044664bd70a5e7dbbaf9dd4f2
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2699'
 ht-degree: 10%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 10%
       - {hide-from-toc}[部署说明](./release-info/deploy-xml-on-aemaacs.md)
       - [Cloud版本](./release-info/latest-release-info-cs.md)
       - 2026版 {#2026-releases}
+        - 2026.11.0发行版 {#2611-release}
+          - [新增功能](./release-info/whats-new-2026-11-0.md)
+          - [修复的问题](./release-info/fixed-issues-2026-11-0.md)
+          - [升级说明](./release-info/upgrade-instructions-2026-11-0.md)
         - 2026.09.0发行版 {#2609-release}
           - [新增功能](./release-info/whats-new-2026-09-0.md)
           - [修复的问题](./release-info/fixed-issues-2026-09-0.md)
@@ -223,7 +227,7 @@ ht-degree: 10%
   - 简介 {#about-aemg}
     - [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides]正在工作和主要功能 {#aemg-works-features}
-      - [&#x200B; [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
+      - [ [!DNL AEM Guides] 的工作方式](./user-guide/intro-how-dxml-works.md)
       - [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
   - 主页 {#home-page}
     - [[!DNL AEM Guides]主页体验](./user-guide/intro-home-page.md)
@@ -249,7 +253,7 @@ ht-degree: 10%
         - [内容编辑区域](./user-guide/web-editor-content-editing-area.md)
         - [右面板](./user-guide/web-editor-right-panel.md)
         - [搜索面板](./user-guide/search-panel-explorer.md)
-      - [编辑器中的其他功能](./user-guide/web-editor-other-features.md)
+      - 编辑器中的[其他功能](./user-guide/web-editor-other-features.md)
       - [编辑器中的键盘快捷键](./user-guide/web-editor-keyboard-shortcuts.md)
       - [编辑器视图](./user-guide/web-editor-views.md)
       - [支持Schematron文件](./user-guide/support-schematron-file.md)
@@ -293,6 +297,10 @@ ht-degree: 10%
   - 地图管理和发布 {#map-management-publishing}
     - [映射控制台概述](./user-guide/map-console-overview.md)
     - [在“映射”控制台中打开文件](./user-guide/open-files-map-console.md)
+    - 分支和合并 {#work-with-branching}
+      - [概述](./user-guide/branching-overview.md)
+      - [创建和管理分支](./user-guide/create-manage-branch.md)
+      - [合并分支](./user-guide/merge-branches.md)
     - 报告 {#reports-aem-guide}
       - [报表简介](./user-guide/reports-intro.md)
       - [“映射”控制台中的DITA映射报表](./user-guide/reports-web-editor.md)
@@ -330,7 +338,7 @@ ht-degree: 10%
         - [从“映射”控制台创建和管理基线](./user-guide/web-editor-baseline.md)
         - [从“映射”功能板创建和管理基线](./user-guide/generate-output-use-baseline-for-publishing.md)
         - [从“映射”控制台创建和管理新基线](./user-guide/web-editor-baseline-v2.md)
-        - [新建基线迁移常见问题解答](./user-guide/new-baseline-migration-faq.md)
+        - [新基线迁移常见问题解答](./user-guide/new-baseline-migration-faq.md)
       - [管理全局和文件夹配置文件输出预设](./user-guide/web-editor-manage-output-presets.md)
       - [使用变量设置目标路径、站点名称或文件名选项](./user-guide/generate-output-use-variables.md)
       - [使用DITA-OT将元数据传递到输出](./user-guide/pass-metadata-dita-ot.md)
@@ -369,12 +377,15 @@ ht-degree: 10%
     - [Adobe Generative AI用户披露](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI 助手概述](./user-guide/ai-assistant.md)
     - 代理模式中的AI助手 {#ai-assistant-agentic}
-      - [在代理模式下使用AI助手](./user-guide/ai-assistant-agentic.md)
+      - [使用AI助手导入内容](./user-guide/import-ai-assistant.md)
+      - [创建内容的第一个草稿](./user-guide/create-ai-assistant.md)
+      - [使用AI助手进行智能标记](./user-guide/ai-assistant-agentic.md)
     - 标准模式中的AI助手 {#ai-assistant-standard}
-      - [用于搜索内容的AI支持的智能帮助](./user-guide/ai-based-smart-help.md)
       - [AI助手创作以智能地创作文档](./user-guide/ai-assistant-right-panel.md)
       - [用于创作内容的AI支持的智能建议](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [常见问题解答](./user-guide/ai-assistant-faq.md)
+  - AEM Guides中的帮助助手 {#help-assistant-aem}
+    - [AI支持的智能帮助以搜索内容](./user-guide/ai-based-smart-help.md)
   - 管理学习内容 {#learning-training-content}
     - 快速入门指南 {#get-started}
       - 简介 {#intro-lc}
@@ -437,7 +448,7 @@ ht-degree: 10%
     - 绩效管理 {#performance-management}
       - [文件和文件夹的分页加载](./user-guide/paginated-loading-assets.md)
 - 用户指南（旧UI） {#user-guide-old-ui}
-  - [AEM Guides概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides概述](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - 安装和配置 {#install-conf-guide}
   - [下载、安装和升级](./install-conf-guide/introduction.md)
   - Cloud Service的安装过程 {#deploy-conf-aemg-cs}
@@ -457,10 +468,10 @@ ht-degree: 10%
     - 内部部署 {#on-prem}
       - [升级AEM Guides On-Premise 4.6.0及更高版本](./install-conf-guide/upgrade-aemg-latest-version.md)
       - [升级AEM Guides On-Premise早期版本](./install-conf-guide/upgrade-aemg-prev-versions.md)
-      - [Experience Manager Guides版本的配置更新](./install-conf-guide/configuration-on-prem.md)
+      - Experience Manager Guides版本的[配置更新](./install-conf-guide/configuration-on-prem.md)
   - 性能优化建议 {#performance-optimization-aemg}
     - [针对Cloud Service的性能优化](./install-conf-guide/perf-optimization-cs.md)
-    - [针对内部部署的性能优化](./install-conf-guide/perf-optimization-on-prem.md)
+    - 针对内部部署的[性能优化](./install-conf-guide/perf-optimization-on-prem.md)
   - 内容迁移 {#migrate-content-cs}
     - [迁移现有内容](./install-conf-guide/migrate-content.md)
     - [使用用于内部部署的Framemaker和WebDav工具上载现有DITA内容](./install-conf-guide/upload-dita-content.md)
@@ -563,6 +574,7 @@ ht-degree: 10%
         - [将样式应用于脚注](./native-pdf/footnote-number-style.md)
         - [为本机PDF配置新发布引擎](./native-pdf/conf-new-pdf-engine.md)
       - [使用本机PDF引擎v2](./native-pdf/new-pdf-engine.md)
+      - [为本机PDF的映射渲染配置附录渲染](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
       - [为Cloud Service的本机PDF发布配置节点进程](./native-pdf/conf-node-options-cs.md)
       - [为本地本地PDF发布配置JVM标志](./native-pdf/conf-jvm-flags-on-prem.md)
     - 为Cloud Service配置内容和体验片段 {#conf-content-exp-fragment}
@@ -602,7 +614,7 @@ ht-degree: 10%
   - [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
   - [用于条件属性的REST API](./api-reference/conditional-attribute.md)
   - [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
-  - [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+  - 用于创建和激活包的[REST API](./api-reference/create-activate-package.md)
   - [后处理事件处理程序](./api-reference/post-process-event.md)
   - [用于跟踪文件夹或资产的后处理状态的API](./api-reference/track-post-processing-status.md)
   - [用于开始批量处理资产的API](./api-reference/bulk-assets-processing.md)
@@ -662,7 +674,7 @@ ht-degree: 10%
         - 小组件 {#framework-widgets}
           - [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-        - [编辑器2.0的扩展框架更改](./guides-ui-extensions/getting-started/editor-extension-guide.md)
+        - 编辑器2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)的[扩展框架更改
         - [将扩展框架迁移到Editor 2.0](./guides-ui-extensions/getting-started/migrating-extensions-new-editor.md)
       - 快速入门 {#getting-started}
         - [简介](./guides-ui-extensions/getting-started/introduction.md)

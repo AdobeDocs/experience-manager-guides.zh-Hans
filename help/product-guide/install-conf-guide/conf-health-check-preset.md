@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 0%
 ---
 # 创建和管理运行状况检查预设
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 作为管理员，您可以在Experience Manager中的文件夹配置文件级别配置运行状况检查功能，该功能允许作者和发布者对DITA映射运行运行状况检查。 这包括提前检测映射中的链接断开、ID重复和架构验证失败等问题，而不是单独检查每个文件，然后再发布。 运行哪些检查由运行状况检查预设定义，这是作者和发布者可以选择并运行的一组规则。
 
-本文介绍了如何创建和管理运行状况检查预设。
+运行状况检查功能在新编辑器和旧编辑器中均可用。
 
 ## 创建运行状况检查预设
 

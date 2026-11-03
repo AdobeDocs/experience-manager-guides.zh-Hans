@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: d859c31fb0241400fd0f1b4a8acfc0fed9554242
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '935'
 ht-degree: 0%
 ---
 # 映射控制台概述
@@ -67,7 +67,7 @@ Adobe Experience Manager Guides提供了一个专用控制台（称为&#x200B;**
   >
   > 如果使用Adobe Experience Manager Guides as a Cloud Service，则导航栏中会显示附加功能[AI助手](./ai-assistant.md)。
 
-- (**B**) **左侧面板**：左侧面板允许您快速访问输出生成、报告创建和管理、基线、条件预设、内容翻译和Workfront（仅当已配置时）功能。
+- (**B**) **左侧面板**：左侧面板允许您快速访问输出生成、输出历史记录、报告创建和管理、基线、条件预设、内容翻译和Workfront（仅当已配置时）功能。
 
   有关更多详细信息，请参阅下面的[映射控制台功能](#map-console-features)部分。
 
@@ -81,6 +81,14 @@ Adobe Experience Manager Guides提供了一个专用控制台（称为&#x200B;**
 
 有关详细信息，请查看[输出生成](./generate-output.md)。
 
+**输出历史记录**
+
+允许您直接从编辑器查看和管理所选DITA映射的输出生成任务。 您可以监视正在进行的任务和已完成的任务的状态，查看输出生成详细信息，访问发布日志，以及管理输出生成历史记录。
+
+您还可以根据预设类型、任务状态以及日期和时间范围搜索和筛选输出生成任务，并以CSV格式下载输出生成历史记录。
+
+有关更多详细信息，请查看[管理输出生成进程](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)。
+
 **报告创建和管理**
 
 在组织设置中，您需要先验证技术文档的整体完整性，然后再开始处理技术文档或将文档推送到现场。 在多用户和大规模环境中，这种需求变得更加重要。 通过映射控制台，您可以访问Experience Manager Guides报表，这些报表为存储库中内容的整体运行状况以及文档过程中内容的使用方式提供了有用的insight。
@@ -88,6 +96,10 @@ Adobe Experience Manager Guides提供了一个专用控制台（称为&#x200B;**
 有关更多详细信息，请在Experience Manager Guides中查看[报告](./reports-intro.md)。
 
 **基线**
+
+>[!NOTE]
+>
+> 映射控制台显示&#x200B;**基线**&#x200B;选项卡或&#x200B;**分支**&#x200B;选项卡，具体取决于是否为环境启用了分支。 从2026.11.0版本开始，Experience Manager Guides as a Cloud Service中提供了分支功能，默认情况下该功能处于禁用状态。 要启用此功能，请联系Adobe客户成功团队。 启用分支后，基线不再可用。 有关详细信息，请在Experience Manager Guides中查看[分支](./branching-overview.md)和[创建和管理DITA映射的分支](./create-manage-branch.md#manage-branches)。
 
 Experience Manager Guides提供基线功能，允许您创建随后可用于发布或翻译的主题和资产版本。 也可以并行发布同一DITA映射的多个输出预设。
 
@@ -110,6 +122,6 @@ Experience Manager Guides提供的强大功能使您能够将内容翻译成多�
 
 Workfront功能也存在于映射控制台中，允许您直接从Experience Manager Guides处理Adobe Workfront任务。
 
-了解Experience Manager Guides[&#128279;](./workfront-integration.md)中的Adobe Workfront集成。
+了解Experience Manager Guides](./workfront-integration.md)中的[Adobe Workfront集成。
 
 仅当管理员在Experience Manager Guides实例中配置了&#x200B;**Adobe Workfront**&#x200B;集成时，您才可以访问此功能。

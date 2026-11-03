@@ -20,36 +20,32 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 3aa727853173c89eb63ffa09f4caec92f6dff911
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 ---
-# 利用AI助手(Beta)中的智能帮助提高效率
+# 借助帮助助理提高效率
 
->[!NOTE]
->
->此功能在标准模式下的AI助手可用。
-
-Experience Manager Guides提供了基于GenAI的智能帮助，这是一项对话式搜索功能，可帮助您从[Adobe Experience Manager Guides文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/overview)中查找相关内容。
+Experience Manager Guides提供了基于GenAI的智能帮助，这是一项对话式搜索功能，可帮助您从[Adobe Experience Manager Guides文档](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)中查找相关内容。
 
 您可以提出问题并以信息性的方式获得答案。 您的查询答案取决于产品文档中的内容。 此搜索完全是对话式的。 您可以询问有关Experience Manager Guides各种功能的问题，也可以选择咨询故障排除查询。 根据响应，您还可以提出进一步的问题。 响应中还包括指向源文档的链接，您可以参阅这些链接以了解详细信息。
 
 例如，您可能想问诸如&#x200B;*如何发布地图？*&#x200B;之类的问题 您将获得响应和相关文章的链接。 然后，如果您想了解如何使用特定方法发布输出，可以询问有关它的问题。 例如，*如何将映射发布到PDF？*
 
-当您在主页、地图控制台或编辑器中打开&#x200B;**AI助手**&#x200B;时，**帮助**&#x200B;面板将在右侧打开。 对于Editor，还会显示“创作”面板，为您提供智能创作功能。 有关详细信息，请查看[智能创作文档的AI助手](./ai-assistant-right-panel.md)
+>[!NOTE]
+>
+>首次使用帮助助手时，系统将提示您先提供同意，然后再访问Experience Manager Guides创作AI功能。 如果您已同意使用AI助手功能的准则，则系统将不再提示您并且可以在未经其他同意的情况下继续使用帮助助手。
 
-![智能帮助面板](images/smart-help-panel.png){width="300"}
+执行以下步骤以使用&#x200B;**帮助助手**&#x200B;面板查找相应的内容并解决您的查询：
 
-*查看&#x200B;**帮助**&#x200B;面板。*
-
-执行以下步骤以使用“帮助”面板查找相应的内容并解决您的查询：
-
-1. 选择&#x200B;**AI助手**&#x200B;以打开“帮助”面板。
+1. 选择&#x200B;**帮助助手**&#x200B;图标以打开帮助助手面板。
 
    >[!NOTE]
    >
    > 在[全局或文件夹级别配置文件](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)中，您的管理员需要定义显示在面板中的默认问题。
+
+   ![智能帮助面板](images/smart-help-panel-new.png){width="300"}
 
 1. 键入问题可在Experience Manager Guides文档中查找相关内容。 您可以在面板中选择默认问题，或在文本框中键入您的问题。
 
@@ -69,15 +65,18 @@ Experience Manager Guides提供了基于GenAI的智能帮助，这是一项对�
 
 您可以使用&#x200B;**帮助**&#x200B;功能快速查找与您的查询相关的答案，而不是搜索用户指南和参考文档。 这有助于节省时间，并让您能够专注于内容创建，从而提高工作效率和效率。
 
-## 可用于AI助手帮助响应的选项
+## 可用于帮助响应的选项
 
-当您在&#x200B;**帮助**&#x200B;面板中收到AI助手响应时，可以与其交互或提供反馈以提高其准确性和可靠性。 您的反馈有助于Experience Manager Guides团队增强AI Assistant响应的准确性和相关性，从而随着时间的推移改善其性能。
+当您从&#x200B;**帮助助手**&#x200B;面板中的帮助助手收到响应时，可以与其交互或提供反馈以提高其准确性和可靠性。 您的反馈有助于Experience Manager Guides团队增强对准确度和相关性回应的效果，从而随着时间的推移提高性能。
 
-以下选项可用于与AI助手&#x200B;**帮助**&#x200B;面板提供的响应进行交互或提供反馈：
+以下选项可用于与&#x200B;**帮助助手**&#x200B;面板的响应进行交互或提供反馈：
 
 ![](images/ai-assistant-response-options.png){width="300"}
 
 - **复制**：复制响应以在您的文档中使用。
-- **Like**：表示响应有用或准确。 选择“赞”图标以赞响应，并使用&#x200B;**告诉我们更多**&#x200B;选项提供详细反馈。
-- **不喜欢**：将响应标记为无帮助或不正确。 选择“不喜欢”图标以喜欢响应，并使用&#x200B;**告诉我们更多**&#x200B;选项提供详细反馈。
-- **报告**：如果响应包含错误或不准确的内容，则标记该响应以供查看。 选择标志图标以打开&#x200B;**报告结果**&#x200B;对话框。 从可用选项中进行选择，或提供自定义反馈。
+- **Like**：表示响应有用或准确。 选择“赞”图标以赞响应，并使用&#x200B;**告诉我们更多**选项提供详细反馈。
+  ![](images/feedback-help.png){width="300"}
+- **不喜欢**：将响应标记为无帮助或不正确。 选择“不喜欢”图标以喜欢响应，并使用&#x200B;**告诉我们更多**&#x200B;选项提供详细反馈。\
+  ![](images/dislike-help.png){width="300"}
+- **报告**：如果响应包含错误或不准确的内容，则标记该响应以供查看。 选择标志图标以打开&#x200B;**报告结果**对话框。 从可用选项中进行选择，或提供自定义反馈。
+  ![](images/report-help.png){width="300"}

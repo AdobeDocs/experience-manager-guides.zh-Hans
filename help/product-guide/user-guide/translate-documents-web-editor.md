@@ -37,9 +37,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '2794'
+source-wordcount: '2824'
 ht-degree: 0%
 ---
 # 从地图控制台翻译文档 {#id21BKF0Z0YZF}
@@ -150,7 +150,7 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
    除了新的翻译项目外，您还可以从以下选项中进行选择：
 
    - 您可以选择&#x200B;**仅为翻译项目创建结构**。
-   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**&#x200B;以将XML内容转换为XML本地化交换文件格式(XLIFF)。 XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。 Experience Manager Guides支持XLIFF版本1.2。
+   - 您可以选择&#x200B;**创建新的XLIFF翻译项目**以将XML内容转换为XML本地化交换文件格式(XLIFF)。 XLIFF是一种基于XML的开放格式，用于标准化内容翻译过程中使用的各种工具之间的数据传输。 Experience Manager Guides支持XLIFF版本1.2。
      在XLIFF项目中，内容将导出为行业标准XLIFF格式，可提供给翻译供应商。 XLIFF格式使您在翻译阶段已翻译的区段有可能得到重用。\
      翻译XLIFF内容后，可将其导入Experience Manager Guides，从而创建原始DITA项目的翻译版本。
 
@@ -181,7 +181,7 @@ Experience Manager Guides在编辑器中提供了强大的功能，可让您将�
 
      ![输入项目路径](images/project-path.png){width="650"}
 
-   - 如果要添加到现有翻译项目，请选择该项目已存在的路径。 然后，从&#x200B;**现有翻译项目**&#x200B;列表中，选择要将当前翻译任务添加到的项目。 您还可以使用可用的&#x200B;**筛选器**&#x200B;来缩小列表范围。
+   - 如果要添加到现有翻译项目，请选择该项目已存在的路径。 然后，从&#x200B;**现有翻译项目**&#x200B;列表中选择要将当前翻译任务添加到的项目。 如果多个项目具有相同的标题，请使用随每个项目标题一起显示的路径来标识正确的路径。 您还可以使用可用于缩小列表范围的&#x200B;**筛选器**，还可以根据您的要求&#x200B;**对项目进行排序**
 
      ![输入现有项目路径](images/existing-project-path.png){width="650"}
 
@@ -288,4 +288,4 @@ Experience Manager Guides提供了用于检查主题的所选版本与上次翻�
 如果您希望稍后使用翻译项目，也可以禁用这些项目。 删除项目会删除项目中存在的所有文件和文件夹。 禁用项目不会删除它，而是将其保留在存储库中。 但无法更新或编辑已禁用的项目。  删除或禁用项目不会影响任何引用的翻译状态。
 
 
-**父主题：**&#x200B;[&#x200B;编辑器简介](web-editor.md)
+**父主题：**[&#x200B;编辑器简介](web-editor.md)

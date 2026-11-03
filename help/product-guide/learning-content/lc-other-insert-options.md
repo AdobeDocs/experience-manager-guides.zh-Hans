@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
+source-git-commit: ab188ec25b60920cf4055bc21e21634a811bb20a
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # “插入”菜单中的其他选项
@@ -51,7 +51,7 @@ ht-degree: 0%
 
   ![](assets/insert-h5p-lc.png)
 
-  如果您希望从系统中使用H5P内容，请首先使用&#x200B;**上传assets**&#x200B;选项在DAM[&#128279;](../user-guide/authoring-upload-existing-files.md)中上传文件，然后将其纳入存储库视图/Assets。
+  如果您希望从系统中使用H5P内容，请首先使用&#x200B;**上传assets**&#x200B;选项在DAM](../user-guide/authoring-upload-existing-files.md)中[上传文件，然后将其纳入存储库视图/Assets。
 
   ![](assets/upload-assets-option.png)
 
@@ -59,7 +59,8 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > Adobe Experience Manager Guides不支持编辑或创建H5P内容。 在上载之前，请在外部准备H5P包。
+  > - Adobe Experience Manager Guides不支持编辑或创建H5P内容。 在上载之前，请在外部准备H5P包。
+  > - 包含多个H5P文件的课程使用共享资源，而不是为每个文件复制它们。 这减少了课程包大小，从而加快了H5P密集型课程的课程生成和发布速度。
 
   ![](assets/h5p-fullscreen.png)
 

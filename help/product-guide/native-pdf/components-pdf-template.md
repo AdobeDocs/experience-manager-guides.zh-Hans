@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # PDF模板的组件 {#components-pdf-template}
@@ -278,7 +278,7 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
   >如果您是CSS开发人员，则也可以直接在CSS文件中定义引线格式。
 
 * **使用表继续标记**：选择此选项可定义跨多个页面的长表的标记。
-您可以定义要在断点前后显示的文本。 例如，第5页上有表分隔，而您为&#x200B;**分隔前文本**&#x200B;定义`<Continued on page %page-num%>`。  文本在第5页的底部显示“第6页继续”。
+您可以定义要在断点前后显示的文本。 例如，第5页上有表分隔，而您为**分隔前文本**&#x200B;定义`<Continued on page %page-num%>`。  文本在第5页的底部显示“第6页继续”。
 
   使用语言变量定义断点前后连续标记文本。 根据您选择的语言，将在PDF输出中自动选取本地化的值。 例如，您可以将`Continued on page %page-num%`发布为英语文本，将`Fortsetzung auf Seite %page-num%`发布为德语文本。
 
@@ -287,14 +287,17 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
   >[!NOTE]
   >
   > 在&#x200B;**断点前文本**&#x200B;或&#x200B;**断点后文本**&#x200B;字段中使用语言变量时，请确保在单个语言变量中定义整个文本。 在这些字段中的语言变量之外添加的任何文本或变量都不会呈现。 例如，不要在&#x200B;**Text After Break字段**&#x200B;中使用`${lng:Continued-from-page} %page-num%`等变量的组合，而只在该字段中使用`${lng:Continued-from-page}`，并将`Continued-from-page`语言变量的值单独设置为`Continued-from-page %page-num%`。
-* **将词汇表术语链接到词汇表页面**：选择此选项可将词汇表术语显示为内容中的超链接，并将它们链接到词汇表页面上的术语。 这有助于读者快速查看词汇表中定义的术语的定义。
+* **将词汇表术语链接到词汇表页面**：启用此选项可在内容中将词汇表术语显示为超链接，并将它们链接到词汇表页面上的术语。 这有助于读者快速查看词汇表中定义的术语的定义。
 
   要将术语表转换为超链接，您需要：
   * 在&#x200B;**页面布局顺序**&#x200B;选项卡中为DITA映射启用&#x200B;**词汇表**。
   * 在“书的地图”的“后事项页”中添加术语表。
 
   如果未启用“术语表”页面，则内容中的术语表不会转换为PDF输出中的超链接。
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **显示所有术语条目**：启用此选项可包含映射中定义的每个术语条目，无论内容中是否引用了相应的术语。 默认情况下，此选项处于禁用状态，并且只有内容中实际使用的术语才会包含在术语表中。
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### 页面布局 {#page-layouts}
 
@@ -502,11 +505,11 @@ AEM Guides提供了以下开箱即用的变量：
 将`${lng:<variable name>}`添加到“段落”部分时，输出段落中的交叉引用包含本地化文本和页码。\
 例如，以下屏幕截图以英语显示交叉引用“View on page 1”并以德语显示“Einzelheiten finden Sie auf der Seite 1”。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出" width ="800" border="2px">
 
 *以英语发布时，段落中的交叉引用。*
 
-<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出" width ="800" border="2px">
 
 *以德语发布的段落中的交叉引用。*
 
