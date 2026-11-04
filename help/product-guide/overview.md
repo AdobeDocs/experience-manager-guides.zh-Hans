@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c578f56f0aa976ea4421e4317e4c86dedfc5a700
+source-git-commit: c6381f6d58f64bed575966423685b63971834d66
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 6%
 ---
 # Experience Manager Guides文档
@@ -186,11 +186,11 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 
 探索最新版本的Experience Manager Guides中引入的新增功能和增强功能。
 
-- AI Assistant中的AI支持的智能标记
-- 在审阅任务中将主题标记为已完成
-- 学习内容增强功能
+- 地图级分支和合并
+- AI助手中的内容创建和导入
+- 新建帮助助手面板
 
-[全部浏览](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+[全部浏览](../../help/product-guide/release-info/whats-new-2026-11-0.md)
 
 </td>
 <td>
@@ -215,10 +215,10 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 
 访问有用的资源、文档和支持，以充分利用该平台。
 
-* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.zh-Hans){target="_blank"}
-* [支持](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hans){target="_blank"}
-* [视频教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=zh_cn){target="_blank"}
+* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支持](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [视频教程](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
