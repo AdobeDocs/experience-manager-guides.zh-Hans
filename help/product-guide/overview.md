@@ -215,10 +215,10 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 访问有用的资源、文档和支持，以充分利用该平台。
 
-* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [支持](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [视频教程](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.zh-Hans){target="_blank"}
+* [支持](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hans){target="_blank"}
+* [视频教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=zh_cn){target="_blank"}
 
 </td>
 </tr>
