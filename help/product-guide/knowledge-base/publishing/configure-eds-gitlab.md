@@ -4,7 +4,7 @@ description: 了解如何配置GitLab存储库、访问令牌、Cloud Manager、
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e5721ff1d6e2322213ac7bc988fb1d7e721cd148
+source-git-commit: 97620587a9e736e0886ea4d7158af330814e6392
 workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 3%
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ## 配置顺序
 
-1. [使用GitHub创建EDS站点](#1-create-the-eds-site-using-github)
+1. [使用GitHub创建EDS站点](#1-create-the-eds-site-using-github-create-eds-site)
 2. [创建GitLab存储库](#2-create-the-gitlab-repository)
 3. [配置装载点URL](#3-configure-the-mountpoint-url)
 4. [创建GitLab访问令牌](#4-create-gitlab-access-tokens)
@@ -42,7 +42,7 @@ ht-degree: 3%
 11. [同步和验证](#11-sync-and-verify)
 12. [从Experience Manager Guides发布](#12-publish-from-experience-manager-guides)
 
-### &#x200B;1. 使用GitHub创建EDS站点
+### &#x200B;1. 使用GitHub创建EDS站点 {#create-eds-site}
 
 从AEM Guides样板创建GitHub存储库，并在其上安装AEM代码同步应用程序。 保存生成的&#x200B;**实时URL** (`https://<branch>--<github-repo>--<github-username>.aem.live`)供以后使用。
 
