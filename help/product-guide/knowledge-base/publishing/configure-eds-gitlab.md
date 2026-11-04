@@ -4,9 +4,9 @@ description: 了解如何配置GitLab存储库、访问令牌、Cloud Manager、
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 97620587a9e736e0886ea4d7158af330814e6392
+source-git-commit: 380089cbcfc56b23a9cb494d49c0e39e1813eabd
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1217'
 ht-degree: 3%
 ---
 
@@ -27,22 +27,11 @@ ht-degree: 3%
 - 系统管理员或API开发人员角色（在Adobe组织中），用于创建Cloud Manager API集成。
 - 在配置服务中注册了`aem.live`组织。 在[配置服务设置](https://www.aem.live/docs/config-service-setup)中了解详情。
 
-## 配置顺序
+## 为Edge Delivery Services配置GitLab
 
-1. [使用GitHub创建EDS站点](#1-create-the-eds-site-using-github-create-eds-site)
-2. [创建GitLab存储库](#2-create-the-gitlab-repository)
-3. [配置装载点URL](#3-configure-the-mountpoint-url)
-4. [创建GitLab访问令牌](#4-create-gitlab-access-tokens)
-5. [将GitLab存储库添加到Cloud Manager](#5-add-the-gitlab-repository-to-cloud-manager)
-6. [生成Cloud Manager API密钥](#6-generate-a-cloud-manager-api-key)
-7. [配置GitLab webhook](#7-configure-the-gitlab-webhook)
-8. [将EDS站点添加到Cloud Manager](#8-add-the-eds-site-to-cloud-manager)
-9. [使用自带Git连接存储库](#9-connect-the-repository-using-bring-your-own-git)
-10. [配置EDS站点以使用Cloud Manager](#10-configure-the-eds-site-to-use-cloud-manager)
-11. [同步和验证](#11-sync-and-verify)
-12. [从Experience Manager Guides发布](#12-publish-from-experience-manager-guides)
+要配置GitLab以用于Edge Delivery Services，请按照指定的顺序执行以下步骤，以确保正确设置和集成。
 
-### &#x200B;1. 使用GitHub创建EDS站点 {#create-eds-site}
+### &#x200B;1. 使用GitHub创建EDS站点
 
 从AEM Guides样板创建GitHub存储库，并在其上安装AEM代码同步应用程序。 保存生成的&#x200B;**实时URL** (`https://<branch>--<github-repo>--<github-username>.aem.live`)供以后使用。
 

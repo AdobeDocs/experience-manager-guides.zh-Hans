@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: b3c2c68321080aa4dde16befe4bfd0022bf9f61c
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -86,9 +86,8 @@ AI Assistant面板的以下组件可帮助您添加内容、输入提示和启�
 
 1. 登录到Experience Manager Guides。
 1. 在主页上，从顶部选择&#x200B;**AI助手**。 确保管理员已在所需模式下启用AI助手功能。
-
 AI助手显示关键功能、用户指南链接和&#x200B;**开始使用**&#x200B;按钮。
-仔细阅读用户准则，然后选择&#x200B;**开始使用**&#x200B;以启动AI助手。
+1. 仔细阅读用户准则，然后选择&#x200B;**开始使用**&#x200B;以启动AI助手。
 
 >[!NOTE]
 >
