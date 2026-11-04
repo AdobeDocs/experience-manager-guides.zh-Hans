@@ -4,9 +4,9 @@ description: 了解如何配置GitLab存储库、访问令牌、Cloud Manager、
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 97620587a9e736e0886ea4d7158af330814e6392
+source-git-commit: 380089cbcfc56b23a9cb494d49c0e39e1813eabd
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1217'
 ht-degree: 3%
 ---
 
@@ -27,22 +27,11 @@ ht-degree: 3%
 - 系统管理员或API开发人员角色（在Adobe组织中），用于创建Cloud Manager API集成。
 - 在配置服务中注册了`aem.live`组织。 在[配置服务设置](https://www.aem.live/docs/config-service-setup)中了解详情。
 
-## 配置顺序
+## 为Edge Delivery Services配置GitLab
 
-1. [使用GitHub创建EDS站点](#1-create-the-eds-site-using-github-create-eds-site)
-2. [创建GitLab存储库](#2-create-the-gitlab-repository)
-3. [配置装载点URL](#3-configure-the-mountpoint-url)
-4. [创建GitLab访问令牌](#4-create-gitlab-access-tokens)
-5. [将GitLab存储库添加到Cloud Manager](#5-add-the-gitlab-repository-to-cloud-manager)
-6. [生成Cloud Manager API密钥](#6-generate-a-cloud-manager-api-key)
-7. [配置GitLab webhook](#7-configure-the-gitlab-webhook)
-8. [将EDS站点添加到Cloud Manager](#8-add-the-eds-site-to-cloud-manager)
-9. [使用自带Git连接存储库](#9-connect-the-repository-using-bring-your-own-git)
-10. [配置EDS站点以使用Cloud Manager](#10-configure-the-eds-site-to-use-cloud-manager)
-11. [同步和验证](#11-sync-and-verify)
-12. [从Experience Manager Guides发布](#12-publish-from-experience-manager-guides)
+要配置GitLab以用于Edge Delivery Services，请按照指定的顺序执行以下步骤，以确保正确设置和集成。
 
-### &#x200B;1. 使用GitHub创建EDS站点 {#create-eds-site}
+### &#x200B;1. 使用GitHub创建EDS站点
 
 从AEM Guides样板创建GitHub存储库，并在其上安装AEM代码同步应用程序。 保存生成的&#x200B;**实时URL** (`https://<branch>--<github-repo>--<github-username>.aem.live`)供以后使用。
 
@@ -78,18 +67,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 创建以下所需的访问令牌：
 
-- **Cloud Manager**，用于验证和访问存储库。 在Cloud Manager[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)中添加外部存储库中了解更多信息。
+- **Cloud Manager**，用于验证和访问存储库。 在Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)中[添加外部存储库中了解更多信息。
 - **Experience Manager Guides发布配置文件**，以提交已发布的输出。 创建具有&#x200B;**开发人员**&#x200B;角色和`api`作用域的GitLab项目访问令牌。 请参阅[GitLab文档](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html)以了解详情。
 
 >[!NOTE]
 >
-> 在令牌过期前续订令牌。 如果发布配置文件中的令牌已过期，则发布失败。 要更新Cloud Manager使用的令牌，请查看[管理外部存储库的访问令牌](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)。
+> 在令牌过期前续订令牌。 如果发布配置文件中的令牌已过期，则发布失败。 要更新Cloud Manager使用的令牌，请查看[管理外部存储库的访问令牌](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)。
 
 ### &#x200B;5. 将GitLab存储库添加到Cloud Manager
 
 在Cloud Manager中，转到&#x200B;**存储库** > **添加存储库**，选择&#x200B;**专用存储库**，然后使用访问令牌验证所有权。 等待存储库状态为&#x200B;**就绪**。 BYOG选项仅在至少一个外部存储库准备就绪后可用。
 
-有关步骤，请查看[在Cloud Manager中添加外部存储库](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)。
+有关步骤，请查看[在Cloud Manager中添加外部存储库](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)。
 
 ### &#x200B;6. 生成Cloud Manager API密钥
 
@@ -139,4 +128,4 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 - **同步错误`Unable to fetch hlxignore: 401`：** `cm-byog`密码不正确。 使用步骤9中的秘密重新创建。
 - **链接到其他站点的存储库：** Cloud Manager存储库一次只能链接到一个站点。 要跨站点共享存储库，请使用[Repoless](https://www.aem.live/docs/repoless)。
 
-有关更多详细信息，请参阅自带Git [&#128279;](https://www.aem.live/developer/byo-git#troubleshooting)中的疑难解答。
+有关更多详细信息，请参阅自带Git ](https://www.aem.live/developer/byo-git#troubleshooting)中的[疑难解答。
