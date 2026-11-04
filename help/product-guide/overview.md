@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c6381f6d58f64bed575966423685b63971834d66
+source-git-commit: 3c8ea4a0644121e4eb87877aeb6f9140fc365cc1
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 6%
+source-wordcount: '349'
+ht-degree: 5%
 ---
 # Experience Manager Guides文档
 
@@ -114,7 +114,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 创作
 
-Web编辑器、FrameMaker集成、可重用内容和审核周期。
+使用编辑器和DITA创作功能创建和编辑结构化内容。
 
 [创作您的内容](./user-guide/web-editor.md)
 :::
@@ -124,7 +124,7 @@ Web编辑器、FrameMaker集成、可重用内容和审核周期。
 
 审阅
 
-审阅主题、管理审阅任务和审阅通知。
+创建和管理审阅任务、协作处理反馈以及处理审阅注释。
 
 [评论简介](./user-guide/review.md)
 :::
@@ -134,7 +134,7 @@ Web编辑器、FrameMaker集成、可重用内容和审核周期。
 
 发布
 
-PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
+跨AEM Sites、PDF、HTML5、EPUB、JSON和其他格式配置和生成输出。
 
 [发布您的内容](./user-guide/generate-output.md)
 :::
@@ -144,7 +144,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 
 翻译
 
-多语言内容的人工翻译和机器翻译工作流。
+使用人工翻译或机器翻译工作流翻译内容并跟踪翻译状态。
 
 [翻译内容](./user-guide/translation.md)
 :::
@@ -154,7 +154,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 
 报告
 
-主题列表、多媒体、断开的链接和元数据报表。
+评估内容运行状况、管理元数据、识别断开的链接并分析内容重用。
 
 [生成报表](./user-guide/reports-intro.md)
 :::
@@ -164,7 +164,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 
 配置
 
-文件夹配置文件、DITA-OT自定义和输出模板。
+配置配置文件、模板、条件属性、输出预设和编辑器设置。
 
 [配置文件夹配置文件](./install-conf-guide/conf-profiles.md)
 :::
@@ -172,7 +172,7 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 ::::
 
 
-## 快速链接
+## 资源和更新
 
 >[!BEGINSHADEBOX]
 
@@ -215,10 +215,10 @@ PDF、AEM Sites、HTML5、EPUB和JSON输出类型。
 
 访问有用的资源、文档和支持，以充分利用该平台。
 
-* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.zh-Hans){target="_blank"}
-* [支持](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hans){target="_blank"}
-* [视频教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=zh_cn){target="_blank"}
+* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支持](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [视频教程](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
