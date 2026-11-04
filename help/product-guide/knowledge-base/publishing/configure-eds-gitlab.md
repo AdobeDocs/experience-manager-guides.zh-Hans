@@ -78,7 +78,7 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 创建以下所需的访问令牌：
 
-- **Cloud Manager**，用于验证和访问存储库。 在Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)中[添加外部存储库中了解更多信息。
+- **Cloud Manager**，用于验证和访问存储库。 在Cloud Manager[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)中添加外部存储库中了解更多信息。
 - **Experience Manager Guides发布配置文件**，以提交已发布的输出。 创建具有&#x200B;**开发人员**&#x200B;角色和`api`作用域的GitLab项目访问令牌。 请参阅[GitLab文档](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html)以了解详情。
 
 >[!NOTE]
@@ -139,4 +139,4 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 - **同步错误`Unable to fetch hlxignore: 401`：** `cm-byog`密码不正确。 使用步骤9中的秘密重新创建。
 - **链接到其他站点的存储库：** Cloud Manager存储库一次只能链接到一个站点。 要跨站点共享存储库，请使用[Repoless](https://www.aem.live/docs/repoless)。
 
-有关更多详细信息，请参阅自带Git ](https://www.aem.live/developer/byo-git#troubleshooting)中的[疑难解答。
+有关更多详细信息，请参阅自带Git [&#128279;](https://www.aem.live/developer/byo-git#troubleshooting)中的疑难解答。
