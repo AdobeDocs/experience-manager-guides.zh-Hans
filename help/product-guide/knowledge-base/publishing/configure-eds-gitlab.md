@@ -78,18 +78,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 创建以下所需的访问令牌：
 
-- **Cloud Manager**，用于验证和访问存储库。 在Cloud Manager[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)中添加外部存储库中了解更多信息。
+- **Cloud Manager**，用于验证和访问存储库。 在Cloud Manager[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)中添加外部存储库中了解更多信息。
 - **Experience Manager Guides发布配置文件**，以提交已发布的输出。 创建具有&#x200B;**开发人员**&#x200B;角色和`api`作用域的GitLab项目访问令牌。 请参阅[GitLab文档](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html)以了解详情。
 
 >[!NOTE]
 >
-> 在令牌过期前续订令牌。 如果发布配置文件中的令牌已过期，则发布失败。 要更新Cloud Manager使用的令牌，请查看[管理外部存储库的访问令牌](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)。
+> 在令牌过期前续订令牌。 如果发布配置文件中的令牌已过期，则发布失败。 要更新Cloud Manager使用的令牌，请查看[管理外部存储库的访问令牌](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)。
 
 ### &#x200B;5. 将GitLab存储库添加到Cloud Manager
 
 在Cloud Manager中，转到&#x200B;**存储库** > **添加存储库**，选择&#x200B;**专用存储库**，然后使用访问令牌验证所有权。 等待存储库状态为&#x200B;**就绪**。 BYOG选项仅在至少一个外部存储库准备就绪后可用。
 
-有关步骤，请查看[在Cloud Manager中添加外部存储库](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)。
+有关步骤，请查看[在Cloud Manager中添加外部存储库](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)。
 
 ### &#x200B;6. 生成Cloud Manager API密钥
 
