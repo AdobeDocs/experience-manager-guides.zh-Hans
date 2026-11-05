@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
+source-git-commit: de4730d6b52026979ba40224dc7ff811a8915412
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '353'
+ht-degree: 6%
 ---
 # Experience Manager Guides文档
 
@@ -120,6 +120,16 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
+![AI助手图标](../assets/ai-author.png)
+
+AI 助手
+
+借助AI支持的帮助，加快内容创建、查找答案并应用智能标记。
+
+[AI 助手](./install-conf-guide/conf-profiles.md)
+:::
+
+:::card
 ![审阅图标](../assets/review.png)
 
 审阅
@@ -157,16 +167,6 @@ Design DITA specializations, schemas, and content architecture for your implemen
 评估内容运行状况、管理元数据、识别断开的链接并分析内容重用。
 
 [生成报表](./user-guide/reports-intro.md)
-:::
-
-:::card
-![配置图标](../assets/configure.png)
-
-配置
-
-配置配置文件、模板、条件属性、输出预设和编辑器设置。
-
-[配置文件夹配置文件](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
@@ -215,10 +215,10 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 访问有用的资源、文档和支持，以充分利用该平台。
 
-* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.zh-Hans){target="_blank"}
-* [支持](https://experienceleague.adobe.com/support/v2/en/?lang=zh-Hans){target="_blank"}
-* [视频教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=zh_cn){target="_blank"}
+* [GitHub存储库](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [支持](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [视频教程](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides社区](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
