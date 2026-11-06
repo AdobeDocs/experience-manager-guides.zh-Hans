@@ -10,9 +10,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '596'
 ht-degree: 4%
 ---
 # 5.1.0 Service Pack 4版本（2026年4月）的升级说明
@@ -30,7 +30,7 @@ ht-degree: 4%
 | 5.1.0 Service Pack 4 (UUID) | 6.5 LTS | 1 |
 | 5.1.0 Service Pack 4 (UUID) | 6.5 | 23, 22, 21 |
 
-有关更多详细信息，请查看On-Premise Installation and Configuration Guide中的[技术要求](../install-guide/download-install-technical-requirements.md)部分。
+有关更多详细信息，请查看On-Premise Installation and Configuration Guide中的[技术要求](../install-conf-guide/aemg-technical-requirements.md)部分。
 
 ### FrameMaker和FrameMaker Publishing Server
 
@@ -68,7 +68,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> 如果您当前使用AEM 6.5并计划迁移到AEM 6.5 LTS，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
+> 如果您当前使用AEM 6.5并计划迁移到AEM 6.5 LTS，请查看[升级到Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)。
 
 在继续升级到版本5.1.0 Service Pack 4的Experience Manager Guides之前，必须考虑以下几点：
 
@@ -84,4 +84,4 @@ ht-degree: 4%
 >
 > 在升级AEM版本之前，必须安装Experience Manager Guides Service Pack。
 
-有关详细信息，请查看Experience Manager Guides内部部署版本[&#128279;](../install-guide/upgrade-xml-documentation.md)的升级说明。
+有关详细信息，请查看Experience Manager Guides内部部署版本](../install-guide/upgrade-xml-documentation.md)的[升级说明。
