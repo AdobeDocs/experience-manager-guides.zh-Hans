@@ -10,9 +10,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '596'
 ht-degree: 4%
 ---
 # 5.1.0 Service Pack 4版本（2026年4月）的升级说明
@@ -30,7 +30,7 @@ ht-degree: 4%
 | 5.1.0 Service Pack 4 (UUID) | 6.5 LTS | 1 |
 | 5.1.0 Service Pack 4 (UUID) | 6.5 | 23, 22, 21 |
 
-有关更多详细信息，请查看On-Premise Installation and Configuration Guide中的[技术要求](../install-guide/download-install-technical-requirements.md)部分。
+有关更多详细信息，请查看On-Premise Installation and Configuration Guide中的[技术要求](../install-conf-guide/aemg-technical-requirements.md)部分。
 
 ### FrameMaker和FrameMaker Publishing Server
 
