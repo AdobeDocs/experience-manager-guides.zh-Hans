@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 7ff10bcfe560a12e048d9b21aa60ad2c7cb7d02b
 workflow-type: tm+mt
-source-wordcount: '3873'
+source-wordcount: '3971'
 ht-degree: 0%
 ---
 # “地图”控制台中的AEM Sites预设
@@ -142,7 +142,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 | AEM Sites选项 | 描述 |
 | --- | --- |
-| 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br>查看[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以了解更多详细信息。 |
+| 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。 查看[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以了解更多详细信息。<br>**注意**：如果删除输出预设中使用的基线，预设不会自动更新。 在生成输出之前，请执行以下操作： <ul><li>**如果删除唯一的基线**：**使用基线**&#x200B;切换保持启用状态，下拉列表显示为空白。 在此状态下生成输出失败。 禁用“使用基线”切换并刷新页面，然后生成输出。</li><li>**如果您有多个基线并删除所选的基线**： **使用基线**&#x200B;下拉列表将继续将已删除的基线显示为已选。 从下拉列表中选择有效的基线，然后生成输出。</li></ul> |
 | 条件筛选 | 选择以下选项之一：<br><br>**无**：如果不想对已发布的输出应用任何条件，请选择此选项。<br>**使用DITAVAL**：选择DITAVal文件以生成条件化内容。 可使用浏览对话框或键入文件路径来选择多个DITAVal文件。 使用文件名旁边的交叉图标可将其删除。 DITAVal文件将按指定的顺序进行计算，因此第一个文件中指定的条件优先于后续文件中指定的匹配条件。 您可以通过添加或删除文件来维护文件顺序。 如果将DITAVal文件移动到其他位置或将其删除，则不会从映射操控板中自动将其删除。 如果移动或删除了文件，则需要更新位置。 您可以将鼠标悬停在文件名上以查看存储该文件的AEM存储库中的路径。 您只能选择DITAVal文件，如果选择了任何其他文件类型，则会显示错误。<br>**条件预设**：从下拉列表中选择条件预设，以在发布输出时应用条件。 如果为DITA映射文件添加了条件，则此选项可见。 条件设置在DITA映射控制台的条件预设选项卡中可用。 要了解有关条件预设的更多信息，请查看[使用条件预设](generate-output-use-condition-presets.md#id1825FL004PN)。 |
 | 其他DITA-OT命令行参数 | 指定在生成输出时希望DITA-OT处理的其他参数。 有关DITA-OT中支持的命令行参数的详细信息，请查看[DITA-OT文档](https://www.dita-ot.org/)。 |
 | 元数据<br> <br>文件(Assets)属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性显示在&#x200B;**文件属性**&#x200B;字段下。 选择资产旁边的交叉图标以将其删除。 <br><br>**注意**：元数据属性区分大小写。<br><br>*如果您选择了基线，则属性的值将基于所选基线的版本。<br>* 如果未选择“基线”，则属性的值将基于最新版本。<br><br>您还可以使用DITA-OT发布将元数据传递到输出。 有关更多详细信息视图，[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)将元数据传递到输出。<br><br>**注意**：如果您尚未在“属性”选项中定义`cq:tags`，那么即使您选择了基线进行发布，也会从当前工作副本中提取`cq:tags`的值。 |
@@ -251,7 +251,7 @@ Experience Manager Guides允许您使用`peer @scope`创建主题引用。 然�
 
    ![交叉映射引用](images/aem-sites-preset-cross-map-references.png)
 
-1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**&#x200B;发布上下文。
+1. 如果要使用映射中每个依赖文件的最近发布的输出，请选择&#x200B;**为所有依赖主题使用最近生成的**发布上下文。
 在发布包含链接主题的映射之前，您应该发布选定作为父映射的映射。 如果未发布包含链接主题的映射，则在AEM Sites输出中，链接将显示为普通文本而非超链接。
 您应为链接的主题选择相同类型的AEM Sites预设。 例如，如果当前AEM Sites预设使用旧版组件映射，则为链接的主题选择类似的AEM Sites预设。
 1. 在“父映射”下拉列表中，选择要为其输出链接当前映射输出的映射文件。

@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 ---
 # 生成输出
@@ -81,6 +81,10 @@ ht-degree: 0%
 
 ## 从映射仪表板生成DITA映射的输出
 
+>[!NOTE]
+>
+>从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
+
 执行以下步骤以使用“映射”仪表板生成DITA映射的输出：
 
 1. 在Assets UI中，导航到要发布的DITA映射文件并将其选定。
@@ -113,4 +117,4 @@ DITA映射可以包含不同的主题类型，例如引用、概念和任务。 
 
 
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

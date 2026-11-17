@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '735'
 ht-degree: 0%
 ---
 # 增量输出生成
@@ -69,6 +69,10 @@ ht-degree: 0%
 
 ## 从映射仪表板生成增量输出（适用于使用旧版组件映射的AEM站点）
 
+>[!NOTE]
+>
+>从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
+
 执行以下步骤，使用映射仪表板为AEM Sites生成增量输出：
 
 1. 在Assets UI中，导航到并选择DITA映射文件。
@@ -93,7 +97,7 @@ ht-degree: 0%
 
 1. 选择要用于再生所选主题的输出预设。
 
-   对于使用旧版组件映射的AEM Sites输出预设，如果选择了基线，则所选基线中包含的主题版本将用于生成输出。 此外，仅当映射结构未发生更改时，才应使用主题列表中的增量发布。 如果地图结构/目录发生变化，则整个地图应发布一次以更新目录。 有关使用AEM网站预设的详细信息，请在地图仪表板[&#128279;](./generate-output-aem-site-map-dashboard.md)上查看AEM Sites预设。
+   对于使用旧版组件映射的AEM Sites输出预设，如果选择了基线，则所选基线中包含的主题版本将用于生成输出。 此外，仅当映射结构未发生更改时，才应使用主题列表中的增量发布。 如果地图结构/目录发生变化，则整个地图应发布一次以更新目录。 有关使用AEM网站预设的详细信息，请在地图仪表板](./generate-output-aem-site-map-dashboard.md)上查看[AEM Sites预设。
 
 
 1. 选择&#x200B;**重新生成**&#x200B;以启动输出生成过程。

@@ -27,14 +27,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '934'
 ht-degree: 0%
 ---
 # 下载文件 {#id216MC0H0BE8}
 
-您可以下载包括DITA和非DITA文件的资源。 您可以通过多种方式下载资源，有些方法是Adobe Experience Manager的固有方法，而其他方法受Adobe Experience Manager Guides支持。 有关本机Adobe Experience Manager资源下载信息，请查看Adobe Experience Manager文档中的[从Adobe Experience Manager下载资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=zh-Hans)。 以下部分将介绍在Experience Manager Guides中下载文件的机制。
+您可以下载包括DITA和非DITA文件的资源。 您可以通过多种方式下载资源，有些方法是Adobe Experience Manager的固有方法，而其他方法受Adobe Experience Manager Guides支持。 有关本机Adobe Experience Manager资源下载信息，请查看Adobe Experience Manager文档中的[从Adobe Experience Manager下载资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)。 以下部分将介绍在Experience Manager Guides中下载文件的机制。
 
 ## 从编辑器下载DITA映射文件
 
@@ -90,6 +90,10 @@ ht-degree: 0%
 
 ## 从映射仪表板下载DITA映射文件
 
+>[!NOTE]
+>
+>从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
+
 在Adobe Experience Manager存储库中拥有DITA映射文件后，即可下载映射文件及其依赖项。 这使您能够灵活地共享完整的映射文件，以便进行离线编辑、验证、审阅或只是创建备份。
 
 执行以下步骤下载DITA映射文件及其依赖文件：
@@ -133,4 +137,4 @@ ht-degree: 0%
 
 下载地图后，您可以选择地图并使用顶部的打开图标打开下载的内容。
 
-**父主题：**&#x200B;[&#x200B;管理内容](authoring.md)
+**父主题：**[&#x200B;管理内容](authoring.md)

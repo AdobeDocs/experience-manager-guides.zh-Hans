@@ -31,9 +31,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
+source-git-commit: 4fda078909d4ae7d0b51f7097418f7e17f2b8230
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1682'
 ht-degree: 1%
 ---
 # 知识库 {#knowledge-base}
@@ -71,7 +71,7 @@ ht-degree: 1%
 | 知识库选项 | 描述 |
 | --- | --- |
 | 使用以下方式应用条件 | 选择以下选项之一： <br><br>* **未应用任何内容**：如果不想对已发布的输出应用任何条件，请选择此选项。<br>* **DITAVAL文件**：选择DITAVAL文件以生成个性化内容。 您可以使用浏览对话框或键入文件路径来选择多个DITAVAL文件。 使用文件名旁边的交叉图标可将其删除。 DITAVAL文件将按指定的顺序进行计算，因此第一个文件中指定的条件优先于后续文件中指定的匹配条件。 您可以通过添加或删除文件来维护文件顺序。 如果将DITAVAL文件移动到其他位置或将其删除，则不会自动将其从预设中删除。 如果移动或删除了文件，则需要更新位置。 您可以将鼠标悬停在文件名上以查看存储该文件的Adobe Experience Manager存储库中的路径。 您只能选择DITAVAL文件，如果您选择任何其他文件类型，则会显示错误。<br><br> **注意**：对&#x200B;**Salesforce发布**&#x200B;使用DITAVAL筛选时，请考虑以下事项： <br> — 每个DITAVAL属性仅支持`Include`和`Exclude`操作。<br>  — 不支持标记以直观地标记或突出显示输出中的条件内容。<br>  — 在输出预设中，只能选择单个DITAVAL文件进行发布；Salesforce发布不支持多个DITAVAL文件选择。 不支持内容中的<br>- `ditavalref`引用。<br><br> **条件预设**：从下拉列表中选择条件预设，以在发布输出时应用条件。 如果您在DITA映射控制台的条件预设选项卡中添加了条件，则该选项可见。 要了解有关条件预设的详细信息，请查看[使用条件预设](generate-output-use-condition-presets.md#id1825FL004PN)。 |
-| 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br>查看[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以了解更多详细信息。 |
+| 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。 查看[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以了解更多详细信息。<br>**注意**：如果删除输出预设中使用的基线，预设不会自动更新。 在生成输出之前，请执行以下操作： <ul><li>**如果只删除基线**：**使用基线**&#x200B;选项将保持启用状态，并且下拉列表显示为空白。 在此状态下生成输出失败。 禁用“使用基线”切换并刷新页面，然后生成输出。</li><li>**如果您有多个基线并删除所选的基线**： **使用基线**&#x200B;下拉列表将继续将已删除的基线显示为已选。 从下拉列表中选择有效的基线，然后生成输出。</li></ul> |
 | 后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在Adobe Experience Manager中配置的所有工作流。 必须选择一个要在输出生成完成后执行的工作流。<br><br>**注意**：了解有关如何[自定义云服务的安装和配置指南中的输出后生成工作流](../cs-install-guide/customize-workflows.md#id17A6GI004Y4)部分的详细信息。 |
 
 ### 文章

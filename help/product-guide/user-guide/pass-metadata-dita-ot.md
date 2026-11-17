@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '690'
 ht-degree: 0%
 ---
 # 使用DITA-OT将元数据传递到输出 {#id21BJ00QD0XA}
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    此文件可以覆盖在： `/apps/fmdita/config/metadataList`。
 
-   要传递已为其定义值的自定义属性，请查看[在DITA-OT PDF输出中使用AEM元数据](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=zh-Hans)。
+   要传递已为其定义值的自定义属性，请查看[在DITA-OT PDF输出中使用AEM元数据](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)。
 
 1. 所选属性列在下拉列表下方。
 
@@ -82,6 +82,10 @@ ht-degree: 0%
 > 自2502版Experience Manager Guides起，通过DITA-OT命令行传递根映射元数据参数的功能已被弃用。 但是，为了避免出现任何中断，`Config.Manager`中添加了一个新属性以启用或禁用该功能。  有关详细信息，请查看[配置输出生成设置](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard)。
 
 ## 使用地图仪表板
+
+>[!NOTE]
+>
+>从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
 
 如果使用&#x200B;**Assets UI**，请执行以下步骤，以使用DITA-OT发布将元数据传递到输出：
 
@@ -101,7 +105,7 @@ ht-degree: 0%
 
    此文件可以覆盖在： `/apps/fmdita/config/metadataList`。
 
-   要传递已为其定义值的自定义属性，请查看[在DITA-OT PDF输出中使用AEM元数据](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=zh-Hans)。
+   要传递已为其定义值的自定义属性，请查看[在DITA-OT PDF输出中使用AEM元数据](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)。
 
 1. 从&#x200B;**属性**&#x200B;下拉列表中，选择所需的自定义属性和默认属性。 例如，选择`author`、`dc:title`和`dc:description`。 这些是在我们创建文件后创建的标准`metadata/properties`。 选定的属性列在收存箱的下方。
 
@@ -114,4 +118,4 @@ ht-degree: 0%
 
 
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)
