@@ -23,7 +23,7 @@ ht-degree: 0%
 
 本文介绍Adobe Experience Manager Guides 5.2.0 Service Pack 3版本中修复的各个方面的错误。
 
-了解5.2.0 Service Pack 3版本](upgrade-instructions-5-2-0-sp3.md)的[升级说明。
+了解5.2.0 Service Pack 3版本[&#128279;](upgrade-instructions-5-2-0-sp3.md)的升级说明。
 
 ## 编辑器2.0
 
