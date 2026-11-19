@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
+source-git-commit: 7ff10bcfe560a12e048d9b21aa60ad2c7cb7d02b
 workflow-type: tm+mt
-source-wordcount: '4203'
+source-wordcount: '4301'
 ht-degree: 0%
 ---
 # 原生PDF输出预设
@@ -101,7 +101,7 @@ ht-degree: 0%
 | **输出路径** | AEM存储库中存储PDF输出的路径。 确保输出路径不在项目文件夹内。 输出路径是通过管理员配置的变量`${base_output_path}`设置的。 要配置输出路径，请查看[为云服务配置基本输出位置](../native-pdf/configure-base-location-cs.md)或[根据您使用的服务为本地服务配置基本输出位置](../native-pdf/configure-base-output-location.md)。 <br>您还可以使用以下现成的变量来定义输出路径。 您可以使用单个变量或变量组合来定义此选项。<br> `${map_filename}`：使用DITA映射文件名称创建目标路径。<br> `${map_title}`：使用DITA映射标题创建目标路径。 <br>`${preset_name}`：使用输出预设名称创建目标路径。<br> `${language_code}`：使用映射文件所在的语言代码创建目标路径。<br> `${map_parentpath}`：使用映射文件的完整路径创建目标路径。 <br>`${path_after_langfolder}`：使用语言文件夹之后的映射文件路径创建目标路径。 |
 | **PDF文件** | 指定文件名以保存PDF。 默认情况下，PDF文件名会添加DITA映射名称以及预设名称。 例如，ditamap是“TestMap”，预设的名称为“preset1”，则pdf的默认名称将为“TestMap_preset1.pdf”。 <br>您还可以使用以下现成的变量来定义PDF文件。 您可以使用单个变量或变量组合来定义此选项。<br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`。 |
 | **使用**&#x200B;应用条件 | 对于条件化内容，请从以下选项中选择以根据这些条件生成PDF输出： <br><ul> <li> **未应用**&#x200B;如果不想对映射和源内容应用任何条件，请选择此选项。<br><li> **DITAVAL文件**&#x200B;选择DITAVAL文件以生成条件内容。 您可以使用浏览对话框或手动输入文件路径来选择多个DITAVAL文件。 要删除选定的文件，请单击其名称旁边的交叉图标。 如果选择了无效文件，则会显示一条错误消息，说明&#x200B;**选择了无效的DITAVAL文件**。<br> <br>每个DITAVAL文件都可以包含一系列属性，如筛选条件和标记样式。 标记允许您使用开始和结束标记直观地标记内容，这些标记可以包括图像或文本格式，如粗体或斜体。 如果出现重叠条件或样式冲突，可以使用“样式”冲突设置定义背景颜色。 有关更多详细信息，请查看[使用DITAVAL编辑器](../user-guide/ditaval-editor.md)。<br><li> **条件预设**&#x200B;从下拉列表中选择条件预设，以在发布输出时应用条件。 如果为DITA映射文件添加了条件，则此选项可见。 条件设置在DITA映射控制台的条件预设选项卡中可用。 要了解有关条件预设的更多信息，请查看[使用条件预设](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html)。<br> </ul> |
-| **使用基线** | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。 查看[使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)以了解更多详细信息。 |
+| **使用基线** | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。 查看[使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)以了解更多详细信息。<br>**注意**：如果删除输出预设中使用的基线，预设不会自动更新。 在生成输出之前，请执行以下操作： <ul><li>**如果删除唯一的基线**：**使用基线**&#x200B;切换保持启用状态，下拉列表显示为空白。 在此状态下生成输出失败。 禁用“使用基线”切换并刷新页面，然后生成输出。</li><li>**如果您有多个基线并删除所选的基线**： **使用基线**&#x200B;下拉列表将继续将已删除的基线显示为已选。 从下拉列表中选择有效的基线，然后生成输出。</li></ul> |
 | **创建具有已发布版本间更改条的PDF** | 使用以下选项创建一个PDF，它使用更改栏显示两个版本之间的内容差异： <br><ul><li> **以前版本的基线**&#x200B;选择要与当前版本或其他基线进行比较的基线版本。 PDF中将显示一个更改栏，以指示修改的内容。 更改条是一条垂直线，用于直观地标识新内容或修订的内容。 更改栏显示在已插入、更改或删除的内容左侧。<br> **注意**：如果您选择&#x200B;**使用基线**&#x200B;并选择要发布的基线，将在两个选定的基线版本之间进行比较。 例如，如果您在&#x200B;**使用基线**&#x200B;下选择基线版本1.3，在&#x200B;**以前版本的基线**&#x200B;下选择基线版本1.1，则将在基线版本1.1和基线版本1.3之间进行比较。<br><li> **显示添加的文本**&#x200B;选择以绿色显示插入的文本并加下划线。 默认情况下，该选项处于选中状态。<br> <li> **显示已删除的文本**&#x200B;选择以红色显示已删除的文本并标记删除线。 默认情况下，该选项处于选中状态。 <br>**注意**&#x200B;您还可以使用样式表自定义更改栏、插入的内容或删除内容的样式。<br></ul> |
 | **语言** | 选择要翻译输出的语言。 如果您希望发布输出时采用与根映射的`xml:lang`属性相同的语言，请选择&#x200B;**使用映射语言**&#x200B;选项，而不是显式选择语言。<br> 如果映射未定义`xml:lang`，则默认将输出设置为英语(en_US)。 当父映射已设置`xml:lang`属性时，这很有用，因此您不需要为每种语言设置单独的输出预设。 要了解此设置如何影响不同类型的内容，请查看[DITA内容的语言解析度与输出模板变量](../native-pdf/native-pdf-language-variables.md#language-resolution-for-dita-content-vs-output-template-variables)。 |
 | **DITA-OT命令行参数** | 启用&#x200B;**启用DITA-OT预处理**&#x200B;后，**DITA-OT命令行参数**&#x200B;字段将变为可用。 在这里，可以指定在生成输出时希望DITA-OT处理的附加参数。 有关DITA-OT中支持的命令行参数的详细信息，请查看[DITA-OT文档](https://www.dita-ot.org/)。<br>**注意：** <br>默认情况下，本机PDF输出中不包括在DITA关系表(`<reltable>`)中定义的相关链接。 使用`-Dargs.rellinks=nofamily` DITA-OT参数在本机PDF输出中包含此类相关链接。<br> 对于嵌套映射，默认情况下，映射引用上设置的`toc="no"`属性不会从目录中排除其子主题。 使用`-Dpreprocess.move-meta-entries.skip=false` DITA-OT参数确保从此类映射的TOC中排除子主题。 |

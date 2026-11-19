@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '735'
 ht-degree: 0%
 ---
 # 增量输出生成
@@ -68,6 +68,10 @@ ht-degree: 0%
 
 
 ## 从映射仪表板生成增量输出（适用于使用旧版组件映射的AEM站点）
+
+>[!NOTE]
+>
+>从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
 
 执行以下步骤，使用映射仪表板为AEM Sites生成增量输出：
 

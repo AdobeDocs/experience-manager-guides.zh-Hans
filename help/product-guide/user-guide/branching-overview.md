@@ -1,5 +1,5 @@
 ---
-title: 在AEM Guides中分支 |Adobe Experience Manager Guides`
+title: 在AEM Guides中分支 |Adobe Experience Manager Guides
 description: 了解如何在AEM Guides中创建和管理DITA映射的分支以支持并行创作、独立发布和文档更改的合并。
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3f0d8e31537ade58a4eab5ddf73eb6d263d3dd96
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '659'
 ht-degree: 0%
 ---
 # 概述
@@ -54,8 +54,6 @@ Adobe Experience Manager Guides中的分支允许您从&#x200B;**main**&#x200B;�
 >根据DITA映射创建分支。 您还可以添加和编辑所选分支中的映射未引用的主题。 有关详细信息，请查看[打开或编辑当前映射](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context)之外的主题。
 
 创建DITA映射的分支时，Experience Manager Guides不会自动将映射的引用主题复制到新分支中。 从源分支或默认分支（主分支）中读取未更改的主题。 仅当编辑主题并将其保存到新分支中时，才会将主题复制到该分支中。
-
-例如，DITA映射引用了100个主题，而存储库包含50个未被映射引用的其他主题。 创建新分支（版本1.0）时，所有100个引用的主题都会自动成为版本1.0的一部分，即使不编辑任何主题也是如此。 50个未引用的主题不会自动成为新分支的一部分。 如果编辑其中10个，则只有这10个会成为1.0版的一部分。 其余40个未更改的主题将继续从默认分支（主分支）使用。
 
 >[!NOTE]
 >

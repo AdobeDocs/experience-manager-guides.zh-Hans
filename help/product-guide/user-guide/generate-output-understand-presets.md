@@ -27,12 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '293'
 ht-degree: 1%
 ---
 # 了解输出预设 {#understanding_output_settings}
+
+>[!NOTE]
+>
+>从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
 
 Experience Manager Guides支持通过DITA-OT、原生PDF和FMPS以最常用的格式（如AEM Sites、PDF、知识库、HTML5、EPUB、JSON和自定义输出）创建输出。 使用这些输出格式，您可以配置各种输出预设。 在这里，输出预设表示您希望发布内容的自定义输出格式。
 

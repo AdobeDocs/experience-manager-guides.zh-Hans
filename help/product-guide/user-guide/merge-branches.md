@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 278cc3c433085c34d3e7cd3cdbedf482c8200567
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    ![](./images/merge-request-created.png)
 
-5. 选择合并请求。
+5. Select处理合并请求。
 
    合并请求在&#x200B;**合并分支**&#x200B;视图中打开。 查看更改并解决任何冲突（如果需要）。
 6. 完成合并。
@@ -149,7 +149,7 @@ ht-degree: 0%
 
    解决所有冲突后，**合并所有**&#x200B;选项将变为可用。
 
-6. 选择&#x200B;**全部合并**&#x200B;以将已解析的文件和干净更新合并到`main`中。
+6. Select **合并所有**&#x200B;以将已解析的文件和干净更新合并到`main`。
 
    >[!NOTE]
    > 

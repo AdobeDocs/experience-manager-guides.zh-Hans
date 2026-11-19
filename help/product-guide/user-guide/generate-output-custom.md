@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1564'
 ht-degree: 0%
 ---
 # 自定义 {#id205BEF00PX0}
@@ -94,6 +94,10 @@ ht-degree: 0%
 
 ## 从“地图”仪表板创建自定义预设
 
+>[!NOTE]
+>
+>从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
+
 执行以下步骤以从“地图”功能板创建自定义预设：
 
 1. 在Assets UI中，导航到DITA映射并选择DITA映射以在映射仪表板中将其打开。
@@ -128,7 +132,7 @@ ht-degree: 0%
 | 输出路径/目标路径 | AEM存储库中存储EPUB输出的路径。 输出路径是通过管理员配置的变量`${base_output_path}`设置的。 要配置输出路径，请查看[为云服务配置基本输出位置](../native-pdf/configure-base-location-cs.md)或[根据您使用的服务为本地服务配置基本输出位置](../native-pdf/configure-base-output-location.md)。 |
 | 保留临时文件 | 选择此选项可保留由DITA-OT生成的临时文件。 如果在通过DITA-OT生成输出时遇到错误，请选择此选项以保留临时文件。 然后，您可以使用这些文件来排查输出生成错误。<br> <br>生成输出后，选择&#x200B;**下载临时文件** ![下载临时文件图标](images/download-temp-files-icon.png)图标以下载包含临时文件的ZIP文件夹。<br><br> **注意**：如果在生成期间添加文件属性，则输出临时文件还包括包含这些属性的&#x200B;*metadata.xml*&#x200B;文件。 |
 | 运行后期生成工作流 | 选择此选项时，将显示一个新的生成后工作流下拉列表，其中包含在AEM中配置的所有工作流。 必须选择输出生成工作流完成后要执行的工作流。<br><br>**注意**：有关创建自定义输出后生成工作流的详细信息，请在“安装和配置Adobe Experience Manager Guides as a Cloud Service”中查看&#x200B;_自定义输出后生成工作流程_。 |
-| 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br> 查看[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以了解更多详细信息。 |
+| 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。 查看[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以获取更多详细信息。<br>**注意**：如果删除输出预设中使用的基线，预设不会自动更新。 在生成输出之前，请执行以下操作： <ul><li>**如果只删除基线**：**使用基线**&#x200B;选项将保持启用状态，并且下拉列表显示为空白。 在此状态下生成输出失败。 禁用“使用基线”切换并刷新页面，然后生成输出。</li><li>**如果您有多个基线并删除所选的基线**： **使用基线**&#x200B;下拉列表将继续将已删除的基线显示为已选。 从下拉列表中选择有效的基线，然后生成输出。</li></ul> |
 | 文件属性/属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性显示在&#x200B;**文件属性**&#x200B;字段下。 选择资产旁边的交叉图标以将其删除。 <br><br>**注意**：您还可以使用DITA-OT发布将元数据传递到输出。 有关更多详细信息视图，[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)将元数据传递到输出。 |
 
 **父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)
