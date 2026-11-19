@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -106,4 +106,4 @@ DITA发布是一个资源密集型过程，主要依赖于可用的系统内存�
 
 每个发布请求的某些部分必须在AEM实例上运行，才能获取发送到微服务的正确发布内容。 新的云架构使用AEM作业来取代AEM工作流，就像旧架构中的情况一样。 此更改使AEM Guides管理员能够单独配置云发布队列设置，而不影响其他AEM作业或工作流配置。
 
-有关如何配置新发布微服务的详细信息，请访问此处： [配置微服务](configure-microservices.md)
+有关如何配置新发布微服务的详细信息，请访问此处： [配置微服务](./configure-microservices-imt-config.md)
