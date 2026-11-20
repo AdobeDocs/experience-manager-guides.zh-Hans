@@ -1,5 +1,5 @@
 ---
-title: 在AEM Guides中分支 |Adobe Experience Manager Guides
+title: AEM Guides中的分支和合并 |Adobe Experience Manager Guides
 description: 了解如何在AEM Guides中创建和管理DITA映射的分支以支持并行创作、独立发布和文档更改的合并。
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 ---
 # 概述
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> 分支和合并功能在2026.11.0版的Experience Manager Guides as a Cloud Service中引入，默认情况下处于禁用状态。 要为您的环境启用该功能，请联系您的客户成功团队。
+> 从2026.11.0版的Experience Manager Guides as a Cloud Service开始，**分支和合并**&#x200B;功能可用。 目前，仅在使用数据库设置的Cloud Service环境中支持此功能，默认情况下处于禁用状态。 要在您的环境中启用分支和合并，请联系您的客户成功团队。
 
 Adobe Experience Manager Guides中的分支允许您从&#x200B;**main**&#x200B;分支创建和管理多个分支，以便DITA映射并行处理不同的文档发布。 每个分支允许作者独立管理内容更改，而不影响其他分支中的相应内容。
 
