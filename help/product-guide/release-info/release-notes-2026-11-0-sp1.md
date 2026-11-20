@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9fc07666f2f53b6f0ca43e3203ac817daf8039d9
+source-git-commit: e21e39b2acf48c4115101ab806e97b45844fa191
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 1%
 ---
 # 2026.11.0 Service Pack 1版（2026年11月）发行说明
@@ -26,7 +26,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 2026.11.0 Service Pack 1 | 2026.11.0 | [AEM Guides SDK API 2026.11.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.11.0) | [Javadoc 2026.11.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-有关更多详细信息，请查看[从Maven Central存储库](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/api-reference/introduction)配置并使用API JAR。
+有关更多详细信息，请查看[从Maven Central存储库](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)配置并使用API JAR。
 
 
 ## 修复的问题
@@ -46,5 +46,5 @@ ht-degree: 1%
 Adobe发现了2026.11.0 Service Pack 1版本的以下已知问题：
 
 - 使用Experience Manager Guides as a Cloud Service 2026.11.0或更高版本时，如果AEM在发布过程中（例如服务器实例启动时）重新启动某些内部服务，则发布会失败并出现应用程序错误。 (GUIDES-60804)<br>**解决方法：**&#x200B;要解决此问题，请重试发布。
-- 当通过&#x200B;**映射集合**&#x200B;或API为多个AEM Sites（使用复合组件映射）预设或本机PDF预设生成输出时，输出生成失败，并出现`Rebuild the Baseline`异常。 (GUIDES-60877) <br>**解决方法：**&#x200B;按顺序而非同时发布预设以避免出现此问题。
+- 当通过&#x200B;**映射集合**&#x200B;或API为多个使用相同基线的AEM Sites（使用复合组件映射）预设或本机PDF预设生成输出时，输出生成失败，并出现`Rebuild the Baseline`异常。 (GUIDES-60877) <br>**解决方法：**&#x200B;按顺序而非同时发布预设以避免出现此问题。
 
