@@ -2,9 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides 2026.11.0版本中的新增功能
 description: 探索Adobe Experience Manager Guides 2026.11.0版本中的新功能，包括地图级别分支和AI助手内容创建。
 role: Leader
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1544'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 0%
 了解2026.11.0版本[&#128279;](../release-info/upgrade-instructions-2026-11-0.md)的升级说明。
 
 ## 引入映射级别的分支和合并
+
+>[!NOTE]
+>
+> 当前，仅在使用数据库设置的Cloud Service环境中支持&#x200B;**分支和合并**&#x200B;功能，默认情况下该功能处于禁用状态。 要在您的环境中启用分支和合并，请联系您的客户成功团队。
 
 Experience Manager Guides引入了映射级别的分支和合并功能，使创作者能够在不影响主内容的情况下并行处理多个文档版本、功能更新和关键修复。 作者可以创建DITA映射及其依赖项的独立分支，确保编辑、锁定和预览始终特定于每个分支。
 
