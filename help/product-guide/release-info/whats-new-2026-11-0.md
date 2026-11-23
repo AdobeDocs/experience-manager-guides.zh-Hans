@@ -2,9 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides 2026.11.0版本中的新增功能
 description: 探索Adobe Experience Manager Guides 2026.11.0版本中的新功能，包括地图级别分支和AI助手内容创建。
 role: Leader
-source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
+source-git-commit: 79ba2d52e002fd5c821678e5662d67e6607f7808
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 ---
 
@@ -118,7 +118,7 @@ Experience Manager Guides中的“映射”控制台现在包括&#x200B;**输出
 
 您可以按时间&#x200B;**清除输出历史记录**（删除超过指定天数的条目）或&#x200B;**按计数**（仅保留指定数量的最近条目）。
 
-您还可以选择只清除输出日志，同时保留历史记录条目以供审核，或者同时删除日志及其相关条目。 这些选项有助于优化存储库存储，同时更好地控制输出历史记录清除。
+您可以选择仅清除输出日志，同时保留历史记录条目以供审核，也可以删除日志及其相关条目。 这些选项有助于优化存储库存储，同时更好地控制输出历史记录清除。
 
 有关详细信息，请查看[为输出历史记录](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q)配置自动清除时段。
 
