@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: 01aae4f8c25d87d2dd0a0255bedab8d7b091e54d
+source-git-commit: a3144f0078b2073289043befacc5e2358b9c0e02
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 0%
 ---
 # 修复了5.2.0 Service Pack 3版本（2026年11月）中的问题
@@ -74,4 +74,4 @@ ht-degree: 0%
 
 Adobe已发现5.2.0 Service Pack 3版本的以下已知问题：
 
-- 安装Service Pack后，架构验证可能会失败，并出现`NoClassDefFoundError`异常，并且无法在编辑器中保存主题。 <br>**解决方法：**&#x200B;从AEM Web控制台(`/system/console/bundles`)刷新`com.adobe.fmdita.schematron-wrapper`包。
+- 安装Service Pack后，架构验证可能会失败，并出现`NoClassDefFoundError`异常，并且无法在编辑器中保存主题。 (GUIDES-60062)<br>**解决方法：**&#x200B;从AEM Web控制台(`/system/console/bundles`)刷新`com.adobe.fmdita.schematron-wrapper`捆绑包。
