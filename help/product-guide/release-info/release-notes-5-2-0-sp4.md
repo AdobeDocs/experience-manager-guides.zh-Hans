@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: ad78587f55ec7190443dbbce80f596821ec41f9f
+source-git-commit: a232c8a03cda9b0ef7ae8114c3d901df5fb5bcb4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '530'
 ht-degree: 1%
 ---
 # 5.2.0 Service Pack 4版（2026年11月）的发行说明
@@ -31,7 +31,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 5.2.0 Service Pack 4 (UUID) | 5.2.2 | [AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-有关更多详细信息，请查看[从Maven Central存储库](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-guides/using/api-reference/introduction)配置并使用API JAR。
+有关更多详细信息，请查看[从Maven Central存储库](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)配置并使用API JAR。
 
 ## 升级到Experience Manager Guides的5.2.0 Service Pack 4版本
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 在启动Experience Manager Guides 5.2.0 Service Pack 4升级过程之前，请确保您使用的是版本5.2.0 Service Pack 1。
 
-### 升级过程5.2.0 Service Pack 4版本
+### 5.2.0 Service Pack 4版本的升级过程
 
 1. 下载Experience Manager Guides包版本5.2.0 Service Pack 4。
 1. 使用包管理器(`/crx/packmgr`)将包上载到实例。
