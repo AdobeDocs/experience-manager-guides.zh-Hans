@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 7a29c5f8373907c02c84a125da8da5ad38584173
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1755'
 ht-degree: 0%
 ---
 # 创建DITA-OT PDF输出预设 {#id205BE600HAH}
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
+>从Experience Manager Guides Cloud Service 2027.01.0版本和5.3内部部署版本开始，新客户将弃用“地图”功能板。 默认情况下，新客户将使用地图控制台。 在2027.03.0版本中，默认情况下将禁用“地图”功能板。 我们建议今后使用地图控制台进行地图管理和发布。 如果您仍然需要访问Map仪表板，请联系客户成功团队寻求帮助。
 
 执行以下步骤，从地图仪表板创建PDF预设：
 
@@ -136,4 +136,4 @@ ht-degree: 0%
 | 文件属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性显示在&#x200B;**文件属性**&#x200B;字段下。 选择资产旁边的交叉图标以将其删除。 <br><br>注意：您还可以使用DITA-OT发布将元数据传递到输出。 有关更多详细信息视图，[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)将元数据传递到输出。 |
 
 
-**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)

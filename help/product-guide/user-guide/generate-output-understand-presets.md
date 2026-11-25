@@ -27,16 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '299'
 ht-degree: 1%
 ---
 # 了解输出预设 {#understanding_output_settings}
 
 >[!NOTE]
 >
->从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
+>从Experience Manager Guides Cloud Service 2027.01.0版本和5.3内部部署版本开始，新客户将弃用“地图”功能板。 默认情况下，新客户将使用地图控制台。 在2027.03.0版本中，默认情况下将禁用“地图”功能板。 我们建议今后使用地图控制台进行地图管理和发布。 如果您仍然需要访问Map仪表板，请联系客户成功团队寻求帮助。
 
 Experience Manager Guides支持通过DITA-OT、原生PDF和FMPS以最常用的格式（如AEM Sites、PDF、知识库、HTML5、EPUB、JSON和自定义输出）创建输出。 使用这些输出格式，您可以配置各种输出预设。 在这里，输出预设表示您希望发布内容的自定义输出格式。
 
@@ -67,4 +67,4 @@ Experience Manager Guides支持通过DITA-OT、原生PDF和FMPS以最常用的�
 
 作为管理员，Experience Manager Guides允许您为全局和文件夹配置文件创建和管理输出预设。 有关详细信息，请查看[管理全局和文件夹配置文件输出预设](./web-editor-manage-output-presets.md)。
 
-**父主题：**&#x200B;[&#x200B;输出生成](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

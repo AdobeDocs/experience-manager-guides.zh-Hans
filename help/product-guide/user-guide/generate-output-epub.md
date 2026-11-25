@@ -32,16 +32,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1204'
 ht-degree: 0%
 ---
 # ePub {#id205BED020YT}
 
 >[!NOTE]
 >
->从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 因此，无法创建EPUB预设。  但是，对于已经使用映射功能板的现有客户，该功能板仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
+>从Experience Manager Guides Cloud Service 2027.01.0版本和5.3内部部署版本开始，新客户将弃用“地图”功能板。 因此，无法创建EPUB预设。 默认情况下，新客户将使用地图控制台。 在2027.03.0版本中，默认情况下将禁用“地图”功能板。 我们建议今后使用地图控制台进行地图管理和发布。 如果您仍然需要访问Map仪表板，请联系客户成功团队寻求帮助。
 
 您可以从地图仪表板创建EPUB预设。
 
@@ -81,4 +81,4 @@ ht-degree: 0%
 | 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。 查看[使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)以了解更多详细信息。 <br>**注意**：如果删除输出预设中使用的基线，则预设不会自动更新。 在生成输出之前，请执行以下操作： <ul><li>**如果只删除基线**：**使用基线**&#x200B;选项将保持启用状态，并且下拉列表显示为空白。 在此状态下生成输出失败。 禁用“使用基线”切换并刷新页面，然后生成输出。</li><li>**如果您有多个基线并删除所选的基线**： **使用基线**&#x200B;下拉列表将继续将已删除的基线显示为已选。 从下拉列表中选择有效的基线，然后生成输出。</li></ul> |
 | 属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 从下拉列表中选择的属性列在“属性”字段的下方，并从下拉列表中删除。 设置后，这些属性也会复制到映射中的主题中。<br><br>**注意**：您还可以使用DITA-OT发布将元数据传递到输出。 有关更多详细信息视图，[使用DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)将元数据传递到输出。 |
 
-**父主题：**&#x200B;[&#x200B;了解输出预设](generate-output-understand-presets.md)
+**父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)
