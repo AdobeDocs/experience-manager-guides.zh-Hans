@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '673'
 ht-degree: 0%
 ---
 # 生成输出
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
+>从Experience Manager Guides Cloud Service 2027.01.0版本和5.3内部部署版本开始，新客户将弃用“地图”功能板。 默认情况下，新客户将使用地图控制台。 在2027.03.0版本中，默认情况下将禁用“地图”功能板。 我们建议今后使用地图控制台进行地图管理和发布。 如果您仍然需要访问Map仪表板，请联系客户成功团队寻求帮助。
 
 执行以下步骤以使用“映射”仪表板生成DITA映射的输出：
 

@@ -27,16 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1879'
 ht-degree: 0%
 ---
 # 处理地图仪表板中的基线 {#id1825FI0J0PF}
 
 >[!NOTE]
 >
->从Cloud Service的2027.01.0版本和Experience Manager Guides内部部署的5.4版本开始，新客户将弃用地图功能板。 但是，对于已经使用它的现有客户，它仍将保持启用状态。 如果要禁用Map仪表板，请联系您的客户成功团队。 建议您今后使用地图控制台进行地图管理和发布。
+>从Experience Manager Guides Cloud Service 2027.01.0版本和5.3内部部署版本开始，新客户将弃用“地图”功能板。 默认情况下，新客户将使用地图控制台。 在2027.03.0版本中，默认情况下将禁用“地图”功能板。 我们建议今后使用地图控制台进行地图管理和发布。 如果您仍然需要访问Map仪表板，请联系客户成功团队寻求帮助。
 
 Experience Manager Guides提供基线功能，允许用户创建基线，并使用它们发布或翻译不同版本的主题。 它们还可以并行发布同一DITA映射的多个输出预设。
 
@@ -133,11 +133,11 @@ Experience Manager Guides提供基线功能，允许用户创建基线，并使�
 
 **重复的基线**
 
-选择基线并选择&#x200B;**复制**&#x200B;以创建现有基线的副本。 为基线指定其他名称，选择主题和引用内容的版本号，然后选择&#x200B;**保存**。
+Select基线，然后选择&#x200B;**复制**&#x200B;以创建现有基线的副本。 为基线指定其他名称，选择主题和引用内容的版本号，然后选择&#x200B;**保存**。
 
 **删除基线**
 
-选择基线版本，然后选择&#x200B;**删除**&#x200B;以删除基线。
+Select基线版本并选择&#x200B;**删除**&#x200B;以删除基线。
 
 ## 向基线添加标签
 
@@ -151,7 +151,7 @@ Experience Manager Guides提供基线功能，允许用户创建基线，并使�
    >
    > 确保您的基线不包含任何主题或资源的最新版本。 标签只能添加到版本化主题或资源中。
 
-1. 选择&#x200B;**添加标签**。
+1. Select **添加标签**。
 
    ![](images/add-label-baseline-uuid.png)
 
